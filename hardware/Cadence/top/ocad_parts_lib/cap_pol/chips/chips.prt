@@ -1,0 +1,27 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON SAT DEC 31 17:29:12 2022  ';
+PRIMITIVE 'cap_pol';
+  PIN
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_LENGTH='Short';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_LENGTH='Short';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  END_PIN;
+  BODY
+    PHYS_DES_PREFIX='C';
+    CLASS='DISCRETE';
+    PART_NAME='cap_pol';
+    BODY_NAME='cap_pol';
+  END_BODY;
+END_PRIMITIVE;
+END.

@@ -1,0 +1,660 @@
+(PropertyFile "1.0" 
+ (Creator " HDL Direct 17.4-2019 S031 (4044358) 7/23/2022" )
+ (Created "Sat Dec 31 17:29:53 2022" )
+ (Cell "\\04_ sfp_module\\" 
+  (View "sch_1" 
+   (Sig "page1_TX_FAULT" 
+    (Pr 
+     ("PIN_NAME" "TX_FAULT" )))
+   (Sig "\\page1_rd+\\" 
+    (Pr 
+     ("PIN_NAME" "RD_P" )))
+   (Sig "\\page1_rd-\\" 
+    (Pr 
+     ("PIN_NAME" "RD_N" )))
+   (Sig "page1_LOS" 
+    (Pr 
+     ("PIN_NAME" "LOS" )))
+   (Sig "page1_TX_DISABLE" 
+    (Pr 
+     ("PIN_NAME" "TX_DISABLE" )))
+   (Sig "\\page1_td+\\" 
+    (Pr 
+     ("PIN_NAME" "TD_P" )))
+   (Sig "\\page1_td-\\" 
+    (Pr 
+     ("PIN_NAME" "TD_N" )))
+   (Sig "page1_SDA" 
+    (Pr 
+     ("PIN_NAME" "SDA" )))
+   (Sig "page1_SCL" 
+    (Pr 
+     ("PIN_NAME" "SCL" )))
+   (Sig "page1_RATE_SELECT" 
+    (Pr 
+     ("PIN_NAME" "RATE_SELECT" )))
+   (Inst "page1_47P" 
+    (Pr 
+     ("\\$location\\" "C110" )
+     ("VOLTAGE" "25V" )
+     ("VALUE" "1UF" )
+     ("CDS_LOCATION" "C110" )
+     ("JEDEC_TYPE" "cap0402" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("PART_NUMBER" "GRT155R61E105ME01D" )
+     ("PART_TYPE" "Ceramic" )
+     ("DESCRIPTION" "CAP CER 1UF 25V X5R 0402" )
+     ("PSPICE" "C" )
+     ("MPN" "GRT155R61E105ME01D" )
+     ("MANUFACTURER" "Murata" )
+     ("DISTRIBUTOR_PARTNUMBER" "490-10006-1-ND" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("AVAILABILITY" "In Stock" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2125,-650)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_48P" 
+    (Pr 
+     ("\\$location\\" "C115" )
+     ("VOLTAGE" "25V" )
+     ("VALUE" "0.1UF" )
+     ("CDS_LOCATION" "C115" )
+     ("JEDEC_TYPE" "cap0402" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("PART_NUMBER" "445-7348-2-ND" )
+     ("PART_TYPE" "Ceramic" )
+     ("DESCRIPTION" "CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 " )
+     ("PSPICE" "C" )
+     ("MPN" "C1005X7R1E104K050BB " )
+     ("MANUFACTURER" "TDK CORP" )
+     ("DISTRIBUTOR_PARTNUMBER" "445-7348-2-ND" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("AVAILABILITY" "In Stock" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3575,-600)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_49P" 
+    (Pr 
+     ("\\$location\\" "C87" )
+     ("VOLTAGE" "10V" )
+     ("VALUE" "10UF" )
+     ("CDS_LOCATION" "C87" )
+     ("JEDEC_TYPE" "cap0603" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("DISTRIBUTOR_PARTNUMBER" "490-10474-2-ND" )
+     ("MANUFACTURER" "Murata" )
+     ("MPN" "GRM188R61A106KE69D" )
+     ("PSPICE" "C" )
+     ("TOLERANCE" "10%" )
+     ("DESCRIPTION" "CAP CER 10UF 10V X5R 0603" )
+     ("PART_TYPE" "Ceramic" )
+     ("PART_NUMBER" "GRM188R61A106KE69D" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1200,-625)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_50P" 
+    (Pr 
+     ("\\$location\\" "R117" )
+     ("VALUE" "4.99k" )
+     ("CDS_LOCATION" "R117" )
+     ("JEDEC_TYPE" "res0402" )
+     ("SOURCE_PACKAGE" "R" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("PART_NUMBER" "ERJ-2RKF4991X" )
+     ("PART_TYPE" "Thick Film" )
+     ("DESCRIPTION" "RES SMD 4.99K OHM 1% 1/10W 0402" )
+     ("POWER" "1/10 W" )
+     ("TOLERANCE" "1%" )
+     ("MPN" "ERJ-2RKF4991X" )
+     ("MANUFACTURER" "Panasonic" )
+     ("DISTRIBUTOR_PARTNUMBER" "P4.99KLTR-ND" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("AVAILABILITY" "In Stock" )
+     ("ROOM" "SFP0" )
+     ("SEC" "1" )
+     ("CDS_LIB" "discrete" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4325,-1300)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_51P" 
+    (Pr 
+     ("\\$location\\" "R115" )
+     ("VALUE" "4.99k" )
+     ("CDS_LOCATION" "R115" )
+     ("JEDEC_TYPE" "res0402" )
+     ("SOURCE_PACKAGE" "R" )
+     ("ROOM" "SFP0" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("DISTRIBUTOR_PARTNUMBER" "P4.99KLTR-ND" )
+     ("MANUFACTURER" "Panasonic" )
+     ("MPN" "ERJ-2RKF4991X" )
+     ("TOLERANCE" "1%" )
+     ("POWER" "1/10 W" )
+     ("DESCRIPTION" "RES SMD 4.99K OHM 1% 1/10W 0402" )
+     ("PART_TYPE" "Thick Film" )
+     ("PART_NUMBER" "ERJ-2RKF4991X" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "discrete" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1150,-1275)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_52P" 
+    (Pr 
+     ("\\$location\\" "R112" )
+     ("VALUE" "4.99k" )
+     ("CDS_LOCATION" "R112" )
+     ("JEDEC_TYPE" "res0402" )
+     ("SOURCE_PACKAGE" "R" )
+     ("ROOM" "SFP0" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("DISTRIBUTOR_PARTNUMBER" "P4.99KLTR-ND" )
+     ("MANUFACTURER" "Panasonic" )
+     ("MPN" "ERJ-2RKF4991X" )
+     ("TOLERANCE" "1%" )
+     ("POWER" "1/10 W" )
+     ("DESCRIPTION" "RES SMD 4.99K OHM 1% 1/10W 0402" )
+     ("PART_TYPE" "Thick Film" )
+     ("PART_NUMBER" "ERJ-2RKF4991X" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "discrete" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(4450,-1300)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_53P" 
+    (Pr 
+     ("\\$location\\" "C117" )
+     ("VOLTAGE" "6.3V" )
+     ("VALUE" "22UF" )
+     ("CDS_LOCATION" "C117" )
+     ("JEDEC_TYPE" "cap0603" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("DISTRIBUTOR_PARTNUMBER" "490-7611-2-ND" )
+     ("MANUFACTURER" "Murata" )
+     ("MPN" "GRM188R60J226MEA0D" )
+     ("PSPICE" "C" )
+     ("TOLERANCE" "20%" )
+     ("DESCRIPTION" "CAP CER 22UF 6.3V X5R 0603" )
+     ("PART_TYPE" "Ceramic" )
+     ("PART_NUMBER" "GRM188R60J226MEA0D" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(3225,-600)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_54P" 
+    (Pr 
+     ("\\$location\\" "L8" )
+     ("VALUE" "1 uH" )
+     ("CDS_LOCATION" "L8" )
+     ("JEDEC_TYPE" "INDC2013X105N" )
+     ("SOURCE_PACKAGE" "IND" )
+     ("DATASHEET" "C:\\EMA\\CISQuickStart\\Technical_Datasheets\\Panasonic\\AGA0000CE31.pdf" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("DISTRIBUTOR_PARTNUMBER" "1276-6886-2-ND" )
+     ("MANUFACTURER" "Samsung Electro-Mechanics" )
+     ("MPN" "CIGT201208EH1R0MNE" )
+     ("QFACTOR" "25" )
+     ("DCRESISTANCE" "55mOhm " )
+     ("TOLERANCE" "10 %" )
+     ("RATING" "3.0 A" )
+     ("DESCRIPTION" "FIXED IND 1UH 3.1A 55MOHM SMD" )
+     ("PART_TYPE" "Inductor" )
+     ("PART_NUMBER" "CIGT201208EH1R0MNE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ind" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(3750,-450)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_55P" 
+    (Pr 
+     ("\\$location\\" "C86" )
+     ("VOLTAGE" "25V" )
+     ("VALUE" "0.1UF" )
+     ("CDS_LOCATION" "C86" )
+     ("JEDEC_TYPE" "cap0402" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("DISTRIBUTOR_PARTNUMBER" "445-7348-2-ND" )
+     ("MANUFACTURER" "TDK CORP" )
+     ("MPN" "C1005X7R1E104K050BB " )
+     ("PSPICE" "C" )
+     ("DESCRIPTION" "CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 " )
+     ("PART_TYPE" "Ceramic" )
+     ("PART_NUMBER" "445-7348-2-ND" )
+     ("ROOM" "SFP0" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1000,-625)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_56P" 
+    (Pr 
+     ("\\$location\\" "R114" )
+     ("VALUE" "4.99k" )
+     ("CDS_LOCATION" "R114" )
+     ("JEDEC_TYPE" "res0402" )
+     ("SOURCE_PACKAGE" "R" )
+     ("ROOM" "SFP0" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("DISTRIBUTOR_PARTNUMBER" "P4.99KLTR-ND" )
+     ("MANUFACTURER" "Panasonic" )
+     ("MPN" "ERJ-2RKF4991X" )
+     ("TOLERANCE" "1%" )
+     ("POWER" "1/10 W" )
+     ("DESCRIPTION" "RES SMD 4.99K OHM 1% 1/10W 0402" )
+     ("PART_TYPE" "Thick Film" )
+     ("PART_NUMBER" "ERJ-2RKF4991X" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "discrete" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(875,-1275)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_57P" 
+    (Pr 
+     ("\\$location\\" "J6" )
+     ("VALUE" "1367073-1" )
+     ("CDS_LOCATION" "J6" )
+     ("JEDEC_TYPE" "TYCO_1367073" )
+     ("SOURCE_PACKAGE" "CON20P_SFP-1367073-1" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("PART_NUMBER" "1367073-1" )
+     ("PART_TYPE" "Receptacle" )
+     ("DESCRIPTION" "CONN SFP RCPT 20POS SLD R/A SMD" )
+     ("CONTACTGENDER" "Female" )
+     ("HOUSINGGENDER" "Female" )
+     ("MPN" "1367073-1" )
+     ("MANUFACTURER" "TE Connectivity AMP Connectors" )
+     ("DISTRIBUTOR_PARTNUMBER" "A97430TR-ND" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("DATASHEET" "C:\\EMA\\CISQuickStart\\Technical_Datasheets\\Tyco\\ENG_CAT_1242163_0299_10_[1].pdf" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2925,-1725)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "VEET2" 
+     (Pr 
+      ("\\$pn\\" "20" )))
+    (IPrt "VEET1" 
+     (Pr 
+      ("\\$pn\\" "17" )))
+    (IPrt "VEET0" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "VEER3" 
+     (Pr 
+      ("\\$pn\\" "14" )))
+    (IPrt "VEER2" 
+     (Pr 
+      ("\\$pn\\" "11" )))
+    (IPrt "VEER1" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "VEER0" 
+     (Pr 
+      ("\\$pn\\" "9" )))
+    (IPrt "VCCT" 
+     (Pr 
+      ("\\$pn\\" "16" )))
+    (IPrt "VCCR" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "TX_FAULT" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "TX_DISABLE" 
+     (Pr 
+      ("\\$pn\\" "3" )))
+    (IPrt "\\td-\\" 
+     (Pr 
+      ("\\$pn\\" "19" )))
+    (IPrt "\\td+\\" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "\\rd-\\" 
+     (Pr 
+      ("\\$pn\\" "12" )))
+    (IPrt "\\rd+\\" 
+     (Pr 
+      ("\\$pn\\" "13" )))
+    (IPrt "RATE_SELECT" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "MOD_DEF2" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "MOD_DEF1" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "MOD_DEF0" 
+     (Pr 
+      ("\\$pn\\" "6" )))
+    (IPrt "LOS" 
+     (Pr 
+      ("\\$pn\\" "8" ))))
+   (Inst "page1_58P" 
+    (Pr 
+     ("\\$location\\" "R116" )
+     ("VALUE" "4.99k" )
+     ("CDS_LOCATION" "R116" )
+     ("JEDEC_TYPE" "res0402" )
+     ("SOURCE_PACKAGE" "R" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("PART_NUMBER" "ERJ-2RKF4991X" )
+     ("PART_TYPE" "Thick Film" )
+     ("DESCRIPTION" "RES SMD 4.99K OHM 1% 1/10W 0402" )
+     ("POWER" "1/10 W" )
+     ("TOLERANCE" "1%" )
+     ("MPN" "ERJ-2RKF4991X" )
+     ("MANUFACTURER" "Panasonic" )
+     ("DISTRIBUTOR_PARTNUMBER" "P4.99KLTR-ND" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("AVAILABILITY" "In Stock" )
+     ("ROOM" "SFP0" )
+     ("SEC" "1" )
+     ("CDS_LIB" "discrete" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1025,-1275)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_59P" 
+    (Pr 
+     ("\\$location\\" "C111" )
+     ("VOLTAGE" "25V" )
+     ("VALUE" "0.1UF" )
+     ("CDS_LOCATION" "C111" )
+     ("JEDEC_TYPE" "cap0402" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("PART_NUMBER" "445-7348-2-ND" )
+     ("PART_TYPE" "Ceramic" )
+     ("DESCRIPTION" "CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 " )
+     ("PSPICE" "C" )
+     ("MPN" "C1005X7R1E104K050BB " )
+     ("MANUFACTURER" "TDK CORP" )
+     ("DISTRIBUTOR_PARTNUMBER" "445-7348-2-ND" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("AVAILABILITY" "In Stock" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(1900,-650)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_60P" 
+    (Pr 
+     ("\\$location\\" "U14" )
+     ("VALUE" "2227023-1" )
+     ("CDS_LOCATION" "U14" )
+     ("JEDEC_TYPE" "SFP_CAGE" )
+     ("SOURCE_PACKAGE" "SFP_CAGE-2227023-1" )
+     ("PART_NUMBER" "2227023-1" )
+     ("PART_TYPE" "Misc" )
+     ("DESCRIPTION" "CONN SFP CAGE 1POS PRESS-FIT R/A" )
+     ("MPN" "2227023-1" )
+     ("MANUFACTURER" "TE Connectivity AMP Connectors" )
+     ("DISTRIBUTOR_PARTNUMBER" "A120615-ND" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("AVAILABILITY" "In Stock" )
+     ("ROOM" "SFP0" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(900,-2850)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "CG_10" 
+     (Pr 
+      ("\\$pn\\" "20" )))
+    (IPrt "CG_9" 
+     (Pr 
+      ("\\$pn\\" "19" )))
+    (IPrt "CG_8" 
+     (Pr 
+      ("\\$pn\\" "18" )))
+    (IPrt "CG_7" 
+     (Pr 
+      ("\\$pn\\" "17" )))
+    (IPrt "CG_6" 
+     (Pr 
+      ("\\$pn\\" "16" )))
+    (IPrt "CG_5" 
+     (Pr 
+      ("\\$pn\\" "15" )))
+    (IPrt "CG_4" 
+     (Pr 
+      ("\\$pn\\" "14" )))
+    (IPrt "CG_3" 
+     (Pr 
+      ("\\$pn\\" "13" )))
+    (IPrt "CG_2" 
+     (Pr 
+      ("\\$pn\\" "12" )))
+    (IPrt "CG_1" 
+     (Pr 
+      ("\\$pn\\" "11" )))
+    (IPrt "CG_0" 
+     (Pr 
+      ("\\$pn\\" "10" )))
+    (IPrt "CG8" 
+     (Pr 
+      ("\\$pn\\" "8" )))
+    (IPrt "CG7" 
+     (Pr 
+      ("\\$pn\\" "7" )))
+    (IPrt "CG6" 
+     (Pr 
+      ("\\$pn\\" "6" )))
+    (IPrt "CG5" 
+     (Pr 
+      ("\\$pn\\" "5" )))
+    (IPrt "CG4" 
+     (Pr 
+      ("\\$pn\\" "4" )))
+    (IPrt "CG3" 
+     (Pr 
+      ("\\$pn\\" "3" )))
+    (IPrt "CG2" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "CG1" 
+     (Pr 
+      ("\\$pn\\" "1" )))
+    (IPrt "CG" 
+     (Pr 
+      ("\\$pn\\" "9" ))))
+   (Inst "page1_61P" 
+    (Pr 
+     ("\\$location\\" "C109" )
+     ("VOLTAGE" "6.3V" )
+     ("VALUE" "22UF" )
+     ("CDS_LOCATION" "C109" )
+     ("JEDEC_TYPE" "cap0603" )
+     ("SOURCE_PACKAGE" "CAP_NP" )
+     ("REUSE_ANNOTATE" "TRUE" )
+     ("ROOM" "SFP0" )
+     ("AVAILABILITY" "In Stock" )
+     ("DISTRIBUTOR" "Digi-Key" )
+     ("DISTRIBUTOR_PARTNUMBER" "490-7611-2-ND" )
+     ("MANUFACTURER" "Murata" )
+     ("MPN" "GRM188R60J226MEA0D" )
+     ("PSPICE" "C" )
+     ("TOLERANCE" "20%" )
+     ("DESCRIPTION" "CAP CER 22UF 6.3V X5R 0603" )
+     ("PART_TYPE" "Ceramic" )
+     ("PART_NUMBER" "GRM188R60J226MEA0D" )
+     ("ALT_SYMBOLS" "" )
+     ("LAST_EDIT_BY" "SNF" )
+     ("CLASS" "DISCRETE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ocad_parts_lib" )
+     ("ROT" "0" )
+     ("VER" "1" )
+     ("XY" "(2325,-650)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" ))))
+   (Inst "page1_62P" 
+    (Pr 
+     ("\\$location\\" "L7" )
+     ("VALUE" "1 uH" )
+     ("CDS_LOCATION" "L7" )
+     ("JEDEC_TYPE" "INDC2013X105N" )
+     ("SOURCE_PACKAGE" "IND" )
+     ("DATASHEET" "C:\\EMA\\CISQuickStart\\Technical_Datasheets\\Panasonic\\AGA0000CE31.pdf" )
+     ("DISTRIBUTOR" "Digikey" )
+     ("DISTRIBUTOR_PARTNUMBER" "1276-6886-2-ND" )
+     ("MANUFACTURER" "Samsung Electro-Mechanics" )
+     ("MPN" "CIGT201208EH1R0MNE" )
+     ("QFACTOR" "25" )
+     ("DCRESISTANCE" "55mOhm " )
+     ("TOLERANCE" "10 %" )
+     ("RATING" "3.0 A" )
+     ("DESCRIPTION" "FIXED IND 1UH 3.1A 55MOHM SMD" )
+     ("PART_TYPE" "Inductor" )
+     ("PART_NUMBER" "CIGT201208EH1R0MNE" )
+     ("SEC" "1" )
+     ("CDS_LIB" "ind" )
+     ("ROT" "1" )
+     ("VER" "1" )
+     ("XY" "(1475,-450)" )
+     ("PHYS_PAGE" "1" ))
+    (IPrt "\\2\\" 
+     (Pr 
+      ("\\$pn\\" "2" )))
+    (IPrt "\\1\\" 
+     (Pr 
+      ("\\$pn\\" "1" )))))))

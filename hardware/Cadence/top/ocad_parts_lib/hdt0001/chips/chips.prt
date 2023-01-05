@@ -1,0 +1,37 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON SAT DEC 31 17:29:15 2022  ';
+PRIMITIVE 'hdt0001';
+  PIN
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'C':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'B':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  END_PIN;
+  BODY
+    PHYS_DES_PREFIX='SW';
+    CLASS='IO';
+    PART_NAME='hdt0001';
+    BODY_NAME='hdt0001';
+  END_BODY;
+END_PRIMITIVE;
+END.

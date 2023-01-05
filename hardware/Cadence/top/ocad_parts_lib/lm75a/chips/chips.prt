@@ -1,0 +1,39 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON SAT DEC 31 17:29:15 2022  ';
+PRIMITIVE 'lm75a';
+  PIN
+    'SDA':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      BIDIRECTIONAL='TRUE';
+    'SCL':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'OS':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='GROUND';
+    'A2':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'A1':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'A0':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '+VS':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+  END_PIN;
+  BODY
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    PART_NAME='lm75a';
+    BODY_NAME='lm75a';
+  END_BODY;
+END_PRIMITIVE;
+END.

@@ -1,0 +1,31 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON SAT DEC 31 17:29:15 2022  ';
+PRIMITIVE 'inv_1ch_od';
+  PIN
+    'NC':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'A':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='GROUND';
+    'Y':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VCC':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+  END_PIN;
+  BODY
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    PART_NAME='inv_1ch_od';
+    BODY_NAME='inv_1ch_od';
+  END_BODY;
+END_PRIMITIVE;
+END.

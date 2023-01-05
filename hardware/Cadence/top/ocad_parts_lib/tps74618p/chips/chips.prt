@@ -1,0 +1,35 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON SAT DEC 31 17:29:13 2022  ';
+PRIMITIVE 'tps74618p';
+  PIN
+    'OUT':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='GROUND';
+    'EN':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'PG':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'IN':
+      PIN_NUMBER='(6)';
+      PINUSE='POWER';
+    'EPAD':
+      PIN_NUMBER='(7)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  END_PIN;
+  BODY
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    PART_NAME='tps74618p';
+    BODY_NAME='tps74618p';
+    POWER_PINS='(NC:2)';
+  END_BODY;
+END_PRIMITIVE;
+END.

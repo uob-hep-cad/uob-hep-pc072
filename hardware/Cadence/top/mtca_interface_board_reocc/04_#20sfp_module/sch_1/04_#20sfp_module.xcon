@@ -1,0 +1,1119 @@
+<schema xmlns="http://www.cadence.com/spb/csschema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cadence.com/spb/csschema CSSchema002.xsd">
+  <header>
+    <schemaVersion>17.4</schemaVersion>
+    <creatorTool>nconcepthdl</creatorTool>
+    <modifierTool>nconcepthdl</modifierTool>
+    <modificationTime>2022-12-31T18:26:22</modificationTime>
+    <savedLibrary>mtca_interface_board_reocc</savedLibrary>
+  </header>
+  <designs>
+    <design schemaType="nameBased" name="04_ sfp_module" view="sch_1">
+      <lastids>
+        <instanceid>16</instanceid>
+        <netid>23</netid>
+        <insttermid>68</insttermid>
+      </lastids>
+      <cells>
+        <cell>
+          <id>S2</id>
+          <library>ocad_parts_lib</library>
+          <name>cap_np</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T13</id>
+              <name>1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T14</id>
+              <name>2</name>
+              <direction>unspec</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S3</id>
+          <library>discrete</library>
+          <name>r</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T15</id>
+              <name>1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T16</id>
+              <name>2</name>
+              <direction>unspec</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S4</id>
+          <library>ind</library>
+          <name>ind</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T17</id>
+              <name>1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T18</id>
+              <name>2</name>
+              <direction>unspec</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S5</id>
+          <library>ocad_parts_lib</library>
+          <name>con20p_sfp-1367073-1</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T19</id>
+              <name>los</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T20</id>
+              <name>mod_def0</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T21</id>
+              <name>mod_def1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T22</id>
+              <name>mod_def2</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T23</id>
+              <name>rate_select</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T24</id>
+              <name>rd+</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T25</id>
+              <name>rd-</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T26</id>
+              <name>td+</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T27</id>
+              <name>td-</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T28</id>
+              <name>tx_disable</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T29</id>
+              <name>tx_fault</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T30</id>
+              <name>vccr</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T31</id>
+              <name>vcct</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T32</id>
+              <name>veer0</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T33</id>
+              <name>veer1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T34</id>
+              <name>veer2</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T35</id>
+              <name>veer3</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T36</id>
+              <name>veet0</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T37</id>
+              <name>veet1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T38</id>
+              <name>veet2</name>
+              <direction>unspec</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S6</id>
+          <library>ocad_parts_lib</library>
+          <name>sfp_cage-2227023-1</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T39</id>
+              <name>cg</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T40</id>
+              <name>cg1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T41</id>
+              <name>cg2</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T42</id>
+              <name>cg3</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T43</id>
+              <name>cg4</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T44</id>
+              <name>cg5</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T45</id>
+              <name>cg6</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T46</id>
+              <name>cg7</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T47</id>
+              <name>cg8</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T48</id>
+              <name>cg_0</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T49</id>
+              <name>cg_1</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T50</id>
+              <name>cg_2</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T51</id>
+              <name>cg_3</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T52</id>
+              <name>cg_4</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T53</id>
+              <name>cg_5</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T54</id>
+              <name>cg_6</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T55</id>
+              <name>cg_7</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T56</id>
+              <name>cg_8</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T57</id>
+              <name>cg_9</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T58</id>
+              <name>cg_10</name>
+              <direction>unspec</direction>
+            </term>
+          </terms>
+        </cell>
+      </cells>
+      <nets>
+        <net>
+          <id>N2</id>
+          <name>page1_gnd</name>
+        </net>
+        <net>
+          <id>N3</id>
+          <name>los</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N4</id>
+          <name>n00183</name>
+        </net>
+        <net>
+          <id>N5</id>
+          <name>rate_select</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N8</id>
+          <name>scl</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N9</id>
+          <name>sda</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N12</id>
+          <name>tx_disable</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N13</id>
+          <name>tx_fault</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N15</id>
+          <name>page1_vcc3v3</name>
+        </net>
+        <net>
+          <id>N16</id>
+          <name>vccr_3v3</name>
+        </net>
+        <net>
+          <id>N17</id>
+          <name>vcct_3v3</name>
+        </net>
+        <net>
+          <id>N19</id>
+          <name>rd_p</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N21</id>
+          <name>td_p</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N22</id>
+          <name>rd_n</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+        </net>
+        <net>
+          <id>N23</id>
+          <name>td_n</name>
+          <scope>interface</scope>
+          <direction>input</direction>
+        </net>
+        <net>
+          <id>N1</id>
+          <name>gnd</name>
+          <scope>global</scope>
+        </net>
+        <net>
+          <id>N14</id>
+          <name>vcc3v3</name>
+          <scope>global</scope>
+        </net>
+      </nets>
+      <aliases>
+        <alias net1="N2" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
+        <alias net1="N15" lsb1="-1" msb1="-1" net2="N14" lsb2="-1" msb2="-1" />
+      </aliases>
+      <differentialnets>
+      </differentialnets>
+      <differentialbusnets>
+      </differentialbusnets>
+      <netgroups>
+      </netgroups>
+      <netinterfaces>
+      </netinterfaces>
+      <instances>
+        <instance>
+          <id>I1</id>
+          <cellid>S2</cellid>
+          <name>page1_47p</name>
+          <pins>
+            <pin>
+              <id>M1</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N16" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M2</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I2</id>
+          <cellid>S2</cellid>
+          <name>page1_48p</name>
+          <pins>
+            <pin>
+              <id>M3</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I3</id>
+          <cellid>S2</cellid>
+          <name>page1_49p</name>
+          <pins>
+            <pin>
+              <id>M5</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M6</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I4</id>
+          <cellid>S3</cellid>
+          <name>page1_50p</name>
+          <pins>
+            <pin>
+              <id>M7</id>
+              <termid>T15</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M8</id>
+              <termid>T16</termid>
+              <connections>
+                <connection net="N13" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I5</id>
+          <cellid>S3</cellid>
+          <name>page1_51p</name>
+          <pins>
+            <pin>
+              <id>M9</id>
+              <termid>T15</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M10</id>
+              <termid>T16</termid>
+              <connections>
+                <connection net="N4" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I6</id>
+          <cellid>S3</cellid>
+          <name>page1_52p</name>
+          <pins>
+            <pin>
+              <id>M11</id>
+              <termid>T15</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M12</id>
+              <termid>T16</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I7</id>
+          <cellid>S2</cellid>
+          <name>page1_53p</name>
+          <pins>
+            <pin>
+              <id>M13</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M14</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I8</id>
+          <cellid>S4</cellid>
+          <name>page1_54p</name>
+          <pins>
+            <pin>
+              <id>M15</id>
+              <termid>T17</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M16</id>
+              <termid>T18</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I9</id>
+          <cellid>S2</cellid>
+          <name>page1_55p</name>
+          <pins>
+            <pin>
+              <id>M17</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M18</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I10</id>
+          <cellid>S3</cellid>
+          <name>page1_56p</name>
+          <pins>
+            <pin>
+              <id>M19</id>
+              <termid>T15</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M20</id>
+              <termid>T16</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I11</id>
+          <cellid>S5</cellid>
+          <name>page1_57p</name>
+          <pins>
+            <pin>
+              <id>M21</id>
+              <termid>T19</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M22</id>
+              <termid>T20</termid>
+              <connections>
+                <connection net="N4" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M23</id>
+              <termid>T21</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M24</id>
+              <termid>T22</termid>
+              <connections>
+                <connection net="N9" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M25</id>
+              <termid>T23</termid>
+              <connections>
+                <connection net="N5" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M26</id>
+              <termid>T24</termid>
+              <connections>
+                <connection net="N19" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M27</id>
+              <termid>T25</termid>
+              <connections>
+                <connection net="N22" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M28</id>
+              <termid>T26</termid>
+              <connections>
+                <connection net="N21" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M29</id>
+              <termid>T27</termid>
+              <connections>
+                <connection net="N23" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M30</id>
+              <termid>T28</termid>
+              <connections>
+                <connection net="N12" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M31</id>
+              <termid>T29</termid>
+              <connections>
+                <connection net="N13" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M32</id>
+              <termid>T30</termid>
+              <connections>
+                <connection net="N16" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M33</id>
+              <termid>T31</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M34</id>
+              <termid>T32</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M35</id>
+              <termid>T33</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M36</id>
+              <termid>T34</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M37</id>
+              <termid>T35</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M38</id>
+              <termid>T36</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M39</id>
+              <termid>T37</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M40</id>
+              <termid>T38</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I12</id>
+          <cellid>S3</cellid>
+          <name>page1_58p</name>
+          <pins>
+            <pin>
+              <id>M41</id>
+              <termid>T15</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M42</id>
+              <termid>T16</termid>
+              <connections>
+                <connection net="N12" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I13</id>
+          <cellid>S2</cellid>
+          <name>page1_59p</name>
+          <pins>
+            <pin>
+              <id>M43</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N16" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M44</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I14</id>
+          <cellid>S6</cellid>
+          <name>page1_60p</name>
+          <pins>
+            <pin>
+              <id>M45</id>
+              <termid>T39</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M46</id>
+              <termid>T40</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M47</id>
+              <termid>T41</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M48</id>
+              <termid>T42</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M49</id>
+              <termid>T43</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M50</id>
+              <termid>T44</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M51</id>
+              <termid>T45</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M52</id>
+              <termid>T46</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M53</id>
+              <termid>T47</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M54</id>
+              <termid>T48</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M55</id>
+              <termid>T49</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M56</id>
+              <termid>T50</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M57</id>
+              <termid>T51</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M58</id>
+              <termid>T52</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M59</id>
+              <termid>T53</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M60</id>
+              <termid>T54</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M61</id>
+              <termid>T55</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M62</id>
+              <termid>T56</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M63</id>
+              <termid>T57</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M64</id>
+              <termid>T58</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I15</id>
+          <cellid>S2</cellid>
+          <name>page1_61p</name>
+          <pins>
+            <pin>
+              <id>M65</id>
+              <termid>T13</termid>
+              <connections>
+                <connection net="N16" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M66</id>
+              <termid>T14</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I16</id>
+          <cellid>S4</cellid>
+          <name>page1_62p</name>
+          <pins>
+            <pin>
+              <id>M67</id>
+              <termid>T17</termid>
+              <connections>
+                <connection net="N14" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M68</id>
+              <termid>T18</termid>
+              <connections>
+                <connection net="N16" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+      </instances>
+      <templateresolutions>
+      </templateresolutions>
+      <templateinstances>
+      </templateinstances>
+      <extensions>
+        <extension name="schematic_extension">
+        <schematicExtension>
+        <netScopes>
+          <netScope ref="gnd">
+            <pageScope number="1">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
+          <netScope ref="los">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="rate_select">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="rd_n">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="rd_p">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="scl">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="sda">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="td_n">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="td_p">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="tx_disable">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>input</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="tx_fault">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="vcc3v3">
+            <pageScope number="1">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
+        </netScopes>
+        <pages>
+          <page number="1">
+            <physicalPageNumber>1</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+              <net ref="gnd"></net>
+              <net ref="los"></net>
+              <net ref="n00183"></net>
+              <net ref="rate_select"></net>
+              <net ref="rd_n"></net>
+              <net ref="rd_p"></net>
+              <net ref="scl"></net>
+              <net ref="sda"></net>
+              <net ref="td_n"></net>
+              <net ref="td_p"></net>
+              <net ref="tx_disable"></net>
+              <net ref="tx_fault"></net>
+              <net ref="vcc3v3"></net>
+              <net ref="vccr_3v3"></net>
+              <net ref="vcct_3v3"></net>
+            </nets>
+            <instances>
+              <instance ref="47p"></instance>
+              <instance ref="48p"></instance>
+              <instance ref="49p"></instance>
+              <instance ref="50p"></instance>
+              <instance ref="51p"></instance>
+              <instance ref="52p"></instance>
+              <instance ref="53p"></instance>
+              <instance ref="54p"></instance>
+              <instance ref="55p"></instance>
+              <instance ref="56p"></instance>
+              <instance ref="57p"></instance>
+              <instance ref="58p"></instance>
+              <instance ref="59p"></instance>
+              <instance ref="60p"></instance>
+              <instance ref="61p"></instance>
+              <instance ref="62p"></instance>
+            </instances>
+          </page>
+        </pages>
+      </schematicExtension>
+        </extension>
+      </extensions>
+    </design>
+  </designs>
+</schema>

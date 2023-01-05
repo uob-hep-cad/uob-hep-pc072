@@ -1,0 +1,37 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON SAT DEC 31 14:29:01 2022  ';
+PRIMITIVE 'uws_series';
+  PIN
+    '+VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'ON/OFF_CTRL':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '-VIN':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    '-VOUT':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    '-SENSE':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'OUTPUT_TRIM':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    '+SENSE':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '+VOUT':
+      PIN_NUMBER='(8)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  END_PIN;
+  BODY
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    PART_NAME='uws_series';
+    BODY_NAME='uws_series';
+  END_BODY;
+END_PRIMITIVE;
+END.
