@@ -7,6 +7,6 @@ Translated to Cadence Allegro Design Entry HDL by Elgris Technologies
 
 Changes to original design done by Magnus Loutit and David Cussans
 
-This design has no ADN2814 CDR
+This design has no ADN2814 CDR - recovery of clock done directly by Si5395 PLL
 
 List of changes w.r.t. v0.1 MIB at https://webapps-pp.bris.ac.uk/elog/DUNE/34
