@@ -1,12 +1,12 @@
-# uob-hep-pc069
-DUNE Timing System Reference Hardware FMC. 
+# uob-hep-pc072
+DUNE Timing System MicroTCA Interface Board(MIB). 
 
-Successor to pc053a,c,d,e ( https://webapps-pp.bris.ac.uk/svn/uob-hep-pc053a/ )
+Bug-fixed version of board with schematic capture done at University of Pensylvania by Godwin Meyers in Cadence Orcad
+
+Translated to Cadence Allegro Design Entry HDL by Elgris Technologies
+
+Changes to original design done by Magnus Loutit and David Cussans
 
 This design has no ADN2814 CDR
 
-List of changes w.r.t. pc053e at https://uob-my.sharepoint.com/:x:/g/personal/phdgc_bristol_ac_uk/Eb3lEkg4T_dNv52CUFCi3MEB-VoL37d42aNxBQbhaa6lCw?e=eADDgv (sorry, UoB only :-( )
-
-
-![PC010070(1).JPG](images/PC010070(1).JPG)
-![PC010069(1).JPG](images/PC010069(1).JPG)
+List of changes w.r.t. v0.1 MIB at https://webapps-pp.bris.ac.uk/elog/DUNE/34
