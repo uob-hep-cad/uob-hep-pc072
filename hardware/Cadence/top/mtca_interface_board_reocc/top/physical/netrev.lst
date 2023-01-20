@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev1_v2t_m.brd                            )
+(    Drawing          : mib_rev1_v2t_m1.brd                           )
 (    Software Version : 17.4S031                                      )
-(    Date/Time        : Fri Jan 20 16:47:01 2023                      )
+(    Date/Time        : Fri Jan 20 17:00:51 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,19 +19,19 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
 Design Directory:            'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m.brd'
-New design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m1.brd'
+Old design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m1.brd'
+New design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m2.brd'
 
-CmdLine: netrev -proj Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m.brd Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m1.brd -w Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m1.brd Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m2.brd -w Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:02.34)
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:01.84)
 Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
    Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
 Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
-   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.17)
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.18)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -708,12 +708,10 @@ WARNING(SPMHNI-295): Component 'C94', property 'ROOM'. Value 'MAIN_PWR' was over
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Fri Jan 20 16:47:11 2023
+	Start time: Fri Jan 20 17:01:03 2023
 ===========================================================
-ERROR: Schematic supports creating XNets only for devices having XNET_PINS properties but the Layout will create XNets for passive devices and for devices having XNET_PINS properties. Change setting in Layout or Schematic, re-generate files, and re-run the flow.
-ERROR: Can't import electrical constraint data (pstcmdb.dat)
 ===========================================================
-Finished Constraint Update	Time: Fri Jan 20 16:47:11 2023
+Finished Constraint Update	Time: Fri Jan 20 17:01:06 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -744,11 +742,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-#1   Run stopped because errors were detected
-
-netrev run on Jan 20 16:46:59 2023
+netrev run on Jan 20 17:00:50 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 20-Jan-2023 AT 16:45:40
+   PACKAGING ON 20-Jan-2023 AT 16:59:36
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -773,10 +769,10 @@ netrev run on Jan 20 16:46:59 2023
    SUPPRESS   20
    WARNINGS ON
 
-  1 errors detected
+ No error detected
  No oversight detected
 166 warnings detected
 
-cpu time      0:39:01
-elapsed time  0:00:13
+cpu time      1:27:24
+elapsed time  0:00:44
 
