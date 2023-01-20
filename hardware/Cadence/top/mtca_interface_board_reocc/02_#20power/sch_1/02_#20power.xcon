@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2022-12-31T18:49:10</modificationTime>
+    <modificationTime>2023-01-20T10:57:47</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -692,14 +692,6 @@
           <name>page2_vcc3v3_iv</name>
         </net>
         <net>
-          <id>N59</id>
-          <name>vout3v3b</name>
-        </net>
-        <net>
-          <id>N60</id>
-          <name>page2_vout3v3b</name>
-        </net>
-        <net>
           <id>N61</id>
           <name>page2_vp12</name>
         </net>
@@ -805,8 +797,6 @@
         <alias net1="N51" lsb1="-1" msb1="-1" net2="N43" lsb2="7" msb2="7" />
         <alias net1="N56" lsb1="-1" msb1="-1" net2="N55" lsb2="-1" msb2="-1" />
         <alias net1="N58" lsb1="-1" msb1="-1" net2="N57" lsb2="-1" msb2="-1" />
-        <alias net1="N60" lsb1="-1" msb1="-1" net2="N58" lsb2="-1" msb2="-1" />
-        <alias net1="N60" lsb1="-1" msb1="-1" net2="N59" lsb2="-1" msb2="-1" />
         <alias net1="N61" lsb1="-1" msb1="-1" net2="N17" lsb2="-1" msb2="-1" />
         <alias net1="N63" lsb1="-1" msb1="-1" net2="N62" lsb2="-1" msb2="-1" />
         <alias net1="N65" lsb1="-1" msb1="-1" net2="N64" lsb2="-1" msb2="-1" />
@@ -1030,7 +1020,6 @@
               <id>M22</id>
               <termid>T7</termid>
               <connections>
-                <connection net="N3" />
               </connections>
             </pin>
           </pins>
@@ -1956,7 +1945,7 @@
               <id>M119</id>
               <termid>T30</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
@@ -2271,7 +2260,7 @@
               <id>M150</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
@@ -2313,7 +2302,7 @@
               <id>M154</id>
               <termid>T35</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
           </pins>
@@ -2860,21 +2849,21 @@
               <id>M215</id>
               <termid>T71</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
               <id>M216</id>
               <termid>T72</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
               <id>M217</id>
               <termid>T73</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
@@ -2951,7 +2940,7 @@
               <id>M225</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
@@ -3119,7 +3108,7 @@
               <id>M241</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N59" />
+                <connection net="N57" />
               </connections>
             </pin>
             <pin>
@@ -3504,7 +3493,6 @@
               <net ref="util_pwr_en"></net>
               <net ref="vcc3v3"></net>
               <net ref="vcc3v3_iv"></net>
-              <net ref="vout3v3b"></net>
               <net ref="vp12"></net>
               <net ref="vp1v8"></net>
               <net ref="vp1v8_iv"></net>
