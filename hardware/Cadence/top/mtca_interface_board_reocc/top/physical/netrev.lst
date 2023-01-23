@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev1_v2t_m1.brd                           )
+(    Drawing          : mib_rev1_v2t_m1_gnd_moved_unplaced_comps.brd  )
 (    Software Version : 17.4S031                                      )
-(    Date/Time        : Fri Jan 20 17:00:51 2023                      )
+(    Date/Time        : Mon Jan 23 17:13:05 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,687 +19,683 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
 Design Directory:            'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m1.brd'
-New design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m2.brd'
+Old design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m1_gnd_moved_unplaced_comps.brd'
+New design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m2_gnd_moved_unplaced_comps.brd'
 
-CmdLine: netrev -proj Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m1.brd Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m2.brd -w Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m1_gnd_moved_unplaced_comps.brd Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev1_v2t_m2_gnd_moved_unplaced_comps.brd -w Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:01.84)
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:01.30)
 Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
    Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
 Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
-   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.18)
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.05)
 
 ------ Oversights/Warnings/Errors ------
 
 
 #1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
 
-WARNING(SPMHNI-161): Symbol changed for 'U25'. Pin edits were lost.
-
-#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
 WARNING(SPMHNI-194): Symbol 'QFN16' used by RefDes U26 for device 'NBSG53AMNG-NBSG53AMNG,NBSG53AMB' not found. 
 The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
 
 Set the correct library path if not set or use dbdoctor to migrate old symbol
 
-#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R60', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'MAIN_PWR'.
 
-#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R97', property 'REUSE_ID'. Value '3' was overwritten by '156'.
 
-#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R74', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'EEPROM'.
 
-#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R69', property 'REUSE_ID'. Value '122' was overwritten by '163'.
 
-#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R69', property 'ROOM'. Value 'VP3V3' was overwritten by 'VCC1V8'.
 
-#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R65', property 'ROOM'. Value 'VP3V3' was overwritten by 'MAIN_PWR'.
 
-#9   WARNING(SPMHNI-297): Component instance property overwrite detected.
+#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R19', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CDR_0'.
 
-#10  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#9   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R2', property 'ROOM'. Value 'MMC' was overwritten by 'CDR_1'.
 
-#11  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#10  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R82', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'MAIN_PWR'.
 
-#12  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#11  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R88', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'VCC3V3I_V'.
 
-#13  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#12  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R64', property 'REUSE_ID'. Value '10' was overwritten by '127'.
 
-#14  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#13  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R64', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'VCC1V8'.
 
-#15  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#14  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R6', property 'REUSE_ID'. Value '248' was overwritten by '246'.
 
-#16  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#15  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R56', property 'ROOM'. Value 'JTAG' was overwritten by 'MMC_DISCRETE'.
 
-#17  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#16  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R132', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'SFP0'.
 
-#18  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#17  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R130', property 'ROOM'. Value 'SFP I2C SWITCH' was overwritten by 'SFP0'.
 
-#19  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#18  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R129', property 'ROOM'. Value 'SFP I2C SWITCH' was overwritten by 'CLK_GEN_x12'.
 
-#20  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#19  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R128', property 'ROOM'. Value 'SFP I2C SWITCH' was overwritten by 'SFP0'.
 
-#21  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#20  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R123', property 'ROOM'. Value 'SFP I2C SWITCH' was overwritten by 'CLK_GEN_x12'.
 
-#22  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#21  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R116', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'SFP0'.
 
-#23  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#22  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R114', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'SFP0'.
 
-#24  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#23  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R112', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'SFP0'.
 
-#25  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#24  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R101', property 'REUSE_ID'. Value '176' was overwritten by '254'.
 
-#26  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#25  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R101', property 'ROOM'. Value 'SFP0' was overwritten by 'DFF_XBAR'.
 
-#27  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#26  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R100', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'DFF_XBAR'.
 
-#28  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#27  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R96', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'SFP0'.
 
-#29  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#28  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R92', property 'ROOM'. Value 'VP3V3' was overwritten by 'SFP0'.
 
-#30  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#29  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R87', property 'REUSE_ID'. Value '123' was overwritten by '138'.
 
-#31  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#30  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R86', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'VP3V3'.
 
-#32  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#31  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R59', property 'REUSE_ID'. Value '26' was overwritten by '146'.
 
-#33  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#32  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R59', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'VCC1V8'.
 
-#34  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#33  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R40', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'DFF_XBAR'.
 
-#35  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#34  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R38', property 'ROOM'. Value 'CDR_0' was overwritten by 'DFF_XBAR'.
 
-#36  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#35  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R37', property 'ROOM'. Value 'CDR_0' was overwritten by 'DFF_XBAR'.
 
-#37  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#36  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R32', property 'REUSE_ID'. Value '1' was overwritten by '26'.
 
-#38  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#37  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R32', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CDR_0'.
 
-#39  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#38  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R29', property 'REUSE_ID'. Value '142' was overwritten by '25'.
 
-#40  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#39  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R29', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CDR_0'.
 
-#41  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#40  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R18', property 'ROOM'. Value 'SFP I2C SWITCH' was overwritten by 'CDR_0'.
 
-#42  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#41  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R17', property 'ROOM'. Value 'CDR_1' was overwritten by 'CLK_GEN_x12'.
 
-#43  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#42  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R13', property 'REUSE_ID'. Value '3' was overwritten by '48'.
 
-#44  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#43  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R13', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'TE0712'.
 
-#45  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#44  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R4', property 'ROOM'. Value 'MMC' was overwritten by 'CDR_1'.
 
-#46  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#45  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R21', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_GEN_x12'.
 
-#47  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#46  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R52', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#48  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#47  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R41', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#49  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#48  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R104', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#50  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#49  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R102', property 'ROOM'. Value 'SFP0' was overwritten by 'MMC_DISCRETE'.
 
-#51  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#50  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R93', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'MMC_DISCRETE'.
 
-#52  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#51  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R61', property 'ROOM'. Value 'MMC' was overwritten by 'MMC_DISCRETE'.
 
-#53  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#52  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R57', property 'ROOM'. Value 'MMC' was overwritten by 'MMC_DISCRETE'.
 
-#54  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#53  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R45', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#55  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#54  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R39', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#56  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#55  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R126', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'SFP I2C SWITCH'.
 
-#57  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#56  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R121', property 'ROOM'. Value 'CDR_0' was overwritten by 'SFP I2C SWITCH'.
 
-#58  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#57  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R120', property 'ROOM'. Value 'SFP0' was overwritten by 'SFP I2C SWITCH'.
 
-#59  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#58  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R119', property 'ROOM'. Value 'SFP0' was overwritten by 'SFP I2C SWITCH'.
 
-#60  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#59  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R58', property 'REUSE_ID'. Value '11' was overwritten by '1'.
 
-#61  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#60  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R58', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'MMC'.
 
-#62  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#61  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R54', property 'REUSE_ID'. Value '38' was overwritten by '2'.
 
-#63  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#62  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R54', property 'ROOM'. Value 'JTAG' was overwritten by 'MMC'.
 
-#64  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#63  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R31', property 'ROOM'. Value 'CDR_0' was overwritten by 'TE0712'.
 
-#65  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#64  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R16', property 'ROOM'. Value 'CDR_1' was overwritten by 'SFP I2C SWITCH'.
 
-#66  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#65  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R103', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#67  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#66  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R68', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'VCC1V8'.
 
-#68  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#67  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R134', property 'ROOM'. Value 'SFP0' was overwritten by 'CDR_1'.
 
-#69  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#68  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R118', property 'REUSE_ID'. Value '202' was overwritten by '99'.
 
-#70  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#69  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R118', property 'ROOM'. Value 'SFP0' was overwritten by 'CDR_0'.
 
-#71  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#70  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R42', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'DFF_XBAR'.
 
-#72  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#71  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R30', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_GEN_x12'.
 
-#73  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#72  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R26', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CDR_0'.
 
-#74  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#73  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R24', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CLK_FO_6_11'.
 
-#75  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#74  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R11', property 'ROOM'. Value 'CDR_1' was overwritten by 'CLK_FO_0_5'.
 
-#76  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#75  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R63', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'VCC3V3I_V'.
 
-#77  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#76  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R62', property 'ROOM'. Value 'VCC1V8' was overwritten by 'VP3V3'.
 
-#78  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#77  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R91', property 'REUSE_ID'. Value '158' was overwritten by '168'.
 
-#79  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#78  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R91', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'MAIN_PWR'.
 
-#80  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#79  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R90', property 'REUSE_ID'. Value '138' was overwritten by '170'.
 
-#81  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#80  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R90', property 'ROOM'. Value 'VP3V3' was overwritten by 'MAIN_PWR'.
 
-#82  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#81  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R75', property 'ROOM'. Value 'VCC1V8' was overwritten by 'EEPROM'.
 
-#83  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#82  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R73', property 'ROOM'. Value 'VP3V3' was overwritten by 'EEPROM'.
 
-#84  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#83  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R66', property 'REUSE_ID'. Value '165' was overwritten by '122'.
 
-#85  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#84  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R66', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'VP3V3'.
 
-#86  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#85  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R35', property 'ROOM'. Value 'TE0712' was overwritten by 'CDR_0'.
 
-#87  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#86  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R15', property 'ROOM'. Value 'TE0712' was overwritten by 'CDR_1'.
 
-#88  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#87  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R135', property 'ROOM'. Value 'SFP0' was overwritten by 'VCC3V3I_V'.
 
-#89  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#88  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R71', property 'ROOM'. Value 'VCC1V8' was overwritten by 'VCC3V3I_V'.
 
-#90  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#89  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R70', property 'ROOM'. Value 'VCC1V8' was overwritten by 'VP3V3'.
 
-#91  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#90  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R5', property 'REUSE_ID'. Value '197' was overwritten by '247'.
 
-#92  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#91  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R5', property 'ROOM'. Value 'CDR_1' was overwritten by 'MMC'.
 
-#93  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#92  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R3', property 'REUSE_ID'. Value '209' was overwritten by '248'.
 
-#94  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#93  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R3', property 'ROOM'. Value 'CDR_1' was overwritten by 'MMC'.
 
-#95  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#94  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R20', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_GEN_x12'.
 
-#96  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#95  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R53', property 'REUSE_ID'. Value '44' was overwritten by '47'.
 
-#97  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#96  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R51', property 'REUSE_ID'. Value '45' was overwritten by '38'.
 
-#98  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#97  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R50', property 'REUSE_ID'. Value '18' was overwritten by '44'.
 
-#99  WARNING(SPMHNI-297): Component instance property overwrite detected.
+#98  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R50', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'JTAG'.
 
-#100 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#99  WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R48', property 'REUSE_ID'. Value '17' was overwritten by '45'.
 
-#101 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#100 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'R48', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'JTAG'.
 
-#102 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#101 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'D7', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'MMC'.
 
-#103 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#102 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'D6', property 'ROOM'. Value 'VP3V3' was overwritten by 'MMC'.
 
-#104 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#103 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'D5', property 'ROOM'. Value 'VCC1V8' was overwritten by 'MMC'.
 
-#105 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#104 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'J12', property 'ROOM'. Value 'SFP0' was overwritten by 'USB-JTAG'.
 
-#106 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#105 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'J11', property 'ROOM'. Value 'JTAG' was overwritten by 'SFP0'.
 
-#107 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#106 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C154', property 'REUSE_ID'. Value '9' was overwritten by '102'.
 
-#108 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#107 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C154', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_GEN_x12'.
 
-#109 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#108 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C151', property 'REUSE_ID'. Value '148' was overwritten by '106'.
 
-#110 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#109 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C149', property 'REUSE_ID'. Value '149' was overwritten by '104'.
 
-#111 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#110 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C106', property 'ROOM'. Value 'SFP0' was overwritten by 'DFF_XBAR'.
 
-#112 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#111 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C163', property 'ROOM'. Value 'TE0712' was overwritten by 'CDR_1'.
 
-#113 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#112 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C160', property 'REUSE_ID'. Value '215' was overwritten by '108'.
 
-#114 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#113 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C160', property 'ROOM'. Value 'SFP0' was overwritten by 'CLK_GEN_x12'.
 
-#115 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#114 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C159', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CDR_1'.
 
-#116 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#115 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C142', property 'REUSE_ID'. Value '216' was overwritten by '58'.
 
-#117 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#116 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C142', property 'ROOM'. Value 'SFP0' was overwritten by 'CLK_GEN_x12'.
 
-#118 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#117 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C128', property 'REUSE_ID'. Value '129' was overwritten by '130'.
 
-#119 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#118 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C127', property 'REUSE_ID'. Value '130' was overwritten by '112'.
 
-#120 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#119 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C120', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CDR_0'.
 
-#121 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#120 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C114', property 'ROOM'. Value 'SFP0' was overwritten by 'CDR_0'.
 
-#122 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#121 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C95', property 'ROOM'. Value 'SFP0' was overwritten by 'MAIN_PWR'.
 
-#123 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#122 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C155', property 'ROOM'. Value 'SFP0' was overwritten by 'CLK_FO_0_5'.
 
-#124 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#123 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C141', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'SFP0'.
 
-#125 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#124 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C139', property 'ROOM'. Value 'SFP0' was overwritten by 'CLK_FO_0_5'.
 
-#126 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#125 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C121', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_FO_6_11'.
 
-#127 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#126 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C119', property 'REUSE_ID'. Value '195' was overwritten by '109'.
 
-#128 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#127 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C119', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_GEN_x12'.
 
-#129 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#128 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C118', property 'REUSE_ID'. Value '109' was overwritten by '113'.
 
-#130 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#129 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C112', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_FO_6_11'.
 
-#131 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#130 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C13', property 'REUSE_ID'. Value '132' was overwritten by '133'.
 
-#132 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#131 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C12', property 'REUSE_ID'. Value '133' was overwritten by '132'.
 
-#133 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#132 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C161', property 'ROOM'. Value 'CDR_1' was overwritten by 'SFP0'.
 
-#134 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#133 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C117', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'SFP0'.
 
-#135 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#134 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C96', property 'ROOM'. Value 'JTAG' was overwritten by 'SFP0'.
 
-#136 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#135 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C146', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_GEN_x12'.
 
-#137 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#136 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C138', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_GEN_x12'.
 
-#138 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#137 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C124', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CDR_0'.
 
-#139 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#138 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C104', property 'ROOM'. Value 'DFF_XBAR' was overwritten by 'MMC_DISCRETE'.
 
-#140 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#139 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C93', property 'ROOM'. Value 'SFP0' was overwritten by 'MMC_DISCRETE'.
 
-#141 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#140 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C164', property 'REUSE_ID'. Value '7' was overwritten by '3'.
 
-#142 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#141 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C164', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'TE0712'.
 
-#143 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#142 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C166', property 'ROOM'. Value 'CDR_1' was overwritten by 'CLK_FO_0_5'.
 
-#144 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#143 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C157', property 'REUSE_ID'. Value '218' was overwritten by '107'.
 
-#145 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#144 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C157', property 'ROOM'. Value 'CDR_1' was overwritten by 'CLK_GEN_x12'.
 
-#146 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#145 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C156', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'SFP0'.
 
-#147 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#146 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C148', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CLK_FO_0_5'.
 
-#148 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#147 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C145', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'SFP0'.
 
-#149 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#148 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C136', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CLK_FO_6_11'.
 
-#150 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#149 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C134', property 'REUSE_ID'. Value '7' was overwritten by '89'.
 
-#151 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#150 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C134', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CDR_0'.
 
-#152 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#151 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C133', property 'REUSE_ID'. Value '89' was overwritten by '94'.
 
-#153 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#152 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C130', property 'REUSE_ID'. Value '197' was overwritten by '91'.
 
-#154 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#153 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C129', property 'REUSE_ID'. Value '91' was overwritten by '129'.
 
-#155 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#154 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C129', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_GEN_x12'.
 
-#156 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#155 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C123', property 'REUSE_ID'. Value '203' was overwritten by '115'.
 
-#157 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#156 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C123', property 'ROOM'. Value 'CDR_0' was overwritten by 'CLK_GEN_x12'.
 
-#158 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#157 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C122', property 'REUSE_ID'. Value '115' was overwritten by '96'.
 
-#159 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#158 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C122', property 'ROOM'. Value 'CLK_GEN_x12' was overwritten by 'CDR_0'.
 
-#160 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#159 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C116', property 'REUSE_ID'. Value '199' was overwritten by '98'.
 
-#161 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#160 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C116', property 'ROOM'. Value 'SFP0' was overwritten by 'CDR_0'.
 
-#162 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#161 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C115', property 'ROOM'. Value 'CDR_0' was overwritten by 'SFP0'.
 
-#163 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#162 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C113', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CDR_0'.
 
-#164 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#163 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C111', property 'ROOM'. Value 'CDR_0' was overwritten by 'SFP0'.
 
-#165 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#164 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C103', property 'ROOM'. Value 'MMC_DISCRETE' was overwritten by 'JTAG'.
 
-#166 WARNING(SPMHNI-297): Component instance property overwrite detected.
+#165 WARNING(SPMHNI-297): Component instance property overwrite detected.
 
 WARNING(SPMHNI-295): Component 'C94', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'SFP0'.
 
@@ -708,10 +704,10 @@ WARNING(SPMHNI-295): Component 'C94', property 'ROOM'. Value 'MAIN_PWR' was over
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Fri Jan 20 17:01:03 2023
+	Start time: Mon Jan 23 17:13:11 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Fri Jan 20 17:01:06 2023
+Finished Constraint Update	Time: Mon Jan 23 17:13:13 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -742,9 +738,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 20 17:00:50 2023
+netrev run on Jan 23 17:13:04 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 20-Jan-2023 AT 16:59:36
+   PACKAGING ON 23-Jan-2023 AT 17:12:17
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -771,8 +767,8 @@ netrev run on Jan 20 17:00:50 2023
 
  No error detected
  No oversight detected
-166 warnings detected
+165 warnings detected
 
-cpu time      1:27:24
-elapsed time  0:00:44
+cpu time      0:31:50
+elapsed time  0:00:16
 
