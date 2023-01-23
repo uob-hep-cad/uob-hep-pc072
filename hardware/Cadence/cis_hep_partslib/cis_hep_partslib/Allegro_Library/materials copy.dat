@@ -1,0 +1,363 @@
+#     PCB material properties file.
+#     You may set these standard properties:
+#
+# E_CONDUCTIVITY  - electrical conductivity
+# DIELECTRIC      - relative dielectric permittivity
+# LOSS_TANGENT    - loss tangent of dielectric
+#
+#     PCB material parameters for Allegro PCB Cross Section Form
+#
+# THICKNESS       - standard sheet thickness
+#
+#     Any of the above parameters my be omitted.
+#     Use any units found in the units.dat file.
+#     Values without unit specifiers are presumed to be in SI units.
+#
+#     The default materials for Allegro PCB layers are COPPER, FR-4, and AIR.
+#
+# ======================================================================
+#
+# NOTES:
+#
+#   1) DIELECTRIC or CONDUCTOR ??
+#
+#          While the older Allegro stackup-editor (define xsection)
+#        presents the entire material list irregardless of layer-type
+#        (conductive or non-conductive), the "high-speed" stackup-editor
+#        (define lyrstack) splits and presents the materials in two
+#        groupings - "conductive" and "non-conductive" materials.
+#
+#          This determination is based upon the material's electrical-
+#        conductivity (E_CONDUCTIVITY) according to the following rule:
+#
+#           E_CONDUCTIVITY <  100,000 mhos/m  =  "non-conductive"
+#
+#           E_CONDUCTIVITY >= 100,000 mhos/m  =  "conductive"
+#
+#        There is currently NO support for semiconductor materials.
+#
+# ======================================================================
+
+# surface materials
+
+MATERIAL_NAME AIR
+E_CONDUCTIVITY=0
+DIELECTRIC=1
+THICKNESS=0
+
+MATERIAL_NAME CONFORMAL_COAT
+E_CONDUCTIVITY=0
+DIELECTRIC=3
+THICKNESS=20um
+
+# PCB dielectric materials
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME FR-4_DK4.5
+E_CONDUCTIVITY=0
+DIELECTRIC=4.5
+LOSS_TANGENT=0.002
+THICKNESS=8.0mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG_1-1035_DK3.21
+E_CONDUCTIVITY=0
+DIELECTRIC=3.21
+LOSS_TANGENT=0.002
+THICKNESS=2.650mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG-1-1078_DK3.24
+E_CONDUCTIVITY=0
+DIELECTRIC=3.24
+LOSS_TANGENT=0.002
+THICKNESS=3.410mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG-1-1078_DK3.38
+E_CONDUCTIVITY=0
+DIELECTRIC=3.38
+LOSS_TANGENT=0.002
+THICKNESS=3.35mil
+
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6-PREG-1-1078_DK3.24
+E_CONDUCTIVITY=0
+DIELECTRIC=3.24
+LOSS_TANGENT=0.002
+THICKNESS=3.4mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6-PREG_1-1078_DK3.2_TK3.65
+E_CONDUCTIVITY=0
+DIELECTRIC=3.2
+LOSS_TANGENT=0.002
+THICKNESS=3.65mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG_1-1078_DK3.2_TK3.8
+E_CONDUCTIVITY=0
+DIELECTRIC=3.2
+LOSS_TANGENT=0.002
+THICKNESS=3.8mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG_2-3313_DK3.6_TK7.2
+E_CONDUCTIVITY=0
+DIELECTRIC=3.6
+LOSS_TANGENT=0.002
+THICKNESS=7.2mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG_1-1035_DK3.25_TK4.54
+E_CONDUCTIVITY=0
+DIELECTRIC=3.25
+LOSS_TANGENT=0.002
+THICKNESS=4.54mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_PREG_2-1035_DK3.39_TK4.54
+E_CONDUCTIVITY=0
+DIELECTRIC=3.39
+LOSS_TANGENT=0.002
+THICKNESS=4.54mil
+
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6-PREG-1-1080
+E_CONDUCTIVITY=0
+DIELECTRIC=3.4
+LOSS_TANGENT=0.002
+THICKNESS=2.6mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6-PREG-1-1080
+E_CONDUCTIVITY=0
+DIELECTRIC=3.4
+LOSS_TANGENT=0.002
+THICKNESS=4.1mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_core_1-1035_DK3.39
+E_CONDUCTIVITY=0
+DIELECTRIC=3.39
+LOSS_TANGENT=0.002
+THICKNESS=2.0mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_core_1-1078
+E_CONDUCTIVITY=0
+DIELECTRIC=3.42
+LOSS_TANGENT=0.002
+THICKNESS=3.0mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_core_2-1078
+E_CONDUCTIVITY=0
+DIELECTRIC=3.42
+LOSS_TANGENT=0.002
+THICKNESS=5.8mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_core_2-1078
+E_CONDUCTIVITY=0
+DIELECTRIC=3.42
+LOSS_TANGENT=0.002
+THICKNESS=5.8mil
+
+# standard difunctional epoxy resin with E-glass reinforcement
+MATERIAL_NAME MEG6_core_1-3313
+E_CONDUCTIVITY=0
+DIELECTRIC=3.64
+LOSS_TANGENT=0.002
+THICKNESS=3.9mil
+
+# blend of difunctional and tetrafunctional epoxy resins with E-glass
+# reinforcement
+MATERIAL_NAME TETRAFUNCTIONAL
+E_CONDUCTIVITY=0
+DIELECTRIC=4.4
+LOSS_TANGENT=0.035
+THICKNESS=8.0mil
+
+# blend of difunctional and tetrafunctional epoxy resins with E-glass
+# reinforcement
+MATERIAL_NAME TETRAFUNCTIONAL
+E_CONDUCTIVITY=0
+DIELECTRIC=4.4
+LOSS_TANGENT=0.002
+THICKNESS=8.0mil
+
+# polyimide resin with E-glass reinforcement
+MATERIAL_NAME POLYIMIDE
+E_CONDUCTIVITY=0
+DIELECTRIC=4.3
+LOSS_TANGENT=0.002
+THICKNESS=8.0mil
+
+# bismaleimide-triazine resin with E-glass reinforcement
+MATERIAL_NAME BT_EPOXY
+E_CONDUCTIVITY=0
+DIELECTRIC=4.1
+LOSS_TANGENT=0.02
+THICKNESS=8.0mil
+
+# cyanate ester resin with E-glass reinforcement
+MATERIAL_NAME CYANATE_ESTER_E
+E_CONDUCTIVITY=0
+DIELECTRIC=3.8
+LOSS_TANGENT=0.009
+THICKNESS=8.0mil
+
+# cyanate ester resin with S-glass reinforcement
+MATERIAL_NAME CYANATE_ESTER_S
+E_CONDUCTIVITY=0
+DIELECTRIC=3.5
+LOSS_TANGENT=0.009
+THICKNESS=8.0mil
+
+# polytetrafluoroethylene composite
+MATERIAL_NAME PTFE
+E_CONDUCTIVITY=0
+DIELECTRIC=2.7
+LOSS_TANGENT=0.003
+THICKNESS=5.0mil
+
+
+# flex circuit dielectric materials
+
+# unreinforced polyimide film
+MATERIAL_NAME POLYIMIDE_FILM
+E_CONDUCTIVITY=0
+DIELECTRIC=3.5
+THICKNESS=3.0mil
+
+
+# conductor materials
+
+MATERIAL_NAME ALUMINUM
+E_CONDUCTIVITY=35000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME CHROMIUM
+E_CONDUCTIVITY=7700000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME HALF_OZ_COPPER
+E_CONDUCTIVITY=595900mho/cm
+DIELECTRIC=4.5
+THICKNESS=0.6mil
+
+MATERIAL_NAME 1OZ_COPPER
+E_CONDUCTIVITY=58000000mho/m
+DIELECTRIC=4.5
+THICKNESS=1.3
+
+MATERIAL_NAME 2OZ_COPPER
+E_CONDUCTIVITY=58000000mho/m
+DIELECTRIC=4.5
+THICKNESS=2.7
+
+MATERIAL_NAME 4OZ_COPPER
+E_CONDUCTIVITY=58000000mho/m
+DIELECTRIC=4.5
+THICKNESS=5.4
+
+MATERIAL_NAME 1MM_COPPER
+E_CONDUCTIVITY=58000000mho/m
+DIELECTRIC=4.5
+THICKNESS=1mm
+
+MATERIAL_NAME GOLD
+E_CONDUCTIVITY=43000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME INCONEL
+E_CONDUCTIVITY=820000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME INDIUM
+E_CONDUCTIVITY=12000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME INVAR
+E_CONDUCTIVITY=1200000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME KOVAR
+E_CONDUCTIVITY=2300000mho/m
+DIELECTRIC=4.5
+THICKNESS=5mm
+
+MATERIAL_NAME LEAD
+E_CONDUCTIVITY=4600000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME MOLYBDENUM
+E_CONDUCTIVITY=18000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME MONEL
+E_CONDUCTIVITY=1700000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME NICKEL
+E_CONDUCTIVITY=15000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME NICHROME
+E_CONDUCTIVITY=15000000mho/m
+DIELECTRIC=4.5
+THICKNESS=1mil
+
+MATERIAL_NAME PLATINUM
+E_CONDUCTIVITY=10000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME SILVER
+E_CONDUCTIVITY=63000000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME SOLDER_60_40
+E_CONDUCTIVITY=4600000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME STAINLESS_STEEL
+E_CONDUCTIVITY=1400000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME TANTALUM
+E_CONDUCTIVITY=7200000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME TIN
+E_CONDUCTIVITY=8800000mho/m
+DIELECTRIC=4.5
+THICKNESS=0
+
+MATERIAL_NAME TUNGSTEN
+E_CONDUCTIVITY=86000000mho/m
+DIELECTRIC=4.5
+THICKNESS=.0015cm
+
+# equal thickness of copper and tin
+MATERIAL_NAME PLATED_COPPER_FOIL
+E_CONDUCTIVITY=343000mho/cm
+DIELECTRIC=4.5
+THICKNESS=2.1mil

@@ -1,0 +1,118 @@
+INSTALLATION NOTES FOR CIS QUICK START
+
+
+CIS Quick Start consists of a subset of parts that come with the EMA CIP product. 
+Uninstallation is not provided to prevent accidental deletion of your data and 
+the database.  
+
+
+Copyright (C) 2012 EMA Design Automation
+
+
+-----------------------------------------------------
+Contents
+-----------------------------------------------------
+
+   * What is included
+   * Getting Started
+   * Additional Setup
+   * Making changes to install locations after install
+   * Viewing or Making changes to data in the database
+   * Uninstalling CIS Quick Start
+   * Support
+
+-----------------------------------------------------
+What is included
+-----------------------------------------------------
+
+This installation includes setup for the database server (common place for your database) 
+and the CIS clients (PC where you will be running Cadence OrCAD Capture CIS).
+
+For the database server, the installation includes the following items:
+
+   * MS Access database with 12 tables of parts and 1 manufacturer table
+   * Technical datasheets that correspond to the parts in the database
+   * Schematic Symbols for the parts in the database
+   * Allegro Footprint for the parts in the database
+   * .DBC configuration file
+   * This file - CIS Quick Start Information.txt
+   * A repather tool (Repather.exe) that will change the paths in the database for 
+     the technical datasheet, thus allowing client machines to open the links.
+
+For the CIS client, the installation includes the following setup:
+   * ODBC data source creation
+   * New capture.ini file with updated paths to your libraries. If a capture.ini file 
+     is found during the installation process, the previous will be renamed to 
+     capture_original.ini.
+
+If both were selected, both setups have been performed.
+
+-----------------------------------------------------
+Getting Started
+-----------------------------------------------------
+
+- If installing this all on 1 PC, you should not need additional setup. 
+
+- You may need to change permission or share the installation directory if a 
+  database server is used.
+
+- When using the data server, run the repather to get the links for the datasheets changed.
+  Check the location of the "New Datasheet" in preview to make sure that the path is 
+  accessable from another computer. If you need to change the path again, you will need to
+    * Browse to the location of the CIS Quick Start Access database
+    * Click test to test the connection
+    * type in the path to change FROM
+    * type in the New path.
+   The repather can be found in the repather sub-directory of the installed directory.
+
+-----------------------------------------------------
+Making changes to install locations after install
+-----------------------------------------------------
+
+- If you want to change the install location, you can re-run the CISQuickStart installation
+  to install the files to the new location and delete the previous install directory.
+
+- If you have already started using the database and added part, you can drag and drop 
+  all the installed directories and files to the new location. 
+
+- You will need to re-run the CISQuickStart installation on all PCs that were previously
+  up to use the prior location. 
+
+-----------------------------------------------------
+Viewing or Making changes to data in the database
+-----------------------------------------------------
+
+- Data can be viewed from Capture CIS or by bringing up Ms Access.  
+
+- From CIS, you need to bring up a schematic page first. Then, right click on the sheet 
+  and select "Place Database Part". The CIS Explorer tab will appear.
+
+- Changes to the database can not be made from the CIS. Parts can be added and only as 
+  TMP parts using either Derive database or ICA. Information on how this can be done is 
+  located in the section "Working with database parts" in the OrcAD CIS User Guide of 
+  your Cadence OrCAD installation.
+
+- From MS Access, you can bring up the database. Part information can be viewed or
+  added/modified/deleted from Access. The manufacturer information can also be viewed 
+  or added/modified/deleted.
+  To add a part, type in your part data directly into one of 12 tables that the part 
+  belongs in. To add manufacturer parts, type the part number, the manufacturer name 
+  and the manufacturer part number into the CIS Manufacturer Parts Table. Parts with 
+  multiple manufacturer parts must be added on separate lines.
+
+-----------------------------------------------------
+Uninstalling CIS Quick Start
+-----------------------------------------------------
+
+- To remove the CISQuickStart files and directories, navigate to where the files have
+  been installed and delete them.
+
+-----------------------------------------------------
+Support
+-----------------------------------------------------
+
+  If you have questions and/or suggestions for improvement regarding any of your EMA apps, 
+  you may contact your local Cadence Channel Partner or email EMA directly at: 
+  MarketplaceAppsSupport@ema-eda.com 
+
+

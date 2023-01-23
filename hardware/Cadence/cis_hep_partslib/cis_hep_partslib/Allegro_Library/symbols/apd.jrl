@@ -1,0 +1,210 @@
+\t (00:00:04) apd 15.7 s115 (v15-7-42EU) i86
+\t (00:00:04) 
+
+\t (00:00:04) Opening existing drawing...
+\d (00:00:04) Database opened: C:/Cadence/lsst_8chan_fee/psmfiles/scc.dra
+\t (00:00:04) Grids are drawn 0.16, 0.16 apart for enhanced viewability.
+\i (00:00:04) trapsize 9
+\i (00:00:04) trapsize 10
+\i (00:00:05) trapsize 10
+\i (00:02:13) open 
+\i (00:02:28) fillin "AirBorn_MK_51_a.dra"
+\t (00:02:28) Opening existing drawing...
+\i (00:02:28) trapsize 5
+\d (00:02:28) Database opened: C:/Cadence/lsst_8chan_fee/psmfiles/AirBorn_MK_51_a.dra
+\i (00:02:29) roam start
+\i (00:02:29) roam x 64
+\i (00:02:29) roam y 16
+\i (00:02:29) roam x 64
+\i (00:02:29) roam y 16
+\i (00:02:29) roam x 48
+\i (00:02:29) roam y 16
+\i (00:02:29) roam x 16
+\i (00:02:29) roam x 16
+\i (00:02:29) roam x 16
+\i (00:02:29) roam end
+\i (00:02:30) open 
+\i (00:02:32) fillin "AirBorn_MK_51.dra"
+\t (00:02:32) Opening existing drawing...
+\i (00:02:32) trapsize 5
+\d (00:02:32) Database opened: C:/Cadence/lsst_8chan_fee/psmfiles/AirBorn_MK_51.dra
+\i (00:02:33) roam start
+\i (00:02:33) roam x 64
+\i (00:02:33) roam y 48
+\i (00:02:33) roam x 64
+\i (00:02:33) roam y 80
+\i (00:02:33) roam x 48
+\i (00:02:33) roam y 64
+\i (00:02:33) roam x 16
+\i (00:02:33) roam y 32
+\i (00:02:33) roam x 16
+\i (00:02:33) roam y 16
+\i (00:02:33) roam x -16
+\i (00:02:33) roam y -16
+\i (00:02:33) roam x -16
+\i (00:02:33) roam y -80
+\i (00:02:33) roam x -16
+\i (00:02:33) roam y -80
+\i (00:02:33) roam y -80
+\i (00:02:33) roam y -80
+\i (00:02:33) roam y -80
+\i (00:02:33) roam y -64
+\i (00:02:33) roam y -48
+\i (00:02:33) roam y -32
+\i (00:02:33) roam y -16
+\i (00:02:33) roam y -16
+\i (00:02:33) roam y -16
+\i (00:02:33) roam x 16
+\i (00:02:33) roam y -16
+\i (00:02:33) roam y -32
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -32
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -32
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x 16
+\i (00:02:34) roam y -32
+\i (00:02:34) roam y -32
+\i (00:02:34) roam y -16
+\i (00:02:34) roam y -16
+\i (00:02:34) roam y -48
+\i (00:02:34) roam y -64
+\i (00:02:34) roam y -80
+\i (00:02:34) roam y -48
+\i (00:02:34) roam x -16
+\i (00:02:34) roam y -80
+\i (00:02:34) roam y -16
+\i (00:02:34) roam x -16
+\i (00:02:34) roam y 16
+\i (00:02:34) roam x -16
+\i (00:02:34) roam y 16
+\i (00:02:34) roam x -16
+\i (00:02:34) roam y 32
+\i (00:02:34) roam x -16
+\i (00:02:34) roam y 16
+\i (00:02:34) roam y 16
+\i (00:02:34) roam end
+\i (00:02:38) padeditdb 
+\i (00:02:39) pick grid 42 593
+\t (00:02:39) last pick:  40  595
+\i (00:02:42) setwindow form.mini
+\i (00:02:42) FORM mini pad_stack_edit  
+\i (00:02:47) setwindow form.padedit
+\i (00:02:47) pse_save 
+\i (00:02:54) setwindow text
+\i (00:02:54) close 
+\f (00:02:54) Save padstack with WARNINGS?
+Pick 'No' to continue editing.
+\i (00:02:56) fillin no 
+\i (00:02:57) setwindow form.padedit
+\i (00:02:57) FORM padedit layers  
+\i (00:02:59) FORM padedit grid row soldermask_bottom 
+\i (00:03:03) FORM padedit grid row soldermask_top 
+\i (00:03:06) FORM padedit width 120 
+\i (00:03:07) FORM padedit grid row soldermask_bottom 
+\i (00:03:09) FORM padedit width 120 
+\i (00:03:14) pse_save 
+\i (00:03:16) pse_update 
+\i (00:03:21) pse_save_as 
+\f (00:03:39) C:/Cadence/lsst_8chan_fee/symbols/hole96.pad: File Exists. Overwrite? 
+\i (00:03:40) fillin "C:\Cadence\lsst_8chan_fee\symbols\hole96.pad"
+\i (00:03:42) pse_exit 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) roam start
+\i (00:04:53) roam y 64
+\i (00:04:53) roam x -16
+\i (00:04:53) roam y 96
+\i (00:04:54) roam x -16
+\i (00:04:54) roam y 80
+\i (00:04:54) roam x -16
+\i (00:04:54) roam y 96
+\i (00:04:54) roam x -16
+\i (00:04:54) roam y 128
+\i (00:04:54) roam x -16
+\i (00:04:54) roam y 96
+\i (00:04:54) roam y 80
+\i (00:04:54) roam y 80
+\i (00:04:54) roam y 80
+\i (00:04:54) roam x 16
+\i (00:04:54) roam y 48
+\i (00:04:54) roam x 16
+\i (00:04:54) roam y 16
+\i (00:04:54) roam y 32
+\i (00:04:54) roam x 16
+\i (00:04:54) roam y 32
+\i (00:04:54) roam y 64
+\i (00:04:54) roam y 16
+\i (00:04:54) roam y 32
+\i (00:04:54) roam y 16
+\i (00:04:54) roam end
+\i (00:05:27) create symbol 
+\i (00:05:31) fillin "C:\Cadence\lsst_8chan_fee\symbols\AirBorn_MK_51.psm"
+\t (00:05:31) Creating package symbol 'C:/Cadence/lsst_8chan_fee/symbols/AirBorn_MK_51.psm'.
+\t (00:05:31) Starting Create symbol...
+\i (00:05:33) roam start
+\i (00:05:33) roam y -16
+\i (00:05:33) roam y -16
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -48
+\i (00:05:33) roam y -48
+\i (00:05:33) roam x -16
+\i (00:05:33) roam y -48
+\i (00:05:33) roam x -16
+\i (00:05:33) roam y -48
+\i (00:05:33) roam y -48
+\i (00:05:33) roam x -16
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -48
+\i (00:05:33) roam y -16
+\i (00:05:33) roam x -16
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -16
+\i (00:05:33) roam y -32
+\i (00:05:33) roam y -16
+\i (00:05:34) roam y -32
+\i (00:05:34) roam x -16
+\i (00:05:34) roam y -32
+\i (00:05:34) roam y -64
+\i (00:05:34) roam x -16
+\i (00:05:34) roam y -48
+\i (00:05:34) roam x -16
+\i (00:05:34) roam y -64
+\i (00:05:34) roam y -48
+\i (00:05:34) roam x -16
+\i (00:05:34) roam y -32
+\i (00:05:34) roam y -16
+\i (00:05:34) roam end
+\i (00:05:37) padeditdb 
+\i (00:05:38) pick grid 19 581
+\t (00:05:38) last pick:  20  580
+\i (00:05:39) setwindow form.mini
+\i (00:05:39) FORM mini pad_stack_edit  
+\i (00:05:41) setwindow form.padedit
+\i (00:05:41) pse_update 
+\i (00:05:43) pse_save 
+\f (00:05:43) C:/Cadence/lsst_8chan_fee/psmfiles/hole96.pad: File Exists. Overwrite? 
+\i (00:05:44) fillin yes 
+\i (00:05:46) pse_save_as 
+\f (00:05:50) C:/Cadence/lsst_8chan_fee/symbols/hole96.pad: File Exists. Overwrite? 
+\i (00:05:50) fillin "C:\Cadence\lsst_8chan_fee\symbols\hole96.pad"
+\i (00:05:52) pse_exit 
+\i (00:06:48) setwindow pcb
+\i (00:06:48) exit 
+\f (00:06:48) Do you want to save the changes you made to AirBorn_MK_51.dra?
+\i (00:06:50) fillin yes 
