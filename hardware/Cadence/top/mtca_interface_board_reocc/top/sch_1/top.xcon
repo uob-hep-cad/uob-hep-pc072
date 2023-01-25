@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-24T15:07:32</modificationTime>
+    <modificationTime>2023-01-25T16:39:40</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>45</netid>
-        <insttermid>97</insttermid>
+        <netid>60</netid>
+        <insttermid>126</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -51,13 +51,6 @@
               <name>bp</name>
               <direction>inout</direction>
               <msb>180</msb>
-              <lsb>0</lsb>
-            </term>
-            <term>
-              <id>T5</id>
-              <name>timing</name>
-              <direction>inout</direction>
-              <msb>27</msb>
               <lsb>0</lsb>
             </term>
             <term>
@@ -282,6 +275,12 @@
           <scope>global</scope>
           <inherited>1</inherited>
         </net>
+        <net>
+          <id>avdd</id>
+          <name>avdd</name>
+          <scope>global</scope>
+          <inherited>1</inherited>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -329,15 +328,6 @@
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="180" pinlsb="0" net="N1" netmsb="180" netlsb="0" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M5</id>
-              <termid>T5</termid>
-              <msb>27</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="27" pinlsb="0" net="N5" netmsb="27" netlsb="0" />
               </connections>
             </pin>
             <pin>
