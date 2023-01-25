@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-01T14:53:37</modificationTime>
+    <modificationTime>2023-01-24T15:07:32</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>31</netid>
-        <insttermid>68</insttermid>
+        <netid>45</netid>
+        <insttermid>97</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -54,17 +54,17 @@
               <lsb>0</lsb>
             </term>
             <term>
-              <id>T4</id>
-              <name>sfp</name>
-              <direction>inout</direction>
-              <msb>29</msb>
-              <lsb>0</lsb>
-            </term>
-            <term>
               <id>T5</id>
               <name>timing</name>
               <direction>inout</direction>
               <msb>27</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T57</id>
+              <name>sfp</name>
+              <direction>inout</direction>
+              <msb>29</msb>
               <lsb>0</lsb>
             </term>
           </terms>
@@ -276,6 +276,12 @@
           <scope>global</scope>
           <inherited>1</inherited>
         </net>
+        <net>
+          <id>p2v5</id>
+          <name>p2v5</name>
+          <scope>global</scope>
+          <inherited>1</inherited>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -326,21 +332,21 @@
               </connections>
             </pin>
             <pin>
-              <id>M4</id>
-              <termid>T4</termid>
-              <msb>29</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="29" pinlsb="0" net="N4" netmsb="29" netlsb="0" />
-              </connections>
-            </pin>
-            <pin>
               <id>M5</id>
               <termid>T5</termid>
               <msb>27</msb>
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="27" pinlsb="0" net="N5" netmsb="27" netlsb="0" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M97</id>
+              <termid>T57</termid>
+              <msb>29</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="29" pinlsb="0" net="N4" netmsb="29" netlsb="0" />
               </connections>
             </pin>
           </pins>
