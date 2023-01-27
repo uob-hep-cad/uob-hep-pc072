@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-25T16:39:40</modificationTime>
+    <modificationTime>2023-01-27T12:46:30</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>60</netid>
-        <insttermid>126</insttermid>
+        <netid>92</netid>
+        <insttermid>188</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -58,6 +58,20 @@
               <name>sfp</name>
               <direction>inout</direction>
               <msb>29</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T102</id>
+              <name>clkgen_io</name>
+              <direction>inout</direction>
+              <msb>10</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T103</id>
+              <name>sfp_data_io</name>
+              <direction>inout</direction>
+              <msb>11</msb>
               <lsb>0</lsb>
             </term>
           </terms>
@@ -107,10 +121,17 @@
               <lsb>0</lsb>
             </term>
             <term>
-              <id>T10</id>
-              <name>timing</name>
+              <id>T148</id>
+              <name>clkgen_io</name>
               <direction>inout</direction>
-              <msb>27</msb>
+              <msb>10</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T149</id>
+              <name>sfp_data_io</name>
+              <direction>inout</direction>
+              <msb>11</msb>
               <lsb>0</lsb>
             </term>
           </terms>
@@ -186,9 +207,15 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N5</id>
-          <name>timing</name>
-          <msb>27</msb>
+          <id>N91</id>
+          <name>clkgen_io</name>
+          <msb>10</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N92</id>
+          <name>sfp_data_io</name>
+          <msb>11</msb>
           <lsb>0</lsb>
         </net>
         <net>
@@ -339,6 +366,24 @@
                 <connection pinmsb="29" pinlsb="0" net="N4" netmsb="29" netlsb="0" />
               </connections>
             </pin>
+            <pin>
+              <id>M156</id>
+              <termid>T102</termid>
+              <msb>10</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="10" pinlsb="0" net="N91" netmsb="10" netlsb="0" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M157</id>
+              <termid>T103</termid>
+              <msb>11</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="11" pinlsb="0" net="N92" netmsb="11" netlsb="0" />
+              </connections>
+            </pin>
           </pins>
         </instance>
         <instance>
@@ -388,12 +433,21 @@
               </connections>
             </pin>
             <pin>
-              <id>M10</id>
-              <termid>T10</termid>
-              <msb>27</msb>
+              <id>M187</id>
+              <termid>T148</termid>
+              <msb>10</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="27" pinlsb="0" net="N5" netmsb="27" netlsb="0" />
+                <connection pinmsb="10" pinlsb="0" net="N91" netmsb="10" netlsb="0" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M188</id>
+              <termid>T149</termid>
+              <msb>11</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="11" pinlsb="0" net="N92" netmsb="11" netlsb="0" />
               </connections>
             </pin>
           </pins>
@@ -473,6 +527,10 @@
                 <msb>180</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="clkgen_io">
+                <msb>10</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="fpga_pg"></net>
               <net ref="power">
                 <msb>10</msb>
@@ -482,8 +540,8 @@
                 <msb>29</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="timing">
-                <msb>27</msb>
+              <net ref="sfp_data_io">
+                <msb>11</msb>
                 <lsb>0</lsb>
               </net>
             </nets>

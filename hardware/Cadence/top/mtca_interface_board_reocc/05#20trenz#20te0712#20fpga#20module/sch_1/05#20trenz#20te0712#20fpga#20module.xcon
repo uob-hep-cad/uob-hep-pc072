@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-01T17:24:39</modificationTime>
+    <modificationTime>2023-01-27T12:36:36</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>55</instanceid>
-        <netid>218</netid>
+        <netid>248</netid>
         <insttermid>426</insttermid>
       </lastids>
       <cells>
@@ -2256,28 +2256,8 @@
           <name>tdo</name>
         </net>
         <net>
-          <id>N155</id>
-          <name>timing</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
-          <msb>27</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N156</id>
-          <name>page1_timing</name>
-          <msb>27</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N157</id>
           <name>timing.cdr_clk_in_n</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N158</id>
-          <name>page1_timing.cdr_clk_in_n</name>
           <msb>2</msb>
           <lsb>0</lsb>
         </net>
@@ -2288,20 +2268,8 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N163</id>
-          <name>page1_timing.cdr_clk_in_p</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N167</id>
           <name>timing.cdr_data_in_n</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N168</id>
-          <name>page1_timing.cdr_data_in_n</name>
           <msb>1</msb>
           <lsb>0</lsb>
         </net>
@@ -2312,20 +2280,8 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N172</id>
-          <name>page1_timing.cdr_data_in_p</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N175</id>
           <name>timing.cdr_lol</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N176</id>
-          <name>page1_timing.cdr_lol</name>
           <msb>1</msb>
           <lsb>0</lsb>
         </net>
@@ -2336,77 +2292,33 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N180</id>
-          <name>page1_timing.cdr_los</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N183</id>
           <name>timing.clk_i2c_scl</name>
-        </net>
-        <net>
-          <id>N184</id>
-          <name>page1_timing.clk_i2c_scl</name>
         </net>
         <net>
           <id>N185</id>
           <name>timing.clk_i2c_sda</name>
         </net>
         <net>
-          <id>N186</id>
-          <name>page1_timing.clk_i2c_sda</name>
-        </net>
-        <net>
           <id>N187</id>
           <name>timing.clk_sel0</name>
-        </net>
-        <net>
-          <id>N188</id>
-          <name>page1_timing.clk_sel0</name>
         </net>
         <net>
           <id>N189</id>
           <name>timing.clk_sel1</name>
         </net>
         <net>
-          <id>N190</id>
-          <name>page1_timing.clk_sel1</name>
-        </net>
-        <net>
           <id>N191</id>
           <name>timing.clkgen_intr</name>
-        </net>
-        <net>
-          <id>N192</id>
-          <name>page1_timing.clkgen_intr</name>
         </net>
         <net>
           <id>N193</id>
           <name>timing.clkgen_lol</name>
         </net>
         <net>
-          <id>N194</id>
-          <name>page1_timing.clkgen_lol</name>
-        </net>
-        <net>
-          <id>N195</id>
-          <name>timing.clkgen_rst</name>
-        </net>
-        <net>
-          <id>N196</id>
-          <name>page1_timing.clkgen_rst</name>
-        </net>
-        <net>
           <id>N197</id>
           <name>timing.sfp_sel</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N198</id>
-          <name>page1_timing.sfp_sel</name>
-          <msb>2</msb>
+          <msb>1</msb>
           <lsb>0</lsb>
         </net>
         <net>
@@ -2416,20 +2328,8 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N202</id>
-          <name>page1_timing.upstream_data_n</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N205</id>
           <name>timing.upstream_data_p</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N206</id>
-          <name>page1_timing.upstream_data_p</name>
           <msb>1</msb>
           <lsb>0</lsb>
         </net>
@@ -2456,6 +2356,162 @@
         <net>
           <id>N217</id>
           <name>page1_vref_jtag</name>
+        </net>
+        <net>
+          <id>N219</id>
+          <name>clk_i2c_scl</name>
+        </net>
+        <net>
+          <id>N220</id>
+          <name>page1_clk_i2c_scl</name>
+        </net>
+        <net>
+          <id>N221</id>
+          <name>clk_i2c_sda</name>
+        </net>
+        <net>
+          <id>N222</id>
+          <name>page1_clk_i2c_sda</name>
+        </net>
+        <net>
+          <id>N223</id>
+          <name>clk_sel0</name>
+        </net>
+        <net>
+          <id>N224</id>
+          <name>page1_clk_sel0</name>
+        </net>
+        <net>
+          <id>N225</id>
+          <name>clk_sel1</name>
+        </net>
+        <net>
+          <id>N226</id>
+          <name>page1_clk_sel1</name>
+        </net>
+        <net>
+          <id>N227</id>
+          <name>clkgen_clk_n</name>
+          <msb>1</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N228</id>
+          <name>page1_clkgen_clk_n</name>
+          <msb>1</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N229</id>
+          <name>clkgen_clk_p</name>
+          <msb>1</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N230</id>
+          <name>page1_clkgen_clk_p</name>
+          <msb>1</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N231</id>
+          <name>clkgen_intr</name>
+        </net>
+        <net>
+          <id>N232</id>
+          <name>page1_clkgen_intr</name>
+        </net>
+        <net>
+          <id>N233</id>
+          <name>clkgen_io</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+          <msb>10</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N234</id>
+          <name>page1_clkgen_io</name>
+          <msb>10</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N235</id>
+          <name>clkgen_lol</name>
+        </net>
+        <net>
+          <id>N236</id>
+          <name>page1_clkgen_lol</name>
+        </net>
+        <net>
+          <id>N237</id>
+          <name>clkgen_rst</name>
+        </net>
+        <net>
+          <id>N238</id>
+          <name>page1_clkgen_rst</name>
+        </net>
+        <net>
+          <id>N239</id>
+          <name>sfp_data_io</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+          <msb>11</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N240</id>
+          <name>page1_sfp_data_io</name>
+          <msb>11</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N241</id>
+          <name>sfp_data_out_n</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N242</id>
+          <name>page1_sfp_data_out_n</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N243</id>
+          <name>sfp_data_out_p</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N244</id>
+          <name>page1_sfp_data_out_p</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N245</id>
+          <name>upstream_data_n</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N246</id>
+          <name>page1_upstream_data_n</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N247</id>
+          <name>upstream_data_p</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N248</id>
+          <name>page1_upstream_data_p</name>
+          <msb>2</msb>
+          <lsb>0</lsb>
         </net>
         <net>
           <id>N103</id>
@@ -2518,42 +2574,37 @@
         <alias net1="N143" lsb1="0" msb1="2" net2="N142" lsb2="0" msb2="2" />
         <alias net1="N148" lsb1="0" msb1="2" net2="N109" lsb2="21" msb2="23" />
         <alias net1="N148" lsb1="0" msb1="2" net2="N147" lsb2="0" msb2="2" />
-        <alias net1="N156" lsb1="0" msb1="27" net2="N155" lsb2="0" msb2="27" />
-        <alias net1="N158" lsb1="0" msb1="2" net2="N156" lsb2="10" msb2="12" />
-        <alias net1="N158" lsb1="0" msb1="2" net2="N157" lsb2="0" msb2="2" />
-        <alias net1="N163" lsb1="0" msb1="2" net2="N156" lsb2="13" msb2="15" />
-        <alias net1="N163" lsb1="0" msb1="2" net2="N162" lsb2="0" msb2="2" />
-        <alias net1="N168" lsb1="0" msb1="1" net2="N156" lsb2="20" msb2="21" />
-        <alias net1="N168" lsb1="0" msb1="1" net2="N167" lsb2="0" msb2="1" />
-        <alias net1="N172" lsb1="0" msb1="1" net2="N156" lsb2="22" msb2="23" />
-        <alias net1="N172" lsb1="0" msb1="1" net2="N171" lsb2="0" msb2="1" />
-        <alias net1="N176" lsb1="0" msb1="1" net2="N156" lsb2="26" msb2="27" />
-        <alias net1="N176" lsb1="0" msb1="1" net2="N175" lsb2="0" msb2="1" />
-        <alias net1="N180" lsb1="0" msb1="1" net2="N156" lsb2="24" msb2="25" />
-        <alias net1="N180" lsb1="0" msb1="1" net2="N179" lsb2="0" msb2="1" />
-        <alias net1="N184" lsb1="-1" msb1="-1" net2="N156" lsb2="6" msb2="6" />
-        <alias net1="N184" lsb1="-1" msb1="-1" net2="N183" lsb2="-1" msb2="-1" />
-        <alias net1="N186" lsb1="-1" msb1="-1" net2="N156" lsb2="5" msb2="5" />
-        <alias net1="N186" lsb1="-1" msb1="-1" net2="N185" lsb2="-1" msb2="-1" />
-        <alias net1="N188" lsb1="-1" msb1="-1" net2="N156" lsb2="4" msb2="4" />
-        <alias net1="N188" lsb1="-1" msb1="-1" net2="N187" lsb2="-1" msb2="-1" />
-        <alias net1="N190" lsb1="-1" msb1="-1" net2="N156" lsb2="3" msb2="3" />
-        <alias net1="N190" lsb1="-1" msb1="-1" net2="N189" lsb2="-1" msb2="-1" />
-        <alias net1="N192" lsb1="-1" msb1="-1" net2="N156" lsb2="2" msb2="2" />
-        <alias net1="N192" lsb1="-1" msb1="-1" net2="N191" lsb2="-1" msb2="-1" />
-        <alias net1="N194" lsb1="-1" msb1="-1" net2="N156" lsb2="1" msb2="1" />
-        <alias net1="N194" lsb1="-1" msb1="-1" net2="N193" lsb2="-1" msb2="-1" />
-        <alias net1="N196" lsb1="-1" msb1="-1" net2="N156" lsb2="0" msb2="0" />
-        <alias net1="N196" lsb1="-1" msb1="-1" net2="N195" lsb2="-1" msb2="-1" />
-        <alias net1="N198" lsb1="0" msb1="2" net2="N156" lsb2="7" msb2="9" />
-        <alias net1="N198" lsb1="0" msb1="2" net2="N197" lsb2="0" msb2="2" />
-        <alias net1="N202" lsb1="0" msb1="1" net2="N156" lsb2="16" msb2="17" />
-        <alias net1="N202" lsb1="0" msb1="1" net2="N201" lsb2="0" msb2="1" />
-        <alias net1="N206" lsb1="0" msb1="1" net2="N156" lsb2="18" msb2="19" />
-        <alias net1="N206" lsb1="0" msb1="1" net2="N205" lsb2="0" msb2="1" />
         <alias net1="N211" lsb1="-1" msb1="-1" net2="N210" lsb2="-1" msb2="-1" />
         <alias net1="N215" lsb1="-1" msb1="-1" net2="N214" lsb2="-1" msb2="-1" />
         <alias net1="N217" lsb1="-1" msb1="-1" net2="N216" lsb2="-1" msb2="-1" />
+        <alias net1="N220" lsb1="-1" msb1="-1" net2="N219" lsb2="-1" msb2="-1" />
+        <alias net1="N222" lsb1="-1" msb1="-1" net2="N221" lsb2="-1" msb2="-1" />
+        <alias net1="N224" lsb1="-1" msb1="-1" net2="N223" lsb2="-1" msb2="-1" />
+        <alias net1="N226" lsb1="-1" msb1="-1" net2="N225" lsb2="-1" msb2="-1" />
+        <alias net1="N228" lsb1="0" msb1="1" net2="N227" lsb2="0" msb2="1" />
+        <alias net1="N230" lsb1="0" msb1="1" net2="N229" lsb2="0" msb2="1" />
+        <alias net1="N232" lsb1="-1" msb1="-1" net2="N231" lsb2="-1" msb2="-1" />
+        <alias net1="N234" lsb1="10" msb1="10" net2="N220" lsb2="-1" msb2="-1" />
+        <alias net1="N234" lsb1="9" msb1="9" net2="N222" lsb2="-1" msb2="-1" />
+        <alias net1="N234" lsb1="8" msb1="8" net2="N224" lsb2="-1" msb2="-1" />
+        <alias net1="N234" lsb1="7" msb1="7" net2="N226" lsb2="-1" msb2="-1" />
+        <alias net1="N234" lsb1="0" msb1="1" net2="N228" lsb2="0" msb2="1" />
+        <alias net1="N234" lsb1="2" msb1="3" net2="N230" lsb2="0" msb2="1" />
+        <alias net1="N234" lsb1="6" msb1="6" net2="N232" lsb2="-1" msb2="-1" />
+        <alias net1="N234" lsb1="0" msb1="10" net2="N233" lsb2="0" msb2="10" />
+        <alias net1="N236" lsb1="-1" msb1="-1" net2="N234" lsb2="5" msb2="5" />
+        <alias net1="N236" lsb1="-1" msb1="-1" net2="N235" lsb2="-1" msb2="-1" />
+        <alias net1="N238" lsb1="-1" msb1="-1" net2="N234" lsb2="4" msb2="4" />
+        <alias net1="N238" lsb1="-1" msb1="-1" net2="N237" lsb2="-1" msb2="-1" />
+        <alias net1="N240" lsb1="0" msb1="11" net2="N239" lsb2="0" msb2="11" />
+        <alias net1="N242" lsb1="0" msb1="2" net2="N240" lsb2="0" msb2="2" />
+        <alias net1="N242" lsb1="0" msb1="2" net2="N241" lsb2="0" msb2="2" />
+        <alias net1="N244" lsb1="0" msb1="2" net2="N240" lsb2="3" msb2="5" />
+        <alias net1="N244" lsb1="0" msb1="2" net2="N243" lsb2="0" msb2="2" />
+        <alias net1="N246" lsb1="0" msb1="2" net2="N240" lsb2="6" msb2="8" />
+        <alias net1="N246" lsb1="0" msb1="2" net2="N245" lsb2="0" msb2="2" />
+        <alias net1="N248" lsb1="0" msb1="2" net2="N240" lsb2="9" msb2="11" />
+        <alias net1="N248" lsb1="0" msb1="2" net2="N247" lsb2="0" msb2="2" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -5861,6 +5912,12 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
+          <netScope ref="clkgen_io">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
           <netScope ref="fpga_pg">
             <pageScope number="1">
               <scope>interface</scope>
@@ -5878,7 +5935,7 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
-          <netScope ref="timing">
+          <netScope ref="sfp_data_io">
             <pageScope number="1">
               <scope>interface</scope>
               <direction>inout</direction>
@@ -5958,6 +6015,25 @@
               <net ref="cdr_data_in_n1"></net>
               <net ref="cdr_data_in_p0"></net>
               <net ref="cdr_data_in_p1"></net>
+              <net ref="clk_i2c_scl"></net>
+              <net ref="clk_i2c_sda"></net>
+              <net ref="clk_sel0"></net>
+              <net ref="clk_sel1"></net>
+              <net ref="clkgen_clk_n">
+                <msb>1</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="clkgen_clk_p">
+                <msb>1</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="clkgen_intr"></net>
+              <net ref="clkgen_io">
+                <msb>10</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="clkgen_lol"></net>
+              <net ref="clkgen_rst"></net>
               <net ref="fpga_i2c_scl"></net>
               <net ref="fpga_i2c_sda"></net>
               <net ref="fpga_pg"></net>
@@ -6013,13 +6089,21 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="sfp_data_io">
+                <msb>11</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="sfp_data_out_n">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="sfp_data_out_p">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="tck"></net>
               <net ref="tdi"></net>
               <net ref="tdo"></net>
-              <net ref="timing">
-                <msb>27</msb>
-                <lsb>0</lsb>
-              </net>
               <net ref="timing.cdr_clk_in_n">
                 <msb>2</msb>
                 <lsb>0</lsb>
@@ -6050,9 +6134,8 @@
               <net ref="timing.clk_sel1"></net>
               <net ref="timing.clkgen_intr"></net>
               <net ref="timing.clkgen_lol"></net>
-              <net ref="timing.clkgen_rst"></net>
               <net ref="timing.sfp_sel">
-                <msb>2</msb>
+                <msb>1</msb>
                 <lsb>0</lsb>
               </net>
               <net ref="timing.upstream_data_n">
@@ -6064,6 +6147,14 @@
                 <lsb>0</lsb>
               </net>
               <net ref="tms"></net>
+              <net ref="upstream_data_n">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="upstream_data_p">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="vcc3v3"></net>
               <net ref="vccio_0"></net>
               <net ref="vccio_1"></net>
