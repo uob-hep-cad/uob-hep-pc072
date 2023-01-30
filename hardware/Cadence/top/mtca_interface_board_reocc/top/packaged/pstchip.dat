@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 23-Jan-2023 AT 17:12:17 }
+{ Packager-XL run on 30-Jan-2023 AT 10:14:00 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -151,48 +151,6 @@ primitive '4-CHANNEL-I2C-TCA9546APWR,4-CHB';
       PARENT_PPT_PART='4-CHANNEL-I2C-TCA9546APWR,4-CHANNEL-I2C';
   end_body;
 end_primitive;
-primitive '4-SMD_CRYSTAL-ABM11W-50.0000MHB';
-  pin
-    'HOT1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND1':
-      PIN_NUMBER='(2)';
-      PINUSE='GROUND';
-    'HOT2':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND2':
-      PIN_NUMBER='(4)';
-      PINUSE='GROUND';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='Y';
-      CLASS='DISCRETE';
-      PART_NAME='4-SMD_CRYSTAL';
-      BODY_NAME='4-SMD_CRYSTAL';
-      JEDEC_TYPE='4-SMD';
-      VALUE='50MHZ';
-      DESCRIPTION='XTAL OSC XO 25.0000MHZ CMOS SMD';
-      MPN='ABM11W-50.0000MHZ-4-B1U-T3';
-      MANUFACTURER='ABRACON LLC';
-      PART_TYPE='OSCILLATOR';
-      SOURCE_PACKAGE='4-SMD_CRYSTAL';
-      PART_NUMBER='ABM11W-50.0000MHZ-4-B1U-T3';
-      PARENT_PART_TYPE='4-SMD_CRYSTAL';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='4-SMD_CRYSTAL';
-      PARENT_PPT_PART='4-SMD_CRYSTAL-ABM11W-50.0000MHZ-4-B1U-T3,4-SMD_CRYSTAL';
-  end_body;
-end_primitive;
 primitive '7X2RECPT_SMD_2MM-878321420,7X2B';
   pin
     '1':
@@ -311,146 +269,6 @@ primitive '7X2RECPT_SMD_2MM-878321420,7X2B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='7X2RECPT_SMD_2MM';
       PARENT_PPT_PART='7X2RECPT_SMD_2MM-878321420,7X2RECPT_SMD_2MM';
-  end_body;
-end_primitive;
-primitive 'ADN2814ACPZ-ADN2814ACPZ,ADN281B';
-  pin
-    'VCC1':
-      PIN_NUMBER='(1)';
-      PINUSE='POWER';
-    'VCC2':
-      PIN_NUMBER='(2)';
-      PINUSE='POWER';
-    'VREF':
-      PIN_NUMBER='(3)';
-      PINUSE='POWER';
-    'NIN':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'PIN':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'SLICEP':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'SLICEN':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VEE1':
-      PIN_NUMBER='(8)';
-      PINUSE='POWER';
-    'THRADJ':
-      PIN_NUMBER='(9)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'REFCLKP':
-      PIN_NUMBER='(10)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'REFCLKN':
-      PIN_NUMBER='(11)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VCC3':
-      PIN_NUMBER='(12)';
-      PINUSE='POWER';
-    'VEE2':
-      PIN_NUMBER='(13)';
-      PINUSE='POWER';
-    'CF2':
-      PIN_NUMBER='(14)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'CF1':
-      PIN_NUMBER='(15)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'LOL':
-      PIN_NUMBER='(16)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VEE3':
-      PIN_NUMBER='(17)';
-      PINUSE='POWER';
-    'VCC4':
-      PIN_NUMBER='(18)';
-      PINUSE='POWER';
-    'SADDR5':
-      PIN_NUMBER='(19)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'SCK':
-      PIN_NUMBER='(20)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'SDA':
-      PIN_NUMBER='(21)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'LOS':
-      PIN_NUMBER='(22)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VEE4':
-      PIN_NUMBER='(23)';
-      PINUSE='POWER';
-    'VCC5':
-      PIN_NUMBER='(24)';
-      PINUSE='POWER';
-    'CLKOUTN':
-      PIN_NUMBER='(25)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'CLKOUTP':
-      PIN_NUMBER='(26)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'SQUELCH':
-      PIN_NUMBER='(27)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'DATAOUTN':
-      PIN_NUMBER='(28)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'DATAOUTP':
-      PIN_NUMBER='(29)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VEE5':
-      PIN_NUMBER='(30)';
-      PINUSE='POWER';
-    'VCC6':
-      PIN_NUMBER='(31)';
-      PINUSE='POWER';
-    'VCC7':
-      PIN_NUMBER='(32)';
-      PINUSE='POWER';
-    'PAD':
-      PIN_NUMBER='(33)';
-      PINUSE='POWER';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='ADN2814ACPZ';
-      BODY_NAME='ADN2814ACPZ';
-      JEDEC_TYPE='QFN-32';
-      VALUE='ADN2814ACPZ';
-      DESCRIPTION='IC CLOCK/DATA RECOVERY 32LFCSP';
-      MPN='ADN2814ACPZ';
-      MANUFACTURER='ANALOG DEVICES INC.';
-      PART_TYPE='INTERFACE';
-      SOURCE_PACKAGE='ADN2814ACPZ';
-      PART_NUMBER='ADN2814ACPZ';
-      PARENT_PART_TYPE='ADN2814ACPZ';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='ADN2814ACPZ';
-      PARENT_PPT_PART='ADN2814ACPZ-ADN2814ACPZ,ADN2814ACPZ';
   end_body;
 end_primitive;
 primitive 'ATMGA128-ATMEGA128A-MU,ATMGA12A';
@@ -1008,6 +826,223 @@ primitive 'BSS138-BSS138K,BSS138-BSS138,BA';
       PARENT_PPT_PART='BSS138-BSS138K,BSS138';
   end_body;
 end_primitive;
+primitive 'CAPCERSMDCL2_0402-100NF,16V_GEA';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0402_100NF_16V_10%_X7R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X7R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0402';
+      JEDEC_TYPE='CAP0402';
+      VALUE='100nF';
+      VOLT='16V';
+      TOL='10%';
+      ALT_SYMBOLS='';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0402-100NF,16V_GEN';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0402_100NF_16V_10%_X7R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X7R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0402';
+      JEDEC_TYPE='C0402';
+      VALUE='100nF';
+      VOLT='16V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0402-100NF,16V_GEN';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0402-1NF_X7R,50V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0402_1NF_50V_10%_X7R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X7R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0402';
+      JEDEC_TYPE='C0402';
+      VALUE='1nF';
+      VOLT='50V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0402-1NF_X7R,50V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0402-1UF,16V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0402_1.0UF_16V_10%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0402';
+      JEDEC_TYPE='C0402';
+      VALUE='1uF';
+      VOLT='16V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0402-1UF,16V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0603-10UF,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_10UF_6V3_20%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='10uF';
+      VOLT='6.3V';
+      TOL='20%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-10UF,6.3V';
+  end_body;
+end_primitive;
 primitive 'CAP_NP-445-7348-2-ND,CAP_NP-44A';
   pin
     '1':
@@ -1191,43 +1226,6 @@ primitive 'CAP_NP-C0402C104K9RACTU,CAP_NPA';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_NP';
       PARENT_PPT_PART='CAP_NP-C0402C104K9RACTU,CAP_NP';
-  end_body;
-end_primitive;
-primitive 'CAP_NP-CC0402KRX7R9BB102,CAP_NA';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      PART_NAME='CAP_NP';
-      BODY_NAME='CAP_NP';
-      JEDEC_TYPE='CAP0402';
-      VALUE='1000PF';
-      DESCRIPTION='CAP CER 1000PF 50V X7R 0402';
-      MPN='CC0402KRX7R9BB102';
-      MANUFACTURER='YAGEO';
-      PART_TYPE='CERAMIC';
-      ALT_SYMBOLS='';
-      SOURCE_PACKAGE='CAP_NP';
-      PART_NUMBER='CC0402KRX7R9BB102';
-      PARENT_PART_TYPE='CAP_NP';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CAP_NP';
-      PARENT_PPT_PART='CAP_NP-CC0402KRX7R9BB102,CAP_NP';
   end_body;
 end_primitive;
 primitive 'CAP_NP-GRM152R60J105ME15D,CAP_B';
@@ -1524,43 +1522,6 @@ primitive 'CAP_NP-GRT155R61E105ME01D,CAP_B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_NP';
       PARENT_PPT_PART='CAP_NP-GRT155R61E105ME01D,CAP_NP';
-  end_body;
-end_primitive;
-primitive 'CAP_NP-PCC050CQTR-ND,CAP_NP-CAA';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      PART_NAME='CAP_NP';
-      BODY_NAME='CAP_NP';
-      JEDEC_TYPE='CAP0402';
-      VALUE='5.0PF';
-      DESCRIPTION='CAP 5.0PF 50V CERAMIC 0402 SMD';
-      MPN='ECU-E1H050CCQ';
-      MANUFACTURER='PANASONIC - SCD';
-      PART_TYPE='CERAMIC';
-      ALT_SYMBOLS='';
-      SOURCE_PACKAGE='CAP_NP';
-      PART_NUMBER='PCC050CQTR-ND';
-      PARENT_PART_TYPE='CAP_NP';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CAP_NP';
-      PARENT_PPT_PART='CAP_NP-PCC050CQTR-ND,CAP_NP';
   end_body;
 end_primitive;
 primitive 'CAP_NP_0-445-7348-2-ND,CAP_NP_A';
@@ -3763,91 +3724,60 @@ primitive 'LTC2945CUD-LTC2945CUD,LTC2945CB';
       PARENT_PPT_PART='LTC2945CUD-LTC2945CUD,LTC2945CUD';
   end_body;
 end_primitive;
-primitive 'MAX9152ESE_T-MAX9152ESE+T,MAX9B';
+primitive 'MAX9381ESA_SMD-MAX9381ESA';
   pin
-    'SEL1':
+    'D':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'SEL0':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN0+':
+    'CLK':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'IN0-':
+    'VEE':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'Q':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'Q*':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'CLK*':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'VCC':
-      PIN_NUMBER='(5)';
-      PINUSE='POWER';
-    'IN1+':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN1-':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'RSEL':
-      PIN_NUMBER='(8)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'NC':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'OUT1-':
-      PIN_NUMBER='(10)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUT1+':
-      PIN_NUMBER='(11)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'GND':
-      PIN_NUMBER='(12)';
-      PINUSE='GROUND';
-    'OUT0-':
-      PIN_NUMBER='(13)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUT0+':
-      PIN_NUMBER='(14)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'EN1':
-      PIN_NUMBER='(15)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'EN0':
-      PIN_NUMBER='(16)';
+    'D*':
+      PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
   end_pin;
   body
+      PART_NAME='MAX9381ESA';
+      NO_LOAD_CHECK='TRUE';
+      PIN_COUNT='8';
+      BODY_NAME='MAX9381ESA';
+      JEDEC_TYPE='SOIC8';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
-      PART_NAME='MAX9152ESE_T';
-      BODY_NAME='MAX9152ESE_T';
-      JEDEC_TYPE='SOIC127P600X175-16N';
-      VALUE='MAX9152ESE+T';
-      DESCRIPTION='IC CROSSPOINT SWITCH 2X2 16SOIC';
-      MPN='MAX9152ESE+T';
-      MANUFACTURER='MAXIM INTEGRATED PRODUCTS';
-      PART_TYPE='INTERFACE';
-      SOURCE_PACKAGE='MAX9152ESE+T';
-      PART_NUMBER='MAX9152ESE+T';
-      PARENT_PART_TYPE='MAX9152ESE_T';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='MAX9152ESE_T';
-      PARENT_PPT_PART='MAX9152ESE_T-MAX9152ESE+T,MAX9152ESE+T';
+      MANUFACTURER_PART_NUMBER='MAX9381ESA+';
+      COPYRIGHT='Copyright (C) 2022 Ultra Librarian. All rights reserved.';
+      MFR_NAME='Maxim Integrated Products';
+      PART_NUMBER='MAX9381ESA';
+      PARENT_PART_TYPE='MAX9381ESA_SMD';
+      PARENT_PPT='MAX9381ESA';
+      PARENT_PPT_PART='MAX9381ESA_SMD-MAX9381ESA';
   end_body;
 end_primitive;
 primitive 'MCH_CONNECTOR1-MCH1B-EDGE-170,B';
@@ -5815,127 +5745,35 @@ primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
       PARENT_PPT_PART='MT_HOLE-MT_HOLE,MT_HOLE';
   end_body;
 end_primitive;
-primitive 'NBSG53AMNG-NBSG53AMNG,NBSG53AMB';
+primitive 'PCOAX-U.FL-R-SMT-1(10)';
   pin
-    'VTCLKB':
+    'A':
       PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'CLKB':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'CLK':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VTCLK':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VTDB':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'DB':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'D':
-      PIN_NUMBER='(7)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VTD':
-      PIN_NUMBER='(8)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VCC1':
-      PIN_NUMBER='(9)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q':
-      PIN_NUMBER='(10)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'QB':
-      PIN_NUMBER='(11)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VEE':
-      PIN_NUMBER='(12)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OLS':
-      PIN_NUMBER='(13)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SEL':
-      PIN_NUMBER='(14)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'R':
-      PIN_NUMBER='(15)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VCC2':
-      PIN_NUMBER='(16)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'GND_PAD':
-      PIN_NUMBER='(17)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
   end_pin;
   body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='NBSG53AMNG';
-      BODY_NAME='NBSG53AMNG';
-      JEDEC_TYPE='QFN16';
-      VALUE='NBSG53AMNG';
-      DESCRIPTION='IC FF D-TYPE SNGL 2BIT 16QFN';
-      MPN='NBSG53AMNG';
-      MANUFACTURER='ON SEMICONDUCTOR';
-      PART_TYPE='MEMORY DEVICES';
-      SOURCE_PACKAGE='NBSG53AMNG';
-      PART_NUMBER='NBSG53AMNG';
-      PARENT_PART_TYPE='NBSG53AMNG';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='NBSG53AMNG';
-      PARENT_PPT_PART='NBSG53AMNG-NBSG53AMNG,NBSG53AMNG';
+      PART_NAME='PCOAX';
+      BODY_NAME='PCOAX';
+      ALLOW_CONNECT='TRUE';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      CLASS='IO';
+      STATUS='Preferred';
+      PART_NUMBER='U.FL-R-SMT-1(10)';
+      MANUFACTURER='HIROSE';
+      DESCRIPTION='Ultra Small Surface Mount Coaxial Connector - U.FL Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/hirose_u-fl-r~
+-smt-1(10).pdf';
+      PINCOUNT='3';
+      SMD='YES';
+      CASE='_';
+      JEDEC_TYPE='HIROSE_U-FL-R-SMT-1_10';
+      PHYS_DES_PREFIX='J';
+      POWER_PINS='(GND:2,3)';
+      PARENT_PART_TYPE='PCOAX';
+      PARENT_PPT='PCOAX';
+      PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
   end_body;
 end_primitive;
 primitive 'R-311-24.9LRCT-ND,R-311-24.9LRA';
@@ -6965,6 +6803,84 @@ primitive 'RECPT 5X2 100MIL-RECP5X2,RECPTB';
       PARENT_PPT_PART='RECPT 5X2 100MIL-RECP5X2,RECPT 5X2 100MIL';
   end_body;
 end_primitive;
+primitive 'RSMD0402_1/16W-1K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0402_1K_1%_0.063W_100PPM';
+      VALUE='1k';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-1K,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0402_1/16W-2.2K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0402_2K2_1%_0.063W_200PPM';
+      VALUE='2.2k';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-2.2K,1%';
+  end_body;
+end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
   pin
     'CG1':
@@ -7443,6 +7359,104 @@ primitive 'SI5395A-A-GM-SI5395A-A-GM,SI53B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SI5395A-A-GM';
       PARENT_PPT_PART='SI5395A-A-GM-SI5395A-A-GM,SI5395A-A-GM';
+  end_body;
+end_primitive;
+primitive 'SIT5021AI-2DE-25E-50.000000-VDA';
+  pin
+    'ENDIS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUTN':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+  end_pin;
+  body
+      PART_NAME='OSC_6P_ENDIS_OUTP_OUTN';
+      BODY_NAME='OSC_6P_ENDIS_OUTP_OUTN';
+      PHYS_DES_PREFIX='QZ';
+      CLASS='IC';
+      STATUS='Preferred';
+      PART_NUMBER='SIT5021AI-2DE-25E-50.000000';
+      MANUFACTURER='SI TIME';
+      DESCRIPTION='2.5V 5ppm 7x5mm LVDS High Performance Differential (VC) TCXO ~
+with Output Enable - SiT5021 Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/osc_sitime_si~
+t5021.pdf';
+      PINCOUNT='6';
+      SMD='YES';
+      CASE='7.0x5.0mm';
+      JEDEC_TYPE='OSCSC254P500X700X100-6N';
+      VALUE='50MHz';
+      NC_PINS='(2)';
+      POWER_PINS='(GND:3;AVDD:6)';
+      PARENT_PART_TYPE='OSC_6P_ENDIS_OUTP_OUTN_145';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='OSC_6P_ENDIS_OUTP_OUTN';
+      PARENT_PPT_PART='SIT5021AI-2DE-25E-50.000000';
+  end_body;
+end_primitive;
+primitive 'SY58608UMG-VCC=P2V5';
+  pin
+    'VREF-AC':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'Q0':
+      PIN_NUMBER='(12)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'Q0*':
+      PIN_NUMBER='(11)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'Q1':
+      PIN_NUMBER='(10)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'Q1*':
+      PIN_NUMBER='(9)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'VT':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'IN*':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'IN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='SY58608U';
+      BODY_NAME='SY58608U';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      GROUND_NETS='GND';
+      STATUS='Preferred';
+      PART_NUMBER='SY58608UMG';
+      MANUFACTURER='MICREL';
+      DESCRIPTION='3.2Gbps Precision, 1:2 LVDS Fanout Buffer with Internal Termi~
+nation and Fail Safe Input';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/sy58608u.pdf';
+      PINCOUNT='17';
+      SMD='YES';
+      CASE='QFN16';
+      JEDEC_TYPE='QFN50P300X300X90-17N-S160';
+      POWER_PINS='(P2V5:5,8,13,16;GND:6,7,14,15,17)';
+      PARENT_PART_TYPE='SY58608U_QFN';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='SY58608U';
+      PARENT_PPT_PART='SY58608UMG';
   end_body;
 end_primitive;
 primitive 'TE0712 CONNECTOR-JB1-LSHM-150-B';
