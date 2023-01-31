@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-31T16:28:48</modificationTime>
+    <modificationTime>2023-01-31T16:52:12</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>112</instanceid>
-        <netid>295</netid>
+        <netid>297</netid>
         <insttermid>854</insttermid>
       </lastids>
       <cells>
@@ -2297,18 +2297,6 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N175</id>
-          <name>timing.cdr_lol</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N179</id>
-          <name>timing.cdr_los</name>
-          <msb>1</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N183</id>
           <name>timing.clk_i2c_scl</name>
         </net>
@@ -2559,6 +2547,18 @@
           <name>page2_vref_jtag</name>
         </net>
         <net>
+          <id>N296</id>
+          <name>page2_bp.data_out_n</name>
+          <msb>11</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N297</id>
+          <name>page2_bp.data_out_p</name>
+          <msb>11</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
           <id>N103</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -2653,6 +2653,8 @@
         <alias net1="N293" lsb1="-1" msb1="-1" net2="N210" lsb2="-1" msb2="-1" />
         <alias net1="N294" lsb1="-1" msb1="-1" net2="N214" lsb2="-1" msb2="-1" />
         <alias net1="N295" lsb1="-1" msb1="-1" net2="N216" lsb2="-1" msb2="-1" />
+        <alias net1="N296" lsb1="0" msb1="11" net2="N50" lsb2="0" msb2="11" />
+        <alias net1="N297" lsb1="0" msb1="11" net2="N64" lsb2="0" msb2="11" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -3858,28 +3860,24 @@
               <id>M445</id>
               <termid>T16</termid>
               <connections>
-                <connection net="N50" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M446</id>
               <termid>T17</termid>
               <connections>
-                <connection net="N64" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M447</id>
               <termid>T18</termid>
               <connections>
-                <connection net="N50" netmsb="6" netlsb="6" />
               </connections>
             </pin>
             <pin>
               <id>M448</id>
               <termid>T19</termid>
               <connections>
-                <connection net="N64" netmsb="6" netlsb="6" />
               </connections>
             </pin>
             <pin>
@@ -3898,14 +3896,12 @@
               <id>M451</id>
               <termid>T22</termid>
               <connections>
-                <connection net="N50" netmsb="7" netlsb="7" />
               </connections>
             </pin>
             <pin>
               <id>M452</id>
               <termid>T23</termid>
               <connections>
-                <connection net="N64" netmsb="7" netlsb="7" />
               </connections>
             </pin>
             <pin>
@@ -3938,14 +3934,12 @@
               <id>M457</id>
               <termid>T28</termid>
               <connections>
-                <connection net="N50" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M458</id>
               <termid>T29</termid>
               <connections>
-                <connection net="N64" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
@@ -3964,14 +3958,12 @@
               <id>M461</id>
               <termid>T32</termid>
               <connections>
-                <connection net="N50" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M462</id>
               <termid>T33</termid>
               <connections>
-                <connection net="N64" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4030,28 +4022,24 @@
               <id>M471</id>
               <termid>T42</termid>
               <connections>
-                <connection net="N175" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M472</id>
               <termid>T43</termid>
               <connections>
-                <connection net="N175" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M473</id>
               <termid>T44</termid>
               <connections>
-                <connection net="N179" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M474</id>
               <termid>T45</termid>
               <connections>
-                <connection net="N179" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4244,14 +4232,12 @@
               <id>M503</id>
               <termid>T74</termid>
               <connections>
-                <connection net="N96" />
               </connections>
             </pin>
             <pin>
               <id>M504</id>
               <termid>T75</termid>
               <connections>
-                <connection net="N97" />
               </connections>
             </pin>
             <pin>
@@ -6320,14 +6306,6 @@
                 <lsb>0</lsb>
               </net>
               <net ref="timing.cdr_data_in_p">
-                <msb>1</msb>
-                <lsb>0</lsb>
-              </net>
-              <net ref="timing.cdr_lol">
-                <msb>1</msb>
-                <lsb>0</lsb>
-              </net>
-              <net ref="timing.cdr_los">
                 <msb>1</msb>
                 <lsb>0</lsb>
               </net>
