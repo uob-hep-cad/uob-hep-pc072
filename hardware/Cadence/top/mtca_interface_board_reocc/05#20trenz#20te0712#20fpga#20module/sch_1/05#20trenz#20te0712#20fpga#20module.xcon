@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-27T12:36:36</modificationTime>
+    <modificationTime>2023-01-31T15:50:47</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
-        <instanceid>55</instanceid>
-        <netid>248</netid>
-        <insttermid>426</insttermid>
+        <instanceid>56</instanceid>
+        <netid>256</netid>
+        <insttermid>427</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1851,6 +1851,23 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S14</id>
+          <library>cnconnector</library>
+          <name>con7p</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T361</id>
+              <name>a</name>
+              <direction>inout</direction>
+              <msb>6</msb>
+              <lsb>0</lsb>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -2512,6 +2529,22 @@
           <name>page1_upstream_data_p</name>
           <msb>2</msb>
           <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N253</id>
+          <name>aux_gbe_rx_n</name>
+        </net>
+        <net>
+          <id>N254</id>
+          <name>aux_gbe_rx_p</name>
+        </net>
+        <net>
+          <id>N255</id>
+          <name>aux_gbe_tx_n</name>
+        </net>
+        <net>
+          <id>N256</id>
+          <name>aux_gbe_tx_p</name>
         </net>
         <net>
           <id>N103</id>
@@ -3687,14 +3720,14 @@
               <id>M139</id>
               <termid>T124</termid>
               <connections>
-                <connection net="N185" />
+                <connection net="N183" />
               </connections>
             </pin>
             <pin>
               <id>M140</id>
               <termid>T125</termid>
               <connections>
-                <connection net="N183" />
+                <connection net="N185" />
               </connections>
             </pin>
             <pin>
@@ -4344,14 +4377,14 @@
               <id>M219</id>
               <termid>T172</termid>
               <connections>
-                <connection net="N136" netmsb="0" netlsb="0" />
+                <connection net="N253" />
               </connections>
             </pin>
             <pin>
               <id>M220</id>
               <termid>T173</termid>
               <connections>
-                <connection net="N139" netmsb="0" netlsb="0" />
+                <connection net="N254" />
               </connections>
             </pin>
             <pin>
@@ -4396,14 +4429,14 @@
               <id>M227</id>
               <termid>T180</termid>
               <connections>
-                <connection net="N120" netmsb="0" netlsb="0" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
               <id>M228</id>
               <termid>T181</termid>
               <connections>
-                <connection net="N123" netmsb="0" netlsb="0" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5897,6 +5930,28 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I56</id>
+          <cellid>S14</cellid>
+          <name>page1_i393</name>
+          <pins>
+            <pin>
+              <id>M427</id>
+              <termid>T361</termid>
+              <msb>6</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="6" pinlsb="6" net="N103" />
+                <connection pinmsb="3" pinlsb="3" net="N103" />
+                <connection pinmsb="0" pinlsb="0" net="N103" />
+                <connection pinmsb="4" pinlsb="4" net="N253" />
+                <connection pinmsb="5" pinlsb="5" net="N254" />
+                <connection pinmsb="2" pinlsb="2" net="N255" />
+                <connection pinmsb="1" pinlsb="1" net="N256" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -5965,6 +6020,10 @@
               <net ref="a0"></net>
               <net ref="a1"></net>
               <net ref="a2"></net>
+              <net ref="aux_gbe_rx_n"></net>
+              <net ref="aux_gbe_rx_p"></net>
+              <net ref="aux_gbe_tx_n"></net>
+              <net ref="aux_gbe_tx_p"></net>
               <net ref="auxio_n0"></net>
               <net ref="auxio_n1"></net>
               <net ref="auxio_n2"></net>
@@ -6217,6 +6276,7 @@
               <instance ref="350p"></instance>
               <instance ref="351p"></instance>
               <instance ref="352p"></instance>
+              <instance ref="i393"></instance>
             </instances>
           </page>
         </pages>
