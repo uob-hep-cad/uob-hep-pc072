@@ -1,28 +1,368 @@
-\t (00:00:08) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:08)     Journal start - Fri Jan 27 12:27:12 2023
-\t (00:00:08)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=20206 CPUs=20
-\t (00:00:08) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr30456 -mpshost dilbert.phy.bris.ac.uk
-\t (00:00:08) 
-   (00:00:08) Loading axlcore.cxt 
-   (00:00:08) Searching for nsWare programs v2.62
-   (00:00:08) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
-   (00:00:08) 	NsWare programs must reside in this directory!
-\t (00:00:09) Opening existing design...
-\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v2t_m4"
-\d (00:00:09) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m4.brd
-\i (00:00:10) trapsize 2068
-\i (00:00:10) trapsize 2103
-\i (00:00:10) trapsize 2110
-\i (00:00:10) trapsize 2175
-\i (00:00:10) trapsize 3929
-\i (00:00:10) generaledit 
-\i (00:01:18) zoom out 
-\i (00:01:18) setwindow pcb
-\i (00:01:18) zoom out 528.886 2176.329
-\i (00:01:18) trapsize 7857
-\i (00:01:18) zoom out 
-\i (00:01:18) setwindow pcb
-\i (00:01:18) zoom out 528.886 2176.329
-\i (00:01:18) trapsize 15715
-\i (00:22:40) exit 
-\t (00:22:41)     Journal end - Fri Jan 27 12:49:44 2023
+\t (00:00:05) allegro 17.4 S034 Linux SPB 64-bit Edition
+\t (00:00:05)     Journal start - Tue Jan 31 15:00:33 2023
+\t (00:00:05)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=7665 CPUs=20
+\t (00:00:05) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr31411 -mpshost dilbert.phy.bris.ac.uk
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+   (00:00:05) Searching for nsWare programs v2.62
+   (00:00:05) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
+   (00:00:05) 	NsWare programs must reside in this directory!
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v2t_m6"
+\d (00:00:06) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd
+\i (00:00:06) trapsize 2068
+\i (00:00:06) trapsize 2103
+\i (00:00:06) trapsize 2110
+\i (00:00:06) trapsize 2175
+\i (00:00:07) trapsize 3839
+\i (00:00:07) generaledit 
+\i (00:00:09) zoom out 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out 528.895 2167.518
+\i (00:00:09) trapsize 7678
+\i (00:00:10) zoom out 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 528.896 2167.517
+\i (00:00:10) trapsize 15356
+\i (00:00:10) zoom out 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 528.895 2167.518
+\i (00:00:10) trapsize 30712
+\i (00:00:11) zoom out 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 528.895 2167.518
+\i (00:00:11) trapsize 61424
+\i (00:00:17) place manual 
+\i (00:00:17) setwindow form.plc_manual
+\i (00:00:17) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:24) FORM plc_manual tree  TIMING1 'Components by refdes' 
+\i (00:00:24) FORM plc_manual tree 'MULTISEL YES' TIMING1 'Components by refdes' 
+\w (00:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:24) Placing TIMING1 / SY58608UMG-VCC=P2V5 / QFN50P300X300X90-17N-S160 on Bottom.
+\i (00:00:47) setwindow pcb
+\i (00:00:47) pick grid 2506.733 4243.633
+\t (00:00:47) last pick:  2507.000 4244.000
+\i (00:00:50) setwindow form.plc_manual
+\i (00:00:50) FORM plc_manual tree  U25 'Components by refdes' 
+\i (00:00:50) FORM plc_manual tree 'MULTISEL YES' U25 'Components by refdes' 
+\w (00:00:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:50) Placing U25 / LM75A-LM75AIMME/NOPB,LM75A-LM7A / TSSOP8_65P440X300MM on Bottom.
+\i (00:00:55) setwindow pcb
+\i (00:00:55) pick grid 2482.163 3764.529
+\t (00:00:55) last pick:  2482.000 3765.000
+\i (00:01:00) setwindow form.plc_manual
+\i (00:01:00) FORM plc_manual tree  IC1 'Components by refdes' 
+\i (00:01:01) FORM plc_manual tree 'MULTISEL YES' IC1 'Components by refdes' 
+\t (00:01:01) Placing IC1 / SY58608UMG-VCC=P2V5 / QFN50P300X300X90-17N-S160 on Bottom.
+\i (00:01:09) setwindow pcb
+\i (00:01:09) pick grid 3120.968 4255.917
+\t (00:01:09) last pick:  3121.000 4256.000
+\i (00:01:11) setwindow form.plc_manual
+\i (00:01:11) FORM plc_manual tree  IC2 'Components by refdes' 
+\i (00:01:11) FORM plc_manual tree 'MULTISEL YES' IC2 'Components by refdes' 
+\t (00:01:11) Placing IC2 / SY58608UMG-VCC=P2V5 / QFN50P300X300X90-17N-S160 on Bottom.
+\i (00:01:16) setwindow pcb
+\i (00:01:16) pick grid 3501.793 4292.772
+\t (00:01:16) last pick:  3502.000 4293.000
+\i (00:01:17) setwindow form.plc_manual
+\i (00:01:17) FORM plc_manual tree  IC3 'Components by refdes' 
+\i (00:01:17) FORM plc_manual tree 'MULTISEL YES' IC3 'Components by refdes' 
+\w (00:01:17) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:17) Placing IC3 / ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA / QFN50P500X500X100-33N-S285 on Bottom.
+\i (00:01:19) setwindow pcb
+\i (00:01:19) pick grid 4079.174 4231.348
+\t (00:01:19) last pick:  4079.000 4231.000
+\i (00:01:20) setwindow form.plc_manual
+\i (00:01:20) FORM plc_manual tree  IC4 'Components by refdes' 
+\i (00:01:20) FORM plc_manual tree 'MULTISEL YES' IC4 'Components by refdes' 
+\t (00:01:20) Placing IC4 / ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA / QFN50P500X500X100-33N-S285 on Bottom.
+\i (00:01:21) setwindow pcb
+\i (00:01:21) pick grid 4595.132 4157.640
+\t (00:01:21) last pick:  4595.000 4158.000
+\i (00:01:22) setwindow form.plc_manual
+\i (00:01:22) FORM plc_manual tree  J14 'Components by refdes' 
+\i (00:01:23) FORM plc_manual tree 'MULTISEL YES' J14 'Components by refdes' 
+\w (00:01:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:23) Placing J14 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10 on Bottom.
+\i (00:01:27) setwindow pcb
+\i (00:01:27) pick grid 4275.729 3641.682
+\t (00:01:27) last pick:  4276.000 3642.000
+\i (00:01:28) setwindow form.plc_manual
+\i (00:01:28) FORM plc_manual tree  J15 'Components by refdes' 
+\i (00:01:28) FORM plc_manual tree 'MULTISEL YES' J15 'Components by refdes' 
+\t (00:01:28) Placing J15 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10 on Bottom.
+\i (00:01:30) setwindow pcb
+\i (00:01:30) pick grid 3968.612 3346.850
+\t (00:01:30) last pick:  3969.000 3347.000
+\i (00:01:35) setwindow form.plc_manual
+\i (00:01:35) FORM plc_manual tree  QZ1 'Components by refdes' 
+\i (00:01:36) FORM plc_manual tree 'MULTISEL YES' QZ1 'Components by refdes' 
+\w (00:01:36) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:36) Placing QZ1 / SIT5021AI-2DE-25E-50.000000-VDA / OSCSC254P500X700X100-6N on Bottom.
+\i (00:01:39) setwindow pcb
+\i (00:01:39) pick grid 4484.569 3162.579
+\t (00:01:39) last pick:  4485.000 3163.000
+\i (00:01:53) setwindow form.plc_manual
+\i (00:01:53) FORM plc_manual done  
+\i (00:01:53) setwindow pcb
+\i (00:01:53) generaledit 
+\i (00:01:56) save 
+\i (00:01:58) fillin yes 
+\i (00:01:59) generaledit 
+\i (00:02:01) zoom in 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 528.896 2167.518
+\i (00:02:01) trapsize 30712
+\i (00:02:02) zoom in 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in 528.896 2167.518
+\i (00:02:02) trapsize 15356
+\i (00:02:04) roam start
+\i (00:02:04) roam x -48
+\i (00:02:04) roam y 32
+\i (00:02:04) roam x -736
+\i (00:02:04) roam y 592
+\i (00:02:04) roam x -880
+\i (00:02:04) roam y 736
+\i (00:02:04) roam x -928
+\i (00:02:04) roam y 864
+\i (00:02:04) roam x -960
+\i (00:02:04) roam y 896
+\i (00:02:04) roam x -960
+\i (00:02:04) roam y 944
+\i (00:02:04) roam x -960
+\i (00:02:04) roam y 944
+\i (00:02:04) roam x -944
+\i (00:02:04) roam y 928
+\i (00:02:04) roam x -800
+\i (00:02:04) roam y 848
+\i (00:02:04) roam x -704
+\i (00:02:04) roam y 752
+\i (00:02:04) roam x -576
+\i (00:02:04) roam y 672
+\i (00:02:04) roam x -416
+\i (00:02:04) roam y 528
+\i (00:02:05) roam x -368
+\i (00:02:05) roam y 480
+\i (00:02:05) roam x -352
+\i (00:02:05) roam y 480
+\i (00:02:05) roam x -352
+\i (00:02:05) roam y 448
+\i (00:02:05) roam x -320
+\i (00:02:05) roam y 432
+\i (00:02:05) roam x -304
+\i (00:02:05) roam y 416
+\i (00:02:05) roam x -240
+\i (00:02:05) roam y 352
+\i (00:02:05) roam x -224
+\i (00:02:05) roam y 336
+\i (00:02:05) roam x -176
+\i (00:02:05) roam y 320
+\i (00:02:05) roam x -176
+\i (00:02:05) roam y 304
+\i (00:02:05) roam end
+\i (00:02:06) zoom fit 
+\i (00:02:06) trapsize 31422
+\i (00:03:08) zoom in 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom in 3551.772 3060.751
+\i (00:03:08) trapsize 15711
+\i (00:03:09) zoom in 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 3551.772 3060.751
+\i (00:03:09) trapsize 7856
+\i (00:03:10) roam start
+\i (00:03:10) roam y 16
+\i (00:03:10) roam x 16
+\i (00:03:10) roam y 256
+\i (00:03:10) roam x 16
+\i (00:03:10) roam y 288
+\i (00:03:10) roam x 16
+\i (00:03:10) roam y 352
+\i (00:03:10) roam x 16
+\i (00:03:10) roam y 352
+\i (00:03:10) roam x 32
+\i (00:03:10) roam y 192
+\i (00:03:10) roam x 16
+\i (00:03:10) roam y 64
+\i (00:03:11) roam x 16
+\i (00:03:11) roam y 16
+\i (00:03:11) roam x 16
+\i (00:03:11) roam y -32
+\i (00:03:11) roam x 32
+\i (00:03:11) roam y -48
+\i (00:03:11) roam x 16
+\i (00:03:11) roam y -80
+\i (00:03:11) roam x 32
+\i (00:03:11) roam y -96
+\i (00:03:11) roam x 16
+\i (00:03:11) roam y -96
+\i (00:03:11) roam x 16
+\i (00:03:11) roam y -176
+\i (00:03:11) roam x 16
+\i (00:03:11) roam y -192
+\i (00:03:11) roam x -16
+\i (00:03:11) roam y -240
+\i (00:03:11) roam x -32
+\i (00:03:11) roam y -272
+\i (00:03:12) roam x -80
+\i (00:03:12) roam y -304
+\i (00:03:12) roam x -96
+\i (00:03:12) roam y -320
+\i (00:03:12) roam x -112
+\i (00:03:12) roam y -320
+\i (00:03:12) roam x -128
+\i (00:03:12) roam y -336
+\i (00:03:12) roam x -128
+\i (00:03:12) roam y -336
+\i (00:03:12) roam x -160
+\i (00:03:12) roam y -304
+\i (00:03:12) roam x -144
+\i (00:03:12) roam y -256
+\i (00:03:12) roam x -160
+\i (00:03:12) roam y -256
+\i (00:03:12) roam x -160
+\i (00:03:12) roam y -208
+\i (00:03:12) roam x -144
+\i (00:03:12) roam y -176
+\i (00:03:12) roam x -144
+\i (00:03:12) roam y -160
+\i (00:03:12) roam x -144
+\i (00:03:12) roam y -144
+\i (00:03:12) roam x -144
+\i (00:03:12) roam y -128
+\i (00:03:12) roam x -128
+\i (00:03:12) roam y -128
+\i (00:03:12) roam x -128
+\i (00:03:12) roam y -128
+\i (00:03:12) roam x -112
+\i (00:03:12) roam y -80
+\i (00:03:12) roam x -96
+\i (00:03:12) roam y -64
+\i (00:03:13) roam x -48
+\i (00:03:13) roam y -32
+\i (00:03:13) roam x -32
+\i (00:03:13) roam y -16
+\i (00:03:13) roam y 16
+\i (00:03:13) roam y 64
+\i (00:03:13) roam x 32
+\i (00:03:13) roam y 96
+\i (00:03:13) roam x 48
+\i (00:03:13) roam y 96
+\i (00:03:13) roam x 32
+\i (00:03:13) roam y 112
+\i (00:03:13) roam x 32
+\i (00:03:13) roam y 112
+\i (00:03:13) roam x 48
+\i (00:03:13) roam y 128
+\i (00:03:13) roam x 64
+\i (00:03:13) roam y 192
+\i (00:03:13) roam x 96
+\i (00:03:13) roam y 208
+\i (00:03:13) roam x 80
+\i (00:03:13) roam y 240
+\i (00:03:13) roam x 96
+\i (00:03:13) roam y 256
+\i (00:03:13) roam x 96
+\i (00:03:13) roam y 240
+\i (00:03:13) roam end
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:15) roam y 96 
+\i (00:03:15) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y 96 
+\i (00:03:16) roam y 96
+\i (00:03:16) roam y -96 
+\i (00:03:16) roam y -96
+\i (00:03:16) roam y -96 
+\i (00:03:16) roam y -96
+\i (00:03:16) roam y -96 
+\i (00:03:16) roam y -96
+\i (00:03:17) roam y -96 
+\i (00:03:17) roam y -96
+\i (00:03:17) roam y -96 
+\i (00:03:17) roam y -96
+\i (00:03:17) roam y -96 
+\i (00:03:17) roam y -96
+\i (00:03:17) roam y -96 
+\i (00:03:17) roam y -96
+\i (00:03:17) roam y -96 
+\i (00:03:17) roam y -96
+\i (00:03:17) roam y -96 
+\i (00:03:17) roam y -96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:18) roam x 96 
+\i (00:03:18) roam x 96
+\i (00:03:25) show element 
+\i (00:03:26) pick grid 2499.692 4209.493
+\t (00:03:26) last pick:  2500.000 4209.000
+\i (00:03:31) setwindow text
+\i (00:03:31) close
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out 3249.118 3964.397
+\i (00:03:34) trapsize 15711
+\i (00:03:36) zoom fit 
+\i (00:03:36) trapsize 31422
+\i (00:03:37) zoom fit 
+\i (00:03:37) trapsize 31422
+\i (00:03:40) exit 
+\t (00:03:40)     Journal end - Tue Jan 31 15:04:08 2023
