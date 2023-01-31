@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 30-Jan-2023 AT 10:14:00 }
+{ Packager-XL run on 31-Jan-2023 AT 14:58:38 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -269,6 +269,77 @@ primitive '7X2RECPT_SMD_2MM-878321420,7X2B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='7X2RECPT_SMD_2MM';
       PARENT_PPT_PART='7X2RECPT_SMD_2MM-878321420,7X2RECPT_SMD_2MM';
+  end_body;
+end_primitive;
+primitive 'ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA';
+  pin
+    'VREF0':
+      PIN_NUMBER='(3,3,3,3,3,3,3,3)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'VREF1':
+      PIN_NUMBER='(8,8,8,8,8,8,8,8)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'VT0':
+      PIN_NUMBER='(4,4,4,4,4,4,4,4)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'VT1':
+      PIN_NUMBER='(7,7,7,7,7,7,7,7)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK0':
+      PIN_NUMBER='(1,1,1,1,1,1,1,1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK1':
+      PIN_NUMBER='(5,5,5,5,5,5,5,5)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK0*':
+      PIN_NUMBER='(2,2,2,2,2,2,2,2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK1*':
+      PIN_NUMBER='(6,6,6,6,6,6,6,6)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'IN_SEL':
+      PIN_NUMBER='(32,32,32,32,32,32,32,32)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'Q'<0>:
+      PIN_NUMBER='(12,14,18,20,22,24,28,30)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'Q*'<0>:
+      PIN_NUMBER='(11,13,17,19,21,23,27,29)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='ADCLK948';
+      BODY_NAME='ADCLK948';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      GROUND_NETS='VEE';
+      STATUS='Preferred';
+      PART_NUMBER='ADCLK948BCPZ';
+      MANUFACTURER='ANALOG DEVICES';
+      DESCRIPTION='Two Selectable Inputs 8 LVPECL Outputs SiGe Clock Fanout Buff~
+er';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/adclk948.pdf';
+      PINCOUNT='33';
+      SMD='YES';
+      CASE='LFCSP32';
+      JEDEC_TYPE='QFN50P500X500X100-33N-S285';
+      NC_PINS='(9)';
+      POWER_PINS='(GND:33;VDD_CLK_BUFFER:10,15,16,25,26,31)';
+      PARENT_PART_TYPE='ADCLK948_LFCSP';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='ADCLK948';
+      PARENT_PPT_PART='ADCLK948BCPZ';
   end_body;
 end_primitive;
 primitive 'ATMGA128-ATMEGA128A-MU,ATMGA12A';
@@ -6881,6 +6952,45 @@ primitive 'RSMD0402_1/16W-2.2K,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-2.2K,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0402_1/16W-200,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0402_200R_1%_0.063W_200PPM';
+      VALUE='200';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-200,1%';
+  end_body;
+end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
   pin
     'CG1':
@@ -6961,130 +7071,6 @@ primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SFP_CAGE-2227023-1';
       PARENT_PPT_PART='SFP_CAGE-2227023-1-2227023-1,SFP_CAGE-2227023-1';
-  end_body;
-end_primitive;
-primitive 'SI53342-B-GM-SI53342-B-GM,SI53B';
-  pin
-    'OEAB':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'Q1B':
-      PIN_NUMBER='(2)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q1':
-      PIN_NUMBER='(3)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q0B':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q0':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VDD':
-      PIN_NUMBER='(6)';
-      PINUSE='POWER';
-    'CLK0':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CLK0B':
-      PIN_NUMBER='(8)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'NC1':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'NC2':
-      PIN_NUMBER='(10)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'CLK1':
-      PIN_NUMBER='(11)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CLK1B':
-      PIN_NUMBER='(12)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CLK_SEL':
-      PIN_NUMBER='(13)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'Q5B':
-      PIN_NUMBER='(14)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q5':
-      PIN_NUMBER='(15)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q4B':
-      PIN_NUMBER='(16)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q4':
-      PIN_NUMBER='(17)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OEBB':
-      PIN_NUMBER='(18)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VDDOB':
-      PIN_NUMBER='(19)';
-      PINUSE='POWER';
-    'Q3B':
-      PIN_NUMBER='(20)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q3':
-      PIN_NUMBER='(21)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q2B':
-      PIN_NUMBER='(22)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q2':
-      PIN_NUMBER='(23)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VDDOA':
-      PIN_NUMBER='(24)';
-      PINUSE='POWER';
-    'GND_PAD':
-      PIN_NUMBER='(25)';
-      PINUSE='GROUND';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='SI53342-B-GM';
-      BODY_NAME='SI53342-B-GM';
-      JEDEC_TYPE='QFN_24';
-      VALUE='SI53342-B-GM';
-      DESCRIPTION='2:6 LVDS BUFFER (1.25GHZ), 2:1 I';
-      MPN='SI53342-B-GM';
-      MANUFACTURER='SILICON LABS';
-      PART_TYPE='OSCILLATOR';
-      SOURCE_PACKAGE='SI53342-B-GM';
-      PART_NUMBER='SI53342-B-GM';
-      PARENT_PART_TYPE='SI53342-B-GM';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='SI53342-B-GM';
-      PARENT_PPT_PART='SI53342-B-GM-SI53342-B-GM,SI53342-B-GM';
   end_body;
 end_primitive;
 primitive 'SI5395A-A-GM-SI5395A-A-GM,SI53B';
