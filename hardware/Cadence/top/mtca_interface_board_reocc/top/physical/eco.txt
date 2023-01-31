@@ -2,1359 +2,143 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd         |
+|                                                    Tue Jan 31 16:31:14 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  BP<5>        pins ADDED TO this existing net (pins not previously on any net)
-                                 C189.2                         
+  AUX_GBE_RX_N pins ADDED TO this new net
+                                 TE1.5                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<6>        pins ADDED TO this existing net (pins not previously on any net)
-                                 C191.2                         
+  AUX_GBE_RX_P pins ADDED TO this new net
+                                 TE1.6                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<7>        pins ADDED TO this existing net (pins not previously on any net)
-                                 C193.2                         
+  AUX_GBE_TX_N pins ADDED TO this new net
+                                 TE1.3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<8>        pins ADDED TO this existing net (pins not previously on any net)
-                                 C195.2                         
+  AUX_GBE_TX_P pins ADDED TO this new net
+                                 TE1.2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<9>        pins ADDED TO this existing net (pins not previously on any net)
-                                 C197.2                         
+  CLKGEN_IO<9> net RENAMED (to net name listed on right)           CLKGEN_IO<10> 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<10>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C199.2                         
+  CLKGEN_IO<10> net RENAMED (to net name listed on right)           CLKGEN_IO<9> 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<11>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C176.2                         
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 TE1.1                          
+                                 TE1.4                          
+                                 TE1.7                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<12>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C178.2                         
+  SFP<6>       pins MOVED FROM this net (to net name listed on right)
+                                 J5.7            4149.60 2144.40
+                                                                   AUX_GBE_RX_N
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<13>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C180.2                         
+  SFP<9>       pins MOVED FROM this net (to net name listed on right)
+                                 J5.9            4149.60 2124.72
+                                                                   AUX_GBE_RX_P
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<14>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C182.2                         
+  SFP<12>      pins MOVED FROM this net (to net name listed on right)
+                                 J5.8            4003.93 2144.40
+                                                                   AUX_GBE_TX_N
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<15>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C184.2                         
+  SFP<15>      pins MOVED FROM this net (to net name listed on right)
+                                 J5.10           4003.93 2124.72
+                                                                   AUX_GBE_TX_P
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<16>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C186.2                         
+  TIMING.CLK_I2C_SCL pins MOVED FROM this net (to net name listed on right)
+                                 U18.5           5204.00 501.500
+                                                             TIMING.CLK_I2C_SDA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<17>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C188.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<18>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C190.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<20>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C194.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TIMING.CLK_I2C_SDA pins MOVED FROM this net (to net name listed on right)
+                                 U18.6           5154.00 501.500
+                                                             TIMING.CLK_I2C_SCL
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  BP<21>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C196.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<22>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C198.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<23>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C175.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<24>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C177.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<26>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C181.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<27>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C183.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  BP<28>       pins ADDED TO this existing net (pins not previously on any net)
-                                 C185.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<0> pins ADDED TO this new net
-                                 C189.1                         
-                                 IC3.29                         
-                                 R169.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<1> pins ADDED TO this new net
-                                 C191.1                         
-                                 IC3.27                         
-                                 R173.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<2> pins ADDED TO this new net
-                                 C193.1                         
-                                 IC3.23                         
-                                 R177.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<3> pins ADDED TO this new net
-                                 C195.1                         
-                                 IC3.21                         
-                                 R181.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<4> pins ADDED TO this new net
-                                 C197.1                         
-                                 IC3.19                         
-                                 R185.2                         
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DC_REF_CLK_N<5> pins ADDED TO this new net
-                                 C199.1                         
-                                 IC3.17                         
-                                 R189.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<6> pins ADDED TO this new net
-                                 C176.1                         
-                                 IC4.29                         
-                                 R170.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<7> pins ADDED TO this new net
-                                 C178.1                         
-                                 IC4.27                         
-                                 R174.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<8> pins ADDED TO this new net
-                                 C180.1                         
-                                 IC4.23                         
-                                 R178.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<9> pins ADDED TO this new net
-                                 C182.1                         
-                                 IC4.21                         
-                                 R182.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<10> pins ADDED TO this new net
-                                 C184.1                         
-                                 IC4.19                         
-                                 R186.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_N<11> pins ADDED TO this new net
-                                 C186.1                         
-                                 IC4.17                         
-                                 R190.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<0> pins ADDED TO this new net
-                                 C188.1                         
-                                 IC3.30                         
-                                 R167.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<1> pins ADDED TO this new net
-                                 C190.1                         
-                                 IC3.28                         
-                                 R171.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DC_REF_CLK_P<2> pins ADDED TO this new net
-                                 C192.1                         
-                                 IC3.24                         
-                                 R175.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<3> pins ADDED TO this new net
-                                 C194.1                         
-                                 IC3.22                         
-                                 R179.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<4> pins ADDED TO this new net
-                                 C196.1                         
-                                 IC3.20                         
-                                 R183.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<5> pins ADDED TO this new net
-                                 C198.1                         
-                                 IC3.18                         
-                                 R187.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<6> pins ADDED TO this new net
-                                 C175.1                         
-                                 IC4.30                         
-                                 R168.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<7> pins ADDED TO this new net
-                                 C177.1                         
-                                 IC4.28                         
-                                 R172.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<8> pins ADDED TO this new net
-                                 C179.1                         
-                                 IC4.24                         
-                                 R176.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<9> pins ADDED TO this new net
-                                 C181.1                         
-                                 IC4.22                         
-                                 R180.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_REF_CLK_P<10> pins ADDED TO this new net
-                                 C183.1                         
-                                 IC4.20                         
-                                 R184.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DC_REF_CLK_P<11> pins ADDED TO this new net
-                                 C185.1                         
-                                 IC4.18                         
-                                 R188.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins MOVED FROM this net (to net name listed on right)
-                                 C9.2            685.000 2419.64
-                                                  UNNAMED_3_CAPCERSMDCL2_136P_A
-                                 C147.2          636.000 2106.35
-                                                  UNNAMED_3_CAPCERSMDCL2_136P_A
-                                 C155.2          6005.00 2252.05
-                                                  UNNAMED_3_CAPCERSMDCL2_136P_A
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 C19.1           665.000 1900.35
-                                 C37.1           662.000 1664.64
-                                 C135.1          400.000 1905.35
-                                 C136.1          3249.61 1929.26
-                                 C187.1                         
-                                 R157.1                         
-                                 R158.1                         
-                                 R159.1                         
-                                 R160.1                         
-                                 R161.1                         
-                                 R162.1                         
-                                 R163.1                         
-                                 R164.1                         
-                                 R165.1                         
-                                 R166.1                         
-                                 R167.1                         
-                                 R168.1                         
-                                 R169.1                         
-                                 R170.1                         
-                                 R171.1                         
-                                 R172.1                         
-                                 R173.1                         
-                                 R174.1                         
-                                 R175.1                         
-                                 R176.1                         
-                                 R177.1                         
-                                 R178.1                         
-                                 R179.1                         
-                                 R180.1                         
-                                 R181.1                         
-                                 R182.1                         
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 R183.1                         
-                                 R184.1                         
-                                 R185.1                         
-                                 R186.1                         
-                                 R187.1                         
-                                 R188.1                         
-                                 R189.1                         
-                                 R190.1                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RCLK_N0      pins ADDED TO this existing net (pins not previously on any net)
-                                 IC3.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RCLK_N1      pins ADDED TO this existing net (pins not previously on any net)
-                                 IC4.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RCLK_P0      pins MOVED FROM this net (to net name listed on right)
-                                 R11.1           5178.71 2361.00
-                                                                            GND
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 IC3.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  RCLK_P1      pins MOVED FROM this net (to net name listed on right)
-                                 R24.1           2336.11 1831.10
-                                                                            GND
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 IC4.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_CLK1_1 pins ADDED TO this new net
-                                 IC3.5                          
-                                 R155.1                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_CLK1 pins ADDED TO this new net
-                                 IC3.6                          
-                                 R157.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_INSEL pins ADDED TO this new net
-                                 IC3.32                         
-                                 R11.2           5143.28 2361.00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_Q pins ADDED TO this new net
-                                 IC3.14                         
-                                 R165.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  UNNAMED_3_ADCLK948_I178_Q_1 pins ADDED TO this new net
-                                 IC3.13                         
-                                 R163.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_Q_2 pins ADDED TO this new net
-                                 IC3.12                         
-                                 R161.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_Q_3 pins ADDED TO this new net
-                                 IC3.11                         
-                                 R159.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I178_VREF0 pins ADDED TO this new net
-                                 C187.2                         
-                                 IC3.3                          
-                                 IC3.4                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_CLK1_1 pins ADDED TO this new net
-                                 IC4.6                          
-                                 R158.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_CLK1 pins ADDED TO this new net
-                                 IC4.5                          
-                                 R156.1                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_INSEL pins ADDED TO this new net
-                                 IC4.32                         
-                                 R24.2           2300.67 1831.10
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_Q pins ADDED TO this new net
-                                 IC4.11                         
-                                 R160.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_Q_1 pins ADDED TO this new net
-                                 IC4.12                         
-                                 R162.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_Q_2 pins ADDED TO this new net
-                                 IC4.13                         
-                                 R164.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_ADCLK948_I244_Q_3 pins ADDED TO this new net
-                                 IC4.14                         
-                                 R166.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  UNNAMED_3_ADCLK948_I244_VREF0 pins ADDED TO this new net
-                                 C139.2          6545.00 2077.64
-                                 IC4.3                          
-                                 IC4.4                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_3_CAPCERSMDCL2_136P_A pins ADDED TO this new net
-                                 C8.1            640.000 2380.35
-                                 C148.1          3430.00 2147.64
-                                 C165.1          375.000 2385.35
-                                 C166.1          5141.35 2441.00
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC3V3       pins MOVED FROM this net (to net name listed on right)
-                                 C139.1          6545.00 2038.35
-                                                                            GND
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 L3.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD1_CLK-BUFFER pins MOVED FROM this net (to net name listed on right)
-                                 C9.1            685.000 2380.35
-                                                                 VDD_CLK_BUFFER
-                                 C147.1          636.000 2145.64
-                                                                 VDD_CLK_BUFFER
-                                 C155.1          6005.00 2183.94
-                                                                 VDD_CLK_BUFFER
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD2_CLK-BUFFER pins MOVED FROM this net (to net name listed on right)
-                                 C20.1           710.000 1900.35
-                                                                 VDD_CLK_BUFFER
-                                 C38.1           705.000 1664.64
-                                                                 VDD_CLK_BUFFER
-                                 C121.1          5164.94 1726.00
-                                                                 VDD_CLK_BUFFER
-                                 L9.2                           
-                                                                 VDD_CLK_BUFFER
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDDA_CLK     pins ADDED TO this existing net (pins not previously on any net)
-                                 L3.2                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD_CLK      pins MOVED FROM this net (to net name listed on right)
-                                 C128.2                         
-                                                                       VDDA_CLK
-                                 C130.2                         
-                                                                       VDDA_CLK
-                                 C137.2                         
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                                                       VDDA_CLK
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD_CLK_BUFFER pins ADDED TO this existing net (pins not previously on any net)
-                                 C8.2            640.000 2419.64
-                                 C19.2           665.000 1939.64
-                                 C37.2           662.000 1625.35
-                                 C135.2          400.000 1944.64
-                                 C136.2          3288.89 1929.26
-                                 C148.2          3430.00 2108.35
-                                 C165.2          375.000 2424.64
-                                 C166.2          5180.64 2441.00
-                                 R155.2                         
-                                 R156.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP1V8        pins MOVED FROM this net (to net name listed on right)
-                                 C126.2                         
-                                                                         VCC3V3
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd         |
+|                                                    Tue Jan 31 16:31:14 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA
- RSMD0402_1/16W-200,1%
+ CON7P-5607-5102-SH
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  11  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- L12                 IND-BLM18AG121SN1D,IND-BLM18AGA                
- U4                  SI53342-B-GM-SI53342-B-GM,SI53B 525.000 2255.00
- U9                  SI53342-B-GM-SI53342-B-GM,SI53B 550.000 1775.00
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  12  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd         |
+|                                                    Tue Jan 31 16:31:14 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C126                CAPCERSMDCL2_0603-10UF,6.3V 
- C128                CAPCERSMDCL2_0603-10UF,6.3V 
- C130                CAPCERSMDCL2_0402-1UF,16V 
- C137                CAPCERSMDCL2_0402-100NF,16V_GEN 
- C175                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C176                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C177                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C178                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C179                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C180                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C181                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C182                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C183                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C184                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C185                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C186                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C187                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C188                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C189                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C190                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C191                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C192                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C193                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C194                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C195                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C196                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C197                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C198                CAPCERSMDCL2_0402-100NF,16V_GEA 
- C199                CAPCERSMDCL2_0402-100NF,16V_GEA 
- IC3                 ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA 
- IC4                 ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA 
- L3                  IND-BLM18AG121SN1D,IND-BLM18AGA 
- R155                RSMD0402_1/16W-1K,1%  
- R156                RSMD0402_1/16W-1K,1%  
- R157                RSMD0402_1/16W-2.2K,1% 
- R158                RSMD0402_1/16W-2.2K,1% 
- R159                RSMD0402_1/16W-200,1% 
- R160                RSMD0402_1/16W-200,1% 
- R161                RSMD0402_1/16W-200,1% 
- R162                RSMD0402_1/16W-200,1% 
- R163                RSMD0402_1/16W-200,1% 
- R164                RSMD0402_1/16W-200,1% 
- R165                RSMD0402_1/16W-200,1% 
- R166                RSMD0402_1/16W-200,1% 
- R167                RSMD0402_1/16W-200,1% 
+ TE1                 CON7P-5607-5102-SH    
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  13  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R168                RSMD0402_1/16W-200,1% 
- R169                RSMD0402_1/16W-200,1% 
- R170                RSMD0402_1/16W-200,1% 
- R171                RSMD0402_1/16W-200,1% 
- R172                RSMD0402_1/16W-200,1% 
- R173                RSMD0402_1/16W-200,1% 
- R174                RSMD0402_1/16W-200,1% 
- R175                RSMD0402_1/16W-200,1% 
- R176                RSMD0402_1/16W-200,1% 
- R177                RSMD0402_1/16W-200,1% 
- R178                RSMD0402_1/16W-200,1% 
- R179                RSMD0402_1/16W-200,1% 
- R180                RSMD0402_1/16W-200,1% 
- R181                RSMD0402_1/16W-200,1% 
- R182                RSMD0402_1/16W-200,1% 
- R183                RSMD0402_1/16W-200,1% 
- R184                RSMD0402_1/16W-200,1% 
- R185                RSMD0402_1/16W-200,1% 
- R186                RSMD0402_1/16W-200,1% 
- R187                RSMD0402_1/16W-200,1% 
- R188                RSMD0402_1/16W-200,1% 
- R189                RSMD0402_1/16W-200,1% 
- R190                RSMD0402_1/16W-200,1% 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  14  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C139                CAPCERSMDCL2_0402-100NF,16V_GEA 6545.00 2058.00 CAP_NP-GRM188R61A106KE69D,CAP_B
- R11                 RSMD0402_1/16W-1K,1%  5161.00 2361.00 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A
- R24                 RSMD0402_1/16W-1K,1%  2318.39 1831.10 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  15  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES deleted from design                                     |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R11            5161.00 2361.00 ROOM           CLK_FO_0_5
- R24            2318.39 1831.10 ROOM           CLK_FO_6_11
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  16  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C139           6545.00 2058.00 ROOM           CLK_FO_6_11
- C175                           ROOM           CLK_FO_6_11
- C176                           ROOM           CLK_FO_6_11
- C177                           ROOM           CLK_FO_6_11
- C178                           ROOM           CLK_FO_6_11
- C179                           ROOM           CLK_FO_6_11
- C180                           ROOM           CLK_FO_6_11
- C181                           ROOM           CLK_FO_6_11
- C182                           ROOM           CLK_FO_6_11
- C183                           ROOM           CLK_FO_6_11
- C184                           ROOM           CLK_FO_6_11
- C185                           ROOM           CLK_FO_6_11
- C186                           ROOM           CLK_FO_6_11
- C187                           ROOM           CLK_FO_6_11
- C188                           ROOM           CLK_FO_6_11
- C189                           ROOM           CLK_FO_6_11
- C190                           ROOM           CLK_FO_6_11
- C191                           ROOM           CLK_FO_6_11
- C192                           ROOM           CLK_FO_6_11
- C193                           ROOM           CLK_FO_6_11
- C194                           ROOM           CLK_FO_6_11
- C195                           ROOM           CLK_FO_6_11
- C196                           ROOM           CLK_FO_6_11
- C197                           ROOM           CLK_FO_6_11
- C198                           ROOM           CLK_FO_6_11
- C199                           ROOM           CLK_FO_6_11
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  17  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd         |
+|                                                    Tue Jan 31 16:31:14 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C8.2           640.000 2400.00 XY             (3850,-4300)
- C9.2           685.000 2400.00 XY             (3575,-4300)
- C10.2          337.000 2320.00 XY             (625,-875)
- C11.2          337.000 2270.00 XY             (625,-925)
- C19.2          665.000 1920.00 XY             (1700,-4300)
- C20.2          710.000 1920.00 XY             (1875,-4300)
- C26.2          362.000 1840.00 XY             (600,-2525)
- C30.2          362.000 1790.00 XY             (600,-2575)
- C37.2          662.000 1645.00 XY             (975,-4300)
- C38.2          705.000 1645.00 XY             (1200,-4300)
- C112.2         4879.00 1536.00 XY             (100,-4300)
- C121.2         5199.00 1726.00 XY             (750,-4300)
- C126.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C126.2                         SIZE           1
- C126.2                         XY             (975,-525)
- C128.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C128.2                         SIZE           1
- C128.2                         XY             (1625,-525)
- C130.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C130.2                         SIZE           1
- C130.2                         XY             (1875,-525)
- C135.2         400.000 1925.00 XY             (1450,-4300)
- C136.2         3269.25 1929.26 XY             (2100,-4300)
- C137.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C137.2                         SIZE           1
- C137.2                         XY             (2150,-525)
- C139.2         6545.00 2058.00 DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C139.2         6545.00 2058.00 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C139.2         6545.00 2058.00 ROOM           CLK_FO_6_11
- C139.2         6545.00 2058.00 SIZE           1
- C139.2         6545.00 2058.00 XY             (950,-2275)
- C147.2         636.000 2126.00 XY             (2900,-4300)
- C148.2         3430.00 2128.00 XY             (2650,-4325)
- C155.2         6005.00 2218.00 XY             (2450,-4300)
- C165.2         375.000 2405.00 XY             (3100,-4300)
- C166.2         5161.00 2441.00 XY             (3375,-4300)
- C175.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C175.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C175.2                         ROOM           CLK_FO_6_11
- C175.2                         SIZE           1
- C175.2                         XY             (2625,-2275)
- C176.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C176.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C176.2                         ROOM           CLK_FO_6_11
- C176.2                         SIZE           1
+ C1.2           3128.00 2710.00 XY             (5975,-5650)
+ C2.2           3175.00 2710.00 XY             (5975,-5600)
+ C16.2          4414.00 2104.00 XY             (3875,-8250)
+ C17.2          4414.00 2060.00 XY             (3875,-8200)
+ C39.2          3890.00 1630.00 XY             (3875,-8700)
+ C40.2          3890.00 1585.00 XY             (3875,-8750)
+ C41.2          3762.00 1508.00 XY             (9750,-6450)
+ C42.2          4351.00 1490.00 XY             (3875,-8500)
+ C43.2          3986.00 1448.00 XY             (8975,-4650)
+ C44.2          4352.00 1445.00 XY             (3875,-8450)
+ C45.2          3986.00 1404.00 XY             (8975,-4600)
+ C164.2         420.000 2405.00 XY             (9500,-6450)
+ J1.6           3250.00 2549.92 XY             (4925,-5350)
+ J4.9           1481.00 2034.00 XY             (4275,-6500)
+ J5.55          4074.80 1918.03 XY             (4925,-8000)
+ J8.7           3250.00 1290.07 XY             (8075,-5300)
+ MH1.1          2383.85 2587.32 XY             (6375,-6975)
+ MH2.1          4116.14 2587.32 XY             (6725,-6975)
+ MH3.1          2383.85 1248.74 XY             (7125,-7000)
+ MH4.1          4116.14 1248.74 XY             (7575,-7000)
+ R13.2          395.000 2295.00 XY             (3750,-4550)
+ R31.2          5199.00 1646.00 XY             (6925,-5525)
+ R33.2          2514.00 1618.00 XY             (6825,-5525)
+ R106.2         270.000 1100.00 XY             (6900,-4275)
+ R136.2         5680.00 2263.00 XY             (6175,-6575)
+ TE1.7                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con7p/chips/chips.prt
+ TE1.7                          XY             (6100,-7400)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  18  |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C176.2                         XY             (2850,-2325)
- C177.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C177.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C177.2                         ROOM           CLK_FO_6_11
- C177.2                         SIZE           1
- C177.2                         XY             (3075,-2375)
- C178.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C178.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C178.2                         ROOM           CLK_FO_6_11
- C178.2                         SIZE           1
- C178.2                         XY             (3300,-2425)
- C179.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C179.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C179.2                         ROOM           CLK_FO_6_11
- C179.2                         SIZE           1
- C179.2                         XY             (3525,-2475)
- C180.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C180.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C180.2                         ROOM           CLK_FO_6_11
- C180.2                         SIZE           1
- C180.2                         XY             (3750,-2525)
- C181.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C181.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C181.2                         ROOM           CLK_FO_6_11
- C181.2                         SIZE           1
- C181.2                         XY             (3975,-2575)
- C182.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C182.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C182.2                         ROOM           CLK_FO_6_11
- C182.2                         SIZE           1
- C182.2                         XY             (4200,-2625)
- C183.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C183.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C183.2                         ROOM           CLK_FO_6_11
- C183.2                         SIZE           1
- C183.2                         XY             (4425,-2675)
- C184.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C184.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C184.2                         ROOM           CLK_FO_6_11
- C184.2                         SIZE           1
- C184.2                         XY             (4650,-2725)
- C185.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C185.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C185.2                         ROOM           CLK_FO_6_11
- C185.2                         SIZE           1
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  19  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C185.2                         XY             (4875,-2775)
- C186.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C186.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C186.2                         ROOM           CLK_FO_6_11
- C186.2                         SIZE           1
- C186.2                         XY             (5100,-2825)
- C187.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C187.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C187.2                         ROOM           CLK_FO_6_11
- C187.2                         SIZE           1
- C187.2                         XY             (950,-625)
- C188.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C188.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C188.2                         ROOM           CLK_FO_6_11
- C188.2                         SIZE           1
- C188.2                         XY             (2625,-625)
- C189.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C189.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C189.2                         ROOM           CLK_FO_6_11
- C189.2                         SIZE           1
- C189.2                         XY             (2850,-675)
- C190.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C190.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C190.2                         ROOM           CLK_FO_6_11
- C190.2                         SIZE           1
- C190.2                         XY             (3075,-725)
- C191.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C191.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C191.2                         ROOM           CLK_FO_6_11
- C191.2                         SIZE           1
- C191.2                         XY             (3300,-775)
- C192.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C192.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C192.2                         ROOM           CLK_FO_6_11
- C192.2                         SIZE           1
- C192.2                         XY             (3525,-825)
- C193.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C193.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C193.2                         ROOM           CLK_FO_6_11
- C193.2                         SIZE           1
- C193.2                         XY             (3750,-875)
- C194.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C194.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C194.2                         ROOM           CLK_FO_6_11
- C194.2                         SIZE           1
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  20  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C194.2                         XY             (3975,-925)
- C195.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C195.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C195.2                         ROOM           CLK_FO_6_11
- C195.2                         SIZE           1
- C195.2                         XY             (4200,-975)
- C196.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C196.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C196.2                         ROOM           CLK_FO_6_11
- C196.2                         SIZE           1
- C196.2                         XY             (4425,-1025)
- C197.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C197.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C197.2                         ROOM           CLK_FO_6_11
- C197.2                         SIZE           1
- C197.2                         XY             (4650,-1075)
- C198.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C198.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C198.2                         ROOM           CLK_FO_6_11
- C198.2                         SIZE           1
- C198.2                         XY             (4875,-1125)
- C199.2                         DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C199.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C199.2                         ROOM           CLK_FO_6_11
- C199.2                         SIZE           1
- C199.2                         XY             (5100,-1175)
- IC3.12                         HAS_FIXED_SIZE 8
- IC3.12                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.12                         SIZE           8
- IC3.12                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.12                         XY             (1500,-975)
- IC3.14                         HAS_FIXED_SIZE 8
- IC3.14                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.14                         SIZE           8
- IC3.14                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.14                         XY             (1500,-975)
- IC3.18                         HAS_FIXED_SIZE 8
- IC3.18                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.18                         SIZE           8
- IC3.18                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.18                         XY             (1500,-975)
- IC3.20                         HAS_FIXED_SIZE 8
- IC3.20                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.20                         SIZE           8
- IC3.20                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  21  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3.20                         XY             (1500,-975)
- IC3.22                         HAS_FIXED_SIZE 8
- IC3.22                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.22                         SIZE           8
- IC3.22                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.22                         XY             (1500,-975)
- IC3.24                         HAS_FIXED_SIZE 8
- IC3.24                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.24                         SIZE           8
- IC3.24                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.24                         XY             (1500,-975)
- IC3.28                         HAS_FIXED_SIZE 8
- IC3.28                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.28                         SIZE           8
- IC3.28                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.28                         XY             (1500,-975)
- IC3.30                         HAS_FIXED_SIZE 8
- IC3.30                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.30                         SIZE           8
- IC3.30                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.30                         XY             (1500,-975)
- IC4.12                         HAS_FIXED_SIZE 8
- IC4.12                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.12                         SIZE           8
- IC4.12                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.12                         XY             (1500,-2625)
- IC4.14                         HAS_FIXED_SIZE 8
- IC4.14                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.14                         SIZE           8
- IC4.14                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.14                         XY             (1500,-2625)
- IC4.18                         HAS_FIXED_SIZE 8
- IC4.18                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.18                         SIZE           8
- IC4.18                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.18                         XY             (1500,-2625)
- IC4.20                         HAS_FIXED_SIZE 8
- IC4.20                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.20                         SIZE           8
- IC4.20                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.20                         XY             (1500,-2625)
- IC4.22                         HAS_FIXED_SIZE 8
- IC4.22                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.22                         SIZE           8
- IC4.22                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  22  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC4.22                         XY             (1500,-2625)
- IC4.24                         HAS_FIXED_SIZE 8
- IC4.24                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.24                         SIZE           8
- IC4.24                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.24                         XY             (1500,-2625)
- IC4.28                         HAS_FIXED_SIZE 8
- IC4.28                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.28                         SIZE           8
- IC4.28                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.28                         XY             (1500,-2625)
- IC4.30                         HAS_FIXED_SIZE 8
- IC4.30                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.30                         SIZE           8
- IC4.30                         SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.30                         XY             (1500,-2625)
- L3.2                           NO_SWAP_GATE   
- L3.2                           PRIM_FILE      ./ind/ind/chips/chips.prt
- L3.2                           XY             (1275,-350)
- L9.2                           XY             (400,-4125)
- R11.2          5161.00 2361.00 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R11.2          5161.00 2361.00 SIZE           1
- R11.2          5161.00 2361.00 XY             (725,-1275)
- R24.2          2318.39 1831.10 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R24.2          2318.39 1831.10 SIZE           1
- R24.2          2318.39 1831.10 XY             (725,-2925)
- R155.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R155.2                         SIZE           1
- R155.2                         XY             (850,-1675)
- R156.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R156.2                         SIZE           1
- R156.2                         XY             (850,-3325)
- R157.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R157.2                         SIZE           1
- R157.2                         XY             (1100,-1675)
- R158.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R158.2                         SIZE           1
- R158.2                         XY             (1100,-3325)
- R159.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R159.2                         SIZE           1
- R159.2                         XY             (1825,-1625)
- R160.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R160.2                         SIZE           1
- R160.2                         XY             (1825,-3275)
- R161.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  23  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R161.2                         SIZE           1
- R161.2                         XY             (1950,-1450)
- R162.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R162.2                         SIZE           1
- R162.2                         XY             (1950,-3100)
- R163.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R163.2                         SIZE           1
- R163.2                         XY             (2075,-1625)
- R164.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R164.2                         SIZE           1
- R164.2                         XY             (2075,-3275)
- R165.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R165.2                         SIZE           1
- R165.2                         XY             (2200,-1450)
- R166.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R166.2                         SIZE           1
- R166.2                         XY             (2200,-3100)
- R167.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R167.2                         SIZE           1
- R167.2                         XY             (2325,-1625)
- R168.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R168.2                         SIZE           1
- R168.2                         XY             (2325,-3275)
- R169.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R169.2                         SIZE           1
- R169.2                         XY             (2450,-1450)
- R170.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R170.2                         SIZE           1
- R170.2                         XY             (2450,-3100)
- R171.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R171.2                         SIZE           1
- R171.2                         XY             (2575,-1625)
- R172.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R172.2                         SIZE           1
- R172.2                         XY             (2575,-3275)
- R173.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R173.2                         SIZE           1
- R173.2                         XY             (2700,-1450)
- R174.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R174.2                         SIZE           1
- R174.2                         XY             (2700,-3100)
- R175.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R175.2                         SIZE           1
- R175.2                         XY             (2825,-1625)
- R176.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  24  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R176.2                         SIZE           1
- R176.2                         XY             (2825,-3275)
- R177.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R177.2                         SIZE           1
- R177.2                         XY             (2950,-1450)
- R178.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R178.2                         SIZE           1
- R178.2                         XY             (2950,-3100)
- R179.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R179.2                         SIZE           1
- R179.2                         XY             (3075,-1625)
- R180.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R180.2                         SIZE           1
- R180.2                         XY             (3075,-3275)
- R181.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R181.2                         SIZE           1
- R181.2                         XY             (3200,-1450)
- R182.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R182.2                         SIZE           1
- R182.2                         XY             (3200,-3100)
- R183.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R183.2                         SIZE           1
- R183.2                         XY             (3325,-1625)
- R184.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R184.2                         SIZE           1
- R184.2                         XY             (3325,-3275)
- R185.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R185.2                         SIZE           1
- R185.2                         XY             (3450,-1450)
- R186.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R186.2                         SIZE           1
- R186.2                         XY             (3450,-3100)
- R187.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R187.2                         SIZE           1
- R187.2                         XY             (3575,-1625)
- R188.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R188.2                         SIZE           1
- R188.2                         XY             (3575,-3275)
- R189.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R189.2                         SIZE           1
- R189.2                         XY             (3700,-1450)
- R190.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R190.2                         SIZE           1
- R190.2                         XY             (3700,-3100)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  25  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd         |
+|                                                    Tue Jan 31 16:31:14 2023  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C126.1                         CDS_PINID      A(0)
- C126.2                         CDS_PINID      B(0)
- C128.1                         CDS_PINID      A(0)
- C128.2                         CDS_PINID      B(0)
- C130.1                         CDS_PINID      A(0)
- C130.2                         CDS_PINID      B(0)
- C137.1                         CDS_PINID      A(0)
- C137.2                         CDS_PINID      B(0)
- C139.1         6545.00 2038.35 CDS_PINID      A(0)
- C139.2         6545.00 2077.64 CDS_PINID      B(0)
- C175.1                         CDS_PINID      A(0)
- C175.2                         CDS_PINID      B(0)
- C176.1                         CDS_PINID      A(0)
- C176.2                         CDS_PINID      B(0)
- C177.1                         CDS_PINID      A(0)
- C177.2                         CDS_PINID      B(0)
- C178.1                         CDS_PINID      A(0)
- C178.2                         CDS_PINID      B(0)
- C179.1                         CDS_PINID      A(0)
- C179.2                         CDS_PINID      B(0)
- C180.1                         CDS_PINID      A(0)
- C180.2                         CDS_PINID      B(0)
- C181.1                         CDS_PINID      A(0)
- C181.2                         CDS_PINID      B(0)
- C182.1                         CDS_PINID      A(0)
- C182.2                         CDS_PINID      B(0)
- C183.1                         CDS_PINID      A(0)
- C183.2                         CDS_PINID      B(0)
- C184.1                         CDS_PINID      A(0)
- C184.2                         CDS_PINID      B(0)
- C185.1                         CDS_PINID      A(0)
- C185.2                         CDS_PINID      B(0)
- C186.1                         CDS_PINID      A(0)
- C186.2                         CDS_PINID      B(0)
- C187.1                         CDS_PINID      A(0)
- C187.2                         CDS_PINID      B(0)
- C188.1                         CDS_PINID      A(0)
- C188.2                         CDS_PINID      B(0)
- C189.1                         CDS_PINID      A(0)
- C189.2                         CDS_PINID      B(0)
- C190.1                         CDS_PINID      A(0)
- C190.2                         CDS_PINID      B(0)
- C191.1                         CDS_PINID      A(0)
- C191.2                         CDS_PINID      B(0)
- C192.1                         CDS_PINID      A(0)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  26  |
+ TE1.1                          CDS_PINID      A(0)
+ TE1.2                          CDS_PINID      A(1)
+ TE1.3                          CDS_PINID      A(2)
+ TE1.4                          CDS_PINID      A(3)
+ TE1.5                          CDS_PINID      A(4)
+ TE1.6                          CDS_PINID      A(5)
+ TE1.7                          CDS_PINID      A(6)
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C192.2                         CDS_PINID      B(0)
- C193.1                         CDS_PINID      A(0)
- C193.2                         CDS_PINID      B(0)
- C194.1                         CDS_PINID      A(0)
- C194.2                         CDS_PINID      B(0)
- C195.1                         CDS_PINID      A(0)
- C195.2                         CDS_PINID      B(0)
- C196.1                         CDS_PINID      A(0)
- C196.2                         CDS_PINID      B(0)
- C197.1                         CDS_PINID      A(0)
- C197.2                         CDS_PINID      B(0)
- C198.1                         CDS_PINID      A(0)
- C198.2                         CDS_PINID      B(0)
- C199.1                         CDS_PINID      A(0)
- C199.2                         CDS_PINID      B(0)
- IC3.1                          CDS_PINID      CLK0
- IC3.2                          CDS_PINID      \clk0*\
- IC3.3                          CDS_PINID      VREF0
- IC3.4                          CDS_PINID      VT0
- IC3.5                          CDS_PINID      CLK1
- IC3.6                          CDS_PINID      \clk1*\
- IC3.7                          CDS_PINID      VT1
- IC3.8                          CDS_PINID      VREF1
- IC3.11                         CDS_PINID      \q*\(7)
- IC3.12                         CDS_PINID      Q(7)
- IC3.13                         CDS_PINID      \q*\(6)
- IC3.14                         CDS_PINID      Q(6)
- IC3.17                         CDS_PINID      \q*\(5)
- IC3.18                         CDS_PINID      Q(5)
- IC3.19                         CDS_PINID      \q*\(4)
- IC3.20                         CDS_PINID      Q(4)
- IC3.21                         CDS_PINID      \q*\(3)
- IC3.22                         CDS_PINID      Q(3)
- IC3.23                         CDS_PINID      \q*\(2)
- IC3.24                         CDS_PINID      Q(2)
- IC3.27                         CDS_PINID      \q*\(1)
- IC3.28                         CDS_PINID      Q(1)
- IC3.29                         CDS_PINID      \q*\(0)
- IC3.30                         CDS_PINID      Q(0)
- IC3.32                         CDS_PINID      IN_SEL
- IC4.1                          CDS_PINID      CLK0
- IC4.2                          CDS_PINID      \clk0*\
- IC4.3                          CDS_PINID      VREF0
- IC4.4                          CDS_PINID      VT0
- IC4.5                          CDS_PINID      CLK1
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  27  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC4.6                          CDS_PINID      \clk1*\
- IC4.7                          CDS_PINID      VT1
- IC4.8                          CDS_PINID      VREF1
- IC4.11                         CDS_PINID      \q*\(7)
- IC4.12                         CDS_PINID      Q(7)
- IC4.13                         CDS_PINID      \q*\(6)
- IC4.14                         CDS_PINID      Q(6)
- IC4.17                         CDS_PINID      \q*\(5)
- IC4.18                         CDS_PINID      Q(5)
- IC4.19                         CDS_PINID      \q*\(4)
- IC4.20                         CDS_PINID      Q(4)
- IC4.21                         CDS_PINID      \q*\(3)
- IC4.22                         CDS_PINID      Q(3)
- IC4.23                         CDS_PINID      \q*\(2)
- IC4.24                         CDS_PINID      Q(2)
- IC4.27                         CDS_PINID      \q*\(1)
- IC4.28                         CDS_PINID      Q(1)
- IC4.29                         CDS_PINID      \q*\(0)
- IC4.30                         CDS_PINID      Q(0)
- IC4.32                         CDS_PINID      IN_SEL
- L3.1                           CDS_PINID      \1\
- L3.2                           CDS_PINID      \2\
- R11.1          5178.71 2361.00 CDS_PINID      A(0)
- R11.2          5143.28 2361.00 CDS_PINID      B(0)
- R24.1          2336.11 1831.10 CDS_PINID      A(0)
- R24.2          2300.67 1831.10 CDS_PINID      B(0)
- R155.1                         CDS_PINID      A(0)
- R155.2                         CDS_PINID      B(0)
- R156.1                         CDS_PINID      A(0)
- R156.2                         CDS_PINID      B(0)
- R157.1                         CDS_PINID      A(0)
- R157.2                         CDS_PINID      B(0)
- R158.1                         CDS_PINID      A(0)
- R158.2                         CDS_PINID      B(0)
- R159.1                         CDS_PINID      A(0)
- R159.2                         CDS_PINID      B(0)
- R160.1                         CDS_PINID      A(0)
- R160.2                         CDS_PINID      B(0)
- R161.1                         CDS_PINID      A(0)
- R161.2                         CDS_PINID      B(0)
- R162.1                         CDS_PINID      A(0)
- R162.2                         CDS_PINID      B(0)
- R163.1                         CDS_PINID      A(0)
- R163.2                         CDS_PINID      B(0)
- R164.1                         CDS_PINID      A(0)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  28  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R164.2                         CDS_PINID      B(0)
- R165.1                         CDS_PINID      A(0)
- R165.2                         CDS_PINID      B(0)
- R166.1                         CDS_PINID      A(0)
- R166.2                         CDS_PINID      B(0)
- R167.1                         CDS_PINID      A(0)
- R167.2                         CDS_PINID      B(0)
- R168.1                         CDS_PINID      A(0)
- R168.2                         CDS_PINID      B(0)
- R169.1                         CDS_PINID      A(0)
- R169.2                         CDS_PINID      B(0)
- R170.1                         CDS_PINID      A(0)
- R170.2                         CDS_PINID      B(0)
- R171.1                         CDS_PINID      A(0)
- R171.2                         CDS_PINID      B(0)
- R172.1                         CDS_PINID      A(0)
- R172.2                         CDS_PINID      B(0)
- R173.1                         CDS_PINID      A(0)
- R173.2                         CDS_PINID      B(0)
- R174.1                         CDS_PINID      A(0)
- R174.2                         CDS_PINID      B(0)
- R175.1                         CDS_PINID      A(0)
- R175.2                         CDS_PINID      B(0)
- R176.1                         CDS_PINID      A(0)
- R176.2                         CDS_PINID      B(0)
- R177.1                         CDS_PINID      A(0)
- R177.2                         CDS_PINID      B(0)
- R178.1                         CDS_PINID      A(0)
- R178.2                         CDS_PINID      B(0)
- R179.1                         CDS_PINID      A(0)
- R179.2                         CDS_PINID      B(0)
- R180.1                         CDS_PINID      A(0)
- R180.2                         CDS_PINID      B(0)
- R181.1                         CDS_PINID      A(0)
- R181.2                         CDS_PINID      B(0)
- R182.1                         CDS_PINID      A(0)
- R182.2                         CDS_PINID      B(0)
- R183.1                         CDS_PINID      A(0)
- R183.2                         CDS_PINID      B(0)
- R184.1                         CDS_PINID      A(0)
- R184.2                         CDS_PINID      B(0)
- R185.1                         CDS_PINID      A(0)
- R185.2                         CDS_PINID      B(0)
- R186.1                         CDS_PINID      A(0)
- R186.2                         CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  29  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Tue Jan 31 14:58:48 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R187.1                         CDS_PINID      A(0)
- R187.2                         CDS_PINID      B(0)
- R188.1                         CDS_PINID      A(0)
- R188.2                         CDS_PINID      B(0)
- R189.1                         CDS_PINID      A(0)
- R189.2                         CDS_PINID      B(0)
- R190.1                         CDS_PINID      A(0)
- R190.2                         CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :     204                                        |
-|       Comp definitions added:       2                                        |
-|       Components added      :      68                                        |
-|       Components deleted    :       3                                        |
-|       Components changed    :       3                                        |
-|       Comp property added   :      26                                        |
-|       Comp property deleted :       2                                        |
-|       Pin property added    :     188                                        |
-|       Slot property added   :     359                                        |
+|       Nets changed          :      15                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :       1                                        |
+|       Pin property added    :       7                                        |
+|       Slot property added   :      27                                        |
 |                                                                              |
-|   Total ECO changes reported:     855                                        |
+|   Total ECO changes reported:      51                                        |
 |------------------------------------------------------------------------------|

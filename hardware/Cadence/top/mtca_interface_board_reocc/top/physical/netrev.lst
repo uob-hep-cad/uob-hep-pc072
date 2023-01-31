@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev1_v2t_m5.brd                           )
+(    Drawing          : mib_rev1_v2t_m6.brd                           )
 (    Software Version : 17.4S034                                      )
-(    Date/Time        : Tue Jan 31 14:58:48 2023                      )
+(    Date/Time        : Tue Jan 31 16:31:14 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged'
 Design Directory:            '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd'
-New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd'
+Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd'
+New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m7.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m7.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
@@ -36,19 +36,15 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardwar
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C139', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
-
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Tue Jan 31 14:58:49 2023
+	Start time: Tue Jan 31 16:31:15 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Tue Jan 31 14:58:49 2023
+Finished Constraint Update	Time: Tue Jan 31 16:31:15 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -103,9 +99,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 31 14:58:47 2023
+netrev run on Jan 31 16:31:14 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 31-Jan-2023 AT 14:58:38
+   PACKAGING ON 31-Jan-2023 AT 16:31:04
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -133,8 +129,8 @@ netrev run on Jan 31 14:58:47 2023
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
-cpu time      0:00:05
-elapsed time  0:00:03
+cpu time      0:00:02
+elapsed time  0:00:01
 
