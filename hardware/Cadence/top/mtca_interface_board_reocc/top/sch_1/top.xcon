@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-27T12:46:30</modificationTime>
+    <modificationTime>2023-01-31T13:45:03</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>92</netid>
-        <insttermid>188</insttermid>
+        <netid>108</netid>
+        <insttermid>218</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -305,6 +305,12 @@
         <net>
           <id>avdd</id>
           <name>avdd</name>
+          <scope>global</scope>
+          <inherited>1</inherited>
+        </net>
+        <net>
+          <id>vdd_clk_buffer</id>
+          <name>vdd_clk_buffer</name>
           <scope>global</scope>
           <inherited>1</inherited>
         </net>
