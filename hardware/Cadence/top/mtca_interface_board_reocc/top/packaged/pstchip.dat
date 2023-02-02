@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 02-Feb-2023 AT 14:39:39 }
+{ Packager-XL run on 02-Feb-2023 AT 14:50:28 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -2000,6 +2000,46 @@ primitive 'DIODE-1N4148W-13-F,DIODE-1N414A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='DIODE';
       PARENT_PPT_PART='DIODE-1N4148W-13-F,DIODE';
+  end_body;
+end_primitive;
+primitive 'FERRITE_SMD-BLM21PG221SN1,MURAA';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='FERRITE';
+      BODY_NAME='FERRITE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_IO_CHECK='TRUE';
+      PHYS_DES_PREFIX='L';
+      STATUS='Preferred';
+      PART_NUMBER='BLM21PG221SN1';
+      MANUFACTURER='MURATA';
+      DESCRIPTION='220ohm +-25% 2000mA Chip Ferrite Bead - BLM21P Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ind_murata_BL~
+M21P-series.pdf';
+      PINCOUNT='2';
+      SMD='YES';
+      CASE='0805';
+      JEDEC_TYPE='C0805';
+      PARENT_PART_TYPE='FERRITE_SMD';
+      PARENT_PPT='FERRITE';
+      PARENT_PPT_PART='FERRITE_SMD-BLM21PG221SN1,MURATA';
   end_body;
 end_primitive;
 primitive 'HDR1X3-HDR1X3,HDR1X3-HDR1X3,HDA';

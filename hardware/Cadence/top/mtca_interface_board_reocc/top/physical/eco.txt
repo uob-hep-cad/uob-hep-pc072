@@ -2,95 +2,85 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m8.brd         |
-|                                                    Thu Feb  2 14:39:44 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
+|                                                    Thu Feb  2 14:50:32 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 J16.1                          
-                                 J16.3                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SCOPE_N      pins MOVED FROM this net (to net name listed on right)
-                                 R20.1           4720.28 1980.00
-                                                  UNNAMED_2_CAPCERSMDCL2_I367_B
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SCOPE_P      pins MOVED FROM this net (to net name listed on right)
-                                 R23.1           2336.11 1876.10
-                                                  UNNAMED_2_CAPCERSMDCL2_I366_B
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UART_RX_TO_FPGA_3V3 pins ADDED TO this new net
-                                 J5.52           4003.93 1711.33
-                                 J16.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UART_TX_FROM_FPGA_3V3 pins ADDED TO this new net
-                                 J5.48           4003.93 1750.70
-                                 J16.4                          
+  UNNAMED_3_CAPCERSMDCL2_136P_A pins MOVED FROM this net (to net name listed on right)
+                                 C8.1            640.000 2380.35
+                                                                            GND
+                                 C9.2            685.000 2419.64
+                                                                            GND
+                                 C147.2          636.000 2106.35
+                                                                            GND
+                                 C148.1          3430.00 2147.64
+                                                                            GND
+                                 C155.2          6005.00 2252.05
+                                                                            GND
+                                 C165.1          375.000 2385.35
+                                                                            GND
+                                 C166.1          5141.35 2441.00
+                                                                            GND
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m8.brd         |
-|                                                    Thu Feb  2 14:39:44 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
+|                                                    Thu Feb  2 14:50:32 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CON4P-53398-0471
+ FERRITE_SMD-BLM21PG221SN1,MURAA
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m8.brd         |
-|                                                    Thu Feb  2 14:39:44 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
+|                                                    Thu Feb  2 14:50:32 2023  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J16                 CON4P-53398-0471      
+ L9                  FERRITE_SMD-BLM21PG221SN1,MURAA                 IND-BLM18AG121SN1D,IND-BLM18AGA
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m8.brd         |
-|                                                    Thu Feb  2 14:39:44 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
+|                                                    Thu Feb  2 14:50:32 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C167.2         4735.00 2545.00 XY             (5925,-3000)
- C169.2         4986.00 2606.00 XY             (6175,-2950)
- J16.4                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/chips.prt
- J16.4                          XY             (6275,-8500)
- R17.2          4988.00 2190.00 XY             (1775,-2150)
- R20.2          4738.00 1980.00 XY             (6375,-3250)
- R23.2          2318.39 1876.10 XY             (6625,-3250)
+ L9.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
+ L9.2                           SIZE           1
+ L9.2                           XY             (425,-4125)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m8.brd         |
-|                                                    Thu Feb  2 14:39:44 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
+|                                                    Thu Feb  2 14:50:32 2023  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J16.1                          CDS_PINID      A(0)
- J16.2                          CDS_PINID      A(1)
- J16.3                          CDS_PINID      A(2)
- J16.4                          CDS_PINID      A(3)
+ L9.1                           CDS_PINID      A(0)
+ L9.2                           CDS_PINID      B(0)
 |------------------------------------------------------------------------------|
-|       Nets changed          :       8                                        |
+|       Nets changed          :       7                                        |
 |       Comp definitions added:       1                                        |
-|       Components added      :       1                                        |
-|       Pin property added    :       4                                        |
-|       Slot property added   :       7                                        |
+|       Components changed    :       1                                        |
+|       Pin property added    :       2                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:      21                                        |
+|   Total ECO changes reported:      14                                        |
 |------------------------------------------------------------------------------|

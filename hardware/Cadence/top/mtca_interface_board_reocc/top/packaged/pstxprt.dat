@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 02-Feb-2023 AT 14:39:39 }
+{ Packager-XL run on 02-Feb-2023 AT 14:50:28 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='02-Feb-2023 AT 14:39:39';
+ POST_TIME='02-Feb-2023 AT 14:50:28';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -8679,38 +8679,29 @@ occ.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\(sch_1)
  PRIM_FILE='./ind/ind/chips/chips.prt';
 
 PART_NAME
- L9 'IND-BLM18AG121SN1D,IND-BLM18AGA':;
+ L9 'FERRITE_SMD-BLM21PG221SN1,MURAA':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_140P@IND.IND(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I255@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_140p@ind.ind(chips)',
+occ.\08_ timing\(sch_1):page3_i255@cndiscrete.ferrite(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_140p@ind.ind(chips)',
- PATH='140P',
+occ.\08_ timing\(sch_1):page3_i255@cndiscrete.ferrite(chips)',
+ PATH='I255',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- RATING='0.8 A',
- DCRESISTANCE='180mOhm',
- TOLERANCE='25 %',
- SOURCE_PACKAGE='IND',
- PART_TYPE='Ferrite Bead',
- MPN='BLM18AG121SN1D',
- MANUFACTURER='Murata Electronics',
- DISTRIBUTOR_PARTNUMBER='490-1011-2-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='FERRITE BEAD 120 OHM 0603 1LN',
+ SIZE='1',
+ MODEL='MURATA',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(400,-4125)',
- ROT='1',
+ XY='(425,-4125)',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='INDC1608X95N',
- SEC='1',
- CDS_LIB='ind',
- CDS_PART_NAME='IND-BLM18AG121SN1D,IND-INDC160A',
- PART_NUMBER='BLM18AG121SN1D',
- VALUE='120  Ohm@100MHz',
- PRIM_FILE='./ind/ind/chips/chips.prt';
+ PACK_TYPE='SMD',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='FERRITE_SMD-BLM21PG221SN1,MURAA',
+ VALUE='BLM21PG221SN1',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cndiscrete/ferrite/chips/chips.prt';
 
 PART_NAME
  L10 'IND-BLM18AG121SN1D,IND-BLM18AGA':;

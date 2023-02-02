@@ -1,4 +1,4 @@
-{ Packager-XL run on 02-Feb-2023 AT 14:39:39 }
+{ Packager-XL run on 02-Feb-2023 AT 14:50:28 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "CAP_POL","105P": LOCATION = "C80" #&CDS_LOCATION = "C80" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -907,9 +907,6 @@ BODY = "CAP_NP_0","137P": LOCATION = "C26" #&CDS_LOCATION = "C26" #SEC = "1" #&S
 BODY = "CAP_NP","138P": LOCATION = "C121" #&CDS_LOCATION = "C121" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "IND","140P": LOCATION = "L9" #&CDS_LOCATION = "L9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
 BODY = "CAP_NP","141P": LOCATION = "C9" #&CDS_LOCATION = "C9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
@@ -1197,6 +1194,9 @@ BODY = "RSMD0402","I252": LOCATION = "R24" #&CDS_LOCATION = "R24" &SEC = "1" #&C
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I253": LOCATION = "R156" #&CDS_LOCATION = "R156" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "FERRITE","I255": LOCATION = "L9" #&CDS_LOCATION = "L9" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_reocc.\05 trenz te0712 fpga module\(sch_1):page1";
