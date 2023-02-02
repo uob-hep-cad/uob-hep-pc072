@@ -1,1 +1,1 @@
-mib_rev1_v2t_m7.brd
+mib_rev1_v2t_m8.brd
