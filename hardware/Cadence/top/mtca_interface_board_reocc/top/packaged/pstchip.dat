@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 02-Feb-2023 AT 14:07:31 }
+{ Packager-XL run on 02-Feb-2023 AT 14:39:39 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1640,6 +1640,46 @@ primitive 'CON20P_SFP-1367073-1-1367073-1B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CON20P_SFP-1367073-1';
       PARENT_PPT_PART='CON20P_SFP-1367073-1-1367073-1,CON20P_SFP-1367073-1';
+  end_body;
+end_primitive;
+primitive 'CON4P-53398-0471';
+  pin
+    'A'<3>:
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='CON4P';
+      BODY_NAME='CON4P';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      PHYS_DES_PREFIX='J';
+      CLASS='IO';
+      STATUS='Preferred';
+      PART_NUMBER='53398-0471';
+      MANUFACTURER='MOLEX';
+      DESCRIPTION='1.25mm PicoBlade Wire-to-Board Header';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/molex_53398-0~
+32.pdf';
+      PINCOUNT='4';
+      SMD='';
+      CASE='_';
+      JEDEC_TYPE='MOLEX_53398-0471';
+      PARENT_PART_TYPE='CON4P';
+      PARENT_PPT='CON4P';
+      PARENT_PPT_PART='CON4P-53398-0471';
   end_body;
 end_primitive;
 primitive 'CON7P-5607-5102-SH';

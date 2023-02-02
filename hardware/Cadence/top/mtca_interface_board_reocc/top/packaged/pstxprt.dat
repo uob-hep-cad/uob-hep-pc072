@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 02-Feb-2023 AT 14:07:31 }
+{ Packager-XL run on 02-Feb-2023 AT 14:39:39 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='02-Feb-2023 AT 14:07:31';
+ POST_TIME='02-Feb-2023 AT 14:39:39';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -5605,7 +5605,7 @@ occ.\08_ timing\(sch_1):page2_i367@cnpassive.capcersmdcl2(chips)',
  SIZE='1',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(6150,-3000)',
+ XY='(5925,-3000)',
  ROT='0',
  VER='1',
  PACK_TYPE='0402',
@@ -5655,7 +5655,7 @@ occ.\08_ timing\(sch_1):page2_i366@cnpassive.capcersmdcl2(chips)',
  SIZE='1',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(6425,-2950)',
+ XY='(6175,-2950)',
  ROT='0',
  VER='1',
  PACK_TYPE='0402',
@@ -8253,6 +8253,28 @@ occ.\08_ timing\(sch_1):page2_i333@cnconnector.pcoax(chips)',
 b/cnconnector/pcoax/chips/chips.prt';
 
 PART_NAME
+ J16 'CON4P-53398-0471':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I414@CNCONNECTOR.CON4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i414@cnconnector.con4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i414@cnconnector.con4p(chips)',
+ PATH='I414',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
+ TYPE='53398-0471',
+ DESIGNATORNAMEPROP='TE0712',
+ PHYS_PAGE='2',
+ XY='(6275,-8500)',
+ ROT='2',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON4P-53398-0471',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnconnector/con4p/chips/chips.prt';
+
+PART_NAME
  JTG1 'MCH_CONNECTOR2_ALT2-MCH2B-EDGEB':;
 
 SECTION_NUMBER 1
@@ -9988,7 +10010,7 @@ occ.\08_ timing\(sch_1):page2_279p@discrete.r(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(2600,-2150)',
+ XY='(1775,-2150)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -10096,7 +10118,7 @@ occ.\08_ timing\(sch_1):page2_296p@discrete.r(chips)',
  DESCRIPTION='RES SMD 49.9 OHM 1% 1/16W 0402',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(7200,-3300)',
+ XY='(6375,-3250)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -10203,7 +10225,7 @@ occ.\08_ timing\(sch_1):page2_299p@discrete.r(chips)',
  DESCRIPTION='RES SMD 49.9 OHM 1% 1/16W 0402',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(7450,-3300)',
+ XY='(6625,-3250)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',

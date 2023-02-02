@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-02T14:15:37</modificationTime>
+    <modificationTime>2023-02-02T14:47:56</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="08_ timing" view="sch_1">
       <lastids>
-        <instanceid>447</instanceid>
+        <instanceid>448</instanceid>
         <netid>392</netid>
-        <insttermid>1173</insttermid>
+        <insttermid>1175</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -688,6 +688,30 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S20</id>
+          <library>cndiscrete</library>
+          <name>ferrite</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T266</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T267</id>
+              <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -1349,10 +1373,6 @@
         <net>
           <id>N391</id>
           <name>unnamed_3_adclk948_i244_vref0</name>
-        </net>
-        <net>
-          <id>N392</id>
-          <name>unnamed_3_capcersmdcl2_136p_a</name>
         </net>
         <net>
           <id>N21</id>
@@ -2301,7 +2321,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N392" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -2358,27 +2378,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I135</id>
-          <cellid>S8</cellid>
-          <name>page3_140p</name>
-          <pins>
-            <pin>
-              <id>M449</id>
-              <termid>T77</termid>
-              <connections>
-                <connection net="N128" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M450</id>
-              <termid>T78</termid>
-              <connections>
-                <connection net="N383" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I136</id>
           <cellid>S3</cellid>
           <name>page3_141p</name>
@@ -2394,7 +2393,7 @@
               <id>M452</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N392" />
+                <connection net="N21" />
               </connections>
             </pin>
           </pins>
@@ -2440,7 +2439,7 @@
               <id>M456</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N392" />
+                <connection net="N21" />
               </connections>
             </pin>
           </pins>
@@ -2544,7 +2543,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N392" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -2569,7 +2568,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N392" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -2624,7 +2623,7 @@
               <id>M499</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N392" />
+                <connection net="N21" />
               </connections>
             </pin>
           </pins>
@@ -2665,7 +2664,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N392" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -7807,6 +7806,31 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I448</id>
+          <cellid>S20</cellid>
+          <name>page3_i255</name>
+          <pins>
+            <pin>
+              <id>M1174</id>
+              <termid>T266</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N128" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1175</id>
+              <termid>T267</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N383" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -8272,7 +8296,6 @@
               <net ref="unnamed_3_adclk948_i244_q_2"></net>
               <net ref="unnamed_3_adclk948_i244_q_3"></net>
               <net ref="unnamed_3_adclk948_i244_vref0"></net>
-              <net ref="unnamed_3_capcersmdcl2_136p_a"></net>
               <net ref="vcc3v3"></net>
               <net ref="vdd_clk_buffer"></net>
             </nets>
@@ -8281,7 +8304,6 @@
               <instance ref="136p"></instance>
               <instance ref="137p"></instance>
               <instance ref="138p"></instance>
-              <instance ref="140p"></instance>
               <instance ref="141p"></instance>
               <instance ref="142p"></instance>
               <instance ref="143p"></instance>
@@ -8363,6 +8385,7 @@
               <instance ref="i246"></instance>
               <instance ref="i252"></instance>
               <instance ref="i253"></instance>
+              <instance ref="i255"></instance>
             </instances>
           </page>
         </pages>
