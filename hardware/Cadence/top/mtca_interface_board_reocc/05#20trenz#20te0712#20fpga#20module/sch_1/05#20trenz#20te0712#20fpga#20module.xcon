@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-02T14:00:38</modificationTime>
+    <modificationTime>2023-02-02T14:33:19</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
-        <instanceid>125</instanceid>
-        <netid>305</netid>
-        <insttermid>877</insttermid>
+        <instanceid>126</instanceid>
+        <netid>307</netid>
+        <insttermid>878</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1797,6 +1797,23 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S16</id>
+          <library>cnconnector</library>
+          <name>con4p</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T381</id>
+              <name>a</name>
+              <direction>inout</direction>
+              <msb>3</msb>
+              <lsb>0</lsb>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -2388,6 +2405,14 @@
         <net>
           <id>N305</id>
           <name>p1v8_out</name>
+        </net>
+        <net>
+          <id>N306</id>
+          <name>uart_rx_to_fpga_3v3</name>
+        </net>
+        <net>
+          <id>N307</id>
+          <name>uart_tx_from_fpga_3v3</name>
         </net>
         <net>
           <id>N103</id>
@@ -4189,12 +4214,14 @@
               <id>M623</id>
               <termid>T149</termid>
               <connections>
+                <connection net="N307" />
               </connections>
             </pin>
             <pin>
               <id>M624</id>
               <termid>T150</termid>
               <connections>
+                <connection net="N306" />
               </connections>
             </pin>
             <pin>
@@ -5492,6 +5519,25 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I126</id>
+          <cellid>S16</cellid>
+          <name>page2_i414</name>
+          <pins>
+            <pin>
+              <id>M878</id>
+              <termid>T381</termid>
+              <msb>3</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="2" pinlsb="2" net="N103" />
+                <connection pinmsb="0" pinlsb="0" net="N103" />
+                <connection pinmsb="1" pinlsb="1" net="N306" />
+                <connection pinmsb="3" pinlsb="3" net="N307" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -5837,6 +5883,8 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="uart_rx_to_fpga_3v3"></net>
+              <net ref="uart_tx_from_fpga_3v3"></net>
               <net ref="vcc3v3"></net>
               <net ref="vref_jtag"></net>
             </nets>
@@ -5865,6 +5913,7 @@
               <instance ref="i411"></instance>
               <instance ref="i412"></instance>
               <instance ref="i413"></instance>
+              <instance ref="i414"></instance>
             </instances>
           </page>
         </pages>
