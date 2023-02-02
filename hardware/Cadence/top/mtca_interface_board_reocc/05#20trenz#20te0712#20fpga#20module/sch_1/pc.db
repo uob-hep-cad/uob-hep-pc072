@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S034 (4072884) 11/12/2022 on Thu Feb  2 12:56:42 2023
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S034 (4072884) 11/12/2022 on Thu Feb  2 14:00:38 2023
 #ISCELL
   bris_cds_standard a3-2000 *
   page1_10p
@@ -43,9 +43,6 @@
   page1_316p
 #CELL
   ocad_parts_lib cap_np *
-  page1_320p
-#CELL
-  ocad_parts_lib cap_np *
   page1_321p
 #CELL
   ocad_parts_lib cap_np *
@@ -59,9 +56,6 @@
 #CELL
   discrete r *
   page1_332p
-#CELL
-  ocad_parts_lib cap_np *
-  page1_334p
 #CELL
   discrete r *
   page1_336p
@@ -92,9 +86,6 @@
 #ISCELL
   mtca_interface_board portboth-r_1 *
   page1_3p
-#ISCELL
-  mtca_interface_board gnd *
-  page1_43p
 #ISCELL
   mtca_interface_board gnd *
   page1_44p
@@ -180,12 +171,6 @@
   bris_cds_standard a3-2000 *
   *
 #ISCELL
-  mtca_interface_board vcc_bar *
-  page2_130p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page2_132p
-#ISCELL
   mtca_interface_board gnd *
   page2_137p
 #ISCELL
@@ -269,3 +254,24 @@
 #CELL
   ocad_parts_lib cap_np_0 *
   page2_i406
+#ISCELL
+  cnpower p2v5 *
+  page2_i407
+#ISCELL
+  cnpower p2v5 *
+  page2_i408
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page2_i409
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page2_i410
+#CELL
+  cnpassive tp *
+  page2_i411
+#CELL
+  cnpassive tp *
+  page2_i412
+#CELL
+  cnpassive tp *
+  page2_i413
