@@ -1,53 +1,60 @@
-\t (00:00:06) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:06)     Journal start - Thu Feb  2 14:11:39 2023
-\t (00:00:06)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=24469 CPUs=20
-\t (00:00:06) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr29470 -mpshost dilbert.phy.bris.ac.uk
-\t (00:00:06) 
-   (00:00:06) Loading axlcore.cxt 
-   (00:00:06) Searching for nsWare programs v2.62
-   (00:00:06) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
-   (00:00:06) 	NsWare programs must reside in this directory!
-\t (00:00:06) Opening existing design...
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v2t_m8"
-\d (00:00:07) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m8.brd
-\i (00:00:07) trapsize 58389
-\i (00:00:07) trapsize 59367
-\i (00:00:07) trapsize 59579
-\i (00:00:07) trapsize 61424
-\i (00:00:07) trapsize 61424
-\i (00:00:08) generaledit 
-\i (00:00:21) place manual 
-\i (00:00:21) setwindow form.plc_manual
-\i (00:00:21) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:26) FORM plc_manual tree  L1 'Components by refdes' 
-\i (00:00:26) FORM plc_manual tree 'MULTISEL YES' L1 'Components by refdes' 
-\w (00:00:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:26) Placing L1 / IND-BLM18AG121SN1D,IND-BLM18AGA / INDC1608X95N on Top.
-\i (00:00:29) setwindow pcb
-\i (00:00:29) pick grid 2813.851 4692.025
-\t (00:00:29) last pick:  2814.000 4692.000
-\i (00:00:34) setwindow form.plc_manual
-\i (00:00:34) FORM plc_manual tree  TE1 'Components by refdes' 
-\i (00:00:34) FORM plc_manual tree 'MULTISEL YES' TE1 'Components by refdes' 
-\w (00:00:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:34) Placing TE1 / CON7P-5607-5102-SH / 3M_5607-5102-SH on Top.
-\i (00:00:38) setwindow pcb
-\i (00:00:38) pick grid 5270.791 4163.782
-\t (00:00:38) last pick:  5271.000 4164.000
-\i (00:00:41) setwindow form.plc_manual
-\i (00:00:41) FORM plc_manual tree  TP1 'Components by refdes' 
-\i (00:00:41) FORM plc_manual tree 'MULTISEL YES' TP1 'Components by refdes' 
-\w (00:00:41) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:41) Placing TP1 / TP_HOLE-1.0MM / TP_HOLE_10 on Top.
-\i (00:00:43) setwindow pcb
-\i (00:00:43) pick grid 5209.367 3721.533
-\t (00:00:43) last pick:  5209.000 3722.000
-\i (00:00:56) setwindow form.plc_manual
-\i (00:00:56) FORM plc_manual done  
-\i (00:00:56) setwindow pcb
-\i (00:00:56) generaledit 
-\i (00:00:59) save 
-\i (00:01:01) fillin yes 
-\i (00:01:02) generaledit 
-\i (00:01:06) exit 
-\t (00:01:06)     Journal end - Thu Feb  2 14:12:40 2023
+\t (00:00:04) allegro 17.4 S034 Linux SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Feb  2 15:08:05 2023
+\t (00:00:04)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=31984 CPUs=20
+\t (00:00:04) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mib_tongue2.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr5979 -mpshost dilbert.phy.bris.ac.uk
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+   (00:00:04) Searching for nsWare programs v2.62
+   (00:00:04) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
+   (00:00:04) 	NsWare programs must reside in this directory!
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_tongue2_m12"
+\d (00:00:04) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m12.brd
+\i (00:00:04) trapsize 40320
+\i (00:00:04) trapsize 40995
+\i (00:00:04) trapsize 41142
+\i (00:00:04) trapsize 42416
+\i (00:00:04) trapsize 42416
+\i (00:00:05) generaledit 
+\i (00:00:07) roam y -96 
+\i (00:00:07) roam y -96
+\i (00:00:07) roam y -96 
+\i (00:00:07) roam y -96
+\i (00:00:07) roam y -96 
+\i (00:00:07) roam y -96
+\i (00:00:07) roam y -96 
+\i (00:00:07) roam y -96
+\i (00:00:07) roam y -96 
+\i (00:00:07) roam y -96
+\i (00:00:08) roam y -96 
+\i (00:00:08) roam y -96
+\i (00:00:15) roam y 96 
+\i (00:00:15) roam y 96
+\i (00:00:15) roam y 96 
+\i (00:00:15) roam y 96
+\i (00:00:15) roam y 96 
+\i (00:00:15) roam y 96
+\i (00:00:15) roam y 96 
+\i (00:00:15) roam y 96
+\i (00:00:18) zoom in 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom in 3550.673 1324.127
+\i (00:00:18) trapsize 21208
+\i (00:00:20) zoom out 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 3550.674 1324.127
+\i (00:00:20) trapsize 42416
+\i (00:00:21) roam y -96 
+\i (00:00:21) roam y -96
+\i (00:00:22) roam y -96 
+\i (00:00:22) roam y -96
+\i (00:00:22) roam y 96 
+\i (00:00:22) roam y 96
+\i (00:00:22) roam y 96 
+\i (00:00:22) roam y 96
+\i (00:00:22) roam y 96 
+\i (00:00:22) roam y 96
+\i (00:00:22) roam y 96 
+\i (00:00:22) roam y 96
+\i (00:00:28) exit 
+\t (00:00:28)     Journal end - Thu Feb  2 15:08:29 2023
