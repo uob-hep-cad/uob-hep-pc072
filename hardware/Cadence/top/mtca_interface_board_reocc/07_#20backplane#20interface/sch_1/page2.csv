@@ -1,5 +1,5 @@
 FILE_TYPE = CONNECTIVITY;
-{Allegro Design Entry HDL 17.4-2019 S031 (4044358) 7/23/2022}
+{Allegro Design Entry HDL 17.4-2019 S034 (4072884) 11/12/2022}
 "PAGE_NUMBER" = 2;
 0"NC";
 1"GND";
@@ -7,10 +7,10 @@ FILE_TYPE = CONNECTIVITY;
 3"MP3V3";
 4"VP12";
 5"GND";
-6"GND";
-7"SEGMENT3";
-8"SEGMENT2";
-9"SEGMENT1";
+6"SEGMENT3";
+7"SEGMENT2";
+8"SEGMENT1";
+9"GND";
 10"BP.AMC_GA<2..0>";
 11"BP<180..0>";
 12"BP.AMC_N-PS<1..0>";
@@ -284,7 +284,7 @@ HDL_POWER"GND";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"5;
+"HOTSPOT_0"9;
 %"gnd"
 "1","(4025,-925)","0","mtca_interface_board","14P";
 ;
@@ -324,7 +324,7 @@ PRICE"0.02"
 AVAILABILITY"21 days"
 SEC"1";
 "MH_SIG \B"
-$PN"1"5;
+$PN"1"9;
 %"mt_hole"
 "1","(6175,-3225)","1","ocad_parts_lib","18P";
 ;
@@ -346,7 +346,7 @@ PRICE"0.02"
 AVAILABILITY"21 days"
 SEC"1";
 "MH_SIG \B"
-$PN"1"5;
+$PN"1"9;
 %"mch_connector1"
 "1","(2500,-2550)","0","ocad_parts_lib","19P";
 ;
@@ -758,7 +758,7 @@ PART_NUMBER"Mt_Hole"
 REUSE_ANNOTATE"TRUE"
 SEC"1";
 "MH_SIG \B"
-$PN"1"7;
+$PN"1"6;
 %"mt_hole"
 "1","(6425,-3225)","1","ocad_parts_lib","22P";
 ;
@@ -780,7 +780,7 @@ PRICE"0.02"
 AVAILABILITY"21 days"
 SEC"1";
 "MH_SIG \B"
-$PN"1"5;
+$PN"1"9;
 %"mt_hole"
 "1","(4950,-3950)","1","ocad_parts_lib","23P";
 ;
@@ -806,6 +806,8 @@ $PN"1"0;
 %"r"
 "1","(3725,-3850)","0","discrete","24P";
 ;
+VALUE"10M"
+$LOCATION"R138"
 SEC"1"
 PART_NUMBER"CRCW060310M0FKEAC"
 PART_TYPE"Thick Film"
@@ -819,16 +821,16 @@ DISTRIBUTOR"Digikey"
 SOURCE_PACKAGE"R"
 JEDEC_TYPE"res0603"
 CDS_LOCATION"R138"
-CDS_LIB"discrete"
-VALUE"10M"
-$LOCATION"R138";
+CDS_LIB"discrete";
 "1"
-$PN"1"8;
+$PN"1"7;
 "2"
-$PN"2"6;
+$PN"2"5;
 %"lshm-130-0xxx-l-dv-a-s"
 "1","(5100,-1200)","0","ocad_parts_lib","25P";
 ;
+$LOCATION"J2"
+VALUE"LSHM-130-03.0-L-DV-A-S-K-TR"
 SEC"1"
 DISTRIBUTOR"Digikey"
 DISTRIBUTOR_PARTNUMBER"SAM14110TR-ND"
@@ -844,9 +846,7 @@ PART_NUMBER"LSHM-130-03.0-L-DV-A-S-K-TR"
 SOURCE_PACKAGE"LSHM-130-0xxx-L-DV-A-S"
 JEDEC_TYPE"samtec_lshm-130-04-0-l-dv-a-s"
 CDS_LOCATION"J2"
-CDS_LIB"ocad_parts_lib"
-$LOCATION"J2"
-VALUE"LSHM-130-03.0-L-DV-A-S-K-TR";
+CDS_LIB"ocad_parts_lib";
 "1"
 $PN"1"31;
 "5"
@@ -974,6 +974,8 @@ $PN"60"92;
 %"r"
 "1","(3925,-3850)","0","discrete","26P";
 ;
+VALUE"10M"
+$LOCATION"R137"
 SEC"1"
 DISTRIBUTOR"Digikey"
 DISTRIBUTOR_PARTNUMBER"541-4048-1-ND"
@@ -987,13 +989,11 @@ PART_NUMBER"CRCW060310M0FKEAC"
 SOURCE_PACKAGE"R"
 JEDEC_TYPE"res0603"
 CDS_LOCATION"R137"
-CDS_LIB"discrete"
-VALUE"10M"
-$LOCATION"R137";
+CDS_LIB"discrete";
 "1"
-$PN"1"9;
+$PN"1"8;
 "2"
-$PN"2"7;
+$PN"2"6;
 %"lshm-150-0xxx-l-dv-a-s"
 "1","(7575,-1425)","0","ocad_parts_lib","27P";
 ;
@@ -1240,13 +1240,13 @@ PRICE"0.02"
 AVAILABILITY"21 days"
 SEC"1";
 "MH_SIG \B"
-$PN"1"5;
+$PN"1"9;
 %"gnd"
 "1","(3675,-4175)","0","mtca_interface_board","2P";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"6;
+"HOTSPOT_0"5;
 %"BUSWIDE_TOP_LEFT_RIP"
 "1","(5025,-3250)","0","default","I29";
 ;
