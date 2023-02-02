@@ -2,85 +2,22 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
-|                                                    Thu Feb  2 14:50:32 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m10.brd        |
+|                                                    Thu Feb  2 15:21:57 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  UNNAMED_3_CAPCERSMDCL2_136P_A pins MOVED FROM this net (to net name listed on right)
-                                 C8.1            640.000 2380.35
-                                                                            GND
-                                 C9.2            685.000 2419.64
-                                                                            GND
-                                 C147.2          636.000 2106.35
-                                                                            GND
-                                 C148.1          3430.00 2147.64
-                                                                            GND
-                                 C155.2          6005.00 2252.05
-                                                                            GND
-                                 C165.1          375.000 2385.35
-                                                                            GND
-                                 C166.1          5141.35 2441.00
-                                                                            GND
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ JTG1                MCH_CONNECTOR2_ALT2-MCH2B-EDGEB  88.386 4753.85
+ JTG2                LSHM-150-0XXX-L-DV-A-S-LSHM-15B 1055.95 4283.00
+ JTG3                LSHM-130-0XXX-L-DV-A-S-LSHM-13B 1055.95 5471.00
+ MTG1                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 775.000 3632.00
+ MTG2                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 420.000 3632.00
+ MTG3                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 775.000 5875.70
+ MTG4                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 420.000 5875.70
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
-|                                                    Thu Feb  2 14:50:32 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- FERRITE_SMD-BLM21PG221SN1,MURAA
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
-|                                                    Thu Feb  2 14:50:32 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- L9                  FERRITE_SMD-BLM21PG221SN1,MURAA                 IND-BLM18AG121SN1D,IND-BLM18AGA
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
-|                                                    Thu Feb  2 14:50:32 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- L9.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
- L9.2                           SIZE           1
- L9.2                           XY             (425,-4125)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m9.brd         |
-|                                                    Thu Feb  2 14:50:32 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- L9.1                           CDS_PINID      A(0)
- L9.2                           CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :       7                                        |
-|       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       3                                        |
+|       Components deleted    :       7                                        |
 |                                                                              |
-|   Total ECO changes reported:      14                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|
