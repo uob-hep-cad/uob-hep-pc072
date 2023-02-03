@@ -1,88 +1,71 @@
-\t (00:00:07) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:07)     Journal start - Thu Feb  2 15:31:37 2023
-\t (00:00:07)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=1933 CPUs=20
-\t (00:00:07) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr5979 -mpshost dilbert.phy.bris.ac.uk
-\t (00:00:07) 
-   (00:00:07) Loading axlcore.cxt 
-   (00:00:07) Searching for nsWare programs v2.62
-   (00:00:07) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
-   (00:00:07) 	NsWare programs must reside in this directory!
-\t (00:00:07) Opening existing design...
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v2t_m11"
-\d (00:00:07) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd
-\i (00:00:07) trapsize 14597
-\i (00:00:08) trapsize 14842
-\i (00:00:08) trapsize 14895
-\i (00:00:08) trapsize 15356
-\i (00:00:08) trapsize 33475
-\i (00:00:08) generaledit 
-\i (00:00:12) place manual 
-\i (00:00:13) setwindow form.plc_manual
-\i (00:00:13) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:18) FORM plc_manual tree  J16 'Components by refdes' 
-\i (00:00:18) FORM plc_manual tree 'MULTISEL YES' J16 'Components by refdes' 
-\w (00:00:18) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:18) Placing J16 / CON4P-53398-0471 / MOLEX_53398-0471 on Top.
-\i (00:00:22) setwindow pcb
-\i (00:00:22) pick grid 1208.929 3578.851
-\t (00:00:22) last pick:  1209.000 3579.000
-\i (00:00:24) setwindow form.plc_manual
-\i (00:00:24) FORM plc_manual done  
-\i (00:00:25) setwindow pcb
-\i (00:00:25) generaledit 
-\i (00:00:28) save 
-\i (00:00:31) fillin yes 
-\i (00:00:32) generaledit 
-\i (00:00:34) open 
-\i (00:00:37) fillin "menu_cancel"
-\i (00:00:37) generaledit 
-\i (00:00:56) roam start
-\i (00:00:56) roam y 16
-\i (00:00:56) roam x -16
-\i (00:00:56) roam y 320
-\i (00:00:56) roam x -16
-\i (00:00:56) roam y 400
-\i (00:00:56) roam y 464
-\i (00:00:56) roam x 16
-\i (00:00:56) roam y 464
-\i (00:00:56) roam x 32
-\i (00:00:56) roam y 480
-\i (00:00:56) roam x 32
-\i (00:00:56) roam y 480
-\i (00:00:56) roam x 48
-\i (00:00:56) roam y 512
-\i (00:00:56) roam x 48
-\i (00:00:56) roam y 496
-\i (00:00:56) roam x 48
-\i (00:00:56) roam y 496
-\i (00:00:57) roam x 64
-\i (00:00:57) roam y 432
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 352
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 288
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 256
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 256
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 224
-\i (00:00:57) roam x 32
-\i (00:00:57) roam y 240
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 208
-\i (00:00:57) roam x 32
-\i (00:00:57) roam y 208
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 192
-\i (00:00:57) roam x 32
-\i (00:00:57) roam y 192
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 176
-\i (00:00:57) roam x 32
-\i (00:00:57) roam y 176
-\i (00:00:57) roam x 48
-\i (00:00:57) roam y 160
-\i (00:00:57) roam end
-\i (00:01:01) exit 
-\t (00:01:01)     Journal end - Thu Feb  2 15:32:32 2023
+\t (00:00:12) allegro 17.4 S031 Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Fri Feb  3 14:14:55 2023
+\t (00:00:12)         Host=IT074217 User=phdgc Pid=25324 CPUs=12
+\t (00:00:12) CmdLine= allegro -proj Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr21161 -mpshost IT074217
+\t (00:00:12) 
+   (00:00:13) Loading axlcore.cxt 
+\t (00:00:13) Opening existing design...
+\i (00:00:14) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v2t_m11"
+\d (00:00:15) Design opened: Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd
+   (00:00:15) MENU FILE= allegro
+\i (00:00:15) trapsize 101019
+\i (00:00:15) trapsize 105112
+\i (00:00:15) trapsize 106342
+\i (00:00:16) trapsize 77621
+\i (00:00:16) trapsize 77621
+\i (00:00:16) signalintegrity 
+\i (00:00:22) roam y 96 
+\i (00:00:22) roam y 96
+\i (00:00:22) roam y 96 
+\i (00:00:22) roam y 96
+\i (00:00:50) 3d 
+\i (00:00:52) QtSignal 3DUniFilterDialog UniFilterOkButton clicked
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 0 "3M_5607-5102-SH"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 1 "6-WSON_2X2"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 2 "8-DIP_MODULE"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 3 "AMC0_R2_BPLUS_PCB_EDGE"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 9 CAP1206
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 10 CAP2917
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 11 D0603
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 12 "FTSH-115-01-L-DV"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 13 HDR14PINSMD
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 16 INDC1608X95N
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 17 INDC2013X105N
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 19 "LP_515XXX"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 20 "MOLEX_53398-0471"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 21 MOUNTHOLE
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 22 "OSCSC254P500X700X100-6N"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 27 "QFN_64"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 28 "RECPT5X2_100MIL_SM"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 30 RES0603
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 32 RES1206
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 35 "SFP_CAGE"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 36 SOD123
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 37 SOIC8
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 38 "SOT23-5"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 39 "SOT95P230X110-3N"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 40 "SW_HDT0001"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 41 "TP_HOLE_10"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 43 "TSSOP8_65P440X300MM"
+\i (00:01:04) QtSignal pcb3d_MapperTab packageDeviceList itemChanged 44 "TYCO_1367073"
+\i (00:01:05) signalintegrity 
+\i (00:01:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 437 393 "-1243" 438 1 +
+\i (00:01:16) QtSignal 1 0 "14701.8" 13828 "-7752.4"
+\i (00:01:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 416 432 "-1264" 477 +
+\i (00:01:17) QtSignal 1 0 0 "14588.7" "10797.7" "-11325.2"
+\i (00:01:18) QtSignal pcb3d_MapperTab packageDeviceList itemSelectionChanged LEDC1608X80N
+\i (00:01:18) QtSignal pcb3d_MapperTab packageDeviceList currentRowChanged 18
+\i (00:01:55) QtSignal pcb3d_MapperTab packageDeviceList currentRowChanged 27
+\i (00:01:55) QtSignal pcb3d_MapperTab packageDeviceList itemSelectionChanged "QFN_64"
+\i (00:01:55) QtSignal pcb3d_MapperTab packageDeviceList itemClicked "QFN_64"
+\i (00:02:49) QtSignal pcb3dViewerCamMenu Top triggered
+\i (00:02:59) QtSignal pcb3dViewerFileMenu pcb3dViewerClose triggered
+\i (00:02:59) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:03:15) opencd Z:/cad/designs/fmc-mtlu/fmc-mtlu-hw/Cadence/worklib/fmc_tlu_toplevel_f/physical/fmc_tlu_v1f_38.brd 
+\e (00:03:15) Do you want to save the changes you made to mib_rev1_v2t_m11.brd?
+\i (00:03:17) fillin no 
+\t (00:03:17) Opening existing design...
+\i (00:03:19) fillin yes 
+\i (00:03:20) fillin yes 
+\i (00:03:21) trapsize 12363
+\t (00:03:21)     Journal end - Fri Feb  3 14:18:04 2023
