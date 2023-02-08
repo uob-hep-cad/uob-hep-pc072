@@ -71,13 +71,43 @@
 		<property name="VALUE"  value="10uF"/>
 		<property name="VOLTAGE"  value="6.3V"/>
 	</component>
-	<component cell="pth08t210w" library="cnlinear" partname="PTH08T210W" partno="PTH08T210WAD" quantity="1" >
-		<property name="PACK_TYPE"  value="ECP"/>
-		<property name="TYPE"  value="PTH08T210WAD"/>
+	<component cell="adclk948" library="cninterface" partname="ADCLK948" partno="ADCLK948BCPZ" quantity="1" >
+		<property name="PACK_TYPE"  value="LFCSP"/>
+		<property name="TYPE"  value="ADCLK948BCPZ"/>
 	</component>
-	<component cell="trans mosfet" library="cndiscrete" partname="TRANS MOSFET" partno="PJE8408" quantity="1" >
-		<property name="PACK_TYPE"  value="GSD"/>
-		<property name="TYPE"  value="SOT523"/>
-		<property name="VALUE"  value="PJE8408"/>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_200R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="200"/>
+	</component>
+	<component cell="con7p" library="cnconnector" partname="CON7P" partno="5607-5102-SH" quantity="1" >
+		<property name="TYPE"  value="5607-5102-SH"/>
+	</component>
+	<component cell="tp" library="cnpassive" partname="TP" partno="TP_HOLE_1.0mm" quantity="1" >
+		<property name="PACK_TYPE"  value="HOLE"/>
+		<property name="VALUE"  value="1.0mm"/>
+	</component>
+	<component cell="con4p" library="cnconnector" partname="CON4P" partno="53398-0471" quantity="1" >
+		<property name="TYPE"  value="53398-0471"/>
+	</component>
+	<component cell="ferrite" library="cndiscrete" partname="FERRITE" partno="MPZ1608S391A" quantity="1" >
+		<property name="MODEL"  value="TDK"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="MPZ1608S391A"/>
+	</component>
+	<component cell="ferrite" library="cndiscrete" partname="FERRITE" partno="BLM21PG221SN1" quantity="1" >
+		<property name="MODEL"  value="MURATA"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="BLM21PG221SN1"/>
+	</component>
+	<component cell="ferrite" library="cndiscrete" partname="FERRITE" partno="MPZ1608S101A" quantity="1" >
+		<property name="MODEL"  value="TDK"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="MPZ1608S101A"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0603_1UF_16V_10%_X5R" quantity="1" >
+		<property name="PACK_TYPE"  value="0603"/>
+		<property name="VALUE"  value="1uF"/>
+		<property name="VOLTAGE"  value="16V"/>
 	</component>
 </sc:shoppingCart>

@@ -2,98 +2,22 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Mon Jan 30 10:14:04 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m10.brd        |
+|                                                    Thu Feb  2 15:21:57 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  VCC3V3       pins ADDED TO this existing net (pins not previously on any net)
-                                 L3.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDDA_CLK     pins ADDED TO this existing net (pins not previously on any net)
-                                 L3.2                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VDD_CLK      pins MOVED FROM this net (to net name listed on right)
-                                 C128.2                         
-                                                                       VDDA_CLK
-                                 C130.2                         
-                                                                       VDDA_CLK
-                                 C137.2                         
-                                                                       VDDA_CLK
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP1V8        pins MOVED FROM this net (to net name listed on right)
-                                 C126.2                         
-                                                                         VCC3V3
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ JTG1                MCH_CONNECTOR2_ALT2-MCH2B-EDGEB  88.386 4753.85
+ JTG2                LSHM-150-0XXX-L-DV-A-S-LSHM-15B 1055.95 4283.00
+ JTG3                LSHM-130-0XXX-L-DV-A-S-LSHM-13B 1055.95 5471.00
+ MTG1                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 775.000 3632.00
+ MTG2                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 420.000 3632.00
+ MTG3                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 775.000 5875.70
+ MTG4                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 420.000 5875.70
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Mon Jan 30 10:14:04 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C126                CAPCERSMDCL2_0603-10UF,6.3V 
- C128                CAPCERSMDCL2_0603-10UF,6.3V 
- C130                CAPCERSMDCL2_0402-1UF,16V 
- C137                CAPCERSMDCL2_0402-100NF,16V_GEN 
- L3                  IND-BLM18AG121SN1D,IND-BLM18AGA 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Mon Jan 30 10:14:04 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C126.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C126.2                         SIZE           1
- C126.2                         XY             (975,-525)
- C128.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C128.2                         SIZE           1
- C128.2                         XY             (1625,-525)
- C130.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C130.2                         SIZE           1
- C130.2                         XY             (1875,-525)
- C137.2                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C137.2                         SIZE           1
- C137.2                         XY             (2150,-525)
- L3.2                           NO_SWAP_GATE   
- L3.2                           PRIM_FILE      ./ind/ind/chips/chips.prt
- L3.2                           XY             (1275,-350)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd         |
-|                                                    Mon Jan 30 10:14:04 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C126.1                         CDS_PINID      A(0)
- C126.2                         CDS_PINID      B(0)
- C128.1                         CDS_PINID      A(0)
- C128.2                         CDS_PINID      B(0)
- C130.1                         CDS_PINID      A(0)
- C130.2                         CDS_PINID      B(0)
- C137.1                         CDS_PINID      A(0)
- C137.2                         CDS_PINID      B(0)
- L3.1                           CDS_PINID      \1\
- L3.2                           CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
-|       Components added      :       5                                        |
-|       Pin property added    :      10                                        |
-|       Slot property added   :      15                                        |
+|       Components deleted    :       7                                        |
 |                                                                              |
-|   Total ECO changes reported:      36                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|

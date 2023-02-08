@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev1_v2t_m5.brd                           )
+(    Drawing          : mib_rev1_v2t_m10.brd                          )
 (    Software Version : 17.4S034                                      )
-(    Date/Time        : Mon Jan 30 10:14:04 2023                      )
+(    Date/Time        : Thu Feb  2 15:21:57 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged'
 Design Directory:            '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd'
-New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd'
+Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m10.brd'
+New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m5.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m6.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m10.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.40)
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.41)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
    Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.00)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
@@ -36,29 +36,15 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardwar
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'INDC2520X220N' used by RefDes L4 for device 'IND-74438323100,IND-7443832310A' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate old
-
-#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'TSSOP8_65P440X300MM' used by RefDes U25 for device 'LM75A-LM75AIMME/NOPB,LM75A-LM7A' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migr
-
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Mon Jan 30 10:14:04 2023
+	Start time: Thu Feb  2 15:21:58 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Mon Jan 30 10:14:05 2023
+Finished Constraint Update	Time: Thu Feb  2 15:21:58 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -91,6 +77,7 @@ PSMPATH =  .
            /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
            /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            ./symbols 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/symbols 
 
 PADPATH =  . 
            symbols 
@@ -106,14 +93,15 @@ PADPATH =  .
            /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
            ./symbols 
            /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jan 30 10:14:04 2023
+netrev run on Feb 2 15:21:57 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 30-Jan-2023 AT 10:14:00
+   PACKAGING ON 02-Feb-2023 AT 15:21:53
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -141,8 +129,8 @@ netrev run on Jan 30 10:14:04 2023
 
  No error detected
  No oversight detected
-  2 warnings detected
+ No warning detected
 
-cpu time      0:00:02
-elapsed time  0:00:04
+cpu time      0:00:03
+elapsed time  0:00:02
 

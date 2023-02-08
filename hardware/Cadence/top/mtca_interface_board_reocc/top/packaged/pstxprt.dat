@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 30-Jan-2023 AT 10:14:00 }
+{ Packager-XL run on 02-Feb-2023 AT 15:21:53 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='30-Jan-2023 AT 10:14:00';
+ POST_TIME='02-Feb-2023 AT 15:21:53';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -12,15 +12,15 @@ PART_NAME
  ROOM='TE0712';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_302P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I405@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_302p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i405@ocad_parts_lib.cap_np_0(chip~
 s)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_302p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i405@ocad_parts_lib.cap_np_0(chip~
 s)',
- PATH='302P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ PATH='I405',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  SOURCE_PACKAGE='CAP_NP_0',
  REUSE_ANNOTATE='TRUE',
  PSPICE='C',
@@ -34,9 +34,9 @@ s)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(3100,-2200)',
- ROT='1',
+ PHYS_PAGE='2',
+ XY='(6150,-4650)',
+ ROT='3',
  VER='1',
  JEDEC_TYPE='CAP0402',
  SEC='1',
@@ -54,15 +54,15 @@ PART_NAME
  ROOM='TE0712';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_346P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I406@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_346p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i406@ocad_parts_lib.cap_np_0(chip~
 s)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_346p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i406@ocad_parts_lib.cap_np_0(chip~
 s)',
- PATH='346P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ PATH='I406',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  SOURCE_PACKAGE='CAP_NP_0',
  REUSE_ANNOTATE='TRUE',
  PSPICE='C',
@@ -76,9 +76,9 @@ s)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(3100,-2150)',
- ROT='3',
+ PHYS_PAGE='2',
+ XY='(6150,-4700)',
+ ROT='1',
  VER='1',
  JEDEC_TYPE='CAP0402',
  SEC='1',
@@ -272,8 +272,8 @@ occ.\08_ timing\(sch_1):page3_151p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(2400,-3200)',
- ROT='0',
+ XY='(3850,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -311,7 +311,7 @@ occ.\08_ timing\(sch_1):page3_141p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(2225,-3200)',
+ XY='(3575,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -351,7 +351,7 @@ occ.\08_ timing\(sch_1):page3_160p@ocad_parts_lib.cap_np_0(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(775,-675)',
+ XY='(625,-875)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -391,7 +391,7 @@ occ.\08_ timing\(sch_1):page3_145p@ocad_parts_lib.cap_np_0(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(775,-725)',
+ XY='(625,-925)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -506,90 +506,6 @@ occ.\08_ timing\(sch_1):page1_i784@cnpassive.capcersmdcl2(chips)',
 b/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
- C16 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='TE0712';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_348P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_348p@ocad_parts_lib.cap_np_0(chip~
-s)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_348p@ocad_parts_lib.cap_np_0(chip~
-s)',
- PATH='348P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP_0',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(7400,-1575)',
- ROT='7',
- VER='1',
- JEDEC_TYPE='CAP0402',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP_0-445-7348-2-ND,CAP_NP_A',
- VOLTAGE='25V',
- ROOM='TE0712',
- ALT_SYMBOLS='',
- PART_NUMBER='445-7348-2-ND',
- VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
-
-PART_NAME
- C17 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='TE0712';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_344P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_344p@ocad_parts_lib.cap_np_0(chip~
-s)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_344p@ocad_parts_lib.cap_np_0(chip~
-s)',
- PATH='344P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP_0',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(7400,-1525)',
- ROT='5',
- VER='1',
- JEDEC_TYPE='CAP0402',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP_0-445-7348-2-ND,CAP_NP_A',
- VOLTAGE='25V',
- ROOM='TE0712',
- ALT_SYMBOLS='',
- PART_NUMBER='445-7348-2-ND',
- VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
-
-PART_NAME
  C18 'CAPCERSMDCL2_0402-1NF_X7R,50V':;
 
 SECTION_NUMBER 1
@@ -640,8 +556,8 @@ occ.\08_ timing\(sch_1):page3_154p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(2025,-4075)',
- ROT='0',
+ XY='(1700,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -679,7 +595,7 @@ occ.\08_ timing\(sch_1):page3_135p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(2225,-4075)',
+ XY='(1875,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -744,49 +660,6 @@ occ.\08_ timing\(sch_1):page1_i764@cnpassive.capcersmdcl2(chips)',
 b/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
- C23 'CAP_NP-GRM188R61A106KE69D,CAP_B':
- ROOM='SFP I2C SWITCH';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_310P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_310p@ocad_parts_lib.cap_np(chips)~
-',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_310p@ocad_parts_lib.cap_np(chips)~
-',
- PATH='310P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- TOLERANCE='10%',
- SOURCE_PACKAGE='CAP_NP',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='GRM188R61A106KE69D',
- MANUFACTURER='Murata',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='490-10474-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP CER 10UF 10V X5R 0603',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4625,-4425)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='CAP0603',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP-GRM188R61A106KE69D,CAP_B',
- VOLTAGE='10V',
- ROOM='SFP I2C SWITCH',
- ALT_SYMBOLS='',
- PART_NUMBER='GRM188R61A106KE69D',
- VALUE='10UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
-
-PART_NAME
  C24 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
 
 SECTION_NUMBER 1
@@ -810,48 +683,6 @@ occ.\08_ timing\(sch_1):page1_i787@cnpassive.capcersmdcl2(chips)',
  VALUE='100NF',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/capcersmdcl2/chips/chips.prt';
-
-PART_NAME
- C25 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='SFP I2C SWITCH';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_351P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_351p@ocad_parts_lib.cap_np(chips)~
-',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_351p@ocad_parts_lib.cap_np(chips)~
-',
- PATH='351P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4400,-4425)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='CAP0402',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
- VOLTAGE='25V',
- ROOM='SFP I2C SWITCH',
- ALT_SYMBOLS='',
- PART_NUMBER='445-7348-2-ND',
- VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
  C26 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
@@ -879,7 +710,7 @@ occ.\08_ timing\(sch_1):page3_137p@ocad_parts_lib.cap_np_0(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(3800,-700)',
+ XY='(600,-2525)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -1009,7 +840,7 @@ occ.\08_ timing\(sch_1):page3_146p@ocad_parts_lib.cap_np_0(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(3800,-750)',
+ XY='(600,-2575)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -1274,8 +1105,8 @@ occ.\08_ timing\(sch_1):page3_142p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1300,-4075)',
- ROT='0',
+ XY='(975,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -1313,7 +1144,7 @@ occ.\08_ timing\(sch_1):page3_147p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1550,-4075)',
+ XY='(1200,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -1332,30 +1163,22 @@ PART_NAME
  ROOM='TE0712';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_313P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_313P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_313p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_313p@ocad_parts_lib.cap_np_0(chip~
 s)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_313p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_313p@ocad_parts_lib.cap_np_0(chip~
 s)',
  PATH='313P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  SOURCE_PACKAGE='CAP_NP_0',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
  LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(7400,-2025)',
+ PHYS_PAGE='2',
+ XY='(3650,-8700)',
  ROT='7',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -1374,117 +1197,23 @@ PART_NAME
  ROOM='TE0712';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_329P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_329P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_329p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_329p@ocad_parts_lib.cap_np_0(chip~
 s)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_329p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_329p@ocad_parts_lib.cap_np_0(chip~
 s)',
  PATH='329P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  SOURCE_PACKAGE='CAP_NP_0',
  REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
  LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
  CLASS='DISCRETE',
- AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(7400,-2075)',
+ PHYS_PAGE='2',
+ XY='(3650,-8750)',
  ROT='5',
- VER='1',
- JEDEC_TYPE='CAP0402',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP_0-445-7348-2-ND,CAP_NP_A',
- VOLTAGE='25V',
- ROOM='TE0712',
- ALT_SYMBOLS='',
- PART_NUMBER='445-7348-2-ND',
- VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
-
-PART_NAME
- C41 'CAP_NP-587-5465-6-ND,CAP_NP-58A':
- ROOM='TE0712',
- REUSE_ID='4';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_334P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_334p@ocad_parts_lib.cap_np(chips)~
-',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_334p@ocad_parts_lib.cap_np(chips)~
-',
- PATH='334P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='LMK212BBJ476MG-T',
- MANUFACTURER='Taiyo Yuden',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='587-5465-6-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP CER 47UF 10V X5R 0805',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(9400,-3250)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='CAP0805',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP-587-5465-6-ND,CAP_NP-<<A',
- REUSE_ID='4',
- VOLTAGE='10V',
- ROOM='TE0712',
- ALT_SYMBOLS='',
- PART_NUMBER='587-5465-6-ND',
- VALUE='47UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
-
-PART_NAME
- C42 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='TE0712';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_331P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_331p@ocad_parts_lib.cap_np_0(chip~
-s)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_331p@ocad_parts_lib.cap_np_0(chip~
-s)',
- PATH='331P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP_0',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(7400,-1825)',
- ROT='7',
  VER='1',
  JEDEC_TYPE='CAP0402',
  SEC='1',
@@ -1502,15 +1231,15 @@ PART_NAME
  ROOM='TE0712';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_339P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_339P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_339p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_339p@ocad_parts_lib.cap_np_0(chip~
 s)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_339p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_339p@ocad_parts_lib.cap_np_0(chip~
 s)',
  PATH='339P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  SOURCE_PACKAGE='CAP_NP_0',
  REUSE_ANNOTATE='TRUE',
  PSPICE='C',
@@ -1524,51 +1253,9 @@ s)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(6100,-1200)',
+ PHYS_PAGE='2',
+ XY='(6150,-8750)',
  ROT='1',
- VER='1',
- JEDEC_TYPE='CAP0402',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP_0-445-7348-2-ND,CAP_NP_A',
- VOLTAGE='25V',
- ROOM='TE0712',
- ALT_SYMBOLS='',
- PART_NUMBER='445-7348-2-ND',
- VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
-
-PART_NAME
- C44 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='TE0712';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_317P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_317p@ocad_parts_lib.cap_np_0(chip~
-s)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_317p@ocad_parts_lib.cap_np_0(chip~
-s)',
- PATH='317P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP_0',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(7400,-1775)',
- ROT='5',
  VER='1',
  JEDEC_TYPE='CAP0402',
  SEC='1',
@@ -1586,15 +1273,15 @@ PART_NAME
  ROOM='TE0712';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_327P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_327P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_327p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_327p@ocad_parts_lib.cap_np_0(chip~
 s)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_327p@ocad_parts_lib.cap_np_0(chip~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_327p@ocad_parts_lib.cap_np_0(chip~
 s)',
  PATH='327P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  SOURCE_PACKAGE='CAP_NP_0',
  REUSE_ANNOTATE='TRUE',
  PSPICE='C',
@@ -1608,8 +1295,8 @@ s)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(6100,-1150)',
+ PHYS_PAGE='2',
+ XY='(6150,-8700)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -4247,7 +3934,7 @@ occ.\08_ timing\(sch_1):page3_157p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(450,-4075)',
+ XY='(100,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0603',
@@ -4527,7 +4214,7 @@ occ.\08_ timing\(sch_1):page3_138p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1100,-4075)',
+ XY='(750,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0603',
@@ -4892,8 +4579,8 @@ occ.\08_ timing\(sch_1):page3_152p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1750,-4075)',
- ROT='0',
+ XY='(1450,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -4932,8 +4619,8 @@ occ.\08_ timing\(sch_1):page3_144p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(2425,-4075)',
- ROT='0',
+ XY='(2100,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -4997,45 +4684,44 @@ occ.\08_ timing\(sch_1):page2_i357@cnpassive.capcersmdcl2(chips)',
 b/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
- C139 'CAP_NP-GRM188R61A106KE69D,CAP_B':
- ROOM='CLK_FO_0_5';
+ C139 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_139P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I246@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_139p@ocad_parts_lib.cap_np(chips)',
+occ.\08_ timing\(sch_1):page3_i246@cnpassive.capcersmdcl2(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_139p@ocad_parts_lib.cap_np(chips)',
- PATH='139P',
+occ.\08_ timing\(sch_1):page3_i246@cnpassive.capcersmdcl2(chips)',
+ PATH='I246',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- TOLERANCE='10%',
- SOURCE_PACKAGE='CAP_NP',
+ SIZE='1',
  REUSE_ANNOTATE='TRUE',
  PSPICE='C',
  PART_TYPE='Ceramic',
- MPN='GRM188R61A106KE69D',
- MANUFACTURER='Murata',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
  LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='490-10474-2-ND',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
  DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP CER 10UF 10V X5R 0603',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(450,-3200)',
- ROT='0',
+ XY='(950,-2275)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP0603',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP-GRM188R61A106KE69D,CAP_B',
- VOLTAGE='10V',
- ROOM='CLK_FO_0_5',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
  ALT_SYMBOLS='',
- PART_NUMBER='GRM188R61A106KE69D',
- VALUE='10UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
  C140 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
@@ -5339,7 +5025,7 @@ occ.\08_ timing\(sch_1):page3_153p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1550,-3200)',
+ XY='(2900,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -5379,8 +5065,8 @@ occ.\08_ timing\(sch_1):page3_148p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1300,-3200)',
- ROT='0',
+ XY='(2650,-4325)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -5570,7 +5256,7 @@ occ.\08_ timing\(sch_1):page3_143p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1100,-3200)',
+ XY='(2450,-4300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0603',
@@ -5826,50 +5512,6 @@ occ.\08_ timing\(sch_1):page2_i362@cnpassive.capcersmdcl2(chips)',
 b/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
- C164 'CAP_NP-587-5465-6-ND,CAP_NP-58A':
- ROOM='TE0712',
- REUSE_ID='3';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_320P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_320p@ocad_parts_lib.cap_np(chips)~
-',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_320p@ocad_parts_lib.cap_np(chips)~
-',
- PATH='320P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='CAP_NP',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='LMK212BBJ476MG-T',
- MANUFACTURER='Taiyo Yuden',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='587-5465-6-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP CER 47UF 10V X5R 0805',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(9150,-3250)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='CAP0805',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP-587-5465-6-ND,CAP_NP-<<A',
- REUSE_ID='3',
- VOLTAGE='10V',
- ROOM='TE0712',
- ALT_SYMBOLS='',
- PART_NUMBER='587-5465-6-ND',
- VALUE='47UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
-
-PART_NAME
  C165 'CAPCERSMDCL2_0402-100NF,16V_GEA':
  ROOM='CLK_FO_0_5';
 
@@ -5895,8 +5537,8 @@ occ.\08_ timing\(sch_1):page3_155p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1750,-3200)',
- ROT='0',
+ XY='(3100,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -5935,8 +5577,8 @@ occ.\08_ timing\(sch_1):page3_136p@cnpassive.capcersmdcl2(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(2025,-3200)',
- ROT='0',
+ XY='(3375,-4300)',
+ ROT='1',
  VER='1',
  PACK_TYPE='0402',
  JEDEC_TYPE='CAP0402',
@@ -5963,7 +5605,7 @@ occ.\08_ timing\(sch_1):page2_i367@cnpassive.capcersmdcl2(chips)',
  SIZE='1',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(6150,-3000)',
+ XY='(5925,-3000)',
  ROT='0',
  VER='1',
  PACK_TYPE='0402',
@@ -6013,7 +5655,7 @@ occ.\08_ timing\(sch_1):page2_i366@cnpassive.capcersmdcl2(chips)',
  SIZE='1',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(6425,-2950)',
+ XY='(6175,-2950)',
  ROT='0',
  VER='1',
  PACK_TYPE='0402',
@@ -6145,6 +5787,1006 @@ occ.\08_ timing\(sch_1):page2_i358@cnpassive.capcersmdcl2(chips)',
  CDS_LIB='cnpassive',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C175 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I232@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i232@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i232@cnpassive.capcersmdcl2(chips)',
+ PATH='I232',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2625,-2275)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C176 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I231@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i231@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i231@cnpassive.capcersmdcl2(chips)',
+ PATH='I231',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2850,-2325)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C177 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I230@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i230@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i230@cnpassive.capcersmdcl2(chips)',
+ PATH='I230',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3075,-2375)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C178 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I223@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i223@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i223@cnpassive.capcersmdcl2(chips)',
+ PATH='I223',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3300,-2425)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C179 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I222@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i222@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i222@cnpassive.capcersmdcl2(chips)',
+ PATH='I222',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3525,-2475)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C180 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I221@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i221@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i221@cnpassive.capcersmdcl2(chips)',
+ PATH='I221',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3750,-2525)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C181 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I220@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i220@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i220@cnpassive.capcersmdcl2(chips)',
+ PATH='I220',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3975,-2575)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C182 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I215@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i215@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i215@cnpassive.capcersmdcl2(chips)',
+ PATH='I215',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4200,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C183 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I218@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i218@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i218@cnpassive.capcersmdcl2(chips)',
+ PATH='I218',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4425,-2675)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C184 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I219@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i219@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i219@cnpassive.capcersmdcl2(chips)',
+ PATH='I219',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4650,-2725)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C185 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I217@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i217@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i217@cnpassive.capcersmdcl2(chips)',
+ PATH='I217',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4875,-2775)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C186 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I216@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i216@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i216@cnpassive.capcersmdcl2(chips)',
+ PATH='I216',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(5100,-2825)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C187 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I179@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i179@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i179@cnpassive.capcersmdcl2(chips)',
+ PATH='I179',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(950,-625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C188 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I200@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i200@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i200@cnpassive.capcersmdcl2(chips)',
+ PATH='I200',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2625,-625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C189 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I211@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i211@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i211@cnpassive.capcersmdcl2(chips)',
+ PATH='I211',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2850,-675)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C190 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I210@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i210@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i210@cnpassive.capcersmdcl2(chips)',
+ PATH='I210',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3075,-725)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C191 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I209@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i209@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i209@cnpassive.capcersmdcl2(chips)',
+ PATH='I209',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3300,-775)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C192 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I208@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i208@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i208@cnpassive.capcersmdcl2(chips)',
+ PATH='I208',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3525,-825)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C193 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I207@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i207@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i207@cnpassive.capcersmdcl2(chips)',
+ PATH='I207',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3750,-875)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C194 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I206@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i206@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i206@cnpassive.capcersmdcl2(chips)',
+ PATH='I206',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3975,-925)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C195 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I205@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i205@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i205@cnpassive.capcersmdcl2(chips)',
+ PATH='I205',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4200,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C196 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I204@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i204@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i204@cnpassive.capcersmdcl2(chips)',
+ PATH='I204',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4425,-1025)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C197 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I203@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i203@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i203@cnpassive.capcersmdcl2(chips)',
+ PATH='I203',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4650,-1075)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C198 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I202@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i202@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i202@cnpassive.capcersmdcl2(chips)',
+ PATH='I202',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(4875,-1125)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
+ VALUE='100NF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C199 'CAPCERSMDCL2_0402-100NF,16V_GEA':
+ ROOM='CLK_FO_6_11';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I201@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i201@cnpassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i201@cnpassive.capcersmdcl2(chips)',
+ PATH='I201',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(5100,-1175)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ JEDEC_TYPE='CAP0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEA',
+ VOLTAGE='16V_GEN',
+ ROOM='CLK_FO_6_11',
+ ALT_SYMBOLS='',
  VALUE='100NF',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cnpassive/capcersmdcl2/chips/chips.prt';
@@ -6711,18 +7353,392 @@ occ.\08_ timing\(sch_1):page1_i571@cninterface.sy58608u(chips)',
 b/cninterface/sy58608u/chips/chips.prt';
 
 PART_NAME
+ IC3 'ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(7):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(7)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(7)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(6):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(6)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(6)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(5):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(5)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(5)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(4):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(4)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(4)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(3):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(3)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(3)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(2):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(2)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(2)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(1):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(1)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(1)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)'(0):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(0)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i178(0)@cninterface.adclk948(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-975)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+PART_NAME
+ IC4 'ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(7):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(7)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(7)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(6):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(6)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(6)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(5):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(5)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(5)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(4):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(4)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(4)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(3):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(3)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(3)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(2):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(2)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(2)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(1):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(1)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(1)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)'(0):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(0)@cninterface.adclk948(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i244(0)@cninterface.adclk948(chips)',
+ PATH='I244',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCC=VDD_CLK_BUFFER;VEE=GND',
+ TYPE='ADCLK948BCPZ',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1500,-2625)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA',
+ HAS_FIXED_SIZE='8',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cninterface/adclk948/chips/chips.prt';
+
+PART_NAME
  J1 'TE0712 CONNECTOR-JB1-LSHM-150-B':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_350P@OCAD_PARTS_LIB.TE0712 CONNECTOR-JB1(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_350P@OCAD_PARTS_LIB.TE0712 CONNECTOR-JB1(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_350p@ocad_parts_lib.\te0712 conne~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_350p@ocad_parts_lib.\te0712 conne~
 ctor-jb1\(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_350p@ocad_parts_lib.\te0712 conne~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_350p@ocad_parts_lib.\te0712 conne~
 ctor-jb1\(chips)',
  PATH='350P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  CONTACTVOLTAGE='-',
  CONTACTCURRENT='-',
  HOUSINGGENDER='Female',
@@ -6735,8 +7751,8 @@ ctor-jb1\(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='CONN SELF-MATE 100POS SMD GOLD',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(2050,-1900)',
+ PHYS_PAGE='2',
+ XY='(4925,-5350)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='SAMTEC_LSHM-150-04-0-L-DV-A-S',
@@ -6756,7 +7772,7 @@ SECTION_NUMBER 1
 occ.\07_ backplane interface\(sch_1):page2_25p@ocad_parts_lib.\lshm-130-0xxx-l-d~
 v-a-s\(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_25p@ocad_parts_lib.\lshm-130-0xxx-l-d~
+occ.\07_ backplane interface\(sch_1):page1_25p@ocad_parts_lib.\lshm-130-0xxx-l-d~
 v-a-s\(chips)',
  PATH='25P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
@@ -6772,7 +7788,7 @@ v-a-s\(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='CONN SELF-MATE 60POS SMD GOLD',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(5100,-1200)',
  ROT='0',
  VER='1',
@@ -6840,20 +7856,10 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_341p@ocad_parts_lib.conn30p(chips
 )',
  PATH='341P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- CONTACTVOLTAGE='-',
- CONTACTCURRENT='-',
- HOUSINGGENDER='Female',
- CONTACTGENDER='Male',
  SOURCE_PACKAGE='CONN30P',
- PART_TYPE='Header',
- MPN='FTSH-115-01-L-DV-K',
- MANUFACTURER='Samtec',
- DISTRIBUTOR_PARTNUMBER='SAM10513-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='CONN HEADER SMD 30POS 1.27MM',
  DESIGNATORNAMEPROP='TE0712',
  PHYS_PAGE='1',
- XY='(4275,-6625)',
+ XY='(4125,-5100)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='FTSH-115-01-L-DV',
@@ -6868,15 +7874,15 @@ PART_NAME
  J5 'TE0712 CONNECTOR-JB3-LSHM-130-B':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_333P@OCAD_PARTS_LIB.TE0712 CONNECTOR-JB3(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_333P@OCAD_PARTS_LIB.TE0712 CONNECTOR-JB3(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_333p@ocad_parts_lib.\te0712 conne~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_333p@ocad_parts_lib.\te0712 conne~
 ctor-jb3\(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_333p@ocad_parts_lib.\te0712 conne~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_333p@ocad_parts_lib.\te0712 conne~
 ctor-jb3\(chips)',
  PATH='333P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  CONTACTVOLTAGE='-',
  CONTACTCURRENT='-',
  HOUSINGGENDER='Female',
@@ -6889,8 +7895,8 @@ ctor-jb3\(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='CONN SELF-MATE 60POS SMD GOLD',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(8450,-1325)',
+ PHYS_PAGE='2',
+ XY='(4925,-8000)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='SAMTEC_LSHM-130-04-0-L-DV-A-S',
@@ -6952,7 +7958,7 @@ SECTION_NUMBER 1
 occ.\07_ backplane interface\(sch_1):page2_19p@ocad_parts_lib.mch_connector1(chi~
 ps)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_19p@ocad_parts_lib.mch_connector1(chi~
+occ.\07_ backplane interface\(sch_1):page1_19p@ocad_parts_lib.mch_connector1(chi~
 ps)',
  PATH='19P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
@@ -6966,7 +7972,7 @@ ps)',
  DESCRIPTION='MCH-EDGE-170',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(2500,-2550)',
  ROT='0',
  VER='1',
@@ -6982,29 +7988,22 @@ PART_NAME
  J8 'TE0712 CONNECTOR-JB2-LSHM-150-B':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_307P@OCAD_PARTS_LIB.TE0712 CONNECTOR-JB2(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_307P@OCAD_PARTS_LIB.TE0712 CONNECTOR-JB2(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_307p@ocad_parts_lib.\te0712 conne~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_307p@ocad_parts_lib.\te0712 conne~
 ctor-jb2\(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_307p@ocad_parts_lib.\te0712 conne~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_307p@ocad_parts_lib.\te0712 conne~
 ctor-jb2\(chips)',
  PATH='307P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- CONTACTVOLTAGE='-',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  CONTACTCURRENT='-',
- HOUSINGGENDER='Female',
- CONTACTGENDER='Male',
  SOURCE_PACKAGE='TE0712 Connector-JB2',
  PART_TYPE='Header',
- MPN='LSHM-150-03.0-L-DV-A-S-K-TR',
- MANUFACTURER='Samtec',
- DISTRIBUTOR_PARTNUMBER='SAM14151TR-ND',
- DISTRIBUTOR='Digikey',
  DESCRIPTION='CONN SELF-MATE 100POS SMD GOLD',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5200,-1850)',
+ PHYS_PAGE='2',
+ XY='(8075,-5300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='SAMTEC_LSHM-150-04-0-L-DV-A-S',
@@ -7024,7 +8023,7 @@ SECTION_NUMBER 1
 occ.\07_ backplane interface\(sch_1):page2_27p@ocad_parts_lib.\lshm-150-0xxx-l-d~
 v-a-s\(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_27p@ocad_parts_lib.\lshm-150-0xxx-l-d~
+occ.\07_ backplane interface\(sch_1):page1_27p@ocad_parts_lib.\lshm-150-0xxx-l-d~
 v-a-s\(chips)',
  PATH='27P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
@@ -7040,7 +8039,7 @@ v-a-s\(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='CONN SELF-MATE 60POS SMD GOLD',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(7575,-1425)',
  ROT='0',
  VER='1',
@@ -7254,113 +8253,26 @@ occ.\08_ timing\(sch_1):page2_i333@cnconnector.pcoax(chips)',
 b/cnconnector/pcoax/chips/chips.prt';
 
 PART_NAME
- JTG1 'MCH_CONNECTOR2_ALT2-MCH2B-EDGEB':;
+ J16 'CON4P-53398-0471':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_7P@OCAD_PARTS_LIB.MCH_CONNECTOR2_ALT2(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_7p@ocad_parts_lib.mch_connector2_alt2~
-(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_7p@ocad_parts_lib.mch_connector2_alt2~
-(chips)',
- PATH='7P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- PRICE='0.25',
- SOURCE_PACKAGE='MCH_CONNECTOR2_ALT2',
- PART_TYPE='Connector',
- MPN='MCH-EDGE-170',
- MANUFACTURER='HEP',
- DISTRIBUTOR_PARTNUMBER='MCH-EDGE-170',
- DISTRIBUTOR='HEP',
- DESCRIPTION='MCH-EDGE-170',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(2450,-2800)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='AMC0_R2_BPLUS_PCB_EDGE',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MCH_CONNECTOR2_ALT2-MCH2B-EDGEB',
- PART_NUMBER='MCH2B-EDGE-170',
- VALUE='MCH_TG2-EDGE-170_ALT2',
- PRIM_FILE='./ocad_parts_lib/mch_connector2_alt2/chips/chips.prt';
-
-PART_NAME
- JTG2 'LSHM-150-0XXX-L-DV-A-S-LSHM-15B':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_11P@OCAD_PARTS_LIB.LSHM-150-0XXX-L-DV-A-S(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_11p@ocad_parts_lib.\lshm-150-0xxx-l-d~
-v-a-s\(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_11p@ocad_parts_lib.\lshm-150-0xxx-l-d~
-v-a-s\(chips)',
- PATH='11P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- CONTACTVOLTAGE='-',
- CONTACTCURRENT='-',
- HOUSINGGENDER='Female',
- CONTACTGENDER='Male',
- SOURCE_PACKAGE='LSHM-150-0xxx-L-DV-A-S',
- PART_TYPE='Header',
- MPN='LSHM-150-03.0-L-DV-A-S-K-TR',
- MANUFACTURER='Samtec',
- DISTRIBUTOR_PARTNUMBER='SAM14151TR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='CONN SELF-MATE 60POS SMD GOLD',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(5400,-2050)',
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I414@CNCONNECTOR.CON4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i414@cnconnector.con4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i414@cnconnector.con4p(chips)',
+ PATH='I414',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
+ TYPE='53398-0471',
+ DESIGNATORNAMEPROP='TE0712',
+ PHYS_PAGE='2',
+ XY='(6275,-8500)',
  ROT='2',
  VER='1',
- JEDEC_TYPE='SAMTEC_LSHM-150-04-0-L-DV-A-S',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='LSHM-150-0XXX-L-DV-A-S-LSHM-15B',
- PART_NUMBER='LSHM-150-03.0-L-DV-A-S-K-TR',
- VALUE='LSHM-150-03.0-L-DV-A-S-K-TR',
- PRIM_FILE='./ocad_parts_lib/lshm#2d150#2d0xxx#2dl#2ddv#2da#2ds/chips/chips.prt';
-
-PART_NAME
- JTG3 'LSHM-130-0XXX-L-DV-A-S-LSHM-13B':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_9P@OCAD_PARTS_LIB.LSHM-130-0XXX-L-DV-A-S(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_9p@ocad_parts_lib.\lshm-130-0xxx-l-dv~
--a-s\(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_9p@ocad_parts_lib.\lshm-130-0xxx-l-dv~
--a-s\(chips)',
- PATH='9P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- CONTACTVOLTAGE='-',
- CONTACTCURRENT='-',
- HOUSINGGENDER='Female',
- CONTACTGENDER='Male',
- SOURCE_PACKAGE='LSHM-130-0xxx-L-DV-A-S',
- PART_TYPE='Header',
- MPN='LSHM-130-03.0-L-DV-A-S-K-TR',
- MANUFACTURER='Samtec',
- DISTRIBUTOR_PARTNUMBER='SAM14110TR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='CONN SELF-MATE 60POS SMD GOLD',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(7850,-1650)',
- ROT='2',
- VER='1',
- JEDEC_TYPE='SAMTEC_LSHM-130-04-0-L-DV-A-S',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='LSHM-130-0XXX-L-DV-A-S-LSHM-13B',
- PART_NUMBER='LSHM-130-03.0-L-DV-A-S-K-TR',
- VALUE='LSHM-130-03.0-L-DV-A-S-K-TR',
- PRIM_FILE='./ocad_parts_lib/lshm#2d130#2d0xxx#2dl#2ddv#2da#2ds/chips/chips.prt';
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON4P-53398-0471',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnconnector/con4p/chips/chips.prt';
 
 PART_NAME
  L1 'IND-BLM18AG121SN1D,IND-BLM18AGA':;
@@ -7658,38 +8570,29 @@ occ.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\(sch_1)
  PRIM_FILE='./ind/ind/chips/chips.prt';
 
 PART_NAME
- L9 'IND-BLM18AG121SN1D,IND-BLM18AGA':;
+ L9 'FERRITE_SMD-BLM21PG221SN1,MURAA':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_140P@IND.IND(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I255@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_140p@ind.ind(chips)',
+occ.\08_ timing\(sch_1):page3_i255@cndiscrete.ferrite(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_140p@ind.ind(chips)',
- PATH='140P',
+occ.\08_ timing\(sch_1):page3_i255@cndiscrete.ferrite(chips)',
+ PATH='I255',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- RATING='0.8 A',
- DCRESISTANCE='180mOhm',
- TOLERANCE='25 %',
- SOURCE_PACKAGE='IND',
- PART_TYPE='Ferrite Bead',
- MPN='BLM18AG121SN1D',
- MANUFACTURER='Murata Electronics',
- DISTRIBUTOR_PARTNUMBER='490-1011-2-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='FERRITE BEAD 120 OHM 0603 1LN',
+ SIZE='1',
+ MODEL='MURATA',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(750,-3900)',
- ROT='1',
+ XY='(425,-4125)',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='INDC1608X95N',
- SEC='1',
- CDS_LIB='ind',
- CDS_PART_NAME='IND-BLM18AG121SN1D,IND-INDC160A',
- PART_NUMBER='BLM18AG121SN1D',
- VALUE='120  Ohm@100MHz',
- PRIM_FILE='./ind/ind/chips/chips.prt';
+ PACK_TYPE='SMD',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='FERRITE_SMD-BLM21PG221SN1,MURAA',
+ VALUE='BLM21PG221SN1',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cndiscrete/ferrite/chips/chips.prt';
 
 PART_NAME
  L10 'IND-BLM18AG121SN1D,IND-BLM18AGA':;
@@ -7761,40 +8664,6 @@ occ.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\(sch_1)
  PRIM_FILE='./ind/ind/chips/chips.prt';
 
 PART_NAME
- L12 'IND-BLM18AG121SN1D,IND-BLM18AGA':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_150P@IND.IND(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_150p@ind.ind(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_150p@ind.ind(chips)',
- PATH='150P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- RATING='0.8 A',
- DCRESISTANCE='180mOhm',
- TOLERANCE='25 %',
- SOURCE_PACKAGE='IND',
- PART_TYPE='Ferrite Bead',
- MPN='BLM18AG121SN1D',
- MANUFACTURER='Murata Electronics',
- DISTRIBUTOR_PARTNUMBER='490-1011-2-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='FERRITE BEAD 120 OHM 0603 1LN',
- DESIGNATORNAMEPROP='TIMING',
- PHYS_PAGE='3',
- XY='(750,-3025)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='INDC1608X95N',
- SEC='1',
- CDS_LIB='ind',
- CDS_PART_NAME='IND-BLM18AG121SN1D,IND-INDC160A',
- PART_NUMBER='BLM18AG121SN1D',
- VALUE='120  Ohm@100MHz',
- PRIM_FILE='./ind/ind/chips/chips.prt';
-
-PART_NAME
  L13 'IND-CIGT201208EH1R0MNE,IND-CIGA':;
 
 SECTION_NUMBER 1
@@ -7861,7 +8730,7 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_343p@ocad_parts_lib.mt_hole(chips
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='TE0712',
  PHYS_PAGE='1',
- XY='(6375,-7100)',
+ XY='(8175,-7000)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
@@ -7901,7 +8770,7 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_347p@ocad_parts_lib.mt_hole(chips
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='TE0712',
  PHYS_PAGE='1',
- XY='(6725,-7100)',
+ XY='(8525,-7000)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
@@ -7941,7 +8810,7 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_304p@ocad_parts_lib.mt_hole(chips
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='TE0712',
  PHYS_PAGE='1',
- XY='(7125,-7125)',
+ XY='(8925,-7025)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
@@ -7981,7 +8850,7 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_311p@ocad_parts_lib.mt_hole(chips
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='TE0712',
  PHYS_PAGE='1',
- XY='(7575,-7125)',
+ XY='(9375,-7025)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
@@ -8002,7 +8871,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_23p@ocad_parts_lib.mt_hole(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_23p@ocad_parts_lib.mt_hole(chips)',
+occ.\07_ backplane interface\(sch_1):page1_23p@ocad_parts_lib.mt_hole(chips)',
  PATH='23P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  PRICE='0.02',
@@ -8016,7 +8885,7 @@ occ.\07_ backplane interface\(sch_1):page2_23p@ocad_parts_lib.mt_hole(chips)',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(4950,-3950)',
  ROT='1',
  VER='1',
@@ -8036,7 +8905,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_28p@ocad_parts_lib.mt_hole(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_28p@ocad_parts_lib.mt_hole(chips)',
+occ.\07_ backplane interface\(sch_1):page1_28p@ocad_parts_lib.mt_hole(chips)',
  PATH='28P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  PRICE='0.02',
@@ -8050,7 +8919,7 @@ occ.\07_ backplane interface\(sch_1):page2_28p@ocad_parts_lib.mt_hole(chips)',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(6675,-3225)',
  ROT='1',
  VER='1',
@@ -8070,7 +8939,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_17p@ocad_parts_lib.mt_hole(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_17p@ocad_parts_lib.mt_hole(chips)',
+occ.\07_ backplane interface\(sch_1):page1_17p@ocad_parts_lib.mt_hole(chips)',
  PATH='17P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  PRICE='0.02',
@@ -8084,7 +8953,7 @@ occ.\07_ backplane interface\(sch_1):page2_17p@ocad_parts_lib.mt_hole(chips)',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(6925,-3225)',
  ROT='1',
  VER='1',
@@ -8104,7 +8973,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_18p@ocad_parts_lib.mt_hole(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_18p@ocad_parts_lib.mt_hole(chips)',
+occ.\07_ backplane interface\(sch_1):page1_18p@ocad_parts_lib.mt_hole(chips)',
  PATH='18P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  PRICE='0.02',
@@ -8118,7 +8987,7 @@ occ.\07_ backplane interface\(sch_1):page2_18p@ocad_parts_lib.mt_hole(chips)',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(6175,-3225)',
  ROT='1',
  VER='1',
@@ -8138,7 +9007,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_22p@ocad_parts_lib.mt_hole(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_22p@ocad_parts_lib.mt_hole(chips)',
+occ.\07_ backplane interface\(sch_1):page1_22p@ocad_parts_lib.mt_hole(chips)',
  PATH='22P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  PRICE='0.02',
@@ -8152,7 +9021,7 @@ occ.\07_ backplane interface\(sch_1):page2_22p@ocad_parts_lib.mt_hole(chips)',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(6425,-3225)',
  ROT='1',
  VER='1',
@@ -8172,7 +9041,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_21p@ocad_parts_lib.mt_hole(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_21p@ocad_parts_lib.mt_hole(chips)',
+occ.\07_ backplane interface\(sch_1):page1_21p@ocad_parts_lib.mt_hole(chips)',
  PATH='21P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  PRICE='0.02',
@@ -8186,144 +9055,8 @@ occ.\07_ backplane interface\(sch_1):page2_21p@ocad_parts_lib.mt_hole(chips)',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  AVAILABILITY='21 days',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(4550,-3950)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='MOUNTHOLE',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
- PART_NUMBER='Mt_Hole',
- VALUE='Mt_Hole',
- PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
-
-PART_NAME
- MTG1 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_13P@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_13p@ocad_parts_lib.mt_hole(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_13p@ocad_parts_lib.mt_hole(chips)',
- PATH='13P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- PRICE='0.02',
- SOURCE_PACKAGE='Mt_Hole',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Misc',
- MPN='Mt_Hole',
- MANUFACTURER='HEP',
- DISTRIBUTOR_PARTNUMBER='Mt_Hole',
- DISTRIBUTOR='HEP',
- DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
- AVAILABILITY='21 days',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(5125,-4150)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='MOUNTHOLE',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
- PART_NUMBER='Mt_Hole',
- VALUE='Mt_Hole',
- PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
-
-PART_NAME
- MTG2 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_8P@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_8p@ocad_parts_lib.mt_hole(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_8p@ocad_parts_lib.mt_hole(chips)',
- PATH='8P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- PRICE='0.02',
- SOURCE_PACKAGE='Mt_Hole',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Misc',
- MPN='Mt_Hole',
- MANUFACTURER='HEP',
- DISTRIBUTOR_PARTNUMBER='Mt_Hole',
- DISTRIBUTOR='HEP',
- DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
- AVAILABILITY='21 days',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(4375,-4150)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='MOUNTHOLE',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
- PART_NUMBER='Mt_Hole',
- VALUE='Mt_Hole',
- PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
-
-PART_NAME
- MTG3 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_12P@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_12p@ocad_parts_lib.mt_hole(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_12p@ocad_parts_lib.mt_hole(chips)',
- PATH='12P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- PRICE='0.02',
- SOURCE_PACKAGE='Mt_Hole',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Misc',
- MPN='Mt_Hole',
- MANUFACTURER='HEP',
- DISTRIBUTOR_PARTNUMBER='Mt_Hole',
- DISTRIBUTOR='HEP',
- DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
- AVAILABILITY='21 days',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(4875,-4150)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='MOUNTHOLE',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
- PART_NUMBER='Mt_Hole',
- VALUE='Mt_Hole',
- PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
-
-PART_NAME
- MTG4 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1_10P@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_10p@ocad_parts_lib.mt_hole(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page1_10p@ocad_parts_lib.mt_hole(chips)',
- PATH='10P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE1',
- PRICE='0.02',
- SOURCE_PACKAGE='Mt_Hole',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Misc',
- MPN='Mt_Hole',
- MANUFACTURER='HEP',
- DISTRIBUTOR_PARTNUMBER='Mt_Hole',
- DISTRIBUTOR='HEP',
- DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
- AVAILABILITY='21 days',
- DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='1',
- XY='(4625,-4150)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
@@ -8814,40 +9547,39 @@ occ.\08_ timing\(sch_1):page1_i587@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R11 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='CLK_FO_0_5';
+ R11 'RSMD0402_1/16W-1K,1%':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_156P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I182@CNPASSIVE.RSMD0402(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_156p@discrete.r(chips)',
+occ.\08_ timing\(sch_1):page3_i182@cnpassive.rsmd0402(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_156p@discrete.r(chips)',
- PATH='156P',
+occ.\08_ timing\(sch_1):page3_i182@cnpassive.rsmd0402(chips)',
+ PATH='I182',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.PDF',
- POWER='1/10W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF1000X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P100LCT-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 100 OHM 1% 1/10W 0402',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(1250,-700)',
- ROT='1',
+ XY='(725,-1275)',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF1000X,R-RES0402',
- ROOM='CLK_FO_0_5',
- PART_NUMBER='ERJ-2RKF1000X',
- VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='1K',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
  R12 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
@@ -8892,13 +9624,13 @@ PART_NAME
  REUSE_ID='48';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_322P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_322P@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_322p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_322p@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_322p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_322p@discrete.r(chips)',
  PATH='322P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -8911,8 +9643,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_322p@discrete.r(chips)',
  DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(875,-1100)',
+ PHYS_PAGE='2',
+ XY='(3700,-4550)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -9000,43 +9732,6 @@ occ.\08_ timing\(sch_1):page1_i613@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R16 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_328P@DISCRETE.R(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_328p@discrete.r(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_328p@discrete.r(chips)',
- PATH='328P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- POWER='1/10 W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF2201X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P2.20KLTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
- AVAILABILITY='6,080,000',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(3475,-4525)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF2201X,R-RES0402',
- ROOM='SFP I2C SWITCH',
- PART_NUMBER='ERJ-2RKF2201X',
- VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
-
-PART_NAME
  R17 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
  ROOM='CLK_GEN_x12';
 
@@ -9061,7 +9756,7 @@ occ.\08_ timing\(sch_1):page2_279p@discrete.r(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(2600,-2150)',
+ XY='(1775,-2150)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -9169,7 +9864,7 @@ occ.\08_ timing\(sch_1):page2_296p@discrete.r(chips)',
  DESCRIPTION='RES SMD 49.9 OHM 1% 1/16W 0402',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(7200,-3300)',
+ XY='(6375,-3250)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -9276,7 +9971,7 @@ occ.\08_ timing\(sch_1):page2_299p@discrete.r(chips)',
  DESCRIPTION='RES SMD 49.9 OHM 1% 1/16W 0402',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='2',
- XY='(7450,-3300)',
+ XY='(6625,-3250)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -9289,40 +9984,39 @@ occ.\08_ timing\(sch_1):page2_299p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R24 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='CLK_FO_6_11';
+ R24 'RSMD0402_1/16W-1K,1%':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_158P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I252@CNPASSIVE.RSMD0402(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_158p@discrete.r(chips)',
+occ.\08_ timing\(sch_1):page3_i252@cnpassive.rsmd0402(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_158p@discrete.r(chips)',
- PATH='158P',
+occ.\08_ timing\(sch_1):page3_i252@cnpassive.rsmd0402(chips)',
+ PATH='I252',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.PDF',
- POWER='1/10W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF1000X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P100LCT-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 100 OHM 1% 1/10W 0402',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='3',
- XY='(4250,-725)',
- ROT='1',
+ XY='(725,-2925)',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF1000X,R-RES0402',
- ROOM='CLK_FO_6_11',
- PART_NUMBER='ERJ-2RKF1000X',
- VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='1K',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
  R25 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
@@ -9541,43 +10235,6 @@ occ.\08_ timing\(sch_1):page2_298p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R31 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='TE0712';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_324P@DISCRETE.R(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_324p@discrete.r(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_324p@discrete.r(chips)',
- PATH='324P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- POWER='1/10 W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF2201X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P2.20KLTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
- AVAILABILITY='6,080,000',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4050,-2075)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF2201X,R-RES0402',
- ROOM='TE0712',
- PART_NUMBER='ERJ-2RKF2201X',
- VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
-
-PART_NAME
  R32 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
  ROOM='CLK_GEN_x12';
 
@@ -9611,43 +10268,6 @@ occ.\08_ timing\(sch_1):page2_i319@discrete.r(chips)',
  ROOM='CLK_GEN_x12',
  PART_NUMBER='ERJ-2RKF1000X',
  VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
-
-PART_NAME
- R33 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='TE0712';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_312P@DISCRETE.R(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_312p@discrete.r(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_312p@discrete.r(chips)',
- PATH='312P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- POWER='1/10 W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF2201X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P2.20KLTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
- AVAILABILITY='6,080,000',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(3950,-2075)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF2201X,R-RES0402',
- ROOM='TE0712',
- PART_NUMBER='ERJ-2RKF2201X',
- VALUE='2.2k',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
@@ -11331,7 +11951,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_20p@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_20p@discrete.r(chips)',
+occ.\07_ backplane interface\(sch_1):page1_20p@discrete.r(chips)',
  PATH='20P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  POWER='1/2W',
@@ -11344,7 +11964,7 @@ occ.\07_ backplane interface\(sch_1):page2_20p@discrete.r(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='RES SMD 0 OHM JUMPER 1/8W 0805',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(4075,-675)',
  ROT='0',
  VER='1',
@@ -12304,26 +12924,24 @@ PART_NAME
  R106 'R-M55342K11B10E0RS3,R-M55342K1A':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_342P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_342P@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_342p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_342p@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_342p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_342p@discrete.r(chips)',
  PATH='342P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Vishay\dcrcwe3.pdf',
  POWER='1/10W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
- PART_TYPE='Thick Film',
  MPN='M55342K11B10E0RS3',
  MANUFACTURER='Vishay Dale',
  DISTRIBUTOR_PARTNUMBER='1135-1061-1-ND',
  DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 10K OHM 1% 1/20W 0402',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4025,-825)',
+ PHYS_PAGE='2',
+ XY='(6900,-4275)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12794,13 +13412,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_319P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I399@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_319p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i399@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_319p@discrete.r(chips)',
- PATH='319P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i399@discrete.r(chips)',
+ PATH='I399',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -12813,8 +13431,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_319p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5575,-4500)',
+ PHYS_PAGE='2',
+ XY='(6250,-6000)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12831,13 +13449,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_309P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I397@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_309p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i397@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_309p@discrete.r(chips)',
- PATH='309P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i397@discrete.r(chips)',
+ PATH='I397',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -12850,8 +13468,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_309p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5475,-4500)',
+ PHYS_PAGE='2',
+ XY='(6150,-6000)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12868,13 +13486,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_318P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I398@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_318p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i398@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_318p@discrete.r(chips)',
- PATH='318P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i398@discrete.r(chips)',
+ PATH='I398',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -12887,8 +13505,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_318p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5350,-4500)',
+ PHYS_PAGE='2',
+ XY='(9800,-4400)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12905,13 +13523,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_308P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I396@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_308p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i396@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_308p@discrete.r(chips)',
- PATH='308P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i396@discrete.r(chips)',
+ PATH='I396',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -12924,8 +13542,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_308p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5250,-4500)',
+ PHYS_PAGE='2',
+ XY='(9700,-4400)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12979,13 +13597,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_303P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I403@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_303p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i403@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_303p@discrete.r(chips)',
- PATH='303P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i403@discrete.r(chips)',
+ PATH='I403',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -12998,8 +13616,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_303p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4850,-4500)',
+ PHYS_PAGE='2',
+ XY='(9300,-4400)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -13016,13 +13634,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_315P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I401@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_315p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i401@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_315p@discrete.r(chips)',
- PATH='315P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i401@discrete.r(chips)',
+ PATH='I401',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -13035,8 +13653,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_315p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4950,-4500)',
+ PHYS_PAGE='2',
+ XY='(9400,-4400)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -13053,13 +13671,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_325P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I402@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_325p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i402@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_325p@discrete.r(chips)',
- PATH='325P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i402@discrete.r(chips)',
+ PATH='I402',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -13072,8 +13690,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_325p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5050,-4500)',
+ PHYS_PAGE='2',
+ XY='(9500,-4400)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -13090,13 +13708,13 @@ PART_NAME
  ROOM='SFP I2C SWITCH';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_337P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I400@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_337p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i400@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_337p@discrete.r(chips)',
- PATH='337P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i400@discrete.r(chips)',
+ PATH='I400',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  POWER='1/10 W',
  TOLERANCE='1%',
  SOURCE_PACKAGE='R',
@@ -13109,8 +13727,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_337p@discrete.r(chips)',
  DESCRIPTION='RES SMD 2.2K OHM 1% 1/10W 0402',
  AVAILABILITY='6,080,000',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(5150,-4500)',
+ PHYS_PAGE='2',
+ XY='(9600,-4400)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -13446,13 +14064,13 @@ PART_NAME
  R136 'R-M55342K11B10E0RS3,R-M55342K1A':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_340P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_340P@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_340p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_340p@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_340p@discrete.r(chips)',
+occ.\05 trenz te0712 fpga module\(sch_1):page2_340p@discrete.r(chips)',
  PATH='340P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
  DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Vishay\dcrcwe3.pdf',
  POWER='1/10W',
  TOLERANCE='1%',
@@ -13464,8 +14082,8 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_340p@discrete.r(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='RES SMD 10K OHM 1% 1/20W 0402',
  DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(3300,-3125)',
+ PHYS_PAGE='2',
+ XY='(6175,-6575)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -13484,7 +14102,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_26p@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_26p@discrete.r(chips)',
+occ.\07_ backplane interface\(sch_1):page1_26p@discrete.r(chips)',
  PATH='26P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  POWER='0.1W, 1/10W',
@@ -13497,7 +14115,7 @@ occ.\07_ backplane interface\(sch_1):page2_26p@discrete.r(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='RES 10M OHM 1% 1/10W 0603',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(3925,-3850)',
  ROT='0',
  VER='1',
@@ -13517,7 +14135,7 @@ SECTION_NUMBER 1
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
 occ.\07_ backplane interface\(sch_1):page2_24p@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_re~
-occ.\07_ backplane interface\(sch_1):page2_24p@discrete.r(chips)',
+occ.\07_ backplane interface\(sch_1):page1_24p@discrete.r(chips)',
  PATH='24P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
  POWER='0.1W, 1/10W',
@@ -13530,7 +14148,7 @@ occ.\07_ backplane interface\(sch_1):page2_24p@discrete.r(chips)',
  DISTRIBUTOR='Digikey',
  DESCRIPTION='RES 10M OHM 1% 1/10W 0603',
  DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
- PHYS_PAGE='2',
+ PHYS_PAGE='1',
  XY='(3725,-3850)',
  ROT='0',
  VER='1',
@@ -14103,6 +14721,1266 @@ occ.\08_ timing\(sch_1):page1_i735@cnpassive.rsmd0402(chips)',
 b/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
+ R155 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I181@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i181@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i181@cnpassive.rsmd0402(chips)',
+ PATH='I181',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(850,-1675)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='1K',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R156 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I253@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i253@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i253@cnpassive.rsmd0402(chips)',
+ PATH='I253',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(850,-3325)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='1K',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R157 'RSMD0402_1/16W-2.2K,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I183@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i183@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i183@cnpassive.rsmd0402(chips)',
+ PATH='I183',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1100,-1675)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-2.2K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='2.2K',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R158 'RSMD0402_1/16W-2.2K,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I245@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i245@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i245@cnpassive.rsmd0402(chips)',
+ PATH='I245',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1100,-3325)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-2.2K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='2.2K',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R159 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I184@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i184@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i184@cnpassive.rsmd0402(chips)',
+ PATH='I184',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1825,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R160 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I242@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i242@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i242@cnpassive.rsmd0402(chips)',
+ PATH='I242',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1825,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R161 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I185@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i185@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i185@cnpassive.rsmd0402(chips)',
+ PATH='I185',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1950,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R162 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I241@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i241@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i241@cnpassive.rsmd0402(chips)',
+ PATH='I241',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(1950,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R163 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I199@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i199@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i199@cnpassive.rsmd0402(chips)',
+ PATH='I199',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2075,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R164 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I240@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i240@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i240@cnpassive.rsmd0402(chips)',
+ PATH='I240',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2075,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R165 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I198@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i198@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i198@cnpassive.rsmd0402(chips)',
+ PATH='I198',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2200,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R166 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I239@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i239@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i239@cnpassive.rsmd0402(chips)',
+ PATH='I239',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2200,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R167 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I197@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i197@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i197@cnpassive.rsmd0402(chips)',
+ PATH='I197',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2325,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R168 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I238@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i238@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i238@cnpassive.rsmd0402(chips)',
+ PATH='I238',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2325,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R169 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I196@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i196@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i196@cnpassive.rsmd0402(chips)',
+ PATH='I196',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2450,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R170 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I237@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i237@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i237@cnpassive.rsmd0402(chips)',
+ PATH='I237',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2450,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R171 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I195@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i195@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i195@cnpassive.rsmd0402(chips)',
+ PATH='I195',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2575,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R172 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I236@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i236@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i236@cnpassive.rsmd0402(chips)',
+ PATH='I236',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2575,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R173 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I194@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i194@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i194@cnpassive.rsmd0402(chips)',
+ PATH='I194',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2700,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R174 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I235@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i235@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i235@cnpassive.rsmd0402(chips)',
+ PATH='I235',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2700,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R175 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I193@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i193@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i193@cnpassive.rsmd0402(chips)',
+ PATH='I193',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2825,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R176 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I234@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i234@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i234@cnpassive.rsmd0402(chips)',
+ PATH='I234',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2825,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R177 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I192@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i192@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i192@cnpassive.rsmd0402(chips)',
+ PATH='I192',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2950,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R178 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I233@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i233@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i233@cnpassive.rsmd0402(chips)',
+ PATH='I233',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(2950,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R179 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I191@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i191@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i191@cnpassive.rsmd0402(chips)',
+ PATH='I191',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3075,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R180 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I229@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i229@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i229@cnpassive.rsmd0402(chips)',
+ PATH='I229',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3075,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R181 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I190@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i190@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i190@cnpassive.rsmd0402(chips)',
+ PATH='I190',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3200,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R182 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I228@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i228@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i228@cnpassive.rsmd0402(chips)',
+ PATH='I228',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3200,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R183 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I189@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i189@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i189@cnpassive.rsmd0402(chips)',
+ PATH='I189',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3325,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R184 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I227@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i227@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i227@cnpassive.rsmd0402(chips)',
+ PATH='I227',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3325,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R185 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I188@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i188@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i188@cnpassive.rsmd0402(chips)',
+ PATH='I188',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3450,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R186 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I226@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i226@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i226@cnpassive.rsmd0402(chips)',
+ PATH='I226',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3450,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R187 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I187@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i187@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i187@cnpassive.rsmd0402(chips)',
+ PATH='I187',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3575,-1625)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R188 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I225@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i225@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i225@cnpassive.rsmd0402(chips)',
+ PATH='I225',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3575,-3275)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R189 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I186@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i186@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i186@cnpassive.rsmd0402(chips)',
+ PATH='I186',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3700,-1450)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R190 'RSMD0402_1/16W-200,1%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I224@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i224@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page3_i224@cnpassive.rsmd0402(chips)',
+ PATH='I224',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='3',
+ XY='(3700,-3100)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-200,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='200',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
  SW1 'HDT0001-HDT0001,HDT0001-HDT000A':
  ROOM='MMC';
 
@@ -14141,6 +16019,28 @@ occ.\01_ module management ctrl\(sch_1):page1_176p@ocad_parts_lib.hdt0001(chips)
  PRIM_FILE='./ocad_parts_lib/hdt0001/chips/chips.prt';
 
 PART_NAME
+ TE1 'CON7P-5607-5102-SH':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I393@CNCONNECTOR.CON7P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i393@cnconnector.con7p(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i393@cnconnector.con7p(chips)',
+ PATH='I393',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
+ TYPE='5607-5102-SH',
+ DESIGNATORNAMEPROP='TE0712',
+ PHYS_PAGE='2',
+ XY='(6375,-7400)',
+ ROT='2',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON7P-5607-5102-SH',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnconnector/con7p/chips/chips.prt';
+
+PART_NAME
  TIMING1 'SY58608UMG-VCC=P2V5':;
 
 SECTION_NUMBER 1
@@ -14163,6 +16063,81 @@ occ.\08_ timing\(sch_1):page1_i557@cninterface.sy58608u(chips)',
  CDS_PART_NAME='SY58608UMG-VCC=P2V5',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cninterface/sy58608u/chips/chips.prt';
+
+PART_NAME
+ TP1 'TP_HOLE-1.0MM':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I411@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i411@cnpassive.tp(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i411@cnpassive.tp(chips)',
+ PATH='I411',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
+ SIZE='1',
+ DESIGNATORNAMEPROP='TE0712',
+ PHYS_PAGE='2',
+ XY='(4100,-4450)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='HOLE',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-1.0MM',
+ PART_NAME='TP',
+ VALUE='1.0MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP2 'TP_HOLE-1.0MM':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I412@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i412@cnpassive.tp(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i412@cnpassive.tp(chips)',
+ PATH='I412',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
+ SIZE='1',
+ DESIGNATORNAMEPROP='TE0712',
+ PHYS_PAGE='2',
+ XY='(5950,-5100)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='HOLE',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-1.0MM',
+ PART_NAME='TP',
+ VALUE='1.0MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP3 'TP_HOLE-1.0MM':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I413@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i413@cnpassive.tp(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
+occ.\05 trenz te0712 fpga module\(sch_1):page2_i413@cnpassive.tp(chips)',
+ PATH='I413',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2',
+ SIZE='1',
+ DESIGNATORNAMEPROP='TE0712',
+ PHYS_PAGE='2',
+ XY='(9175,-4550)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='HOLE',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-1.0MM',
+ PART_NAME='TP',
+ VALUE='1.0MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnpassive/tp/chips/chips.prt';
 
 PART_NAME
  TP5 'TESTPOINT-EMA-00001481V22,TESTB':
@@ -14612,42 +16587,6 @@ occ.\08_ timing\(sch_1):page1_i618@bris_cds_logic.max9381esa(chips)',
 max9381esa/chips/chips.prt';
 
 PART_NAME
- U4 'SI53342-B-GM-SI53342-B-GM,SI53B':
- ROOM='CLK_FO_0_5';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_159P@OCAD_PARTS_LIB.SI53342-B-GM(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_159p@ocad_parts_lib.\si53342-b-gm\(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_159p@ocad_parts_lib.\si53342-b-gm\(chips)',
- PATH='159P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- PRICE='1',
- SOURCE_PACKAGE='SI53342-B-GM',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Oscillator',
- MPN='SI53342-B-GM',
- MANUFACTURER='Silicon Labs',
- DISTRIBUTOR_PARTNUMBER='336-3840-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='2:6 LVDS BUFFER (1.25GHZ), 2:1 I',
- AVAILABILITY='533',
- DESIGNATORNAMEPROP='TIMING',
- PHYS_PAGE='3',
- XY='(2075,-875)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='QFN_24',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='SI53342-B-GM-SI53342-B-GM,SI53B',
- ROOM='CLK_FO_0_5',
- PART_NUMBER='SI53342-B-GM',
- VALUE='SI53342-B-GM',
- PRIM_FILE='./ocad_parts_lib/si53342#2db#2dgm/chips/chips.prt';
-
-PART_NAME
  U5 'SFP_CAGE-2227023-1-2227023-1,SB':
  ROOM='SFP0';
 
@@ -14721,42 +16660,6 @@ occ.\08_ timing\(sch_1):page2_285p@ocad_parts_lib.\si5395a-a-gm\(chips)',
  PRIM_FILE='./ocad_parts_lib/si5395a#2da#2dgm/chips/chips.prt';
 
 PART_NAME
- U7 '4-CHANNEL-I2C-TCA9546APWR,4-CHB':
- ROOM='SFP I2C SWITCH';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_335P@OCAD_PARTS_LIB.4-CHANNEL-I2C(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_335p@ocad_parts_lib.\4-channel-i2~
-c\(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_4p@mtca_interface_board_re~
-occ.\05 trenz te0712 fpga module\(sch_1):page1_335p@ocad_parts_lib.\4-channel-i2~
-c\(chips)',
- PATH='335P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1',
- SOURCE_PACKAGE='4-Channel-I2C',
- PSPICE='IC',
- PART_TYPE='Interface',
- MPN='TCA9546APWR',
- MANUFACTURER='Texas Instruments',
- DISTRIBUTOR_PARTNUMBER='296-40578-2-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='IC INTFACE SPECIALIZED 16HVQFN',
- DESIGNATORNAMEPROP='TE0712',
- PHYS_PAGE='1',
- XY='(4275,-5200)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='TSSOP-16P_P65MM',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='4-CHANNEL-I2C-TCA9546APWR,4-CHB',
- ROOM='SFP I2C SWITCH',
- PART_NUMBER='TCA9546APWR',
- VALUE='TCA9546APWR',
- PRIM_FILE='./ocad_parts_lib/4#2dchannel#2di2c/chips/chips.prt';
-
-PART_NAME
  U8 'MAX9381ESA_SMD-MAX9381ESA':;
 
 SECTION_NUMBER 1
@@ -14779,42 +16682,6 @@ occ.\08_ timing\(sch_1):page1_i578@bris_cds_logic.max9381esa(chips)',
  VALUE='MAX9381ESA',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/~
 max9381esa/chips/chips.prt';
-
-PART_NAME
- U9 'SI53342-B-GM-SI53342-B-GM,SI53B':
- ROOM='CLK_FO_6_11';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_149P@OCAD_PARTS_LIB.SI53342-B-GM(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_149p@ocad_parts_lib.\si53342-b-gm\(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page3_149p@ocad_parts_lib.\si53342-b-gm\(chips)',
- PATH='149P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3',
- PRICE='1',
- SOURCE_PACKAGE='SI53342-B-GM',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Oscillator',
- MPN='SI53342-B-GM',
- MANUFACTURER='Silicon Labs',
- DISTRIBUTOR_PARTNUMBER='336-3840-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='2:6 LVDS BUFFER (1.25GHZ), 2:1 I',
- AVAILABILITY='533',
- DESIGNATORNAMEPROP='TIMING',
- PHYS_PAGE='3',
- XY='(4925,-900)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='QFN_24',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='SI53342-B-GM-SI53342-B-GM,SI53B',
- ROOM='CLK_FO_6_11',
- PART_NUMBER='SI53342-B-GM',
- VALUE='SI53342-B-GM',
- PRIM_FILE='./ocad_parts_lib/si53342#2db#2dgm/chips/chips.prt';
 
 PART_NAME
  U11 'SFP_CAGE-2227023-1-2227023-1,SB':
