@@ -1,0 +1,30 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR(SPCOCD-150): Signal connected to pin has incorrect width.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-150): Signal connected to pin has incorrect width.
+Object dump: 
+{
+    page:  1
+    instance:  i137
+    cell name: pth08t210w
+    pin name:  VI<1..0>
+}
+")
+   (location
+    (
+     (object_kind "InstancePin")
+     (canonical_name "_!drawerror pin i137.VI<1..0>;")
+     (parent_canonical_name "DRAWERROR PIN i137.VI<1..0>;")
+     (drawing_name "@mtca_interface_board_reocc.\02_ power\(sch_1):page1")
+    )
+   )
+  )
+ )
+)

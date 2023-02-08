@@ -1,22 +1,13 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S031 (4044358) 7/23/2022 on Fri Jan 20 14:35:05 2023
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S032 (4053947) 9/5/2022 on Wed Feb  8 12:46:51 2023
 #CELL
   ocad_parts_lib cap_pol *
   page1_105p
-#CELL
-  discrete r *
-  page1_106p
 #CELL
   ocad_parts_lib cap_np *
   page1_107p
 #CELL
   discrete r *
   page1_108p
-#CELL
-  discrete r *
-  page1_109p
-#CELL
-  ocad_parts_lib uws_series *
-  page1_110p
 #CELL
   discrete r *
   page1_111p
@@ -29,9 +20,6 @@
 #ISCELL
   golden_symbols 2-pin_jumper *
   page1_114p
-#CELL
-  ocad_parts_lib cap_np *
-  page1_115p
 #CELL
   discrete r *
   page1_116p
@@ -57,9 +45,6 @@
   testpoint testpoint *
   page1_123p
 #CELL
-  ocad_parts_lib cap_np *
-  page1_124p
-#CELL
   discrete r *
   page1_125p
 #CELL
@@ -68,12 +53,6 @@
 #CELL
   ocad_parts_lib hdr1x3 *
   page1_127p
-#CELL
-  discrete r *
-  page1_128p
-#CELL
-  ocad_parts_lib cap_np *
-  page1_129p
 #CELL
   testpoint testpoint *
   page1_130p
@@ -125,6 +104,12 @@
 #ISCELL
   bris_cds_standard a3-2000 *
   page1_6p
+#CELL
+  cnlinear pth08t210w *
+  page1_i137
+#CELL
+  cndiscrete trans#20mosfet *
+  page1_i138
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_10p
