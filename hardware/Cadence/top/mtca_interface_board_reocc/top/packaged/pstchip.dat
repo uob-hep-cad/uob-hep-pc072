@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 02-Feb-2023 AT 15:21:53 }
+{ Packager-XL run on 21-Feb-2023 AT 17:49:02 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1020,6 +1020,49 @@ primitive 'CAPCERSMDCL2_0603-10UF,6.3V';
       PARENT_PPT_PART='CAPCERSMDCL2_0603-10UF,6.3V';
   end_body;
 end_primitive;
+primitive 'CAPCERSMDCL2_0603-1UF,16V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_1UF_16V_10%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='1uF';
+      VOLT='16V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-1UF,16V';
+  end_body;
+end_primitive;
 primitive 'CAP_NP-445-7348-2-ND,CAP_NP-44A';
   pin
     '1':
@@ -1351,43 +1394,6 @@ primitive 'CAP_NP-GRM21BR60J476ME15K,CAP_B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_NP';
       PARENT_PPT_PART='CAP_NP-GRM21BR60J476ME15K,CAP_NP';
-  end_body;
-end_primitive;
-primitive 'CAP_NP-GRM319R61C226ME15D,CAP_B';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      PART_NAME='CAP_NP';
-      BODY_NAME='CAP_NP';
-      JEDEC_TYPE='CAP1206';
-      VALUE='22UF';
-      DESCRIPTION='CAP CER 22UF 16V X5R 1206';
-      MPN='GRM319R61C226ME15D';
-      MANUFACTURER='MURATA';
-      PART_TYPE='CERAMIC';
-      ALT_SYMBOLS='';
-      SOURCE_PACKAGE='CAP_NP';
-      PART_NUMBER='GRM319R61C226ME15D';
-      PARENT_PART_TYPE='CAP_NP';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CAP_NP';
-      PARENT_PPT_PART='CAP_NP-GRM319R61C226ME15D,CAP_NP';
   end_body;
 end_primitive;
 primitive 'CAP_NP-GRM31CD80J107ME39K,CAP_B';
@@ -2002,6 +2008,46 @@ primitive 'DIODE-1N4148W-13-F,DIODE-1N414A';
       PARENT_PPT_PART='DIODE-1N4148W-13-F,DIODE';
   end_body;
 end_primitive;
+primitive 'ELCAP_VER-470UF_LF,63V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='ELCAP';
+      BODY_NAME='ELCAP';
+      CLASS='DISCRETE';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PHYS_DES_PREFIX='C';
+      DESCRIPTION='Aluminium Electrolytic Capaacitor - Long Life - SR Series';
+      VALUE='470uF';
+      JEDEC_TYPE='CAPPRD500W60D1250H2700A';
+      PINCOUNT='2';
+      PART_NUMBER='EEUFR1J471';
+      MANUFACTURER='PANASONIC';
+      STATUS='Not Recommended';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/cap_panasonic~
+_sr-series.pdf';
+      SMD='NO';
+      CASE='RAD12.5x25mm';
+      PARENT_PART_TYPE='ELCAP_VER';
+      PARENT_PPT='ELCAP';
+      PARENT_PPT_PART='ELCAP_VER-470UF_LF,63V';
+  end_body;
+end_primitive;
 primitive 'FERRITE_SMD-BLM21PG221SN1,MURAA';
   pin
     'B'<0>:
@@ -2040,6 +2086,46 @@ M21P-series.pdf';
       PARENT_PART_TYPE='FERRITE_SMD';
       PARENT_PPT='FERRITE';
       PARENT_PPT_PART='FERRITE_SMD-BLM21PG221SN1,MURATA';
+  end_body;
+end_primitive;
+primitive 'FERRITE_SMD-MPZ1608S101A,TDK';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='FERRITE';
+      BODY_NAME='FERRITE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_IO_CHECK='TRUE';
+      PHYS_DES_PREFIX='L';
+      STATUS='Preferred';
+      PART_NUMBER='MPZ1608S101A';
+      MANUFACTURER='TDK';
+      DESCRIPTION='2A SMD Ferrite Chip Bead - MPZ1608 Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/mpz1608.pdf';
+      PINCOUNT='2';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='INDC1608X95N';
+      VALUE='100R@100MHz';
+      PARENT_PART_TYPE='FERRITE_SMD';
+      PARENT_PPT='FERRITE';
+      PARENT_PPT_PART='FERRITE_SMD-MPZ1608S101A,TDK';
   end_body;
 end_primitive;
 primitive 'HDR1X3-HDR1X3,HDR1X3-HDR1X3,HDA';
@@ -4868,6 +4954,129 @@ primitive 'PCOAX-U.FL-R-SMT-1(10)';
       PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
   end_body;
 end_primitive;
+primitive 'PTH08T210WAD';
+  pin
+    'UVLO':
+      PIN_NUMBER='(1)';
+      OUTPUT_TYPE='(OC,AND)';
+      OUTPUT_LOAD='(1.0,*)';
+      PINUSE='OCA';
+    'VI'<0>:
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'GND'<0>:
+      PIN_NUMBER='(3)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'GND'<1>:
+      PIN_NUMBER='(4)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VO'<0>:
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VI'<1>:
+      PIN_NUMBER='(6)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'GND'<2>:
+      PIN_NUMBER='(7)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'GND'<3>:
+      PIN_NUMBER='(8)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VO'<1>:
+      PIN_NUMBER='(9)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'SENSP':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'SENSM':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'VADJ':
+      PIN_NUMBER='(12)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'TURBOTRANS':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'TRACK':
+      PIN_NUMBER='(14)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='PTH08T210W';
+      BODY_NAME='PTH08T210W';
+      PHYS_DES_PREFIX='PWR';
+      CLASS='IC';
+      STATUS='Preferred';
+      PART_NUMBER='PTH08T210WAD';
+      MANUFACTURER='TEXAS INSTRUMENTS';
+      DESCRIPTION='30A 5.5V to 14V Input Non-Isolated Wide-Output Adjustable Pow~
+er Module with Turbo-Trans(TM) Technology';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/pth08t210w.pd~
+f';
+      PINCOUNT='14';
+      SMD='NO';
+      CASE='ECP';
+      JEDEC_TYPE='PWS_TI_ECP-R-PDSS-T14';
+      PARENT_PART_TYPE='PTH08T210W_ECP';
+      PARENT_PPT='PTH08T210W';
+      PARENT_PPT_PART='PTH08T210WAD';
+  end_body;
+end_primitive;
 primitive 'R-311-24.9LRCT-ND,R-311-24.9LRA';
   pin
     '1':
@@ -5768,42 +5977,6 @@ primitive 'R-PMR18EZPFU5L00,R-PMR18EZPFU5A';
       PARENT_PPT_PART='R-PMR18EZPFU5L00,R';
   end_body;
 end_primitive;
-primitive 'R-RC0402FR-078K66L,R-R,RC0402FA';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES0402';
-      VALUE='8.66K';
-      DESCRIPTION='RES SMD 8.66K OHM 1% 1/16W 0402';
-      MPN='RC0402FR-078K66L';
-      MANUFACTURER='YAGEO';
-      PART_TYPE='THICK FILM';
-      SOURCE_PACKAGE='R';
-      PART_NUMBER='RC0402FR-078K66L';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-RC0402FR-078K66L,R';
-  end_body;
-end_primitive;
 primitive 'RECPT 5X2 100MIL-RECP5X2,RECPTB';
   pin
     '1':
@@ -6010,6 +6183,128 @@ primitive 'RSMD0402_1/16W-200,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-200,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_-00,';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='0603 Size SMD Jumper';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_00_JUMPER';
+      VALUE='00';
+      TOL='';
+      PWR='';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.000.5';
+      PARENT_PART_TYPE='RSMD0603_';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_-00,';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/10W-1.6K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_1K6_1%_0.1W_100PPM';
+      VALUE='1.6k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.316.8';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-1.6K,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/10W-XX,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0603_XX_1%_0.1W_100PPM';
+      VALUE='XX';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      MOUNTED='NO';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-XX,1%';
   end_body;
 end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
@@ -7983,6 +8278,40 @@ primitive 'TESTPOINT-EMA-00001481V22,TESTB';
       PARENT_PPT_PART='TESTPOINT-EMA-00001481V22,TESTPOINT';
   end_body;
 end_primitive;
+primitive 'TOSHIBA';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'COLLECTOR':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'EMITTER':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='OPTOCOUPLER_AC_EC';
+      BODY_NAME='OPTOCOUPLER_AC_EC';
+      CLASS='IC';
+      PHYS_DES_PREFIX='IC';
+      STATUS='Preferred';
+      PART_NUMBER='TLP183';
+      MANUFACTURER='TOSHIBA';
+      DESCRIPTION='Photocoupler InGaAs Infrared LED & Photo-Transistor';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/tlp183.pdf';
+      PINCOUNT='4';
+      SMD='YES';
+      CASE='SOIC4';
+      JEDEC_TYPE='TOSHIBA_11-4M1S';
+      PARENT_PART_TYPE='OPTOCOUPLER_AC_EC_1264';
+      PARENT_PPT='OPTOCOUPLER_AC_EC';
+      PARENT_PPT_PART='TOSHIBA';
+  end_body;
+end_primitive;
 primitive 'TPS74618P-TPS74618PQWDRVRQ1,TPB';
   pin
     'OUT':
@@ -8165,6 +8494,48 @@ primitive 'TP_HOLE-1.0MM';
       PARENT_PPT_PART='TP_HOLE-1.0MM';
   end_body;
 end_primitive;
+primitive 'TRANS MOSFET_GSD-PJE8408,SOT523';
+  pin
+    'S':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='TRANS MOSFET';
+      PHYS_DES_PREFIX='T';
+      ALLOW_CONNECT='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      BODY_NAME='TRANS MOSFET';
+      STATUS='';
+      PART_NUMBER='PJE8408';
+      MANUFACTURER='PANJIT SEMICONDUCTOR';
+      DESCRIPTION='500mA 20V N-Channel Enhancement Mode MOSFET';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/pje8408.pdf';
+      PINCOUNT='3';
+      SMD='YES';
+      CASE='SOT523-3';
+      JEDEC_TYPE='SOTFL50P160X60-3N';
+      PARENT_PART_TYPE='TRANS MOSFET_GSD';
+      PARENT_PPT='TRANS MOSFET';
+      PARENT_PPT_PART='TRANS MOSFET_GSD-PJE8408,SOT523';
+  end_body;
+end_primitive;
 primitive 'TVS_2X-PGB1010603NR,TVS_2X-D06A';
   pin
     'K':
@@ -8199,58 +8570,6 @@ primitive 'TVS_2X-PGB1010603NR,TVS_2X-D06A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='TVS_2X';
       PARENT_PPT_PART='TVS_2X-PGB1010603NR,TVS_2X';
-  end_body;
-end_primitive;
-primitive 'UWS_SERIES-UWS-3.3/15-Q48N-C,UB';
-  pin
-    '+VIN':
-      PIN_NUMBER='(1)';
-      PINUSE='POWER';
-    'ON/OFF_CTRL':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '-VIN':
-      PIN_NUMBER='(3)';
-      PINUSE='POWER';
-    'VOUT*':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'SENSE*':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'OUTPUT_TRIM':
-      PIN_NUMBER='(6)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    '+SENSE':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '+VOUT':
-      PIN_NUMBER='(8)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='UWS_SERIES';
-      BODY_NAME='UWS_SERIES';
-      JEDEC_TYPE='8-DIP_MODULE';
-      VALUE='UWS-3.3/15-Q48N-C';
-      DESCRIPTION='DC DC CONVERTER 3.3V 50W';
-      MPN='UWS-3.3/15-Q48N-C';
-      MANUFACTURER='MURATA POWER SOLUTIONS INC.';
-      PART_TYPE='VOLTAGE REGULATOR';
-      PART_NUMBER='UWS-3.3/15-Q48N-C';
-      SOURCE_PACKAGE='UWS_SERIES';
-      PARENT_PART_TYPE='UWS_SERIES';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='UWS_SERIES';
-      PARENT_PPT_PART='UWS_SERIES-UWS-3.3/15-Q48N-C,UWS_SERIES';
   end_body;
 end_primitive;
 END.

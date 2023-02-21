@@ -2,22 +2,416 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m10.brd        |
-|                                                    Thu Feb  2 15:21:57 2023  |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 R82.2           6935.00 2400.47
+                                                                          VP3V5
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 C16.2                          
+                                 C17.2                          
+                                 C23.1                          
+                                 C25.1                          
+                                 C41.1                          
+                                 C42.1                          
+                                 IC5.3                          
+                                 IC5.4                          
+                                 POWER1.3                       
+                                 POWER1.4                       
+                                 POWER1.7                       
+                                 POWER1.8                       
+                                 POWER1.11                      
+                                 T1.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MP3V3        pins MOVED FROM this net (to net name listed on right)
+                                 R81.1           5184.00 188.472
+                                                                    VIN3V5_DCDC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00175       pins MOVED FROM this net (to net name listed on right)
+                                 R60.1           565.472 740.000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00181       pins MOVED FROM this net (to net name listed on right)
+                                 J12.1           1365.00 415.000
+                                                                          MP3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_OPTOCOUPLERACEC_I13_1 pins ADDED TO this new net
+                                 IC5.6                          
+                                 R33.2                          
+                                 T1.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_OPTOCOUPLERACEC_I139_ pins ADDED TO this new net
+                                 IC5.1                          
+                                 R16.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_PTH08T210W_I137_TURBO pins ADDED TO this new net
+                                 POWER1.13                      
+                                 R65.1           3896.00 532.472
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_1_PTH08T210W_I137_UVLO pins ADDED TO this new net
+                                 POWER1.1                       
+                                 T1.3                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_PTH08T210W_I137_VADJ pins ADDED TO this new net
+                                 POWER1.12                      
+                                 R60.2           624.528 740.000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_RSMD0603_I144_B pins ADDED TO this new net
+                                 POWER1.10                      
+                                 R65.2           3896.00 591.528
+                                 R81.2           5184.00 247.528
+                                 R82.1           6935.00 2459.52
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_R_I154_1 pins ADDED TO this new net
+                                 R16.2                          
+                                 R31.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_CAPCERSMDCL2_I418_B pins ADDED TO this new net
+                                 C23.2                          
+                                 L12.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_CAPCERSMDCL2_I424_B pins ADDED TO this new net
+                                 C25.2                          
+                                 J1.80           2964.56 2620.78
+                                 L14.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC3V3       pins MOVED FROM this net (to net name listed on right)
+                                 J1.2            3732.28 2620.78
+                                                  UNNAMED_2_CAPCERSMDCL2_I418_B
+                                 J1.4            3712.59 2620.78
+                                                  UNNAMED_2_CAPCERSMDCL2_I418_B
+                                 J1.6            3692.91 2620.78
+                                                  UNNAMED_2_CAPCERSMDCL2_I418_B
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 C41.2                          
+                                 L12.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VIN3V5_DCDC  pins ADDED TO this existing net (pins not previously on any net)
+                                 POWER1.5                       
+                                 POWER1.9                       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VP12_EN      pins ADDED TO this existing net (pins not previously on any net)
+                                 R31.2                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VP12         pins ADDED TO this existing net (pins not previously on any net)
+                                 C16.1                          
+                                 C17.1                          
+                                 C42.2                          
+                                 L14.2                          
+                                 POWER1.2                       
+                                 POWER1.6                       
+                                 POWER1.14                      
+                                 R33.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAPCERSMDCL2_0603-1UF,16V
+ ELCAP_VER-470UF_LF,63V
+ FERRITE_SMD-MPZ1608S101A,TDK
+ PTH08T210WAD
+ RSMD0603_1/10W-1.6K,1%
+ RSMD0603_1/10W-XX,1%
+ RSMD0603_-00,
+ TOSHIBA
+ TRANS MOSFET_GSD-PJE8408,SOT523
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- JTG1                MCH_CONNECTOR2_ALT2-MCH2B-EDGEB  88.386 4753.85
- JTG2                LSHM-150-0XXX-L-DV-A-S-LSHM-15B 1055.95 4283.00
- JTG3                LSHM-130-0XXX-L-DV-A-S-LSHM-13B 1055.95 5471.00
- MTG1                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 775.000 3632.00
- MTG2                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 420.000 3632.00
- MTG3                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 775.000 5875.70
- MTG4                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 420.000 5875.70
+ C47                 CAP_NP-GRM319R61C226ME15D,CAP_B 1764.00 1109.00
+ C48                 CAP_NP-GRM319R61C226ME15D,CAP_B 1651.00 1108.00
+ C52                 CAP_NP-GRM319R61C226ME15D,CAP_B 1356.00 740.000
+ U17                 UWS_SERIES-UWS-3.3/15-Q48N-C,UB 2090.00 555.000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|       Components deleted    :       7                                        |
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C16                 ELCAP_VER-470UF_LF,63V 
+ C17                 ELCAP_VER-470UF_LF,63V 
+ C23                 CAPCERSMDCL2_0603-1UF,16V 
+ C25                 CAPCERSMDCL2_0603-1UF,16V 
+ C41                 CAPCERSMDCL2_0603-1UF,16V 
+ C42                 CAPCERSMDCL2_0603-1UF,16V 
+ IC5                 TOSHIBA               
+ L12                 FERRITE_SMD-MPZ1608S101A,TDK 
+ L14                 FERRITE_SMD-MPZ1608S101A,TDK 
+ POWER1              PTH08T210WAD          
+ R16                 R-311-24.9LRCT-ND,R-311-24.9LRA 
+ R31                 R-311-24.9LRCT-ND,R-311-24.9LRA 
+ R33                 R-ERJ-2RKF1503X,R-ERJ-2RKF1503A 
+ T1                  TRANS MOSFET_GSD-PJE8408,SOT523 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R60                 RSMD0603_1/10W-1.6K,1% 595.000 740.000 R-RC0402FR-078K66L,R-R,RC0402FA
+ R65                 RSMD0603_1/10W-XX,1%  3896.00 562.000 R-NO_STUFF,R-NO_STUFF,R,RES0402
+ R81                 RSMD0603_1/10W-XX,1%  5184.00 218.000 R-M55342K11B10E0RS3,R-M55342K1A
+ R82                 RSMD0603_-00,         6935.00 2430.00 R-M55342K11B10E0RS3,R-M55342K1A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES deleted from design                                     |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R60            595.000 740.000 ROOM           MAIN_PWR
+ R65            3896.00 562.000 ROOM           MAIN_PWR
+ R82            6935.00 2430.00 ROOM           MAIN_PWR
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R16                            REUSE_ID       38
+ R16                            ROOM           JTAG
+ R31                            REUSE_ID       38
+ R31                            ROOM           JTAG
+ R33                            ROOM           MMC_DISCRETE
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C16.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcap/chips/chips.prt
+ C16.2                          SIZE           1
+ C16.2                          XY             (875,-2150)
+ C17.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcap/chips/chips.prt
+ C17.2                          SIZE           1
+ C17.2                          XY             (1125,-2150)
+ C23.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C23.2                          SIZE           1
+ C23.2                          XY             (5950,-4175)
+ C25.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C25.2                          SIZE           1
+ C25.2                          XY             (6050,-5900)
+ C41.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C41.2                          SIZE           1
+ C41.2                          XY             (6500,-4175)
+ C42.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C42.2                          SIZE           1
+ C42.2                          XY             (6500,-5900)
+ C77.2          2135.00 450.000 XY             (5925,-2000)
+ C80.2          2475.00 565.000 XY             (4300,-2050)
+ C85.2          2325.00 685.000 XY             (4600,-2825)
+ C91.2          2325.00 735.000 XY             (4525,-2350)
+ C92.2          2818.00 789.000 XY             (3675,-2075)
+ C95.2          6245.00 935.000 XY             (3950,-2050)
+ D4.1           6961.00 2586.00 XY             (3350,-3575)
+ IC5.4                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/optocoupler_ac_ec/chips/chips.prt
+ IC5.4                          XY             (1750,-2575)
+ L12.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
+ L12.2                          SIZE           1
+ L12.2                          XY             (6225,-4025)
+ L14.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
+ L14.2                          SIZE           1
+ L14.2                          XY             (6275,-5750)
+ POWER1.9                       PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/pth08t210w/chips/chips.prt
+ POWER1.9                       XY             (2775,-1950)
+ R16.2                          DESCRIPTION    RES SMD 24.9 OHM 1% 1/16W 0402
+ R16.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R16.2                          ROOM           JTAG
+ R16.2                          XY             (1225,-2725)
+ R31.2                          DESCRIPTION    RES SMD 24.9 OHM 1% 1/16W 0402
+ R31.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R31.2                          ROOM           JTAG
+ R31.2                          XY             (1225,-3075)
+ R33.2                          DESCRIPTION    RES SMD 150K OHM 1% 1/10W 0402
+ R33.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R33.2                          ROOM           MMC_DISCRETE
+ R33.2                          XY             (1975,-2150)
+ R60.2          595.000 740.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R60.2          595.000 740.000 SIZE           1
+ R60.2          595.000 740.000 XY             (2925,-2300)
+ R65.2          3896.00 562.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R65.2          3896.00 562.000 SIZE           1
+ R65.2          3896.00 562.000 XY             (3175,-1600)
+ R81.2          5184.00 218.000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R81.2          5184.00 218.000 SIZE           1
+ R81.2          5184.00 218.000 XY             (3575,-1750)
+ R82.2          6935.00 2430.00 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R82.2          6935.00 2430.00 SIZE           1
+ R82.2          6935.00 2430.00 XY             (3700,-1600)
+ R85.2          1540.00 420.000 XY             (3800,-3225)
+ R86.2          3230.00 479.000 XY             (3800,-3700)
+ R90.2          3944.00 511.000 XY             (4750,-2600)
+ R91.2          3055.09 590.003 XY             (4750,-2700)
+ R97.2          421.000 749.000 XY             (5325,-1900)
+ R119.2         5680.00 1559.00 XY             (6850,-5825)
+ R120.2         5680.00 1594.00 XY             (6750,-5825)
+ R135.2         5680.00 2228.00 XY             (3400,-3275)
+ T1.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/trans#20mosfet/chips/chips.prt
+ T1.2                           XY             (2200,-2400)
+ TP5.1          3019.00 970.000 XY             (6300,-3075)
+ TP15.1         3387.00 261.000 XY             (6250,-1900)
+ U24.12         2175.00 675.000 XY             (5350,-2500)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C16.1                          CDS_PINID      A(0)
+ C16.2                          CDS_PINID      B(0)
+ C17.1                          CDS_PINID      A(0)
+ C17.2                          CDS_PINID      B(0)
+ C23.1                          CDS_PINID      A(0)
+ C23.2                          CDS_PINID      B(0)
+ C25.1                          CDS_PINID      A(0)
+ C25.2                          CDS_PINID      B(0)
+ C41.1                          CDS_PINID      A(0)
+ C41.2                          CDS_PINID      B(0)
+ C42.1                          CDS_PINID      A(0)
+ C42.2                          CDS_PINID      B(0)
+ IC5.1                          CDS_PINID      ANODE
+ IC5.3                          CDS_PINID      CATHODE
+ IC5.4                          CDS_PINID      EMITTER
+ IC5.6                          CDS_PINID      COLLECTOR
+ L12.1                          CDS_PINID      A(0)
+ L12.2                          CDS_PINID      B(0)
+ L14.1                          CDS_PINID      A(0)
+ L14.2                          CDS_PINID      B(0)
+ POWER1.1                       CDS_PINID      UVLO
+ POWER1.2                       CDS_PINID      VI(0)
+ POWER1.3                       CDS_PINID      GND(0)
+ POWER1.4                       CDS_PINID      GND(1)
+ POWER1.5                       CDS_PINID      VO(0)
+ POWER1.6                       CDS_PINID      VI(1)
+ POWER1.7                       CDS_PINID      GND(2)
+ POWER1.8                       CDS_PINID      GND(3)
+ POWER1.9                       CDS_PINID      VO(1)
+ POWER1.10                      CDS_PINID      SENSP
+ POWER1.11                      CDS_PINID      SENSM
+ POWER1.12                      CDS_PINID      VADJ
+ POWER1.13                      CDS_PINID      TURBOTRANS
+ POWER1.14                      CDS_PINID      TRACK
+ R16.1                          CDS_PINID      \1\
+ R16.2                          CDS_PINID      \2\
+ R31.1                          CDS_PINID      \1\
+ R31.2                          CDS_PINID      \2\
+ R33.1                          CDS_PINID      \1\
+ R33.2                          CDS_PINID      \2\
+ R60.1          565.472 740.000 CDS_PINID      A(0)
+ R60.2          624.528 740.000 CDS_PINID      B(0)
+ R65.1          3896.00 532.472 CDS_PINID      A(0)
+ R65.2          3896.00 591.528 CDS_PINID      B(0)
+ R81.1          5184.00 188.472 CDS_PINID      A(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd        |
+|                                                    Tue Feb 21 17:49:08 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R81.2          5184.00 247.528 CDS_PINID      B(0)
+ R82.1          6935.00 2459.52 CDS_PINID      A(0)
+ R82.2          6935.00 2400.47 CDS_PINID      B(0)
+ T1.1                           CDS_PINID      G
+ T1.2                           CDS_PINID      S
+ T1.3                           CDS_PINID      D
+|------------------------------------------------------------------------------|
+|       Nets changed          :      56                                        |
+|       Comp definitions added:       9                                        |
+|       Components added      :      14                                        |
+|       Components deleted    :       4                                        |
+|       Components changed    :       4                                        |
+|       Comp property added   :       5                                        |
+|       Comp property deleted :       3                                        |
+|       Pin property added    :      51                                        |
+|       Slot property added   :      72                                        |
 |                                                                              |
-|   Total ECO changes reported:       7                                        |
+|   Total ECO changes reported:     218                                        |
 |------------------------------------------------------------------------------|
