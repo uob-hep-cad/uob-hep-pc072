@@ -38,9 +38,6 @@
   atcs led#20red#200603_0 *
   page1_121p
 #CELL
-  discrete r *
-  page1_122p
-#CELL
   testpoint testpoint *
   page1_123p
 #CELL
@@ -109,3 +106,57 @@
 #CELL
   cndiscrete trans#20mosfet *
   page1_i138
+#CELL
+  cndiscrete optocoupler_ac_ec *
+  page1_i139
+#CELL
+  discrete r *
+  page1_i141
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i142
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i143
+#CELL
+  cnpassive rsmd0603 *
+  page1_i144
+#CELL
+  cnpassive rsmd0603 *
+  page1_i145
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i146
+#CELL
+  cnpassive rsmd0603 *
+  page1_i147
+#CELL
+  cnpassive rsmd0603 *
+  page1_i148
+#CELL
+  cnpassive elcap *
+  page1_i149
+#CELL
+  cnpassive elcap *
+  page1_i150
+#CELL
+  discrete r *
+  page1_i154
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i155
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i157
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i158
+#CELL
+  discrete r *
+  page1_i159
+#ISCELL
+  standard ctap *
+  page1_i160
+#ISCELL
+  standard ctap *
+  page1_i161
