@@ -1,88 +1,89 @@
 \t (00:00:07) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:07)     Journal start - Tue Feb 21 17:51:37 2023
-\t (00:00:07)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=1402 CPUs=20
-\t (00:00:07) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr29628 -mpshost dilbert.phy.bris.ac.uk
+\t (00:00:07)     Journal start - Tue Feb 21 18:06:18 2023
+\t (00:00:07)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=3139 CPUs=20
+\t (00:00:07) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr608 -mpshost dilbert.phy.bris.ac.uk
 \t (00:00:07) 
    (00:00:07) Loading axlcore.cxt 
    (00:00:07) Searching for nsWare programs v2.62
    (00:00:07) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
    (00:00:07) 	NsWare programs must reside in this directory!
-\t (00:00:07) Opening existing design...
-\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v12"
-\d (00:00:08) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v12.brd
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev1_v13"
+\d (00:00:08) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v13.brd
 \i (00:00:08) trapsize 45568
 \i (00:00:08) trapsize 46668
 \i (00:00:08) trapsize 46909
 \i (00:00:08) trapsize 49010
-\i (00:00:08) trapsize 49010
+\i (00:00:08) trapsize 50366
 \i (00:00:09) generaledit 
-\i (00:00:13) place manual 
-\i (00:00:13) setwindow form.plc_manual
-\i (00:00:13) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:19) FORM plc_manual tree  POWER1 'Components by refdes' 
-\i (00:00:19) FORM plc_manual tree 'MULTISEL YES' POWER1 'Components by refdes' 
-\w (00:00:19) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:19) Placing POWER1 / PTH08T210WAD / PWS_TI_ECP-R-PDSS-T14 on Top.
-\i (00:00:24) setwindow pcb
-\i (00:00:24) pick grid 478.592 4310.118
-\t (00:00:24) last pick:  479.000 4310.000
-\i (00:00:29) setwindow form.plc_manual
-\i (00:00:29) FORM plc_manual tree  T1 'Components by refdes' 
-\i (00:00:29) FORM plc_manual tree 'MULTISEL YES' T1 'Components by refdes' 
-\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:29) Placing T1 / TRANS MOSFET_GSD-PJE8408,SOT523 / SOTFL50P160X60-3N on Top.
-\i (00:00:32) setwindow pcb
-\i (00:00:32) pick grid -246.763 3594.565
-\t (00:00:32) last pick:  -247.000 3595.000
-\i (00:00:34) setwindow form.plc_manual
-\i (00:00:34) FORM plc_manual tree  TP2 'Components by refdes' 
-\i (00:00:34) FORM plc_manual tree 'MULTISEL YES' TP2 'Components by refdes' 
-\t (00:00:34) Placing TP2 / TP_HOLE-1.0MM / TP_HOLE_10 on Top.
-\i (00:00:36) setwindow pcb
-\i (00:00:36) pick grid -393.794 3290.700
-\t (00:00:36) last pick:  -394.000 3291.000
-\i (00:00:38) setwindow form.plc_manual
-\i (00:00:38) FORM plc_manual tree  TP3 'Components by refdes' 
-\i (00:00:38) FORM plc_manual tree 'MULTISEL YES' TP3 'Components by refdes' 
-\t (00:00:38) Placing TP3 / TP_HOLE-1.0MM / TP_HOLE_10 on Top.
-\i (00:00:41) setwindow pcb
-\i (00:00:41) pick grid -354.586 3124.064
-\t (00:00:41) last pick:  -355.000 3124.000
-\i (00:00:47) setwindow form.plc_manual
-\i (00:00:47) FORM plc_manual tree  IC5 'Components by refdes' 
-\i (00:00:47) FORM plc_manual tree 'MULTISEL YES' IC5 'Components by refdes' 
-\w (00:00:47) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:47) Placing IC5 / TOSHIBA / TOSHIBA_11-4M1S on Top.
-\i (00:00:51) setwindow pcb
-\i (00:00:51) pick grid -354.586 2741.783
-\t (00:00:51) last pick:  -355.000 2742.000
-\i (00:00:53) setwindow form.plc_manual
-\i (00:00:53) FORM plc_manual tree  L2 'Components by refdes' 
-\i (00:00:53) FORM plc_manual tree 'MULTISEL YES' L2 'Components by refdes' 
-\t (00:00:53) Placing L2 / IND-BLM18AG121SN1D,IND-BLM18AGA / INDC1608X95N on Top.
-\i (00:00:56) setwindow pcb
-\i (00:00:56) pick grid -560.430 3623.971
-\t (00:00:56) last pick:  -560.000 3624.000
-\i (00:01:03) setwindow form.plc_manual
-\i (00:01:03) FORM plc_manual done  
-\i (00:01:03) setwindow pcb
-\i (00:01:03) generaledit 
-\i (00:01:05) save 
-\i (00:01:09) fillin no 
-\i (00:01:18) fillin "mib_rev1_v13.brd"
-\i (00:01:19) generaledit 
-\i (00:01:24) roam start
-\i (00:01:24) roam y 16
-\i (00:01:24) roam x 112
-\i (00:01:24) roam y 192
-\i (00:01:24) roam x 144
-\i (00:01:24) roam y 256
-\i (00:01:24) roam x 176
-\i (00:01:24) roam y 272
-\i (00:01:24) roam x 176
-\i (00:01:24) roam y 288
-\i (00:01:24) roam x 176
-\i (00:01:24) roam y 272
-\i (00:01:24) roam end
-\i (00:01:30) exit 
-\t (00:01:30)     Journal end - Tue Feb 21 17:53:00 2023
+\i (00:00:11) zoom in 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 517.665 4204.599
+\i (00:00:11) trapsize 25183
+\i (00:00:12) zoom in 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 517.665 4204.599
+\i (00:00:12) trapsize 12591
+\i (00:00:12) zoom in 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 517.665 4204.600
+\i (00:00:12) trapsize 6296
+\i (00:00:19) zoom in 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 517.665 4204.600
+\i (00:00:19) trapsize 3148
+\i (00:00:20) roam start
+\i (00:00:20) roam x -16
+\i (00:00:20) roam y -16
+\i (00:00:20) roam x -208
+\i (00:00:20) roam y -16
+\i (00:00:20) roam x -320
+\i (00:00:20) roam y -16
+\i (00:00:20) roam x -544
+\i (00:00:20) roam x -656
+\i (00:00:20) roam y 32
+\i (00:00:20) roam x -656
+\i (00:00:20) roam y 32
+\i (00:00:21) roam x -624
+\i (00:00:21) roam y 32
+\i (00:00:21) roam x -640
+\i (00:00:21) roam y 32
+\i (00:00:21) roam end
+\i (00:00:22) zoom out 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -1789.704 4154.101
+\i (00:00:22) trapsize 6296
+\i (00:00:23) zoom out 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -1789.705 4154.102
+\i (00:00:23) trapsize 12591
+\i (00:00:23) zoom out 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -1789.705 4154.102
+\i (00:00:23) trapsize 25183
+\i (00:00:25) roam x 96 
+\i (00:00:25) roam x 96
+\i (00:00:26) roam x 96 
+\i (00:00:26) roam x 96
+\i (00:00:26) roam x 96 
+\i (00:00:26) roam x 96
+\i (00:00:26) roam x 96 
+\i (00:00:26) roam x 96
+\i (00:00:26) roam x 96 
+\i (00:00:26) roam x 96
+\i (00:00:28) zoom in 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 624.115 4154.102
+\i (00:00:28) trapsize 12591
+\i (00:00:29) zoom in 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 624.115 4154.102
+\i (00:00:29) trapsize 6296
+\i (00:00:34) setwindow form.find
+\i (00:00:34) FORM find symbols NO 
+\i (00:00:35) FORM find nets YES 
+\i (00:01:02) setwindow pcb
+\i (00:01:02) exit 
+\e (00:01:02) Do you want to save the changes you made to mib_rev1_v13.brd?
+\i (00:01:05) fillin no 
+\t (00:01:05)     Journal end - Tue Feb 21 18:07:16 2023

@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 21-Feb-2023 AT 17:49:02 }
+{ Packager-XL run on 21-Feb-2023 AT 18:13:33 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -3880,6 +3880,88 @@ primitive 'LTC2945CUD-LTC2945CUD,LTC2945CB';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='LTC2945CUD';
       PARENT_PPT_PART='LTC2945CUD-LTC2945CUD,LTC2945CUD';
+  end_body;
+end_primitive;
+primitive 'LTC2991CMS#PBF';
+  pin
+    'V1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V2':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V3':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V4':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V5':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V6':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V7':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'V8':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'SDA':
+      PIN_NUMBER='(10)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'SCL':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'ADR0':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'ADR1':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'ADR2':
+      PIN_NUMBER='(15)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'PWM':
+      PIN_NUMBER='(12)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+  end_pin;
+  body
+      PART_NAME='LTC2991';
+      BODY_NAME='LTC2991';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      GROUND_NETS='GND';
+      STATUS='Preferred';
+      PART_NUMBER='LTC2991CMS#PBF';
+      MANUFACTURER='LINEAR TECHNOLOGY';
+      DESCRIPTION='Octal I2C Voltage Current and Temperature Monitor';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ltc2991.pdf';
+      PINCOUNT='16';
+      SMD='YES';
+      CASE='MSOP16';
+      JEDEC_TYPE='SOP50P490X110-16N';
+      POWER_PINS='(GND:9;VCC:16)';
+      PARENT_PART_TYPE='LTC2991_MSOP';
+      PARENT_PPT='LTC2991';
+      PARENT_PPT_PART='LTC2991CMS#PBF';
   end_body;
 end_primitive;
 primitive 'MAX9381ESA_SMD-MAX9381ESA';

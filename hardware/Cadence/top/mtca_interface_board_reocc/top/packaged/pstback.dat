@@ -1,4 +1,4 @@
-{ Packager-XL run on 21-Feb-2023 AT 17:49:02 }
+{ Packager-XL run on 21-Feb-2023 AT 18:13:33 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "CAP_POL","105P": LOCATION = "C80" #&CDS_LOCATION = "C80" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -113,6 +113,21 @@ BODY = "R","I154": LOCATION = "R31" #&CDS_LOCATION = "R31" &SEC = "1" #&CDS_SEC 
 BODY = "R","I159": LOCATION = "R16" #&CDS_LOCATION = "R16" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
+BODY = "LTC2991","I162": LOCATION = "IC6" #&CDS_LOCATION = "IC6" &SEC = "1" #&CDS_SEC = "1";
+"ADR0":   PN = "13"  !CDS_PN = "13";
+"ADR1":   PN = "14"  !CDS_PN = "14";
+"ADR2":   PN = "15"  !CDS_PN = "15";
+"PWM":   PN = "12"  !CDS_PN = "12";
+"SCL":   PN = "11"  !CDS_PN = "11";
+"SDA":   PN = "10"  !CDS_PN = "10";
+"V1":   PN = "1"  !CDS_PN = "1";
+"V2":   PN = "2"  !CDS_PN = "2";
+"V3":   PN = "3"  !CDS_PN = "3";
+"V4":   PN = "4"  !CDS_PN = "4";
+"V5":   PN = "5"  !CDS_PN = "5";
+"V6":   PN = "6"  !CDS_PN = "6";
+"V7":   PN = "7"  !CDS_PN = "7";
+"V8":   PN = "8"  !CDS_PN = "8";
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page2";
 BODY = "LTC2945CUD","133P": LOCATION = "U23" #&CDS_LOCATION = "U23" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "ADIN":   PN = "4"  !CDS_PN = "4";

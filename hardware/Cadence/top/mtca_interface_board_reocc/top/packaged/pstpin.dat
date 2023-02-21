@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 21-Feb-2023 AT 17:49:02 }
-TIME=' COMPILATION ON 21-Feb-2023 AT 17:49:02';
+{ Packager-XL run on 21-Feb-2023 AT 18:13:33 }
+TIME=' COMPILATION ON 21-Feb-2023 AT 18:13:33';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -512,6 +512,22 @@ primitive 'LTC2945CUD-LTC2945CUD,LTC2945CB';body 'LTC2945CUD';
     'SENSE+':'(11)';
     'VDD':'(12)';
     'PAD':'(13)';
+end_primitive;
+primitive 'LTC2991CMS#PBF';body 'LTC2991';
+    'V1':'(1)';IN;
+    'V2':'(2)';IN;
+    'V3':'(3)';IN;
+    'V4':'(4)';IN;
+    'V5':'(5)';IN;
+    'V6':'(6)';IN;
+    'V7':'(7)';IN;
+    'V8':'(8)';IN;
+    'SDA':'(10)';BIDI;
+    'SCL':'(11)';IN;
+    'ADR0':'(13)';IN;
+    'ADR1':'(14)';IN;
+    'ADR2':'(15)';IN;
+    'PWM':'(12)';IN;
 end_primitive;
 primitive 'MAX9381ESA_SMD-MAX9381ESA';body 'MAX9381ESA';
     'D':'(1)';IN;

@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev1_v2t_m11.brd                          )
+(    Drawing          : mib_rev1_v13.brd                              )
 (    Software Version : 17.4S034                                      )
-(    Date/Time        : Tue Feb 21 17:49:08 2023                      )
+(    Date/Time        : Tue Feb 21 18:13:37 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged'
 Design Directory:            '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd'
-New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v12.brd'
+Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v13.brd'
+New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v2t_m11.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v12.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/top.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev1_v13.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.46)
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.42)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
    Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.00)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
@@ -41,10 +41,10 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardwar
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Tue Feb 21 17:49:09 2023
+	Start time: Tue Feb 21 18:13:37 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Tue Feb 21 17:49:10 2023
+Finished Constraint Update	Time: Tue Feb 21 18:13:37 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -99,9 +99,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 21 17:49:07 2023
+netrev run on Feb 21 18:13:36 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 21-Feb-2023 AT 17:49:02
+   PACKAGING ON 21-Feb-2023 AT 18:13:33
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -134,6 +134,6 @@ netrev run on Feb 21 17:49:07 2023
  No oversight detected
  No warning detected
 
-cpu time      0:00:05
-elapsed time  0:00:04
+cpu time      0:00:02
+elapsed time  0:00:02
 

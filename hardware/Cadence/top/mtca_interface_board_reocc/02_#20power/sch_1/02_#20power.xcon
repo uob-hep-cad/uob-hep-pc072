@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-21T17:47:09</modificationTime>
+    <modificationTime>2023-02-21T18:10:24</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>105</instanceid>
+        <instanceid>106</instanceid>
         <netid>81</netid>
-        <insttermid>313</insttermid>
+        <insttermid>327</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -592,6 +592,86 @@
               <id>T176</id>
               <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S21</id>
+          <library>cnlinear</library>
+          <name>ltc2991</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T190</id>
+              <name>adr0</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T191</id>
+              <name>adr1</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T192</id>
+              <name>adr2</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T193</id>
+              <name>pwm</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T194</id>
+              <name>scl</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T195</id>
+              <name>sda</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T196</id>
+              <name>v1</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T197</id>
+              <name>v2</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T198</id>
+              <name>v3</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T199</id>
+              <name>v4</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T200</id>
+              <name>v5</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T201</id>
+              <name>v6</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T202</id>
+              <name>v7</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T203</id>
+              <name>v8</name>
+              <direction>input</direction>
             </term>
           </terms>
         </cell>
@@ -3614,6 +3694,97 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I106</id>
+          <cellid>S21</cellid>
+          <name>page1_i162</name>
+          <pins>
+            <pin>
+              <id>M314</id>
+              <termid>T190</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M315</id>
+              <termid>T191</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M316</id>
+              <termid>T192</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M317</id>
+              <termid>T193</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M318</id>
+              <termid>T194</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M319</id>
+              <termid>T195</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M320</id>
+              <termid>T196</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M321</id>
+              <termid>T197</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M322</id>
+              <termid>T198</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M323</id>
+              <termid>T199</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M324</id>
+              <termid>T200</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M325</id>
+              <termid>T201</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M326</id>
+              <termid>T202</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M327</id>
+              <termid>T203</termid>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -3761,6 +3932,7 @@
               <instance ref="i150"></instance>
               <instance ref="i154"></instance>
               <instance ref="i159"></instance>
+              <instance ref="i162"></instance>
             </instances>
           </page>
           <page number="2">

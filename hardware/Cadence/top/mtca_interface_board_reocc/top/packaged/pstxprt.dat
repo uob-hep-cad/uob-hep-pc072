@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 21-Feb-2023 AT 17:49:02 }
+{ Packager-XL run on 21-Feb-2023 AT 18:13:33 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='21-Feb-2023 AT 17:49:02';
+ POST_TIME='21-Feb-2023 AT 18:13:33';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -7807,6 +7807,29 @@ occ.\02_ power\(sch_1):page1_i139@cndiscrete.optocoupler_ac_ec(chips)',
  CDS_PART_NAME='TOSHIBA',
  PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
 b/cndiscrete/optocoupler_ac_ec/chips/chips.prt';
+
+PART_NAME
+ IC6 'LTC2991CMS#PBF':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I162@CNLINEAR.LTC2991(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i162@cnlinear.ltc2991(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i162@cnlinear.ltc2991(chips)',
+ PATH='I162',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ TYPE='LTC2991CMS#PBF',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(5350,-3800)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='MSOP',
+ CDS_LIB='cnlinear',
+ CDS_PART_NAME='LTC2991CMS#PBF',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
+b/cnlinear/ltc2991/chips/chips.prt';
 
 PART_NAME
  J1 'TE0712 CONNECTOR-JB1-LSHM-150-B':;

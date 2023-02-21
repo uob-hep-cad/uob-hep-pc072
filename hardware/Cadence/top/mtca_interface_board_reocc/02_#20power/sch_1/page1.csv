@@ -7,10 +7,10 @@ FILE_TYPE = CONNECTIVITY;
 3"GND\g";
 4"GND\g";
 5"GND\g";
-6"VP12";
+6"GND\g";
 7"GND\g";
 8"GND\g";
-9"GND\g";
+9"VP12";
 10"VIN3V5_DCDC\G";
 11"UN$1$RSMD0603$I144$B";
 12"UN$1$PTH08T210W$I137$UVLO";
@@ -360,7 +360,7 @@ $PN"10"21;
 "SENSE+"
 $PN"11"10;
 "VDD"
-$PN"12"6;
+$PN"12"9;
 "PAD"
 $PN"13"17;
 %"led red 0603_0"
@@ -466,7 +466,7 @@ LAST_EDIT_BY"SNF"
 ALT_SYMBOLS""
 SEC"1";
 "1"
-$PN"1"6;
+$PN"1"9;
 "2"
 $PN"2"17;
 %"hdr1x3"
@@ -551,19 +551,19 @@ CDS_LIB"mtca_interface_board";
 ;
 HDL_POWER"VP12"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"6;
+"HOTSPOT_0"9;
 %"gnd"
 "1","(1375,-2700)","0","mtca_interface_board","38P";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"5;
+"HOTSPOT_0"1;
 %"gnd"
 "1","(2200,-2700)","0","mtca_interface_board","39P";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"4;
+"HOTSPOT_0"2;
 %"gnd"
 "1","(5875,-2250)","0","mtca_interface_board","40P";
 ;
@@ -590,37 +590,37 @@ TYPE"PTH08T210WAD"
 PACK_TYPE"ECP"
 CDS_LIB"cnlinear";
 "VI<1..0>"13;
-"GND<3..0>"8;
+"GND<3..0>"3;
 "VO<1..0>"10;
 "TURBOTRANS"22;
 "SENSP"11;
-"SENSM"7;
+"SENSM"4;
 "UVLO"12;
 "TRACK"14;
 "VADJ"16;
 %"TRANS MOSFET"
 "1","(2200,-2400)","0","cndiscrete","I138";
 ;
-VALUE"PJE8408"
 $LOCATION"T?"
+VALUE"PJE8408"
 TYPE"SOT523"
 CDS_LIB"cndiscrete"
 PACK_TYPE"GSD";
 "D\NAC"12;
-"S\NAC"4;
+"S\NAC"2;
 "G\NAC"15;
 %"OPTOCOUPLER_AC_EC"
 "1","(1750,-2575)","0","cndiscrete","I139";
 ;
-CASE"SOIC"
 $LOCATION"IC?"
+CASE"SOIC"
 TYPE"TLP183"
 NEEDS_NO_SIZE"TRUE"
 CDS_LIB"cndiscrete"
 PACK_TYPE"1264";
-"EMITTER"3;
+"EMITTER"6;
 "COLLECTOR"15;
-"CATHODE"5;
+"CATHODE"1;
 "ANODE"28;
 %"r"
 "1","(1975,-2150)","0","discrete","I141";
@@ -649,18 +649,18 @@ $PN"?"15;
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"8;
+"HOTSPOT_0"3;
 %"gnd"
 "1","(3225,-2400)","0","mtca_interface_board","I143";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"7;
+"HOTSPOT_0"4;
 %"RSMD0603"
 "1","(3175,-1600)","0","cnpassive","I144";
 ;
-VALUE"XX"
 $LOCATION"R?"
+VALUE"XX"
 TOL"1%"
 SIZE"1B"
 TOL_ON_OFF"ON"
@@ -680,8 +680,8 @@ CDS_LIB"cnpassive";
 %"RSMD0603"
 "1","(2925,-2300)","1","cnpassive","I145";
 ;
-VALUE"1.6K"
 $LOCATION"R?"
+VALUE"1.6K"
 TOL"1%"
 PACK_TYPE"1/10W"
 CDS_LIB"cnpassive"
@@ -697,13 +697,13 @@ MAX_TEMP"RTMAX"
 TC1"RTMPL"
 TC2"RTMPQ";
 "B <SIZE-1..0>\NAC"16;
-"A <SIZE-1..0>\NAC"9;
+"A <SIZE-1..0>\NAC"5;
 %"gnd"
 "1","(2875,-2450)","0","mtca_interface_board","I146";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"9;
+"HOTSPOT_0"5;
 %"RSMD0603"
 "1","(3575,-1750)","1","cnpassive","I147";
 ;
@@ -728,9 +728,9 @@ CDS_LIB"cnpassive";
 %"RSMD0603"
 "1","(3700,-1600)","0","cnpassive","I148";
 ;
+$LOCATION"R?"
 TOL""
 VALUE"00"
-$LOCATION"R?"
 PACK_TYPE""
 CDS_LIB"cnpassive"
 SIZE"1B"
@@ -765,14 +765,14 @@ IC"UNDEF"
 DIST"FLAT"
 CDS_LIB"cnpassive"
 VOLTAGE"63V";
-"B <SIZE-1..0>\NAC"2;
+"B <SIZE-1..0>\NAC"7;
 "A <SIZE-1..0>\NAC"14;
 %"ELCAP"
 "1","(1125,-2150)","1","cnpassive","I150";
 ;
+$LOCATION""
 PACK_TYPE"VER"
 VALUE"470UF_LF"
-$LOCATION""
 SYMMAP"TRUE"
 TOL_ON_OFF"ON"
 TC"0"
@@ -786,13 +786,13 @@ IC"UNDEF"
 DIST"FLAT"
 CDS_LIB"cnpassive"
 VOLTAGE"63V";
-"B <SIZE-1..0>\NAC"1;
+"B <SIZE-1..0>\NAC"8;
 "A <SIZE-1..0>\NAC"14;
 %"r"
 "1","(1225,-3075)","2","discrete","I154";
 ;
-VALUE"24.9"
 $LOCATION"?"
+VALUE"24.9"
 CDS_LIB"discrete"
 REUSE_ANNOTATE"TRUE"
 ROOM"JTAG"
@@ -817,24 +817,24 @@ $PN"?"26;
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"3;
+"HOTSPOT_0"6;
 %"gnd"
 "1","(825,-2350)","0","mtca_interface_board","I157";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"2;
+"HOTSPOT_0"7;
 %"gnd"
 "1","(1075,-2350)","0","mtca_interface_board","I158";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"1;
+"HOTSPOT_0"8;
 %"r"
 "1","(1225,-2725)","2","discrete","I159";
 ;
-VALUE"24.9"
 $LOCATION"?"
+VALUE"24.9"
 CDS_LIB"discrete"
 REUSE_ANNOTATE"TRUE"
 ROOM"JTAG"
@@ -872,4 +872,26 @@ CDS_LIB"standard";
 "S \NAC"
 BN"1"14;
 "B \NAC \NWC"13;
+%"LTC2991"
+"1","(5350,-3800)","0","cnlinear","I162";
+;
+$LOCATION"IC?"
+CDS_LMAN_SYM_OUTLINE"-200,225,200,-200"
+CDS_LIB"cnlinear"
+TYPE"LTC2991CMS#PBF"
+PACK_TYPE"MSOP";
+"V4"0;
+"V8"0;
+"V7"0;
+"V5"0;
+"V6"0;
+"V1"0;
+"V2"0;
+"V3"0;
+"PWM"0;
+"ADR2"0;
+"ADR1"0;
+"SDA"0;
+"ADR0"0;
+"SCL"0;
 END.
