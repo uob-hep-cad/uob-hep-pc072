@@ -5,15 +5,16 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-28T18:26:27</modificationTime>
+    <modificationTime>2023-02-28T19:59:07</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
+      <external_errors>true</external_errors>
       <lastids>
-        <instanceid>106</instanceid>
-        <netid>86</netid>
-        <insttermid>327</insttermid>
+        <instanceid>108</instanceid>
+        <netid>90</netid>
+        <insttermid>331</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -583,28 +584,12 @@
           <name>n000130</name>
         </net>
         <net>
-          <id>N8</id>
-          <name>n000231</name>
-        </net>
-        <net>
-          <id>N9</id>
-          <name>n000312</name>
-        </net>
-        <net>
-          <id>N10</id>
-          <name>n00167</name>
-        </net>
-        <net>
           <id>N13</id>
           <name>power.sense_12c_scl</name>
         </net>
         <net>
           <id>N14</id>
           <name>power.sense_12c_sda</name>
-        </net>
-        <net>
-          <id>N16</id>
-          <name>page1_vin3v3_dcdc</name>
         </net>
         <net>
           <id>N18</id>
@@ -775,6 +760,22 @@
           <name>page1_vcc3v3</name>
         </net>
         <net>
+          <id>N87</id>
+          <name>1v8_post_rshunt</name>
+        </net>
+        <net>
+          <id>N88</id>
+          <name>page1_power.sense_12c_scl</name>
+        </net>
+        <net>
+          <id>N89</id>
+          <name>page1_power.sense_12c_sda</name>
+        </net>
+        <net>
+          <id>N90</id>
+          <name>unnamed_2_offpageleft-l_i396_hotspot0</name>
+        </net>
+        <net>
           <id>N3</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -786,7 +787,7 @@
         </net>
         <net>
           <id>N15</id>
-          <name>vin3v3_dcdc</name>
+          <name>vcc3v3_pre_rshunt</name>
           <scope>global</scope>
         </net>
         <net>
@@ -813,7 +814,6 @@
       <aliases>
         <alias net1="N4" lsb1="-1" msb1="-1" net2="N3" lsb2="-1" msb2="-1" />
         <alias net1="N6" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
-        <alias net1="N16" lsb1="-1" msb1="-1" net2="N15" lsb2="-1" msb2="-1" />
         <alias net1="N18" lsb1="-1" msb1="-1" net2="N17" lsb2="-1" msb2="-1" />
         <alias net1="N22" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
         <alias net1="N23" lsb1="-1" msb1="-1" net2="N2" lsb2="-1" msb2="-1" />
@@ -840,6 +840,8 @@
         <alias net1="N81" lsb1="0" msb1="1" net2="N80" lsb2="0" msb2="1" />
         <alias net1="N84" lsb1="-1" msb1="-1" net2="N54" lsb2="-1" msb2="-1" />
         <alias net1="N86" lsb1="-1" msb1="-1" net2="N55" lsb2="-1" msb2="-1" />
+        <alias net1="N88" lsb1="-1" msb1="-1" net2="N13" lsb2="-1" msb2="-1" />
+        <alias net1="N89" lsb1="-1" msb1="-1" net2="N14" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -880,14 +882,12 @@
               <id>M5</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N10" />
               </connections>
             </pin>
             <pin>
               <id>M6</id>
               <termid>T11</termid>
               <connections>
-                <connection net="N3" />
               </connections>
             </pin>
           </pins>
@@ -984,14 +984,12 @@
               <id>M27</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N3" />
               </connections>
             </pin>
             <pin>
               <id>M28</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N8" />
               </connections>
             </pin>
           </pins>
@@ -1060,103 +1058,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I15</id>
-          <cellid>S6</cellid>
-          <name>page1_120p</name>
-          <pins>
-            <pin>
-              <id>M35</id>
-              <termid>T20</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M36</id>
-              <termid>T21</termid>
-              <connections>
-                <connection net="N9" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M37</id>
-              <termid>T22</termid>
-              <connections>
-                <connection net="N8" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M38</id>
-              <termid>T23</termid>
-              <connections>
-              </connections>
-            </pin>
-            <pin>
-              <id>M39</id>
-              <termid>T24</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M40</id>
-              <termid>T25</termid>
-              <connections>
-                <connection net="N10" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M41</id>
-              <termid>T26</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M42</id>
-              <termid>T27</termid>
-              <connections>
-                <connection net="N13" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M43</id>
-              <termid>T28</termid>
-              <connections>
-                <connection net="N14" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M44</id>
-              <termid>T29</termid>
-              <connections>
-                <connection net="N14" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M45</id>
-              <termid>T30</termid>
-              <connections>
-                <connection net="N15" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M46</id>
-              <termid>T31</termid>
-              <connections>
-                <connection net="N55" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M47</id>
-              <termid>T32</termid>
-              <connections>
-                <connection net="N17" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I16</id>
           <cellid>S7</cellid>
           <name>page1_121p</name>
@@ -1200,14 +1101,12 @@
               <id>M55</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N10" />
               </connections>
             </pin>
             <pin>
               <id>M56</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N9" />
               </connections>
             </pin>
           </pins>
@@ -1221,14 +1120,12 @@
               <id>M57</id>
               <termid>T36</termid>
               <connections>
-                <connection net="N17" />
               </connections>
             </pin>
             <pin>
               <id>M58</id>
               <termid>T37</termid>
               <connections>
-                <connection net="N3" />
               </connections>
             </pin>
           </pins>
@@ -1270,7 +1167,6 @@
               <id>M66</id>
               <termid>T35</termid>
               <connections>
-                <connection net="N3" />
               </connections>
             </pin>
           </pins>
@@ -1592,7 +1488,7 @@
               <id>M138</id>
               <termid>T52</termid>
               <connections>
-                <connection net="N55" />
+                <connection net="N87" />
               </connections>
             </pin>
             <pin>
@@ -2535,12 +2431,14 @@
               <id>M320</id>
               <termid>T196</termid>
               <connections>
+                <connection net="N15" />
               </connections>
             </pin>
             <pin>
               <id>M321</id>
               <termid>T197</termid>
               <connections>
+                <connection net="N55" />
               </connections>
             </pin>
             <pin>
@@ -2577,6 +2475,48 @@
               <id>M327</id>
               <termid>T203</termid>
               <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I107</id>
+          <cellid>S3</cellid>
+          <name>page2_i394</name>
+          <pins>
+            <pin>
+              <id>M328</id>
+              <termid>T8</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M329</id>
+              <termid>T9</termid>
+              <connections>
+                <connection net="N87" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I108</id>
+          <cellid>S3</cellid>
+          <name>page2_i395</name>
+          <pins>
+            <pin>
+              <id>M330</id>
+              <termid>T8</termid>
+              <connections>
+                <connection net="N90" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M331</id>
+              <termid>T9</termid>
+              <connections>
+                <connection net="N55" />
               </connections>
             </pin>
           </pins>
@@ -2623,7 +2563,7 @@
               <scope>global</scope>
             </pageScope>
           </netScope>
-          <netScope ref="vin3v3_dcdc">
+          <netScope ref="vcc3v3_pre_rshunt">
             <pageScope number="1">
               <scope>global</scope>
             </pageScope>
@@ -2650,16 +2590,13 @@
         <pages>
           <page number="1">
             <physicalPageNumber>1</physicalPageNumber>
-            <errorStatus>false</errorStatus>
+            <errorStatus>true</errorStatus>
             <nets>
               <net ref="dcdc_enable"></net>
               <net ref="dcdc_pg"></net>
               <net ref="gnd"></net>
               <net ref="mp3v3"></net>
               <net ref="n000130"></net>
-              <net ref="n000231"></net>
-              <net ref="n000312"></net>
-              <net ref="n00167"></net>
               <net ref="power.sense_12c_scl"></net>
               <net ref="power.sense_12c_sda"></net>
               <net ref="unnamed_1_optocoupleracec_i139_anode"></net>
@@ -2670,11 +2607,11 @@
               <net ref="unnamed_1_r_i154_1"></net>
               <net ref="unnamed_1_rsmd0603_i144_b"></net>
               <net ref="vcc3v3"></net>
+              <net ref="vcc3v3_pre_rshunt"></net>
               <net ref="vin">
                 <msb>1</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="vin3v3_dcdc"></net>
               <net ref="vp12"></net>
               <net ref="vp12_en"></net>
             </nets>
@@ -2689,7 +2626,6 @@
               <instance ref="117p"></instance>
               <instance ref="118p"></instance>
               <instance ref="119p"></instance>
-              <instance ref="120p"></instance>
               <instance ref="121p"></instance>
               <instance ref="123p"></instance>
               <instance ref="125p"></instance>
@@ -2715,6 +2651,7 @@
             <physicalPageNumber>2</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="1v8_post_rshunt"></net>
               <net ref="dcdc_enable"></net>
               <net ref="dcdc_pg"></net>
               <net ref="fpga_pg"></net>
@@ -2735,6 +2672,7 @@
               <net ref="power.pg_vp3v3"></net>
               <net ref="power.sense_12c_scl"></net>
               <net ref="power.sense_12c_sda"></net>
+              <net ref="unnamed_2_offpageleft-l_i396_hotspot0"></net>
               <net ref="util_pwr_en"></net>
               <net ref="vcc3v3"></net>
               <net ref="vp12"></net>
@@ -2779,6 +2717,8 @@
               <instance ref="195p"></instance>
               <instance ref="198p"></instance>
               <instance ref="200p"></instance>
+              <instance ref="i394"></instance>
+              <instance ref="i395"></instance>
             </instances>
           </page>
         </pages>

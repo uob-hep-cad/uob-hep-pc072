@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S032 (4053947) 9/5/2022 on Tue Feb 28 12:16:36 2023
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S032 (4053947) 9/5/2022 on Tue Feb 28 19:59:07 2023
 #CELL
   ocad_parts_lib cap_pol *
   page1_105p
@@ -33,9 +33,6 @@
   ocad_parts_lib cap_np *
   page1_119p
 #CELL
-  ocad_parts_lib ltc2945cud *
-  page1_120p
-#CELL
   atcs led#20red#200603_0 *
   page1_121p
 #CELL
@@ -64,13 +61,7 @@
   page1_133p
 #ISCELL
   mtca_interface_board vcc_bar *
-  page1_134p
-#ISCELL
-  mtca_interface_board vcc_bar *
   page1_135p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page1_136p
 #ISCELL
   mtca_interface_board offpageleft-l *
   page1_1p
@@ -365,3 +356,12 @@
 #ISCELL
   default bus_top_left_rip *
   page2_i393
+#CELL
+  discrete r *
+  page2_i394
+#CELL
+  discrete r *
+  page2_i395
+#ISCELL
+  mtca_interface_board offpageleft-l *
+  page2_i396
