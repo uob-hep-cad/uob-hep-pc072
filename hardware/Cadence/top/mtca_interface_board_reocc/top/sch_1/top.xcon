@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-03T16:09:54</modificationTime>
+    <modificationTime>2023-02-28T12:14:43</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>140</netid>
-        <insttermid>279</insttermid>
+        <netid>155</netid>
+        <insttermid>309</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -238,7 +238,7 @@
         </net>
         <net>
           <id>vin3v5_dcdc</id>
-          <name>vin3v5_dcdc</name>
+          <name>vin3v3_dcdc</name>
           <scope>global</scope>
           <inherited>1</inherited>
         </net>
@@ -255,12 +255,6 @@
           <inherited>1</inherited>
         </net>
         <net>
-          <id>vcc3v3_iv</id>
-          <name>vcc3v3_iv</name>
-          <scope>global</scope>
-          <inherited>1</inherited>
-        </net>
-        <net>
           <id>vp1v8</id>
           <name>vp1v8</name>
           <scope>global</scope>
@@ -269,18 +263,6 @@
         <net>
           <id>vp1v8_iv</id>
           <name>vp1v8_iv</name>
-          <scope>global</scope>
-          <inherited>1</inherited>
-        </net>
-        <net>
-          <id>vp3v3</id>
-          <name>vp3v3</name>
-          <scope>global</scope>
-          <inherited>1</inherited>
-        </net>
-        <net>
-          <id>vp3v3_iv</id>
-          <name>vp3v3_iv</name>
           <scope>global</scope>
           <inherited>1</inherited>
         </net>
