@@ -5,12 +5,11 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-28T12:16:35</modificationTime>
+    <modificationTime>2023-02-28T18:26:27</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
-      <external_errors>true</external_errors>
       <lastids>
         <instanceid>106</instanceid>
         <netid>86</netid>
@@ -616,10 +615,6 @@
           <name>vp12_en</name>
         </net>
         <net>
-          <id>N21</id>
-          <name>page1_vp3v5</name>
-        </net>
-        <net>
           <id>N22</id>
           <name>page2_dcdc_enable</name>
         </net>
@@ -728,10 +723,6 @@
           <name>page2_vp1v8_iv</name>
         </net>
         <net>
-          <id>N70</id>
-          <name>page2_vp3v5</name>
-        </net>
-        <net>
           <id>N71</id>
           <name>page2_power.pg_vp1v8</name>
         </net>
@@ -804,11 +795,6 @@
           <scope>global</scope>
         </net>
         <net>
-          <id>N20</id>
-          <name>vp3v5</name>
-          <scope>global</scope>
-        </net>
-        <net>
           <id>N55</id>
           <name>vcc3v3</name>
           <scope>global</scope>
@@ -829,7 +815,6 @@
         <alias net1="N6" lsb1="-1" msb1="-1" net2="N5" lsb2="-1" msb2="-1" />
         <alias net1="N16" lsb1="-1" msb1="-1" net2="N15" lsb2="-1" msb2="-1" />
         <alias net1="N18" lsb1="-1" msb1="-1" net2="N17" lsb2="-1" msb2="-1" />
-        <alias net1="N21" lsb1="-1" msb1="-1" net2="N20" lsb2="-1" msb2="-1" />
         <alias net1="N22" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
         <alias net1="N23" lsb1="-1" msb1="-1" net2="N2" lsb2="-1" msb2="-1" />
         <alias net1="N25" lsb1="-1" msb1="-1" net2="N3" lsb2="-1" msb2="-1" />
@@ -848,15 +833,12 @@
         <alias net1="N61" lsb1="-1" msb1="-1" net2="N17" lsb2="-1" msb2="-1" />
         <alias net1="N63" lsb1="-1" msb1="-1" net2="N62" lsb2="-1" msb2="-1" />
         <alias net1="N65" lsb1="-1" msb1="-1" net2="N64" lsb2="-1" msb2="-1" />
-        <alias net1="N70" lsb1="-1" msb1="-1" net2="N20" lsb2="-1" msb2="-1" />
-        <alias net1="N70" lsb1="-1" msb1="-1" net2="N56" lsb2="-1" msb2="-1" />
         <alias net1="N71" lsb1="-1" msb1="-1" net2="N43" lsb2="3" msb2="3" />
         <alias net1="N71" lsb1="-1" msb1="-1" net2="N46" lsb2="-1" msb2="-1" />
         <alias net1="N81" lsb1="0" msb1="0" net2="N18" lsb2="-1" msb2="-1" />
         <alias net1="N81" lsb1="1" msb1="1" net2="N18" lsb2="-1" msb2="-1" />
         <alias net1="N81" lsb1="0" msb1="1" net2="N80" lsb2="0" msb2="1" />
         <alias net1="N84" lsb1="-1" msb1="-1" net2="N54" lsb2="-1" msb2="-1" />
-        <alias net1="N86" lsb1="-1" msb1="-1" net2="N21" lsb2="-1" msb2="-1" />
         <alias net1="N86" lsb1="-1" msb1="-1" net2="N55" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
@@ -2664,19 +2646,11 @@
               <scope>global</scope>
             </pageScope>
           </netScope>
-          <netScope ref="vp3v5">
-            <pageScope number="1">
-              <scope>global</scope>
-            </pageScope>
-            <pageScope number="2">
-              <scope>global</scope>
-            </pageScope>
-          </netScope>
         </netScopes>
         <pages>
           <page number="1">
             <physicalPageNumber>1</physicalPageNumber>
-            <errorStatus>true</errorStatus>
+            <errorStatus>false</errorStatus>
             <nets>
               <net ref="dcdc_enable"></net>
               <net ref="dcdc_pg"></net>
@@ -2703,7 +2677,6 @@
               <net ref="vin3v3_dcdc"></net>
               <net ref="vp12"></net>
               <net ref="vp12_en"></net>
-              <net ref="vp3v5"></net>
             </nets>
             <instances>
               <instance ref="105p"></instance>
@@ -2740,7 +2713,7 @@
           </page>
           <page number="2">
             <physicalPageNumber>2</physicalPageNumber>
-            <errorStatus>true</errorStatus>
+            <errorStatus>false</errorStatus>
             <nets>
               <net ref="dcdc_enable"></net>
               <net ref="dcdc_pg"></net>
@@ -2767,7 +2740,6 @@
               <net ref="vp12"></net>
               <net ref="vp1v8"></net>
               <net ref="vp1v8_iv"></net>
-              <net ref="vp3v5"></net>
             </nets>
             <instances>
               <instance ref="134p"></instance>
