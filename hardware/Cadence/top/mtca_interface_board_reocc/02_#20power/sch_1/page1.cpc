@@ -2,9 +2,6 @@
   ocad_parts_lib cap_pol *
   page1_105p
 #CELL
-  ocad_parts_lib cap_np *
-  page1_107p
-#CELL
   discrete r *
   page1_108p
 #CELL
@@ -21,9 +18,6 @@
   page1_114p
 #CELL
   discrete r *
-  page1_116p
-#CELL
-  discrete r *
   page1_117p
 #CELL
   ocad_parts_lib cap_np *
@@ -37,9 +31,6 @@
 #CELL
   testpoint testpoint *
   page1_123p
-#CELL
-  discrete r *
-  page1_125p
 #CELL
   ocad_parts_lib cap_np_0 *
   page1_126p
@@ -178,3 +169,12 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_i170
+#ISCELL
+  cnpower p2v5 *
+  page1_i171
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page1_i172
+#CELL
+  cndiscrete trans#20npn *
+  page1_i173

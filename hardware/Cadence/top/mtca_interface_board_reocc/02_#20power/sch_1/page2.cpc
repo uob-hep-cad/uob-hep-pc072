@@ -1,180 +1,96 @@
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page2_10p
-#ISCELL
-  default bus_top_left_rip *
-  page2_12p
 #CELL
-  ocad_parts_lib cap_np *
-  page2_134p
-#CELL
-  testpoint testpoint *
-  page2_136p
+  ocad_parts_lib cap_pol *
+  page4_105p
 #CELL
   discrete r *
-  page2_138p
+  page4_111p
+#CELL
+  ocad_parts_lib cap_pol *
+  page4_112p
+#CELL
+  discrete r *
+  page4_113p
 #CELL
   ocad_parts_lib cap_np *
-  page2_139p
+  page4_118p
+#CELL
+  ocad_parts_lib cap_np *
+  page4_119p
+#CELL
+  atcs led#20red#200603_0 *
+  page4_121p
+#CELL
+  testpoint testpoint *
+  page4_123p
+#CELL
+  testpoint testpoint *
+  page4_130p
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page4_131p
+#ISCELL
+  mtca_interface_board gnd *
+  page4_40p
+#ISCELL
+  mtca_interface_board gnd *
+  page4_41p
+#ISCELL
+  mtca_interface_board gnd *
+  page4_5p
 #ISCELL
   bris_cds_standard a3-2000 *
-  page2_13p
+  page4_6p
 #CELL
-  testpoint testpoint *
-  page2_140p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_144p
-#CELL
-  discrete r *
-  page2_145p
-#CELL
-  testpoint testpoint *
-  page2_146p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_149p
-#ISCELL
-  mtca_interface_board upenn-titleblock3 *
-  page2_14p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_153p
-#CELL
-  testpoint testpoint *
-  page2_155p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_156p
-#CELL
-  discrete r *
-  page2_157p
-#CELL
-  ocad_parts_lib tps74618p *
-  page2_159p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_161p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_166p
-#CELL
-  discrete r *
-  page2_168p
-#ISCELL
-  golden_symbols 2-pin_jumper *
-  page2_170p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_173p
-#CELL
-  testpoint testpoint *
-  page2_174p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_176p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_180p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_181p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_183p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_185p
-#CELL
-  ocad_parts_lib bss138 *
-  page2_187p
-#CELL
-  ocad_parts_lib led#20green#200603_0 *
-  page2_188p
-#CELL
-  discrete r *
-  page2_190p
-#CELL
-  ocad_parts_lib led#20green#200603_0 *
-  page2_191p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_194p
-#CELL
-  ocad_parts_lib cap_np *
-  page2_195p
-#CELL
-  discrete r *
-  page2_198p
-#ISCELL
-  mtca_interface_board portleft-l *
-  page2_1p
-#CELL
-  ocad_parts_lib hdr1x3 *
-  page2_200p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page2_203p
+  cnlinear pth08t210w *
+  page4_i137
 #ISCELL
   mtca_interface_board gnd *
-  page2_212p
+  page4_i142
 #ISCELL
   mtca_interface_board gnd *
-  page2_213p
-#ISCELL
-  mtca_interface_board gnd *
-  page2_214p
-#ISCELL
-  mtca_interface_board gnd *
-  page2_216p
-#ISCELL
-  mtca_interface_board gnd *
-  page2_226p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page2_227p
-#ISCELL
-  mtca_interface_board portboth-r *
-  page2_2p
-#ISCELL
-  default bus_top_left_rip *
-  page2_388p
-#ISCELL
-  mtca_interface_board offpageleft-l *
-  page2_3p
-#ISCELL
-  mtca_interface_board offpageleft-l *
-  page2_4p
-#ISCELL
-  mtca_interface_board offpageleft-l *
-  page2_5p
-#ISCELL
-  mtca_interface_board offpageleft-l *
-  page2_6p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page2_8p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page2_9p
-#ISCELL
-  default bus_top_left_rip *
-  page2_i389
-#ISCELL
-  default bus_top_left_rip *
-  page2_i390
-#ISCELL
-  default bus_top_left_rip *
-  page2_i391
-#ISCELL
-  default bus_top_left_rip *
-  page2_i392
-#ISCELL
-  default bus_top_left_rip *
-  page2_i393
+  page4_i143
 #CELL
-  discrete r *
-  page2_i394
+  cnpassive rsmd0603 *
+  page4_i144
+#CELL
+  cnpassive rsmd0603 *
+  page4_i145
+#ISCELL
+  mtca_interface_board gnd *
+  page4_i146
+#CELL
+  cnpassive rsmd0603 *
+  page4_i147
+#CELL
+  cnpassive rsmd0603 *
+  page4_i148
+#CELL
+  cnpassive elcap *
+  page4_i149
+#CELL
+  cnpassive elcap *
+  page4_i150
+#ISCELL
+  mtca_interface_board gnd *
+  page4_i157
+#ISCELL
+  mtca_interface_board gnd *
+  page4_i158
+#ISCELL
+  standard ctap *
+  page4_i160
+#ISCELL
+  standard ctap *
+  page4_i161
+#ISCELL
+  standard ctap *
+  page4_i163
+#ISCELL
+  standard ctap *
+  page4_i164
 #ISCELL
   cnpower p2v5 *
-  page2_i397
+  page4_i165
+#ISCELL
+  cnpower p2v5 *
+  page4_i166
