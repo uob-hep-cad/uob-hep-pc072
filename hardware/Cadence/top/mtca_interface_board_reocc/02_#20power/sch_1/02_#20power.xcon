@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-01T14:44:09</modificationTime>
+    <modificationTime>2023-03-01T15:08:24</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>142</instanceid>
+        <instanceid>143</instanceid>
         <netid>132</netid>
-        <insttermid>422</insttermid>
+        <insttermid>425</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -192,31 +192,6 @@
             <term>
               <id>T54</id>
               <name>pg</name>
-              <direction>unspec</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
-          <id>S13</id>
-          <library>ocad_parts_lib</library>
-          <name>bss138</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T76</id>
-              <name>d</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T77</id>
-              <name>g</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T78</id>
-              <name>s</name>
               <direction>unspec</direction>
             </term>
           </terms>
@@ -1599,34 +1574,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I79</id>
-          <cellid>S13</cellid>
-          <name>page2_187p</name>
-          <pins>
-            <pin>
-              <id>M220</id>
-              <termid>T76</termid>
-              <connections>
-                <connection net="N39" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M221</id>
-              <termid>T77</termid>
-              <connections>
-                <connection net="N40" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M222</id>
-              <termid>T78</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I80</id>
           <cellid>S14</cellid>
           <name>page2_188p</name>
@@ -2694,6 +2641,34 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I143</id>
+          <cellid>S17</cellid>
+          <name>page2_i398</name>
+          <pins>
+            <pin>
+              <id>M423</id>
+              <termid>T153</termid>
+              <connections>
+                <connection net="N39" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M424</id>
+              <termid>T154</termid>
+              <connections>
+                <connection net="N40" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M425</id>
+              <termid>T155</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2889,13 +2864,13 @@
               <instance ref="181p"></instance>
               <instance ref="183p"></instance>
               <instance ref="185p"></instance>
-              <instance ref="187p"></instance>
               <instance ref="188p"></instance>
               <instance ref="190p"></instance>
               <instance ref="191p"></instance>
               <instance ref="194p"></instance>
               <instance ref="195p"></instance>
               <instance ref="i394"></instance>
+              <instance ref="i398"></instance>
             </instances>
           </page>
           <page number="4">
