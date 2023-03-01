@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-01T14:33:51</modificationTime>
+    <modificationTime>2023-03-01T14:44:09</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -485,31 +485,6 @@
             </term>
           </terms>
         </cell>
-        <cell>
-          <id>S22</id>
-          <library>cndiscrete</library>
-          <name>trans npn</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T212</id>
-              <name>b</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T213</id>
-              <name>c</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T214</id>
-              <name>e</name>
-              <direction>inout</direction>
-            </term>
-          </terms>
-        </cell>
       </cells>
       <nets>
         <net>
@@ -703,14 +678,6 @@
         <net>
           <id>N98</id>
           <name>page1_p2v5</name>
-        </net>
-        <net>
-          <id>N99</id>
-          <name>unnamed_1_ltc2991_i162_v7</name>
-        </net>
-        <net>
-          <id>N100</id>
-          <name>unnamed_1_ltc2991_i162_v8</name>
         </net>
         <net>
           <id>N101</id>
@@ -2216,14 +2183,14 @@
               <id>M326</id>
               <termid>T202</termid>
               <connections>
-                <connection net="N99" />
+                <connection net="N96" />
               </connections>
             </pin>
             <pin>
               <id>M327</id>
               <termid>T203</termid>
               <connections>
-                <connection net="N100" />
+                <connection net="N131" />
               </connections>
             </pin>
           </pins>
@@ -2320,34 +2287,6 @@
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="0" pinlsb="0" net="N103" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I112</id>
-          <cellid>S22</cellid>
-          <name>page1_i173</name>
-          <pins>
-            <pin>
-              <id>M338</id>
-              <termid>T212</termid>
-              <connections>
-                <connection net="N99" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M339</id>
-              <termid>T213</termid>
-              <connections>
-                <connection net="N99" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M340</id>
-              <termid>T214</termid>
-              <connections>
-                <connection net="N100" />
               </connections>
             </pin>
           </pins>
@@ -2846,14 +2785,13 @@
               <net ref="unnamed_1_ltc2991_i162_adr0"></net>
               <net ref="unnamed_1_ltc2991_i162_adr1"></net>
               <net ref="unnamed_1_ltc2991_i162_adr2"></net>
-              <net ref="unnamed_1_ltc2991_i162_v7"></net>
-              <net ref="unnamed_1_ltc2991_i162_v8"></net>
               <net ref="unnamed_1_optocoupleracec_i139_anode"></net>
               <net ref="unnamed_1_optocoupleracec_i139_collector"></net>
               <net ref="unnamed_1_pth08t210w_i137_turbotrans"></net>
               <net ref="unnamed_1_pth08t210w_i137_vadj"></net>
               <net ref="unnamed_1_r_i154_1"></net>
               <net ref="unnamed_1_rsmd0603_i144_b"></net>
+              <net ref="vcc2v5_pre_rshunt"></net>
               <net ref="vcc3v3"></net>
               <net ref="vcc3v3_pre_rshunt"></net>
               <net ref="vin">
@@ -2898,7 +2836,6 @@
               <instance ref="i165"></instance>
               <instance ref="i166"></instance>
               <instance ref="i167"></instance>
-              <instance ref="i173"></instance>
             </instances>
           </page>
           <page number="2">
