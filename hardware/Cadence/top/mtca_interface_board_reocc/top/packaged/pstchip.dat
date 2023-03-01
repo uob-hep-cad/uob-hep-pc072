@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 21-Feb-2023 AT 18:13:33 }
+{ Packager-XL run on 01-Mar-2023 AT 15:35:39 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -760,49 +760,6 @@ primitive 'ATMGA128-ATMEGA128A-MU,ATMGA12A';
       PARENT_PPT_PART='ATMGA128-ATMEGA128A-MU,ATMGA128';
   end_body;
 end_primitive;
-primitive 'BSS138-BSS138K,BSS138-BSS138,BA';
-  pin
-    'G':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'S':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'D':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='Q';
-      CLASS='DISCRETE';
-      PART_NAME='BSS138';
-      BODY_NAME='BSS138';
-      JEDEC_TYPE='SOT95P230X110-3N';
-      VALUE='BSS138K';
-      DESCRIPTION='MOSFET N-CH 50V 220MA SOT-23-3';
-      MPN='BSS138K';
-      MANUFACTURER='ON SEMICONDUCTOR';
-      PART_TYPE='MOSFET';
-      SOURCE_PACKAGE='BSS138';
-      PART_NUMBER='BSS138K';
-      PARENT_PART_TYPE='BSS138';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='BSS138';
-      PARENT_PPT_PART='BSS138-BSS138K,BSS138';
-  end_body;
-end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF,16V_GEA';
   pin
     'A'<0>:
@@ -1135,43 +1092,6 @@ primitive 'CAP_NP-445-8173-1-ND,CAP_NP-44A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_NP';
       PARENT_PPT_PART='CAP_NP-445-8173-1-ND,CAP_NP';
-  end_body;
-end_primitive;
-primitive 'CAP_NP-C0402C103K3RACTU,CAP_NPA';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      PART_NAME='CAP_NP';
-      BODY_NAME='CAP_NP';
-      JEDEC_TYPE='CAP0402';
-      VALUE='0.01UF';
-      DESCRIPTION='CAP CER 10000PF 25V X7R 0402';
-      MPN='C0402C103K3RACTU';
-      MANUFACTURER='KEMET';
-      PART_TYPE='CERAMIC';
-      ALT_SYMBOLS='';
-      PART_NUMBER='C0402C103K3RACTU';
-      SOURCE_PACKAGE='CAP_NP';
-      PARENT_PART_TYPE='CAP_NP';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CAP_NP';
-      PARENT_PPT_PART='CAP_NP-C0402C103K3RACTU,CAP_NP';
   end_body;
 end_primitive;
 primitive 'CAP_NP-C0402C104K9RACTU,CAP_NPA';
@@ -2006,46 +1926,6 @@ primitive 'DIODE-1N4148W-13-F,DIODE-1N414A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='DIODE';
       PARENT_PPT_PART='DIODE-1N4148W-13-F,DIODE';
-  end_body;
-end_primitive;
-primitive 'ELCAP_VER-470UF_LF,63V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='ELCAP';
-      BODY_NAME='ELCAP';
-      CLASS='DISCRETE';
-      NO_IO_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PHYS_DES_PREFIX='C';
-      DESCRIPTION='Aluminium Electrolytic Capaacitor - Long Life - SR Series';
-      VALUE='470uF';
-      JEDEC_TYPE='CAPPRD500W60D1250H2700A';
-      PINCOUNT='2';
-      PART_NUMBER='EEUFR1J471';
-      MANUFACTURER='PANASONIC';
-      STATUS='Not Recommended';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/cap_panasonic~
-_sr-series.pdf';
-      SMD='NO';
-      CASE='RAD12.5x25mm';
-      PARENT_PART_TYPE='ELCAP_VER';
-      PARENT_PPT='ELCAP';
-      PARENT_PPT_PART='ELCAP_VER-470UF_LF,63V';
   end_body;
 end_primitive;
 primitive 'FERRITE_SMD-BLM21PG221SN1,MURAA';
@@ -3769,120 +3649,7 @@ primitive 'LSHM-150-0XXX-L-DV-A-S-LSHM-15B';
       PARENT_PPT_PART='LSHM-150-0XXX-L-DV-A-S-LSHM-150-03.0-L-DV-A-S-K-TR,LSHM-150-0XXX-L-DV-A-S';
   end_body;
 end_primitive;
-primitive 'LTC2945CUD-LTC2945CUD,LTC2945CB';
-  pin
-    'INTVCC':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'ADR1':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'ADR0':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'ADIN':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SCL':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SDAI':
-      PIN_NUMBER='(7)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SDAO':
-      PIN_NUMBER='(8)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'ALERT':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SENSE-':
-      PIN_NUMBER='(10)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SENSE+':
-      PIN_NUMBER='(11)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'VDD':
-      PIN_NUMBER='(12)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PAD':
-      PIN_NUMBER='(13)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='LTC2945CUD';
-      BODY_NAME='LTC2945CUD';
-      JEDEC_TYPE='QFN12';
-      VALUE='LTC2945CUD';
-      DESCRIPTION='IC POWER MONITOR I2C 12-QFN ';
-      MPN='LTC2945CUD#PBF ';
-      MANUFACTURER='LINEAR TECHNOLOGY';
-      PART_TYPE='MISC';
-      SOURCE_PACKAGE='LTC2945CUD';
-      PART_NUMBER='LTC2945CUD';
-      PARENT_PART_TYPE='LTC2945CUD';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='LTC2945CUD';
-      PARENT_PPT_PART='LTC2945CUD-LTC2945CUD,LTC2945CUD';
-  end_body;
-end_primitive;
-primitive 'LTC2991CMS#PBF';
+primitive 'LTC2991CMS#PBF-VCC=VCC3V3';
   pin
     'V1':
       PIN_NUMBER='(1)';
@@ -3958,8 +3725,9 @@ primitive 'LTC2991CMS#PBF';
       SMD='YES';
       CASE='MSOP16';
       JEDEC_TYPE='SOP50P490X110-16N';
-      POWER_PINS='(GND:9;VCC:16)';
+      POWER_PINS='(GND:9;VCC3V3:16)';
       PARENT_PART_TYPE='LTC2991_MSOP';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='LTC2991';
       PARENT_PPT_PART='LTC2991CMS#PBF';
   end_body;
@@ -5337,42 +5105,6 @@ primitive 'R-EMA-00007500V42,R-EMA-000075A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='R';
       PARENT_PPT_PART='R-EMA-00007500V42,R';
-  end_body;
-end_primitive;
-primitive 'R-EMA-00007509V42,R-EMA-000075A';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES0603';
-      VALUE='10';
-      DESCRIPTION='RES, THICK FILM, 10, 1%, 1/10W, SMD, 0603';
-      MPN='RMCF0603FT10R0';
-      MANUFACTURER='STACKPOLE ELECTRONICS';
-      PART_TYPE='THICK FILM';
-      PART_NUMBER='EMA-00007509V42';
-      SOURCE_PACKAGE='R';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-EMA-00007509V42,R';
   end_body;
 end_primitive;
 primitive 'R-ERA-2AEB303X,R-ERA-2AEB303X,A';
@@ -8440,109 +8172,6 @@ primitive 'TPS74618P-TPS74618PQWDRVRQ1,TPB';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='TPS74618P';
       PARENT_PPT_PART='TPS74618P-TPS74618PQWDRVRQ1,TPS74618P';
-  end_body;
-end_primitive;
-primitive 'TPS7A8500RGRT-TPS7A8500RGRT,TPB';
-  pin
-    'OUT1':
-      PIN_NUMBER='(1)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'SNS':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'FB':
-      PIN_NUMBER='(3)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'PG':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    '50MV':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '100MV':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '200MV':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'GND1':
-      PIN_NUMBER='(8)';
-      PINUSE='GROUND';
-    '400MV':
-      PIN_NUMBER='(9)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '800MV':
-      PIN_NUMBER='(10)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '1.6V':
-      PIN_NUMBER='(11)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'BIAS':
-      PIN_NUMBER='(12)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'NR/SS':
-      PIN_NUMBER='(13)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'EN':
-      PIN_NUMBER='(14)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN1':
-      PIN_NUMBER='(15)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN2':
-      PIN_NUMBER='(16)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN3':
-      PIN_NUMBER='(17)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'GND2':
-      PIN_NUMBER='(18)';
-      PINUSE='GROUND';
-    'OUT2':
-      PIN_NUMBER='(19)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUT3':
-      PIN_NUMBER='(20)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'EPAD':
-      PIN_NUMBER='(21)';
-      PINUSE='POWER';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='TPS7A8500RGRT';
-      BODY_NAME='TPS7A8500RGRT';
-      JEDEC_TYPE='QFN20_3P65MMSQ';
-      VALUE='TPS7A8500RGRT';
-      DESCRIPTION='IC REG LINEAR POS ADJ 4A 20VQFN';
-      MPN='TPS7A8500RGRT';
-      MANUFACTURER='TEXAS INSTRUMENTS';
-      PART_TYPE='VOLTAGE REGULATOR';
-      SOURCE_PACKAGE='TPS7A8500RGRT';
-      PART_NUMBER='TPS7A8500RGRT';
-      PARENT_PART_TYPE='TPS7A8500RGRT';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='TPS7A8500RGRT';
-      PARENT_PPT_PART='TPS7A8500RGRT-TPS7A8500RGRT,TPS7A8500RGRT';
   end_body;
 end_primitive;
 primitive 'TP_HOLE-1.0MM';
