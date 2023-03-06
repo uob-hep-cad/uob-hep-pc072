@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v16.brd                              )
+(    Drawing          : mib_rev2_v18.brd                              )
 (    Software Version : 17.4S033                                      )
-(    Date/Time        : Mon Mar  6 16:34:25 2023                      )
+(    Date/Time        : Mon Mar  6 17:12:06 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v16.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v17.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v19.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v16.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v17.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v18.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v19.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.26)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.27)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
@@ -45,121 +45,21 @@ Set the correct library path if not set or use dbdoctor to migrate old
 
 #2   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
-WARNING(SPMHNI-295): Component 'C155', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
+WARNING(SPMHNI-295): Component 'R63', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'POWER'.
 
 #3   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
-WARNING(SPMHNI-295): Component 'C121', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C112', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C147', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
-
-#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C38', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C20', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C9', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
-
-#9   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C199', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#10  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C198', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#11  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C197', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#12  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C196', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#13  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C195', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#14  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C194', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#15  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C193', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#16  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C192', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#17  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C191', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#18  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C190', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#19  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C189', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#20  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C188', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#21  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C187', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#22  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C166', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
-
-#23  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C165', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
-
-#24  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C148', property 'ROOM'. Value 'CLK_FO_0_5' was overwritten by 'CLK_FO_6_11'.
-
-#25  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C136', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#26  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C135', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#27  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C37', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
-
-#28  WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C19', property 'ROOM'. Value 'CLK_FO_6_11' was overwritten by 'CLK_FO_0_5'.
+WARNING(SPMHNI-295): Component 'D6', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'POWER'.
 
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Mon Mar  6 16:34:26 2023
+	Start time: Mon Mar  6 17:12:07 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Mon Mar  6 16:34:26 2023
+Finished Constraint Update	Time: Mon Mar  6 17:12:07 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -209,9 +109,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 6 16:34:25 2023
+netrev run on Mar 6 17:12:06 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 06-Mar-2023 AT 16:34:16
+   PACKAGING ON 06-Mar-2023 AT 17:11:58
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -242,8 +142,8 @@ netrev run on Mar 6 16:34:25 2023
 
  No error detected
  No oversight detected
- 28 warnings detected
+  3 warnings detected
 
-cpu time      0:04:12
-elapsed time  0:00:01
+cpu time      0:04:57
+elapsed time  0:00:02
 

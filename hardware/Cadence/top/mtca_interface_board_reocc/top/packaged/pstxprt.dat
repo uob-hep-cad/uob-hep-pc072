@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 06-Mar-2023 AT 16:34:16 }
+{ Packager-XL run on 06-Mar-2023 AT 17:11:58 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='06-Mar-2023 AT 16:34:16';
+ POST_TIME='06-Mar-2023 AT 17:11:58';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -815,6 +815,45 @@ occ.\08_ timing\(sch_1):page1_i787@cnpassive.capcersmdcl2(chips)',
 ips/chips.prt';
 
 PART_NAME
+ C25 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I174@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i174@ocad_parts_lib.cap_pol(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i174@ocad_parts_lib.cap_pol(chips)',
+ PATH='I174',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
+df',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_POL',
+ PSPICE='C',
+ PART_TYPE='Polymer',
+ MPN='6TPE470MAZU',
+ MANUFACTURER='Panasonic Electronic Components',
+ DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
+ AVAILABILITY='8,000',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(875,-2100)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP2917',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
+ VOLTAGE='6.3V',
+ ROOM='MAIN_PWR',
+ PART_NUMBER='6TPE470MAZU',
+ VALUE='470UF',
+ PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+
+PART_NAME
  C26 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
  ROOM='CLK_FO_6_11';
 
@@ -1390,6 +1429,45 @@ occ.\05 trenz te0712 fpga module\(sch_1):page2_i417@cnpassive.capcersmdcl2(chips
 ips/chips.prt';
 
 PART_NAME
+ C42 'CAP_NP-445-8173-1-ND,CAP_NP-44A':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I175@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i175@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i175@ocad_parts_lib.cap_np(chips)',
+ PATH='I175',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='CGJ4J2X7R1E104K125AA ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-8173-1-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(1125,-2100)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-8173-1-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='MAIN_PWR',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-8173-1-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
  C43 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
  ROOM='TE0712';
 
@@ -1552,6 +1630,84 @@ occ.\01_ module management ctrl\(sch_1):page1_179p@ocad_parts_lib.cap_np(chips)'
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C47 'CAP_NP-445-8173-1-ND,CAP_NP-44A':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I167@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i167@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i167@ocad_parts_lib.cap_np(chips)',
+ PATH='I167',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='CGJ4J2X7R1E104K125AA ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-8173-1-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(1150,-2725)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-8173-1-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='MAIN_PWR',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-8173-1-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C48 'CAP_NP-445-8173-1-ND,CAP_NP-44A':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I168@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i168@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i168@ocad_parts_lib.cap_np(chips)',
+ PATH='I168',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='CGJ4J2X7R1E104K125AA ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-8173-1-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(3700,-2700)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-8173-1-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='MAIN_PWR',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-8173-1-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
  C49 'CAPCERSMDCL2_0402-100NF,16V_GEN':
  ROOM='SFP_DFF_AND_FANOUT';
 
@@ -1583,13 +1739,13 @@ PART_NAME
  ROOM='VP3V3';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_153P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I192@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_153p@ocad_parts_lib.cap_np(chips)',
+occ.\02_ power\(sch_1):page1_i192@ocad_parts_lib.cap_np(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_153p@ocad_parts_lib.cap_np(chips)',
- PATH='153P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+occ.\02_ power\(sch_1):page1_i192@ocad_parts_lib.cap_np(chips)',
+ PATH='I192',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
  TOLERANCE='20%',
  SOURCE_PACKAGE='CAP_NP',
  PSPICE='C',
@@ -1603,8 +1759,8 @@ occ.\02_ power\(sch_1):page3_153p@ocad_parts_lib.cap_np(chips)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='3',
- XY='(2025,-5300)',
+ PHYS_PAGE='1',
+ XY='(2850,-4925)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -1659,6 +1815,45 @@ occ.\02_ power\(sch_1):page3_139p@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C52 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I169@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i169@ocad_parts_lib.cap_pol(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i169@ocad_parts_lib.cap_pol(chips)',
+ PATH='I169',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
+df',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_POL',
+ PSPICE='C',
+ PART_TYPE='Polymer',
+ MPN='6TPE470MAZU',
+ MANUFACTURER='Panasonic Electronic Components',
+ DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
+ AVAILABILITY='8,000',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(900,-2725)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP2917',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
+ VOLTAGE='6.3V',
+ ROOM='MAIN_PWR',
+ PART_NUMBER='6TPE470MAZU',
+ VALUE='470UF',
+ PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+
+PART_NAME
  C53 'CAP_NP-C0402C104K9RACTU,CAP_NPA':
  ROOM='MMC_DISCRETE';
 
@@ -1703,12 +1898,12 @@ PART_NAME
  ROOM='VCC1V8';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_180P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I403@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_180p@ocad_parts_lib.cap_np(chips)',
+occ.\02_ power\(sch_1):page2_i403@ocad_parts_lib.cap_np(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_180p@ocad_parts_lib.cap_np(chips)',
- PATH='180P',
+occ.\02_ power\(sch_1):page3_i403@ocad_parts_lib.cap_np(chips)',
+ PATH='I403',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
  TOLERANCE='20%',
  SOURCE_PACKAGE='CAP_NP',
@@ -1724,7 +1919,7 @@ occ.\02_ power\(sch_1):page3_180p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(2975,-3825)',
+ XY='(2325,-3750)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -1764,7 +1959,47 @@ occ.\02_ power\(sch_1):page3_144p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(3200,-3825)',
+ XY='(2875,-3750)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC1V8',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C56 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC1V8';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I399@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i399@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_i399@ocad_parts_lib.cap_np(chips)',
+ PATH='I399',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(75,-3650)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -1821,6 +2056,250 @@ occ.\02_ power\(sch_1):page3_194p@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C58 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VP3V3';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_153P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_153p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_153p@ocad_parts_lib.cap_np(chips)',
+ PATH='153P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(2025,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VP3V3',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C59 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VP3V3';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I170@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i170@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i170@ocad_parts_lib.cap_np(chips)',
+ PATH='I170',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(2450,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VP3V3',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C60 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC1V8';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_180P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_180p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_180p@ocad_parts_lib.cap_np(chips)',
+ PATH='180P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(2650,-3750)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC1V8',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C61 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='VCC3V3I_V',
+ REUSE_ID='18';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_181P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_181p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_181p@ocad_parts_lib.cap_np(chips)',
+ PATH='181P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(875,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ REUSE_ID='18',
+ VOLTAGE='25V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C62 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='VCC3V3I_V',
+ REUSE_ID='18';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I171@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i171@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i171@ocad_parts_lib.cap_np(chips)',
+ PATH='I171',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(1300,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ REUSE_ID='18',
+ VOLTAGE='25V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C63 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_166P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_166p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_166p@ocad_parts_lib.cap_np(chips)',
+ PATH='166P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(1175,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
  C64 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
  ROOM='VCC1V8',
  REUSE_ID='148';
@@ -1860,6 +2339,46 @@ occ.\02_ power\(sch_1):page3_149p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C65 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I172@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i172@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i172@ocad_parts_lib.cap_np(chips)',
+ PATH='I172',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(1600,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
@@ -1905,58 +2424,16 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_323p@ocad_parts_lib.cap_np(chips)
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
- C69 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='VCC3V3I_V',
- REUSE_ID='18';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_181P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_181p@ocad_parts_lib.cap_np(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_181p@ocad_parts_lib.cap_np(chips)',
- PATH='181P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
- SOURCE_PACKAGE='CAP_NP',
- REUSE_ANNOTATE='TRUE',
- PSPICE='C',
- PART_TYPE='Ceramic',
- MPN='C1005X7R1E104K050BB ',
- MANUFACTURER='TDK CORP',
- LAST_EDIT_BY='SNF',
- DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
- CLASS='DISCRETE',
- AVAILABILITY='In Stock',
- DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='3',
- XY='(875,-5300)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='CAP0402',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
- REUSE_ID='18',
- VOLTAGE='25V',
- ROOM='VCC3V3I_V',
- ALT_SYMBOLS='',
- PART_NUMBER='445-7348-2-ND',
- VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
-
-PART_NAME
- C71 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ C67 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
  ROOM='VCC3V3I_V';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_166P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_195P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_166p@ocad_parts_lib.cap_np(chips)',
+occ.\02_ power\(sch_1):page2_195p@ocad_parts_lib.cap_np(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_166p@ocad_parts_lib.cap_np(chips)',
- PATH='166P',
+occ.\02_ power\(sch_1):page3_195p@ocad_parts_lib.cap_np(chips)',
+ PATH='195P',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
  TOLERANCE='20%',
  SOURCE_PACKAGE='CAP_NP',
@@ -1972,7 +2449,7 @@ occ.\02_ power\(sch_1):page3_166p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(1175,-5300)',
+ XY='(1450,-5300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -1981,6 +2458,328 @@ occ.\02_ power\(sch_1):page3_166p@ocad_parts_lib.cap_np(chips)',
  CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
  VOLTAGE='6.3V',
  ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C68 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I173@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i173@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i173@ocad_parts_lib.cap_np(chips)',
+ PATH='I173',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(1875,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C69 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='VCC3V3I_V',
+ REUSE_ID='18';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I191@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i191@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i191@ocad_parts_lib.cap_np(chips)',
+ PATH='I191',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(1700,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ REUSE_ID='18',
+ VOLTAGE='25V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C70 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_156P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_156p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_156p@ocad_parts_lib.cap_np(chips)',
+ PATH='156P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(1750,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C71 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I189@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i189@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i189@ocad_parts_lib.cap_np(chips)',
+ PATH='I189',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(2000,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C72 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I175@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i175@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i175@ocad_parts_lib.cap_np(chips)',
+ PATH='I175',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(2175,-4925)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VCC3V3I_V',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C73 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VP3V3';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I400@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i400@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_i400@ocad_parts_lib.cap_np(chips)',
+ PATH='I400',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(2825,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VP3V3',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C74 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VP3V3';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I401@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i401@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_i401@ocad_parts_lib.cap_np(chips)',
+ PATH='I401',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(3075,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VP3V3',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM21BR60J476ME15K',
+ VALUE='47UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C75 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
+ ROOM='VP3V3';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I402@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i402@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_i402@ocad_parts_lib.cap_np(chips)',
+ PATH='I402',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM21BR60J476ME15K',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-14660-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 47UF 6.3V X5R 0805',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(3325,-5300)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM21BR60J476ME15K,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='VP3V3',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM21BR60J476ME15K',
  VALUE='47UF',
@@ -2069,13 +2868,13 @@ PART_NAME
  ROOM='VCC3V3I_V';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_195P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I188@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_195p@ocad_parts_lib.cap_np(chips)',
+occ.\02_ power\(sch_1):page1_i188@ocad_parts_lib.cap_np(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_195p@ocad_parts_lib.cap_np(chips)',
- PATH='195P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+occ.\02_ power\(sch_1):page1_i188@ocad_parts_lib.cap_np(chips)',
+ PATH='I188',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
  TOLERANCE='20%',
  SOURCE_PACKAGE='CAP_NP',
  PSPICE='C',
@@ -2089,8 +2888,8 @@ occ.\02_ power\(sch_1):page3_195p@ocad_parts_lib.cap_np(chips)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='3',
- XY='(1450,-5300)',
+ PHYS_PAGE='1',
+ XY='(2275,-4925)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -2109,13 +2908,13 @@ PART_NAME
  ROOM='VCC3V3I_V';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_156P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I186@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_156p@ocad_parts_lib.cap_np(chips)',
+occ.\02_ power\(sch_1):page1_i186@ocad_parts_lib.cap_np(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_156p@ocad_parts_lib.cap_np(chips)',
- PATH='156P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+occ.\02_ power\(sch_1):page1_i186@ocad_parts_lib.cap_np(chips)',
+ PATH='I186',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
  TOLERANCE='20%',
  SOURCE_PACKAGE='CAP_NP',
  PSPICE='C',
@@ -2129,8 +2928,8 @@ occ.\02_ power\(sch_1):page3_156p@ocad_parts_lib.cap_np(chips)',
  CLASS='DISCRETE',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='3',
- XY='(1750,-5300)',
+ PHYS_PAGE='1',
+ XY='(2575,-4925)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -6368,46 +7167,39 @@ occ.\02_ power\(sch_1):page3_191p@ocad_parts_lib.\led green 0603_0\(chips)',
  PRIM_FILE='./ocad_parts_lib/led#20green#200603_0/chips/chips.prt';
 
 PART_NAME
- D6 'LED RED 0603_0-LNJ237W82RA,LEDB':
- ROOM='VCC3V3I_V';
+ D6 'LED GREEN 0603_0-LNJ326W83RA,LB':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_121P@ATCS.LED RED 0603_0(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I176@OCAD_PARTS_LIB.LED GREEN 0603_0(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page4_121p@atcs.\led red 0603_0\(chips)',
+occ.\02_ power\(sch_1):page4_i176@ocad_parts_lib.\led green 0603_0\(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_121p@atcs.\led red 0603_0\(chips)',
- PATH='121P',
+occ.\02_ power\(sch_1):page2_i176@ocad_parts_lib.\led green 0603_0\(chips)',
+ PATH='I176',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- MFR_PART_NUMBER='LTST-C190CKT',
- MFR_NAME='Lite-On Trading USA, Inc.',
- LEDCOLOR='Red',
- DEVICE='LED_RED0603',
- CY_PART_='860R-13780',
- RATING='50 mW',
+ LEDCOLOR='Green',
  DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\ATA7000CE271.pdf~
 ',
- SOURCE_PACKAGE='LED RED 0603_0',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='LED\Red',
- MPN='LNJ237W82RA',
+ SOURCE_PACKAGE='LED GREEN 0603_0',
+ MPN='LNJ326W83RA',
  MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='LNJ237W82RACT-ND',
+ DISTRIBUTOR_PARTNUMBER='P13485CT-ND',
  DISTRIBUTOR='Digikey',
- DESCRIPTION='LED RED 0603 SMD',
+ DESCRIPTION='LED GREEN 0603 SMD',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='2',
- XY='(750,-5100)',
+ XY='(2800,-5100)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='LEDC1608X80N',
  SEC='1',
- CDS_LIB='atcs',
- CDS_PART_NAME='LED RED 0603_0-LNJ237W82RA,LEDB',
- ROOM='VCC3V3I_V',
- PART_NUMBER='LNJ237W82RA',
- VALUE='Red',
- PRIM_FILE='./atcs/led#20red#200603_0/chips/chips.prt';
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='LED GREEN 0603_0-LNJ326W83RA,LB',
+ ROOM='POWER',
+ PART_NUMBER='LNJ326W83RA',
+ VALUE='Green',
+ PRIM_FILE='./ocad_parts_lib/led#20green#200603_0/chips/chips.prt';
 
 PART_NAME
  D7 'LED GREEN 0603_0-LNJ326W83RA,LB':
@@ -10917,37 +11709,28 @@ occ.\02_ power\(sch_1):page2_113p@discrete.r(chips)',
 
 PART_NAME
  R63 'R-EMA-00003608,R-EMA-00003608,A':
- ROOM='VCC3V3I_V';
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_111P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I177@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page4_111p@discrete.r(chips)',
+occ.\02_ power\(sch_1):page4_i177@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_111p@discrete.r(chips)',
- PATH='111P',
+occ.\02_ power\(sch_1):page2_i177@discrete.r(chips)',
+ PATH='I177',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Rohm\mcr03.pdf',
- POWER='1/10 W',
- TOLERANCE='1.0 %',
  SOURCE_PACKAGE='R',
  REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='MCR03EZPFX2490',
- MANUFACTURER='Rohm',
- DISTRIBUTOR_PARTNUMBER='RHM249HTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES, Thick Film, 249 Ohm, 1.0 %, 1/10 W, SMD, 0603',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='2',
- XY='(800,-4800)',
+ XY='(2850,-4825)',
  ROT='6',
  VER='1',
  JEDEC_TYPE='RES0603',
  SEC='1',
  CDS_LIB='discrete',
  CDS_PART_NAME='R-EMA-00003608,R-RES0603',
- ROOM='VCC3V3I_V',
+ ROOM='POWER',
  PART_NUMBER='EMA-00003608',
  VALUE='249 Ohm',
  PRIM_FILE='./discrete/r/chips/chips.prt';
@@ -15755,17 +16538,17 @@ PART_NAME
  ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_146P@TESTPOINT.TESTPOINT(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I176@TESTPOINT.TESTPOINT(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_146p@testpoint.testpoint(chips)',
+occ.\02_ power\(sch_1):page1_i176@testpoint.testpoint(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_146p@testpoint.testpoint(chips)',
- PATH='146P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+occ.\02_ power\(sch_1):page1_i176@testpoint.testpoint(chips)',
+ PATH='I176',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
  SOURCE_PACKAGE='TESTPOINT',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='3',
- XY='(4150,-5000)',
+ PHYS_PAGE='1',
+ XY='(3550,-4600)',
  ROT='5',
  VER='1',
  JEDEC_TYPE='TP_KEYSTONE_5000A',
@@ -15843,7 +16626,7 @@ occ.\02_ power\(sch_1):page3_174p@testpoint.testpoint(chips)',
  PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
 
 PART_NAME
- TP13 'TESTPOINT-EMA-00001481V22,TESTB':
+ TP10 'TESTPOINT-EMA-00001481V22,TESTB':
  ROOM='VCC3V3I_V';
 
 SECTION_NUMBER 1
@@ -15876,6 +16659,98 @@ occ.\02_ power\(sch_1):page3_155p@testpoint.testpoint(chips)',
  PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
 
 PART_NAME
+ TP11 'TESTPOINT-EMA-00001481V22,TESTB':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I178@TESTPOINT.TESTPOINT(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i178@testpoint.testpoint(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i178@testpoint.testpoint(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Keystone Electronics\M55p5~
+1.pdf',
+ SOURCE_PACKAGE='TESTPOINT',
+ PART_TYPE='Testpoint',
+ MPN='5002',
+ MANUFACTURER='Keystone Electronics',
+ DESCRIPTION='MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(3150,-5300)',
+ ROT='5',
+ VER='1',
+ JEDEC_TYPE='TP_KEYSTONE_5000A',
+ SEC='1',
+ CDS_LIB='testpoint',
+ CDS_PART_NAME='TESTPOINT-EMA-00001481V22,TESTB',
+ ROOM='VCC3V3I_V',
+ PART_NUMBER='EMA-00001481V22',
+ VALUE='5002 White',
+ PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP12 'TESTPOINT-EMA-00001481V22,TESTB':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_146P@TESTPOINT.TESTPOINT(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_146p@testpoint.testpoint(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page3_146p@testpoint.testpoint(chips)',
+ PATH='146P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
+ SOURCE_PACKAGE='TESTPOINT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='3',
+ XY='(4150,-5000)',
+ ROT='5',
+ VER='1',
+ JEDEC_TYPE='TP_KEYSTONE_5000A',
+ SEC='1',
+ CDS_LIB='testpoint',
+ CDS_PART_NAME='TESTPOINT-EMA-00001481V22,TESTB',
+ ROOM='POWER',
+ PART_NUMBER='EMA-00001481V22',
+ PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP13 'TESTPOINT-EMA-00001481V22,TESTB':
+ ROOM='VCC3V3I_V';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I177@TESTPOINT.TESTPOINT(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i177@testpoint.testpoint(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page1_i177@testpoint.testpoint(chips)',
+ PATH='I177',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Keystone Electronics\M55p5~
+1.pdf',
+ SOURCE_PACKAGE='TESTPOINT',
+ PART_TYPE='Testpoint',
+ MPN='5002',
+ MANUFACTURER='Keystone Electronics',
+ DESCRIPTION='MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(3550,-5425)',
+ ROT='5',
+ VER='1',
+ JEDEC_TYPE='TP_KEYSTONE_5000A',
+ SEC='1',
+ CDS_LIB='testpoint',
+ CDS_PART_NAME='TESTPOINT-EMA-00001481V22,TESTB',
+ ROOM='VCC3V3I_V',
+ PART_NUMBER='EMA-00001481V22',
+ VALUE='5002 White',
+ PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
+
+PART_NAME
  TP14 'TESTPOINT-EMA-00001481V22,TESTB':
  ROOM='VCC1V8';
 
@@ -15896,7 +16771,7 @@ occ.\02_ power\(sch_1):page3_140p@testpoint.testpoint(chips)',
  DESCRIPTION='MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(3750,-4200)',
+ XY='(3750,-3975)',
  ROT='5',
  VER='1',
  JEDEC_TYPE='TP_KEYSTONE_5000A',
@@ -15939,6 +16814,32 @@ occ.\02_ power\(sch_1):page1_123p@testpoint.testpoint(chips)',
  ROOM='MAIN_PWR',
  PART_NUMBER='EMA-00001481V22',
  VALUE='5002 White',
+ PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
+
+PART_NAME
+ TP16 'TESTPOINT-EMA-00001481V22,TESTB':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I179@TESTPOINT.TESTPOINT(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i179@testpoint.testpoint(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i179@testpoint.testpoint(chips)',
+ PATH='I179',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SOURCE_PACKAGE='TESTPOINT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(3150,-4625)',
+ ROT='5',
+ VER='1',
+ JEDEC_TYPE='TP_KEYSTONE_5000A',
+ SEC='1',
+ CDS_LIB='testpoint',
+ CDS_PART_NAME='TESTPOINT-EMA-00001481V22,TESTB',
+ ROOM='POWER',
+ PART_NUMBER='EMA-00001481V22',
  PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
 
 PART_NAME
