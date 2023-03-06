@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-01T15:35:15</modificationTime>
+    <modificationTime>2023-03-06T17:11:57</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>143</instanceid>
-        <netid>134</netid>
-        <insttermid>425</insttermid>
+        <instanceid>169</instanceid>
+        <netid>137</netid>
+        <insttermid>473</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -497,10 +497,6 @@
           <name>n003941</name>
         </net>
         <net>
-          <id>N29</id>
-          <name>n004340</name>
-        </net>
-        <net>
           <id>N39</id>
           <name>n00902</name>
         </net>
@@ -703,8 +699,12 @@
           <name>unnamed_1_ledred06030_121p_a</name>
         </net>
         <net>
-          <id>N134</id>
-          <name>unnamed_4_ledred06030_121p_a</name>
+          <id>N136</id>
+          <name>unnamed_2_ledgreen06030_188p_a</name>
+        </net>
+        <net>
+          <id>N137</id>
+          <name>unnamed_4_ledgreen06030_i176_a</name>
         </net>
         <net>
           <id>N3</id>
@@ -1268,7 +1268,7 @@
               <id>M131</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N29" />
+                <connection net="N136" />
               </connections>
             </pin>
             <pin>
@@ -1457,7 +1457,7 @@
               <id>M223</id>
               <termid>T79</termid>
               <connections>
-                <connection net="N29" />
+                <connection net="N136" />
               </connections>
             </pin>
             <pin>
@@ -1955,14 +1955,14 @@
               <id>M326</id>
               <termid>T202</termid>
               <connections>
-                <connection net="N96" />
+                <connection net="N131" />
               </connections>
             </pin>
             <pin>
               <id>M327</id>
               <termid>T203</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N96" />
               </connections>
             </pin>
           </pins>
@@ -2085,27 +2085,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I115</id>
-          <cellid>S3</cellid>
-          <name>page4_111p</name>
-          <pins>
-            <pin>
-              <id>M345</id>
-              <termid>T8</termid>
-              <connections>
-                <connection net="N134" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M346</id>
-              <termid>T9</termid>
-              <connections>
-                <connection net="N96" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I116</id>
           <cellid>S2</cellid>
           <name>page4_112p</name>
@@ -2161,27 +2140,6 @@
             <pin>
               <id>M356</id>
               <termid>T11</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I121</id>
-          <cellid>S7</cellid>
-          <name>page4_121p</name>
-          <pins>
-            <pin>
-              <id>M357</id>
-              <termid>T33</termid>
-              <connections>
-                <connection net="N134" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M358</id>
-              <termid>T34</termid>
               <connections>
                 <connection net="N3" />
               </connections>
@@ -2423,6 +2381,524 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I144</id>
+          <cellid>S2</cellid>
+          <name>page1_i174</name>
+          <pins>
+            <pin>
+              <id>M426</id>
+              <termid>T6</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M427</id>
+              <termid>T7</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I145</id>
+          <cellid>S4</cellid>
+          <name>page1_i175</name>
+          <pins>
+            <pin>
+              <id>M428</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M429</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I146</id>
+          <cellid>S4</cellid>
+          <name>page4_i167</name>
+          <pins>
+            <pin>
+              <id>M430</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M431</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I147</id>
+          <cellid>S4</cellid>
+          <name>page4_i168</name>
+          <pins>
+            <pin>
+              <id>M432</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N131" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M433</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I148</id>
+          <cellid>S2</cellid>
+          <name>page4_i169</name>
+          <pins>
+            <pin>
+              <id>M434</id>
+              <termid>T6</termid>
+              <connections>
+                <connection net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M435</id>
+              <termid>T7</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I149</id>
+          <cellid>S4</cellid>
+          <name>page2_i399</name>
+          <pins>
+            <pin>
+              <id>M436</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M437</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I150</id>
+          <cellid>S4</cellid>
+          <name>page2_i400</name>
+          <pins>
+            <pin>
+              <id>M438</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M439</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I151</id>
+          <cellid>S4</cellid>
+          <name>page2_i401</name>
+          <pins>
+            <pin>
+              <id>M440</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M441</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I152</id>
+          <cellid>S4</cellid>
+          <name>page2_i402</name>
+          <pins>
+            <pin>
+              <id>M442</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M443</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I153</id>
+          <cellid>S4</cellid>
+          <name>page2_i403</name>
+          <pins>
+            <pin>
+              <id>M444</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N62" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M445</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I154</id>
+          <cellid>S8</cellid>
+          <name>page1_i176</name>
+          <pins>
+            <pin>
+              <id>M446</id>
+              <termid>T35</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I155</id>
+          <cellid>S8</cellid>
+          <name>page1_i177</name>
+          <pins>
+            <pin>
+              <id>M447</id>
+              <termid>T35</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I156</id>
+          <cellid>S4</cellid>
+          <name>page1_i186</name>
+          <pins>
+            <pin>
+              <id>M448</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M449</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I157</id>
+          <cellid>S4</cellid>
+          <name>page1_i188</name>
+          <pins>
+            <pin>
+              <id>M450</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M451</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I158</id>
+          <cellid>S4</cellid>
+          <name>page1_i189</name>
+          <pins>
+            <pin>
+              <id>M452</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M453</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I159</id>
+          <cellid>S4</cellid>
+          <name>page1_i191</name>
+          <pins>
+            <pin>
+              <id>M454</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M455</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I160</id>
+          <cellid>S4</cellid>
+          <name>page1_i192</name>
+          <pins>
+            <pin>
+              <id>M456</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M457</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I161</id>
+          <cellid>S4</cellid>
+          <name>page4_i170</name>
+          <pins>
+            <pin>
+              <id>M458</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M459</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I162</id>
+          <cellid>S4</cellid>
+          <name>page4_i171</name>
+          <pins>
+            <pin>
+              <id>M460</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M461</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I163</id>
+          <cellid>S4</cellid>
+          <name>page4_i172</name>
+          <pins>
+            <pin>
+              <id>M462</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M463</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I164</id>
+          <cellid>S4</cellid>
+          <name>page4_i173</name>
+          <pins>
+            <pin>
+              <id>M464</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M465</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I165</id>
+          <cellid>S4</cellid>
+          <name>page4_i175</name>
+          <pins>
+            <pin>
+              <id>M466</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M467</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I166</id>
+          <cellid>S14</cellid>
+          <name>page4_i176</name>
+          <pins>
+            <pin>
+              <id>M468</id>
+              <termid>T79</termid>
+              <connections>
+                <connection net="N137" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M469</id>
+              <termid>T80</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I167</id>
+          <cellid>S3</cellid>
+          <name>page4_i177</name>
+          <pins>
+            <pin>
+              <id>M470</id>
+              <termid>T8</termid>
+              <connections>
+                <connection net="N137" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M471</id>
+              <termid>T9</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I168</id>
+          <cellid>S8</cellid>
+          <name>page4_i178</name>
+          <pins>
+            <pin>
+              <id>M472</id>
+              <termid>T35</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I169</id>
+          <cellid>S8</cellid>
+          <name>page4_i179</name>
+          <pins>
+            <pin>
+              <id>M473</id>
+              <termid>T35</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2563,6 +3039,15 @@
               <instance ref="i165"></instance>
               <instance ref="i166"></instance>
               <instance ref="i167"></instance>
+              <instance ref="i174"></instance>
+              <instance ref="i175"></instance>
+              <instance ref="i176"></instance>
+              <instance ref="i177"></instance>
+              <instance ref="i186"></instance>
+              <instance ref="i188"></instance>
+              <instance ref="i189"></instance>
+              <instance ref="i191"></instance>
+              <instance ref="i192"></instance>
             </instances>
           </page>
           <page number="2">
@@ -2575,7 +3060,6 @@
               <net ref="fpga_pg"></net>
               <net ref="gnd"></net>
               <net ref="n003941"></net>
-              <net ref="n004340"></net>
               <net ref="n00902"></net>
               <net ref="n00904"></net>
               <net ref="p2v5"></net>
@@ -2588,6 +3072,7 @@
               <net ref="power.pg_vp3v3"></net>
               <net ref="power.sense_12c_scl"></net>
               <net ref="power.sense_12c_sda"></net>
+              <net ref="unnamed_2_ledgreen06030_188p_a"></net>
               <net ref="vcc3v3"></net>
               <net ref="vp1v8"></net>
             </nets>
@@ -2618,6 +3103,11 @@
               <instance ref="195p"></instance>
               <instance ref="i394"></instance>
               <instance ref="i398"></instance>
+              <instance ref="i399"></instance>
+              <instance ref="i400"></instance>
+              <instance ref="i401"></instance>
+              <instance ref="i402"></instance>
+              <instance ref="i403"></instance>
             </instances>
           </page>
           <page number="4">
@@ -2627,7 +3117,7 @@
               <net ref="dc_dc_enable"></net>
               <net ref="gnd"></net>
               <net ref="p2v5"></net>
-              <net ref="unnamed_4_ledred06030_121p_a"></net>
+              <net ref="unnamed_4_ledgreen06030_i176_a"></net>
               <net ref="unnamed_4_pth08t210w_i137_sensp"></net>
               <net ref="unnamed_4_pth08t210w_i137_turbotrans"></net>
               <net ref="unnamed_4_pth08t210w_i137_vadj"></net>
@@ -2644,11 +3134,9 @@
             </nets>
             <instances>
               <instance ref="105p"></instance>
-              <instance ref="111p"></instance>
               <instance ref="112p"></instance>
               <instance ref="113p"></instance>
               <instance ref="119p"></instance>
-              <instance ref="121p"></instance>
               <instance ref="123p"></instance>
               <instance ref="130p"></instance>
               <instance ref="i137"></instance>
@@ -2656,6 +3144,18 @@
               <instance ref="i145"></instance>
               <instance ref="i147"></instance>
               <instance ref="i148"></instance>
+              <instance ref="i167"></instance>
+              <instance ref="i168"></instance>
+              <instance ref="i169"></instance>
+              <instance ref="i170"></instance>
+              <instance ref="i171"></instance>
+              <instance ref="i172"></instance>
+              <instance ref="i173"></instance>
+              <instance ref="i175"></instance>
+              <instance ref="i176"></instance>
+              <instance ref="i177"></instance>
+              <instance ref="i178"></instance>
+              <instance ref="i179"></instance>
             </instances>
           </page>
         </pages>

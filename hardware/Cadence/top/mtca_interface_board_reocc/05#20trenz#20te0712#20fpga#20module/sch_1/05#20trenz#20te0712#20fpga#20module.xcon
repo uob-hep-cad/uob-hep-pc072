@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-02-03T16:09:52</modificationTime>
+    <modificationTime>2023-03-06T15:45:45</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -2467,14 +2467,6 @@
           <name>unnamed_2_capcersmdcl2_i418_b</name>
         </net>
         <net>
-          <id>N309</id>
-          <name>unnamed_2_capcersmdcl2_i424_b</name>
-        </net>
-        <net>
-          <id>N311</id>
-          <name>page2_vp12</name>
-        </net>
-        <net>
           <id>N103</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -2492,11 +2484,6 @@
         <net>
           <id>N302</id>
           <name>p2v5</name>
-          <scope>global</scope>
-        </net>
-        <net>
-          <id>N310</id>
-          <name>vp12</name>
           <scope>global</scope>
         </net>
       </nets>
@@ -2574,7 +2561,6 @@
         <alias net1="N293" lsb1="-1" msb1="-1" net2="N210" lsb2="-1" msb2="-1" />
         <alias net1="N295" lsb1="-1" msb1="-1" net2="N216" lsb2="-1" msb2="-1" />
         <alias net1="N303" lsb1="-1" msb1="-1" net2="N302" lsb2="-1" msb2="-1" />
-        <alias net1="N311" lsb1="-1" msb1="-1" net2="N310" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -5252,7 +5238,6 @@
               <id>M842</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N309" />
               </connections>
             </pin>
             <pin>
@@ -5680,81 +5665,6 @@
             </pin>
           </pins>
         </instance>
-        <instance>
-          <id>I130</id>
-          <cellid>S17</cellid>
-          <name>page2_i421</name>
-          <pins>
-            <pin>
-              <id>M885</id>
-              <termid>T392</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N309" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M886</id>
-              <termid>T393</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N310" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I131</id>
-          <cellid>S18</cellid>
-          <name>page2_i422</name>
-          <pins>
-            <pin>
-              <id>M887</id>
-              <termid>T394</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N103" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M888</id>
-              <termid>T395</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N310" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I132</id>
-          <cellid>S18</cellid>
-          <name>page2_i424</name>
-          <pins>
-            <pin>
-              <id>M889</id>
-              <termid>T394</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N103" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M890</id>
-              <termid>T395</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N309" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -5811,11 +5721,6 @@
             <pageScope number="1">
               <scope>global</scope>
             </pageScope>
-            <pageScope number="2">
-              <scope>global</scope>
-            </pageScope>
-          </netScope>
-          <netScope ref="vp12">
             <pageScope number="2">
               <scope>global</scope>
             </pageScope>
@@ -6108,9 +6013,7 @@
               <net ref="uart_rx_to_fpga_3v3"></net>
               <net ref="uart_tx_from_fpga_3v3"></net>
               <net ref="unnamed_2_capcersmdcl2_i418_b"></net>
-              <net ref="unnamed_2_capcersmdcl2_i424_b"></net>
               <net ref="vcc3v3"></net>
-              <net ref="vp12"></net>
               <net ref="vref_jtag"></net>
             </nets>
             <instances>
@@ -6142,9 +6045,6 @@
               <instance ref="i416"></instance>
               <instance ref="i417"></instance>
               <instance ref="i418"></instance>
-              <instance ref="i421"></instance>
-              <instance ref="i422"></instance>
-              <instance ref="i424"></instance>
             </instances>
           </page>
         </pages>

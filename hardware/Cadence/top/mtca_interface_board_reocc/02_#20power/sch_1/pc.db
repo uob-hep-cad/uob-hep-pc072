@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S031 (4044358) 7/23/2022 on Wed Mar  1 15:35:15 2023
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Mon Mar  6 17:07:28 2023
 #CELL
   ocad_parts_lib cap_pol *
   page1_105p
@@ -50,9 +50,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_133p
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page1_135p
 #ISCELL
   mtca_interface_board offpageleft-l *
   page1_1p
@@ -175,10 +172,40 @@
   page1_i173
 #CELL
   ocad_parts_lib cap_pol *
-  page4_105p
+  page1_i174
 #CELL
-  discrete r *
-  page4_111p
+  ocad_parts_lib cap_np *
+  page1_i175
+#CELL
+  testpoint testpoint *
+  page1_i176
+#CELL
+  testpoint testpoint *
+  page1_i177
+#CELL
+  ocad_parts_lib cap_np *
+  page1_i186
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i187
+#CELL
+  ocad_parts_lib cap_np *
+  page1_i188
+#CELL
+  ocad_parts_lib cap_np *
+  page1_i189
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page1_i190
+#CELL
+  ocad_parts_lib cap_np *
+  page1_i191
+#CELL
+  ocad_parts_lib cap_np *
+  page1_i192
+#CELL
+  ocad_parts_lib cap_pol *
+  page4_105p
 #CELL
   ocad_parts_lib cap_pol *
   page4_112p
@@ -188,9 +215,6 @@
 #CELL
   ocad_parts_lib cap_np *
   page4_119p
-#CELL
-  atcs led#20red#200603_0 *
-  page4_121p
 #CELL
   testpoint testpoint *
   page4_123p
@@ -203,9 +227,6 @@
 #ISCELL
   mtca_interface_board gnd *
   page4_40p
-#ISCELL
-  mtca_interface_board gnd *
-  page4_41p
 #ISCELL
   mtca_interface_board gnd *
   page4_5p
@@ -260,6 +281,45 @@
 #ISCELL
   cnpower p2v5 *
   page4_i166
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i167
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i168
+#CELL
+  ocad_parts_lib cap_pol *
+  page4_i169
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i170
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i171
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i172
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i173
+#ISCELL
+  mtca_interface_board gnd *
+  page4_i174
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i175
+#CELL
+  ocad_parts_lib led#20green#200603_0 *
+  page4_i176
+#CELL
+  discrete r *
+  page4_i177
+#CELL
+  testpoint testpoint *
+  page4_i178
+#CELL
+  testpoint testpoint *
+  page4_i179
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_10p
@@ -410,3 +470,18 @@
 #CELL
   cndiscrete trans#20mosfet *
   page2_i398
+#CELL
+  ocad_parts_lib cap_np *
+  page2_i399
+#CELL
+  ocad_parts_lib cap_np *
+  page2_i400
+#CELL
+  ocad_parts_lib cap_np *
+  page2_i401
+#CELL
+  ocad_parts_lib cap_np *
+  page2_i402
+#CELL
+  ocad_parts_lib cap_np *
+  page2_i403
