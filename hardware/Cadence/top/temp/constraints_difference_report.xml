@@ -3,10 +3,10 @@
 <ConstraintDifferenceReport Path="file:///c:/cadence/spb_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Wed Mar  1 15:35:53 2023
+    <Entry Name="Report time">Mon Mar  6 16:34:26 2023
 </Entry>
-    <Entry Name="Software version">17.4 (S031)</Entry>
-    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v14.brd</Entry>
+    <Entry Name="Software version">17.4 (S033)</Entry>
+    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v16.brd</Entry>
     <Entry Name="Schematic">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged\pstcmdb.dat</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Overwrite</Entry>
@@ -14,31 +14,24 @@
   </RptSummary>
 
   <Tree>
-    <Item Filter="0x3" Name="Summary" Ref="main-summary">
-      <Item Filter="0x2" Name="Buses [3]" Ref="5">
-        <Item Filter="0x0" Name="PAGE4_VIN" Ref="3"/>
-        <Item Filter="0x0" Name="PAGE4_VO" Ref="4"/>
-        <Item Filter="0x2" Name="VO" Ref="1"/>
+    <Item Filter="0x1" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="Buses [2]" Ref="3">
+        <Item Filter="0x0" Name="PAGE4_VIN" Ref="1"/>
+        <Item Filter="0x0" Name="PAGE4_VO" Ref="2"/>
       </Item>
     </Item>
   </Tree>
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x2" Name="Buses" ObjNumber="3" Ref="5"/>
+      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="2" Ref="3"/>
     </MainSummary>
-    <GroupSummary ID="5" Name="Buses">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VIN" Notes="0" Other="0" Ref="3" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VO" Notes="0" Other="0" Ref="4" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="VO" Notes="0" Other="0" Ref="1" Reference="0" Status="Created"/>
+    <GroupSummary ID="3" Name="Buses">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VIN" Notes="0" Other="0" Ref="1" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VO" Notes="0" Other="0" Ref="2" Reference="0" Status="Created"/>
     </GroupSummary>
-    <ObjectSummary ID="3" Kind="Bus" Name="PAGE4_VIN" Status="Created"/>
-    <ObjectSummary ID="4" Kind="Bus" Name="PAGE4_VO" Status="Created"/>
-    <ObjectSummary ID="1" Kind="Bus" Name="VO" Status="Created">
-      <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="VCC2V5_PRE_RSHUNT"/>
-      </Associations>
-    </ObjectSummary>
+    <ObjectSummary ID="1" Kind="Bus" Name="PAGE4_VIN" Status="Created"/>
+    <ObjectSummary ID="2" Kind="Bus" Name="PAGE4_VO" Status="Created"/>
   </Summaries>
 
   <Layers>
