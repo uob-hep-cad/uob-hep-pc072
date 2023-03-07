@@ -2,52 +2,52 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022}
 "PAGE_NUMBER" = 2;
 0"NC";
-1"BP<180..0>";
-2"FPGA_PG";
-3"POWER<10..0>";
-4"CLKGEN_IO<10..0>";
-5"SFP_DATA_IO<11..0>";
-6"SFP<29..0>";
+1"CLK_SCL:CLK_SDA:CLK_SEL0:CLK_SEL1:CLK_INTR:CLK_LOL:CLK_RST:CLK_P<1..0>:CLK_N<1..0>";
+2"SFP_RATE_SELECT<2..0>:SFP_TX_DISABLE<2..0>:SFP_TX_FAULT<2..0>:SFP_LOS<2..0>:SFP_RD_P<2..0>:SFP_RD_N<2..0>:SFP_TD_P<2..0>:SFP_TD_N<2..0>:SFP_SDA<2..0>:SFP_SCL<2..0>";
+3"UPSTREAM_DATA_P<2..0>:UPSTREAM_DATA_N_<2..0>:SFP_DATA_OUT_P<2..0>:SFP_DATA_OUT_N<2..0>";
+4"UNCONNECTED<91:0>:PWR_ON:AMC_N_ENABLE:TCK:TMS:TDO:TDI:GBE_TX_N:GBE_TX_P:GBE_RX_N:GBE_RX_P:IMPB_SCL:IMPB_SDA:DATA_OUT_P<11..0>:DATA_OUT_N<11..0>:DATA_IN_P<11..0>:DATA_IN_N<11..0>:REF_CLK_P<11..0>:REF_CLK_N<11..0>:AMC_GA<2..0>:AMC_N_PS<1..0>";
+5"FPGA_PG";
+6"POWER<10..0>";
 %"02_ power"
 "1","(2825,-1100)","0","mtca_interface_board_reocc","1P";
 ;
 ROOM"POWER"
-VALUE"02. POWER"
 $LOCATION"POWER1"
-CDS_LIB"mtca_interface_board_reocc"
-CDS_LOCATION"POWER1"
-DESIGNATORNAMEPROP"POWER"
-BLOCK"TRUE";
-"FPGA_PG"
-VHDL_MODE"IN"2;
-"POWER<10..0>"
-VHDL_MODE"INOUT"3;
-%"08_ timing"
-"1","(3175,-2500)","0","mtca_interface_board_reocc","2P";
-;
-$LOCATION"TIMING1"
-VALUE"08. TIMING"
+VALUE"02. POWER"
 BLOCK"TRUE"
-DESIGNATORNAMEPROP"TIMING"
-CDS_LOCATION"TIMING1"
-CDS_LIB"mtca_interface_board_reocc"
-USE2"work.all"
+DESIGNATORNAMEPROP"POWER"
+CDS_LOCATION"POWER1"
+CDS_LIB"mtca_interface_board_reocc";
+"FPGA_PG"
+VHDL_MODE"IN"5;
+"POWER<10..0>"
+VHDL_MODE"INOUT"6;
+%"08_ timing"
+"1","(850,-3050)","0","mtca_interface_board_reocc","2P";
+;
+VALUE"08. TIMING"
+$LOCATION"TIMING1"
+LIBRARY1"ieee"
 USE1"ieee.std_logic_1164.all"
-LIBRARY1"ieee";
+USE2"work.all"
+CDS_LIB"mtca_interface_board_reocc"
+CDS_LOCATION"TIMING1"
+DESIGNATORNAMEPROP"TIMING"
+BLOCK"TRUE";
 "SFP_DATA_IO<11..0>"
-VHDL_MODE"inout"
-VHDL_VECTOR_TYPE"std_logic_vector"5;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"inout"3;
 "CLKGEN_IO<10..0>"
-VHDL_MODE"inout"
-VHDL_VECTOR_TYPE"std_logic_vector"4;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"inout"1;
 "SFP<29..0>"
-VHDL_MODE"INOUT"
-VHDL_VECTOR_TYPE"std_logic_vector"6;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"INOUT"2;
 "BP<180..0>"
-VHDL_MODE"INOUT"
-VHDL_VECTOR_TYPE"std_logic_vector"1;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"INOUT"4;
 %"03_ sfp"
-"1","(3175,-1575)","0","mtca_interface_board_reocc","3P";
+"1","(850,-2025)","0","mtca_interface_board_reocc","3P";
 ;
 $LOCATION"3X_SFP0"
 VALUE"03. SFP"
@@ -56,58 +56,58 @@ DESIGNATORNAMEPROP"SFP0"
 CDS_LOCATION"3X_SFP0"
 CDS_LIB"mtca_interface_board_reocc";
 "SFP<29..0>"
-VHDL_MODE"INOUT"6;
+VHDL_MODE"INOUT"2;
 %"05 trenz te0712 fpga module"
 "1","(4850,-1600)","0","mtca_interface_board_reocc","4P";
 ;
 $LOCATION"TE1"
 VALUE"05 TRENZ TE0712 FPGA MODULE"
-BLOCK"TRUE"
-DESIGNATORNAMEPROP"TE0712"
-CDS_LOCATION"TE1"
-CDS_LIB"mtca_interface_board_reocc"
-USE2"work.all"
+LIBRARY1"ieee"
 USE1"ieee.std_logic_1164.all"
-LIBRARY1"ieee";
+USE2"work.all"
+CDS_LIB"mtca_interface_board_reocc"
+CDS_LOCATION"TE1"
+DESIGNATORNAMEPROP"TE0712"
+BLOCK"TRUE";
 "SFP_DATA_IO<11..0>"
-VHDL_MODE"inout"
-VHDL_VECTOR_TYPE"std_logic_vector"5;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"inout"3;
 "CLKGEN_IO<10..0>"
-VHDL_MODE"inout"
-VHDL_VECTOR_TYPE"std_logic_vector"4;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"inout"1;
 "SFP<29..0>"
-VHDL_MODE"INOUT"
-VHDL_VECTOR_TYPE"std_logic_vector"6;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"INOUT"2;
 "FPGA_PG"
-VHDL_MODE"OUT"
-VHDL_SCALAR_TYPE"std_logic"2;
+VHDL_SCALAR_TYPE"std_logic"
+VHDL_MODE"OUT"5;
 "BP<180..0>"
-VHDL_MODE"INOUT"
-VHDL_VECTOR_TYPE"std_logic_vector"1;
+VHDL_VECTOR_TYPE"std_logic_vector"
+VHDL_MODE"INOUT"4;
 %"01_ module management ctrl"
-"1","(2000,-850)","0","mtca_interface_board_reocc","5P";
+"1","(1500,-850)","0","mtca_interface_board_reocc","5P";
 ;
 $LOCATION"MMC"
 VALUE"01. MODULE MANAGEMENT CTRL"
-BLOCK"TRUE"
-DESIGNATORNAMEPROP"MMC"
+CDS_LIB"mtca_interface_board_reocc"
 CDS_LOCATION"MMC"
-CDS_LIB"mtca_interface_board_reocc";
+DESIGNATORNAMEPROP"MMC"
+BLOCK"TRUE";
 "FPGA_PG"
-VHDL_MODE"IN"2;
+VHDL_MODE"IN"5;
 "POWER<10..0>"
-VHDL_MODE"INOUT"3;
+VHDL_MODE"INOUT"6;
 "BP<180..0>"
-VHDL_MODE"INOUT"1;
+VHDL_MODE"INOUT"4;
 %"07_ backplane interface"
 "1","(6225,-450)","0","mtca_interface_board_reocc","6P";
 ;
-$LOCATION"BACKPLANE_INTERFACE"
 VALUE"07. BACKPLANE INTERFACE"
-BLOCK"TRUE"
-DESIGNATORNAMEPROP"BACKPLANE INTERFACE"
+$LOCATION"BACKPLANE_INTERFACE"
+CDS_LIB"mtca_interface_board_reocc"
 CDS_LOCATION"BACKPLANE_INTERFACE"
-CDS_LIB"mtca_interface_board_reocc";
+DESIGNATORNAMEPROP"BACKPLANE INTERFACE"
+BLOCK"TRUE";
 "BP<180..0>"
-VHDL_MODE"INOUT"1;
+VHDL_MODE"INOUT"4;
 END.

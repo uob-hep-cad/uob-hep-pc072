@@ -2,6 +2,19 @@
 Logical and Physical Net Conflicts 
 ----------------------------------
 
+DRAWING = @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1)
+NET_NAME = TCK
+   PNN = TCK_2
+NET_NAME = TDI
+   PNN = TDI_2
+NET_NAME = TDO
+   PNN = TDO_2
+NET_NAME = TMS
+   PNN = TMS_2
+
+Logical and Physical Net Conflicts 
+----------------------------------
+
 DRAWING = @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1)
 NET_NAME = N00183
    PNN = N00183_1

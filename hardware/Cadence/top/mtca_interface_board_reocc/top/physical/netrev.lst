@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v18.brd                              )
+(    Drawing          : mib_rev2_v26.brd                              )
 (    Software Version : 17.4S033                                      )
-(    Date/Time        : Mon Mar  6 17:12:06 2023                      )
+(    Date/Time        : Tue Mar  7 17:49:46 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
-Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v19.brd'
+Schematic directory:         'Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
+Design Directory:            'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
+Old design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v26.brd'
+New design name:             'Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v18.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v19.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v26.brd Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v27.brd -w Z:\cad\designs\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.27)
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
+Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:01.92)
+Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
+Starting to read Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.04)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -43,23 +43,15 @@ The symbol either does not exist in the library path (PSMPATH) or is an old symb
 
 Set the correct library path if not set or use dbdoctor to migrate old 
 
-#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R63', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'POWER'.
-
-#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'D6', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'POWER'.
-
 
 
 ===========================================================
 Start Constraint Override Import
-	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Mon Mar  6 17:12:07 2023
+	Constraint File:    Z:/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
+	Start time: Tue Mar  7 17:49:49 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Mon Mar  6 17:12:07 2023
+Finished Constraint Update	Time: Tue Mar  7 17:49:49 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -109,9 +101,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 6 17:12:06 2023
+netrev run on Mar 7 17:49:44 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 06-Mar-2023 AT 17:11:58
+   PACKAGING ON 07-Mar-2023 AT 17:48:51
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -142,8 +134,8 @@ netrev run on Mar 6 17:12:06 2023
 
  No error detected
  No oversight detected
-  3 warnings detected
+  1 warnings detected
 
-cpu time      0:04:57
-elapsed time  0:00:02
+cpu time      0:32:04
+elapsed time  0:00:09
 
