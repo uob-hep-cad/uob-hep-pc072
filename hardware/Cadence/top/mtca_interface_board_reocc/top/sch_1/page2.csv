@@ -1,31 +1,32 @@
 FILE_TYPE = CONNECTIVITY;
-{Allegro Design Entry HDL 17.4-2019 S034 (4072884) 11/12/2022}
+{Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022}
 "PAGE_NUMBER" = 2;
 0"NC";
-1"FPGA_PG";
-2"POWER<10..0>";
-3"BP<180..0>";
+1"BP<180..0>";
+2"FPGA_PG";
+3"POWER<10..0>";
 4"CLKGEN_IO<10..0>";
 5"SFP_DATA_IO<11..0>";
 6"SFP<29..0>";
 %"02_ power"
 "1","(2825,-1100)","0","mtca_interface_board_reocc","1P";
 ;
-$LOCATION"POWER1"
+ROOM"POWER"
 VALUE"02. POWER"
-BLOCK"TRUE"
-DESIGNATORNAMEPROP"POWER"
+$LOCATION"POWER1"
+CDS_LIB"mtca_interface_board_reocc"
 CDS_LOCATION"POWER1"
-CDS_LIB"mtca_interface_board_reocc";
+DESIGNATORNAMEPROP"POWER"
+BLOCK"TRUE";
 "FPGA_PG"
-VHDL_MODE"IN"1;
+VHDL_MODE"IN"2;
 "POWER<10..0>"
-VHDL_MODE"INOUT"2;
+VHDL_MODE"INOUT"3;
 %"08_ timing"
 "1","(3175,-2500)","0","mtca_interface_board_reocc","2P";
 ;
-VALUE"08. TIMING"
 $LOCATION"TIMING1"
+VALUE"08. TIMING"
 BLOCK"TRUE"
 DESIGNATORNAMEPROP"TIMING"
 CDS_LOCATION"TIMING1"
@@ -44,7 +45,7 @@ VHDL_MODE"INOUT"
 VHDL_VECTOR_TYPE"std_logic_vector"6;
 "BP<180..0>"
 VHDL_MODE"INOUT"
-VHDL_VECTOR_TYPE"std_logic_vector"3;
+VHDL_VECTOR_TYPE"std_logic_vector"1;
 %"03_ sfp"
 "1","(3175,-1575)","0","mtca_interface_board_reocc","3P";
 ;
@@ -79,10 +80,10 @@ VHDL_MODE"INOUT"
 VHDL_VECTOR_TYPE"std_logic_vector"6;
 "FPGA_PG"
 VHDL_MODE"OUT"
-VHDL_SCALAR_TYPE"std_logic"1;
+VHDL_SCALAR_TYPE"std_logic"2;
 "BP<180..0>"
 VHDL_MODE"INOUT"
-VHDL_VECTOR_TYPE"std_logic_vector"3;
+VHDL_VECTOR_TYPE"std_logic_vector"1;
 %"01_ module management ctrl"
 "1","(2000,-850)","0","mtca_interface_board_reocc","5P";
 ;
@@ -93,11 +94,11 @@ DESIGNATORNAMEPROP"MMC"
 CDS_LOCATION"MMC"
 CDS_LIB"mtca_interface_board_reocc";
 "FPGA_PG"
-VHDL_MODE"IN"1;
+VHDL_MODE"IN"2;
 "POWER<10..0>"
-VHDL_MODE"INOUT"2;
-"BP<180..0>"
 VHDL_MODE"INOUT"3;
+"BP<180..0>"
+VHDL_MODE"INOUT"1;
 %"07_ backplane interface"
 "1","(6225,-450)","0","mtca_interface_board_reocc","6P";
 ;
@@ -108,5 +109,5 @@ DESIGNATORNAMEPROP"BACKPLANE INTERFACE"
 CDS_LOCATION"BACKPLANE_INTERFACE"
 CDS_LIB"mtca_interface_board_reocc";
 "BP<180..0>"
-VHDL_MODE"INOUT"3;
+VHDL_MODE"INOUT"1;
 END.

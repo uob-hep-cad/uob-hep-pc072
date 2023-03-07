@@ -2,883 +2,323 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  1V8_POST_RSHUNT pins ADDED TO this new net
-                                 IC6.4                          
-                                 R87.2           3603.40 487.000
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C59.2                          
+                                 C62.2                          
+                                 C65.2                          
+                                 C68.2                          
+                                 C72.2                          
+                                 C73.2                          
+                                 C74.2                          
+                                 C75.2                          
+                                 TP11.1                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DC_DC_ENABLE pins ADDED TO this new net
-                                 PWR1.1                         
+  N004340      net RENAMED (to net name listed on right)           UNNAMED_2_LEDGREEN06030_188P_A 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins MOVED FROM this net (to net name listed on right)
-                                 C91.2           2344.64 735.000
-                                                                         VCC3V3
-                                 R84.1           1215.47 410.000
-                                                      UNNAMED_1_RSMD0603_I144_B
-                                 TP5.1           3019.00 970.000
+  P2V5         pins MOVED FROM this net (to net name listed on right)
+                                 IC6.7                          
                                                               VCC2V5_PRE_RSHUNT
                 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
                pins ADDED TO this existing net (pins not previously on any net)
-                                 PWR1.3                         
-                                 PWR1.4                         
-                                 PWR1.7                         
-                                 PWR1.8                         
-                                 PWR1.11                        
-                                 T2.2                           
+                                 C59.1                          
+                                 C62.1                          
+                                 C65.1                          
+                                 C68.1                          
+                                 C72.1                          
+                                 TP16.1                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N000130      net RENAMED (to net name listed on right)           UNNAMED_1_LEDRED06030_121P_A 
+  UNNAMED_4_LEDRED06030_121P_A net RENAMED (to net name listed on right)           UNNAMED_4_LEDGREEN06030_I176_A 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00860       pins MOVED FROM this net (to net name listed on right)
-                                 R66.1           3183.00 529.472
-                                                                            GND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00870       pins MOVED FROM this net (to net name listed on right)
-                                 R84.2           1274.52 410.000
-                                                                         VCC3V3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00888       pins MOVED FROM this net (to net name listed on right)
-                                 R69.2           3587.47 458.000
+  VCC2V5_PRE_RSHUNT pins MOVED FROM this net (to net name listed on right)
+                                 C47.1                          
+                                                                           VP12
+                                 IC6.8                          
                                                                            P2V5
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00902       pins ADDED TO this existing net (pins not previously on any net)
-                                 T2.3                           
+  VCC3V3       pins ADDED TO this existing net (pins not previously on any net)
+                                 C73.1                          
+                                 C74.1                          
+                                 C75.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00904       pins ADDED TO this existing net (pins not previously on any net)
-                                 T2.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N00912       pins MOVED FROM this net (to net name listed on right)
-                                 R79.2           5114.00 247.528
+  VP12         pins MOVED FROM this net (to net name listed on right)
+                                 C48.1                          
+                                                              VCC2V5_PRE_RSHUNT
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                                      UNNAMED_1_RSMD0603_I144_B
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N003961      pins MOVED FROM this net (to net name listed on right)
-                                 D6.2            3546.00 233.496
-                                                   UNNAMED_4_LEDRED06030_121P_A
-                                 R70.1           4853.00 482.528
-                                                                            GND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  P2V5         pins ADDED TO this existing net (pins not previously on any net)
-                                 C44.1                          
-                                 IC6.3                          
-                                 IC6.7                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  POWER<4>     pins MOVED FROM this net (to net name listed on right)
-                                 R83.2           4204.52 270.000
-                                                      UNNAMED_1_RSMD0603_I144_B
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  POWER<7>     pins ADDED TO this existing net (pins not previously on any net)
-                                 IC6.10                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  POWER<8>     pins ADDED TO this existing net (pins not previously on any net)
-                                 IC6.11                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SNS3         pins MOVED FROM this net (to net name listed on right)
-                                 R63.1           2725.00 610.472
-                                                   UNNAMED_4_LEDRED06030_121P_A
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_LTC2991_I162_ADR0 pins ADDED TO this new net
-                                 IC6.13                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_LTC2991_I162_ADR1 pins ADDED TO this new net
-                                 IC6.14                         
-                                 R64.2           668.528 638.000
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_LTC2991_I162_ADR2 pins ADDED TO this new net
-                                 IC6.15                         
-                                 R66.2           3183.00 588.528
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_PTH08T210W_I137_TURBO pins MOVED FROM this net (to net name listed on right)
-                                 R65.1           3896.00 532.472
-                                                UNNAMED_4_PTH08T210W_I137_TURBO
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_PTH08T210W_I137_UVLO pins MOVED FROM this net (to net name listed on right)
-                                 POWER1.1        -146.00 4560.00
-                                                                   DC_DC_ENABLE
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 T1.3            -215.50 3595.00
-                                                                   DC_DC_ENABLE
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_PTH08T210W_I137_VADJ pins MOVED FROM this net (to net name listed on right)
-                                 R60.2           624.528 740.000
-                                                 UNNAMED_4_PTH08T210W_I137_VADJ
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_RSMD0603_I144_B pins MOVED FROM this net (to net name listed on right)
-                                 R65.2           3896.00 591.528
-                                                UNNAMED_4_PTH08T210W_I137_SENSP
-                                 R81.2           5184.00 247.528
-                                                UNNAMED_4_PTH08T210W_I137_SENSP
-                                 R82.1           6935.00 2459.52
-                                                                            GND
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_PTH08T210W_I137_SENSP pins ADDED TO this new net
-                                 PWR1.10                        
-                                 R69.1           3646.52 458.000
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_PTH08T210W_I137_TURBO pins ADDED TO this new net
-                                 PWR1.13                        
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_PTH08T210W_I137_VADJ pins ADDED TO this new net
-                                 PWR1.12                        
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UTIL_PWR_EN  pins MOVED FROM this net (to net name listed on right)
-                                 U16.4           4340.60 628.590
-                                                                1V8_POST_RSHUNT
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC2V5_PRE_RSHUNT pins ADDED TO this new net
-                                 IC6.1                          
-                                 IC6.8                          
-                                 PWR1.5                         
-                                 PWR1.9                         
-                                 R62.1           4294.00 721.087
-                                 R83.1           4145.47 270.000
-                                 TP4.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC3V3       pins MOVED FROM this net (to net name listed on right)
-                                 C64.1           4328.00 522.642
-                                                                           P2V5
-                                 R63.2           2725.00 669.528
-                                                                           P2V5
-                                 U16.6           4340.60 577.410
-                                                                1V8_POST_RSHUNT
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 IC6.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC          pins MOVED FROM this net (to net name listed on right)
-                                 IC6.16                         
-                                                                         VCC3V3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VIN3V5_DCDC  pins MOVED FROM this net (to net name listed on right)
-                                 C80.1           2475.00 685.000
-                                                              VCC2V5_PRE_RSHUNT
-                                 C92.1           2778.63 789.000
-                                                              VCC2V5_PRE_RSHUNT
-                                 C95.1           6245.00 875.945
-                                                              VCC2V5_PRE_RSHUNT
-                                 POWER1.5        354.000 4060.00
-                                                              VCC2V5_PRE_RSHUNT
-                                 POWER1.9        979.000 4060.00
-                                                              VCC2V5_PRE_RSHUNT
-                                 R81.1           5184.00 188.472
-                                                              VCC2V5_PRE_RSHUNT
-                                 R97.1           421.000 806.087
-                                                              VCC2V5_PRE_RSHUNT
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP1V8_IV     pins MOVED FROM this net (to net name listed on right)
-                                 C57.1           4463.00 603.358
-                                                                          VP1V8
-                                 R64.1           609.472 638.000
-                                                                            GND
-                                 TP8.1           4438.00 503.000
-                                                                          VP1V8
-                                 U16.1           4415.40 577.410
-                                                                          VP1V8
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP1V8        pins ADDED TO this existing net (pins not previously on any net)
-                                 IC6.5                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP3V3        pins MOVED FROM this net (to net name listed on right)
-                                 C50.1           3662.00 1071.37
-                                                                         VCC3V3
-                                 C51.1           3752.00 1071.37
-                                                                         VCC3V3
-                                 C83.1           4091.00 636.370
-                                                                         VCC3V3
-                                 R62.2           4294.00 606.913
-                                                                           P2V5
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 R70.2           4853.00 423.472
-                                                 UNNAMED_1_PTH08T210W_I137_VADJ
-                                 R87.1           3528.59 487.000
-                                                                           P2V5
-                                 TP6.1           3697.00 726.000
-                                                                           P2V5
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP3V5        pins MOVED FROM this net (to net name listed on right)
-                                 C69.1           3032.64 229.000
-                                                                         VCC3V3
-                                 C71.1           3049.37 294.000
-                                                                         VCC3V3
-                                 C77.1           2015.00 450.000
-                                                                         VCC3V3
-                                 R79.1           5114.00 188.472
-                                                UNNAMED_1_PTH08T210W_I137_TURBO
-                                 R82.2           6935.00 2400.47
-                                                    UNNAMED_1_LTC2991_I162_ADR0
-                                 R85.1           1540.00 437.717
-                                                                         VCC3V3
-                                 R97.2           421.000 691.913
-                                                                         VCC3V3
-                                 R135.2          5650.47 2228.00
-                                                                         VCC3V3
-                                 TP15.1          3387.00 261.000
-                                                                         VCC3V3
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP12         pins MOVED FROM this net (to net name listed on right)
-                                 C16.1                          
-                                                              VCC2V5_PRE_RSHUNT
-                                 C17.1                          
-                                                              VCC2V5_PRE_RSHUNT
-                                 C91.1           2305.35 735.000
-                                                                            GND
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 PWR1.2                         
-                                 PWR1.6                         
-                                 PWR1.14                        
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- LTC2991CMS#PBF-VCC=VCC3V3
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C56                 CAP_NP-GRM21BR60J476ME15K,CAP_B 4528.00 633.000
- C58                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 3701.00 592.000
- C59                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 2988.00 589.000
- C60                 CAP_NP-445-7348-2-ND,CAP_NP-44A 3605.09 525.003
- C61                 CAP_NP-445-7348-2-ND,CAP_NP-44A 2892.09 522.003
- C62                 CAP_NP-445-7348-2-ND,CAP_NP-44A 3946.00 512.000
- C63                 CAP_NP-445-7348-2-ND,CAP_NP-44A 3233.00 509.000
- C65                 CAP_NP-GRM21BR60J476ME15K,CAP_B 4263.00 493.000
- C67                 CAP_NP-C0402C103K3RACTU,CAP_NPA 3193.00 209.000
- C68                 CAP_NP-C0402C103K3RACTU,CAP_NPA 3906.00 212.000
- C70                 CAP_NP-445-7348-2-ND,CAP_NP-44A 3726.00 232.000
- C72                 CAP_NP-GRM21BR60J476ME15K,CAP_B 3723.00 297.000
- C73                 CAP_NP-445-7348-2-ND,CAP_NP-44A 4523.00 363.000
- C74                 CAP_NP-GRM21BR60J476ME15K,CAP_B 3010.00 409.000
- C75                 CAP_NP-GRM21BR60J476ME15K,CAP_B 3723.00 412.000
- C76                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 4603.00 438.000
- C78                 CAP_NP-445-7348-2-ND,CAP_NP-44A 3011.00 474.000
- C79                 CAP_NP-445-7348-2-ND,CAP_NP-44A 3724.00 477.000
- C84                 CAP_NP-GRM21BR60J476ME15K,CAP_B 4011.00 597.000
- C85                 CAP_NP-445-7348-2-ND,CAP_NP-44A 2325.00 685.000
- J13                 HDR1X3-HDR1X3,HDR1X3-HDR1X3,HDA 4235.00 200.000
- Q1                  BSS138-BSS138K,BSS138-BSS138,BA 4770.00 218.000
- R88                 R-ERJ-6BWFR020V,R-ERJ-6BWFR020A 1855.00 495.000
- R89                 R-ERJ-6BWFR020V,R-ERJ-6BWFR020A 1760.00 495.000
- R90                 R-EMA-00007500V42,R-EMA-000075A 3944.00 511.000
- R91                 R-EMA-00007500V42,R-EMA-000075A 3055.09 590.003
- TP10                TESTPOINT-EMA-00001481V22,TESTB 3811.00 487.000
- TP11                TESTPOINT-EMA-00001481V22,TESTB 3098.00 484.000
- TP12                TESTPOINT-EMA-00001481V22,TESTB 4061.00 467.000
- U19                 LTC2945CUD-LTC2945CUD,LTC2945CB 4578.00 383.000
- U20                 TPS7A8500RGRT-TPS7A8500RGRT,TPB 3175.00 354.000
- U21                 TPS7A8500RGRT-TPS7A8500RGRT,TPB 3888.00 357.000
- U22                 LTC2945CUD-LTC2945CUD,LTC2945CB 2918.79 577.603
- U23                 LTC2945CUD-LTC2945CUD,LTC2945CB 3631.79 580.603
- U24                 LTC2945CUD-LTC2945CUD,LTC2945CB 2175.00 675.000
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C44                 CAP_POL-6TPE470MAZU,CAP_POL-6TA 
- PWR1                PTH08T210WAD          
- T2                  TRANS MOSFET_GSD-PJE8408,SOT523 
- TP4                 TESTPOINT-EMA-00001481V22,TESTB 
+ C50                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C54                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C59                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C62                 CAP_NP-445-7348-2-ND,CAP_NP-44A 
+ C65                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C68                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C69                 CAP_NP-445-7348-2-ND,CAP_NP-44A 
+ C71                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C72                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C73                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C74                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C75                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C81                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ C82                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
+ TP7                 TESTPOINT-EMA-00001481V22,TESTB 
+ TP11                TESTPOINT-EMA-00001481V22,TESTB 
+ TP13                TESTPOINT-EMA-00001481V22,TESTB 
+ TP16                TESTPOINT-EMA-00001481V22,TESTB 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C16                 CAP_NP-GRM31CD80J107ME39K,CAP_B                 ELCAP_VER-470UF_LF,63V
- C17                 CAP_POL-6TPE470MAZU,CAP_POL-6TA                 ELCAP_VER-470UF_LF,63V
- D6                  LED RED 0603_0-LNJ237W82RA,LEDB 3546.00 202.000 LED GREEN 0603_0-LNJ326W83RA,LB
- IC6                 LTC2991CMS#PBF-VCC=VCC3V3                 LTC2991CMS#PBF
- R62                 R-PMR18EZPFU5L00,R-PMR18EZPFU5A 4294.00 664.000 R-EMA-00007509V42,R-EMA-000075A
- R63                 R-EMA-00003608,R-EMA-00003608,A 2725.00 640.000 R-EMA-00007509V42,R-EMA-000075A
- R64                 RSMD0603_-00,         639.000 638.000 R-ERJ-6BWFR020V,R-ERJ-6BWFR020A
- R66                 RSMD0603_-00,         3183.00 559.000 R-EMA-00007500V42,R-EMA-000075A
- R69                 RSMD0603_-00,         3617.00 458.000 R-NO_STUFF,R-NO_STUFF,R,RES0402
- R70                 RSMD0603_1/10W-1.6K,1% 4853.00 453.000 R-EMA-00003608,R-EMA-00003608,A
- R79                 RSMD0603_1/10W-XX,1%  5114.00 218.000 R-M55342K11B10E0RS3,R-M55342K1A
- R83                 RSMD0603_1/10W-XX,1%  4175.00 270.000 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A
- R84                 RSMD0603_-00,         1245.00 410.000 R-NO_STUFF,R-NO_STUFF,R,RES0402
- R87                 R-ERJ-6BWFR020V,R-ERJ-6BWFR020A 3566.00 487.000 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A
+ D6                  LED GREEN 0603_0-LNJ326W83RA,LB 3546.00 202.000 LED RED 0603_0-LNJ237W82RA,LEDB
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES deleted from design                                     |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- D7             2833.00 199.000 ROOM           MMC
- R64            639.000 638.000 REUSE_ID       127
- R64            639.000 638.000 ROOM           VCC1V8
- R66            3183.00 559.000 REUSE_ID       122
- R66            3183.00 559.000 ROOM           VP3V3
- R69            3617.00 458.000 REUSE_ID       163
- R69            3617.00 458.000 ROOM           VCC1V8
- R70            4853.00 453.000 ROOM           VP3V3
- R71            4723.00 363.000 ROOM           VCC3V3I_V
- R83            4175.00 270.000 REUSE_ID       15
- R83            4175.00 270.000 ROOM           VCC3V3I_V
- R84            1245.00 410.000 REUSE_ID       123
- R84            1245.00 410.000 ROOM           VP3V3
- TP7            2988.00 709.000 ROOM           VCC3V3I_V
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  11  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | COMPONENT PROPERTIES added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   ref  des   |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C16                            ROOM           MAIN_PWR
- C17                            ROOM           MAIN_PWR
- C44                            ROOM           MAIN_PWR
- D6             3546.00 202.000 ROOM           VCC3V3I_V
- R62            4294.00 664.000 REUSE_ID       156
- R62            4294.00 664.000 ROOM           MAIN_PWR
- R87            3566.00 487.000 REUSE_ID       127
- R87            3566.00 487.000 ROOM           VCC1V8
- TP4                            ROOM           MAIN_PWR
- TP6            3697.00 726.000 ROOM           MAIN_PWR
+ C50                            ROOM           VP3V3
+ C54                            ROOM           VCC1V8
+ C59                            ROOM           VP3V3
+ C62                            REUSE_ID       18
+ C62                            ROOM           VCC3V3I_V
+ C65                            ROOM           VCC3V3I_V
+ C68                            ROOM           VCC3V3I_V
+ C69                            REUSE_ID       18
+ C69                            ROOM           VCC3V3I_V
+ C71                            ROOM           VCC3V3I_V
+ C72                            ROOM           VCC3V3I_V
+ C73                            ROOM           VP3V3
+ C74                            ROOM           VP3V3
+ C75                            ROOM           VP3V3
+ C81                            ROOM           VCC3V3I_V
+ C82                            ROOM           VCC3V3I_V
+ D6             3546.00 202.000 ROOM           POWER
+ R63            2725.00 640.000 ROOM           POWER
+ TP7                            ROOM           POWER
+ TP11                           ROOM           VCC3V3I_V
+ TP13                           ROOM           VCC3V3I_V
+ TP16                           ROOM           POWER
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  12  |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C5.2           4735.00 2590.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C6.2           4735.00 2545.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C7.2           5141.00 2451.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C8.2           640.000 2400.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C12.2          3541.35 2269.30 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C13.2          3691.35 2269.30 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C14.2          3491.35 2244.30 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C15.2          3170.00 2224.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C16.2                          DESCRIPTION    CAP CER 100UF 6.3V X6T 1206
- C16.2                          NO_SWAP_GATE   
- C16.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C16.2                          ROOM           MAIN_PWR
- C16.2                          XY             (3975,-2675)
- C17.2                          DESCRIPTION    CAP TANT POLY 470UF 6.3V 2917
- C17.2                          NO_SWAP_GATE   
- C17.2                          PRIM_FILE      ./ocad_parts_lib/cap_pol/chips/chips.prt
- C17.2                          ROOM           MAIN_PWR
- C17.2                          XY             (4325,-2675)
- C18.2          5164.00 1921.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C19.2          665.000 1920.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C21.2          5360.00 1920.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C22.2          2373.39 1896.10 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C23.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C24.2          4773.00 1875.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C25.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C27.2          4773.00 1830.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C29.2          2373.39 1806.10 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C32.2          5179.00 1736.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C37.2          662.000 1645.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C41.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C42.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C44.2                          DESCRIPTION    CAP TANT POLY 470UF 6.3V 2917
- C44.2                          NO_SWAP_GATE   
- C44.2                          PRIM_FILE      ./ocad_parts_lib/cap_pol/chips/chips.prt
- C44.2                          ROOM           MAIN_PWR
- C44.2                          XY             (5950,-2625)
- C49.2          4972.00 1068.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C50.2          3662.00 1032.00 XY             (2025,-5300)
- C51.2          3752.00 1032.00 XY             (2275,-5300)
- C54.2          4673.00 638.000 XY             (2975,-3825)
- C55.2          4763.00 638.000 XY             (3200,-3825)
- C57.2          4463.00 623.000 XY             (2075,-3750)
- C64.2          4328.00 503.000 XY             (275,-3650)
- C69.2          3013.00 229.000 XY             (875,-5300)
- C71.2          3010.00 294.000 XY             (1175,-5300)
+ C42.2                          XY             (1125,-2100)
+ C47.2                          XY             (1150,-2725)
+ C48.2                          XY             (3700,-2700)
+ C50.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C50.2                          NO_SWAP_GATE   
+ C50.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C50.2                          ROOM           VP3V3
+ C50.2                          XY             (2850,-4925)
+ C54.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C54.2                          NO_SWAP_GATE   
+ C54.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C54.2                          ROOM           VCC1V8
+ C54.2                          XY             (2325,-3750)
+ C55.2          4763.00 638.000 XY             (2875,-3750)
+ C59.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C59.2                          NO_SWAP_GATE   
+ C59.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C59.2                          ROOM           VP3V3
+ C59.2                          XY             (2450,-4925)
+ C60.2          4673.00 638.000 XY             (2650,-3750)
+ C62.2                          DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
+ C62.2                          NO_SWAP_GATE   
+ C62.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C62.2                          ROOM           VCC3V3I_V
+ C62.2                          XY             (1300,-4925)
+ C65.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C65.2                          NO_SWAP_GATE   
+ C65.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C65.2                          ROOM           VCC3V3I_V
+ C65.2                          XY             (1600,-4925)
+ C68.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C68.2                          NO_SWAP_GATE   
+ C68.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C68.2                          ROOM           VCC3V3I_V
+ C68.2                          XY             (1875,-4925)
+ C69.2                          DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
+ C69.2                          NO_SWAP_GATE   
+ C69.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C69.2                          ROOM           VCC3V3I_V
+ C69.2                          XY             (1700,-4925)
+ C71.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C71.2                          NO_SWAP_GATE   
+ C71.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C71.2                          ROOM           VCC3V3I_V
+ C71.2                          XY             (2000,-4925)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  13  |
+|                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C81.2          3378.00 594.000 XY             (1450,-5300)
- C82.2          3298.00 594.000 XY             (1750,-5300)
- C83.2          4091.00 597.000 XY             (2575,-5300)
- C91.2          2325.00 735.000 XY             (4850,-3750)
- C97.2          4660.00 995.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C98.2          4660.00 1040.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C99.2          4972.00 1068.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C100.2         5125.00 1070.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C101.2         4620.00 1120.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C102.2         4620.00 1165.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C105.2         4773.00 1332.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C106.2         6545.00 1389.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C113.2         370.000 1545.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C114.2         6005.00 1549.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C116.2         6245.00 1604.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C118.2         3061.25 1626.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C119.2         5199.00 1681.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C120.2         370.000 1695.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C122.2         3274.25 1819.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C123.2         4773.00 1830.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C124.2         3419.00 1839.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C125.2         3374.00 1839.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C126.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C127.2         3474.25 1839.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C128.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C129.2         5069.00 1891.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C130.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C131.2         4939.00 1891.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C132.2         4894.00 1891.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C133.2         5359.00 1906.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C134.2         445.000 1925.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C135.2         400.000 1925.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C136.2         3269.25 1929.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C137.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C138.2         345.000 2025.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C139.2         6545.00 2058.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C142.2         6245.00 2068.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C146.2         681.000 2126.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C148.2         3430.00 2128.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C149.2         3385.00 2129.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C150.2         3519.25 2129.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C151.2         3474.25 2129.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C152.2         3339.25 2129.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C153.2         3128.00 2152.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C154.2         345.000 2175.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  14  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C157.2         4886.00 2251.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C158.2         4841.00 2251.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C159.2         3169.00 2270.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C160.2         6245.00 2273.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C162.2         5161.00 2396.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C163.2         3616.00 2405.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C165.2         375.000 2405.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C166.2         5161.00 2441.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C167.2         4735.00 2545.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C168.2         5031.00 2606.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C169.2         4986.00 2606.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C170.2         4901.00 2606.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C171.2         3519.25 1839.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C172.2         3274.25 1864.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C173.2         5024.00 1891.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C174.2         3269.25 1974.26 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C175.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C176.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C177.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C178.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C179.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C180.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C181.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C182.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C183.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C184.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C185.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C186.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C187.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C188.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C189.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C190.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C191.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C192.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C193.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C194.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C195.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C196.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C197.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C198.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- C199.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
- D4.1           6961.00 2586.00 XY             (750,-5100)
- D5.1           4853.00 338.000 XY             (5100,-2900)
- D6.1           3546.00 202.000 DESCRIPTION    LED RED 0603 SMD
+ C72.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C72.2                          NO_SWAP_GATE   
+ C72.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C72.2                          ROOM           VCC3V3I_V
+ C72.2                          XY             (2175,-4925)
+ C73.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C73.2                          NO_SWAP_GATE   
+ C73.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C73.2                          ROOM           VP3V3
+ C73.2                          XY             (2825,-5300)
+ C74.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C74.2                          NO_SWAP_GATE   
+ C74.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C74.2                          ROOM           VP3V3
+ C74.2                          XY             (3075,-5300)
+ C75.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C75.2                          NO_SWAP_GATE   
+ C75.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C75.2                          ROOM           VP3V3
+ C75.2                          XY             (3325,-5300)
+ C81.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C81.2                          NO_SWAP_GATE   
+ C81.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C81.2                          ROOM           VCC3V3I_V
+ C81.2                          XY             (2275,-4925)
+ C82.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
+ C82.2                          NO_SWAP_GATE   
+ C82.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C82.2                          ROOM           VCC3V3I_V
+ C82.2                          XY             (2575,-4925)
+ D6.1           3546.00 202.000 DESCRIPTION    LED GREEN 0603 SMD
  D6.1           3546.00 202.000 NO_SWAP_GATE   
+ D6.1           3546.00 202.000 PRIM_FILE      ./ocad_parts_lib/led#20green#200603_0/chips/chips.prt
+ D6.1           3546.00 202.000 ROOM           POWER
+ D6.1           3546.00 202.000 XY             (2800,-5100)
+ R63.2          2725.00 640.000 ROOM           POWER
+ R63.2          2725.00 640.000 XY             (2850,-4825)
+ TP7.1                          NO_SWAP_GATE   
+ TP7.1                          PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
+ TP7.1                          ROOM           POWER
+ TP7.1                          XY             (3550,-4600)
+ TP11.1                         DESCRIPTION    MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm
+ TP11.1                         NO_SWAP_GATE   
+ TP11.1                         PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
+ TP11.1                         ROOM           VCC3V3I_V
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  15  |
+|                                                                    Page   7  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- D6.1           3546.00 202.000 PRIM_FILE      ./atcs/led#20red#200603_0/chips/chips.prt
- D6.1           3546.00 202.000 ROOM           VCC3V3I_V
- D6.1           3546.00 202.000 XY             (750,-5100)
- D7.1           2833.00 199.000 XY             (3800,-5475)
- IC1.2          3121.00 4256.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sy58608u/chips/chips.prt
- IC2.2          3502.00 4293.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sy58608u/chips/chips.prt
- IC3.12         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.14         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.18         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.20         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.22         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.24         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.28         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC3.30         4079.00 4231.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.12         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.14         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.18         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.20         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.22         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.24         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.28         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC4.30         4595.00 4158.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/adclk948/chips/chips.prt
- IC5.4          -355.00 2742.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/optocoupler_ac_ec/chips/chips.prt
- IC5.4          -355.00 2742.00 XY             (1675,-2575)
- IC6.8                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/ltc2991/chips/chips.prt
- IC6.8                          XY             (4825,-2875)
- J14.1          4276.00 3642.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
- J15.1          3969.00 3347.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
- J16.4          1209.00 3579.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/chips.prt
- L9.2                           PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
- L12.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
- L14.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
- POWER1.9       479.000 4310.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/pth08t210w/chips/chips.prt
- PWR1.9                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/pth08t210w/chips/chips.prt
- PWR1.9                         XY             (2800,-2575)
- QZ1.4          4485.00 3163.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/osc_6p_endis_outp_outn/chips/chips.prt
- R11.2          5161.00 2361.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R24.2          2318.39 1831.10 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R33.2                          XY             (1925,-2150)
- R37.2          4992.00 1475.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R38.2          5026.00 1475.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R40.2          765.000 1340.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R42.2          805.000 1285.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R43.2          4985.00 1220.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R46.2          5005.00 995.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ TP11.1                         XY             (3150,-5300)
+ TP13.1                         DESCRIPTION    MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm
+ TP13.1                         NO_SWAP_GATE   
+ TP13.1                         PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
+ TP13.1                         ROOM           VCC3V3I_V
+ TP13.1                         XY             (3550,-5425)
+ TP14.1         4273.00 343.000 XY             (3750,-3975)
+ TP16.1                         NO_SWAP_GATE   
+ TP16.1                         PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
+ TP16.1                         ROOM           POWER
+ TP16.1                         XY             (3150,-4625)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  16  |
+|                                                                    Page   8  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R49.2          5015.00 915.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R59.2          745.000 750.000 XY             (1600,-3225)
- R60.2          595.000 740.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R60.2          595.000 740.000 XY             (2950,-2925)
- R62.2          4294.00 664.000 DESCRIPTION    RES 0.005 OHM 1% 1W 1206
- R62.2          4294.00 664.000 NO_SWAP_GATE   
- R62.2          4294.00 664.000 PRIM_FILE      ./discrete/r/chips/chips.prt
- R62.2          4294.00 664.000 ROOM           MAIN_PWR
- R62.2          4294.00 664.000 XY             (5350,-2525)
- R63.2          2725.00 640.000 DESCRIPTION    RES, Thick Film, 249 Ohm, 1.0 %, 1/10 W, SMD, 0603
- R63.2          2725.00 640.000 NO_SWAP_GATE   
- R63.2          2725.00 640.000 PRIM_FILE      ./discrete/r/chips/chips.prt
- R63.2          2725.00 640.000 ROOM           VCC3V3I_V
- R63.2          2725.00 640.000 XY             (800,-4800)
- R64.2          639.000 638.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R64.2          639.000 638.000 SIZE           1
- R64.2          639.000 638.000 XY             (4300,-2975)
- R65.2          3896.00 562.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R65.2          3896.00 562.000 XY             (3200,-2225)
- R66.2          3183.00 559.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R66.2          3183.00 559.000 SIZE           1
- R66.2          3183.00 559.000 XY             (4300,-3025)
- R67.2          4588.00 508.000 XY             (5150,-2575)
- R68.2          2735.00 480.000 XY             (4100,-3300)
- R69.2          3617.00 458.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R69.2          3617.00 458.000 SIZE           1
- R69.2          3617.00 458.000 XY             (3725,-2225)
- R70.2          4853.00 453.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R70.2          4853.00 453.000 SIZE           1
- R70.2          4853.00 453.000 XY             (2925,-2300)
- R71.2          4723.00 363.000 XY             (3850,-5200)
- R72.2          4478.00 343.000 XY             (4725,-3450)
- R79.2          5114.00 218.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R79.2          5114.00 218.000 SIZE           1
- R79.2          5114.00 218.000 XY             (3175,-1600)
- R81.2          5184.00 218.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R81.2          5184.00 218.000 XY             (3600,-2375)
- R82.2          6935.00 2430.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R82.2          6935.00 2430.00 XY             (4300,-2925)
- R83.2          4175.00 270.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R83.2          4175.00 270.000 SIZE           1
- R83.2          4175.00 270.000 XY             (3575,-1750)
- R84.2          1245.00 410.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
- R84.2          1245.00 410.000 SIZE           1
- R84.2          1245.00 410.000 XY             (3700,-1600)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  17  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R85.2          1540.00 420.000 XY             (1200,-4750)
- R86.2          3230.00 479.000 XY             (1200,-5225)
- R87.2          3566.00 487.000 DESCRIPTION    RES 0.02 OHM 1% 1/2W 0805
- R87.2          3566.00 487.000 PRIM_FILE      ./discrete/r/chips/chips.prt
- R87.2          3566.00 487.000 ROOM           VCC1V8
- R87.2          3566.00 487.000 XY             (725,-3575)
- R100.2         2165.00 810.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R101.2         5680.00 890.000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R118.2         5680.00 1474.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R135.2         5680.00 2228.00 XY             (800,-4800)
- R139.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R140.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R141.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R142.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R143.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R144.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R145.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R146.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R147.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R148.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R149.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R150.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R151.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R152.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R153.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R154.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R155.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R156.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R157.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R158.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R159.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R160.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R161.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R162.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R163.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R164.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R165.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R166.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R167.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R168.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R169.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R170.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R171.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R172.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R173.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  18  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R174.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R175.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R176.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R177.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R178.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R179.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R180.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R181.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R182.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R183.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R184.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R185.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R186.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R187.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R188.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R189.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- R190.2                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
- T1.2           -247.00 3595.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/trans#20mosfet/chips/chips.prt
- T2.2                           PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/trans#20mosfet/chips/chips.prt
- T2.2                           XY             (5100,-3250)
- TE1.7          5271.00 4164.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con7p/chips/chips.prt
- TIMING1.2      2507.00 4244.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sy58608u/chips/chips.prt
- TP1.1          5209.00 3722.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
- TP2.1          -394.00 3291.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
- TP3.1          -355.00 3124.00 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
- TP4.1                          DESCRIPTION    MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm
- TP4.1                          NO_SWAP_GATE   
- TP4.1                          PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
- TP4.1                          ROOM           MAIN_PWR
- TP4.1                          XY             (4925,-2750)
- TP5.1          3019.00 970.000 XY             (4900,-2125)
- TP6.1          3697.00 726.000 ROOM           MAIN_PWR
- TP6.1          3697.00 726.000 XY             (6275,-2525)
- TP7.1          2988.00 709.000 XY             (4150,-5000)
- TP8.1          4438.00 503.000 XY             (2325,-3450)
- TP9.1          4743.00 493.000 XY             (3750,-3575)
- TP13.1         3348.00 464.000 XY             (4150,-5675)
- TP14.1         4273.00 343.000 XY             (3750,-4200)
- U2.5           4495.00 2520.00 PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt
- U3.5           4971.00 2411.00 PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt
- U8.5           4533.00 1805.00 PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt
- U16.5          4378.00 603.000 XY             (1600,-3625)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  19  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C16.1                          CDS_PINID      \1\
- C16.2                          CDS_PINID      \2\
- C17.1                          CDS_PINID      \1\
- C17.2                          CDS_PINID      \2\
- C44.1                          CDS_PINID      \1\
- C44.2                          CDS_PINID      \2\
- PWR1.1                         CDS_PINID      UVLO
- PWR1.2                         CDS_PINID      VI(0)
- PWR1.3                         CDS_PINID      GND(0)
- PWR1.4                         CDS_PINID      GND(1)
- PWR1.5                         CDS_PINID      VO(0)
- PWR1.6                         CDS_PINID      VI(1)
- PWR1.7                         CDS_PINID      GND(2)
- PWR1.8                         CDS_PINID      GND(3)
- PWR1.9                         CDS_PINID      VO(1)
- PWR1.10                        CDS_PINID      SENSP
- PWR1.11                        CDS_PINID      SENSM
- PWR1.12                        CDS_PINID      VADJ
- PWR1.13                        CDS_PINID      TURBOTRANS
- PWR1.14                        CDS_PINID      TRACK
- R62.1          4294.00 721.087 CDS_PINID      \1\
- R62.2          4294.00 606.913 CDS_PINID      \2\
- R64.1          609.472 638.000 CDS_PINID      A(0)
- R64.2          668.528 638.000 CDS_PINID      B(0)
- R66.1          3183.00 529.472 CDS_PINID      A(0)
- R66.2          3183.00 588.528 CDS_PINID      B(0)
- R69.1          3646.52 458.000 CDS_PINID      A(0)
- R69.2          3587.47 458.000 CDS_PINID      B(0)
- R70.1          4853.00 482.528 CDS_PINID      A(0)
- R70.2          4853.00 423.472 CDS_PINID      B(0)
- R79.1          5114.00 188.472 CDS_PINID      A(0)
- R79.2          5114.00 247.528 CDS_PINID      B(0)
- R83.1          4145.47 270.000 CDS_PINID      A(0)
- R83.2          4204.52 270.000 CDS_PINID      B(0)
- R84.1          1215.47 410.000 CDS_PINID      A(0)
- R84.2          1274.52 410.000 CDS_PINID      B(0)
- R87.1          3528.59 487.000 CDS_PINID      \1\
- R87.2          3603.40 487.000 CDS_PINID      \2\
- T2.1                           CDS_PINID      G
- T2.2                           CDS_PINID      S
- T2.3                           CDS_PINID      D
- TP4.1                          CDS_PINID      TP
+ C50.1                          CDS_PINID      \1\
+ C50.2                          CDS_PINID      \2\
+ C54.1                          CDS_PINID      \1\
+ C54.2                          CDS_PINID      \2\
+ C59.1                          CDS_PINID      \1\
+ C59.2                          CDS_PINID      \2\
+ C62.1                          CDS_PINID      \1\
+ C62.2                          CDS_PINID      \2\
+ C65.1                          CDS_PINID      \1\
+ C65.2                          CDS_PINID      \2\
+ C68.1                          CDS_PINID      \1\
+ C68.2                          CDS_PINID      \2\
+ C69.1                          CDS_PINID      \1\
+ C69.2                          CDS_PINID      \2\
+ C71.1                          CDS_PINID      \1\
+ C71.2                          CDS_PINID      \2\
+ C72.1                          CDS_PINID      \1\
+ C72.2                          CDS_PINID      \2\
+ C73.1                          CDS_PINID      \1\
+ C73.2                          CDS_PINID      \2\
+ C74.1                          CDS_PINID      \1\
+ C74.2                          CDS_PINID      \2\
+ C75.1                          CDS_PINID      \1\
+ C75.2                          CDS_PINID      \2\
+ C81.1                          CDS_PINID      \1\
+ C81.2                          CDS_PINID      \2\
+ C82.1                          CDS_PINID      \1\
+ C82.2                          CDS_PINID      \2\
+ TP7.1                          CDS_PINID      TP
+ TP11.1                         CDS_PINID      TP
+ TP13.1                         CDS_PINID      TP
+ TP16.1                         CDS_PINID      TP
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  20  |
+|                                                                    Page   9  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd  |
-|                                                    Wed Mar  1 15:35:50 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
+|                                                    Mon Mar  6 17:12:06 2023  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      91                                        |
-|       Comp definitions added:       1                                        |
-|       Components added      :       4                                        |
-|       Components deleted    :      35                                        |
-|       Components changed    :      14                                        |
-|       Comp property added   :      10                                        |
-|       Comp property deleted :      14                                        |
-|       Pin property added    :      42                                        |
-|       Slot property added   :     312                                        |
+|       Nets changed          :      24                                        |
+|       Components added      :      18                                        |
+|       Components changed    :       1                                        |
+|       Comp property added   :      22                                        |
+|       Pin property added    :      32                                        |
+|       Slot property added   :     101                                        |
 |                                                                              |
-|   Total ECO changes reported:     523                                        |
+|   Total ECO changes reported:     198                                        |
 |------------------------------------------------------------------------------|

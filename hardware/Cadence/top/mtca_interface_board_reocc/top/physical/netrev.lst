@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v14.brd                              )
-(    Software Version : 17.4S031                                      )
-(    Date/Time        : Wed Mar  1 15:35:50 2023                      )
+(    Drawing          : mib_rev2_v18.brd                              )
+(    Software Version : 17.4S033                                      )
+(    Date/Time        : Mon Mar  6 17:12:06 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,17 +19,17 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v14.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v15.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v19.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v14.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v15.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v18.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v19.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.44)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.27)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.02)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
 
@@ -45,33 +45,21 @@ Set the correct library path if not set or use dbdoctor to migrate old
 
 #2   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
-WARNING(SPMHNI-295): Component 'TP6', property 'ROOM'. Value 'VP3V3' was overwritten by 'MAIN_PWR'.
+WARNING(SPMHNI-295): Component 'R63', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'POWER'.
 
 #3   WARNING(SPMHNI-297): Component instance property overwrite detected.
 
-WARNING(SPMHNI-295): Component 'R62', property 'ROOM'. Value 'VP3V3' was overwritten by 'MAIN_PWR'.
-
-#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R87', property 'REUSE_ID'. Value '138' was overwritten by '127'.
-
-#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R87', property 'ROOM'. Value 'VP3V3' was overwritten by 'VCC1V8'.
-
-#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'D6', property 'ROOM'. Value 'MMC' was overwritten by 'VCC3V3I_V'.
+WARNING(SPMHNI-295): Component 'D6', property 'ROOM'. Value 'VCC3V3I_V' was overwritten by 'POWER'.
 
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Wed Mar  1 15:35:53 2023
+	Start time: Mon Mar  6 17:12:07 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Wed Mar  1 15:35:53 2023
+Finished Constraint Update	Time: Mon Mar  6 17:12:07 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -121,9 +109,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 1 15:35:50 2023
+netrev run on Mar 6 17:12:06 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 01-Mar-2023 AT 15:35:39
+   PACKAGING ON 06-Mar-2023 AT 17:11:58
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -154,8 +142,8 @@ netrev run on Mar 1 15:35:50 2023
 
  No error detected
  No oversight detected
-  6 warnings detected
+  3 warnings detected
 
-cpu time      0:10:36
-elapsed time  0:00:05
+cpu time      0:04:57
+elapsed time  0:00:02
 
