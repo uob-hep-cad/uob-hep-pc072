@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-06T15:45:45</modificationTime>
+    <modificationTime>2023-03-07T16:30:15</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -2005,6 +2005,7 @@
         <net>
           <id>N78</id>
           <name>bp.fpga_gbe_rxn</name>
+          <base>1</base>
         </net>
         <net>
           <id>N79</id>
@@ -2013,6 +2014,7 @@
         <net>
           <id>N80</id>
           <name>bp.fpga_gbe_rxp</name>
+          <base>1</base>
         </net>
         <net>
           <id>N81</id>
@@ -2021,6 +2023,7 @@
         <net>
           <id>N82</id>
           <name>bp.fpga_gbe_txn</name>
+          <base>1</base>
         </net>
         <net>
           <id>N83</id>
@@ -2029,6 +2032,7 @@
         <net>
           <id>N84</id>
           <name>bp.fpga_gbe_txp</name>
+          <base>1</base>
         </net>
         <net>
           <id>N85</id>
@@ -5678,6 +5682,26 @@
             <pageScope number="1">
               <scope>interface</scope>
               <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="bp.fpga_gbe_rxn">
+            <pageScope number="1">
+              <base>true</base>
+            </pageScope>
+          </netScope>
+          <netScope ref="bp.fpga_gbe_rxp">
+            <pageScope number="1">
+              <base>true</base>
+            </pageScope>
+          </netScope>
+          <netScope ref="bp.fpga_gbe_txn">
+            <pageScope number="1">
+              <base>true</base>
+            </pageScope>
+          </netScope>
+          <netScope ref="bp.fpga_gbe_txp">
+            <pageScope number="1">
+              <base>true</base>
             </pageScope>
           </netScope>
           <netScope ref="clkgen_io">

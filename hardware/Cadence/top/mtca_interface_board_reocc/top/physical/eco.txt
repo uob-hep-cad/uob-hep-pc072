@@ -2,323 +2,117 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
+|  Z:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v26.brd  |
+|                                                    Tue Mar  7 17:49:46 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C59.2                          
-                                 C62.2                          
-                                 C65.2                          
-                                 C68.2                          
-                                 C72.2                          
-                                 C73.2                          
-                                 C74.2                          
-                                 C75.2                          
-                                 TP11.1                         
+  CLKGEN_IO<0> net RENAMED (to net name listed on right)           CLK_N<0>     
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N004340      net RENAMED (to net name listed on right)           UNNAMED_2_LEDGREEN06030_188P_A 
+  CLKGEN_IO<1> net RENAMED (to net name listed on right)           CLK_N<1>     
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  P2V5         pins MOVED FROM this net (to net name listed on right)
-                                 IC6.7                          
-                                                              VCC2V5_PRE_RSHUNT
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 C59.1                          
-                                 C62.1                          
-                                 C65.1                          
-                                 C68.1                          
-                                 C72.1                          
-                                 TP16.1                         
+  CLKGEN_IO<2> net RENAMED (to net name listed on right)           CLK_P<0>     
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_LEDRED06030_121P_A net RENAMED (to net name listed on right)           UNNAMED_4_LEDGREEN06030_I176_A 
+  CLKGEN_IO<3> net RENAMED (to net name listed on right)           CLK_P<1>     
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC2V5_PRE_RSHUNT pins MOVED FROM this net (to net name listed on right)
-                                 C47.1                          
-                                                                           VP12
-                                 IC6.8                          
-                                                                           P2V5
+  CLKGEN_IO<4> net RENAMED (to net name listed on right)           CLK_RST      
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC3V3       pins ADDED TO this existing net (pins not previously on any net)
-                                 C73.1                          
-                                 C74.1                          
-                                 C75.1                          
+  CLKGEN_IO<5> net RENAMED (to net name listed on right)           CLK_LOL      
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP12         pins MOVED FROM this net (to net name listed on right)
-                                 C48.1                          
-                                                              VCC2V5_PRE_RSHUNT
+  CLKGEN_IO<6> net RENAMED (to net name listed on right)           CLK_INTR     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKGEN_IO<7> net RENAMED (to net name listed on right)           CLK_SEL1     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKGEN_IO<8> net RENAMED (to net name listed on right)           CLK_SEL0     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKGEN_IO<9> net RENAMED (to net name listed on right)           CLK_SDA      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLKGEN_IO<10> net RENAMED (to net name listed on right)           CLK_SCL      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<0>       net RENAMED (to net name listed on right)           SFP_SCL<0>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<1>       net RENAMED (to net name listed on right)           SFP_SCL<1>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<2>       net RENAMED (to net name listed on right)           SFP_SCL<2>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<3>       net RENAMED (to net name listed on right)           SFP_SDA<0>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<4>       net RENAMED (to net name listed on right)           SFP_SDA<1>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<5>       net RENAMED (to net name listed on right)           SFP_SDA<2>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<6>       net RENAMED (to net name listed on right)           SFP_TD_N<0>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<7>       net RENAMED (to net name listed on right)           SFP_TD_N<1>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<8>       net RENAMED (to net name listed on right)           SFP_TD_N<2>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<9>       net RENAMED (to net name listed on right)           SFP_TD_P<0>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<10>      net RENAMED (to net name listed on right)           SFP_TD_P<1>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<11>      net RENAMED (to net name listed on right)           SFP_TD_P<2>  
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
+|  Z:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v26.brd  |
+|                                                    Tue Mar  7 17:49:46 2023  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C50                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C54                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C59                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C62                 CAP_NP-445-7348-2-ND,CAP_NP-44A 
- C65                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C68                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C69                 CAP_NP-445-7348-2-ND,CAP_NP-44A 
- C71                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C72                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C73                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C74                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C75                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C81                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- C82                 CAP_NP-GRM21BR60J476ME15K,CAP_B 
- TP7                 TESTPOINT-EMA-00001481V22,TESTB 
- TP11                TESTPOINT-EMA-00001481V22,TESTB 
- TP13                TESTPOINT-EMA-00001481V22,TESTB 
- TP16                TESTPOINT-EMA-00001481V22,TESTB 
+  SFP<12>      net RENAMED (to net name listed on right)           SFP_RD_N<0>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<13>      net RENAMED (to net name listed on right)           SFP_RD_N<1>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<14>      net RENAMED (to net name listed on right)           SFP_RD_N<2>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<15>      net RENAMED (to net name listed on right)           SFP_RD_P<0>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<16>      net RENAMED (to net name listed on right)           SFP_RD_P<1>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<17>      net RENAMED (to net name listed on right)           SFP_RD_P<2>  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<18>      net RENAMED (to net name listed on right)           SFP_LOS<0>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<19>      net RENAMED (to net name listed on right)           SFP_LOS<1>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<20>      net RENAMED (to net name listed on right)           SFP_LOS<2>   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<21>      net RENAMED (to net name listed on right)           SFP_TX_FAULT<0> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<22>      net RENAMED (to net name listed on right)           SFP_TX_FAULT<1> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<23>      net RENAMED (to net name listed on right)           SFP_TX_FAULT<2> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<24>      net RENAMED (to net name listed on right)           SFP_TX_DISABLE<0> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<25>      net RENAMED (to net name listed on right)           SFP_TX_DISABLE<1> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<26>      net RENAMED (to net name listed on right)           SFP_TX_DISABLE<2> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<27>      net RENAMED (to net name listed on right)           SFP_RATE_SELECT<0> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<28>      net RENAMED (to net name listed on right)           SFP_RATE_SELECT<1> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP<29>      net RENAMED (to net name listed on right)           SFP_RATE_SELECT<2> 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
+|  Z:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v26.brd  |
+|                                                    Tue Mar  7 17:49:46 2023  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- D6                  LED GREEN 0603_0-LNJ326W83RA,LB 3546.00 202.000 LED RED 0603_0-LNJ237W82RA,LEDB
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C50                            ROOM           VP3V3
- C54                            ROOM           VCC1V8
- C59                            ROOM           VP3V3
- C62                            REUSE_ID       18
- C62                            ROOM           VCC3V3I_V
- C65                            ROOM           VCC3V3I_V
- C68                            ROOM           VCC3V3I_V
- C69                            REUSE_ID       18
- C69                            ROOM           VCC3V3I_V
- C71                            ROOM           VCC3V3I_V
- C72                            ROOM           VCC3V3I_V
- C73                            ROOM           VP3V3
- C74                            ROOM           VP3V3
- C75                            ROOM           VP3V3
- C81                            ROOM           VCC3V3I_V
- C82                            ROOM           VCC3V3I_V
- D6             3546.00 202.000 ROOM           POWER
- R63            2725.00 640.000 ROOM           POWER
- TP7                            ROOM           POWER
- TP11                           ROOM           VCC3V3I_V
- TP13                           ROOM           VCC3V3I_V
- TP16                           ROOM           POWER
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C42.2                          XY             (1125,-2100)
- C47.2                          XY             (1150,-2725)
- C48.2                          XY             (3700,-2700)
- C50.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C50.2                          NO_SWAP_GATE   
- C50.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C50.2                          ROOM           VP3V3
- C50.2                          XY             (2850,-4925)
- C54.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C54.2                          NO_SWAP_GATE   
- C54.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C54.2                          ROOM           VCC1V8
- C54.2                          XY             (2325,-3750)
- C55.2          4763.00 638.000 XY             (2875,-3750)
- C59.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C59.2                          NO_SWAP_GATE   
- C59.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C59.2                          ROOM           VP3V3
- C59.2                          XY             (2450,-4925)
- C60.2          4673.00 638.000 XY             (2650,-3750)
- C62.2                          DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C62.2                          NO_SWAP_GATE   
- C62.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C62.2                          ROOM           VCC3V3I_V
- C62.2                          XY             (1300,-4925)
- C65.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C65.2                          NO_SWAP_GATE   
- C65.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C65.2                          ROOM           VCC3V3I_V
- C65.2                          XY             (1600,-4925)
- C68.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C68.2                          NO_SWAP_GATE   
- C68.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C68.2                          ROOM           VCC3V3I_V
- C68.2                          XY             (1875,-4925)
- C69.2                          DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
- C69.2                          NO_SWAP_GATE   
- C69.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C69.2                          ROOM           VCC3V3I_V
- C69.2                          XY             (1700,-4925)
- C71.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C71.2                          NO_SWAP_GATE   
- C71.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C71.2                          ROOM           VCC3V3I_V
- C71.2                          XY             (2000,-4925)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C72.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C72.2                          NO_SWAP_GATE   
- C72.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C72.2                          ROOM           VCC3V3I_V
- C72.2                          XY             (2175,-4925)
- C73.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C73.2                          NO_SWAP_GATE   
- C73.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C73.2                          ROOM           VP3V3
- C73.2                          XY             (2825,-5300)
- C74.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C74.2                          NO_SWAP_GATE   
- C74.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C74.2                          ROOM           VP3V3
- C74.2                          XY             (3075,-5300)
- C75.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C75.2                          NO_SWAP_GATE   
- C75.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C75.2                          ROOM           VP3V3
- C75.2                          XY             (3325,-5300)
- C81.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C81.2                          NO_SWAP_GATE   
- C81.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C81.2                          ROOM           VCC3V3I_V
- C81.2                          XY             (2275,-4925)
- C82.2                          DESCRIPTION    CAP CER 47UF 6.3V X5R 0805
- C82.2                          NO_SWAP_GATE   
- C82.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C82.2                          ROOM           VCC3V3I_V
- C82.2                          XY             (2575,-4925)
- D6.1           3546.00 202.000 DESCRIPTION    LED GREEN 0603 SMD
- D6.1           3546.00 202.000 NO_SWAP_GATE   
- D6.1           3546.00 202.000 PRIM_FILE      ./ocad_parts_lib/led#20green#200603_0/chips/chips.prt
- D6.1           3546.00 202.000 ROOM           POWER
- D6.1           3546.00 202.000 XY             (2800,-5100)
- R63.2          2725.00 640.000 ROOM           POWER
- R63.2          2725.00 640.000 XY             (2850,-4825)
- TP7.1                          NO_SWAP_GATE   
- TP7.1                          PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
- TP7.1                          ROOM           POWER
- TP7.1                          XY             (3550,-4600)
- TP11.1                         DESCRIPTION    MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm
- TP11.1                         NO_SWAP_GATE   
- TP11.1                         PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
- TP11.1                         ROOM           VCC3V3I_V
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- TP11.1                         XY             (3150,-5300)
- TP13.1                         DESCRIPTION    MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm
- TP13.1                         NO_SWAP_GATE   
- TP13.1                         PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
- TP13.1                         ROOM           VCC3V3I_V
- TP13.1                         XY             (3550,-5425)
- TP14.1         4273.00 343.000 XY             (3750,-3975)
- TP16.1                         NO_SWAP_GATE   
- TP16.1                         PRIM_FILE      ./testpoint/testpoint/chips/chips.prt
- TP16.1                         ROOM           POWER
- TP16.1                         XY             (3150,-4625)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C50.1                          CDS_PINID      \1\
- C50.2                          CDS_PINID      \2\
- C54.1                          CDS_PINID      \1\
- C54.2                          CDS_PINID      \2\
- C59.1                          CDS_PINID      \1\
- C59.2                          CDS_PINID      \2\
- C62.1                          CDS_PINID      \1\
- C62.2                          CDS_PINID      \2\
- C65.1                          CDS_PINID      \1\
- C65.2                          CDS_PINID      \2\
- C68.1                          CDS_PINID      \1\
- C68.2                          CDS_PINID      \2\
- C69.1                          CDS_PINID      \1\
- C69.2                          CDS_PINID      \2\
- C71.1                          CDS_PINID      \1\
- C71.2                          CDS_PINID      \2\
- C72.1                          CDS_PINID      \1\
- C72.2                          CDS_PINID      \2\
- C73.1                          CDS_PINID      \1\
- C73.2                          CDS_PINID      \2\
- C74.1                          CDS_PINID      \1\
- C74.2                          CDS_PINID      \2\
- C75.1                          CDS_PINID      \1\
- C75.2                          CDS_PINID      \2\
- C81.1                          CDS_PINID      \1\
- C81.2                          CDS_PINID      \2\
- C82.1                          CDS_PINID      \1\
- C82.2                          CDS_PINID      \2\
- TP7.1                          CDS_PINID      TP
- TP11.1                         CDS_PINID      TP
- TP13.1                         CDS_PINID      TP
- TP16.1                         CDS_PINID      TP
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v18.brd  |
-|                                                    Mon Mar  6 17:12:06 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      24                                        |
-|       Components added      :      18                                        |
-|       Components changed    :       1                                        |
-|       Comp property added   :      22                                        |
-|       Pin property added    :      32                                        |
-|       Slot property added   :     101                                        |
+|       Nets changed          :      41                                        |
 |                                                                              |
-|   Total ECO changes reported:     198                                        |
+|   Total ECO changes reported:      41                                        |
 |------------------------------------------------------------------------------|

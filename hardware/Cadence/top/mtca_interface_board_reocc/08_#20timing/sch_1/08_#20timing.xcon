@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-06T16:13:07</modificationTime>
+    <modificationTime>2023-03-07T18:04:57</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -1285,10 +1285,6 @@
         <net>
           <id>N364</id>
           <name>unnamed_1_sy58608u_i571_vref</name>
-        </net>
-        <net>
-          <id>N368</id>
-          <name>unnamed_2_capcersmdcl2_i362_a</name>
         </net>
         <net>
           <id>N369</id>
@@ -5340,7 +5336,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N368" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -5390,7 +5386,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N368" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -5415,7 +5411,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N368" />
+                <connection pinmsb="0" pinlsb="0" net="N21" />
               </connections>
             </pin>
             <pin>
@@ -8080,7 +8076,6 @@
               <net ref="sfp0_clkgen_p"></net>
               <net ref="sfp1_clkgen_n"></net>
               <net ref="sfp1_clkgen_p"></net>
-              <net ref="unnamed_2_capcersmdcl2_i362_a"></net>
               <net ref="unnamed_2_capcersmdcl2_i366_b"></net>
               <net ref="unnamed_2_capcersmdcl2_i367_b"></net>
               <net ref="vcc3v3"></net>
