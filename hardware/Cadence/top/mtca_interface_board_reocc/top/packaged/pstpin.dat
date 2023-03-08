@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 07-Mar-2023 AT 17:48:51 }
-TIME=' COMPILATION ON 07-Mar-2023 AT 17:48:51';
+{ Packager-XL run on 08-Mar-2023 AT 11:34:27 }
+TIME=' COMPILATION ON 08-Mar-2023 AT 11:34:27';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -822,6 +822,10 @@ primitive 'RSMD0402_1/16W-2.2K,1%';body 'RSMD0402';
     'B'<0>:'(2)';BIDI;
 end_primitive;
 primitive 'RSMD0402_1/16W-200,1%';body 'RSMD0402';
+    'A'<0>:'(1)';BIDI;
+    'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'RSMD0402_1/16W-6.2K,1%';body 'RSMD0402';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
 end_primitive;

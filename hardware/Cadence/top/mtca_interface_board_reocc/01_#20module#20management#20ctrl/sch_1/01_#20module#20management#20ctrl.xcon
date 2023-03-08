@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-01-01T14:28:53</modificationTime>
+    <modificationTime>2023-03-08T11:34:07</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
         <instanceid>42</instanceid>
-        <netid>81</netid>
+        <netid>95</netid>
         <insttermid>167</insttermid>
       </lastids>
       <cells>
@@ -866,94 +866,14 @@
           <name>power</name>
           <scope>interface</scope>
           <direction>inout</direction>
-          <msb>10</msb>
+          <msb>5</msb>
           <lsb>0</lsb>
         </net>
         <net>
           <id>N47</id>
           <name>page1_power</name>
-          <msb>10</msb>
+          <msb>5</msb>
           <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N48</id>
-          <name>power.dcdc_enable</name>
-        </net>
-        <net>
-          <id>N50</id>
-          <name>power.dcdc_pg</name>
-        </net>
-        <net>
-          <id>N52</id>
-          <name>power.pg_vcc3v3</name>
-        </net>
-        <net>
-          <id>N53</id>
-          <name>page1_power.pg_vcc3v3</name>
-        </net>
-        <net>
-          <id>N54</id>
-          <name>power.pg_vccio</name>
-        </net>
-        <net>
-          <id>N55</id>
-          <name>page1_power.pg_vccio</name>
-        </net>
-        <net>
-          <id>N56</id>
-          <name>power.pg_vp1v8</name>
-        </net>
-        <net>
-          <id>N57</id>
-          <name>page1_power.pg_vp1v8</name>
-        </net>
-        <net>
-          <id>N58</id>
-          <name>power.pg_vp3v3</name>
-        </net>
-        <net>
-          <id>N59</id>
-          <name>page1_power.pg_vp3v3</name>
-        </net>
-        <net>
-          <id>N60</id>
-          <name>power.sense_12c_scl</name>
-        </net>
-        <net>
-          <id>N61</id>
-          <name>page1_power.sense_12c_scl</name>
-        </net>
-        <net>
-          <id>N62</id>
-          <name>power.sense_12c_sda</name>
-        </net>
-        <net>
-          <id>N63</id>
-          <name>page1_power.sense_12c_sda</name>
-        </net>
-        <net>
-          <id>N64</id>
-          <name>power.vcc3v3_en</name>
-        </net>
-        <net>
-          <id>N65</id>
-          <name>page1_power.vcc3v3_en</name>
-        </net>
-        <net>
-          <id>N66</id>
-          <name>power.vccio_en</name>
-        </net>
-        <net>
-          <id>N67</id>
-          <name>page1_power.vccio_en</name>
-        </net>
-        <net>
-          <id>N68</id>
-          <name>power.vp1v8_en</name>
-        </net>
-        <net>
-          <id>N69</id>
-          <name>page1_power.vp1v8_en</name>
         </net>
         <net>
           <id>N70</id>
@@ -992,12 +912,52 @@
           <name>page1_vp12</name>
         </net>
         <net>
-          <id>N80</id>
-          <name>page1_power.dcdc_enable</name>
+          <id>N82</id>
+          <name>dcdc_2v5_pg</name>
         </net>
         <net>
-          <id>N81</id>
-          <name>page1_power.dcdc_pg</name>
+          <id>N83</id>
+          <name>page1_dcdc_2v5_pg</name>
+        </net>
+        <net>
+          <id>N84</id>
+          <name>dcdc_3v3_pg</name>
+        </net>
+        <net>
+          <id>N85</id>
+          <name>page1_dcdc_3v3_pg</name>
+        </net>
+        <net>
+          <id>N87</id>
+          <name>dcdc_enable</name>
+        </net>
+        <net>
+          <id>N88</id>
+          <name>page1_dcdc_enable</name>
+        </net>
+        <net>
+          <id>N89</id>
+          <name>ldo_1v8_pg</name>
+        </net>
+        <net>
+          <id>N90</id>
+          <name>page1_ldo_1v8_pg</name>
+        </net>
+        <net>
+          <id>N92</id>
+          <name>sense_12c_scl</name>
+        </net>
+        <net>
+          <id>N93</id>
+          <name>page1_sense_12c_scl</name>
+        </net>
+        <net>
+          <id>N94</id>
+          <name>sense_12c_sda</name>
+        </net>
+        <net>
+          <id>N95</id>
+          <name>page1_sense_12c_sda</name>
         </net>
         <net>
           <id>N30</id>
@@ -1039,30 +999,20 @@
         <alias net1="N28" lsb1="-1" msb1="-1" net2="N27" lsb2="-1" msb2="-1" />
         <alias net1="N31" lsb1="-1" msb1="-1" net2="N30" lsb2="-1" msb2="-1" />
         <alias net1="N35" lsb1="-1" msb1="-1" net2="N34" lsb2="-1" msb2="-1" />
-        <alias net1="N47" lsb1="0" msb1="10" net2="N46" lsb2="0" msb2="10" />
-        <alias net1="N53" lsb1="-1" msb1="-1" net2="N47" lsb2="4" msb2="4" />
-        <alias net1="N53" lsb1="-1" msb1="-1" net2="N52" lsb2="-1" msb2="-1" />
-        <alias net1="N55" lsb1="-1" msb1="-1" net2="N47" lsb2="5" msb2="5" />
-        <alias net1="N55" lsb1="-1" msb1="-1" net2="N54" lsb2="-1" msb2="-1" />
-        <alias net1="N57" lsb1="-1" msb1="-1" net2="N47" lsb2="3" msb2="3" />
-        <alias net1="N57" lsb1="-1" msb1="-1" net2="N56" lsb2="-1" msb2="-1" />
-        <alias net1="N59" lsb1="-1" msb1="-1" net2="N47" lsb2="6" msb2="6" />
-        <alias net1="N59" lsb1="-1" msb1="-1" net2="N58" lsb2="-1" msb2="-1" />
-        <alias net1="N61" lsb1="-1" msb1="-1" net2="N47" lsb2="8" msb2="8" />
-        <alias net1="N61" lsb1="-1" msb1="-1" net2="N60" lsb2="-1" msb2="-1" />
-        <alias net1="N63" lsb1="-1" msb1="-1" net2="N47" lsb2="7" msb2="7" />
-        <alias net1="N63" lsb1="-1" msb1="-1" net2="N62" lsb2="-1" msb2="-1" />
-        <alias net1="N65" lsb1="-1" msb1="-1" net2="N47" lsb2="2" msb2="2" />
-        <alias net1="N65" lsb1="-1" msb1="-1" net2="N64" lsb2="-1" msb2="-1" />
-        <alias net1="N67" lsb1="-1" msb1="-1" net2="N47" lsb2="1" msb2="1" />
-        <alias net1="N67" lsb1="-1" msb1="-1" net2="N66" lsb2="-1" msb2="-1" />
-        <alias net1="N69" lsb1="-1" msb1="-1" net2="N47" lsb2="0" msb2="0" />
-        <alias net1="N69" lsb1="-1" msb1="-1" net2="N68" lsb2="-1" msb2="-1" />
+        <alias net1="N47" lsb1="0" msb1="5" net2="N46" lsb2="0" msb2="5" />
         <alias net1="N79" lsb1="-1" msb1="-1" net2="N78" lsb2="-1" msb2="-1" />
-        <alias net1="N80" lsb1="-1" msb1="-1" net2="N47" lsb2="10" msb2="10" />
-        <alias net1="N80" lsb1="-1" msb1="-1" net2="N48" lsb2="-1" msb2="-1" />
-        <alias net1="N81" lsb1="-1" msb1="-1" net2="N47" lsb2="9" msb2="9" />
-        <alias net1="N81" lsb1="-1" msb1="-1" net2="N50" lsb2="-1" msb2="-1" />
+        <alias net1="N83" lsb1="-1" msb1="-1" net2="N47" lsb2="3" msb2="3" />
+        <alias net1="N83" lsb1="-1" msb1="-1" net2="N82" lsb2="-1" msb2="-1" />
+        <alias net1="N85" lsb1="-1" msb1="-1" net2="N47" lsb2="4" msb2="4" />
+        <alias net1="N85" lsb1="-1" msb1="-1" net2="N84" lsb2="-1" msb2="-1" />
+        <alias net1="N88" lsb1="-1" msb1="-1" net2="N47" lsb2="5" msb2="5" />
+        <alias net1="N88" lsb1="-1" msb1="-1" net2="N87" lsb2="-1" msb2="-1" />
+        <alias net1="N90" lsb1="-1" msb1="-1" net2="N47" lsb2="2" msb2="2" />
+        <alias net1="N90" lsb1="-1" msb1="-1" net2="N89" lsb2="-1" msb2="-1" />
+        <alias net1="N93" lsb1="-1" msb1="-1" net2="N47" lsb2="1" msb2="1" />
+        <alias net1="N93" lsb1="-1" msb1="-1" net2="N92" lsb2="-1" msb2="-1" />
+        <alias net1="N95" lsb1="-1" msb1="-1" net2="N47" lsb2="0" msb2="0" />
+        <alias net1="N95" lsb1="-1" msb1="-1" net2="N94" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -1145,14 +1095,14 @@
               <id>M9</id>
               <termid>T15</termid>
               <connections>
-                <connection net="N60" />
+                <connection net="N92" />
               </connections>
             </pin>
             <pin>
               <id>M10</id>
               <termid>T16</termid>
               <connections>
-                <connection net="N62" />
+                <connection net="N94" />
               </connections>
             </pin>
           </pins>
@@ -1173,7 +1123,7 @@
               <id>M12</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N60" />
+                <connection net="N92" />
               </connections>
             </pin>
           </pins>
@@ -1361,7 +1311,7 @@
               <id>M31</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N62" />
+                <connection net="N94" />
               </connections>
             </pin>
           </pins>
@@ -1403,7 +1353,7 @@
               <id>M35</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N60" />
+                <connection net="N92" />
               </connections>
             </pin>
           </pins>
@@ -1988,7 +1938,7 @@
               <id>M96</id>
               <termid>T54</termid>
               <connections>
-                <connection net="N50" />
+                <connection net="N84" />
               </connections>
             </pin>
             <pin>
@@ -2136,7 +2086,7 @@
               <id>M119</id>
               <termid>T77</termid>
               <connections>
-                <connection net="N48" />
+                <connection net="N87" />
               </connections>
             </pin>
             <pin>
@@ -2177,7 +2127,7 @@
               <id>M125</id>
               <termid>T83</termid>
               <connections>
-                <connection net="N62" />
+                <connection net="N94" />
               </connections>
             </pin>
             <pin>
@@ -2230,21 +2180,20 @@
               <id>M133</id>
               <termid>T91</termid>
               <connections>
-                <connection net="N56" />
+                <connection net="N89" />
               </connections>
             </pin>
             <pin>
               <id>M134</id>
               <termid>T92</termid>
               <connections>
-                <connection net="N58" />
+                <connection net="N84" />
               </connections>
             </pin>
             <pin>
               <id>M135</id>
               <termid>T93</termid>
               <connections>
-                <connection net="N52" />
               </connections>
             </pin>
             <pin>
@@ -2573,10 +2522,14 @@
               <net ref="bp.tdi"></net>
               <net ref="bp.tdo"></net>
               <net ref="bp.tms"></net>
+              <net ref="dcdc_2v5_pg"></net>
+              <net ref="dcdc_3v3_pg"></net>
+              <net ref="dcdc_enable"></net>
               <net ref="fpga_pg"></net>
               <net ref="gnd"></net>
               <net ref="green_led"></net>
               <net ref="handle_sw_close_n"></net>
+              <net ref="ldo_1v8_pg"></net>
               <net ref="mp3v3"></net>
               <net ref="n00455"></net>
               <net ref="n00469"></net>
@@ -2589,24 +2542,15 @@
               <net ref="n00507"></net>
               <net ref="nover_temp"></net>
               <net ref="power">
-                <msb>10</msb>
+                <msb>5</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="power.dcdc_enable"></net>
-              <net ref="power.dcdc_pg"></net>
-              <net ref="power.pg_vcc3v3"></net>
-              <net ref="power.pg_vccio"></net>
-              <net ref="power.pg_vp1v8"></net>
-              <net ref="power.pg_vp3v3"></net>
-              <net ref="power.sense_12c_scl"></net>
-              <net ref="power.sense_12c_sda"></net>
-              <net ref="power.vcc3v3_en"></net>
-              <net ref="power.vccio_en"></net>
-              <net ref="power.vp1v8_en"></net>
               <net ref="presence_12v"></net>
               <net ref="red_led"></net>
               <net ref="reset"></net>
               <net ref="rtm_ps"></net>
+              <net ref="sense_12c_scl"></net>
+              <net ref="sense_12c_sda"></net>
               <net ref="tck"></net>
               <net ref="tdi"></net>
               <net ref="tdo"></net>

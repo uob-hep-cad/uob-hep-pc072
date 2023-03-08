@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 07-Mar-2023 AT 17:48:51 }
+{ Packager-XL run on 08-Mar-2023 AT 11:34:27 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='07-Mar-2023 AT 17:48:51';
+ POST_TIME='08-Mar-2023 AT 11:34:27';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -11557,6 +11557,43 @@ occ.\02_ power\(sch_1):page1_i145@cnpassive.rsmd0603(chips)',
 chips.prt';
 
 PART_NAME
+ R71 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
+ ROOM='VP3V3';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I182@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i182@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i182@discrete.r(chips)',
+ PATH='I182',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ POWER='1/10 W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2RKF4991X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P4.99KLTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(825,-5100)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-ERJ-2RKF4991X,R-RES0402',
+ ROOM='VP3V3',
+ PART_NUMBER='ERJ-2RKF4991X',
+ VALUE='4.99k',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
  R72 'R-M55342K11B10E0RS3,R-M55342K1A':
  ROOM='VCC1V8';
 
@@ -12133,6 +12170,43 @@ occ.\02_ power\(sch_1):page3_i394@discrete.r(chips)',
  PART_NUMBER='ERJ-6BWFR020V',
  VALUE='0.02',
  PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R88 'RSMD0402_1/16W-6.2K,1%':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I183@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i183@cnpassive.rsmd0402(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i183@cnpassive.rsmd0402(chips)',
+ PATH='I183',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(825,-4800)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-6.2K,1%',
+ VOLTAGE='RVMAX',
+ ROOM='POWER',
+ TOL='1%',
+ VALUE='6.2K',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R92 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
@@ -16247,7 +16321,7 @@ occ.\02_ power\(sch_1):page3_140p@testpoint.testpoint(chips)',
  DESCRIPTION='MISC, Testpoint, 5002 White, TH, 2.5x2.5x4.6 mm',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(5000,-4875)',
+ XY='(5000,-4925)',
  ROT='5',
  VER='1',
  JEDEC_TYPE='TP_KEYSTONE_5000A',

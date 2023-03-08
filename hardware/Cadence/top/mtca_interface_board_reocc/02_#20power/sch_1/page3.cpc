@@ -1,6 +1,3 @@
-#ISCELL
-  default bus_top_left_rip *
-  page2_12p
 #CELL
   testpoint testpoint *
   page2_136p
@@ -51,22 +48,10 @@
   page2_203p
 #ISCELL
   mtca_interface_board gnd *
-  page2_212p
-#ISCELL
-  mtca_interface_board gnd *
   page2_213p
 #ISCELL
   mtca_interface_board gnd *
-  page2_214p
-#ISCELL
-  mtca_interface_board gnd *
   page2_226p
-#ISCELL
-  mtca_interface_board portboth-r *
-  page2_2p
-#ISCELL
-  default bus_top_left_rip *
-  page2_388p
 #ISCELL
   mtca_interface_board offpageleft-l *
   page2_3p
@@ -85,21 +70,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_9p
-#ISCELL
-  default bus_top_left_rip *
-  page2_i389
-#ISCELL
-  default bus_top_left_rip *
-  page2_i390
-#ISCELL
-  default bus_top_left_rip *
-  page2_i391
-#ISCELL
-  default bus_top_left_rip *
-  page2_i392
-#ISCELL
-  default bus_top_left_rip *
-  page2_i393
 #CELL
   discrete r *
   page2_i394
@@ -115,3 +85,9 @@
 #CELL
   ocad_parts_lib cap_np *
   page2_i403
+#ISCELL
+  standard 6#20merge *
+  page2_i404
+#ISCELL
+  mtca_interface_board portboth-r *
+  page2_i405
