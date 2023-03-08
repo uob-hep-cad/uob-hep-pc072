@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 07-Mar-2023 AT 17:48:51 }
+{ Packager-XL run on 08-Mar-2023 AT 11:34:27 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -5997,6 +5997,45 @@ primitive 'RSMD0402_1/16W-200,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-200,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0402_1/16W-6.2K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0402_6K2_1%_0.063W_200PPM';
+      VALUE='6.2k';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-6.2K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_-00,';

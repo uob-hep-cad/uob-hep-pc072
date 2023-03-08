@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Mon Mar  6 16:32:14 2023
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Wed Mar  8 11:06:47 2023
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_125p
@@ -165,9 +165,6 @@
   mtca_interface_board vcc_bar *
   page1_208p
 #ISCELL
-  mtca_interface_board portboth-r *
-  page1_2p
-#ISCELL
   mtca_interface_board gnd *
   page1_38p
 #ISCELL
@@ -188,39 +185,6 @@
 #ISCELL
   bris_cds_standard a3-2000 *
   page1_6p
-#ISCELL
-  default bus_top_left_rip *
-  page1_i209
-#ISCELL
-  default bus_top_left_rip *
-  page1_i210
-#ISCELL
-  default bus_top_left_rip *
-  page1_i211
-#ISCELL
-  default bus_top_left_rip *
-  page1_i212
-#ISCELL
-  default bus_top_left_rip *
-  page1_i213
-#ISCELL
-  default bus_top_left_rip *
-  page1_i214
-#ISCELL
-  default bus_top_left_rip *
-  page1_i215
-#ISCELL
-  default bus_top_left_rip *
-  page1_i216
-#ISCELL
-  default bus_top_left_rip *
-  page1_i217
-#ISCELL
-  default bus_top_left_rip *
-  page1_i218
-#ISCELL
-  default bus_top_left_rip *
-  page1_i219
 #ISCELL
   default buswide_top_left_rip *
   page1_i220
@@ -251,3 +215,9 @@
 #ISCELL
   default bus_top_left_rip *
   page1_i229
+#ISCELL
+  standard 6#20merge *
+  page1_i230
+#ISCELL
+  mtca_interface_board portboth-r *
+  page1_i231

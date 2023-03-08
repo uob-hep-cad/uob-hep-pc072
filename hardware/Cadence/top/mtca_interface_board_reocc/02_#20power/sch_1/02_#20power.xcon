@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-07T11:04:58</modificationTime>
+    <modificationTime>2023-03-08T11:01:41</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>169</instanceid>
-        <netid>137</netid>
-        <insttermid>473</insttermid>
+        <instanceid>171</instanceid>
+        <netid>151</netid>
+        <insttermid>477</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -436,6 +436,30 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S22</id>
+          <library>cnpassive</library>
+          <name>rsmd0402</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T213</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T214</id>
+              <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -503,20 +527,6 @@
         <net>
           <id>N40</id>
           <name>n00904</name>
-        </net>
-        <net>
-          <id>N42</id>
-          <name>power</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
-          <msb>10</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N43</id>
-          <name>page2_power</name>
-          <msb>10</msb>
-          <lsb>0</lsb>
         </net>
         <net>
           <id>N44</id>
@@ -703,6 +713,60 @@
           <name>unnamed_4_ledgreen06030_i176_a</name>
         </net>
         <net>
+          <id>N138</id>
+          <name>dcdc_2v5_pg</name>
+        </net>
+        <net>
+          <id>N139</id>
+          <name>page2_dcdc_2v5_pg</name>
+        </net>
+        <net>
+          <id>N140</id>
+          <name>dcdc_3v3_pg</name>
+        </net>
+        <net>
+          <id>N141</id>
+          <name>page2_dcdc_3v3_pg</name>
+        </net>
+        <net>
+          <id>N142</id>
+          <name>ldo_1v8_pg</name>
+        </net>
+        <net>
+          <id>N143</id>
+          <name>page2_ldo_1v8_pg</name>
+        </net>
+        <net>
+          <id>N144</id>
+          <name>sense_12c_scl</name>
+        </net>
+        <net>
+          <id>N145</id>
+          <name>page2_sense_12c_scl</name>
+        </net>
+        <net>
+          <id>N146</id>
+          <name>sense_12c_sda</name>
+        </net>
+        <net>
+          <id>N147</id>
+          <name>page2_sense_12c_sda</name>
+        </net>
+        <net>
+          <id>N150</id>
+          <name>power</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+          <msb>5</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N151</id>
+          <name>page2_power</name>
+          <msb>5</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
           <id>N3</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -740,20 +804,12 @@
         <alias net1="N22" lsb1="-1" msb1="-1" net2="N1" lsb2="-1" msb2="-1" />
         <alias net1="N23" lsb1="-1" msb1="-1" net2="N2" lsb2="-1" msb2="-1" />
         <alias net1="N25" lsb1="-1" msb1="-1" net2="N3" lsb2="-1" msb2="-1" />
-        <alias net1="N43" lsb1="10" msb1="10" net2="N22" lsb2="-1" msb2="-1" />
-        <alias net1="N43" lsb1="9" msb1="9" net2="N23" lsb2="-1" msb2="-1" />
-        <alias net1="N43" lsb1="0" msb1="10" net2="N42" lsb2="0" msb2="10" />
-        <alias net1="N45" lsb1="-1" msb1="-1" net2="N43" lsb2="4" msb2="4" />
         <alias net1="N45" lsb1="-1" msb1="-1" net2="N44" lsb2="-1" msb2="-1" />
-        <alias net1="N49" lsb1="-1" msb1="-1" net2="N43" lsb2="6" msb2="6" />
         <alias net1="N49" lsb1="-1" msb1="-1" net2="N48" lsb2="-1" msb2="-1" />
         <alias net1="N50" lsb1="-1" msb1="-1" net2="N13" lsb2="-1" msb2="-1" />
-        <alias net1="N50" lsb1="-1" msb1="-1" net2="N43" lsb2="8" msb2="8" />
         <alias net1="N51" lsb1="-1" msb1="-1" net2="N14" lsb2="-1" msb2="-1" />
-        <alias net1="N51" lsb1="-1" msb1="-1" net2="N43" lsb2="7" msb2="7" />
         <alias net1="N56" lsb1="-1" msb1="-1" net2="N55" lsb2="-1" msb2="-1" />
         <alias net1="N63" lsb1="-1" msb1="-1" net2="N62" lsb2="-1" msb2="-1" />
-        <alias net1="N71" lsb1="-1" msb1="-1" net2="N43" lsb2="3" msb2="3" />
         <alias net1="N71" lsb1="-1" msb1="-1" net2="N46" lsb2="-1" msb2="-1" />
         <alias net1="N86" lsb1="-1" msb1="-1" net2="N55" lsb2="-1" msb2="-1" />
         <alias net1="N92" lsb1="0" msb1="1" net2="N91" lsb2="0" msb2="1" />
@@ -777,6 +833,18 @@
         <alias net1="N132" lsb1="-1" msb1="-1" net2="N125" lsb2="1" msb2="1" />
         <alias net1="N132" lsb1="-1" msb1="-1" net2="N125" lsb2="0" msb2="0" />
         <alias net1="N132" lsb1="-1" msb1="-1" net2="N131" lsb2="-1" msb2="-1" />
+        <alias net1="N139" lsb1="-1" msb1="-1" net2="N138" lsb2="-1" msb2="-1" />
+        <alias net1="N141" lsb1="-1" msb1="-1" net2="N140" lsb2="-1" msb2="-1" />
+        <alias net1="N143" lsb1="-1" msb1="-1" net2="N142" lsb2="-1" msb2="-1" />
+        <alias net1="N145" lsb1="-1" msb1="-1" net2="N144" lsb2="-1" msb2="-1" />
+        <alias net1="N147" lsb1="-1" msb1="-1" net2="N146" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="5" msb1="5" net2="N22" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="3" msb1="3" net2="N139" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="4" msb1="4" net2="N141" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="2" msb1="2" net2="N143" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="1" msb1="1" net2="N145" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="0" msb1="0" net2="N147" lsb2="-1" msb2="-1" />
+        <alias net1="N151" lsb1="0" msb1="5" net2="N150" lsb2="0" msb2="5" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -824,7 +892,7 @@
               <id>M8</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N2" />
+                <connection net="N140" />
               </connections>
             </pin>
           </pins>
@@ -900,7 +968,7 @@
               <id>M29</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N2" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
@@ -1138,7 +1206,7 @@
               <id>M99</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N46" />
+                <connection net="N142" />
               </connections>
             </pin>
           </pins>
@@ -1208,7 +1276,7 @@
               <id>M140</id>
               <termid>T54</termid>
               <connections>
-                <connection net="N46" />
+                <connection net="N142" />
               </connections>
             </pin>
           </pins>
@@ -1679,14 +1747,14 @@
               <id>M318</id>
               <termid>T194</termid>
               <connections>
-                <connection net="N13" />
+                <connection net="N144" />
               </connections>
             </pin>
             <pin>
               <id>M319</id>
               <termid>T195</termid>
               <connections>
-                <connection net="N14" />
+                <connection net="N146" />
               </connections>
             </pin>
             <pin>
@@ -2615,6 +2683,52 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I170</id>
+          <cellid>S3</cellid>
+          <name>page4_i182</name>
+          <pins>
+            <pin>
+              <id>M474</id>
+              <termid>T8</termid>
+              <connections>
+                <connection net="N138" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M475</id>
+              <termid>T9</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I171</id>
+          <cellid>S22</cellid>
+          <name>page4_i183</name>
+          <pins>
+            <pin>
+              <id>M476</id>
+              <termid>T213</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N138" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M477</id>
+              <termid>T214</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N96" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2695,13 +2809,13 @@
             <nets>
               <net ref="1v8_post_rshunt"></net>
               <net ref="dc_dc_enable"></net>
+              <net ref="dcdc_3v3_pg"></net>
               <net ref="dcdc_enable"></net>
-              <net ref="dcdc_pg"></net>
               <net ref="gnd"></net>
               <net ref="mp3v3"></net>
               <net ref="p2v5"></net>
-              <net ref="power.sense_12c_scl"></net>
-              <net ref="power.sense_12c_sda"></net>
+              <net ref="sense_12c_scl"></net>
+              <net ref="sense_12c_sda"></net>
               <net ref="unnamed_1_ledred06030_121p_a"></net>
               <net ref="unnamed_1_ltc2991_i162_adr0"></net>
               <net ref="unnamed_1_ltc2991_i162_adr1"></net>
@@ -2771,16 +2885,19 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="1v8_post_rshunt"></net>
+              <net ref="dcdc_2v5_pg"></net>
+              <net ref="dcdc_3v3_pg"></net>
               <net ref="dcdc_enable"></net>
               <net ref="dcdc_pg"></net>
               <net ref="fpga_pg"></net>
               <net ref="gnd"></net>
+              <net ref="ldo_1v8_pg"></net>
               <net ref="n003941"></net>
               <net ref="n00902"></net>
               <net ref="n00904"></net>
               <net ref="p2v5"></net>
               <net ref="power">
-                <msb>10</msb>
+                <msb>5</msb>
                 <lsb>0</lsb>
               </net>
               <net ref="power.pg_vcc3v3"></net>
@@ -2788,6 +2905,8 @@
               <net ref="power.pg_vp3v3"></net>
               <net ref="power.sense_12c_scl"></net>
               <net ref="power.sense_12c_sda"></net>
+              <net ref="sense_12c_scl"></net>
+              <net ref="sense_12c_sda"></net>
               <net ref="vcc3v3"></net>
               <net ref="vp1v8"></net>
             </nets>
@@ -2816,6 +2935,7 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="dc_dc_enable"></net>
+              <net ref="dcdc_2v5_pg"></net>
               <net ref="gnd"></net>
               <net ref="p2v5"></net>
               <net ref="unnamed_4_ledgreen06030_i176_a"></net>
@@ -2857,6 +2977,8 @@
               <instance ref="i177"></instance>
               <instance ref="i178"></instance>
               <instance ref="i179"></instance>
+              <instance ref="i182"></instance>
+              <instance ref="i183"></instance>
             </instances>
           </page>
         </pages>
