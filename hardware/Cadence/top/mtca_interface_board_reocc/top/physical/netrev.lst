@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v43.brd                              )
+(    Drawing          : mib_rev2_v47.brd                              )
 (    Software Version : 17.4S032                                      )
-(    Date/Time        : Thu Mar 16 13:10:58 2023                      )
+(    Date/Time        : Thu Mar 16 15:50:19 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,17 +19,17 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\pc072local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
 Design Directory:            'C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v43.brd'
-New design name:             'C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v44.brd'
+Old design name:             'C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v47.brd'
+New design name:             'C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v48.brd'
 
-CmdLine: netrev -proj C:\pc072local\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\pc072local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v43.brd C:\pc072local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v44.brd -w C:\pc072local\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\pc072local\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\pc072local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v47.brd C:\pc072local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v48.brd -w C:\pc072local\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.74)
+   Finished reading C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.46)
 Starting to read C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
-   Finished reading C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.02)
+   Finished reading C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
 Starting to read C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
    Finished reading C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
 
@@ -48,10 +48,10 @@ Set the correct library path if not set or use dbdoctor to migrate old
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    C:/pc072local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Thu Mar 16 13:11:00 2023
+	Start time: Thu Mar 16 15:50:20 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Thu Mar 16 13:11:00 2023
+Finished Constraint Update	Time: Thu Mar 16 15:50:20 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -101,9 +101,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 16 13:10:58 2023
+netrev run on Mar 16 15:50:18 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 16-Mar-2023 AT 13:10:42
+   PACKAGING ON 16-Mar-2023 AT 15:50:08
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -136,6 +136,6 @@ netrev run on Mar 16 13:10:58 2023
  No oversight detected
   1 warnings detected
 
-cpu time      0:10:46
-elapsed time  0:00:04
+cpu time      0:06:46
+elapsed time  0:00:03
 
