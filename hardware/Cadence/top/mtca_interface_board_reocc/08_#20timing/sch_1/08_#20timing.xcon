@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-17T11:33:33</modificationTime>
+    <modificationTime>2023-03-17T11:36:13</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -1352,11 +1352,7 @@
           <id>N394</id>
           <name>clkin_p</name>
           <msb>3</msb>
-          <lsb>1</lsb>
-        </net>
-        <net>
-          <id>N395</id>
-          <name>clkin_p,0&gt;</name>
+          <lsb>0</lsb>
         </net>
         <net>
           <id>N21</id>
@@ -1500,7 +1496,7 @@
               <id>M294</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N395" />
+                <connection net="N394" netmsb="0" netlsb="0" />
               </connections>
             </pin>
           </pins>
@@ -1682,7 +1678,7 @@
               <id>M337</id>
               <termid>T91</termid>
               <connections>
-                <connection net="N395" />
+                <connection net="N394" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -2219,7 +2215,7 @@
               <id>M425</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N395" />
+                <connection net="N394" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -8047,9 +8043,8 @@
               </net>
               <net ref="clkin_p">
                 <msb>3</msb>
-                <lsb>1</lsb>
+                <lsb>0</lsb>
               </net>
-              <net ref="clkin_p,0&gt;"></net>
               <net ref="dff_ref_clk_n">
                 <msb>2</msb>
                 <lsb>0</lsb>
