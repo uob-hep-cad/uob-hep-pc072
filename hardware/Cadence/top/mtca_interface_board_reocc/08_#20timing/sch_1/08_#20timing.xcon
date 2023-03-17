@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-17T10:05:32</modificationTime>
+    <modificationTime>2023-03-17T11:33:33</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="08_ timing" view="sch_1">
       <lastids>
         <instanceid>448</instanceid>
-        <netid>392</netid>
+        <netid>395</netid>
         <insttermid>1175</insttermid>
       </lastids>
       <cells>
@@ -767,30 +767,6 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N134</id>
-          <name>clk_n0</name>
-        </net>
-        <net>
-          <id>N135</id>
-          <name>clk_n1</name>
-        </net>
-        <net>
-          <id>N136</id>
-          <name>clk_n2</name>
-        </net>
-        <net>
-          <id>N139</id>
-          <name>clk_p0</name>
-        </net>
-        <net>
-          <id>N140</id>
-          <name>clk_p1</name>
-        </net>
-        <net>
-          <id>N141</id>
-          <name>clk_p2</name>
-        </net>
-        <net>
           <id>N142</id>
           <name>fbclk_n</name>
         </net>
@@ -935,14 +911,6 @@
         <net>
           <id>N210</id>
           <name>sfp1_clkgen_p</name>
-        </net>
-        <net>
-          <id>N211</id>
-          <name>clk_n3</name>
-        </net>
-        <net>
-          <id>N212</id>
-          <name>clk_p3</name>
         </net>
         <net>
           <id>N213</id>
@@ -1375,6 +1343,22 @@
           <name>unnamed_3_adclk948_i244_vref0</name>
         </net>
         <net>
+          <id>N393</id>
+          <name>clkin_n</name>
+          <msb>3</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N394</id>
+          <name>clkin_p</name>
+          <msb>3</msb>
+          <lsb>1</lsb>
+        </net>
+        <net>
+          <id>N395</id>
+          <name>clkin_p,0&gt;</name>
+        </net>
+        <net>
           <id>N21</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -1495,7 +1479,7 @@
               <id>M279</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N140" />
+                <connection net="N394" netmsb="1" netlsb="1" />
               </connections>
             </pin>
           </pins>
@@ -1516,7 +1500,7 @@
               <id>M294</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N139" />
+                <connection net="N395" />
               </connections>
             </pin>
           </pins>
@@ -1600,7 +1584,7 @@
               <id>M314</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N211" />
+                <connection net="N393" netmsb="3" netlsb="3" />
               </connections>
             </pin>
           </pins>
@@ -1698,56 +1682,56 @@
               <id>M337</id>
               <termid>T91</termid>
               <connections>
-                <connection net="N139" />
+                <connection net="N395" />
               </connections>
             </pin>
             <pin>
               <id>M338</id>
               <termid>T92</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N393" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M339</id>
               <termid>T93</termid>
               <connections>
-                <connection net="N140" />
+                <connection net="N394" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M340</id>
               <termid>T94</termid>
               <connections>
-                <connection net="N135" />
+                <connection net="N393" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M341</id>
               <termid>T95</termid>
               <connections>
-                <connection net="N141" />
+                <connection net="N394" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M342</id>
               <termid>T96</termid>
               <connections>
-                <connection net="N136" />
+                <connection net="N393" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M343</id>
               <termid>T97</termid>
               <connections>
-                <connection net="N212" />
+                <connection net="N394" netmsb="3" netlsb="3" />
               </connections>
             </pin>
             <pin>
               <id>M344</id>
               <termid>T98</termid>
               <connections>
-                <connection net="N211" />
+                <connection net="N393" netmsb="3" netlsb="3" />
               </connections>
             </pin>
             <pin>
@@ -2116,7 +2100,7 @@
               <id>M397</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N393" netmsb="0" netlsb="0" />
               </connections>
             </pin>
           </pins>
@@ -2158,7 +2142,7 @@
               <id>M405</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N135" />
+                <connection net="N393" netmsb="1" netlsb="1" />
               </connections>
             </pin>
           </pins>
@@ -2193,14 +2177,14 @@
               <id>M419</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N212" />
+                <connection net="N394" netmsb="3" netlsb="3" />
               </connections>
             </pin>
             <pin>
               <id>M420</id>
               <termid>T6</termid>
               <connections>
-                <connection net="N211" />
+                <connection net="N393" netmsb="3" netlsb="3" />
               </connections>
             </pin>
           </pins>
@@ -2235,14 +2219,14 @@
               <id>M425</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N139" />
+                <connection net="N395" />
               </connections>
             </pin>
             <pin>
               <id>M426</id>
               <termid>T6</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N393" netmsb="0" netlsb="0" />
               </connections>
             </pin>
           </pins>
@@ -2256,14 +2240,14 @@
               <id>M427</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N140" />
+                <connection net="N394" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M428</id>
               <termid>T6</termid>
               <connections>
-                <connection net="N135" />
+                <connection net="N393" netmsb="1" netlsb="1" />
               </connections>
             </pin>
           </pins>
@@ -2284,7 +2268,7 @@
               <id>M433</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N212" />
+                <connection net="N394" netmsb="3" netlsb="3" />
               </connections>
             </pin>
           </pins>
@@ -2729,14 +2713,14 @@
               <id>M537</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N141" />
+                <connection net="N394" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M538</id>
               <termid>T6</termid>
               <connections>
-                <connection net="N136" />
+                <connection net="N393" netmsb="2" netlsb="2" />
               </connections>
             </pin>
           </pins>
@@ -2757,7 +2741,7 @@
               <id>M540</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N141" />
+                <connection net="N394" netmsb="2" netlsb="2" />
               </connections>
             </pin>
           </pins>
@@ -2778,7 +2762,7 @@
               <id>M542</id>
               <termid>T10</termid>
               <connections>
-                <connection net="N136" />
+                <connection net="N393" netmsb="2" netlsb="2" />
               </connections>
             </pin>
           </pins>
@@ -5965,12 +5949,12 @@
           </parameters>
           <powers>
             <power>
-              <name>vee</name>
-              <override>N21</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N383</override>
+            </power>
+            <power>
+              <name>vee</name>
+              <override>N21</override>
             </power>
           </powers>
           <pins>
@@ -7569,12 +7553,12 @@
           </parameters>
           <powers>
             <power>
-              <name>vee</name>
-              <override>N21</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N383</override>
+            </power>
+            <power>
+              <name>vee</name>
+              <override>N21</override>
             </power>
           </powers>
           <pins>
@@ -8038,14 +8022,6 @@
               <net ref="avdd"></net>
               <net ref="clk_i2c_scl"></net>
               <net ref="clk_i2c_sda"></net>
-              <net ref="clk_n0"></net>
-              <net ref="clk_n1"></net>
-              <net ref="clk_n2"></net>
-              <net ref="clk_n3"></net>
-              <net ref="clk_p0"></net>
-              <net ref="clk_p1"></net>
-              <net ref="clk_p2"></net>
-              <net ref="clk_p3"></net>
               <net ref="clk_sel0"></net>
               <net ref="clk_sel1"></net>
               <net ref="clk_tst_n"></net>
@@ -8065,6 +8041,15 @@
               </net>
               <net ref="clkgen_lol"></net>
               <net ref="clkgen_rst"></net>
+              <net ref="clkin_n">
+                <msb>3</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="clkin_p">
+                <msb>3</msb>
+                <lsb>1</lsb>
+              </net>
+              <net ref="clkin_p,0&gt;"></net>
               <net ref="dff_ref_clk_n">
                 <msb>2</msb>
                 <lsb>0</lsb>
