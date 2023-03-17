@@ -3,10 +3,10 @@
 <ConstraintDifferenceReport Path="file:///c:/cadence/spb_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Fri Mar 17 11:20:08 2023
+    <Entry Name="Report time">Fri Mar 17 11:34:48 2023
 </Entry>
     <Entry Name="Software version">17.4 (S033)</Entry>
-    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v48.brd</Entry>
+    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v49.brd</Entry>
     <Entry Name="Schematic">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged\pstcmdb.dat</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Overwrite</Entry>
@@ -15,126 +15,224 @@
 
   <Tree>
     <Item Filter="0x3" Name="Summary" Ref="main-summary">
-      <Item Filter="0x2" Name="Buses [23]" Ref="26">
-        <Item Filter="0x0" Name="BP" Ref="1"/>
-        <Item Filter="0x0" Name="BP_2" Ref="2"/>
-        <Item Filter="0x0" Name="BP_3" Ref="3"/>
-        <Item Filter="0x0" Name="CLKGEN_IO" Ref="f"/>
-        <Item Filter="0x2" Name="DATA_FROM_UPSTREAM_N" Ref="15"/>
-        <Item Filter="0x2" Name="DATA_FROM_UPSTREAM_P" Ref="18"/>
-        <Item Filter="0x2" Name="DFF_CLK_N" Ref="8"/>
-        <Item Filter="0x2" Name="DFF_CLK_P" Ref="b"/>
-        <Item Filter="0x0" Name="PAGE2_CLKGEN_IO" Ref="1c"/>
-        <Item Filter="0x0" Name="PAGE4_VIN" Ref="19"/>
-        <Item Filter="0x0" Name="PAGE4_VO" Ref="1a"/>
-        <Item Filter="0x0" Name="PAGE4_VO_2V5" Ref="1d"/>
-        <Item Filter="0x0" Name="POWER_1" Ref="4"/>
-        <Item Filter="0x0" Name="SFP" Ref="7"/>
-        <Item Filter="0x0" Name="SFP_1" Ref="5"/>
-        <Item Filter="0x0" Name="SFP_2" Ref="6"/>
-        <Item Filter="0x0" Name="SFP_DATA_IO" Ref="e"/>
-        <Item Filter="0x0" Name="SFP_DATA_IO_1" Ref="14"/>
-        <Item Filter="0x2" Name="TIMING.UPSTREAM_DATA_N" Ref="10"/>
-        <Item Filter="0x2" Name="TIMING.UPSTREAM_DATA_P" Ref="13"/>
-        <Item Filter="0x2" Name="UDATA_IN_N" Ref="1e"/>
-        <Item Filter="0x2" Name="UDATA_IN_P" Ref="22"/>
-        <Item Filter="0x0" Name="UNCONNECTED" Ref="1b"/>
+      <Item Filter="0x2" Name="Buses [26]" Ref="3b">
+        <Item Filter="0x0" Name="BP" Ref="1e"/>
+        <Item Filter="0x0" Name="BP_2" Ref="1f"/>
+        <Item Filter="0x0" Name="BP_3" Ref="20"/>
+        <Item Filter="0x0" Name="CLKGEN_IO" Ref="27"/>
+        <Item Filter="0x2" Name="CLKIN_N" Ref="31"/>
+        <Item Filter="0x2" Name="CLKIN_P" Ref="36"/>
+        <Item Filter="0x2" Name="DATA_FROM_UPSTREAM_N" Ref="29"/>
+        <Item Filter="0x2" Name="DATA_FROM_UPSTREAM_P" Ref="2a"/>
+        <Item Filter="0x2" Name="DFF_CLK_N" Ref="6"/>
+        <Item Filter="0x2" Name="DFF_CLK_P" Ref="25"/>
+        <Item Filter="0x0" Name="PAGE2_CLKGEN_IO" Ref="2e"/>
+        <Item Filter="0x0" Name="PAGE4_VIN" Ref="2b"/>
+        <Item Filter="0x0" Name="PAGE4_VO" Ref="2c"/>
+        <Item Filter="0x0" Name="PAGE4_VO_2V5" Ref="2f"/>
+        <Item Filter="0x2" Name="POWER" Ref="1b"/>
+        <Item Filter="0x0" Name="POWER_1" Ref="21"/>
+        <Item Filter="0x0" Name="SFP" Ref="24"/>
+        <Item Filter="0x0" Name="SFP_1" Ref="22"/>
+        <Item Filter="0x0" Name="SFP_2" Ref="23"/>
+        <Item Filter="0x0" Name="SFP_DATA_IO" Ref="26"/>
+        <Item Filter="0x0" Name="SFP_DATA_IO_1" Ref="28"/>
+        <Item Filter="0x2" Name="SFP_DATA_OUT_N" Ref="d"/>
+        <Item Filter="0x2" Name="SFP_DATA_OUT_P" Ref="11"/>
+        <Item Filter="0x2" Name="UDATA_IN_N" Ref="2"/>
+        <Item Filter="0x2" Name="UDATA_IN_P" Ref="30"/>
+        <Item Filter="0x0" Name="UNCONNECTED" Ref="2d"/>
+      </Item>
+      <Item Filter="0x2" Name="Xnets [8]" Ref="3a">
+        <Item Filter="0x2" Name="DFF_CLK_N&lt;0>" Ref="14"/>
+        <Item Filter="0x2" Name="DFF_CLK_N&lt;1>" Ref="9"/>
+        <Item Filter="0x2" Name="DFF_CLK_N&lt;2>" Ref="5"/>
+        <Item Filter="0x2" Name="SENSE_I2C_SCL" Ref="1a"/>
+        <Item Filter="0x2" Name="SFP_DATA_OUT_N&lt;1>" Ref="c"/>
+        <Item Filter="0x2" Name="SFP_DATA_OUT_P&lt;1>" Ref="10"/>
+        <Item Filter="0x2" Name="UDATA_IN_N&lt;2>" Ref="1"/>
+        <Item Filter="0x2" Name="VP1V8" Ref="17"/>
       </Item>
     </Item>
   </Tree>
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x2" Name="Buses" ObjNumber="23" Ref="26"/>
+      <ChangedObject Filter="0x2" Name="Buses" ObjNumber="26" Ref="3b"/>
+      <ChangedObject Filter="0x2" Name="Xnets" ObjNumber="8" Ref="3a"/>
     </MainSummary>
-    <GroupSummary ID="26" Name="Buses">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP" Notes="0" Other="0" Ref="1" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP_2" Notes="0" Other="0" Ref="2" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP_3" Notes="0" Other="0" Ref="3" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLKGEN_IO" Notes="0" Other="0" Ref="f" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="DATA_FROM_UPSTREAM_N" Notes="0" Other="0" Ref="15" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="DATA_FROM_UPSTREAM_P" Notes="0" Other="0" Ref="18" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="DFF_CLK_N" Notes="0" Other="0" Ref="8" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="DFF_CLK_P" Notes="0" Other="0" Ref="b" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE2_CLKGEN_IO" Notes="0" Other="0" Ref="1c" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VIN" Notes="0" Other="0" Ref="19" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VO" Notes="0" Other="0" Ref="1a" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VO_2V5" Notes="0" Other="0" Ref="1d" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="POWER_1" Notes="0" Other="0" Ref="4" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP" Notes="0" Other="0" Ref="7" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_1" Notes="0" Other="0" Ref="5" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_2" Notes="0" Other="0" Ref="6" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_DATA_IO" Notes="0" Other="0" Ref="e" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_DATA_IO_1" Notes="0" Other="0" Ref="14" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="TIMING.UPSTREAM_DATA_N" Notes="0" Other="0" Ref="10" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="TIMING.UPSTREAM_DATA_P" Notes="0" Other="0" Ref="13" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="3" Name="UDATA_IN_N" Notes="0" Other="0" Ref="1e" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="3" Name="UDATA_IN_P" Notes="0" Other="0" Ref="22" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="UNCONNECTED" Notes="0" Other="0" Ref="1b" Reference="0" Status="Created"/>
+    <GroupSummary ID="3a" Name="Xnets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="DFF_CLK_N&lt;0>" Notes="0" Other="0" Ref="14" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="DFF_CLK_N&lt;1>" Notes="0" Other="0" Ref="9" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="DFF_CLK_N&lt;2>" Notes="0" Other="0" Ref="5" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SENSE_I2C_SCL" Notes="0" Other="0" Ref="1a" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SFP_DATA_OUT_N&lt;1>" Notes="0" Other="0" Ref="c" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SFP_DATA_OUT_P&lt;1>" Notes="0" Other="0" Ref="10" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="UDATA_IN_N&lt;2>" Notes="0" Other="0" Ref="1" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="VP1V8" Notes="0" Other="0" Ref="17" Reference="0" Status="Deleted"/>
     </GroupSummary>
-    <ObjectSummary ID="1" Kind="Bus" Name="BP" Status="Created"/>
-    <ObjectSummary ID="2" Kind="Bus" Name="BP_2" Status="Created"/>
-    <ObjectSummary ID="3" Kind="Bus" Name="BP_3" Status="Created"/>
-    <ObjectSummary ID="f" Kind="Bus" Name="CLKGEN_IO" Status="Created"/>
-    <ObjectSummary ID="15" Kind="Bus" Name="DATA_FROM_UPSTREAM_N">
+    <ObjectSummary ID="14" Kind="Xnet" Name="DFF_CLK_N&lt;0>" Status="Deleted">
       <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DATA_FROM_UPSTREAM_N&lt;1>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DFF_CLK_N&lt;0>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DFF_CLK_P&lt;0>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="9" Kind="Xnet" Name="DFF_CLK_N&lt;1>" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DFF_CLK_N&lt;1>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DFF_CLK_P&lt;1>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="5" Kind="Xnet" Name="DFF_CLK_N&lt;2>" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DFF_CLK_N&lt;2>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DFF_CLK_P&lt;2>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="1a" Kind="Xnet" Name="SENSE_I2C_SCL" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="N00471"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="SENSE_I2C_SCL"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="c" Kind="Xnet" Name="SFP_DATA_OUT_N&lt;1>" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="SFP_DATA_OUT_N&lt;1>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DATA_FROM_UPSTREAM_N&lt;1>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="10" Kind="Xnet" Name="SFP_DATA_OUT_P&lt;1>" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="SFP_DATA_OUT_P&lt;1>"/>
         <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DATA_FROM_UPSTREAM_P&lt;1>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="18" Kind="Bus" Name="DATA_FROM_UPSTREAM_P">
+    <ObjectSummary ID="1" Kind="Xnet" Name="UDATA_IN_N&lt;2>" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="UDATA_IN_N&lt;2>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="UDATA_IN_P&lt;2>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="17" Kind="Xnet" Name="VP1V8" Status="Deleted">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="N00904"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="VP1V8"/>
+      </Associations>
+    </ObjectSummary>
+    <GroupSummary ID="3b" Name="Buses">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP" Notes="0" Other="0" Ref="1e" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP_2" Notes="0" Other="0" Ref="1f" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP_3" Notes="0" Other="0" Ref="20" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLKGEN_IO" Notes="0" Other="0" Ref="27" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="4" Name="CLKIN_N" Notes="0" Other="0" Ref="31" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="3" Name="CLKIN_P" Notes="0" Other="0" Ref="36" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="DATA_FROM_UPSTREAM_N" Notes="0" Other="0" Ref="29" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="DATA_FROM_UPSTREAM_P" Notes="0" Other="0" Ref="2a" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="6" Name="DFF_CLK_N" Notes="0" Other="0" Ref="6" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="3" Name="DFF_CLK_P" Notes="0" Other="0" Ref="25" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE2_CLKGEN_IO" Notes="0" Other="0" Ref="2e" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VIN" Notes="0" Other="0" Ref="2b" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VO" Notes="0" Other="0" Ref="2c" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_VO_2V5" Notes="0" Other="0" Ref="2f" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="POWER" Notes="0" Other="0" Ref="1b" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="POWER_1" Notes="0" Other="0" Ref="21" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP" Notes="0" Other="0" Ref="24" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_1" Notes="0" Other="0" Ref="22" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_2" Notes="0" Other="0" Ref="23" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_DATA_IO" Notes="0" Other="0" Ref="26" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_DATA_IO_1" Notes="0" Other="0" Ref="28" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SFP_DATA_OUT_N" Notes="0" Other="0" Ref="d" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="SFP_DATA_OUT_P" Notes="0" Other="0" Ref="11" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="2" Name="UDATA_IN_N" Notes="0" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="UDATA_IN_P" Notes="0" Other="0" Ref="30" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="UNCONNECTED" Notes="0" Other="0" Ref="2d" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="1e" Kind="Bus" Name="BP" Status="Created"/>
+    <ObjectSummary ID="1f" Kind="Bus" Name="BP_2" Status="Created"/>
+    <ObjectSummary ID="20" Kind="Bus" Name="BP_3" Status="Created"/>
+    <ObjectSummary ID="27" Kind="Bus" Name="CLKGEN_IO" Status="Created"/>
+    <ObjectSummary ID="31" Kind="Bus" Name="CLKIN_N" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_N&lt;0>"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_N&lt;1>"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_N&lt;2>"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_N&lt;3>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="36" Kind="Bus" Name="CLKIN_P" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_P&lt;1>"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_P&lt;2>"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="CLKIN_P&lt;3>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="29" Kind="Bus" Name="DATA_FROM_UPSTREAM_N">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DATA_FROM_UPSTREAM_N&lt;1>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="2a" Kind="Bus" Name="DATA_FROM_UPSTREAM_P">
       <Associations Filter="0x2" Type="Membership">
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DATA_FROM_UPSTREAM_P&lt;1>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="8" Kind="Bus" Name="DFF_CLK_N">
+    <ObjectSummary ID="6" Kind="Bus" Name="DFF_CLK_N">
       <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="DFF_CLK_N&lt;2>" Ref="5"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="DFF_CLK_N&lt;1>" Ref="9"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="DFF_CLK_N&lt;0>" Ref="14"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DFF_CLK_N&lt;0>"/>
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DFF_CLK_N&lt;1>"/>
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DFF_CLK_N&lt;2>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="b" Kind="Bus" Name="DFF_CLK_P">
+    <ObjectSummary ID="25" Kind="Bus" Name="DFF_CLK_P" Status="Created">
       <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DFF_CLK_P&lt;0>"/>
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DFF_CLK_P&lt;1>"/>
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="DFF_CLK_P&lt;2>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="1c" Kind="Bus" Name="PAGE2_CLKGEN_IO" Status="Created"/>
-    <ObjectSummary ID="19" Kind="Bus" Name="PAGE4_VIN" Status="Created"/>
-    <ObjectSummary ID="1a" Kind="Bus" Name="PAGE4_VO" Status="Created"/>
-    <ObjectSummary ID="1d" Kind="Bus" Name="PAGE4_VO_2V5" Status="Created"/>
-    <ObjectSummary ID="4" Kind="Bus" Name="POWER_1" Status="Created"/>
-    <ObjectSummary ID="7" Kind="Bus" Name="SFP" Status="Created"/>
-    <ObjectSummary ID="5" Kind="Bus" Name="SFP_1" Status="Created"/>
-    <ObjectSummary ID="6" Kind="Bus" Name="SFP_2" Status="Created"/>
-    <ObjectSummary ID="e" Kind="Bus" Name="SFP_DATA_IO" Status="Created"/>
-    <ObjectSummary ID="14" Kind="Bus" Name="SFP_DATA_IO_1" Status="Created"/>
-    <ObjectSummary ID="10" Kind="Bus" Name="TIMING.UPSTREAM_DATA_N">
+    <ObjectSummary ID="2e" Kind="Bus" Name="PAGE2_CLKGEN_IO" Status="Created"/>
+    <ObjectSummary ID="2b" Kind="Bus" Name="PAGE4_VIN" Status="Created"/>
+    <ObjectSummary ID="2c" Kind="Bus" Name="PAGE4_VO" Status="Created"/>
+    <ObjectSummary ID="2f" Kind="Bus" Name="PAGE4_VO_2V5" Status="Created"/>
+    <ObjectSummary ID="1b" Kind="Bus" Name="POWER">
       <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TIMING.UPSTREAM_DATA_N&lt;2>"/>
-        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="TIMING.UPSTREAM_DATA_P&lt;2>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="SENSE_I2C_SCL" Ref="1a"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SENSE_I2C_SCL"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="13" Kind="Bus" Name="TIMING.UPSTREAM_DATA_P">
+    <ObjectSummary ID="21" Kind="Bus" Name="POWER_1" Status="Created"/>
+    <ObjectSummary ID="24" Kind="Bus" Name="SFP" Status="Created"/>
+    <ObjectSummary ID="22" Kind="Bus" Name="SFP_1" Status="Created"/>
+    <ObjectSummary ID="23" Kind="Bus" Name="SFP_2" Status="Created"/>
+    <ObjectSummary ID="26" Kind="Bus" Name="SFP_DATA_IO" Status="Created"/>
+    <ObjectSummary ID="28" Kind="Bus" Name="SFP_DATA_IO_1" Status="Created"/>
+    <ObjectSummary ID="d" Kind="Bus" Name="SFP_DATA_OUT_N">
       <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TIMING.UPSTREAM_DATA_P&lt;2>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="SFP_DATA_OUT_N&lt;1>" Ref="c"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SFP_DATA_OUT_N&lt;1>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="1e" Kind="Bus" Name="UDATA_IN_N" Status="Created">
+    <ObjectSummary ID="11" Kind="Bus" Name="SFP_DATA_OUT_P">
       <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="UDATA_IN_N&lt;0>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="UDATA_IN_N&lt;1>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="SFP_DATA_OUT_P&lt;1>" Ref="10"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="SFP_DATA_OUT_P&lt;1>"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="2" Kind="Bus" Name="UDATA_IN_N">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="0" Filter="0x40000000" Kind="Xnet" Name="UDATA_IN_N&lt;2>" Ref="1"/>
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="UDATA_IN_N&lt;2>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="22" Kind="Bus" Name="UDATA_IN_P" Status="Created">
+    <ObjectSummary ID="30" Kind="Bus" Name="UDATA_IN_P">
       <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="UDATA_IN_P&lt;0>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="UDATA_IN_P&lt;1>"/>
         <Reference Add="1" Filter="0x40000000" Kind="Net" Name="UDATA_IN_P&lt;2>"/>
       </Associations>
     </ObjectSummary>
-    <ObjectSummary ID="1b" Kind="Bus" Name="UNCONNECTED" Status="Created"/>
+    <ObjectSummary ID="2d" Kind="Bus" Name="UNCONNECTED" Status="Created"/>
   </Summaries>
 
   <Layers>
