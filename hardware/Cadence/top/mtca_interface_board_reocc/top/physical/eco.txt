@@ -2,36 +2,30 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v28.brd  |
-|                                                    Wed Mar  8 11:34:37 2023  |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v47.brd  |
+|                                                    Thu Mar 16 15:50:19 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DCDC_3V6_PG  pins MOVED FROM this net (to net name listed on right)
-                                 U13.8           12.2428 26.2850
-                                                                    DCDC_3V3_PG
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LDS_1V8_PG   pins MOVED FROM this net (to net name listed on right)
-                                 R59.2           18.9230 18.6000
-                                                                     LDO_1V8_PG
-                                 U16.5                          
-                                                                     LDO_1V8_PG
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LDS_1V8_PG_1 pins MOVED FROM this net (to net name listed on right)
-                                 U13.7           12.2428 26.7850
-                                                                     LDO_1V8_PG
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  POWER.SENSE_12C_SCL pins MOVED FROM this net (to net name listed on right)
-                                 U25.2           65.9178 95.9561
-                                                                  SENSE_I2C_SCL
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  POWER.SENSE_12C_SDA pins MOVED FROM this net (to net name listed on right)
-                                 U25.1           65.9178 96.6061
-                                                                  SENSE_I2C_SDA
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C77.2           120.048 20.5000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v47.brd  |
+|                                                    Thu Mar 16 15:50:19 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C77.2          117.000 20.5000 XY             (6000,-1950)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       6                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|
