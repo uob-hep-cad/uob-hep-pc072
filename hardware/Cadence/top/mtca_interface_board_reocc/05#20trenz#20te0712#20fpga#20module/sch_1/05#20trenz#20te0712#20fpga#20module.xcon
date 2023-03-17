@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-17T10:15:05</modificationTime>
+    <modificationTime>2023-03-17T11:18:32</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -4240,12 +4240,14 @@
               <id>M618</id>
               <termid>T144</termid>
               <connections>
+                <connection net="N227" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M619</id>
               <termid>T145</termid>
               <connections>
+                <connection net="N229" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4921,12 +4923,14 @@
               <id>M794</id>
               <termid>T296</termid>
               <connections>
+                <connection net="N229" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M795</id>
               <termid>T297</termid>
               <connections>
+                <connection net="N227" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -5975,6 +5979,14 @@
               <net ref="clk_i2c_sda"></net>
               <net ref="clk_sel0"></net>
               <net ref="clk_sel1"></net>
+              <net ref="clkgen_clk_n">
+                <msb>1</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="clkgen_clk_p">
+                <msb>1</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="clkgen_intr"></net>
               <net ref="clkgen_lol"></net>
               <net ref="data_from_upstream_n">
