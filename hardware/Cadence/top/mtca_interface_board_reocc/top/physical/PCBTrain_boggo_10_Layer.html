@@ -1,0 +1,912 @@
+<html><head>
+        <style type="text/css">
+          .report-header{
+          font-family:Arial;
+          font-size:10pt;
+          font-weight:bold;
+          }
+
+          
+          .ILCVerticalHeader
+          {
+          font-weight:lighter;
+          border-color:black;
+          text-align: left;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45eg);
+          -o-transform: rotate(-45deg);
+          font-size: 5pt;
+          }
+
+          
+          .ILCCellData {
+          width: auto;
+          position: relative;
+          font-weight: lighter;
+          border-color: black;
+          white-space: nowrap;
+          }
+
+          
+          .BlankRow {
+          height: 20px !important; /* overwrites any other rules */
+          background-color: white;
+          border-style: none;
+          empty-cells: hide;
+          }
+
+          .triangle-expanded:after{
+          content:'\25B6';
+          margin-left:10px;
+          }
+          .triangle-collapsed:after{
+          content:'\25BB';
+          margin-left:10px;
+          }
+          .triangle-transposed-expanded:before{
+          content:'\25C4';
+          margin-right:5px;
+          font-size: 1.3em;
+          }
+          .triangle-transposed-collapsed:before{
+          content:'\25B7';
+          margin-right:5px;
+          font-size: 1.3em;
+          }
+
+          
+          tr:nth-child(even){
+          background-color: #E9FFE9;
+          }
+
+          .Crosshatch {
+          background:
+          repeating-linear-gradient(135deg, rgba(128, 128, 128, 0.2), rgba(128, 128, 128, 0.2) 2px, rgba(0, 255, 0, 0.1) 4px, rgba(0, 255, 0, 0.1) 5px), repeating-linear-gradient(45deg, rgba(128, 128, 128, 0.2), rgba(128, 128, 128, 0.2) 4px, rgba(0, 255, 0, 0.1) 4px, rgba(0, 255, 0, 0.1) 5px);
+          }
+		  
+		  .hiddenPrefix{
+		  color:white;
+		  }
+
+        </style>
+    </head>
+    <body>
+        <p class="report-header">Version   :   17.400</p><p class="report-header">Date/Time       : 2023-03-20T18:32:34</p><p class="report-header">Worksheet Name   : Cross Section\Layer\Cross Section\Properties</p><table border="2" bordercolor="black">
+            
+            
+            
+            <tbody><tr>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="2" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Objects</th>
+                <th class="triangle-collapsed" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="4" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Types</th>
+                <th class="triangle-collapsed" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="3" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Thickness</th>
+                <th class="triangle-collapsed" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="6" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Physical</th>
+                <th class="triangle-collapsed" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="2" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Embedded</th>
+                <th class="triangle-collapsed" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="12" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Signal Integrity</th>
+            </tr>
+            <tr>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">#</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Name</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Layer</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Layer Function</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Manufacture</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Constraint</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Value</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">(+)Tol.</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">(-)Tol.</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Layer ID</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Material</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Negative Artwork</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">No Fillet</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Unused Pin Suppression</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Unused Via Suppression</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Embedded Status</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Attach Method</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Conductivity</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Dielectric Constant</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Width</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Impedance </th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Loss Tangent</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Shield</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Freq. Dep. File</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Etch Factor</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Diff Coupling Type</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Diff Spacing</th>
+                <th class="" bgcolor="#a9c0ff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Diff Z0</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="2" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">SI Ignore</th>
+            </tr>
+            <tr>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">mm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">mm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">mm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">mho/cm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">mm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Ohm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">mm</th>
+                <th class="" bgcolor="#ffffff" nowrap="nowrap" rowspan="1" colspan="1" style="text-align:center; font-family:Arial ;font-size:10pt; font-weight:normal;">Ohm</th>
+            </tr>
+            <tr>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+                <td bgcolor="white">*</td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Surface</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+            </td></tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">TOP</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.1871</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">54.267</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Edge</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.2500</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">99.932</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.12</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">02_GND</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">3</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">03_SIG1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">3</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.1250</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">49.054</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Edge</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.5000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">96.692</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.12</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">4</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">04_GND</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">4</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">5</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">05_PWR1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">5</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.12</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">6</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">06_GND</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">6</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">7</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">07_SIG2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">7</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.1250</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">49.054</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Edge</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.5000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">96.692</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.12</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">8</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">08_GND</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Plane</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">8</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" checked="checked" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.2</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">9</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">09_SIG3</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">9</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.1917</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">64.587</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Edge</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.2000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">100.04</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Dielectric</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.12</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Fr-4</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">4.2</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">10</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">BOTTOM</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">  Conductor</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.035</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0.00254</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">10</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">1oz Copper</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Not embedded</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">580000</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.3272</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">79.191</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">90</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">Edge</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">0.1250</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">99.968</td>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" align="" class="">
+                    <input type="checkbox" disabled="disabled">
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; " nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:8pt; font-weight:bold; color:#00bfe1;" nowrap="nowrap" class="">  Surface</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">1</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">0</td>
+                <td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+                </td><td bgcolor="#d7d7d7" style="text-align:left; font-family:Segoe UI ;font-size:-1pt; font-weight:normal; color:#000000;" nowrap="nowrap" class="">
+            </td></tr>
+        </tbody></table>
+    
+
+</body></html>

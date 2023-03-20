@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://diff3rptViewer/skin/default/skin.css" type="text/css"?>
+
+<window id="mainFrame" width="1000" height="800" title="... Report loading ..." xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" onload="diff3rptViewer.Initialize();" onclose="diff3rptViewer.OnClose();">
+
+  <tooltip id="diff3report-tooltip-in-report" onpopupshowing="return diff3rptViewer.OnShowTooltip(document.tooltipNode);"/>
+
+  <script type="application/javascript" src="chrome://jslib/content/jslib.js"/>
+  <script type="application/javascript" src="chrome://jslib/content/io/file.js"/>
+  <script type="application/javascript" src="chrome://jslib/content/io/fileUtils.js"/>
+  <script type="application/javascript" src="chrome://diff3rptViewer/content/main.js"/>
+
+  <commandset>
+    <command id="goBack-cmd" oncommand="document.getElementById('diff3report-html-browser').goBack();" disabled="true"/>
+    <command id="goFwd-cmd" oncommand="document.getElementById('diff3report-html-browser').goForward();" disabled="true"/>
+    <command id="save-cmd" oncommand="diff3rptViewer.OnSave();"/>
+    <command id="print-cmd" oncommand="diff3rptViewer.OnPrint(false);"/>
+    <!-- popup cmds -->
+    <command id="select-all-cmd" oncommand="diff3rptViewer.OnSelectAll();"/>
+    <command id="copy-cmd" oncommand="diff3rptViewer.OnCopy();"/>
+    <!--filter cmds-->
+    <command id="electric-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x4, document.getElementById('electrical-filter-btn'));" disabled="false"/>
+    <command id="physical-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x8, document.getElementById('physical-filter-btn'));" disabled="false"/>
+    <command id="spacing-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x10, document.getElementById('spacing-filter-btn'));" disabled="false"/>
+    <command id="SNS-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x20, document.getElementById('SNS-filter-btn'));" disabled="false"/>
+    <command id="DFF-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x400, document.getElementById('DFF-filter-btn'));" disabled="false"/>
+    <command id="property-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x100, document.getElementById('property-filter-btn'));" disabled="false"/>
+    <command id="structure-filter-cmd" oncommand="diff3rptViewer.OnFilter(0x2, document.getElementById('structure-filter-btn'));" disabled="false"/>
+    <!-- find commands -->
+    <command id="show-find-cmd" oncommand="diff3rptViewer.OnShowFind(true);"/>
+    <command id="hide-find-cmd" oncommand="diff3rptViewer.OnShowFind(false);" disabled="true"/>
+    <command id="apply-find-cmd" oncommand="diff3rptViewer.OnFind();" disabled="true"/>
+    <command id="find-next-cmd" oncommand="diff3rptViewer.OnFindX(true);" disabled="true"/>
+    <command id="find-previous-cmd" oncommand="diff3rptViewer.OnFindX(false);" disabled="true"/>
+  </commandset>
+  <popupset>
+    <menupopup id="clipmenu">
+      <menuitem label="Copy        [Ctrl+C]" command="copy-cmd"/>
+      <menuitem label="Select all  [Ctrl+A]" command="select-all-cmd"/>
+    </menupopup>
+  </popupset>
+  <keyset id="keyset">
+    <key id="back-key" keycode="VK_LEFT" modifiers="alt" command="goBack-cmd"/>
+    <key id="fwd-key" keycode="VK_RIGHT" modifiers="alt" command="goFwd-cmd"/>
+    <key id="save-key" key="S" modifiers="control" command="save-cmd"/>
+    <key id="print-key" key="P" modifiers="control" command="print-cmd"/>
+    <key id="copy-key" key="C" modifiers="control" command="copy-cmd"/>
+    <key id="select-all-key" key="A" modifiers="control" command="select-all-cmd"/>
+
+    <key key="F" modifiers="control" command="show-find-cmd"/>
+    <key keycode="VK_ESCAPE" command="hide-find-cmd"/>
+    <key keycode="VK_RETURN" command="apply-find-cmd"/>
+    <key id="find-next-key" keycode="VK_F3" command="find-next-cmd"/>
+    <key id="find-previous-key" keycode="VK_F3" modifiers="shift" command="find-next-cmd"/>
+  </keyset>
+
+  <toolbar id="toolbar">
+    <toolbarbutton id="back-btn" command="goBack-cmd" tooltiptext="Previous selection [Alt + Left]"/>
+    <toolbarbutton id="fwd-btn" command="goFwd-cmd" tooltiptext="Next selection [Alt + Right]"/>
+    <toolbarbutton id="save-btn" command="save-cmd" tooltiptext="Export report to HTML [Ctrl + S]"/>
+    <toolbarbutton id="print-btn" command="print-cmd" tooltiptext="Print preview [Ctrl + P]"/>
+    <toolbarseparator/>
+    <toolbarbutton id="expand-all-btn" tooltiptext="Expand all" oncommand="diff3rptViewer.OnExpandAll();"/>
+    <toolbarbutton id="collapse-all-btn" tooltiptext="Collapse all" oncommand="diff3rptViewer.OnCollapseAll();"/>
+    <toolbarseparator/>
+    <toolbarbutton id="toggle-find-btn" oncommand="diff3rptViewer.OnShowFind(null);" tooltiptext="Show find toolbar [Ctrl+F]" type="checkbox"/>
+    <toolbarseparator/>
+    <toolbarspacer/>
+    <toolbarseparator/>
+    <toolbarbutton id="electrical-filter-btn" type="checkbox" command="electric-filter-cmd" tooltiptext="Toggle Electrical constraint changes: displayed"/>
+    <toolbarbutton id="physical-filter-btn" type="checkbox" command="physical-filter-cmd" tooltiptext="Toggle Physical constraint changes: displayed"/>
+    <toolbarbutton id="spacing-filter-btn" type="checkbox" command="spacing-filter-cmd" tooltiptext="Toggle Spacing constraint changes: displayed"/>
+    <toolbarbutton id="SNS-filter-btn" type="checkbox" command="SNS-filter-cmd" tooltiptext="Toggle Same Net Spacing constraint changes: displayed"/>
+    <toolbarbutton id="DFF-filter-btn" type="checkbox" command="DFF-filter-cmd" tooltiptext="Toggle Design For Fabrication constraint changes: displayed"/>
+    <toolbarbutton id="property-filter-btn" type="checkbox" command="property-filter-cmd" tooltiptext="Toggle Property changes: displayed"/>
+    <toolbarbutton id="structure-filter-btn" type="checkbox" command="structure-filter-cmd" tooltiptext="Toggle Structural changes: displayed"/>
+  </toolbar>
+  <toolbar id="find-toolbar" style="display:none">
+    <textbox id="tb-find" oninput="diff3rptViewer.OnFindTextChanged();"/>
+    <toolbarbutton id="apply-find-btn" tooltiptext="Search for the specified string" command="apply-find-cmd"/>
+    <toolbarbutton id="find-next-btn" tooltiptext="Find next object" command="find-next-cmd"/>
+    <toolbarbutton id="find-prev-btn" tooltiptext="Find previous object" command="find-previous-cmd"/>
+    <checkbox id="cb-case-sensitive-find" label="Case-sensitive"/>
+    <spacer/>
+    <label id="find-results-label" value=""/>
+  </toolbar>
+
+  <browser type="content-primary" id="diff3report-html-browser" tooltip="diff3report-tooltip-in-report" flex="1" contextmenu="clipmenu"/>
+
+</window>

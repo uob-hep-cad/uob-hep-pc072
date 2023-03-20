@@ -1,0 +1,90 @@
+#back-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/back.gif");
+}
+#fwd-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/fwd.gif");
+}
+#save-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/save.png");
+}
+#print-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/print.gif");
+}
+#close-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/close.gif");
+}
+
+#expand-all-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/expand-all.png");
+}
+#collapse-all-btn
+{
+	list-style-image: url("chrome://diff3rptViewer/skin/default/img/collapse-all.png");
+}
+
+#electrical-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/electrical.png");
+}
+#spacing-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/spacing.png");
+}
+#physical-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/physical.png");
+}
+#SNS-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/SNS.png");
+}
+#DFF-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/DFF.png");
+}
+#property-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/property.png");
+}
+#structure-filter-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/structure.png");
+}
+
+
+#toggle-find-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/find.png")
+}
+#apply-find-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/apply-find.png")
+}
+#find-next-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/find-next.png")
+}
+#find-prev-btn
+{
+    list-style-image: url("chrome://diff3rptViewer/skin/default/img/find-prev.png")
+}
+toolbar toolbarbutton[disabled="true"]
+{
+    -moz-image-region: rect(24px, 24px, 48px, 0px);
+}
+toolbar toolbarbutton[disabled="false"], #toolbar toolbarbutton:not([disabled])
+{
+    -moz-image-region: rect(0px, 24px, 24px, 0px);
+}
+toolbar toolbarbutton[checked="true"]
+{
+    -moz-image-region: rect(48px, 24px, 72px, 0px);
+}
+
+
