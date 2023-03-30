@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-30T15:12:26</modificationTime>
+    <modificationTime>2023-03-30T15:25:51</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>171</instanceid>
+        <instanceid>175</instanceid>
         <netid>160</netid>
-        <insttermid>477</insttermid>
+        <insttermid>485</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -455,6 +455,30 @@
             </term>
             <term>
               <id>T214</id>
+              <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S23</id>
+          <library>cnpassive</library>
+          <name>elcaptan</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T223</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T224</id>
               <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
             </term>
@@ -2251,27 +2275,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I144</id>
-          <cellid>S2</cellid>
-          <name>page1_i174</name>
-          <pins>
-            <pin>
-              <id>M426</id>
-              <termid>T6</termid>
-              <connections>
-                <connection net="N17" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M427</id>
-              <termid>T7</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I145</id>
           <cellid>S4</cellid>
           <name>page1_i175</name>
@@ -2328,27 +2331,6 @@
             <pin>
               <id>M433</id>
               <termid>T11</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I148</id>
-          <cellid>S2</cellid>
-          <name>page4_i169</name>
-          <pins>
-            <pin>
-              <id>M434</id>
-              <termid>T6</termid>
-              <connections>
-                <connection net="N17" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M435</id>
-              <termid>T7</termid>
               <connections>
                 <connection net="N3" />
               </connections>
@@ -2751,6 +2733,106 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I172</id>
+          <cellid>S23</cellid>
+          <name>page1_i194</name>
+          <pins>
+            <pin>
+              <id>M478</id>
+              <termid>T223</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M479</id>
+              <termid>T224</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I173</id>
+          <cellid>S23</cellid>
+          <name>page1_i196</name>
+          <pins>
+            <pin>
+              <id>M480</id>
+              <termid>T223</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M481</id>
+              <termid>T224</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I174</id>
+          <cellid>S23</cellid>
+          <name>page4_i184</name>
+          <pins>
+            <pin>
+              <id>M482</id>
+              <termid>T223</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M483</id>
+              <termid>T224</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I175</id>
+          <cellid>S23</cellid>
+          <name>page4_i185</name>
+          <pins>
+            <pin>
+              <id>M484</id>
+              <termid>T223</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M485</id>
+              <termid>T224</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2891,7 +2973,6 @@
               <instance ref="i165"></instance>
               <instance ref="i166"></instance>
               <instance ref="i167"></instance>
-              <instance ref="i174"></instance>
               <instance ref="i175"></instance>
               <instance ref="i176"></instance>
               <instance ref="i177"></instance>
@@ -2900,6 +2981,8 @@
               <instance ref="i189"></instance>
               <instance ref="i191"></instance>
               <instance ref="i192"></instance>
+              <instance ref="i194"></instance>
+              <instance ref="i196"></instance>
             </instances>
           </page>
           <page number="2">
@@ -2989,7 +3072,6 @@
               <instance ref="i148"></instance>
               <instance ref="i167"></instance>
               <instance ref="i168"></instance>
-              <instance ref="i169"></instance>
               <instance ref="i170"></instance>
               <instance ref="i171"></instance>
               <instance ref="i172"></instance>
@@ -3001,6 +3083,8 @@
               <instance ref="i179"></instance>
               <instance ref="i182"></instance>
               <instance ref="i183"></instance>
+              <instance ref="i184"></instance>
+              <instance ref="i185"></instance>
             </instances>
           </page>
         </pages>

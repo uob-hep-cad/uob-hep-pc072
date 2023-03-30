@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v118.brd                             )
+(    Drawing          : mib_rev2_v119.brd                             )
 (    Software Version : 17.4S033                                      )
-(    Date/Time        : Thu Mar 30 15:13:03 2023                      )
+(    Date/Time        : Thu Mar 30 15:25:57 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v118.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v118.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v119.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v119.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v120.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
@@ -36,15 +36,27 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtc
 ------ Oversights/Warnings/Errors ------
 
 
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'CTE_VISHAY_597D-M' used by RefDes C25 for device 'ELCAPTAN_SMD-220UF,25V': WARNING(SPMHUT-127): Could not find padstack R730_230. [help]
+
+#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C52', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'POWER'.
+
+#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
+
+WARNING(SPMHNI-295): Component 'C25', property 'ROOM'. Value 'MAIN_PWR' was overwritten by 'POWER'.
+
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Thu Mar 30 15:13:03 2023
+	Start time: Thu Mar 30 15:25:58 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Thu Mar 30 15:13:03 2023
+Finished Constraint Update	Time: Thu Mar 30 15:25:58 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -115,9 +127,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 30 15:13:02 2023
+netrev run on Mar 30 15:25:56 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 30-Mar-2023 AT 15:12:57
+   PACKAGING ON 30-Mar-2023 AT 15:25:51
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -148,8 +160,8 @@ netrev run on Mar 30 15:13:02 2023
 
  No error detected
  No oversight detected
- No warning detected
+  3 warnings detected
 
-cpu time      0:03:12
+cpu time      0:03:34
 elapsed time  0:00:02
 
