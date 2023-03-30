@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-17T10:32:53</modificationTime>
+    <modificationTime>2023-03-30T15:08:04</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>42</instanceid>
-        <netid>95</netid>
-        <insttermid>167</insttermid>
+        <instanceid>44</instanceid>
+        <netid>98</netid>
+        <insttermid>171</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -691,6 +691,30 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S15</id>
+          <library>cnpassive</library>
+          <name>rsmd0603</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T122</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T123</id>
+              <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -884,10 +908,6 @@
           <name>red_led</name>
         </net>
         <net>
-          <id>N72</id>
-          <name>reset</name>
-        </net>
-        <net>
           <id>N73</id>
           <name>rtm_ps</name>
         </net>
@@ -958,6 +978,18 @@
         <net>
           <id>N95</id>
           <name>page1_sense_12c_sda</name>
+        </net>
+        <net>
+          <id>N96</id>
+          <name>reset*</name>
+        </net>
+        <net>
+          <id>N97</id>
+          <name>unnamed_1_inv1chod_171p_a</name>
+        </net>
+        <net>
+          <id>N98</id>
+          <name>unnamed_1_inv1chod_171p_y</name>
         </net>
         <net>
           <id>N30</id>
@@ -1263,7 +1295,7 @@
               <id>M25</id>
               <termid>T21</termid>
               <connections>
-                <connection net="N13" />
+                <connection net="N97" />
               </connections>
             </pin>
             <pin>
@@ -1290,7 +1322,7 @@
               <id>M29</id>
               <termid>T25</termid>
               <connections>
-                <connection net="N72" />
+                <connection net="N98" />
               </connections>
             </pin>
           </pins>
@@ -1630,7 +1662,7 @@
               <id>M65</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N72" />
+                <connection net="N96" />
               </connections>
             </pin>
           </pins>
@@ -1819,7 +1851,7 @@
               <id>M83</id>
               <termid>T8</termid>
               <connections>
-                <connection net="N13" />
+                <connection net="N97" />
               </connections>
             </pin>
           </pins>
@@ -2187,7 +2219,7 @@
               <id>M134</id>
               <termid>T92</termid>
               <connections>
-                <connection net="N84" />
+                <connection net="N82" />
               </connections>
             </pin>
             <pin>
@@ -2292,7 +2324,7 @@
               <id>M150</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N72" />
+                <connection net="N96" />
               </connections>
             </pin>
             <pin>
@@ -2453,6 +2485,56 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I43</id>
+          <cellid>S15</cellid>
+          <name>page1_i232</name>
+          <pins>
+            <pin>
+              <id>M168</id>
+              <termid>T122</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N98" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M169</id>
+              <termid>T123</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N96" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I44</id>
+          <cellid>S15</cellid>
+          <name>page1_i233</name>
+          <pins>
+            <pin>
+              <id>M170</id>
+              <termid>T122</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N13" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M171</id>
+              <termid>T123</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N97" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2547,7 +2629,7 @@
               </net>
               <net ref="presence_12v"></net>
               <net ref="red_led"></net>
-              <net ref="reset"></net>
+              <net ref="reset*"></net>
               <net ref="rtm_ps"></net>
               <net ref="sense_12c_scl"></net>
               <net ref="sense_12c_sda"></net>
@@ -2555,6 +2637,8 @@
               <net ref="tdi"></net>
               <net ref="tdo"></net>
               <net ref="tms"></net>
+              <net ref="unnamed_1_inv1chod_171p_a"></net>
+              <net ref="unnamed_1_inv1chod_171p_y"></net>
               <net ref="vp12"></net>
             </nets>
             <instances>
@@ -2600,6 +2684,8 @@
               <instance ref="201p"></instance>
               <instance ref="202p"></instance>
               <instance ref="203p"></instance>
+              <instance ref="i232"></instance>
+              <instance ref="i233"></instance>
             </instances>
           </page>
         </pages>

@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 17-Mar-2023 AT 11:36:24 }
+{ Packager-XL run on 30-Mar-2023 AT 15:25:51 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='17-Mar-2023 AT 11:36:24';
+ POST_TIME='30-Mar-2023 AT 15:25:51';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -815,43 +815,40 @@ occ.\08_ timing\(sch_1):page1_i787@cnpassive.capcersmdcl2(chips)',
 ips/chips.prt';
 
 PART_NAME
- C25 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
- ROOM='MAIN_PWR';
+ C25 'ELCAPTAN_SMD-220UF,25V':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I174@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I196@CNPASSIVE.ELCAPTAN(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_i174@ocad_parts_lib.cap_pol(chips)',
+occ.\02_ power\(sch_1):page1_i196@cnpassive.elcaptan(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_i174@ocad_parts_lib.cap_pol(chips)',
- PATH='I174',
+occ.\02_ power\(sch_1):page1_i196@cnpassive.elcaptan(chips)',
+ PATH='I196',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
- DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
-df',
- TOLERANCE='20%',
- SOURCE_PACKAGE='CAP_POL',
- PSPICE='C',
- PART_TYPE='Polymer',
- MPN='6TPE470MAZU',
- MANUFACTURER='Panasonic Electronic Components',
- DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
- AVAILABILITY='8,000',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='1',
- XY='(875,-2100)',
- ROT='0',
+ XY='(525,-2150)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP2917',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
- VOLTAGE='6.3V',
- ROOM='MAIN_PWR',
- PART_NUMBER='6TPE470MAZU',
- VALUE='470UF',
- PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+ PACK_TYPE='SMD',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='ELCAPTAN_SMD-220UF,25V',
+ VOLTAGE='25V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/~
+chips.prt';
 
 PART_NAME
  C26 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
@@ -1535,7 +1532,7 @@ df',
  AVAILABILITY='8,000',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='2',
- XY='(6275,-2625)',
+ XY='(6275,-2675)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP2917',
@@ -1775,43 +1772,76 @@ occ.\02_ power\(sch_1):page1_i192@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
- C52 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
- ROOM='MAIN_PWR';
+ C51 'ELCAPTAN_SMD-220UF,25V':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I169@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I194@CNPASSIVE.ELCAPTAN(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page4_i169@ocad_parts_lib.cap_pol(chips)',
+occ.\02_ power\(sch_1):page1_i194@cnpassive.elcaptan(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_i169@ocad_parts_lib.cap_pol(chips)',
- PATH='I169',
+occ.\02_ power\(sch_1):page1_i194@cnpassive.elcaptan(chips)',
+ PATH='I194',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(825,-2150)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='ELCAPTAN_SMD-220UF,25V',
+ VOLTAGE='25V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/~
+chips.prt';
+
+PART_NAME
+ C52 'ELCAPTAN_SMD-220UF,25V':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I185@CNPASSIVE.ELCAPTAN(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i185@cnpassive.elcaptan(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i185@cnpassive.elcaptan(chips)',
+ PATH='I185',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
-df',
- TOLERANCE='20%',
- SOURCE_PACKAGE='CAP_POL',
- PSPICE='C',
- PART_TYPE='Polymer',
- MPN='6TPE470MAZU',
- MANUFACTURER='Panasonic Electronic Components',
- DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
- AVAILABILITY='8,000',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='2',
- XY='(900,-2725)',
- ROT='0',
+ XY='(600,-2775)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP2917',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
- VOLTAGE='6.3V',
- ROOM='MAIN_PWR',
- PART_NUMBER='6TPE470MAZU',
- VALUE='470UF',
- PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+ PACK_TYPE='SMD',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='ELCAPTAN_SMD-220UF,25V',
+ VOLTAGE='25V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/~
+chips.prt';
 
 PART_NAME
  C53 'CAP_NP-C0402C104K9RACTU,CAP_NPA':
@@ -1839,7 +1869,7 @@ occ.\01_ module management ctrl\(sch_1):page1_198p@ocad_parts_lib.cap_np(chips)'
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(950,-3025)',
+ XY='(1400,-3100)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -2014,6 +2044,42 @@ occ.\02_ power\(sch_1):page3_194p@ocad_parts_lib.cap_np(chips)',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C58 'ELCAPTAN_SMD-220UF,25V':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I184@CNPASSIVE.ELCAPTAN(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i184@cnpassive.elcaptan(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i184@cnpassive.elcaptan(chips)',
+ PATH='I184',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(900,-2775)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='ELCAPTAN_SMD-220UF,25V',
+ VOLTAGE='25V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/~
+chips.prt';
 
 PART_NAME
  C59 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
@@ -8866,6 +8932,41 @@ occ.\07_ backplane interface\(sch_1):page1_21p@ocad_parts_lib.mt_hole(chips)',
  PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
 
 PART_NAME
+ MMC 'RSMD0603_-00,':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I233@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i233@cnpassive.rsmd0603(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i233@cnpassive.rsmd0603(chips)',
+ PATH='I233',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(750,-3350)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ TOL='',
+ VALUE='00',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
+
+PART_NAME
  P1 'RECPT 5X2 100MIL-RECP5X2,RECPTB':;
 
 SECTION_NUMBER 1
@@ -10883,7 +10984,7 @@ occ.\01_ module management ctrl\(sch_1):page1_184p@discrete.r(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(1275,-3050)',
+ XY='(1725,-3125)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12209,6 +12310,41 @@ occ.\02_ power\(sch_1):page2_i183@cnpassive.rsmd0402(chips)',
 chips.prt';
 
 PART_NAME
+ R89 'RSMD0603_-00,':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I232@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i232@cnpassive.rsmd0603(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i232@cnpassive.rsmd0603(chips)',
+ PATH='I232',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(1550,-3350)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ TOL='',
+ VALUE='00',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
+
+PART_NAME
  R92 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
  ROOM='SFP0';
 
@@ -12308,7 +12444,7 @@ occ.\01_ module management ctrl\(sch_1):page1_193p@discrete.r(chips)',
  DESCRIPTION='RES SMD 10K OHM 1% 1/20W 0402',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(525,-3050)',
+ XY='(975,-3125)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -16715,7 +16851,7 @@ ps)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(825,-3225)',
+ XY='(1275,-3300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='SOT23-5',

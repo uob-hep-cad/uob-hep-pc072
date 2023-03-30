@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 17-Mar-2023 AT 11:36:24 }
+{ Packager-XL run on 30-Mar-2023 AT 15:25:51 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1926,6 +1926,48 @@ primitive 'DIODE-1N4148W-13-F,DIODE-1N414A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='DIODE';
       PARENT_PPT_PART='DIODE-1N4148W-13-F,DIODE';
+  end_body;
+end_primitive;
+primitive 'ELCAPTAN_SMD-220UF,25V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='ELCAPTAN';
+      BODY_NAME='ELCAPTAN';
+      CLASS='DISCRETE';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      PHYS_DES_PREFIX='C';
+      DESCRIPTION='Solid Tantalum Chip Capacitor TANTAMOUNT(R) Ultra-Low ESR';
+      VALUE='220uF';
+      JEDEC_TYPE='CTE_VISHAY_597D-M';
+      PART_NUMBER='597D227X0025M2T';
+      MANUFACTURER='VISHAY';
+      CASE='M';
+      SMD='YES';
+      VOLT='25V';
+      TOL='20%';
+      STATUS='Not Preferred';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/cap_vishay_59~
+7D-series.pdf';
+      PARENT_PART_TYPE='ELCAPTAN_SMD';
+      PARENT_PPT='ELCAPTAN';
+      PARENT_PPT_PART='ELCAPTAN_SMD-220UF,25V';
   end_body;
 end_primitive;
 primitive 'FERRITE_SMD-BLM21PG221SN1,MURAA';
