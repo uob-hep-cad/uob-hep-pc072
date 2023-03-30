@@ -2,31 +2,36 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v117.brd         |
-|                                                    Thu Mar 30 15:08:10 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v118.brd         |
+|                                                    Thu Mar 30 15:13:03 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DCDC_3V3_PG  pins MOVED FROM this net (to net name listed on right)
-                                 U13.8           12.2428 26.2850
-                                                                    DCDC_2V5_PG
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C44.2           55.9520 20.5000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  REF_CLK_P<2> pins ADDED TO this existing net (pins not previously on any net)
+                                 C192.2          19.4989 59.0000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  REF_CLK_P<8> pins ADDED TO this existing net (pins not previously on any net)
+                                 C179.2          19.4989 47.0000
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v117.brd         |
-|                                                    Thu Mar 30 15:08:10 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v118.brd         |
+|                                                    Thu Mar 30 15:13:03 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R89.2                          XY             (1550,-3350)
+ C44.2          59.0000 20.5000 XY             (6275,-2675)
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
+|       Nets changed          :       3                                        |
 |       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|
