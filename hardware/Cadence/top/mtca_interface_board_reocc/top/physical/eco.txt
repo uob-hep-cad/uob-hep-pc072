@@ -2,16 +2,93 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v50.brd  |
-|                                                    Fri Mar 17 11:36:33 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v116.brd         |
+|                                                    Thu Mar 30 14:59:24 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CLKIN_P0>    net RENAMED (to net name listed on right)           CLKIN_P<0>   
+  AMC_N_ENABLE pins MOVED FROM this net (to net name listed on right)
+                                 R94.2            9.5000 18.3000
+                                                      UNNAMED_1_INV1CHOD_171P_A
+                                 U15.2           12.7500 16.4546
+                                                      UNNAMED_1_INV1CHOD_171P_A
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J7.41            3.0070 35.2499
+                                 MMC.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins MOVED FROM this net (to net name listed on right)
+                                 R52.2           14.7500 19.2000
+                                                                         RESET*
+                                 U13.20          14.3870 21.6408
+                                                                         RESET*
+                                 U15.4           13.7025 19.0454
+                                                      UNNAMED_1_INV1CHOD_171P_Y
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET*       pins ADDED TO this new net
+                                 R89.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_INV1CHOD_171P_A pins ADDED TO this new net
+                                 MMC.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_INV1CHOD_171P_Y pins ADDED TO this new net
+                                 R89.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v116.brd         |
+|                                                    Thu Mar 30 14:59:24 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ MMC                 RSMD0603_-00,         
+ R89                 RSMD0603_-00,         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v116.brd         |
+|                                                    Thu Mar 30 14:59:24 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C53.2          10.5000 18.7500 XY             (1400,-3100)
+ MMC.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ MMC.2                          SIZE           1
+ MMC.2                          XY             (750,-3350)
+ R52.2          14.7500 18.7500 XY             (1725,-3125)
+ R89.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R89.2                          SIZE           1
+ R89.2                          XY             (1575,-3350)
+ R94.2           9.5000 18.7500 XY             (975,-3125)
+ U15.4          12.7500 17.7500 XY             (1275,-3300)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v116.brd         |
+|                                                    Thu Mar 30 14:59:24 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ MMC.1                          CDS_PINID      A(0)
+ MMC.2                          CDS_PINID      B(0)
+ R89.1                          CDS_PINID      A(0)
+ R89.2                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      10                                        |
+|       Components added      :       2                                        |
+|       Pin property added    :       4                                        |
+|       Slot property added   :      10                                        |
 |                                                                              |
-|   Total ECO changes reported:       1                                        |
+|   Total ECO changes reported:      26                                        |
 |------------------------------------------------------------------------------|

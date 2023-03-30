@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 17-Mar-2023 AT 11:36:24 }
+{ Packager-XL run on 30-Mar-2023 AT 14:59:19 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='17-Mar-2023 AT 11:36:24';
+ POST_TIME='30-Mar-2023 AT 14:59:19';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -1839,7 +1839,7 @@ occ.\01_ module management ctrl\(sch_1):page1_198p@ocad_parts_lib.cap_np(chips)'
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(950,-3025)',
+ XY='(1400,-3100)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -8866,6 +8866,41 @@ occ.\07_ backplane interface\(sch_1):page1_21p@ocad_parts_lib.mt_hole(chips)',
  PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
 
 PART_NAME
+ MMC 'RSMD0603_-00,':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I233@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i233@cnpassive.rsmd0603(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i233@cnpassive.rsmd0603(chips)',
+ PATH='I233',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(750,-3350)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ TOL='',
+ VALUE='00',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
+
+PART_NAME
  P1 'RECPT 5X2 100MIL-RECP5X2,RECPTB':;
 
 SECTION_NUMBER 1
@@ -10883,7 +10918,7 @@ occ.\01_ module management ctrl\(sch_1):page1_184p@discrete.r(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(1275,-3050)',
+ XY='(1725,-3125)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12209,6 +12244,41 @@ occ.\02_ power\(sch_1):page2_i183@cnpassive.rsmd0402(chips)',
 chips.prt';
 
 PART_NAME
+ R89 'RSMD0603_-00,':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I232@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i232@cnpassive.rsmd0603(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i232@cnpassive.rsmd0603(chips)',
+ PATH='I232',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(1575,-3350)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ TOL='',
+ VALUE='00',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
+
+PART_NAME
  R92 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
  ROOM='SFP0';
 
@@ -12308,7 +12378,7 @@ occ.\01_ module management ctrl\(sch_1):page1_193p@discrete.r(chips)',
  DESCRIPTION='RES SMD 10K OHM 1% 1/20W 0402',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(525,-3050)',
+ XY='(975,-3125)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -16715,7 +16785,7 @@ ps)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(825,-3225)',
+ XY='(1275,-3300)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='SOT23-5',

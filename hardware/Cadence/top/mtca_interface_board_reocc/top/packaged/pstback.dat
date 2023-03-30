@@ -1,4 +1,4 @@
-{ Packager-XL run on 17-Mar-2023 AT 11:36:24 }
+{ Packager-XL run on 30-Mar-2023 AT 14:59:19 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "CAP_POL","105P": LOCATION = "C80" #&CDS_LOCATION = "C80" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -1773,6 +1773,12 @@ BODY = "LP_515XXX","202P": LOCATION = "U1" #&CDS_LOCATION = "U1" #SEC = "1" #&SE
 BODY = "R","203P": LOCATION = "R55" #&CDS_LOCATION = "R55" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0603","I232": LOCATION = "R89" #&CDS_LOCATION = "R89" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0603","I233": LOCATION = "MMC" #&CDS_LOCATION = "MMC" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_6p@mtca_interface_board_reocc.\07_ backplane interface\(sch_1):page2";
 BODY = "MT_HOLE","17P": LOCATION = "MH7" #&CDS_LOCATION = "MH7" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
