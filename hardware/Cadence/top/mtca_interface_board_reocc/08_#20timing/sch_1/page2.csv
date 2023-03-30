@@ -2,104 +2,104 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022}
 "PAGE_NUMBER" = 2;
 0"NC";
-2"CLKGEN_RST";
-1"CLKGEN_RST";
-3"CLKIN_P<0>";
-4"CLK_SEL1";
-5"CLK_SEL0";
-6"N02371";
-7"CLKIN_N<2>";
-8"CLKIN_P<3>";
-9"CLKIN_N<3>";
-10"XA";
-11"VP1V8\G";
+1"CLKIN1_P";
+2"CLKIN0_P";
+3"CLKIN0_N";
+4"CLKIN1_N";
+5"CLKIN2_P";
+6"CLKIN2_N";
+8"CLKGEN_RST";
+7"CLKGEN_RST";
+9"I2C_SEL";
+10"VDDA_CLK";
+11"VDD_CLK";
 12"GND\G";
-13"VCC3V3\g";
-14"P2V5\g";
-15"CLKIN_N<0>";
-16"CLKIN_P<1>";
-17"CLKIN_P<2>";
-18"SFP0_CLKGEN_N";
-19"SFP0_CLKGEN_P";
-20"SFP1_CLKGEN_N";
-21"CLKIN_N<1>";
-22"FBCLK_P";
-23"FBCLK_N";
+13"VDDO_CLK";
+14"GND\G";
+15"VCC3V3\G";
+16"FBCLK_N";
+17"CLKGEN_CLK_N<1>";
+18"DFF_REF_CLK_N<0>";
+19"CLKGEN_IO<10..0>";
+20"VP1V8\G";
+21"GND\G";
+22"GND\G";
+23"GND\G";
 24"GND\G";
-25"SFP0_CLKGEN_P";
-26"SFP0_CLKGEN_N";
-27"SFP1_CLKGEN_P";
-28"CLK_I2C_SCL";
-29"CLK_I2C_SDA";
-30"I2C_SEL";
-31"VCC3V3\G";
-32"GND\G";
-33"VDD_CLK";
-34"VDDA_CLK";
-35"VDDO_CLK";
-36"AVDD\g";
-37"XB";
-38"GND\G";
-39"P2V5\g";
-40"GND\G";
-41"GND\G";
-42"CLKGEN_INTR";
+25"P2V5\g";
+26"AVDD\g";
+27"VCC3V3\g";
+28"GND\G";
+29"P2V5\g";
+30"GND\G";
+31"CLKGEN_INTR";
+32"DFF_REF_CLK_N<1>";
+33"CLK_I2C_SCL";
+34"CLK_I2C_SDA";
+35"SFP0_CLKGEN_P";
+36"SFP0_CLKGEN_N";
+37"SFP1_CLKGEN_P";
+38"FBCLK_P";
+39"CLKIN3_N";
+40"SFP2_CLKGEN_N";
+41"SFP1_CLKGEN_N";
+42"CLK_TST_N";
 43"CLK_SEL1";
-44"CLKGEN_IO<10..0>";
-45"CLKGEN_CLK_P<1..0>";
-46"CLKGEN_RST";
-47"CLK_I2C_SDA";
-48"CLK_TST_P";
-49"CLK_TST_N";
-50"UN$2$CAPCERSMDCL2$I366$B";
-51"DFF_REF_CLK_P<2>";
-52"DFF_REF_CLK_N<2>";
-53"SCOPE_P";
-54"CLKGEN_CLK_P<0>";
-55"CLKGEN_CLK_N<1..0>";
-56"CLKGEN_LOL";
-57"CLK_SEL0";
-58"CLK_I2C_SCL";
-59"SCOPE_N";
-60"UN$2$CAPCERSMDCL2$I367$B";
-61"GND\G";
-62"DFF_REF_CLK_N<0>";
-63"DFF_REF_CLK_P<1>";
-64"DFF_REF_CLK_N<1>";
-65"REFCLK_OUT1_N";
-66"REFCLK_OUT1_P";
-67"REFCLK_OUT0_N";
-68"REFCLK_OUT0_P";
-69"DFF_REF_CLK_P<0>";
-70"FBCLK_N";
-71"FBCLK_P";
-72"CLKGEN_CLK_P<1>";
-73"CLKGEN_CLK_N<1>";
-74"CLKGEN_CLK_N<0>";
-75"CLKGEN_INTR";
-76"CLKGEN_LOL";
-77"GND\G";
+44"CLK_SEL0";
+45"N02371";
+46"CLKIN3_P";
+47"XA";
+48"SFP2_CLKGEN_P";
+49"FBCLK_N";
+50"XB";
+51"CLK_SEL1";
+52"CLKGEN_CLK_P<1..0>";
+53"CLKGEN_RST";
+54"CLK_I2C_SDA";
+55"CLK_TST_P";
+56"UN$2$CAPCERSMDCL2$I366$B";
+57"DFF_REF_CLK_P<2>";
+58"DFF_REF_CLK_N<2>";
+59"SCOPE_P";
+60"CLKGEN_CLK_P<0>";
+61"CLKGEN_CLK_N<1..0>";
+62"CLKGEN_LOL";
+63"CLK_SEL0";
+64"CLK_I2C_SCL";
+65"SCOPE_N";
+66"UN$2$CAPCERSMDCL2$I367$B";
+67"DFF_REF_CLK_P<1>";
+68"REFCLK_OUT1_N";
+69"REFCLK_OUT1_P";
+70"REFCLK_OUT0_N";
+71"REFCLK_OUT0_P";
+72"DFF_REF_CLK_P<0>";
+73"FBCLK_P";
+74"CLKGEN_CLK_P<1>";
+75"CLKGEN_CLK_N<0>";
+76"CLKGEN_INTR";
+77"CLKGEN_LOL";
 %"vcc_bar"
 "1","(625,-1075)","0","mtca_interface_board","131P";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"VP1V8"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"11;
+"HOTSPOT_0"20;
 %"gnd"
 "1","(6550,-3575)","2","mtca_interface_board","133P";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"61;
+"HOTSPOT_0"21;
 %"gnd"
 "1","(2875,-3500)","2","mtca_interface_board","134P";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"77;
+"HOTSPOT_0"22;
 %"cap_np_0"
 "1","(1750,-2950)","3","ocad_parts_lib","259P";
 ;
@@ -127,9 +127,9 @@ SEC"1"
 ALT_SYMBOLS""
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"27;
+$PN"1"37;
 "2"
-$PN"2"16;
+$PN"2"1;
 %"cap_np_0"
 "1","(1750,-2800)","3","ocad_parts_lib","266P";
 ;
@@ -157,9 +157,9 @@ ALT_SYMBOLS""
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"25;
+$PN"1"35;
 "2"
-$PN"2"3;
+$PN"2"2;
 %"ind"
 "1","(975,-1250)","1","ind","268P";
 ;
@@ -177,9 +177,9 @@ PART_NUMBER"BLM18AG121SN1D"
 VALUE"120  Ohm@100MHz"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"11;
+$PN"1"20;
 "2"
-$PN"2"33;
+$PN"2"11;
 %"r"
 "1","(6875,-2950)","1","discrete","269P";
 ;
@@ -203,9 +203,9 @@ DATASHEET"C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.pdf"
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"50;
+$PN"1"56;
 "2"
-$PN"2"53;
+$PN"2"59;
 %"r"
 "1","(2675,-2500)","3","discrete","270P";
 ;
@@ -232,7 +232,7 @@ ROOM"CLK_GEN_X12";
 "1"
 $PN"1"24;
 "2"
-$PN"2"6;
+$PN"2"45;
 %"cap_np_0"
 "1","(1750,-3300)","1","ocad_parts_lib","276P";
 ;
@@ -260,9 +260,9 @@ ALT_SYMBOLS""
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"23;
+$PN"1"49;
 "2"
-$PN"2"9;
+$PN"2"39;
 %"r"
 "1","(1575,-2325)","4","discrete","278P";
 ;
@@ -287,9 +287,9 @@ REUSE_ANNOTATE"TRUE"
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"2,1;
+$PN"1"8,7;
 "2"
-$PN"2"31;
+$PN"2"15;
 %"r"
 "1","(1775,-2150)","3","discrete","279P";
 ;
@@ -314,9 +314,9 @@ REUSE_ANNOTATE"TRUE"
 PART_NUMBER"ERJ-2RKF4991X"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"31;
+$PN"1"15;
 "2"
-$PN"2"30;
+$PN"2"9;
 %"si5395a-a-gm"
 "1","(3800,-2900)","0","ocad_parts_lib","285P";
 ;
@@ -339,47 +339,47 @@ SEC"1"
 PART_NUMBER"SI5395A-A-GM"
 ROOM"CLK_GEN_X12";
 "OUT1"
-$PN"28"66;
+$PN"28"69;
 "IN1"
-$PN"1"16;
+$PN"1"1;
 "IN2"
-$PN"14"17;
+$PN"14"5;
 "OUT2"
-$PN"31"69;
+$PN"31"72;
 "OUT3"
-$PN"35"63;
+$PN"35"67;
 "IN1B \B"
-$PN"2"21;
+$PN"2"4;
 "IN_SEL0"
-$PN"3"5;
+$PN"3"44;
 "IN_SEL1"
-$PN"4"4;
+$PN"4"43;
 "RSVD"
 $PN"5"0;
 "RSTB \B"
-$PN"6"2,1;
+$PN"6"8,7;
 "X1/NC"
 $PN"7"0;
 "XA/NC"
-$PN"8"10;
+$PN"8"47;
 "XB/NC"
-$PN"9"37;
+$PN"9"50;
 "X2/NC"
 $PN"10"0;
 "OEB \B"
-$PN"11"6;
+$PN"11"45;
 "INTRB"
-$PN"12"75;
+$PN"12"76;
 "VDDA"
-$PN"13"34;
+$PN"13"10;
 "IN2B \B"
-$PN"15"7;
+$PN"15"6;
 "SCLK"
-$PN"16"28;
+$PN"16"33;
 "A1/SDO"
 $PN"17"24;
 "SDA/SDIO"
-$PN"18"29;
+$PN"18"34;
 "A0/CSB \B"
 $PN"19"24;
 "OUT0AB"
@@ -387,87 +387,87 @@ $PN"20"0;
 "OUT0A"
 $PN"21"0;
 "VDDO0"
-$PN"22"35;
+$PN"22"13;
 "OUT0B"
-$PN"23"67;
+$PN"23"70;
 "OUT0"
-$PN"24"68;
+$PN"24"71;
 "FDEC"
-$PN"25"77;
+$PN"25"22;
 "VDDO1"
-$PN"26"35;
+$PN"26"13;
 "OUT1B"
-$PN"27"65;
+$PN"27"68;
 "VDDO2"
-$PN"29"35;
+$PN"29"13;
 "OUT2B"
-$PN"30"62;
+$PN"30"18;
 "VDD0"
-$PN"32"33;
+$PN"32"11;
 "VDDO3"
-$PN"33"35;
+$PN"33"13;
 "OUT3B"
-$PN"34"64;
+$PN"34"32;
 "VDDO4"
-$PN"36"35;
+$PN"36"13;
 "OUT4B"
-$PN"37"52;
+$PN"37"58;
 "OUT4"
-$PN"38"51;
+$PN"38"57;
 "I2C_SEL"
-$PN"39"30;
+$PN"39"9;
 "VDDO5"
-$PN"40"35;
+$PN"40"13;
 "OUT5B"
-$PN"41"49;
+$PN"41"42;
 "OUT5"
-$PN"42"48;
+$PN"42"55;
 "VDDO6"
-$PN"43"35;
+$PN"43"13;
 "OUT6B"
 $PN"44"0;
 "OUT6"
 $PN"45"0;
 "VDD1"
-$PN"46"33;
+$PN"46"11;
 "LOLB"
-$PN"47"76;
+$PN"47"77;
 "FINC"
-$PN"48"77;
+$PN"48"22;
 "VDDO7"
-$PN"49"35;
+$PN"49"13;
 "OUT7B"
-$PN"50"74;
+$PN"50"75;
 "OUT7"
-$PN"51"54;
+$PN"51"60;
 "VDDO8"
-$PN"52"35;
+$PN"52"13;
 "OUT8B"
-$PN"53"73;
+$PN"53"17;
 "OUT8"
-$PN"54"72;
+$PN"54"74;
 "OUT9B"
 $PN"55"0;
 "OUT9"
 $PN"56"0;
 "VDDO9"
-$PN"57"35;
+$PN"57"13;
 "OUT9AB"
-$PN"58"70;
+$PN"58"16;
 "OUT9A"
-$PN"59"71;
+$PN"59"73;
 "VDD2"
-$PN"60"33;
+$PN"60"11;
 "IN3/FB_IN"
-$PN"61"8;
+$PN"61"46;
 "IN3B/FB_INB \B"
-$PN"62"9;
+$PN"62"39;
 "IN0"
-$PN"63"3;
+$PN"63"2;
 "IN0B \B"
-$PN"64"15;
+$PN"64"3;
 "GND_PAD"
-$PN"65"12;
+$PN"65"23;
 %"cap_np_0"
 "1","(1750,-2850)","1","ocad_parts_lib","286P";
 ;
@@ -495,9 +495,9 @@ SEC"1"
 ALT_SYMBOLS""
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"26;
+$PN"1"36;
 "2"
-$PN"2"15;
+$PN"2"3;
 %"r"
 "1","(6875,-3000)","3","discrete","288P";
 ;
@@ -521,9 +521,9 @@ DATASHEET"C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.pdf"
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"60;
+$PN"1"66;
 "2"
-$PN"2"59;
+$PN"2"65;
 %"cap_np_0"
 "1","(1750,-3000)","1","ocad_parts_lib","290P";
 ;
@@ -551,9 +551,9 @@ ALT_SYMBOLS""
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"20;
+$PN"1"41;
 "2"
-$PN"2"21;
+$PN"2"4;
 %"r"
 "1","(6375,-3250)","0","discrete","296P";
 ;
@@ -576,9 +576,9 @@ PART_NUMBER"311-49.9LRCT-ND"
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"60;
+$PN"1"66;
 "2"
-$PN"2"61;
+$PN"2"21;
 %"r"
 "1","(2275,-3275)","1","discrete","298P";
 ;
@@ -602,9 +602,9 @@ JEDEC_TYPE"res0402"
 VALUE"100"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"8;
+$PN"1"46;
 "2"
-$PN"2"9;
+$PN"2"39;
 %"r"
 "1","(6625,-3250)","0","discrete","299P";
 ;
@@ -627,9 +627,9 @@ TOLERANCE"1%"
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"50;
+$PN"1"56;
 "2"
-$PN"2"61;
+$PN"2"21;
 %"r"
 "1","(2275,-2825)","1","discrete","301P";
 ;
@@ -653,9 +653,9 @@ CDS_LOCATION"R27"
 VALUE"100"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"3;
+$PN"1"2;
 "2"
-$PN"2"15;
+$PN"2"3;
 %"r"
 "1","(2275,-2975)","1","discrete","302P";
 ;
@@ -679,9 +679,9 @@ SOURCE_PACKAGE"R"
 VALUE"100"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"16;
+$PN"1"1;
 "2"
-$PN"2"21;
+$PN"2"4;
 %"cap_np_0"
 "1","(1750,-3250)","3","ocad_parts_lib","305P";
 ;
@@ -709,23 +709,23 @@ ALT_SYMBOLS""
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"22;
+$PN"1"38;
 "2"
-$PN"2"8;
+$PN"2"46;
 %"gnd"
 "1","(4825,-1525)","2","mtca_interface_board","44P";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"40;
+"HOTSPOT_0"14;
 %"gnd"
 "1","(3850,-4275)","2","mtca_interface_board","45P";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"12;
+"HOTSPOT_0"23;
 %"gnd"
 "1","(1950,-2450)","2","mtca_interface_board","47P";
 ;
@@ -739,14 +739,14 @@ ROOM"CLK_GEN_X12";
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"32;
+"HOTSPOT_0"12;
 %"vcc_bar"
 "1","(1525,-1925)","0","mtca_interface_board","9P";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"VCC3V3"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"31;
+"HOTSPOT_0"15;
 %"r"
 "1","(2300,-3125)","1","discrete","I319";
 ;
@@ -770,9 +770,9 @@ CDS_LIB"discrete"
 VALUE"100"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"17;
+$PN"1"5;
 "2"
-$PN"2"7;
+$PN"2"6;
 %"cap_np_0"
 "1","(1775,-3100)","3","ocad_parts_lib","I320";
 ;
@@ -800,9 +800,9 @@ SEC"1"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"19;
+$PN"1"48;
 "2"
-$PN"2"17;
+$PN"2"5;
 %"cap_np_0"
 "1","(1775,-3150)","1","ocad_parts_lib","I321";
 ;
@@ -830,9 +830,9 @@ ALT_SYMBOLS""
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"18;
+$PN"1"40;
 "2"
-$PN"2"7;
+$PN"2"6;
 %"ind"
 "1","(5800,-700)","1","ind","I327";
 ;
@@ -856,9 +856,9 @@ MANUFACTURER"Murata Electronics"
 DISTRIBUTOR_PARTNUMBER"490-1011-2-ND"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"35;
+$PN"1"13;
 "2"
-$PN"2"39;
+$PN"2"25;
 %"P2V5"
 "1","(6650,-575)","0","cnpower","I331";
 ;
@@ -868,7 +868,7 @@ BODY_TYPE"PLUMBING"
 HDL_POWER"P2V5"
 ROOM"CLK_GEN_X12";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"39;
+VHDL_INIT"1"25;
 %"PCOAX"
 "1","(7750,-2850)","0","cnconnector","I332";
 ;
@@ -879,7 +879,7 @@ CDS_LIB"cnconnector"
 NEEDS_NO_SIZE"TRUE"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
-"A\NAC"53;
+"A\NAC"59;
 %"PCOAX"
 "1","(7750,-3100)","0","cnconnector","I333";
 ;
@@ -890,7 +890,7 @@ NEEDS_NO_SIZE"TRUE"
 CDS_LIB"cnconnector"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
-"A\NAC"59;
+"A\NAC"65;
 %"9 MERGE"
 "1","(7650,-1600)","0","standard","I340";
 ;
@@ -899,16 +899,16 @@ NEEDS_NO_SIZE"TRUE"
 BODY_TYPE"PLUMBING"
 HDL_CONCAT"TRUE"
 ROOM"CLK_GEN_X12";
-"A\NWC\NAC"58;
-"B\NWC\NAC"47;
-"C\NWC\NAC"57;
-"D\NWC\NAC"43;
-"E\NWC\NAC"42;
-"F\NWC\NAC"56;
-"G\NWC\NAC"46;
-"H\NWC\NAC"45;
-"I\NWC\NAC"55;
-"Y\NWC\NAC"44;
+"A\NWC\NAC"64;
+"B\NWC\NAC"54;
+"C\NWC\NAC"63;
+"D\NWC\NAC"51;
+"E\NWC\NAC"31;
+"F\NWC\NAC"62;
+"G\NWC\NAC"53;
+"H\NWC\NAC"52;
+"I\NWC\NAC"61;
+"Y\NWC\NAC"19;
 %"OSC_6P_ENDIS_OUTP_OUTN"
 "1","(2350,-3675)","0","cndiscrete","I341";
 ;
@@ -921,9 +921,9 @@ PACK_TYPE"145"
 POWER_GROUP"VDD=AVDD"
 VALUE"50MHZ"
 TYPE"SIT5021AI-2DE-25E-50.000000";
-"OUTN \B"37;
-"OUTP"10;
-"ENDIS"36;
+"OUTN \B"50;
+"OUTP"47;
+"ENDIS"26;
 %"AVDD"
 "1","(1725,-3525)","0","cnpower","I342";
 ;
@@ -933,7 +933,7 @@ BODY_TYPE"PLUMBING"
 HDL_POWER"AVDD"
 ROOM"CLK_GEN_X12";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"36;
+VHDL_INIT"1"26;
 %"ind"
 "1","(1025,-3625)","1","ind","I346";
 ;
@@ -957,23 +957,23 @@ CDS_LOCATION"L2"
 CDS_LIB"ind"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"14;
+$PN"1"29;
 "2"
-$PN"2"36;
+$PN"2"26;
 %"vcc_bar"
 "1","(925,-175)","0","mtca_interface_board","I347";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"VCC3V3"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"13;
+"HOTSPOT_0"27;
 %"gnd"
 "1","(775,-4150)","2","mtca_interface_board","I349";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"38;
+"HOTSPOT_0"28;
 %"r"
 "1","(2725,-3850)","1","discrete","I350";
 ;
@@ -997,9 +997,9 @@ MANUFACTURER"Panasonic"
 SEC"1"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"37;
+$PN"1"50;
 "2"
-$PN"2"10;
+$PN"2"47;
 %"IOPORT"
 "1","(8375,-1600)","0","standard","I351";
 ;
@@ -1008,7 +1008,7 @@ OFFPAGE"TRUE"
 ROOM"CLK_GEN_X12";
 "A"
 HDL_PORT"INOUT"
-VHDL_PORT"INOUT"44;
+VHDL_PORT"INOUT"19;
 %"P2V5"
 "1","(725,-3450)","0","cnpower","I352";
 ;
@@ -1018,7 +1018,7 @@ BODY_TYPE"PLUMBING"
 HDL_POWER"P2V5"
 ROOM"CLK_GEN_X12";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"14;
+VHDL_INIT"1"29;
 %"CAPCERSMDCL2"
 "1","(2950,-1450)","1","cnpassive","I353";
 ;
@@ -1032,9 +1032,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(1575,-1425)","1","cnpassive","I354";
 ;
@@ -1048,9 +1048,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(1850,-1425)","1","cnpassive","I355";
 ;
@@ -1064,9 +1064,9 @@ SIZE"1"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(2125,-1425)","1","cnpassive","I356";
 ;
@@ -1080,9 +1080,9 @@ SIZE"1"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(2675,-1425)","1","cnpassive","I357";
 ;
@@ -1096,9 +1096,9 @@ SIZE"1"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(2375,-1425)","1","cnpassive","I358";
 ;
@@ -1112,9 +1112,9 @@ SIZE"1"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(1875,-3825)","1","cnpassive","I359";
 ;
@@ -1128,9 +1128,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"38;
+$PN"#"28;
 "B <SIZE-1..0>\NAC"
-$PN"#"36;
+$PN"#"26;
 %"CAPCERSMDCL2"
 "1","(1625,-3825)","1","cnpassive","I360";
 ;
@@ -1144,9 +1144,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"38;
+$PN"#"28;
 "B <SIZE-1..0>\NAC"
-$PN"#"36;
+$PN"#"26;
 %"CAPCERSMDCL2"
 "1","(1325,-1425)","1","cnpassive","I361";
 ;
@@ -1160,9 +1160,9 @@ PACK_TYPE"0603"
 VALUE"10UF"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"33;
+$PN"#"11;
 %"CAPCERSMDCL2"
 "1","(6100,-900)","1","cnpassive","I362";
 ;
@@ -1176,9 +1176,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0603"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"39;
+$PN"#"25;
 %"CAPCERSMDCL2"
 "1","(1325,-3825)","1","cnpassive","I363";
 ;
@@ -1192,9 +1192,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0603"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"38;
+$PN"#"28;
 "B <SIZE-1..0>\NAC"
-$PN"#"36;
+$PN"#"26;
 %"CAPCERSMDCL2"
 "1","(6400,-900)","1","cnpassive","I364";
 ;
@@ -1208,9 +1208,9 @@ SIZE"1"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"39;
+$PN"#"25;
 %"CAPCERSMDCL2"
 "1","(6650,-900)","1","cnpassive","I365";
 ;
@@ -1224,9 +1224,9 @@ SIZE"1"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"39;
+$PN"#"25;
 %"CAPCERSMDCL2"
 "1","(6175,-2950)","0","cnpassive","I366";
 ;
@@ -1240,9 +1240,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"48;
+$PN"#"55;
 "B <SIZE-1..0>\NAC"
-$PN"#"50;
+$PN"#"56;
 %"CAPCERSMDCL2"
 "1","(5925,-3000)","0","cnpassive","I367";
 ;
@@ -1256,9 +1256,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"49;
+$PN"#"42;
 "B <SIZE-1..0>\NAC"
-$PN"#"60;
+$PN"#"66;
 %"CAPCERSMDCL2"
 "1","(675,-1425)","1","cnpassive","I368";
 ;
@@ -1272,9 +1272,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0603"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"32;
+$PN"#"12;
 "B <SIZE-1..0>\NAC"
-$PN"#"11;
+$PN"#"20;
 %"CAPCERSMDCL2"
 "1","(725,-3800)","1","cnpassive","I369";
 ;
@@ -1288,9 +1288,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0603"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"38;
+$PN"#"28;
 "B <SIZE-1..0>\NAC"
-$PN"#"14;
+$PN"#"29;
 %"CAPCERSMDCL2"
 "1","(3800,-1025)","1","cnpassive","I370";
 ;
@@ -1304,9 +1304,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(5150,-1025)","1","cnpassive","I371";
 ;
@@ -1320,9 +1320,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(5000,-1025)","1","cnpassive","I372";
 ;
@@ -1336,9 +1336,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(4850,-1025)","1","cnpassive","I373";
 ;
@@ -1352,9 +1352,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(4700,-1025)","1","cnpassive","I374";
 ;
@@ -1368,9 +1368,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(4550,-1025)","1","cnpassive","I375";
 ;
@@ -1384,9 +1384,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(4400,-1025)","1","cnpassive","I376";
 ;
@@ -1400,9 +1400,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(4250,-1025)","1","cnpassive","I377";
 ;
@@ -1416,9 +1416,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(4100,-1025)","1","cnpassive","I378";
 ;
@@ -1432,9 +1432,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(3950,-1025)","1","cnpassive","I379";
 ;
@@ -1448,9 +1448,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(5600,-1025)","1","cnpassive","I380";
 ;
@@ -1464,9 +1464,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(5350,-1025)","1","cnpassive","I381";
 ;
@@ -1480,9 +1480,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"40;
+$PN"#"14;
 "B <SIZE-1..0>\NAC"
-$PN"#"35;
+$PN"#"13;
 %"CAPCERSMDCL2"
 "1","(2150,-525)","1","cnpassive","I382";
 ;
@@ -1496,9 +1496,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"41;
+$PN"#"30;
 "B <SIZE-1..0>\NAC"
-$PN"#"34;
+$PN"#"10;
 %"CAPCERSMDCL2"
 "1","(1875,-525)","1","cnpassive","I385";
 ;
@@ -1512,9 +1512,9 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0402"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"41;
+$PN"#"30;
 "B <SIZE-1..0>\NAC"
-$PN"#"34;
+$PN"#"10;
 %"CAPCERSMDCL2"
 "1","(1625,-525)","1","cnpassive","I386";
 ;
@@ -1528,9 +1528,9 @@ CDS_LIB"cnpassive"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"41;
+$PN"#"30;
 "B <SIZE-1..0>\NAC"
-$PN"#"34;
+$PN"#"10;
 %"ind"
 "1","(1275,-350)","1","ind","I387";
 ;
@@ -1548,9 +1548,9 @@ SOURCE_PACKAGE"IND"
 DESIGNATORNAMEPROP"TIMING"
 ROOM"CLK_GEN_X12";
 "1"
-$PN"1"13;
+$PN"1"27;
 "2"
-$PN"2"34;
+$PN"2"10;
 %"CAPCERSMDCL2"
 "1","(975,-525)","1","cnpassive","I389";
 ;
@@ -1564,14 +1564,14 @@ DESIGNATORNAMEPROP"TIMING"
 PACK_TYPE"0603"
 ROOM"CLK_GEN_X12";
 "A <SIZE-1..0>\NAC"
-$PN"#"41;
+$PN"#"30;
 "B <SIZE-1..0>\NAC"
-$PN"#"13;
+$PN"#"27;
 %"gnd"
 "1","(1025,-875)","2","mtca_interface_board","I390";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND"
 ROOM"CLK_GEN_X12";
-"HOTSPOT_0"41;
+"HOTSPOT_0"30;
 END.
