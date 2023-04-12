@@ -2,14 +2,14 @@
 (                                                                     )
 (    Shape Island Report                                              )
 (                                                                     )
-(    Drawing          : mib_rev2_v38.brd                              )
-(    Software Version : 17.4S032                                      )
-(    Date/Time        : Tue Mar 14 16:39:03 2023                      )
+(    Drawing          : mib_rev2_v171.brd                             )
+(    Software Version : 17.4S018                                      )
+(    Date/Time        : Wed Apr 12 16:54:25 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-  Total islands on design: 17
+  Total islands on design: 13
 
 
   <<<  ETCH  >>>
@@ -21,24 +21,22 @@
 	Point on shape: (11.4297 155.1704)  Net: GND
 
     Layer = 05_PWR1
+	Point on shape: (147.2697 47.0534)  Net: VCCT_3V3_2
+	Point on shape: (147.2697 30.0608)  Net: VCCT_3V3
 	Point on shape: (11.4297 155.1704)  Net: GND
-	Point on shape: (122.1994 15.7226)  Net: VP1V8
-	Point on shape: (47.3202 19.5000)  Net: VCC3V3
-	Point on shape: (122.5550 65.6844)  Net: P2V5
 
     Layer = 06_GND
 	Point on shape: (11.4297 155.1704)  Net: GND
+
+    Layer = 07_SIG2
+	Point on shape: (89.7500 56.2500)  Net: P2V5
+	Point on shape: (90.0533 58.1256)  Net: P2V5
 
     Layer = 08_GND
 	Point on shape: (11.4297 155.1704)  Net: GND
 
     Layer = BOTTOM
-	Point on shape: (160.8828 73.1930)  Net: SEGMENT3
-	Point on shape: (6.7498 7.0622)  Net: GND
-	Point on shape: (7.4677 5.5880)  Net: GND
 	Point on shape: (42.4930 73.1930)  Net: SEGMENT3
-	Point on shape: (120.6500 27.4828)  Net: VCC3V3
-	Point on shape: (76.3778 44.1198)  Net: VP1V8
+	Point on shape: (160.8828 73.1930)  Net: SEGMENT3
 	Point on shape: (39.4930 72.1930)  Net: SEGMENT2
-	Point on shape: (4.0104 8.3898)  Net: GND
 	Point on shape: (26.4930 72.1930)  Net: SEGMENT1
