@@ -1,1 +1,1 @@
-mib_rev2_v175.brd
+mib_rev2_v177.brd
