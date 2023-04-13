@@ -2,127 +2,10 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
+|                                                    Thu Mar 30 19:03:28 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C51.2                          
-                                 C58.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VP12         pins ADDED TO this existing net (pins not previously on any net)
-                                 C51.1                          
-                                 C58.1                          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- ELCAPTAN_SMD-220UF,25V
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C51                 ELCAPTAN_SMD-220UF,25V 
- C58                 ELCAPTAN_SMD-220UF,25V 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C25                 ELCAPTAN_SMD-220UF,25V 119.750 24.0000 CAP_POL-6TPE470MAZU,CAP_POL-6TA
- C52                 ELCAPTAN_SMD-220UF,25V 84.0000 17.5000 CAP_POL-6TPE470MAZU,CAP_POL-6TA
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C25                            ROOM           POWER
- C51                            ROOM           POWER
- C52                            ROOM           POWER
- C58                            ROOM           POWER
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C25.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
- C25.2                          ROOM           POWER
- C25.2                          SIZE           1
- C25.2                          XY             (525,-2150)
- C51.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
- C51.2                          ROOM           POWER
- C51.2                          SIZE           1
- C51.2                          XY             (825,-2150)
- C52.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
- C52.2                          ROOM           POWER
- C52.2                          SIZE           1
- C52.2                          XY             (600,-2775)
- C58.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
- C58.2                          ROOM           POWER
- C58.2                          SIZE           1
- C58.2                          XY             (900,-2775)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v119.brd         |
-|                                                    Thu Mar 30 15:25:57 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C25.1                          CDS_PINID      A(0)
- C25.2                          CDS_PINID      B(0)
- C51.1                          CDS_PINID      A(0)
- C51.2                          CDS_PINID      B(0)
- C52.1                          CDS_PINID      A(0)
- C52.2                          CDS_PINID      B(0)
- C58.1                          CDS_PINID      A(0)
- C58.2                          CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
-|       Comp definitions added:       1                                        |
-|       Components added      :       2                                        |
-|       Components changed    :       2                                        |
-|       Comp property added   :       4                                        |
-|       Pin property added    :       8                                        |
-|       Slot property added   :      16                                        |
 |                                                                              |
-|   Total ECO changes reported:      37                                        |
+|   Total ECO changes reported:       0                                        |
 |------------------------------------------------------------------------------|
