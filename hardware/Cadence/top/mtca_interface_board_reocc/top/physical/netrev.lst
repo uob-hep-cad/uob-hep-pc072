@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v120.brd                             )
-(    Software Version : 17.4S018                                      )
-(    Date/Time        : Thu Mar 30 19:03:28 2023                      )
+(    Drawing          : mib_rev2_v186.brd                             )
+(    Software Version : 17.4S033                                      )
+(    Date/Time        : Thu Apr 13 15:48:10 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
-Design Directory:            'C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
-Old design name:             'C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd'
-New design name:             'C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v121.brd'
+Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
+Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v186.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v187.brd'
 
-CmdLine: netrev -proj C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v120.brd C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v121.brd -w C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v186.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\physical\mib_rev2_v187.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.42)
-Starting to read C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
-   Finished reading C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
-Starting to read C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
-   Finished reading C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.28)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.01)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -40,11 +40,11 @@ Starting to read C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interfac
 
 ===========================================================
 Start Constraint Override Import
-	Constraint File:    C:/pc072_local/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Thu Mar 30 19:03:29 2023
+	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
+	Start time: Thu Apr 13 15:48:12 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Thu Mar 30 19:03:29 2023
+Finished Constraint Update	Time: Thu Apr 13 15:48:12 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -119,9 +119,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 30 19:03:28 2023
+netrev run on Apr 13 15:48:10 2023
    DESIGN NAME : 'TOP'
-   PACKAGING ON 30-Mar-2023 AT 19:03:02
+   PACKAGING ON 13-Apr-2023 AT 15:47:43
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -154,6 +154,6 @@ netrev run on Mar 30 19:03:28 2023
  No oversight detected
  No warning detected
 
-cpu time      0:08:21
-elapsed time  0:00:01
+cpu time      0:12:18
+elapsed time  0:00:03
 
