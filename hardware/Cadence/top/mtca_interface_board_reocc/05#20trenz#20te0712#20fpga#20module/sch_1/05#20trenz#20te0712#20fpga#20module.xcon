@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-17T11:18:32</modificationTime>
+    <modificationTime>2023-04-13T16:40:17</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -2219,18 +2219,6 @@
           <name>tdo</name>
         </net>
         <net>
-          <id>N201</id>
-          <name>timing.upstream_data_n</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N205</id>
-          <name>timing.upstream_data_p</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
           <id>N209</id>
           <name>tms</name>
         </net>
@@ -3495,28 +3483,28 @@
               <id>M465</id>
               <termid>T36</termid>
               <connections>
-                <connection net="N201" netmsb="0" netlsb="0" />
+                <connection net="N245" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M466</id>
               <termid>T37</termid>
               <connections>
-                <connection net="N205" netmsb="0" netlsb="0" />
+                <connection net="N247" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M467</id>
               <termid>T38</termid>
               <connections>
-                <connection net="N201" netmsb="1" netlsb="1" />
+                <connection net="N245" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M468</id>
               <termid>T39</termid>
               <connections>
-                <connection net="N205" netmsb="1" netlsb="1" />
+                <connection net="N247" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -3535,14 +3523,14 @@
               <id>M471</id>
               <termid>T42</termid>
               <connections>
-                <connection net="N201" netmsb="2" netlsb="2" />
+                <connection net="N245" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M472</id>
               <termid>T43</termid>
               <connections>
-                <connection net="N205" netmsb="2" netlsb="2" />
+                <connection net="N247" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
@@ -6038,17 +6026,17 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="timing.upstream_data_n">
-                <msb>2</msb>
-                <lsb>0</lsb>
-              </net>
-              <net ref="timing.upstream_data_p">
-                <msb>2</msb>
-                <lsb>0</lsb>
-              </net>
               <net ref="uart_rx_to_fpga_3v3"></net>
               <net ref="uart_tx_from_fpga_3v3"></net>
               <net ref="unnamed_2_capcersmdcl2_i418_b"></net>
+              <net ref="upstream_data_n">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="upstream_data_p">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="vcc3v3"></net>
               <net ref="vref_jtag"></net>
             </nets>
