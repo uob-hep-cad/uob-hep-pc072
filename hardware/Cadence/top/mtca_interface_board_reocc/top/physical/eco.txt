@@ -2,38 +2,48 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v187.brd         |
-|                                                    Thu Apr 13 16:41:45 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v188.brd         |
+|                                                    Fri Apr 14 13:18:27 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  TIMING.UPSTREAM_DATA_N<0> pins MOVED FROM this net (to net name listed on right)
-                                 J8.74           76.8000 34.5680
-                                                            UPSTREAM_DATA_N_<0>
+  CLK_N<0>     pins MOVED FROM this net (to net name listed on right)
+                                 J1.62           79.8000 66.5680
+                                                                       CLK_P<0>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TIMING.UPSTREAM_DATA_N<1> pins MOVED FROM this net (to net name listed on right)
-                                 J8.76           76.3000 34.5680
-                                                            UPSTREAM_DATA_N_<1>
+  CLK_N<1>     pins DELETED FROM this net (pin now not on any net)
+                                 J5.39           105.400 46.4680
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J8.57           80.8000 30.8680
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TIMING.UPSTREAM_DATA_N<2> pins MOVED FROM this net (to net name listed on right)
-                                 J8.84           74.3000 34.5680
-                                                            UPSTREAM_DATA_N_<2>
+  CLK_P<0>     pins MOVED FROM this net (to net name listed on right)
+                                 J1.60           80.3000 66.5680
+                                                                       CLK_N<0>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TIMING.UPSTREAM_DATA_P<0> pins MOVED FROM this net (to net name listed on right)
-                                 J8.72           77.3000 34.5680
-                                                             UPSTREAM_DATA_P<0>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TIMING.UPSTREAM_DATA_P<1> pins MOVED FROM this net (to net name listed on right)
-                                 J8.78           75.8000 34.5680
-                                                             UPSTREAM_DATA_P<1>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  TIMING.UPSTREAM_DATA_P<2> pins MOVED FROM this net (to net name listed on right)
-                                 J8.82           74.8000 34.5680
-                                                             UPSTREAM_DATA_P<2>
+  CLK_P<1>     pins DELETED FROM this net (pin now not on any net)
+                                 J5.37           105.400 46.9680
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J8.55           81.3000 30.8680
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v188.brd         |
+|                                                    Fri Apr 14 13:18:27 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R119.2         42.5000 66.7500 XY             (6700,-5950)
+ R120.2         42.0000 62.2500 XY             (6600,-5950)
 |------------------------------------------------------------------------------|
 |       Nets changed          :       6                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       6                                        |
+|   Total ECO changes reported:       8                                        |
 |------------------------------------------------------------------------------|

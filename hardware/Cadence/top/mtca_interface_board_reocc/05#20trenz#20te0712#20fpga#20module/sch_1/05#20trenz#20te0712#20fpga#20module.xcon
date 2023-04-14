@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-04-13T16:40:17</modificationTime>
+    <modificationTime>2023-04-14T13:17:54</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -3631,12 +3631,14 @@
               <id>M487</id>
               <termid>T58</termid>
               <connections>
+                <connection net="N227" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M488</id>
               <termid>T59</termid>
               <connections>
+                <connection net="N229" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4228,14 +4230,12 @@
               <id>M618</id>
               <termid>T144</termid>
               <connections>
-                <connection net="N227" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M619</id>
               <termid>T145</termid>
               <connections>
-                <connection net="N229" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4911,14 +4911,14 @@
               <id>M794</id>
               <termid>T296</termid>
               <connections>
-                <connection net="N229" netmsb="0" netlsb="0" />
+                <connection net="N227" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M795</id>
               <termid>T297</termid>
               <connections>
-                <connection net="N227" netmsb="0" netlsb="0" />
+                <connection net="N229" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
