@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-30T15:08:04</modificationTime>
+    <modificationTime>2023-04-14T13:28:14</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>44</instanceid>
+        <instanceid>45</instanceid>
         <netid>98</netid>
-        <insttermid>171</insttermid>
+        <insttermid>172</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -247,66 +247,6 @@
             <term>
               <id>T35</id>
               <name>2</name>
-              <direction>unspec</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
-          <id>S11</id>
-          <library>ocad_parts_lib</library>
-          <name>recpt 5x2 100mil</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T36</id>
-              <name>1</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T37</id>
-              <name>2</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T38</id>
-              <name>3</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T39</id>
-              <name>4</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T40</id>
-              <name>5</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T41</id>
-              <name>6</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T42</id>
-              <name>7</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T43</id>
-              <name>8</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T44</id>
-              <name>9</name>
-              <direction>unspec</direction>
-            </term>
-            <term>
-              <id>T45</id>
-              <name>10</name>
               <direction>unspec</direction>
             </term>
           </terms>
@@ -712,6 +652,23 @@
               <id>T123</id>
               <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S16</id>
+          <library>cnconnector</library>
+          <name>con10p</name>
+          <view>sym_3</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T130</id>
+              <name>a</name>
+              <direction>inout</direction>
+              <msb>9</msb>
+              <lsb>0</lsb>
             </term>
           </terms>
         </cell>
@@ -1526,80 +1483,6 @@
               <termid>T8</termid>
               <connections>
                 <connection net="N73" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I20</id>
-          <cellid>S11</cellid>
-          <name>page1_181p</name>
-          <pins>
-            <pin>
-              <id>M50</id>
-              <termid>T36</termid>
-              <connections>
-                <connection net="N74" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M51</id>
-              <termid>T37</termid>
-              <connections>
-                <connection net="N30" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M52</id>
-              <termid>T38</termid>
-              <connections>
-                <connection net="N76" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M53</id>
-              <termid>T39</termid>
-              <connections>
-                <connection net="N34" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M54</id>
-              <termid>T40</termid>
-              <connections>
-                <connection net="N77" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M55</id>
-              <termid>T41</termid>
-              <connections>
-              </connections>
-            </pin>
-            <pin>
-              <id>M56</id>
-              <termid>T42</termid>
-              <connections>
-              </connections>
-            </pin>
-            <pin>
-              <id>M57</id>
-              <termid>T43</termid>
-              <connections>
-              </connections>
-            </pin>
-            <pin>
-              <id>M58</id>
-              <termid>T44</termid>
-              <connections>
-                <connection net="N75" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M59</id>
-              <termid>T45</termid>
-              <connections>
-                <connection net="N30" />
               </connections>
             </pin>
           </pins>
@@ -2535,6 +2418,28 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I45</id>
+          <cellid>S16</cellid>
+          <name>page1_i234</name>
+          <pins>
+            <pin>
+              <id>M172</id>
+              <termid>T130</termid>
+              <msb>9</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="9" pinlsb="9" net="N30" />
+                <connection pinmsb="1" pinlsb="1" net="N30" />
+                <connection pinmsb="3" pinlsb="3" net="N34" />
+                <connection pinmsb="0" pinlsb="0" net="N74" />
+                <connection pinmsb="8" pinlsb="8" net="N75" />
+                <connection pinmsb="2" pinlsb="2" net="N76" />
+                <connection pinmsb="4" pinlsb="4" net="N77" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2661,7 +2566,6 @@
               <instance ref="178p"></instance>
               <instance ref="179p"></instance>
               <instance ref="180p"></instance>
-              <instance ref="181p"></instance>
               <instance ref="182p"></instance>
               <instance ref="183p"></instance>
               <instance ref="184p"></instance>
@@ -2686,6 +2590,7 @@
               <instance ref="203p"></instance>
               <instance ref="i232"></instance>
               <instance ref="i233"></instance>
+              <instance ref="i234"></instance>
             </instances>
           </page>
         </pages>

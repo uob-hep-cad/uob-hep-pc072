@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 14-Apr-2023 AT 13:18:19 }
+{ Packager-XL run on 14-Apr-2023 AT 13:28:36 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1463,6 +1463,67 @@ primitive 'CAP_POL-6TPE470MAZU,CAP_POL-6TA';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_POL';
       PARENT_PPT_PART='CAP_POL-6TPE470MAZU,CAP_POL';
+  end_body;
+end_primitive;
+primitive 'CON10P-HTST-105-01-L-DV';
+  pin
+    'A'<9>:
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'A'<8>:
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'A'<7>:
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'A'<6>:
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A'<5>:
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A'<4>:
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'A'<3>:
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='CON10P';
+      BODY_NAME='CON10P';
+      VER='3';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      SIZE='1';
+      PHYS_DES_PREFIX='J';
+      CLASS='IO';
+      STATUS='Not Preferred';
+      PART_NUMBER='HTST-105-01-L-DV';
+      MANUFACTURER='SAMTEC';
+      DESCRIPTION='10 Contacts 2.54mm Pitch Dual Row SMD Vertical 0.25 Square Po~
+st IDC Header - HTST Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/samtec_HTST.p~
+df';
+      PINCOUNT='10';
+      SMD='YES';
+      CASE='_';
+      JEDEC_TYPE='SAMTEC_HTST-105-01-L-DV';
+      PARENT_PART_TYPE='CON10P';
+      PARENT_PPT='CON10P';
+      PARENT_PPT_PART='CON10P-HTST-105-01-L-DV';
   end_body;
 end_primitive;
 primitive 'CON20P_SFP-1367073-1-1367073-1B';
@@ -5831,97 +5892,6 @@ primitive 'R-PMR18EZPFU5L00,R-PMR18EZPFU5A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='R';
       PARENT_PPT_PART='R-PMR18EZPFU5L00,R';
-  end_body;
-end_primitive;
-primitive 'RECPT 5X2 100MIL-RECP5X2,RECPTB';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '7':
-      PIN_NUMBER='(7)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '8':
-      PIN_NUMBER='(8)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '9':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '10':
-      PIN_NUMBER='(10)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='P';
-      PART_NAME='RECPT 5X2 100MIL';
-      BODY_NAME='RECPT 5X2 100MIL';
-      JEDEC_TYPE='RECPT5X2_100MIL_SM';
-      VALUE='RECP5X2';
-      DESCRIPTION='CONN10, HEADER,TH';
-      MPN='';
-      MANUFACTURER='SAMTEC';
-      PART_TYPE='HEADER';
-      PART_NUMBER='RECP5X2';
-      SOURCE_PACKAGE='RECPT 5X2 100MIL';
-      PARENT_PART_TYPE='RECPT 5X2 100MIL';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='RECPT 5X2 100MIL';
-      PARENT_PPT_PART='RECPT 5X2 100MIL-RECP5X2,RECPT 5X2 100MIL';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-1K,1%';

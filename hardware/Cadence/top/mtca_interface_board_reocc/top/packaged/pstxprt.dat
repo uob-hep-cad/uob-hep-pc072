@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 14-Apr-2023 AT 13:18:19 }
+{ Packager-XL run on 14-Apr-2023 AT 13:28:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='14-Apr-2023 AT 13:18:19';
+ POST_TIME='14-Apr-2023 AT 13:28:36';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -8022,6 +8022,28 @@ occ.\02_ power\(sch_1):page1_127p@ocad_parts_lib.hdr1x3(chips)',
  PRIM_FILE='./ocad_parts_lib/hdr1x3/chips/chips.prt';
 
 PART_NAME
+ J13 'CON10P-HTST-105-01-L-DV':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I234@CNCONNECTOR.CON10P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i234@cnconnector.con10p(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i234@cnconnector.con10p(chips)',
+ PATH='I234',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ TYPE='HTST-105-01-L-DV',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(1300,-4450)',
+ ROT='0',
+ VER='3',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON10P-HTST-105-01-L-DV',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con10p/chips/~
+chips.prt';
+
+PART_NAME
  J14 'PCOAX-U.FL-R-SMT-1(10)':
  ROOM='CLK_GEN_X12';
 
@@ -8965,49 +8987,6 @@ occ.\01_ module management ctrl\(sch_1):page1_i233@cnpassive.rsmd0603(chips)',
  VALUE='00',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
 chips.prt';
-
-PART_NAME
- P1 'RECPT 5X2 100MIL-RECP5X2,RECPTB':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_181P@OCAD_PARTS_LIB.RECPT 5X2 100MIL(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
-occ.\01_ module management ctrl\(sch_1):page1_181p@ocad_parts_lib.\recpt 5x2 100~
-mil\(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
-occ.\01_ module management ctrl\(sch_1):page1_181p@ocad_parts_lib.\recpt 5x2 100~
-mil\(chips)',
- PATH='181P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- CREATED_BY='ZMK',
- CONTACTVOLTAGE='600 V',
- CONTACTCURRENT='6.0 A',
- MFR_PART_NUMBER='5-534206-4',
- MFR_NAME='TE Connectivity',
- DEVICE='4X2_RECPT_100MIL',
- CY_PART_='',
- HOUSINGGENDER='Male',
- CONTACTGENDER='Male',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Molex Inc\MX42385.pdf',
- SOURCE_PACKAGE='RECPT 5X2 100MIL',
- PART_TYPE='Header',
- MANUFACTURER='Samtec',
- LAST_EDIT_BY='ZMK',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='CONN10, Header,TH',
- CLASS='IO',
- DESIGNATORNAMEPROP='MMC',
- PHYS_PAGE='1',
- XY='(1300,-4400)',
- ROT='2',
- VER='1',
- JEDEC_TYPE='RECPT5X2_100MIL_SM',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='RECPT 5X2 100MIL-RECP5X2,RECPTB',
- PART_NUMBER='RECP5X2',
- VALUE='RECP5X2',
- PRIM_FILE='./ocad_parts_lib/recpt#205x2#20100mil/chips/chips.prt';
 
 PART_NAME
  POWER1 'PTH08T210WAD':

@@ -2,48 +2,108 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v188.brd         |
-|                                                    Fri Apr 14 13:18:27 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v189.brd         |
+|                                                    Fri Apr 14 13:28:43 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CLK_N<0>     pins MOVED FROM this net (to net name listed on right)
-                                 J1.62           79.8000 66.5680
-                                                                       CLK_P<0>
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 J13.2                          
+                                 J13.10                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_N<1>     pins DELETED FROM this net (pin now not on any net)
-                                 J5.39           105.400 46.4680
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 J8.57           80.8000 30.8680
+  MP3V3        pins ADDED TO this existing net (pins not previously on any net)
+                                 J13.4                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_P<0>     pins MOVED FROM this net (to net name listed on right)
-                                 J1.60           80.3000 66.5680
-                                                                       CLK_N<0>
+  TCK_1        pins ADDED TO this existing net (pins not previously on any net)
+                                 J13.1                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_P<1>     pins DELETED FROM this net (pin now not on any net)
-                                 J5.37           105.400 46.9680
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 J8.55           81.3000 30.8680
+  TDI_1        pins ADDED TO this existing net (pins not previously on any net)
+                                 J13.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDO_1        pins ADDED TO this existing net (pins not previously on any net)
+                                 J13.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TMS_1        pins ADDED TO this existing net (pins not previously on any net)
+                                 J13.5                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v188.brd         |
-|                                                    Fri Apr 14 13:18:27 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v189.brd         |
+|                                                    Fri Apr 14 13:28:43 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CON10P-HTST-105-01-L-DV
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v189.brd         |
+|                                                    Fri Apr 14 13:28:43 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ P1                  RECPT 5X2 100MIL-RECP5X2,RECPTB 59.0000 39.5000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v189.brd         |
+|                                                    Fri Apr 14 13:28:43 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J13                 CON10P-HTST-105-01-L-DV 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v189.brd         |
+|                                                    Fri Apr 14 13:28:43 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R119.2         42.5000 66.7500 XY             (6700,-5950)
- R120.2         42.0000 62.2500 XY             (6600,-5950)
+ J13.10                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con10p/chips/chips.prt
+ J13.10                         XY             (1300,-4450)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v189.brd         |
+|                                                    Fri Apr 14 13:28:43 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J13.1                          CDS_PINID      A(0)
+ J13.2                          CDS_PINID      A(1)
+ J13.3                          CDS_PINID      A(2)
+ J13.4                          CDS_PINID      A(3)
+ J13.5                          CDS_PINID      A(4)
+ J13.6                          CDS_PINID      A(5)
+ J13.7                          CDS_PINID      A(6)
+ J13.8                          CDS_PINID      A(7)
+ J13.9                          CDS_PINID      A(8)
+ J13.10                         CDS_PINID      A(9)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       7                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :       1                                        |
+|       Components deleted    :       1                                        |
+|       Pin property added    :      10                                        |
 |       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       8                                        |
+|   Total ECO changes reported:      22                                        |
 |------------------------------------------------------------------------------|
