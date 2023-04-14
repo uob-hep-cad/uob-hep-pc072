@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Fri Mar 17 10:15:05 2023
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Fri Apr 14 13:39:57 2023
 #ISCELL
   bris_cds_standard a3-2000 *
   page1_10p
@@ -212,12 +212,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_7p
-#CELL
-  cnconnector con7p *
-  page2_i393
-#ISCELL
-  mtca_interface_board gnd *
-  page2_i394
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_i395
@@ -293,3 +287,15 @@
 #ISCELL
   mtca_interface_board gnd *
   page2_i419
+#CELL
+  cnconnector pcoax *
+  page2_i421
+#CELL
+  cnconnector pcoax *
+  page2_i422
+#CELL
+  cnconnector pcoax *
+  page2_i423
+#CELL
+  cnconnector pcoax *
+  page2_i424

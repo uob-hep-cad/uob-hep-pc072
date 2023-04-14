@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 14-Apr-2023 AT 13:28:36 }
+{ Packager-XL run on 14-Apr-2023 AT 13:40:18 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1667,58 +1667,6 @@ primitive 'CON4P-53398-0471';
       PARENT_PART_TYPE='CON4P';
       PARENT_PPT='CON4P';
       PARENT_PPT_PART='CON4P-53398-0471';
-  end_body;
-end_primitive;
-primitive 'CON7P-5607-5102-SH';
-  pin
-    'A'<6>:
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'A'<5>:
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'A'<4>:
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A'<3>:
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='CON7P';
-      BODY_NAME='CON7P';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
-      SIZE='1';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
-      STATUS='Preferred';
-      PART_NUMBER='5607-5102-SH';
-      MANUFACTURER='3M';
-      DESCRIPTION='8 Positions Serial Advanced Technology Attachment (SATA) Vert~
-ical Connector';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/3m_5607-5102-~
-sh.pdf';
-      PINCOUNT='9';
-      SMD='NO';
-      CASE='SATA';
-      JEDEC_TYPE='3M_5607-5102-SH';
-      NC_PINS='(8,9)';
-      PARENT_PART_TYPE='CON7P';
-      PARENT_PPT='CON7P';
-      PARENT_PPT_PART='CON7P-5607-5102-SH';
   end_body;
 end_primitive;
 primitive 'CONN30P-FTSH-115-01-L-DV,CONN3B';

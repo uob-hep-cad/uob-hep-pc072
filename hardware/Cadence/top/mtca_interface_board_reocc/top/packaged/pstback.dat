@@ -1,4 +1,4 @@
-{ Packager-XL run on 14-Apr-2023 AT 13:28:36 }
+{ Packager-XL run on 14-Apr-2023 AT 13:40:18 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "CAP_POL","105P": LOCATION = "C80" #&CDS_LOCATION = "C80" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -1503,14 +1503,6 @@ BODY = "TE0712 CONNECTOR-JB1","350P": LOCATION = "J1" #&CDS_LOCATION = "J1" #SEC
 "VIN1":   PN = "2"  !CDS_PN = "2";
 "VIN2":   PN = "4"  !CDS_PN = "4";
 "VIN3":   PN = "6"  !CDS_PN = "6";
-BODY = "CON7P","I393": LOCATION = "TE1" #&CDS_LOCATION = "TE1" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"A<1>":   PN = "2"  !CDS_PN = "2";
-"A<2>":   PN = "3"  !CDS_PN = "3";
-"A<3>":   PN = "4"  !CDS_PN = "4";
-"A<4>":   PN = "5"  !CDS_PN = "5";
-"A<5>":   PN = "6"  !CDS_PN = "6";
-"A<6>":   PN = "7"  !CDS_PN = "7";
 BODY = "R","I396": LOCATION = "R122" #&CDS_LOCATION = "R122" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
@@ -1561,6 +1553,14 @@ BODY = "CAPCERSMDCL2","I417": LOCATION = "C41" #&CDS_LOCATION = "C41" &SEC = "1"
 BODY = "CAPCERSMDCL2","I418": LOCATION = "C23" #&CDS_LOCATION = "C23" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "PCOAX","I421": LOCATION = "TE1" #&CDS_LOCATION = "TE1" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I422": LOCATION = "J17" #&CDS_LOCATION = "J17" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I423": LOCATION = "J18" #&CDS_LOCATION = "J18" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I424": LOCATION = "J19" #&CDS_LOCATION = "J19" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
 DRAWING = "@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_reocc.\01_ module management ctrl\(sch_1):page1";
 BODY = "R","162P": LOCATION = "R109" #&CDS_LOCATION = "R109" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
