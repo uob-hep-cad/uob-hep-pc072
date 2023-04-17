@@ -145,4 +145,24 @@
 	<component cell="coax" library="cnconnector" partname="COAX" partno="U.FL-R-SMT-1(10)" quantity="1" >
 		<property name="TYPE"  value="U.FL-R-SMT-1(10)"/>
 	</component>
+	<component cell="elcaptan" library="cnpassive" partname="ELCAPTAN" partno="TAJV227K016R" quantity="1" >
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="220uF"/>
+		<property name="VOLTAGE"  value="16V"/>
+	</component>
+	<component cell="tantpoly" library="bris_cds_discrete" partname="TANTPOLY" partno="T520V227M006ATE018" quantity="1" >
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="220uF"/>
+		<property name="VOLTAGE"  value="6.3V"/>
+	</component>
+	<component cell="res_sr" library="cnpassive" partname="RES_SR" partno="LVK12R050FER" quantity="1" >
+		<property name="PACK_TYPE"  value="LVK12"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="0.05"/>
+	</component>
+	<component cell="rsmd0805" library="cnpassive" partname="RSMD0805" partno="R0805_0R27_1%_0.125W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="125MW"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="0.27"/>
+	</component>
 </sc:shoppingCart>

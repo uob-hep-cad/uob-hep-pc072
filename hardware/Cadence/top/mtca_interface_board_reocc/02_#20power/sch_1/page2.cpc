@@ -2,15 +2,6 @@
   bris_cds_standard a3-2000 *
   *
 #CELL
-  ocad_parts_lib cap_pol *
-  page4_105p
-#CELL
-  ocad_parts_lib cap_pol *
-  page4_112p
-#CELL
-  discrete r *
-  page4_113p
-#CELL
   ocad_parts_lib cap_np *
   page4_119p
 #CELL
@@ -19,9 +10,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page4_131p
-#ISCELL
-  mtca_interface_board gnd *
-  page4_40p
 #ISCELL
   mtca_interface_board gnd *
   page4_5p
@@ -124,3 +112,21 @@
 #ISCELL
   mtca_interface_board gnd *
   page4_i186
+#CELL
+  cnpassive res_sr *
+  page4_i188
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i189
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i190
+#ISCELL
+  mtca_interface_board gnd *
+  page4_i191
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i192
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i193

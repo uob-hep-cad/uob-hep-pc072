@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 14-Apr-2023 AT 13:40:18 }
+{ Packager-XL run on 17-Apr-2023 AT 15:33:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='14-Apr-2023 AT 13:40:18';
+ POST_TIME='17-Apr-2023 AT 15:33:36';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -562,43 +562,40 @@ occ.\02_ power\(sch_1):page2_119p@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
- C17 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
- ROOM='MAIN_PWR';
+ C17 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_105P@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I198@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page4_105p@ocad_parts_lib.cap_pol(chips)',
+occ.\02_ power\(sch_1):page1_i198@bris_cds_discrete.tantpoly(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_105p@ocad_parts_lib.cap_pol(chips)',
- PATH='105P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
-df',
- TOLERANCE='20%',
- SOURCE_PACKAGE='CAP_POL',
- PSPICE='C',
- PART_TYPE='Polymer',
- MPN='6TPE470MAZU',
- MANUFACTURER='Panasonic Electronic Components',
- DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
- AVAILABILITY='8,000',
+occ.\02_ power\(sch_1):page1_i198@bris_cds_discrete.tantpoly(chips)',
+ PATH='I198',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='2',
- XY='(4650,-2675)',
- ROT='0',
+ PHYS_PAGE='1',
+ XY='(4300,-2100)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP2917',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
  VOLTAGE='6.3V',
- ROOM='MAIN_PWR',
- PART_NUMBER='6TPE470MAZU',
- VALUE='470UF',
- PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
 
 PART_NAME
  C18 'CAPCERSMDCL2_0402-1NF_X7R,50V':
@@ -1507,43 +1504,40 @@ s)',
  PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
 
 PART_NAME
- C44 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
- ROOM='MAIN_PWR';
+ C44 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_112P@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I199@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page4_112p@ocad_parts_lib.cap_pol(chips)',
+occ.\02_ power\(sch_1):page1_i199@bris_cds_discrete.tantpoly(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_112p@ocad_parts_lib.cap_pol(chips)',
- PATH='112P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
-df',
- TOLERANCE='20%',
- SOURCE_PACKAGE='CAP_POL',
- PSPICE='C',
- PART_TYPE='Polymer',
- MPN='6TPE470MAZU',
- MANUFACTURER='Panasonic Electronic Components',
- DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
- AVAILABILITY='8,000',
+occ.\02_ power\(sch_1):page1_i199@bris_cds_discrete.tantpoly(chips)',
+ PATH='I199',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='2',
- XY='(6275,-2675)',
- ROT='0',
+ PHYS_PAGE='1',
+ XY='(4525,-2100)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP2917',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
  VOLTAGE='6.3V',
- ROOM='MAIN_PWR',
- PART_NUMBER='6TPE470MAZU',
- VALUE='470UF',
- PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
 
 PART_NAME
  C45 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
@@ -1989,7 +1983,7 @@ occ.\02_ power\(sch_1):page3_i399@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(1325,-4550)',
+ XY='(1375,-4650)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0805',
@@ -2162,6 +2156,42 @@ occ.\02_ power\(sch_1):page3_180p@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C61 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I193@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i193@bris_cds_discrete.tantpoly(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i193@bris_cds_discrete.tantpoly(chips)',
+ PATH='I193',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(4650,-2725)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
+ VOLTAGE='6.3V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
+
+PART_NAME
  C62 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
  ROOM='VCC3V3I_V',
  REUSE_ID='18';
@@ -2204,6 +2234,42 @@ occ.\02_ power\(sch_1):page2_i171@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C63 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I192@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i192@bris_cds_discrete.tantpoly(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i192@bris_cds_discrete.tantpoly(chips)',
+ PATH='I192',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(4875,-2725)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
+ VOLTAGE='6.3V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
+
+PART_NAME
  C64 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
  ROOM='VCC1V8',
  REUSE_ID='148';
@@ -2230,7 +2296,7 @@ occ.\02_ power\(sch_1):page3_149p@ocad_parts_lib.cap_np(chips)',
  AVAILABILITY='In Stock',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
- XY='(1525,-4550)',
+ XY='(1575,-4650)',
  ROT='0',
  VER='1',
  JEDEC_TYPE='CAP0402',
@@ -2328,6 +2394,42 @@ occ.\05 trenz te0712 fpga module\(sch_1):page1_323p@ocad_parts_lib.cap_np(chips)
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C67 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I190@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i190@bris_cds_discrete.tantpoly(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i190@bris_cds_discrete.tantpoly(chips)',
+ PATH='I190',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(6025,-2725)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
+ VOLTAGE='6.3V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
+
+PART_NAME
  C68 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
  ROOM='VCC3V3I_V';
 
@@ -2410,6 +2512,42 @@ occ.\02_ power\(sch_1):page1_i191@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
+ C70 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I189@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i189@bris_cds_discrete.tantpoly(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i189@bris_cds_discrete.tantpoly(chips)',
+ PATH='I189',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(6250,-2725)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
+ VOLTAGE='6.3V',
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
+
+PART_NAME
  C71 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
  ROOM='VCC3V3I_V';
 
@@ -2490,82 +2628,76 @@ occ.\02_ power\(sch_1):page2_i175@ocad_parts_lib.cap_np(chips)',
  PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
- C77 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
- ROOM='MAIN_PWR';
+ C73 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_112P@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I201@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_112p@ocad_parts_lib.cap_pol(chips)',
+occ.\02_ power\(sch_1):page1_i201@bris_cds_discrete.tantpoly(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_112p@ocad_parts_lib.cap_pol(chips)',
- PATH='112P',
+occ.\02_ power\(sch_1):page1_i201@bris_cds_discrete.tantpoly(chips)',
+ PATH='I201',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
- DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
-df',
- TOLERANCE='20%',
- SOURCE_PACKAGE='CAP_POL',
- PSPICE='C',
- PART_TYPE='Polymer',
- MPN='6TPE470MAZU',
- MANUFACTURER='Panasonic Electronic Components',
- DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
- AVAILABILITY='8,000',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='1',
- XY='(6000,-1950)',
- ROT='0',
+ XY='(5775,-2100)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP2917',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
  VOLTAGE='6.3V',
- ROOM='MAIN_PWR',
- PART_NUMBER='6TPE470MAZU',
- VALUE='470UF',
- PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
 
 PART_NAME
- C80 'CAP_POL-6TPE470MAZU,CAP_POL-6TA':
- ROOM='MAIN_PWR';
+ C74 'TANTPOLY_SMD-220UF,6.3V':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_105P@OCAD_PARTS_LIB.CAP_POL(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I197@BRIS_CDS_DISCRETE.TANTPOLY(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_105p@ocad_parts_lib.cap_pol(chips)',
+occ.\02_ power\(sch_1):page1_i197@bris_cds_discrete.tantpoly(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_105p@ocad_parts_lib.cap_pol(chips)',
- PATH='105P',
+occ.\02_ power\(sch_1):page1_i197@bris_cds_discrete.tantpoly(chips)',
+ PATH='I197',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
- DATASHEET='\\Mac\Home\Desktop\SPB_Data\CIS_HEP_Partslib\DataSheets\ltc60812fd.p~
-df',
- TOLERANCE='20%',
- SOURCE_PACKAGE='CAP_POL',
- PSPICE='C',
- PART_TYPE='Polymer',
- MPN='6TPE470MAZU',
- MANUFACTURER='Panasonic Electronic Components',
- DISTRIBUTOR_PARTNUMBER='P16630TR-ND',
- DISTRIBUTOR='Digi-Key',
- DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917',
- AVAILABILITY='8,000',
+ SIZE='1',
+ TC='0',
+ KNEE='CBMAX',
+ IC='UNDEF',
+ TOL_ON_OFF='ON',
+ SLOPE='CSMAX',
+ POSTOL='CTOL%',
+ NEGTOL='CTOL%',
+ MAX_TEMP='CTMAX',
+ DIST='FLAT',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='1',
- XY='(4300,-2050)',
- ROT='0',
+ XY='(6000,-2100)',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='CAP2917',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='CAP_POL-6TPE470MAZU,CAP_POL-CAA',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='TANTPOLY_SMD-220UF,6.3V',
  VOLTAGE='6.3V',
- ROOM='MAIN_PWR',
- PART_NUMBER='6TPE470MAZU',
- VALUE='470UF',
- PRIM_FILE='./ocad_parts_lib/cap_pol/chips/chips.prt';
+ ROOM='POWER',
+ VALUE='220UF',
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt~
+';
 
 PART_NAME
  C81 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
@@ -11378,43 +11510,41 @@ occ.\01_ module management ctrl\(sch_1):page1_167p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R62 'R-PMR18EZPFU5L00,R-PMR18EZPFU5A':
- ROOM='MAIN_PWR',
- REUSE_ID='156';
+ R62 'RES_SR_LVK12-0.05,1%':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_113P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I200@CNPASSIVE.RES_SR(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page4_113p@discrete.r(chips)',
+occ.\02_ power\(sch_1):page1_i200@cnpassive.res_sr(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_113p@discrete.r(chips)',
- PATH='113P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.pdf',
- POWER='1 W',
- TOLERANCE='1 %',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='PMR18EZPFU5L00',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='RHM.005ALTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES 0.005 OHM 1% 1W 1206',
+occ.\02_ power\(sch_1):page1_i200@cnpassive.res_sr(chips)',
+ PATH='I200',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
  DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='2',
- XY='(5675,-2525)',
- ROT='1',
+ PHYS_PAGE='1',
+ XY='(5475,-1900)',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='RES1206',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-PMR18EZPFU5L00,R-RES1206',
- REUSE_ID='156',
- ROOM='MAIN_PWR',
- PART_NUMBER='PMR18EZPFU5L00',
- VALUE='0.005',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PACK_TYPE='LVK12',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RES_SR_LVK12-0.05,1%',
+ VOLTAGE='RVMAX',
+ ROOM='POWER',
+ TOL='1%',
+ VALUE='0.05',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/res_sr/chips/ch~
+ips.prt';
 
 PART_NAME
  R63 'R-EMA-00003608,R-EMA-00003608,A':
@@ -12281,41 +12411,41 @@ occ.\02_ power\(sch_1):page1_117p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R87 'R-ERJ-6BWFR020V,R-ERJ-6BWFR020A':
- ROOM='VCC1V8',
- REUSE_ID='127';
+ R87 'RSMD0805_125MW-0.27,1%':
+ ROOM='POWER';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I394@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_I406@CNPASSIVE.RSMD0805(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page2_i394@discrete.r(chips)',
+occ.\02_ power\(sch_1):page2_i406@cnpassive.rsmd0805(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page3_i394@discrete.r(chips)',
- PATH='I394',
+occ.\02_ power\(sch_1):page3_i406@cnpassive.rsmd0805(chips)',
+ PATH='I406',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2',
- POWER='1/2W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='ERJ-6BWFR020V',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P.02AQCT-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES 0.02 OHM 1% 1/2W 0805',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='3',
  XY='(1975,-4475)',
- ROT='1',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='RES0805',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-6BWFR020V,R-RES0805',
- REUSE_ID='127',
- ROOM='VCC1V8',
- PART_NUMBER='ERJ-6BWFR020V',
- VALUE='0.02',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PACK_TYPE='125MW',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0805_125MW-0.27,1%',
+ VOLTAGE='RVMAX',
+ ROOM='POWER',
+ TOL='1%',
+ VALUE='0.27',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0805/chips/~
+chips.prt';
 
 PART_NAME
  R88 'RSMD0402_1/16W-6.2K,1%':
@@ -12388,6 +12518,43 @@ occ.\01_ module management ctrl\(sch_1):page1_i232@cnpassive.rsmd0603(chips)',
  VALUE='00',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
 chips.prt';
+
+PART_NAME
+ R90 'RES_SR_LVK12-0.05,1%':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I188@CNPASSIVE.RES_SR(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page4_i188@cnpassive.res_sr(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
+occ.\02_ power\(sch_1):page2_i188@cnpassive.res_sr(chips)',
+ PATH='I188',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(5725,-2525)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LVK12',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RES_SR_LVK12-0.05,1%',
+ VOLTAGE='RVMAX',
+ ROOM='POWER',
+ TOL='1%',
+ VALUE='0.05',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/res_sr/chips/ch~
+ips.prt';
 
 PART_NAME
  R92 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
@@ -12582,45 +12749,6 @@ occ.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\(sch_1)
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
-
-PART_NAME
- R97 'R-PMR18EZPFU5L00,R-PMR18EZPFU5A':
- ROOM='MAIN_PWR',
- REUSE_ID='156';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_113P@DISCRETE.R(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_113p@discrete.r(chips)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_1p@mtca_interface_board_re~
-occ.\02_ power\(sch_1):page1_113p@discrete.r(chips)',
- PATH='113P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.pdf',
- POWER='1 W',
- TOLERANCE='1 %',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='PMR18EZPFU5L00',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='RHM.005ALTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES 0.005 OHM 1% 1W 1206',
- DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='1',
- XY='(5325,-1900)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='RES1206',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-PMR18EZPFU5L00,R-RES1206',
- REUSE_ID='156',
- ROOM='MAIN_PWR',
- PART_NUMBER='PMR18EZPFU5L00',
- VALUE='0.005',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
