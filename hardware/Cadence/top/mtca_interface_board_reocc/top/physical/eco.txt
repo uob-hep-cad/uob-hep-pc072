@@ -2,221 +2,30 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v193.brd         |
+|                                                    Tue Apr 18 10:04:45 2023  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  P2V5         pins MOVED FROM this net (to net name listed on right)
-                                 C44.1                          
-                                                              VCC3V3_PRE_RSHUNT
-                                 IC6.8           82.2500 10.2000
+  P2V5_MON_HIGH pins MOVED FROM this net (to net name listed on right)
+                                 R90.3           64.5500 10.6250
                                                                    P2V5_MON_LOW
-                                 R62.2           65.2000 13.3750
-                                                                         VCC3V3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_LTC2991_I162_V1 pins MOVED FROM this net (to net name listed on right)
-                                 R90.3                          
+  P2V5_MON_LOW pins MOVED FROM this net (to net name listed on right)
+                                 R90.4           64.5500 13.3750
                                                                   P2V5_MON_HIGH
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R62.3           63.8000 10.6250
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_LTC2991_I162_V2 pins MOVED FROM this net (to net name listed on right)
-                                 R90.4                          
-                                                                   P2V5_MON_LOW
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R62.4           63.8000 13.3750
+  P2V5         pins MOVED FROM this net (to net name listed on right)
+                                 R90.2           65.9500 13.3750
+                                                              VCC2V5_PRE_RSHUNT
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VCC2V5_PRE_RSHUNT pins MOVED FROM this net (to net name listed on right)
-                                 C17.1                          
-                                                              VCC3V3_PRE_RSHUNT
-                                 IC6.7           82.7500 10.2000
-                                                                  P2V5_MON_HIGH
-                                 R62.1           65.2000 10.6250
-                                                              VCC3V3_PRE_RSHUNT
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC3V3_PRE_RSHUNT pins MOVED FROM this net (to net name listed on right)
-                                 C61.1                          
-                                                              VCC2V5_PRE_RSHUNT
-                                 C63.1                          
-                                                              VCC2V5_PRE_RSHUNT
-                                 R90.1                          
-                                                              VCC2V5_PRE_RSHUNT
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC3V3       pins MOVED FROM this net (to net name listed on right)
-                                 C67.1                          
+                                 R90.1           65.9500 10.6250
                                                                            P2V5
-                                 C70.1                          
-                                                                           P2V5
-                                 R90.2                          
-                                                                           P2V5
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RSMD0805_125MW-0.27,1%
- TANTPOLY_SMD-220UF,6.3V
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C67                 TANTPOLY_SMD-220UF,6.3V 
- C70                 TANTPOLY_SMD-220UF,6.3V 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C17                 TANTPOLY_SMD-220UF,6.3V 71.5000 12.0000 CAP_POL-6TPE470MAZU,CAP_POL-6TA
- C44                 TANTPOLY_SMD-220UF,6.3V 59.0000 20.5000 CAP_POL-6TPE470MAZU,CAP_POL-6TA
- C61                 TANTPOLY_SMD-220UF,6.3V                 TANTPOLY_SMD-220UF,6.3V
- C63                 TANTPOLY_SMD-220UF,6.3V                 TANTPOLY_SMD-220UF,6.3V
- C73                 TANTPOLY_SMD-220UF,6.3V                 TANTPOLY_SMD-220UF,6.3V
- C74                 TANTPOLY_SMD-220UF,6.3V                 TANTPOLY_SMD-220UF,6.3V
- R62                 RES_SR_LVK12-0.05,1%  64.5000 12.0000 R-PMR18EZPFU5L00,R-PMR18EZPFU5A
- R87                 RSMD0805_125MW-0.27,1% 72.5000 40.2500 R-ERJ-6BWFR020V,R-ERJ-6BWFR020A
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES deleted from design                                     |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R62            64.5000 12.0000 REUSE_ID       156
- R87            72.5000 40.2500 REUSE_ID       127
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C17                            ROOM           POWER
- C44                            ROOM           POWER
- C67                            ROOM           POWER
- C70                            ROOM           POWER
- R62            64.5000 12.0000 ROOM           POWER
- R87            72.5000 40.2500 ROOM           POWER
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C17.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C17.2                          ROOM           POWER
- C17.2                          SIZE           1
- C17.2                          XY             (4300,-2100)
- C44.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C44.2                          ROOM           POWER
- C44.2                          SIZE           1
- C44.2                          XY             (4525,-2100)
- C56.2          76.2500 40.0000 XY             (1375,-4650)
- C61.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C61.2                          ROOM           POWER
- C61.2                          SIZE           1
- C61.2                          XY             (4650,-2725)
- C63.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C63.2                          ROOM           POWER
- C63.2                          SIZE           1
- C63.2                          XY             (4875,-2725)
- C64.2          73.5000 42.2500 XY             (1575,-4650)
- C67.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C67.2                          ROOM           POWER
- C67.2                          SIZE           1
- C67.2                          XY             (6025,-2725)
- C70.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C70.2                          ROOM           POWER
- C70.2                          SIZE           1
- C70.2                          XY             (6250,-2725)
- C73.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C73.2                          ROOM           POWER
- C73.2                          SIZE           1
- C73.2                          XY             (5775,-2100)
- C74.2                          PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/tantpoly/chips/chips.prt
- C74.2                          ROOM           POWER
- C74.2                          SIZE           1
- C74.2                          XY             (6000,-2100)
- R62.4          64.5000 12.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/res_sr/chips/chips.prt
- R62.4          64.5000 12.0000 ROOM           POWER
- R62.4          64.5000 12.0000 SIZE           1
- R62.4          64.5000 12.0000 XY             (5475,-1900)
- R87.2          72.5000 40.2500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0805/chips/chips.prt
- R87.2          72.5000 40.2500 ROOM           POWER
- R87.2          72.5000 40.2500 SIZE           1
- R87.2          72.5000 40.2500 XY             (1975,-4475)
- R90.4                          XY             (5725,-2525)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v192.brd         |
-|                                                    Mon Apr 17 15:33:45 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C17.1                          CDS_PINID      A(0)
- C17.2                          CDS_PINID      B(0)
- C44.1                          CDS_PINID      A(0)
- C44.2                          CDS_PINID      B(0)
- C67.1                          CDS_PINID      A(0)
- C67.2                          CDS_PINID      B(0)
- C70.1                          CDS_PINID      A(0)
- C70.2                          CDS_PINID      B(0)
- R62.1          65.2000 10.6250 CDS_PINID      C1(0)
- R62.2          65.2000 13.3750 CDS_PINID      C2(0)
- R62.3          63.8000 10.6250 CDS_PINID      S1(0)
- R62.4          63.8000 13.3750 CDS_PINID      S2(0)
- R87.1          73.4000 40.2500 CDS_PINID      A(0)
- R87.2          71.6000 40.2500 CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :      16                                        |
-|       Comp definitions added:       2                                        |
-|       Components added      :       2                                        |
-|       Components changed    :       8                                        |
-|       Comp property added   :       6                                        |
-|       Comp property deleted :       2                                        |
-|       Pin property added    :      14                                        |
-|       Slot property added   :      43                                        |
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      93                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|
