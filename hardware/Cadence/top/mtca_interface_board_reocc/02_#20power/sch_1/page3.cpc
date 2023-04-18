@@ -1,7 +1,4 @@
 #CELL
-  testpoint testpoint *
-  page2_136p
-#CELL
   discrete r *
   page2_138p
 #ISCELL
@@ -70,9 +67,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_9p
-#CELL
-  discrete r *
-  page2_i394
 #ISCELL
   cnpower p2v5 *
   page2_i397
@@ -91,3 +85,6 @@
 #ISCELL
   mtca_interface_board portboth-r *
   page2_i405
+#CELL
+  cnpassive rsmd0805 *
+  page2_i406

@@ -1,19 +1,10 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Thu Mar 30 15:25:51 2023
-#CELL
-  ocad_parts_lib cap_pol *
-  page1_105p
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S033 (4064022) 10/8/2022 on Mon Apr 17 14:55:30 2023
 #CELL
   discrete r *
   page1_108p
 #CELL
   discrete r *
   page1_111p
-#CELL
-  ocad_parts_lib cap_pol *
-  page1_112p
-#CELL
-  discrete r *
-  page1_113p
 #ISCELL
   golden_symbols 2-pin_jumper *
   page1_114p
@@ -29,9 +20,6 @@
 #CELL
   atcs led#20red#200603_0 *
   page1_121p
-#CELL
-  testpoint testpoint *
-  page1_123p
 #CELL
   ocad_parts_lib cap_np_0 *
   page1_126p
@@ -164,9 +152,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_i172
-#ISCELL
-  cnpower p2v5 *
-  page1_i173
 #CELL
   ocad_parts_lib cap_np *
   page1_i175
@@ -210,20 +195,26 @@
   cnpassive elcaptan *
   page1_i196
 #CELL
-  ocad_parts_lib cap_pol *
-  page4_105p
+  bris_cds_discrete tantpoly *
+  page1_i197
 #CELL
-  ocad_parts_lib cap_pol *
-  page4_112p
+  bris_cds_discrete tantpoly *
+  page1_i198
 #CELL
-  discrete r *
-  page4_113p
+  bris_cds_discrete tantpoly *
+  page1_i199
+#CELL
+  cnpassive res_sr *
+  page1_i200
+#CELL
+  bris_cds_discrete tantpoly *
+  page1_i201
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
 #CELL
   ocad_parts_lib cap_np *
   page4_119p
-#CELL
-  testpoint testpoint *
-  page4_123p
 #CELL
   testpoint testpoint *
   page4_130p
@@ -232,13 +223,7 @@
   page4_131p
 #ISCELL
   mtca_interface_board gnd *
-  page4_40p
-#ISCELL
-  mtca_interface_board gnd *
   page4_5p
-#ISCELL
-  bris_cds_standard a3-2000 *
-  page4_6p
 #CELL
   cnlinear pth08t210w *
   page4_i137
@@ -320,9 +305,6 @@
 #CELL
   testpoint testpoint *
   page4_i178
-#CELL
-  testpoint testpoint *
-  page4_i179
 #ISCELL
   mtca_interface_board offpageleft-l *
   page4_i180
@@ -342,8 +324,23 @@
   mtca_interface_board gnd *
   page4_i186
 #CELL
-  testpoint testpoint *
-  page2_136p
+  cnpassive res_sr *
+  page4_i188
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i189
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i190
+#ISCELL
+  mtca_interface_board gnd *
+  page4_i191
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i192
+#CELL
+  bris_cds_discrete tantpoly *
+  page4_i193
 #CELL
   discrete r *
   page2_138p
@@ -413,9 +410,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page2_9p
-#CELL
-  discrete r *
-  page2_i394
 #ISCELL
   cnpower p2v5 *
   page2_i397
@@ -434,3 +428,6 @@
 #ISCELL
   mtca_interface_board portboth-r *
   page2_i405
+#CELL
+  cnpassive rsmd0805 *
+  page2_i406

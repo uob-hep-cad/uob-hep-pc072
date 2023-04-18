@@ -1,4 +1,4 @@
 echo off
 netassembler
-concept2cm -forward -export -proj "C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\top.cpm"
-pxl.exe -proj "C:\pc072_local\uob-hep-pc072\hardware\Cadence\top\top.cpm" -nosavehier
+concept2cm -forward -export -proj "C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm"
+pxl.exe -proj "C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm" -nosavehier

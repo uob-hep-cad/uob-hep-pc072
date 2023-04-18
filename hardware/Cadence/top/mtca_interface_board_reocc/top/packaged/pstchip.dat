@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 30-Mar-2023 AT 19:03:02 }
+{ Packager-XL run on 18-Apr-2023 AT 10:04:35 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1427,42 +1427,65 @@ primitive 'CAP_NP_0-445-7348-2-ND,CAP_NP_A';
       PARENT_PPT_PART='CAP_NP_0-445-7348-2-ND,CAP_NP_0';
   end_body;
 end_primitive;
-primitive 'CAP_POL-6TPE470MAZU,CAP_POL-6TA';
+primitive 'CON10P-HTST-105-01-L-DV';
   pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_LENGTH='Short';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
+    'A'<9>:
+      PIN_NUMBER='(10)';
       PINUSE='UNSPEC';
-    '2':
+    'A'<8>:
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'A'<7>:
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'A'<6>:
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A'<5>:
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A'<4>:
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'A'<3>:
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<1>:
       PIN_NUMBER='(2)';
-      PIN_LENGTH='Short';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      PART_NAME='CAP_POL';
-      BODY_NAME='CAP_POL';
-      JEDEC_TYPE='CAP2917';
-      VALUE='470UF';
-      DESCRIPTION='CAP TANT POLY 470UF 6.3V 2917';
-      MPN='6TPE470MAZU';
-      MANUFACTURER='PANASONIC ELECTRONIC COMPONENTS';
-      PART_TYPE='POLYMER';
-      PART_NUMBER='6TPE470MAZU';
-      SOURCE_PACKAGE='CAP_POL';
-      PARENT_PART_TYPE='CAP_POL';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CAP_POL';
-      PARENT_PPT_PART='CAP_POL-6TPE470MAZU,CAP_POL';
+      PART_NAME='CON10P';
+      BODY_NAME='CON10P';
+      VER='3';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      SIZE='1';
+      PHYS_DES_PREFIX='J';
+      CLASS='IO';
+      STATUS='Not Preferred';
+      PART_NUMBER='HTST-105-01-L-DV';
+      MANUFACTURER='SAMTEC';
+      DESCRIPTION='10 Contacts 2.54mm Pitch Dual Row SMD Vertical 0.25 Square Po~
+st IDC Header - HTST Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/samtec_HTST.p~
+df';
+      PINCOUNT='10';
+      SMD='YES';
+      CASE='_';
+      JEDEC_TYPE='SAMTEC_HTST-105-01-L-DV';
+      PARENT_PART_TYPE='CON10P';
+      PARENT_PPT='CON10P';
+      PARENT_PPT_PART='CON10P-HTST-105-01-L-DV';
   end_body;
 end_primitive;
 primitive 'CON20P_SFP-1367073-1-1367073-1B';
@@ -1606,58 +1629,6 @@ primitive 'CON4P-53398-0471';
       PARENT_PART_TYPE='CON4P';
       PARENT_PPT='CON4P';
       PARENT_PPT_PART='CON4P-53398-0471';
-  end_body;
-end_primitive;
-primitive 'CON7P-5607-5102-SH';
-  pin
-    'A'<6>:
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'A'<5>:
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'A'<4>:
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A'<3>:
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='CON7P';
-      BODY_NAME='CON7P';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
-      SIZE='1';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
-      STATUS='Preferred';
-      PART_NUMBER='5607-5102-SH';
-      MANUFACTURER='3M';
-      DESCRIPTION='8 Positions Serial Advanced Technology Attachment (SATA) Vert~
-ical Connector';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/3m_5607-5102-~
-sh.pdf';
-      PINCOUNT='9';
-      SMD='NO';
-      CASE='SATA';
-      JEDEC_TYPE='3M_5607-5102-SH';
-      NC_PINS='(8,9)';
-      PARENT_PART_TYPE='CON7P';
-      PARENT_PPT='CON7P';
-      PARENT_PPT_PART='CON7P-5607-5102-SH';
   end_body;
 end_primitive;
 primitive 'CONN30P-FTSH-115-01-L-DV,CONN3B';
@@ -5617,42 +5588,6 @@ primitive 'R-ERJ-3EKF1600V,R-ERJ-3EKF1600A';
       PARENT_PPT_PART='R-ERJ-3EKF1600V,R';
   end_body;
 end_primitive;
-primitive 'R-ERJ-6BWFR020V,R-ERJ-6BWFR020A';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES0805';
-      VALUE='0.02';
-      DESCRIPTION='RES 0.02 OHM 1% 1/2W 0805';
-      MPN='ERJ-6BWFR020V';
-      MANUFACTURER='PANASONIC';
-      PART_TYPE='THICK FILM';
-      PART_NUMBER='ERJ-6BWFR020V';
-      SOURCE_PACKAGE='R';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-ERJ-6BWFR020V,R';
-  end_body;
-end_primitive;
 primitive 'R-ERJ-6GEY0R00V,R-ERJ-6GEY0R00A';
   pin
     '1':
@@ -5797,131 +5732,54 @@ primitive 'R-NO_STUFF,R-NO_STUFF,R,RES0402';
       PARENT_PPT_PART='R-NO_STUFF,R';
   end_body;
 end_primitive;
-primitive 'R-PMR18EZPFU5L00,R-PMR18EZPFU5A';
+primitive 'RES_SR_LVK12-0.05,1%';
   pin
-    '1':
+    'C1'<0>:
       PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'C2'<0>:
       PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES1206';
-      VALUE='0.005';
-      DESCRIPTION='RES 0.005 OHM 1% 1W 1206';
-      MPN='PMR18EZPFU5L00';
-      MANUFACTURER='PANASONIC';
-      PART_TYPE='THICK FILM';
-      PART_NUMBER='PMR18EZPFU5L00';
-      SOURCE_PACKAGE='R';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-PMR18EZPFU5L00,R';
-  end_body;
-end_primitive;
-primitive 'RECPT 5X2 100MIL-RECP5X2,RECPTB';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '3':
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'S1'<0>:
       PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '4':
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'S2'<0>:
       PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '7':
-      PIN_NUMBER='(7)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '8':
-      PIN_NUMBER='(8)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '9':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '10':
-      PIN_NUMBER='(10)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
-      PHYS_DES_PREFIX='P';
-      PART_NAME='RECPT 5X2 100MIL';
-      BODY_NAME='RECPT 5X2 100MIL';
-      JEDEC_TYPE='RECPT5X2_100MIL_SM';
-      VALUE='RECP5X2';
-      DESCRIPTION='CONN10, HEADER,TH';
-      MPN='';
-      MANUFACTURER='SAMTEC';
-      PART_TYPE='HEADER';
-      PART_NUMBER='RECP5X2';
-      SOURCE_PACKAGE='RECPT 5X2 100MIL';
-      PARENT_PART_TYPE='RECPT 5X2 100MIL';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='RECPT 5X2 100MIL';
-      PARENT_PPT_PART='RECPT 5X2 100MIL-RECP5X2,RECPT 5X2 100MIL';
+      PART_NAME='RES_SR';
+      BODY_NAME='RES_SR';
+      CLASS='DISCRETE';
+      PINCOUNT='4';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      VALUE='0.05';
+      JEDEC_TYPE='RES_LVK12';
+      PART_NUMBER='LVK12R050FER';
+      MANUFACTURER='OHMITE';
+      DESCRIPTION='4-Terminal High Precision Current Sense';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/res_ohmite_LV~
+K.pdf';
+      PARENT_PART_TYPE='RES_SR';
+      PARENT_PPT='RES_SR';
+      PARENT_PPT_PART='RES_SR_LVK12-0.05,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-1K,1%';
@@ -6200,6 +6058,45 @@ primitive 'RSMD0603_1/10W-XX,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-XX,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0805_125MW-0.27,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0805';
+      BODY_NAME='RSMD0805';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0805';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0805_0R27_1%_0.125W_100PPM';
+      VALUE='0.27';
+      TOL='1%';
+      PWR='0.125W';
+      JEDEC_TYPE='C0805';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0805_125MW';
+      PARENT_PPT='RSMD0805';
+      PARENT_PPT_PART='RSMD0805_125MW-0.27,1%';
   end_body;
 end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
@@ -6654,6 +6551,46 @@ nation and Fail Safe Input';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SY58608U';
       PARENT_PPT_PART='SY58608UMG';
+  end_body;
+end_primitive;
+primitive 'TANTPOLY_SMD-220UF,6.3V';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='TANTPOLY';
+      BODY_NAME='TANTPOLY';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      DESCRIPTION='Low-profile Polymer Tantalum Capacitor';
+      VALUE='220uF';
+      JEDEC_TYPE='T520V';
+      PART_NUMBER='T520V227M006ATE018';
+      MANUFACTURER='Kemet';
+      CASE='Z';
+      SMD='YES';
+      VOLT='6.3V';
+      TOL='20%';
+      DATASHEET_URL='https://www.mouser.co.uk/datasheet/2/427/t55-1763893.pdf';
+      PARENT_PART_TYPE='TANTPOLY_SMD';
+      PARENT_PPT='TANTPOLY';
+      PARENT_PPT_PART='TANTPOLY_SMD-220UF,6.3V';
   end_body;
 end_primitive;
 primitive 'TE0712 CONNECTOR-JB1-LSHM-150-B';

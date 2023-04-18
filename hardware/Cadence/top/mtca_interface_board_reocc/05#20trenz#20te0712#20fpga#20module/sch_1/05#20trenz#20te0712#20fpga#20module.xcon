@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-17T11:18:32</modificationTime>
+    <modificationTime>2023-04-14T13:39:57</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
-        <instanceid>132</instanceid>
+        <instanceid>136</instanceid>
         <netid>311</netid>
-        <insttermid>890</insttermid>
+        <insttermid>894</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1762,23 +1762,6 @@
           </terms>
         </cell>
         <cell>
-          <id>S14</id>
-          <library>cnconnector</library>
-          <name>con7p</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T361</id>
-              <name>a</name>
-              <direction>inout</direction>
-              <msb>6</msb>
-              <lsb>0</lsb>
-            </term>
-          </terms>
-        </cell>
-        <cell>
           <id>S15</id>
           <library>cnpassive</library>
           <name>tp</name>
@@ -1858,6 +1841,21 @@
             <term>
               <id>T395</id>
               <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S19</id>
+          <library>cnconnector</library>
+          <name>pcoax</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T405</id>
+              <name>a</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -2217,18 +2215,6 @@
         <net>
           <id>N154</id>
           <name>tdo</name>
-        </net>
-        <net>
-          <id>N201</id>
-          <name>timing.upstream_data_n</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N205</id>
-          <name>timing.upstream_data_p</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
         </net>
         <net>
           <id>N209</id>
@@ -3495,28 +3481,28 @@
               <id>M465</id>
               <termid>T36</termid>
               <connections>
-                <connection net="N201" netmsb="0" netlsb="0" />
+                <connection net="N245" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M466</id>
               <termid>T37</termid>
               <connections>
-                <connection net="N205" netmsb="0" netlsb="0" />
+                <connection net="N247" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M467</id>
               <termid>T38</termid>
               <connections>
-                <connection net="N201" netmsb="1" netlsb="1" />
+                <connection net="N245" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M468</id>
               <termid>T39</termid>
               <connections>
-                <connection net="N205" netmsb="1" netlsb="1" />
+                <connection net="N247" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -3535,14 +3521,14 @@
               <id>M471</id>
               <termid>T42</termid>
               <connections>
-                <connection net="N201" netmsb="2" netlsb="2" />
+                <connection net="N245" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M472</id>
               <termid>T43</termid>
               <connections>
-                <connection net="N205" netmsb="2" netlsb="2" />
+                <connection net="N247" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
@@ -3643,12 +3629,14 @@
               <id>M487</id>
               <termid>T58</termid>
               <connections>
+                <connection net="N227" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M488</id>
               <termid>T59</termid>
               <connections>
+                <connection net="N229" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4240,14 +4228,12 @@
               <id>M618</id>
               <termid>T144</termid>
               <connections>
-                <connection net="N227" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M619</id>
               <termid>T145</termid>
               <connections>
-                <connection net="N229" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4923,14 +4909,14 @@
               <id>M794</id>
               <termid>T296</termid>
               <connections>
-                <connection net="N229" netmsb="0" netlsb="0" />
+                <connection net="N227" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M795</id>
               <termid>T297</termid>
               <connections>
-                <connection net="N227" netmsb="0" netlsb="0" />
+                <connection net="N229" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -5300,28 +5286,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I112</id>
-          <cellid>S14</cellid>
-          <name>page2_i393</name>
-          <pins>
-            <pin>
-              <id>M854</id>
-              <termid>T361</termid>
-              <msb>6</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="6" pinlsb="6" net="N103" />
-                <connection pinmsb="3" pinlsb="3" net="N103" />
-                <connection pinmsb="0" pinlsb="0" net="N103" />
-                <connection pinmsb="4" pinlsb="4" net="N253" />
-                <connection pinmsb="5" pinlsb="5" net="N254" />
-                <connection pinmsb="2" pinlsb="2" net="N255" />
-                <connection pinmsb="1" pinlsb="1" net="N256" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I113</id>
           <cellid>S2</cellid>
           <name>page2_i396</name>
@@ -5669,6 +5633,62 @@
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="0" pinlsb="0" net="N308" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I133</id>
+          <cellid>S19</cellid>
+          <name>page2_i421</name>
+          <pins>
+            <pin>
+              <id>M891</id>
+              <termid>T405</termid>
+              <connections>
+                <connection net="N254" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I134</id>
+          <cellid>S19</cellid>
+          <name>page2_i422</name>
+          <pins>
+            <pin>
+              <id>M892</id>
+              <termid>T405</termid>
+              <connections>
+                <connection net="N253" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I135</id>
+          <cellid>S19</cellid>
+          <name>page2_i423</name>
+          <pins>
+            <pin>
+              <id>M893</id>
+              <termid>T405</termid>
+              <connections>
+                <connection net="N255" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I136</id>
+          <cellid>S19</cellid>
+          <name>page2_i424</name>
+          <pins>
+            <pin>
+              <id>M894</id>
+              <termid>T405</termid>
+              <connections>
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6038,17 +6058,17 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="timing.upstream_data_n">
-                <msb>2</msb>
-                <lsb>0</lsb>
-              </net>
-              <net ref="timing.upstream_data_p">
-                <msb>2</msb>
-                <lsb>0</lsb>
-              </net>
               <net ref="uart_rx_to_fpga_3v3"></net>
               <net ref="uart_tx_from_fpga_3v3"></net>
               <net ref="unnamed_2_capcersmdcl2_i418_b"></net>
+              <net ref="upstream_data_n">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
+              <net ref="upstream_data_p">
+                <msb>2</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="vcc3v3"></net>
               <net ref="vref_jtag"></net>
             </nets>
@@ -6063,7 +6083,6 @@
               <instance ref="340p"></instance>
               <instance ref="342p"></instance>
               <instance ref="350p"></instance>
-              <instance ref="i393"></instance>
               <instance ref="i396"></instance>
               <instance ref="i397"></instance>
               <instance ref="i398"></instance>
@@ -6081,6 +6100,10 @@
               <instance ref="i416"></instance>
               <instance ref="i417"></instance>
               <instance ref="i418"></instance>
+              <instance ref="i421"></instance>
+              <instance ref="i422"></instance>
+              <instance ref="i423"></instance>
+              <instance ref="i424"></instance>
             </instances>
           </page>
         </pages>

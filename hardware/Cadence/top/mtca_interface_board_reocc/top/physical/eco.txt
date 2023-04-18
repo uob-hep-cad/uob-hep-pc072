@@ -2,10 +2,30 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Mar 30 19:03:28 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v193.brd         |
+|                                                    Tue Apr 18 10:04:45 2023  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  P2V5_MON_HIGH pins MOVED FROM this net (to net name listed on right)
+                                 R90.3           64.5500 10.6250
+                                                                   P2V5_MON_LOW
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5_MON_LOW pins MOVED FROM this net (to net name listed on right)
+                                 R90.4           64.5500 13.3750
+                                                                  P2V5_MON_HIGH
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins MOVED FROM this net (to net name listed on right)
+                                 R90.2           65.9500 13.3750
+                                                              VCC2V5_PRE_RSHUNT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC2V5_PRE_RSHUNT pins MOVED FROM this net (to net name listed on right)
+                                 R90.1           65.9500 10.6250
+                                                                           P2V5
 |------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|
