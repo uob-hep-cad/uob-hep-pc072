@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 20-Apr-2023 AT 16:33:42 }
+{ Packager-XL run on 20-Apr-2023 AT 16:53:51 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='20-Apr-2023 AT 16:33:42';
+ POST_TIME='20-Apr-2023 AT 16:53:51';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -16879,6 +16879,31 @@ occ.\08_ timing\(sch_1):page1_i618@bris_cds_logic.max9381esa(chips)',
  PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt';
 
 PART_NAME
+ U4 'ATMGA128_TQFP-ATMEGA128A-AU,ATB':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I235@OCAD_PARTS_LIB.ATMGA128(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i235@ocad_parts_lib.atmga128(chips~
+)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
+occ.\01_ module management ctrl\(sch_1):page1_i235@ocad_parts_lib.atmga128(chips~
+)',
+ PATH='I235',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SOURCE_PACKAGE='ATMGA128',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(2425,-2025)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TQFP',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='ATMGA128_TQFP-ATMEGA128A-AU,ATA',
+ PART_NUMBER='ATMEGA128A-AU',
+ PRIM_FILE='./ocad_parts_lib/atmga128/chips/chips.prt';
+
+PART_NAME
  U5 'SFP_CAGE-2227023-1-2227023-1,SB':
  ROOM='SFP0';
 
@@ -17013,43 +17038,6 @@ occ.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\(sch_1)
  PART_NUMBER='2227023-1',
  VALUE='2227023-1',
  PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt';
-
-PART_NAME
- U13 'ATMGA128-ATMEGA128A-AU,ATMGA12A':
- ROOM='MMC_DISCRETE';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_197P@OCAD_PARTS_LIB.ATMGA128(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
-occ.\01_ module management ctrl\(sch_1):page1_197p@ocad_parts_lib.atmga128(chips~
-)',
- P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_5p@mtca_interface_board_re~
-occ.\01_ module management ctrl\(sch_1):page1_197p@ocad_parts_lib.atmga128(chips~
-)',
- PATH='197P',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- NC='',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Texas Instruments\msp430f5~
-529.pdf',
- SOURCE_PACKAGE='ATMGA128',
- PSPICE='IC',
- PART_TYPE='Microcontroller',
- MPN='IC MCU 8BIT 128KB FLASH 64QFN',
- MANUFACTURER='Micro Chip',
- DISTRIBUTOR_PARTNUMBER='ATMEGA128A-MU-ND',
- DESCRIPTION='IC MCU 8BIT 128KB FLASH 64QFN',
- DESIGNATORNAMEPROP='MMC',
- PHYS_PAGE='1',
- XY='(2425,-2025)',
- ROT='0',
- VER='1',
- JEDEC_TYPE='QFN_64',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='ATMGA128-ATMEGA128A-AU,ATMGA12A',
- ROOM='MMC_DISCRETE',
- PART_NUMBER='ATMEGA128A-AU',
- VALUE='ATMEGA128A-MU',
- PRIM_FILE='./ocad_parts_lib/atmga128/chips/chips.prt';
 
 PART_NAME
  U14 'SFP_CAGE-2227023-1-2227023-1,SB':
