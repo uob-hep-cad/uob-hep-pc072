@@ -2,159 +2,45 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Apr 20 13:19:44 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v121.brd         |
+|                                                    Thu Apr 20 16:33:51 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  SFP_TD_N<0>  pins MOVED FROM this net (to net name listed on right)
-                                 R14.2           135.500 14.9500
-                                                    UNNAMED_1_MAX9381ESA_I578_Q
-                                 U8.6            133.489 15.3650
-                                                    UNNAMED_1_MAX9381ESA_I578_Q
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R154.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_TD_N<1>  pins MOVED FROM this net (to net name listed on right)
-                                 R12.2           135.750 31.9500
-                                                  UNNAMED_1_MAX9381ESA_I618_Q_1
-                                 U3.6            133.489 32.3650
-                                                  UNNAMED_1_MAX9381ESA_I618_Q_1
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_TD_N<2>  pins MOVED FROM this net (to net name listed on right)
-                                 R91.2                          
-                                                                    SFP_TD_N<1>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_TD_P<0>  pins MOVED FROM this net (to net name listed on right)
-                                 R18.2           135.500 17.0500
-                                                  UNNAMED_1_MAX9381ESA_I578_Q_1
-                                 U8.7            133.489 16.6350
-                                                  UNNAMED_1_MAX9381ESA_I578_Q_1
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R147.2                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_TD_P<1>  pins MOVED FROM this net (to net name listed on right)
-                                 R15.2           135.750 34.0500
-                                                    UNNAMED_1_MAX9381ESA_I618_Q
-                                 U3.7            133.489 33.6350
-                                                    UNNAMED_1_MAX9381ESA_I618_Q
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SFP_TD_P<2>  pins MOVED FROM this net (to net name listed on right)
-                                 R26.2                          
-                                                                    SFP_TD_P<1>
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_MAX9381ESA_I578_Q pins ADDED TO this new net
-                                 R154.1                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_MAX9381ESA_I578_Q_1 pins ADDED TO this new net
-                                 R147.1                         
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_MAX9381ESA_I618_Q pins ADDED TO this new net
+ ATMGA128-ATMEGA128A-AU,ATMGA12A
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Apr 20 13:19:44 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v121.brd         |
+|                                                    Thu Apr 20 16:33:51 2023  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 R26.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_MAX9381ESA_I618_Q_1 pins ADDED TO this new net
-                                 R91.1                          
+ U13                 ATMGA128-ATMEGA128A-AU,ATMGA12A 16.6370 26.0350 ATMGA128-ATMEGA128A-MU,ATMGA12A
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Apr 20 13:19:44 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R26                 R-EMA-00007500V42,R-EMA-000075A 
- R91                 R-EMA-00007500V42,R-EMA-000075A 
- R147                R-EMA-00007500V42,R-EMA-000075A 
- R154                R-EMA-00007500V42,R-EMA-000075A 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Apr 20 13:19:44 2023  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R26                            ROOM           SFP_DFF_AND_FANOUT
- R91                            ROOM           SFP_DFF_AND_FANOUT
- R147                           ROOM           SFP_DFF_AND_FANOUT
- R154                           ROOM           SFP_DFF_AND_FANOUT
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Apr 20 13:19:44 2023  |
+|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v121.brd         |
+|                                                    Thu Apr 20 16:33:51 2023  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R26.2                          DESCRIPTION    RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402
- R26.2                          NO_SWAP_GATE   
- R26.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
- R26.2                          ROOM           SFP_DFF_AND_FANOUT
- R26.2                          XY             (16250,-7975)
- R91.2                          DESCRIPTION    RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402
- R91.2                          NO_SWAP_GATE   
- R91.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
- R91.2                          ROOM           SFP_DFF_AND_FANOUT
- R91.2                          XY             (16250,-8175)
- R147.2                         DESCRIPTION    RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402
- R147.2                         NO_SWAP_GATE   
- R147.2                         PRIM_FILE      ./discrete/r/chips/chips.prt
- R147.2                         ROOM           SFP_DFF_AND_FANOUT
- R147.2                         XY             (16300,-6375)
- R154.2                         DESCRIPTION    RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402
- R154.2                         NO_SWAP_GATE   
- R154.2                         PRIM_FILE      ./discrete/r/chips/chips.prt
- R154.2                         ROOM           SFP_DFF_AND_FANOUT
- R154.2                         XY             (16300,-6575)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
+ U13.23         16.6370 26.0350 DESCRIPTION    IC MCU 8BIT 128KB FLASH 64QFN
+ U13.23         16.6370 26.0350 PRIM_FILE      ./ocad_parts_lib/atmga128/chips/chips.prt
+ U13.23         16.6370 26.0350 ROOM           MMC_DISCRETE
+ U13.23         16.6370 26.0350 XY             (2425,-2025)
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top/physical/mib_rev2_v120.brd         |
-|                                                    Thu Apr 20 13:19:44 2023  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R26.1                          CDS_PINID      \1\
- R26.2                          CDS_PINID      \2\
- R91.1                          CDS_PINID      \1\
- R91.2                          CDS_PINID      \2\
- R147.1                         CDS_PINID      \1\
- R147.2                         CDS_PINID      \2\
- R154.1                         CDS_PINID      \1\
- R154.2                         CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :      16                                        |
-|       Components added      :       4                                        |
-|       Comp property added   :       4                                        |
-|       Pin property added    :       8                                        |
-|       Slot property added   :      20                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      52                                        |
+|   Total ECO changes reported:       6                                        |
 |------------------------------------------------------------------------------|
