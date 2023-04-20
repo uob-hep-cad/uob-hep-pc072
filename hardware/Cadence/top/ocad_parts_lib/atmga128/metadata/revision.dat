@@ -1,0 +1,196 @@
+(Cell	atmga128
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/20/23,16:44:05)
+
+			(User	phdgc)
+
+			(Path	ocad_parts_lib.atmga128)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	04/20/23,16:44:05)
+
+					(User	phdgc)
+
+					(Path	ocad_parts_lib.atmga128)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004c139e1d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/20/23,16:44:05)
+
+							(User	phdgc)
+
+							(Path	ocad_parts_lib.atmga128)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c2303af)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006e74cc0d)
+
+			(Primitives	1
+
+				(Primitive	ATMGA128_QFN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/20/23,16:44:05)
+
+							(User	phdgc)
+
+							(Path	ocad_parts_lib.atmga128)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ATMGA128
+
+							(PackType	ATMGA128_QFN)
+
+							(PackType	ATMGA128_TQFP)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	tqfp64_080)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d850418)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S033 (4064022))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b630350)
+
+)
+
