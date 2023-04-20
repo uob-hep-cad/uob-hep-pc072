@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 18-Apr-2023 AT 18:30:28 }
+{ Packager-XL run on 20-Apr-2023 AT 13:19:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='18-Apr-2023 AT 18:30:28';
+ POST_TIME='20-Apr-2023 AT 13:19:36';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -10194,12 +10194,12 @@ PART_NAME
  ROOM='SFP_DFF_AND_FANOUT';
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I574@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I798@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page1_i574@discrete.r(chips)',
+occ.\08_ timing\(sch_1):page1_i798@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
-occ.\08_ timing\(sch_1):page1_i574@discrete.r(chips)',
- PATH='I574',
+occ.\08_ timing\(sch_1):page1_i798@discrete.r(chips)',
+ PATH='I798',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
  DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
  POWER='1/10W',
@@ -10213,7 +10213,7 @@ occ.\08_ timing\(sch_1):page1_i574@discrete.r(chips)',
  DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='1',
- XY='(10500,-7750)',
+ XY='(16250,-7975)',
  ROT='3',
  VER='1',
  JEDEC_TYPE='RES0402',
@@ -12557,6 +12557,42 @@ occ.\02_ power\(sch_1):page2_i188@cnpassive.res_sr(chips)',
 ips.prt';
 
 PART_NAME
+ R91 'R-EMA-00007500V42,R-EMA-000075A':
+ ROOM='SFP_DFF_AND_FANOUT';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I799@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i799@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i799@discrete.r(chips)',
+ PATH='I799',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
+ POWER='1/10W',
+ TOLERANCE='Jumper',
+ SOURCE_PACKAGE='R',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2GE0R00X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P0.0JTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(16250,-8175)',
+ ROT='3',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-EMA-00007500V42,R-RES0402',
+ ROOM='SFP_DFF_AND_FANOUT',
+ PART_NUMBER='EMA-00007500V42',
+ VALUE='0',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
  R92 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
  ROOM='SFP0';
 
@@ -12749,6 +12785,42 @@ occ.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\(sch_1)
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R97 'R-EMA-00007500V42,R-EMA-000075A':
+ ROOM='SFP_DFF_AND_FANOUT';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I574@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i574@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i574@discrete.r(chips)',
+ PATH='I574',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
+ POWER='1/10W',
+ TOLERANCE='Jumper',
+ SOURCE_PACKAGE='R',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2GE0R00X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P0.0JTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(10500,-7750)',
+ ROT='3',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-EMA-00007500V42,R-RES0402',
+ ROOM='SFP_DFF_AND_FANOUT',
+ PART_NUMBER='EMA-00007500V42',
+ VALUE='0',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
@@ -14586,6 +14658,42 @@ occ.\08_ timing\(sch_1):page1_i741@cnpassive.rsmd0402(chips)',
 chips.prt';
 
 PART_NAME
+ R147 'R-EMA-00007500V42,R-EMA-000075A':
+ ROOM='SFP_DFF_AND_FANOUT';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I800@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i800@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i800@discrete.r(chips)',
+ PATH='I800',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
+ POWER='1/10W',
+ TOLERANCE='Jumper',
+ SOURCE_PACKAGE='R',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2GE0R00X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P0.0JTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(16300,-6375)',
+ ROT='3',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-EMA-00007500V42,R-RES0402',
+ ROOM='SFP_DFF_AND_FANOUT',
+ PART_NUMBER='EMA-00007500V42',
+ VALUE='0',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
  R148 'RSMD0402_1/16W-2.2K,1%':
  ROOM='SFP_DFF_AND_FANOUT';
 
@@ -14806,6 +14914,42 @@ occ.\08_ timing\(sch_1):page1_i747@cnpassive.rsmd0402(chips)',
  VALUE='2.2K',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
 chips.prt';
+
+PART_NAME
+ R154 'R-EMA-00007500V42,R-EMA-000075A':
+ ROOM='SFP_DFF_AND_FANOUT';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I801@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i801@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i801@discrete.r(chips)',
+ PATH='I801',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
+ POWER='1/10W',
+ TOLERANCE='Jumper',
+ SOURCE_PACKAGE='R',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2GE0R00X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P0.0JTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(16300,-6575)',
+ ROT='3',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-EMA-00007500V42,R-RES0402',
+ ROOM='SFP_DFF_AND_FANOUT',
+ PART_NUMBER='EMA-00007500V42',
+ VALUE='0',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
  R155 'RSMD0402_1/16W-1K,1%':
@@ -16138,6 +16282,78 @@ occ.\08_ timing\(sch_1):page3_i224@cnpassive.rsmd0402(chips)',
  VALUE='200',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
 chips.prt';
+
+PART_NAME
+ R191 'R-EMA-00007500V42,R-EMA-000075A':
+ ROOM='SFP_DFF_AND_FANOUT';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I796@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i796@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i796@discrete.r(chips)',
+ PATH='I796',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
+ POWER='1/10W',
+ TOLERANCE='Jumper',
+ SOURCE_PACKAGE='R',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2GE0R00X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P0.0JTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(13125,-9400)',
+ ROT='3',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-EMA-00007500V42,R-RES0402',
+ ROOM='SFP_DFF_AND_FANOUT',
+ PART_NUMBER='EMA-00007500V42',
+ VALUE='0',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R192 'R-EMA-00007500V42,R-EMA-000075A':
+ ROOM='SFP_DFF_AND_FANOUT';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I797@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i797@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i797@discrete.r(chips)',
+ PATH='I797',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE1.PDF',
+ POWER='1/10W',
+ TOLERANCE='Jumper',
+ SOURCE_PACKAGE='R',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2GE0R00X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P0.0JTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES, Thick Film, 0, Jumper, 1/10W, SMD, 0402',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(13125,-9600)',
+ ROT='3',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-EMA-00007500V42,R-RES0402',
+ ROOM='SFP_DFF_AND_FANOUT',
+ PART_NUMBER='EMA-00007500V42',
+ VALUE='0',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
  SW1 'HDT0001-HDT0001,HDT0001-HDT000A':
