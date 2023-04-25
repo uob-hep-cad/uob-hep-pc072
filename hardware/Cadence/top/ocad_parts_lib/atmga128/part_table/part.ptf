@@ -1,13 +1,14 @@
 FILE_TYPE = MULTI_PHYS_TABLE;
 
-{TIME=' COMPILATION ON SAT DEC 31 17:29:15 2022  ';}
+PART 'ATMGA128'
 
-PART 'atmga128'
+{========================================================================================}
+:PART_NUMBER     | SOURCE_PACKAGE    = JEDEC_TYPE   | VALUE           | DESCRIPTION                     | MPN                             | MANUFACTURER | PART_TYPE         ;
+{========================================================================================}
+ 'ATMEGA128A-MU' | 'ATMGA128'(!)     = 'QFN_64'     | 'ATMEGA128A-MU' | 'IC MCU 8BIT 128KB FLASH 64QFN' | 'IC MCU 8BIT 128KB FLASH 64QFN' | 'MICRO CHIP' | 'MICROCONTROLLER'
+ 'ATMEGA128A-AU' | 'ATMGA128'(!)     = 'TQFP64_080' | 'ATMEGA128A-AU' | 'IC MCU 8BIT 128KB FLASH 64QFN' | 'IC MCU 8BIT 128KB FLASH 64QFN' | 'MICRO CHIP' | 'MICROCONTROLLER'
 
-{=================================================================================================================================================================================}
-:PART_NUMBER      | SOURCE_PACKAGE   = JEDEC_TYPE  | VALUE            | DESCRIPTION                      | MPN                              | MANUFACTURER  | PART_TYPE          ;
-{=================================================================================================================================================================================}
-'ATMEGA128A-MU'   | 'ATMGA128'       = 'QFN_64'    | 'ATMEGA128A-MU'  | 'IC MCU 8BIT 128KB FLASH 64QFN'  | 'IC MCU 8BIT 128KB FLASH 64QFN'  | 'MICRO CHIP'  | 'MICROCONTROLLER'  
 END_PART
 
 END.
+
