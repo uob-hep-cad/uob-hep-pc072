@@ -1,143 +1,27 @@
-\t (00:00:13) allegro 17.4 S033 Windows SPB 64-bit Edition
-\t (00:00:13)     Journal start - Tue May  2 08:49:29 2023
-\t (00:00:13)         Host=IT088130 User=phdgc Pid=30472 CPUs=16
-\t (00:00:13) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -mpssession phdgc_ProjectMgr15684 -mpshost IT088130
-\t (00:00:13) 
-   (00:00:14) Loading axlcore.cxt 
-\t (00:00:15) Opening existing design...
-\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev2_v205"
-\d (00:00:15) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v205.brd
-\t (00:00:15) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
-\i (00:00:15) trapsize 10884
-\i (00:00:15) trapsize 11345
-\i (00:00:15) trapsize 11484
-\t (00:00:15) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
-\i (00:00:15) trapsize 12153
-\i (00:00:15) trapsize 12153
-\t (00:00:15) Loaded GPU Plugin from: plugins/gpu
-\i (00:00:15) trapsize 10884
-\i (00:00:15) trapsize 11345
-\i (00:00:15) trapsize 11484
-\i (00:00:15) trapsize 12153
-\i (00:00:16) generaledit 
-\i (00:00:22) artwork 
-\i (00:00:37) setwindow form.film_control
-\i (00:00:37) FORM film_control filmtree  16_hardgold_top 
-\i (00:00:37) FORM film_control filmtree 'MULTISEL YES' 16_hardgold_top 
-\i (00:00:40) FORM film_control filmtree  17_hardgold_bot 
-\i (00:00:40) FORM film_control filmtree 'MULTISEL YES' 17_hardgold_bot 
-\i (00:00:43) FORM film_control create  
-\i (00:00:46) fillin yes 
-\t (00:00:46) Checking db records
-\t (00:00:46)     checking for orphans...
-\t (00:00:46)     Checked   6 percent
-\t (00:00:46)     Checked  12 percent
-\t (00:00:46)     Checked  19 percent
-\t (00:00:46)     Checked  25 percent
-\t (00:00:46)     Checked  32 percent
-\t (00:00:46)     Checked  38 percent
-\t (00:00:46)     Checked  44 percent
-\t (00:00:46)     Checked  51 percent
-\t (00:00:46)     Checked  57 percent
-\t (00:00:46)     Checked  64 percent
-\t (00:00:46)     Checked  70 percent
-\t (00:00:46)     Checked  76 percent
-\t (00:00:46)     Checked  83 percent
-\t (00:00:46)     Checked  89 percent
-\t (00:00:46)     Checked  96 percent
-\t (00:00:46)     Checked 100 percent
-\t (00:00:46) Done dbdoctor.
-\t (00:00:46) Starting Create artwork films...
-\w (00:00:48) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:00:49) Artwork generated with warnings.
-\i (00:01:08) FORM film_control filmtree  16_hardgold_top 
-\i (00:01:13) FORM film_control filmtree  17_hardgold_bot 
-\i (00:01:15) FORM film_control filmtree popup 'Display for Visibility' 17_hardgold_bot 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) updateport CVPane
-\i (00:01:21) pick grid 15.9171 37.2942
-\t (00:01:21) last pick:  15.9000 37.3000
-\i (00:01:21) roam x -96 
-\i (00:01:21) roam x -96
-   (00:01:21) Loading signal.cxt 
-\i (00:01:21) roam x -96 
-\i (00:01:21) roam x -96
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -14.7123 39.2387
-\t (00:01:22) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
-\i (00:01:22) trapsize 6077
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -14.7123 39.2387
-\t (00:01:22) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
-\i (00:01:22) trapsize 3038
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in 0.6008 39.8464
-\t (00:01:23) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
-\i (00:01:23) trapsize 1519
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in 0.6008 39.8464
-\i (00:01:23) trapsize 760
-\i (00:01:25) color192 
-\i (00:01:36) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor
-\i (00:01:54) QtSignal CVDLayerContainer CVDFilterLayerEntry editingFinished hard
-\i (00:01:57) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:01:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:01:57) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:59) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hardgold_Bottom" Pin 0
-\i (00:01:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:01:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 1
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 1
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:23) setwindow form.film_control
-\i (00:02:23) FORM film_control filmtree popup 'Display for Visibility' 17_hardgold_bot 
-\i (00:02:23) setwindow pcb
-\i (00:02:23) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
-\i (00:02:23) updateport CVPane
-\i (00:02:26) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:26) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:27) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hardgold_Bottom" Pin 0
-\i (00:02:27) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:02:27) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 1
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:29) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hardgold_Bottom" Pin 1
-\i (00:02:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:02:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:39) setwindow form.film_control
-\i (00:02:39) FORM film_control filmtree popup 'Match Display' 17_hardgold_bot 
-\i (00:02:47) setwindow text
-\i (00:02:47) close
-\i (00:02:50) setwindow form.film_control
-\i (00:02:50) FORM film_control create  
-\i (00:02:53) fillin yes 
-\t (00:02:53) Starting Create artwork films...
-\t (00:02:54) Plot generated.
-\i (00:02:58) FORM film_control viewlog  
-\i (00:03:05) setwindow text
-\i (00:03:05) close
-\i (00:03:07) setwindow pcb
-\i (00:03:07) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:03:10) save 
-\i (00:03:12) fillin yes 
-\i (00:03:12) generaledit 
-\i (00:03:36) exit 
-\t (00:03:36)     Journal end - Tue May  2 08:52:52 2023
+\t (00:00:06) allegro 17.4 S033 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Tue May  2 08:58:32 2023
+\t (00:00:06)         Host=IT088130 User=phdgc Pid=31304 CPUs=16
+\t (00:00:06) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -mpssession phdgc_ProjectMgr15684 -mpshost IT088130
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev2_v205"
+\d (00:00:09) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v205.brd
+\i (00:00:09) trapsize 680
+\i (00:00:09) trapsize 709
+\i (00:00:09) trapsize 718
+\i (00:00:09) trapsize 760
+\i (00:00:09) trapsize 782
+\t (00:00:10) Loaded GPU Plugin from: plugins/gpu
+\i (00:00:10) trapsize 700
+\i (00:00:10) trapsize 730
+\i (00:00:10) trapsize 739
+\i (00:00:10) trapsize 782
+\i (00:00:10) generaledit 
+\i (00:00:18) plctxt out 
+\i (00:00:40) setwindow form.plctxt
+\i (00:00:40) FORM plctxt filename placement_symbol_origin.txt 
+\i (00:00:40) FORM plctxt execute  
+\t (00:00:40) Starting Place symbols by text file...
+\i (00:00:52) setwindow pcb
+\i (00:00:52) viewlog -last 
