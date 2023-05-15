@@ -947,3 +947,460 @@
 \t (00:58:17) Done dbdoctor.
 \t (00:58:17) Starting Create artwork films...
 \w (00:58:18) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:58:20) Artwork generated with warnings.
+\i (00:58:58) setwindow pcb
+\i (00:58:58) save_as 
+\i (00:59:02) fillin "menu_cancel"
+\i (00:59:02) generaledit 
+\i (01:13:25) zoom in 
+\i (01:13:25) setwindow pcb
+\i (01:13:25) zoom in 90.2949 36.6050
+\t (01:13:25) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+   (01:13:25) Loading signal.cxt 
+\i (01:13:25) trapsize 14517
+\i (01:13:26) zoom in 
+\i (01:13:26) setwindow pcb
+\i (01:13:26) zoom in 90.2949 36.6050
+\t (01:13:26) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (01:13:26) trapsize 7259
+\i (01:13:40) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (01:13:42) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (01:13:44) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (01:13:47) color192 
+\i (01:13:47) generaledit 
+\i (01:13:49) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (01:13:53) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (01:13:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Design_Outline" BrdGeo 1
+\i (01:13:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 0
+\i (01:13:58) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:14:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 1
+\i (01:14:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (01:14:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:14:07) show element 
+\i (01:14:13) pick grid 160.2674 3.9415
+\t (01:14:13) last pick:  160.2500 3.9500
+\i (01:14:26) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Ncroute_Path" BrdGeo 1
+\i (01:14:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 18 0
+\i (01:14:26) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:14:35) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 0
+\i (01:14:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (01:14:35) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:16:21) setwindow text
+\i (01:16:21) close
+\i (01:16:46) setwindow pcb
+\i (01:16:46) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 1
+\i (01:16:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (01:16:46) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:16:54) zcopy shape 
+\t (01:16:54) Select cline, cline segment, shape, rectangle or closed polygon.
+   (01:16:54) Loading cmds.cxt 
+\i (01:17:07) setwindow form.mini
+\i (01:17:07) FORM mini class_name 'BOARD GEOMETRY' 
+\i (01:17:12) FORM mini subclass_name NCROUTE_PATH 
+\i (01:17:24) setwindow pcb
+\i (01:17:24) pick 156.2026 5.5384
+\t (01:17:24) last pick:  156.2026 5.5384
+\i (01:17:26) prepopup 142.8468 24.9913
+\i (01:17:28) pop Done 
+\i (01:17:28) generaledit 
+\i (01:17:39) ncroute 
+\i (01:17:43) setwindow form.nc_route
+\i (01:17:43) FORM nc_route execute  
+\t (01:17:43) Starting NC Route...
+\i (01:17:46) FORM nc_route viewlog  
+\i (01:19:22) setwindow pcb
+\i (01:19:22) add text 
+\t (01:19:22) Pick text location.
+\i (01:19:26) setwindow form.mini
+\i (01:19:26) FORM mini class 'BOARD GEOMETRY' 
+\i (01:19:33) FORM mini subclass NCROUTE_PATH 
+\i (01:19:33) setwindow pcb
+\i (01:19:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:19:33) updateport CVPane
+\i (01:19:38) zoom points 
+\t (01:19:38) Pick 1st corner of the new window.
+\i (01:19:39) drag_start 145.0244 14.3938
+\i (01:19:40) drag_stop 170.1390 -4.7688
+\i (01:19:40) trapsize 1096
+\i (01:19:42) pick grid 154.4741 5.5799
+\t (01:19:42) last pick:  154.5000 5.6000
+\t (01:19:42) Enter text string.
+\i (01:19:45) setwindow pcb
+\i (01:19:45) pick 154.5000 5.6000
+\t (01:19:45) Enter text string.
+\i (01:19:49) pick grid 163.5731 5.5799
+\t (01:19:49) last pick:  163.6000 5.6000
+\t (01:19:49) Enter text string.
+\i (01:19:51) setwindow pcb
+\i (01:19:51) pick 163.6000 5.6000
+\t (01:19:51) Enter text string.
+\i (01:19:54) prepopup 161.6217 7.3339
+\i (01:19:55) done 
+\i (01:19:55) generaledit 
+\i (01:20:02) setwindow text
+\i (01:20:02) close
+\i (01:20:07) setwindow pcb
+\i (01:20:07) artwork 
+\i (01:20:12) setwindow form.film_control
+\i (01:20:12) FORM film_control cancel  
+\i (01:20:12) setwindow pcb
+\i (01:20:12) generaledit 
+\i (01:20:22) ncroute 
+\i (01:20:25) setwindow form.nc_route
+\i (01:20:25) FORM nc_route execute  
+\t (01:20:25) Starting NC Route...
+\i (01:20:28) FORM nc_route viewlog  
+\i (01:21:30) FORM nc_route close  
+\i (01:21:30) setwindow pcb
+\i (01:21:30) generaledit 
+\i (01:26:21) color192 
+\i (01:26:21) generaledit 
+\i (01:26:37) artwork 
+\i (01:26:48) setwindow form.film_control
+\i (01:26:48) FORM film_control filmtree  19_CUTOUT 
+\i (01:28:41) setwindow pcb
+\i (01:28:41) ncroute 
+\i (01:28:43) setwindow form.nc_route
+\i (01:28:43) FORM nc_route parameters  
+\i (01:28:56) setwindow form.nc_parameters
+\i (01:28:56) FORM nc_parameters cancel  
+\i (01:28:59) setwindow form.nc_route
+\i (01:28:59) FORM nc_route cancel  
+\i (01:28:59) setwindow pcb
+\i (01:28:59) generaledit 
+\i (01:29:07) nctape_full 
+\i (01:29:09) setwindow form.nc_drill
+\i (01:29:09) FORM nc_drill parameters  
+\i (01:29:15) setwindow form.nc_parameters
+\i (01:29:15) FORM nc_parameters cancel  
+\i (01:29:19) setwindow form.nc_drill
+\i (01:29:19) FORM nc_drill close  
+\i (01:29:19) setwindow pcb
+\i (01:29:19) generaledit 
+\i (01:29:21) save 
+\i (01:29:22) fillin yes 
+\i (01:29:23) generaledit 
+\i (01:29:24) zoom in 
+\i (01:29:24) setwindow pcb
+\i (01:29:24) zoom in 158.7496 4.7906
+\i (01:29:24) trapsize 548
+\i (01:29:26) zoom points 
+\t (01:29:26) Pick 1st corner of the new window.
+\i (01:29:28) zoom fit 
+\i (01:29:28) trapsize 7259
+\i (01:31:23) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:31:23) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (01:31:25) zoom in 
+\i (01:31:25) setwindow pcb
+\i (01:31:25) zoom in 90.2950 36.6049
+\t (01:31:25) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (01:31:25) trapsize 3629
+\i (01:31:26) zoom in 
+\i (01:31:26) setwindow pcb
+\i (01:31:26) zoom in 90.2950 36.6049
+\t (01:31:26) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:31:26) trapsize 1815
+\i (01:31:28) roam y -96 
+\i (01:31:28) roam y -96
+\i (01:31:28) roam y -96 
+\i (01:31:28) roam y -96
+\i (01:31:28) roam y -96 
+\i (01:31:28) roam y -96
+\i (01:31:29) roam x 96 
+\i (01:31:29) roam x 96
+\i (01:31:29) roam x 96 
+\i (01:31:29) roam x 96
+\i (01:31:29) roam x 96 
+\i (01:31:29) roam x 96
+\i (01:31:29) roam y -96 
+\i (01:31:29) roam y -96
+\i (01:31:29) roam y -96 
+\i (01:31:29) roam y -96
+\i (01:31:34) show measure 
+\i (01:31:36) pick grid 109.7904 58.4099
+\t (01:31:36) last pick:  109.8000 58.4000
+\i (01:31:37) pick grid 109.1734 58.1558
+\t (01:31:37) last pick:  109.1500 58.1500
+\i (01:31:41) zoom in 
+\i (01:31:41) setwindow pcb
+\i (01:31:41) zoom in 100.7172 54.0185
+\t (01:31:41) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:31:41) trapsize 907
+\i (01:31:43) roam x 96 
+\i (01:31:43) roam x 96
+\i (01:31:43) roam x 96 
+\i (01:31:43) roam x 96
+\i (01:31:43) roam x 96 
+\i (01:31:43) roam x 96
+\i (01:31:44) roam y 96 
+\i (01:31:44) roam y 96
+\i (01:31:54) shape select 
+\i (01:31:55) pick grid 113.7915 55.8236
+\t (01:31:55) last pick:  113.8000 55.8000
+\i (01:31:56) prepopup 113.7915 55.8236
+\i (01:31:57) pop shape param 
+\i (01:31:59) setwindow form.dyn_xshape
+\i (01:31:59) FORM dyn_xshape clearances  
+\i (01:32:07) FORM dyn_xshape shape_clear_drc 0.254 
+\i (01:32:08) FORM dyn_xshape apply  
+\i (01:32:11) FORM dyn_xshape done  
+\i (01:32:12) setwindow pcb
+\i (01:32:12) prepopup 107.2406 56.6583
+\i (01:32:13) done 
+\i (01:32:13) generaledit 
+\i (01:32:18) status 
+\i (01:32:18) generaledit 
+\i (01:32:21) setwindow form.status
+\i (01:32:21) FORM status done  
+\i (01:32:25) setwindow pcb
+\i (01:32:25) show measure 
+\i (01:32:26) pick grid 110.3437 53.5734
+\t (01:32:26) last pick:  110.3500 53.5500
+\i (01:32:28) pick grid 109.5634 52.8294
+\t (01:32:28) last pick:  109.5500 52.8500
+\i (01:32:44) shape select 
+\i (01:32:45) pick grid 113.5012 55.8236
+\t (01:32:45) last pick:  113.5000 55.8000
+\i (01:32:45) prepopup 113.5193 55.8236
+\i (01:32:47) pop shape param 
+\i (01:32:52) setwindow form.dyn_xshape
+\i (01:32:52) FORM dyn_xshape line_clear_drc 0.254 
+\i (01:32:52) FORM dyn_xshape done  
+\i (01:32:55) setwindow pcb
+\i (01:32:55) zoom out 
+\i (01:32:55) setwindow pcb
+\i (01:32:55) zoom out 105.9341 52.2669
+\t (01:32:55) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:32:55) trapsize 1815
+\i (01:33:02) zoom in 
+\i (01:33:02) setwindow pcb
+\i (01:33:02) zoom in 105.9340 52.2669
+\t (01:33:02) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:33:02) trapsize 907
+\i (01:33:04) roam y -96 
+\i (01:33:04) roam y -96
+\i (01:33:04) roam y -96 
+\i (01:33:04) roam y -96
+\i (01:33:09) prepopup 107.4039 61.4853
+\i (01:33:10) done 
+\i (01:33:10) generaledit 
+\i (01:33:14) show measure 
+\i (01:33:19) pick grid 109.2911 60.8502
+\t (01:33:19) last pick:  109.3000 60.8500
+\i (01:33:20) pick grid 109.2185 61.9571
+\t (01:33:20) last pick:  109.2000 61.9500
+\i (01:33:42) setwindow text
+\i (01:33:42) close
+\i (01:33:45) setwindow pcb
+\i (01:33:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:33:45) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (01:33:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:33:46) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (01:33:54) setwindow form.find
+\i (01:33:54) FORM find find_by_query  
+\i (01:33:57) setwindow pcb
+\i (01:33:57) QtSignal FBQDialog cancelButton clicked
+\i (01:34:02) setwindow form.find
+\i (01:34:02) FORM find find_name c55 
+\i (01:34:02) setwindow pcb
+\i (01:34:02) trapsize 473
+\i (01:34:05) zoom out 
+\i (01:34:05) setwindow pcb
+\i (01:34:05) zoom out 72.5000 49.4905
+\i (01:34:05) trapsize 947
+\i (01:34:06) zoom out 
+\i (01:34:06) setwindow pcb
+\i (01:34:06) zoom out 72.5000 49.4906
+\t (01:34:06) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:34:06) trapsize 1893
+\i (01:34:11) setwindow text
+\i (01:34:11) close
+\i (01:34:20) setwindow pcb
+\i (01:34:20) zoom in 
+\i (01:34:20) setwindow pcb
+\i (01:34:20) zoom in 72.5000 49.4905
+\t (01:34:20) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:34:20) trapsize 947
+\i (01:34:20) zoom in 
+\i (01:34:20) setwindow pcb
+\i (01:34:20) zoom in 72.5000 49.4906
+\i (01:34:20) trapsize 473
+\i (01:34:25) show measure 
+\i (01:34:26) pick grid 71.7806 49.6042
+\t (01:34:26) last pick:  71.8000 49.6000
+\i (01:34:27) pick grid 71.9131 49.1783
+\t (01:34:27) last pick:  71.9000 49.2000
+\i (01:34:31) zoom out 
+\i (01:34:31) setwindow pcb
+\i (01:34:31) zoom out 72.5000 49.4906
+\i (01:34:31) trapsize 947
+\i (01:34:36) prepopup 76.0593 52.0276
+\i (01:34:36) done 
+\i (01:34:36) generaledit 
+\i (01:34:40) show element 
+\i (01:34:44) setwindow form.find
+\i (01:34:44) FORM find name_type 'Comp (or Pin)' 
+\i (01:34:46) FORM find find_name c55 
+\i (01:34:46) setwindow pcb
+\i (01:34:46) trapsize 473
+\i (01:35:06) show measure 
+\i (01:35:07) pick grid 72.5095 49.6041
+\t (01:35:07) last pick:  72.5000 49.6000
+\i (01:35:08) pick grid 72.7177 50.7590
+\t (01:35:08) last pick:  72.7000 50.7500
+\i (01:35:11) zoom out 
+\i (01:35:11) setwindow pcb
+\i (01:35:11) zoom out 72.5000 49.4905
+\i (01:35:11) trapsize 947
+\i (01:35:12) zoom out 
+\i (01:35:12) setwindow pcb
+\i (01:35:12) zoom out 72.5000 49.4906
+\t (01:35:12) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:35:12) trapsize 1893
+\i (01:35:14) roam x 96 
+\i (01:35:14) roam x 96
+\i (01:35:14) roam x 96 
+\i (01:35:14) roam x 96
+\i (01:35:15) roam x 96 
+\i (01:35:15) roam x 96
+\i (01:35:20) zoom in 
+\i (01:35:20) setwindow pcb
+\i (01:35:20) zoom in 83.3954 49.4905
+\t (01:35:20) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:35:20) trapsize 947
+\i (01:35:21) zoom in 
+\i (01:35:21) setwindow pcb
+\i (01:35:21) zoom in 83.3954 49.4906
+\i (01:35:21) trapsize 473
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x -96 
+\i (01:35:23) roam x -96
+\i (01:35:31) zoom out 
+\i (01:35:31) setwindow pcb
+\i (01:35:31) zoom out 94.2909 49.4906
+\i (01:35:31) trapsize 947
+\i (01:35:32) zoom out 
+\i (01:35:32) setwindow pcb
+\i (01:35:32) zoom out 94.2909 49.4907
+\t (01:35:32) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:35:32) trapsize 1893
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:39) roam x 96 
+\i (01:35:39) roam x 96
+\i (01:35:39) roam x 96 
+\i (01:35:39) roam x 96
+\i (01:35:39) roam x 96 
+\i (01:35:39) roam x 96
+\i (01:35:40) roam x 96 
+\i (01:35:40) roam x 96
+\i (01:35:41) roam x 96 
+\i (01:35:41) roam x 96
+\i (01:35:46) zoom out 
+\i (01:35:46) setwindow pcb
+\i (01:35:46) zoom out 126.9775 49.4906
+\t (01:35:46) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (01:35:46) trapsize 3786
+\i (01:35:48) roam x -96 
+\i (01:35:48) roam x -96
+\i (01:35:48) roam x -96 
+\i (01:35:48) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:51) roam x -96 
+\i (01:35:51) roam x -96
+\i (01:35:51) roam x -96 
+\i (01:35:51) roam x -96
+\i (01:35:52) roam x 96 
+\i (01:35:52) roam x 96
+\i (01:35:52) roam x 96 
+\i (01:35:52) roam x 96
+\i (01:35:54) prepopup 48.8251 46.4615
+\i (01:35:55) done 
+\i (01:35:55) generaledit 
+\i (01:35:56) zoom out 
+\i (01:35:56) setwindow pcb
+\i (01:35:56) zoom out 47.0076 49.4907
+\t (01:35:56) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (01:35:56) trapsize 7573
+\i (01:35:58) roam x 96 
+\i (01:35:58) roam x 96
+\i (01:35:58) roam x 96 
+\i (01:35:58) roam x 96
+\i (01:35:58) roam x 96 
+\i (01:35:58) roam x 96
+\i (01:35:59) roam x 96 
+\i (01:35:59) roam x 96
+\i (01:36:04) artwork 
+\i (01:36:06) setwindow form.film_control
+\i (01:36:06) FORM film_control select_all  
+\i (01:36:07) FORM film_control create  
+\i (01:36:09) fillin yes 
+\t (01:36:09) Checking db records
+\t (01:36:09)     checking for orphans...
+\t (01:36:09)     Checked   6 percent
+\t (01:36:09)     Checked  12 percent
+\t (01:36:09)     Checked  19 percent
+\t (01:36:09)     Checked  25 percent
+\t (01:36:09)     Checked  31 percent
+\t (01:36:09)     Checked  38 percent
+\t (01:36:09)     Checked  44 percent
+\t (01:36:09)     Checked  51 percent
+\t (01:36:09)     Checked  57 percent
+\t (01:36:09)     Checked  63 percent
+\t (01:36:09)     Checked  70 percent
+\t (01:36:09)     Checked  76 percent
+\t (01:36:09)     Checked  83 percent
+\t (01:36:09)     Checked  89 percent
+\t (01:36:09)     Checked  95 percent
+\t (01:36:09)     Checked 100 percent
+\t (01:36:09) Done dbdoctor.
+\t (01:36:09) Starting Create artwork films...
+\w (01:36:11) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
