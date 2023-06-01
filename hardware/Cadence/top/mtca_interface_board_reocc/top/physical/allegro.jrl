@@ -1,143 +1,1406 @@
-\t (00:00:13) allegro 17.4 S033 Windows SPB 64-bit Edition
-\t (00:00:13)     Journal start - Tue May  2 08:49:29 2023
-\t (00:00:13)         Host=IT088130 User=phdgc Pid=30472 CPUs=16
-\t (00:00:13) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -mpssession phdgc_ProjectMgr15684 -mpshost IT088130
-\t (00:00:13) 
-   (00:00:14) Loading axlcore.cxt 
-\t (00:00:15) Opening existing design...
-\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev2_v205"
-\d (00:00:15) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v205.brd
-\t (00:00:15) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
-\i (00:00:15) trapsize 10884
-\i (00:00:15) trapsize 11345
-\i (00:00:15) trapsize 11484
-\t (00:00:15) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
-\i (00:00:15) trapsize 12153
-\i (00:00:15) trapsize 12153
-\t (00:00:15) Loaded GPU Plugin from: plugins/gpu
-\i (00:00:15) trapsize 10884
-\i (00:00:15) trapsize 11345
-\i (00:00:15) trapsize 11484
-\i (00:00:15) trapsize 12153
-\i (00:00:16) generaledit 
-\i (00:00:22) artwork 
-\i (00:00:37) setwindow form.film_control
-\i (00:00:37) FORM film_control filmtree  16_hardgold_top 
-\i (00:00:37) FORM film_control filmtree 'MULTISEL YES' 16_hardgold_top 
-\i (00:00:40) FORM film_control filmtree  17_hardgold_bot 
-\i (00:00:40) FORM film_control filmtree 'MULTISEL YES' 17_hardgold_bot 
-\i (00:00:43) FORM film_control create  
-\i (00:00:46) fillin yes 
-\t (00:00:46) Checking db records
-\t (00:00:46)     checking for orphans...
-\t (00:00:46)     Checked   6 percent
-\t (00:00:46)     Checked  12 percent
-\t (00:00:46)     Checked  19 percent
-\t (00:00:46)     Checked  25 percent
-\t (00:00:46)     Checked  32 percent
-\t (00:00:46)     Checked  38 percent
-\t (00:00:46)     Checked  44 percent
-\t (00:00:46)     Checked  51 percent
-\t (00:00:46)     Checked  57 percent
-\t (00:00:46)     Checked  64 percent
-\t (00:00:46)     Checked  70 percent
-\t (00:00:46)     Checked  76 percent
-\t (00:00:46)     Checked  83 percent
-\t (00:00:46)     Checked  89 percent
-\t (00:00:46)     Checked  96 percent
-\t (00:00:46)     Checked 100 percent
-\t (00:00:46) Done dbdoctor.
-\t (00:00:46) Starting Create artwork films...
-\w (00:00:48) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:00:49) Artwork generated with warnings.
-\i (00:01:08) FORM film_control filmtree  16_hardgold_top 
-\i (00:01:13) FORM film_control filmtree  17_hardgold_bot 
-\i (00:01:15) FORM film_control filmtree popup 'Display for Visibility' 17_hardgold_bot 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) updateport CVPane
-\i (00:01:21) pick grid 15.9171 37.2942
-\t (00:01:21) last pick:  15.9000 37.3000
-\i (00:01:21) roam x -96 
-\i (00:01:21) roam x -96
-   (00:01:21) Loading signal.cxt 
-\i (00:01:21) roam x -96 
-\i (00:01:21) roam x -96
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -14.7123 39.2387
-\t (00:01:22) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
-\i (00:01:22) trapsize 6077
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -14.7123 39.2387
-\t (00:01:22) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
-\i (00:01:22) trapsize 3038
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in 0.6008 39.8464
-\t (00:01:23) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
-\i (00:01:23) trapsize 1519
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in 0.6008 39.8464
-\i (00:01:23) trapsize 760
-\i (00:01:25) color192 
-\i (00:01:36) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up" Conductor
-\i (00:01:54) QtSignal CVDLayerContainer CVDFilterLayerEntry editingFinished hard
-\i (00:01:57) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:01:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:01:57) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:01:59) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hardgold_Bottom" Pin 0
-\i (00:01:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:01:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 1
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 1
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:23) setwindow form.film_control
-\i (00:02:23) FORM film_control filmtree popup 'Display for Visibility' 17_hardgold_bot 
-\i (00:02:23) setwindow pcb
-\i (00:02:23) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
-\i (00:02:23) updateport CVPane
-\i (00:02:26) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:26) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:27) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hardgold_Bottom" Pin 0
-\i (00:02:27) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:02:27) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 1
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hard_Gold_Bottom" Pin 0
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 1 0
-\i (00:02:28) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:29) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Hardgold_Bottom" Pin 1
-\i (00:02:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
-\i (00:02:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
-\i (00:02:39) setwindow form.film_control
-\i (00:02:39) FORM film_control filmtree popup 'Match Display' 17_hardgold_bot 
-\i (00:02:47) setwindow text
-\i (00:02:47) close
-\i (00:02:50) setwindow form.film_control
-\i (00:02:50) FORM film_control create  
-\i (00:02:53) fillin yes 
-\t (00:02:53) Starting Create artwork films...
-\t (00:02:54) Plot generated.
-\i (00:02:58) FORM film_control viewlog  
-\i (00:03:05) setwindow text
-\i (00:03:05) close
-\i (00:03:07) setwindow pcb
-\i (00:03:07) QtSignal ColorVisibilityDialog CVDOkButton clicked
-\i (00:03:10) save 
-\i (00:03:12) fillin yes 
-\i (00:03:12) generaledit 
-\i (00:03:36) exit 
-\t (00:03:36)     Journal end - Tue May  2 08:52:52 2023
+\t (00:00:11) allegro 17.4 S033 Windows SPB 64-bit Edition
+\t (00:00:11)     Journal start - Mon May 15 07:00:13 2023
+\t (00:00:11)         Host=IT088130 User=phdgc Pid=25020 CPUs=16
+\t (00:00:11) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -mpssession phdgc_ProjectMgr17260 -mpshost IT088130
+\t (00:00:11) 
+   (00:00:11) Loading axlcore.cxt 
+\t (00:00:13) Opening existing design...
+\i (00:00:13) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev2_v206"
+\d (00:00:13) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v206.brd
+\t (00:00:13) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:00:13) trapsize 1245
+\t (00:00:13) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:00:13) trapsize 1279
+\i (00:00:13) trapsize 1289
+\t (00:00:13) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:00:13) trapsize 1336
+\i (00:00:13) trapsize 1363
+\t (00:00:13) Loaded GPU Plugin from: plugins/gpu
+\i (00:00:13) trapsize 1270
+\i (00:00:13) trapsize 1305
+\i (00:00:13) trapsize 1315
+\i (00:00:13) trapsize 1363
+\i (00:00:14) generaledit 
+\i (00:00:32) trapsize 1336
+\i (00:00:38) roam x -96 
+\i (00:00:38) roam x -96
+\i (00:00:38) roam x -96 
+\i (00:00:38) roam x -96
+\i (00:00:38) roam x -96 
+\i (00:00:38) roam x -96
+\i (00:00:38) roam x -96 
+\i (00:00:38) roam x -96
+\i (00:00:38) roam x -96 
+\i (00:00:38) roam x -96
+\i (00:00:39) roam x -96 
+\i (00:00:39) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x -96 
+\i (00:00:40) roam x -96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:42) roam x 96 
+\i (00:00:42) roam x 96
+\i (00:00:43) roam x 96 
+\i (00:00:43) roam x 96
+\i (00:00:47) roam y -96 
+\i (00:00:47) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:00:48) roam y -96 
+\i (00:00:48) roam y -96
+\i (00:01:00) roam y 96 
+\i (00:01:00) roam y 96
+\i (00:01:01) roam y 96 
+\i (00:01:01) roam y 96
+\i (00:02:09) pick grid 62.5754 61.6178
+\t (00:02:09) last pick:  62.6000 61.6000
+\i (00:02:11) zoom out 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom out 50.3128 61.3239
+\t (00:02:11) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:02:11) trapsize 2672
+\i (00:02:11) zoom out 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom out 50.3128 61.3239
+\t (00:02:11) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:02:11) trapsize 5343
+\i (00:02:13) zoom in 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in 50.3128 61.3239
+\t (00:02:13) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:02:13) trapsize 2672
+\i (00:02:13) zoom in 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in 50.3128 61.3239
+\t (00:02:13) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:02:13) trapsize 1336
+\i (00:02:18) slide 
+\t (00:02:18) Pick element to slide.
+\i (00:02:19) pick grid 60.2778 62.0185
+\t (00:02:19) last pick:  60.3000 62.0000
+\t (00:02:19) last pick:  60.2778 62.2500
+\t (00:02:19) Waiting for the destination pick.
+\i (00:02:24) prepopup 59.7702 61.9651
+\i (00:02:32) pop singletrace 
+\t (00:02:32) Waiting for the destination pick.
+\i (00:02:36) pick grid 59.2626 61.8315
+\t (00:02:36) last pick:  59.2500 61.8500
+\t (00:02:36) No DRC errors detected.
+\t (00:02:36) Pick another element to slide.
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:38) roam x 96 
+\i (00:02:38) roam x 96
+\i (00:02:40) pick grid 66.1553 62.4192
+\t (00:02:40) last pick:  66.1500 62.4000
+\t (00:02:40) last pick:  66.1553 62.7000
+\t (00:02:40) Waiting for the destination pick.
+\i (00:02:41) pick grid 66.2087 61.9651
+\t (00:02:41) last pick:  66.2000 61.9500
+\t (00:02:41) No DRC errors detected.
+\t (00:02:41) Pick another element to slide.
+\i (00:02:43) pick grid 70.9374 63.3009
+\t (00:02:43) last pick:  70.9500 63.3000
+\t (00:02:43) last pick:  70.9374 63.4000
+\t (00:02:43) Waiting for the destination pick.
+\i (00:02:45) pick grid 71.1512 61.9651
+\t (00:02:45) last pick:  71.1500 61.9500
+\t (00:02:45) No DRC errors detected.
+\t (00:02:45) Pick another element to slide.
+\i (00:02:47) pick grid 60.9457 61.9918
+\t (00:02:47) last pick:  60.9500 62.0000
+\t (00:02:47) last pick:  60.9457 61.8500
+\t (00:02:47) Waiting for the destination pick.
+\i (00:02:48) pick grid 61.0259 61.6712
+\t (00:02:48) last pick:  61.0500 61.6500
+\t (00:02:48) No DRC errors detected.
+\t (00:02:48) Pick another element to slide.
+\i (00:02:50) pick grid 75.2120 63.8886
+\t (00:02:50) last pick:  75.2000 63.9000
+\t (00:02:50) last pick:  75.3000 63.7000
+\t (00:02:50) Waiting for the destination pick.
+\i (00:02:51) pick grid 75.5058 63.8886
+\t (00:02:51) last pick:  75.5000 63.9000
+\t (00:02:51) No DRC errors detected.
+\t (00:02:51) Pick another element to slide.
+\i (00:02:55) QtSignal CVPLayerGrid CVPAllPlanes clicked true
+\i (00:02:58) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (00:02:59) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:03:28) QtSignal CVPLayerGrid CVPBoxAll03_Sig1 clicked false
+\i (00:03:30) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:03:31) QtSignal CVPLayerGrid CVPBoxAll07_Sig2 clicked false
+\i (00:03:32) QtSignal CVPLayerGrid CVPBoxAll09_Sig3 clicked false
+\i (00:03:37) roam x 96 
+\i (00:03:37) roam x 96
+\i (00:03:37) roam x 96 
+\i (00:03:37) roam x 96
+\i (00:03:37) roam x 96 
+\i (00:03:37) roam x 96
+\i (00:03:37) roam x 96 
+\i (00:03:37) roam x 96
+\i (00:03:37) roam x 96 
+\i (00:03:37) roam x 96
+\i (00:03:37) roam x 96 
+\i (00:03:37) roam x 96
+\i (00:03:38) roam x 96 
+\i (00:03:38) roam x 96
+\i (00:03:38) roam x 96 
+\i (00:03:38) roam x 96
+\i (00:03:38) roam x 96 
+\i (00:03:38) roam x 96
+\i (00:03:38) roam x 96 
+\i (00:03:38) roam x 96
+\i (00:03:39) roam x 96 
+\i (00:03:39) roam x 96
+\i (00:03:39) roam x 96 
+\i (00:03:39) roam x 96
+\i (00:03:41) roam x -96 
+\i (00:03:41) roam x -96
+\i (00:03:45) roam y 96 
+\i (00:03:45) roam y 96
+\i (00:03:45) roam y 96 
+\i (00:03:45) roam y 96
+\i (00:03:45) roam y 96 
+\i (00:03:45) roam y 96
+\i (00:04:14) zoom in 
+\i (00:04:14) setwindow pcb
+\i (00:04:14) zoom in 91.3216 53.6297
+\t (00:04:14) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:04:14) trapsize 668
+\i (00:05:10) pick grid 97.0121 48.8877
+\t (00:05:10) last pick:  97.0000 48.9000
+\t (00:05:10) Pick element to slide.
+\i (00:05:10) roam y 96 
+\i (00:05:10) roam y 96
+\i (00:05:11) roam y 96 
+\i (00:05:11) roam y 96
+\i (00:05:11) roam y 96 
+\i (00:05:11) roam y 96
+\i (00:06:07) pick grid 96.3041 47.7389
+\t (00:06:07) last pick:  96.3000 47.7500
+\t (00:06:07) Pick element to slide.
+\i (00:06:08) roam x -96 
+\i (00:06:08) roam x -96
+\i (00:06:08) roam x -96 
+\i (00:06:08) roam x -96
+\i (00:06:08) roam x -96 
+\i (00:06:08) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:09) roam x -96 
+\i (00:06:09) roam x -96
+\i (00:06:14) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:06:15) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:06:18) layer down 
+\w (00:06:18) Layer select mode not active. Active layer unchanged.
+\i (00:06:19) layer up 
+\w (00:06:19) Layer select mode not active. Active layer unchanged.
+\i (00:06:21) drag_start grid tgl 73.1816 50.3437
+\i (00:06:21) drag_stop tgl 73.4086 49.8494
+\t (00:06:21) Pick element to slide.
+\i (00:06:24) zoom out 
+\i (00:06:24) setwindow pcb
+\i (00:06:24) zoom out 70.8039 49.7826
+\t (00:06:24) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:06:24) trapsize 1336
+\i (00:06:24) zoom out 
+\i (00:06:24) setwindow pcb
+\i (00:06:24) zoom out 70.8038 49.7827
+\t (00:06:24) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:06:24) trapsize 2672
+\i (00:06:28) roam x -96 
+\i (00:06:28) roam x -96
+\i (00:06:29) roam x -96 
+\i (00:06:29) roam x -96
+\i (00:06:29) roam x -96 
+\i (00:06:29) roam x -96
+\i (00:06:29) roam x -96 
+\i (00:06:29) roam x -96
+\i (00:06:29) roam x -96 
+\i (00:06:29) roam x -96
+\i (00:06:30) roam x -96 
+\i (00:06:30) roam x -96
+\i (00:06:30) roam y 96 
+\i (00:06:30) roam y 96
+\i (00:06:31) roam y 96 
+\i (00:06:31) roam y 96
+\i (00:06:31) roam y 96 
+\i (00:06:31) roam y 96
+\i (00:06:37) zoom in 
+\i (00:06:37) setwindow pcb
+\i (00:06:37) zoom in 39.9738 34.3676
+\t (00:06:37) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:06:37) trapsize 1336
+\i (00:06:38) roam y -96 
+\i (00:06:38) roam y -96
+\i (00:06:38) roam y -96 
+\i (00:06:38) roam y -96
+\i (00:06:38) roam y -96 
+\i (00:06:38) roam y -96
+\i (00:06:39) roam x -96 
+\i (00:06:39) roam x -96
+\i (00:06:39) roam x -96 
+\i (00:06:39) roam x -96
+\i (00:06:39) roam x -96 
+\i (00:06:39) roam x -96
+\i (00:06:39) roam y -96 
+\i (00:06:39) roam y -96
+\i (00:06:39) roam y -96 
+\i (00:06:39) roam y -96
+\i (00:06:41) zoom in 
+\i (00:06:41) setwindow pcb
+\i (00:06:41) zoom in 32.2796 47.1645
+\t (00:06:41) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:06:41) trapsize 668
+\i (00:06:47) layer up 
+\w (00:06:47) Layer select mode not active. Active layer unchanged.
+\i (00:06:48) layer down 
+\w (00:06:48) Layer select mode not active. Active layer unchanged.
+\i (00:07:02) show measure 
+\i (00:07:22) pick grid 26.3220 49.6892
+\t (00:07:22) last pick:  26.3000 49.7000
+\i (00:07:23) pick grid 26.3755 49.1682
+\t (00:07:23) last pick:  26.4000 49.1500
+\i (00:07:28) save 
+\i (00:07:31) fillin yes 
+\i (00:07:31) generaledit 
+\i (00:07:35) artwork 
+\i (00:07:41) setwindow form.film_control
+\i (00:07:41) FORM film_control select_all  
+\i (00:07:43) FORM film_control cancel  
+\i (00:07:43) setwindow pcb
+\i (00:07:43) generaledit 
+\i (00:07:47) zoom fit 
+\t (00:07:47) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:07:47) trapsize 7259
+\i (00:07:49) zoom out 
+\i (00:07:49) setwindow pcb
+\i (00:07:49) zoom out 90.2950 36.6049
+\t (00:07:49) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:07:49) trapsize 14517
+\i (00:07:53) color192 
+\i (00:07:53) generaledit 
+\i (00:07:57) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:07:59) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:08:01) zoom out 
+\i (00:08:01) setwindow pcb
+\i (00:08:01) zoom out 90.2950 36.6049
+\t (00:08:01) Grids are drawn 3.2000, 3.2000 apart for enhanced viewing.
+\i (00:08:01) trapsize 29034
+\i (00:08:06) ncdrill legend 
+   (00:08:06) Loading mfg.cxt 
+\i (00:08:08) setwindow form.nc_drilllegend
+\i (00:08:08) FORM nc_drilllegend done  
+\i (00:08:09) setwindow pcb
+\i (00:08:09) pick grid 233.7239 242.1673
+\t (00:08:09) last pick:  233.7000 242.1500
+\t (00:08:09) NC Drill Legend generation successful
+\i (00:08:09) generaledit 
+\i (00:08:13) prepopup -76.3616 234.6184
+\i (00:08:14) pick grid -49.0695 267.1368
+\t (00:08:14) last pick:  -49.0500 267.1500
+\i (00:08:16) save 
+\i (00:08:18) fillin yes 
+\i (00:08:18) generaledit 
+\i (00:52:42) zoom in 
+\i (00:52:42) setwindow pcb
+\i (00:52:42) zoom in 90.2949 33.1209
+\t (00:52:42) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:52:42) trapsize 14517
+\i (00:52:42) zoom in 
+\i (00:52:42) setwindow pcb
+\i (00:52:42) zoom in 90.2949 33.1209
+\t (00:52:42) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:52:42) trapsize 7259
+\i (00:52:43) zoom in 
+\i (00:52:43) setwindow pcb
+\i (00:52:43) zoom in 90.2949 33.1209
+\t (00:52:43) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (00:52:43) trapsize 3629
+\i (00:52:52) pick 100 100 
+\t (00:52:52) last pick:  100.0000 100.0000
+\i (00:54:10) pick 100 100 
+\t (00:54:10) last pick:  100.0000 100.0000
+\i (00:54:25) zoom center 100 100 
+\t (00:54:25) zoom center on 100 100
+\i (00:54:47) zoom center 83.5 53.5 
+\t (00:54:47) zoom center on 83.5 53.5
+\i (00:54:50) zoom in 
+\i (00:54:50) setwindow pcb
+\i (00:54:50) zoom in 83.5001 53.4275
+\t (00:54:50) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (00:54:50) trapsize 1815
+\i (00:54:50) zoom in 
+\i (00:54:50) setwindow pcb
+\i (00:54:50) zoom in 83.5001 53.4275
+\t (00:54:50) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (00:54:50) trapsize 907
+\i (00:54:50) zoom in 
+\i (00:54:50) setwindow pcb
+\i (00:54:50) zoom in 83.5001 53.4275
+\i (00:54:50) trapsize 454
+\i (00:54:50) zoom in 
+\i (00:54:50) setwindow pcb
+\i (00:54:50) zoom in 83.5001 53.4276
+\i (00:54:50) trapsize 227
+\i (00:54:51) zoom in 
+\i (00:54:51) setwindow pcb
+\i (00:54:51) zoom in 83.5001 53.4276
+\i (00:54:51) trapsize 113
+\i (00:54:51) zoom in 
+\i (00:54:51) setwindow pcb
+\i (00:54:51) zoom in 83.5002 53.4277
+\i (00:54:51) trapsize 57
+\i (00:54:51) zoom in 
+\i (00:54:51) setwindow pcb
+\i (00:54:51) zoom in 83.5002 53.4277
+\i (00:54:51) trapsize 28
+\i (00:54:53) zoom center 83.5 53.5 
+\t (00:54:53) zoom center on 83.5 53.5
+\i (00:54:58) show element 
+\i (00:55:00) setwindow form.find
+\i (00:55:00) FORM find vias YES 
+\i (00:55:02) setwindow pcb
+\i (00:55:02) pick grid 83.6446 53.5788
+\t (00:55:02) last pick:  83.6500 53.6000
+\i (00:55:20) padeditdb 
+\i (00:55:32) trapsize 29
+\i (00:55:35) trapsize 28
+\i (00:55:43) roam y 96 
+\i (00:55:43) roam y 96
+\i (00:55:44) roam y -96 
+\i (00:55:44) roam y -96
+\i (00:55:57) setwindow form.mini
+\i (00:55:57) FORM mini padlist BGA21SQ_8DRILL 
+\i (00:55:58) FORM mini padlist BGA21SQ_HG 
+\i (00:55:58) FORM mini padlist BGA24CIR_10D 
+\i (00:55:58) FORM mini padlist BGAPAD_500MICRON 
+\i (00:55:58) FORM mini padlist BGAVIA10_20_19_1MM 
+\i (00:55:59) FORM mini padlist BGAVIA8_18_08 
+\i (00:55:59) FORM mini padlist BGA_30 
+\i (00:55:59) FORM mini padlist BVIA-17R8-08 
+\i (00:55:59) FORM mini padlist BVIA-18R8-08 
+\i (00:55:59) FORM mini padlist C9 
+\i (00:55:59) FORM mini padlist C12 
+\i (00:55:59) FORM mini padlist C16 
+\i (00:56:00) FORM mini padlist C20 
+\i (00:56:00) FORM mini padlist C24 
+\i (00:56:00) FORM mini padlist C25 
+\i (00:56:00) FORM mini padlist C55 
+\i (00:56:00) FORM mini padlist C100H73 
+\i (00:56:00) FORM mini padlist C100HN145 
+\i (00:56:00) FORM mini padlist C100HN155 
+\i (00:56:00) FORM mini padlist C100HN180 
+\i (00:56:00) FORM mini padlist C100HN200 
+\i (00:56:00) FORM mini padlist C110H60 
+\i (00:56:00) FORM mini padlist C110H71Z90 
+\i (00:56:00) FORM mini padlist C126H106 
+\i (00:56:00) FORM mini padlist C128HN128 
+\i (00:56:00) FORM mini padlist C155H125 
+\i (00:56:00) FORM mini padlist C160H90 
+\i (00:56:00) FORM mini padlist C165H95 
+\i (00:56:00) FORM mini padlist C185H135 
+\i (00:56:00) FORM mini padlist C210H140 
+\i (00:56:00) FORM mini padlist C250H125Z165 
+\i (00:56:00) FORM mini padlist C28B 
+\i (00:56:00) FORM mini padlist C34HN34 
+\i (00:56:00) FORM mini padlist C35HN35 
+\i (00:56:00) FORM mini padlist C35HN40 
+\i (00:56:00) FORM mini padlist C39H30 
+\i (00:56:00) FORM mini padlist C50H35 
+\i (00:56:00) FORM mini padlist C50HN50 
+\i (00:56:00) FORM mini padlist C50HN60 
+\i (00:56:00) FORM mini padlist C50HN80 
+\i (00:56:00) FORM mini padlist C51HN52 
+\i (00:56:00) FORM mini padlist C55H47 
+\i (00:56:01) FORM mini padlist C60H40 
+\i (00:56:01) FORM mini padlist C61HN61 
+\i (00:56:01) FORM mini padlist C65H41 
+\i (00:56:01) FORM mini padlist C72H32 
+\i (00:56:01) FORM mini padlist C72H48 
+\i (00:56:01) FORM mini padlist C83H63 
+\i (00:56:01) FORM mini padlist C86HN87 
+\i (00:56:01) FORM mini padlist C93H63 
+\i (00:56:01) FORM mini padlist CIR16 
+\i (00:56:01) FORM mini padlist CIR21 
+\i (00:56:01) FORM mini padlist CIR110MM100D 
+\i (00:56:01) FORM mini padlist CIR110MM100D_NPH 
+\i (00:56:01) FORM mini padlist CIR75CIR38 
+\i (00:56:01) FORM mini padlist CIR85CIR10 
+\i (00:56:01) FORM mini padlist CPPM_S23X93 
+\i (00:56:01) FORM mini padlist EBTF33CIR20D 
+\i (00:56:01) FORM mini padlist EBTF_28CIR14D 
+\i (00:56:01) FORM mini padlist EX34P65Y34P65D0T 
+\i (00:56:01) FORM mini padlist FID40_G 
+\i (00:56:01) FORM mini padlist FX10A_OVL1 
+\i (00:56:01) FORM mini padlist FX10A_REC1 
+\i (00:56:01) FORM mini padlist FX10A_REC2 
+\i (00:56:01) FORM mini padlist GSSG 
+\i (00:56:01) FORM mini padlist HM_ZD0P80MMCIR0P57D 
+\i (00:56:01) FORM mini padlist HM_ZD0P92MMCIR0P57D 
+\i (00:56:01) FORM mini padlist HOLE3-3P 
+\i (00:56:01) FORM mini padlist H_0110_NP_FR4 
+\i (00:56:01) FORM mini padlist H_0120_NP_FR4 
+\i (00:56:01) FORM mini padlist LR_V15H8_L1_3 
+\i (00:56:01) FORM mini padlist LR_V18H8_L18_16 
+\i (00:56:01) FORM mini padlist M270 
+\i (00:56:02) FORM mini padlist MECH60HOLE 
+\i (00:56:02) FORM mini padlist MERCURY1 
+\i (00:56:02) FORM mini padlist MT_HOLE126 
+\i (00:56:02) FORM mini padlist NPH_40 
+\i (00:56:02) FORM mini padlist NPH_55 
+\i (00:56:02) FORM mini padlist NPH_60 
+\i (00:56:02) FORM mini padlist NPH_63 
+\i (00:56:02) FORM mini padlist NPH_67 
+\i (00:56:02) FORM mini padlist NPH_79 
+\i (00:56:02) FORM mini padlist NPH_105 
+\i (00:56:02) FORM mini padlist NPH_106 
+\i (00:56:02) FORM mini padlist NPH_128 
+\i (00:56:02) FORM mini padlist NPH_150 
+\i (00:56:02) FORM mini padlist NPH_158 
+\i (00:56:02) FORM mini padlist NPH_177 
+\i (00:56:02) FORM mini padlist NULL 
+\i (00:56:02) FORM mini padlist OB41_12 
+\i (00:56:02) FORM mini padlist P50 
+\i (00:56:02) FORM mini padlist P60 
+\i (00:56:02) FORM mini padlist P100 
+\i (00:56:02) FORM mini padlist PAD0P80MMCIR0P57D 
+\i (00:56:02) FORM mini padlist PAD0P90MMCIR0P75MMD 
+\i (00:56:02) FORM mini padlist PAD0P92MMCIR0P57D 
+\i (00:56:02) FORM mini padlist PAD100CIR40D 
+\i (00:56:02) FORM mini padlist PAD100CIR50D 
+\i (00:56:02) FORM mini padlist PAD100CIR70D 
+\i (00:56:02) FORM mini padlist PAD100CIR79D 
+\i (00:56:02) FORM mini padlist PAD120CIR62D 
+\i (00:56:02) FORM mini padlist PAD126CIR63D 
+\i (00:56:02) FORM mini padlist PAD130CIR84D 
+\i (00:56:03) FORM mini padlist PAD150CIR86D 
+\i (00:56:03) FORM mini padlist PAD180CIR130D 
+\i (00:56:03) FORM mini padlist PAD33CIR20D 
+\i (00:56:03) FORM mini padlist PAD35CIR25D 
+\i (00:56:03) FORM mini padlist PAD40CIR25D 
+\i (00:56:03) FORM mini padlist PAD40CIR35D 
+\i (00:56:03) FORM mini padlist PAD49P21X35P43OBL33P47X2165D 
+\i (00:56:03) FORM mini padlist PAD60CIR35 
+\i (00:56:03) FORM mini padlist PAD60CIR40 
+\i (00:56:03) FORM mini padlist PAD60CIR35 
+\i (00:56:04) FORM mini padlist PAD49P21X35P43OBL33P47X2165D 
+\i (00:56:04) FORM mini padlist PAD40CIR35D 
+\i (00:56:04) FORM mini padlist PAD40CIR25D 
+\i (00:56:04) FORM mini padlist PAD35CIR25D 
+\i (00:56:04) FORM mini padlist PAD33CIR20D 
+\i (00:56:04) FORM mini padlist PAD180CIR130D 
+\i (00:56:04) FORM mini padlist PAD150CIR86D 
+\i (00:56:04) FORM mini padlist PAD130CIR84D 
+\i (00:56:04) FORM mini padlist PAD126CIR63D 
+\i (00:56:04) FORM mini padlist PAD120CIR62D 
+\i (00:56:04) FORM mini padlist PAD100CIR79D 
+\i (00:56:04) FORM mini padlist PAD100CIR70D 
+\i (00:56:04) FORM mini padlist PAD100CIR50D 
+\i (00:56:04) FORM mini padlist PAD100CIR40D 
+\i (00:56:04) FORM mini padlist PAD0P92MMCIR0P57D 
+\i (00:56:04) FORM mini padlist PAD0P90MMCIR0P75MMD 
+\i (00:56:04) FORM mini padlist PAD0P80MMCIR0P57D 
+\i (00:56:04) FORM mini padlist P100 
+\i (00:56:04) FORM mini padlist P60 
+\i (00:56:04) FORM mini padlist P50 
+\i (00:56:04) FORM mini padlist OB41_12 
+\i (00:56:04) FORM mini padlist NULL 
+\i (00:56:04) FORM mini padlist NPH_177 
+\i (00:56:04) FORM mini padlist NPH_158 
+\i (00:56:04) FORM mini padlist NPH_150 
+\i (00:56:05) FORM mini padlist NPH_128 
+\i (00:56:05) FORM mini padlist NPH_106 
+\i (00:56:05) FORM mini padlist NPH_128 
+\i (00:56:06) FORM mini padlist NPH_150 
+\i (00:56:06) FORM mini padlist NPH_158 
+\i (00:56:06) FORM mini padlist NPH_177 
+\i (00:56:06) FORM mini padlist NULL 
+\i (00:56:06) FORM mini padlist OB41_12 
+\i (00:56:06) FORM mini padlist P50 
+\i (00:56:06) FORM mini padlist P60 
+\i (00:56:06) FORM mini padlist P100 
+\i (00:56:06) FORM mini padlist PAD0P80MMCIR0P57D 
+\i (00:56:06) FORM mini padlist PAD0P90MMCIR0P75MMD 
+\i (00:56:06) FORM mini padlist PAD0P92MMCIR0P57D 
+\i (00:56:06) FORM mini padlist PAD100CIR40D 
+\i (00:56:06) FORM mini padlist PAD100CIR50D 
+\i (00:56:06) FORM mini padlist PAD100CIR70D 
+\i (00:56:06) FORM mini padlist PAD100CIR79D 
+\i (00:56:06) FORM mini padlist PAD120CIR62D 
+\i (00:56:06) FORM mini padlist PAD126CIR63D 
+\i (00:56:06) FORM mini padlist PAD130CIR84D 
+\i (00:56:06) FORM mini padlist PAD150CIR86D 
+\i (00:56:06) FORM mini padlist PAD180CIR130D 
+\i (00:56:06) FORM mini padlist PAD33CIR20D 
+\i (00:56:06) FORM mini padlist PAD35CIR25D 
+\i (00:56:06) FORM mini padlist PAD40CIR25D 
+\i (00:56:06) FORM mini padlist PAD40CIR35D 
+\i (00:56:06) FORM mini padlist PAD49P21X35P43OBL33P47X2165D 
+\i (00:56:06) FORM mini padlist PAD60CIR35 
+\i (00:56:06) FORM mini padlist PAD60CIR40 
+\i (00:56:06) FORM mini padlist PAD60CIR30D 
+\i (00:56:07) FORM mini padlist PAD60CIR32D 
+\i (00:56:08) FORM mini padlist PAD60CIR35D 
+\i (00:56:08) FORM mini padlist PAD60CIR36D 
+\i (00:56:08) FORM mini padlist PAD60CIR45P28 
+\i (00:56:08) FORM mini padlist PAD61P02X35P43OBL19P69X45P276XD 
+\i (00:56:08) FORM mini padlist PAD67CIR40D 
+\i (00:56:08) FORM mini padlist PAD75CIR38 
+\i (00:56:08) FORM mini padlist PAD80CIR38 
+\i (00:56:08) FORM mini padlist PAD80CIR55 
+\i (00:56:08) FORM mini padlist PAD80CIR65 
+\i (00:56:08) FORM mini padlist PAD80CIR60D 
+\i (00:56:08) FORM mini padlist PAD90CIR50 
+\i (00:56:08) FORM mini padlist PAD90CIR68P90 
+\i (00:56:08) FORM mini padlist PAD_142SQ 
+\i (00:56:08) FORM mini padlist R100_60 
+\i (00:56:08) FORM mini padlist R105_100 
+\i (00:56:08) FORM mini padlist R106_87 
+\i (00:56:08) FORM mini padlist R114_14_SH 
+\i (00:56:08) FORM mini padlist R116_97 
+\i (00:56:08) FORM mini padlist R11_24 
+\i (00:56:08) FORM mini padlist R11_35 
+\i (00:56:08) FORM mini padlist R120_80 
+\i (00:56:08) FORM mini padlist R120_50P0 
+\i (00:56:08) FORM mini padlist R120_50P0_B 
+\i (00:56:08) FORM mini padlist R125_270 
+\i (00:56:08) FORM mini padlist R126_40 
+\i (00:56:08) FORM mini padlist R12_18 
+\i (00:56:08) FORM mini padlist R12_21 
+\i (00:56:09) FORM mini padlist R12_32 
+\i (00:56:09) FORM mini padlist R12_35 
+\i (00:56:09) FORM mini padlist R12_43 
+\i (00:56:09) FORM mini padlist R130_80 
+\i (00:56:09) FORM mini padlist R130_50P0 
+\i (00:56:09) FORM mini padlist R130_50P0_B 
+\i (00:56:09) FORM mini padlist R140_30 
+\i (00:56:09) FORM mini padlist R140_118 
+\i (00:56:09) FORM mini padlist R14_71 
+\i (00:56:09) FORM mini padlist R150_30 
+\i (00:56:09) FORM mini padlist R160_50P0 
+\i (00:56:09) FORM mini padlist R160_50P0_B 
+\i (00:56:09) FORM mini padlist R165_155 
+\i (00:56:09) FORM mini padlist R16_20 
+\i (00:56:09) FORM mini padlist R16_40 
+\i (00:56:09) FORM mini padlist R16_53 
+\i (00:56:09) FORM mini padlist R170_50P0 
+\i (00:56:09) FORM mini padlist R170_50P0_B 
+\i (00:56:09) FORM mini padlist R175_110 
+\i (00:56:09) FORM mini padlist R200_50 
+\i (00:56:09) FORM mini padlist R200_50P0 
+\i (00:56:09) FORM mini padlist R209_79 
+\i (00:56:09) FORM mini padlist R20_25 
+\i (00:56:09) FORM mini padlist R20_24SHRTD 
+\i (00:56:09) FORM mini padlist R20_25_M0_P0 
+\i (00:56:09) FORM mini padlist R220_105 
+\i (00:56:09) FORM mini padlist R23_52 
+\i (00:56:09) FORM mini padlist R243_237 
+\i (00:56:09) FORM mini padlist R24_12 
+\i (00:56:09) FORM mini padlist R276_122_PASTE_0 
+\i (00:56:09) FORM mini padlist R28_12 
+\i (00:56:10) FORM mini padlist R300_210 
+\i (00:56:10) FORM mini padlist R30_8 
+\i (00:56:10) FORM mini padlist R30_18 
+\i (00:56:10) FORM mini padlist R30_50 
+\i (00:56:10) FORM mini padlist R30_75 
+\i (00:56:10) FORM mini padlist R310_50P0 
+\i (00:56:10) FORM mini padlist R310_50P0_B 
+\i (00:56:10) FORM mini padlist R31_17 
+\i (00:56:10) FORM mini padlist R32_8 
+\i (00:56:10) FORM mini padlist R32_11 
+\i (00:56:10) FORM mini padlist R32_12 
+\i (00:56:10) FORM mini padlist R32_82 
+\i (00:56:10) FORM mini padlist R32_87 
+\i (00:56:10) FORM mini padlist R33_8 
+\i (00:56:10) FORM mini padlist R33_79 
+\i (00:56:10) FORM mini padlist R34_11 
+\i (00:56:10) FORM mini padlist R35_118 
+\i (00:56:10) FORM mini padlist R37_14 
+\i (00:56:10) FORM mini padlist R39_14_SH 
+\i (00:56:10) FORM mini padlist R40_12 
+\i (00:56:10) FORM mini padlist R40_16 
+\i (00:56:10) FORM mini padlist R40_55 
+\i (00:56:10) FORM mini padlist R40_108 
+\i (00:56:10) FORM mini padlist R43_40 
+\i (00:56:10) FORM mini padlist R43_71 
+\i (00:56:10) FORM mini padlist R43_40SHRTD 
+\i (00:56:10) FORM mini padlist R43_40_M0_P0 
+\i (00:56:10) FORM mini padlist R45_20 
+\i (00:56:10) FORM mini padlist R47_11 
+\i (00:56:10) FORM mini padlist R47_28 
+\i (00:56:11) FORM mini padlist R50_15 
+\i (00:56:11) FORM mini padlist R50_25 
+\i (00:56:11) FORM mini padlist R510_125 
+\i (00:56:11) FORM mini padlist R51_44 
+\i (00:56:11) FORM mini padlist R51_110 
+\i (00:56:11) FORM mini padlist R52_41 
+\i (00:56:11) FORM mini padlist R54_26 
+\i (00:56:11) FORM mini padlist R55_15 
+\i (00:56:11) FORM mini padlist R55_40 
+\i (00:56:11) FORM mini padlist R55_47 
+\i (00:56:11) FORM mini padlist R55_52 
+\i (00:56:11) FORM mini padlist R58_109 
+\i (00:56:11) FORM mini padlist R59_39 
+\i (00:56:11) FORM mini padlist R60_16 
+\i (00:56:11) FORM mini padlist R60_28 
+\i (00:56:11) FORM mini padlist R60_100 
+\i (00:56:11) FORM mini padlist R60_116 
+\i (00:56:11) FORM mini padlist R61_15 
+\i (00:56:11) FORM mini padlist R61_51 
+\i (00:56:11) FORM mini padlist R62_70 
+\i (00:56:11) FORM mini padlist R62_93 
+\i (00:56:11) FORM mini padlist R63_34 
+\i (00:56:11) FORM mini padlist R63_65 
+\i (00:56:11) FORM mini padlist R65_74 
+\i (00:56:11) FORM mini padlist R65_150 
+\i (00:56:11) FORM mini padlist R67_85 
+\i (00:56:11) FORM mini padlist R71_75 
+\i (00:56:11) FORM mini padlist R72_135 
+\i (00:56:11) FORM mini padlist R730_230 
+\i (00:56:11) FORM mini padlist R75_50 
+\i (00:56:12) FORM mini padlist R80_25 
+\i (00:56:12) FORM mini padlist R80_30 
+\i (00:56:12) FORM mini padlist R83_55 
+\i (00:56:12) FORM mini padlist R83_114 
+\i (00:56:12) FORM mini padlist R83_14_SH 
+\i (00:56:12) FORM mini padlist R85_25 
+\i (00:56:12) FORM mini padlist R85_59 
+\i (00:56:12) FORM mini padlist R87_87 
+\i (00:56:12) FORM mini padlist R8_32 
+\i (00:56:12) FORM mini padlist R90_50P0 
+\i (00:56:12) FORM mini padlist R94_59 
+\i (00:56:12) FORM mini padlist R95_115 
+\i (00:56:12) FORM mini padlist RD119H119-NP_2T4 
+\i (00:56:12) FORM mini padlist RD125H62 
+\i (00:56:12) FORM mini padlist RD127H127-NP-2T4 
+\i (00:56:12) FORM mini padlist RD60H40 
+\i (00:56:12) FORM mini padlist RD60H36-2T4 
+\i (00:56:12) FORM mini padlist RD60H40-4T2 
+\i (00:56:12) FORM mini padlist RD65H42_L1-10 
+\i (00:56:12) FORM mini padlist REC055X060MM 
+\i (00:56:12) FORM mini padlist REC100X275MM 
+\i (00:56:12) FORM mini padlist REC105X108MM 
+\i (00:56:12) FORM mini padlist REC1100X400UM 
+\i (00:56:12) FORM mini padlist REC120X80 
+\i (00:56:12) FORM mini padlist REC1250X1750UM 
+\i (00:56:12) FORM mini padlist REC13001600UM 
+\i (00:56:12) FORM mini padlist REC1500X2000UM 
+\i (00:56:12) FORM mini padlist REC15X20 
+\i (00:56:12) FORM mini padlist REC180X130 
+\i (00:56:12) FORM mini padlist REC19X20 
+\i (00:56:12) FORM mini padlist REC210X100 
+\i (00:56:13) FORM mini padlist REC213X114 
+\i (00:56:13) FORM mini padlist REC217X59 
+\i (00:56:13) FORM mini padlist REC28X126_PCI_L10 
+\i (00:56:13) FORM mini padlist REC28X126_PCI_TOP 
+\i (00:56:13) FORM mini padlist REC28X165_PCI_L10 
+\i (00:56:13) FORM mini padlist REC28X165_PCI_TOP 
+\i (00:56:13) FORM mini padlist REC31X59 
+\i (00:56:13) FORM mini padlist REC35X63 
+\i (00:56:13) FORM mini padlist REC50X30 
+\i (00:56:13) FORM mini padlist REC55X47 
+\i (00:56:13) FORM mini padlist REC55X67 
+\i (00:56:13) FORM mini padlist REC59X45 
+\i (00:56:13) FORM mini padlist REC65X13 
+\i (00:56:13) FORM mini padlist REC71_14 
+\i (00:56:13) FORM mini padlist REC77X124 
+\i (00:56:13) FORM mini padlist REC87X31 
+\i (00:56:13) FORM mini padlist REC_0-95MMSQ 
+\i (00:56:13) FORM mini padlist RNDREC32_10 
+\i (00:56:13) FORM mini padlist RREC12_20 
+\i (00:56:13) FORM mini padlist RTM_10X09 
+\i (00:56:13) FORM mini padlist RTM_14X12 
+\i (00:56:13) FORM mini padlist RTM_25X24 
+\i (00:56:13) FORM mini padlist RT_100X15 
+\i (00:56:13) FORM mini padlist RT_15X100 
+\i (00:56:13) FORM mini padlist RX126Y63D0T 
+\i (00:56:13) FORM mini padlist S15 
+\i (00:56:13) FORM mini padlist S25 
+\i (00:56:13) FORM mini padlist S31 
+\i (00:56:13) FORM mini padlist S68 
+\i (00:56:13) FORM mini padlist S88 
+\i (00:56:14) FORM mini padlist S98 
+\i (00:56:14) FORM mini padlist S100 
+\i (00:56:14) FORM mini padlist S102 
+\i (00:56:14) FORM mini padlist S108 
+\i (00:56:14) FORM mini padlist S120 
+\i (00:56:14) FORM mini padlist S124 
+\i (00:56:14) FORM mini padlist S157 
+\i (00:56:14) FORM mini padlist S160 
+\i (00:56:14) FORM mini padlist S161 
+\i (00:56:14) FORM mini padlist S167 
+\i (00:56:14) FORM mini padlist S285 
+\i (00:56:14) FORM mini padlist S120X180 
+\i (00:56:14) FORM mini padlist S155H85 
+\i (00:56:14) FORM mini padlist S15_M0_P0 
+\i (00:56:14) FORM mini padlist S15_SHRTD 
+\i (00:56:14) FORM mini padlist S160H90 
+\i (00:56:14) FORM mini padlist S175H105 
+\i (00:56:14) FORM mini padlist S60H40 
+\i (00:56:14) FORM mini padlist S60X160 
+\i (00:56:14) FORM mini padlist S72H48 
+\i (00:56:14) FORM mini padlist S98_M0_P0 
+\i (00:56:14) FORM mini padlist SMA_96X306 
+\i (00:56:14) FORM mini padlist SMD11P8_33P46 
+\i (00:56:14) FORM mini padlist SMD135P83SQ 
+\i (00:56:14) FORM mini padlist SMD209SQ 
+\i (00:56:14) FORM mini padlist SMD20_51 
+\i (00:56:14) FORM mini padlist SMD20_51_10DRILL 
+\i (00:56:14) FORM mini padlist SMD25_27 
+\i (00:56:14) FORM mini padlist SMD35REC12 
+\i (00:56:14) FORM mini padlist SMD40_28 
+\i (00:56:15) FORM mini padlist SMD50REC128 
+\i (00:56:15) FORM mini padlist SMD50REC175 
+\i (00:56:15) FORM mini padlist SMD50_55 
+\i (00:56:15) FORM mini padlist SMD51REC59 
+\i (00:56:15) FORM mini padlist SMD53X16 
+\i (00:56:15) FORM mini padlist SMD63X30 
+\i (00:56:15) FORM mini padlist SMD65X112 
+\i (00:56:15) FORM mini padlist SMD70REC20 
+\i (00:56:15) FORM mini padlist SMD70_25 
+\i (00:56:15) FORM mini padlist SMD81CIR 
+\i (00:56:15) FORM mini padlist SMD92SQ 
+\i (00:56:15) FORM mini padlist SMDU800X950 
+\i (00:56:15) FORM mini padlist SMD_0R3X0R5 
+\i (00:56:15) FORM mini padlist SMD_0R9X1R6 
+\i (00:56:15) FORM mini padlist SMD_110X29 
+\i (00:56:15) FORM mini padlist SMD_2P8MM_SQ 
+\i (00:56:15) FORM mini padlist SMD_6MMX6P5MM 
+\i (00:56:15) FORM mini padlist SMM100X75 
+\i (00:56:15) FORM mini padlist SMM160X45 
+\i (00:56:15) FORM mini padlist SMM1_55X1_55 
+\i (00:56:15) FORM mini padlist SMM85X25OBL 
+\i (00:56:15) FORM mini padlist SMP_205SQ_177DIA 
+\i (00:56:15) FORM mini padlist SMT10X28 
+\i (00:56:15) FORM mini padlist SMT_173R23SQ 
+\i (00:56:15) FORM mini padlist SMT_65SQ 
+\i (00:56:15) FORM mini padlist SM_MM_1_1X0_90 
+\i (00:56:15) FORM mini padlist SO15_32 
+\i (00:56:15) FORM mini padlist SO32_15 
+\i (00:56:15) FORM mini padlist SQ60H40 
+\i (00:56:15) FORM mini padlist SQ60H36-2T4 
+\i (00:56:15) FORM mini padlist SQM_06 
+\i (00:56:16) FORM mini padlist SQ_80 
+\i (00:56:16) FORM mini padlist SR100_25 
+\i (00:56:16) FORM mini padlist SR12_24 
+\i (00:56:16) FORM mini padlist SR24_12 
+\i (00:56:16) FORM mini padlist SR28_10 
+\i (00:56:16) FORM mini padlist SR32_36 
+\i (00:56:16) FORM mini padlist SR38_20 
+\i (00:56:16) FORM mini padlist SR63_75 
+\i (00:56:16) FORM mini padlist SS098 
+\i (00:56:16) FORM mini padlist SS124 
+\i (00:56:16) FORM mini padlist SS098_MDRILL 
+\i (00:56:16) FORM mini padlist SX24P8Y24P8D0TN 
+\i (00:56:16) FORM mini padlist SX34P65Y34P65D0T 
+\i (00:56:16) FORM mini padlist SX34P65Y34P65D0T00 
+\i (00:56:16) FORM mini padlist SX34P65Y34P65D0T_L 
+\i (00:56:16) FORM mini padlist SX34P65Y34P65D0T_U 
+\i (00:56:16) FORM mini padlist S_RCT_0-70_X_0-60 
+\i (00:56:16) FORM mini padlist S_RCT_0-90_X_0-80 
+\i (00:56:16) FORM mini padlist S_RCT_0-95_X_0-60 
+\i (00:56:16) FORM mini padlist S_RCT_0-95_X_0-90 
+\i (00:56:16) FORM mini padlist S_RCT_1-00_X_0-95 
+\i (00:56:16) FORM mini padlist S_RCT_1-05_X_0-60 
+\i (00:56:16) FORM mini padlist S_RCT_1-45_X_1-15 
+\i (00:56:16) FORM mini padlist S_RCT_1-55_X_0-60 
+\i (00:56:16) FORM mini padlist S_RCT_2-30_X_0-95 
+\i (00:56:16) FORM mini padlist S_RCT_2-80_X_0-75 
+\i (00:56:16) FORM mini padlist S_RCT_6-80_X_1-40 
+\i (00:56:16) FORM mini padlist TP-30B-20R10 
+\i (00:56:16) FORM mini padlist TRND1-65D1-00PNP 
+\i (00:56:16) FORM mini padlist V18H8 
+\i (00:56:17) FORM mini padlist V19H10 
+\i (00:56:17) FORM mini padlist V19H10-U-COM 
+\i (00:56:17) FORM mini padlist V19H10-UBGA 
+\i (00:56:17) FORM mini padlist V19H10-UC 
+\i (00:56:17) FORM mini padlist V20H10 
+\i (00:56:17) FORM mini padlist V20H10-UC 
+\i (00:56:17) FORM mini padlist V20H10_NSM 
+\i (00:56:17) FORM mini padlist V20H10_T-L10 
+\i (00:56:17) FORM mini padlist V20H10_THERMAL 
+\i (00:56:17) FORM mini padlist V24H12 
+\i (00:56:17) FORM mini padlist V24H12-CU 
+\i (00:56:17) FORM mini padlist V24H12_THERMAL 
+\i (00:56:17) FORM mini padlist VIA-20R11 
+\i (00:56:17) FORM mini padlist VIA-24R12 
+\i (00:56:17) FORM mini padlist VIA12_STD-TH 
+\i (00:56:17) FORM mini padlist VIA12_STD-TH-UCBF 
+\i (00:56:17) FORM mini padlist VIA17_8 
+\i (00:56:17) FORM mini padlist VIAFANOUT 
+\i (00:56:17) FORM mini padlist VIA_8 
+\i (00:56:18) FORM mini padlist VIA_10 
+\i (00:56:21) FORM mini pad_stack_edit  
+\i (00:57:54) setwindow pcb
+\i (00:57:54) zoom fit 
+\t (00:57:55) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (00:57:55) trapsize 7259
+\i (00:57:58) zoom out 
+\i (00:57:58) setwindow pcb
+\i (00:57:58) zoom out 90.2950 36.6049
+\t (00:57:58) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+\i (00:57:58) trapsize 14517
+\i (00:57:59) zoom out 
+\i (00:57:59) setwindow pcb
+\i (00:57:59) zoom out 90.2950 36.6049
+\t (00:57:59) Grids are drawn 3.2000, 3.2000 apart for enhanced viewing.
+\i (00:57:59) trapsize 29034
+\i (00:58:04) nctape_full 
+\i (00:58:06) setwindow form.nc_drill
+\i (00:58:06) FORM nc_drill execute  
+\t (00:58:06) Starting Generating NC Drill...
+\i (00:58:10) FORM nc_drill close  
+\i (00:58:10) setwindow pcb
+\i (00:58:10) generaledit 
+\i (00:58:12) artwork 
+\i (00:58:14) setwindow form.film_control
+\i (00:58:14) FORM film_control select_all  
+\i (00:58:15) FORM film_control create  
+\i (00:58:17) fillin yes 
+\t (00:58:17) Checking db records
+\t (00:58:17)     checking for orphans...
+\t (00:58:17)     Checked   6 percent
+\t (00:58:17)     Checked  12 percent
+\t (00:58:17)     Checked  19 percent
+\t (00:58:17)     Checked  25 percent
+\t (00:58:17)     Checked  31 percent
+\t (00:58:17)     Checked  38 percent
+\t (00:58:17)     Checked  44 percent
+\t (00:58:17)     Checked  51 percent
+\t (00:58:17)     Checked  57 percent
+\t (00:58:17)     Checked  63 percent
+\t (00:58:17)     Checked  70 percent
+\t (00:58:17)     Checked  76 percent
+\t (00:58:17)     Checked  83 percent
+\t (00:58:17)     Checked  89 percent
+\t (00:58:17)     Checked  95 percent
+\t (00:58:17)     Checked 100 percent
+\t (00:58:17) Done dbdoctor.
+\t (00:58:17) Starting Create artwork films...
+\w (00:58:18) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:58:20) Artwork generated with warnings.
+\i (00:58:58) setwindow pcb
+\i (00:58:58) save_as 
+\i (00:59:02) fillin "menu_cancel"
+\i (00:59:02) generaledit 
+\i (01:13:25) zoom in 
+\i (01:13:25) setwindow pcb
+\i (01:13:25) zoom in 90.2949 36.6050
+\t (01:13:25) Grids are drawn 1.6000, 1.6000 apart for enhanced viewing.
+   (01:13:25) Loading signal.cxt 
+\i (01:13:25) trapsize 14517
+\i (01:13:26) zoom in 
+\i (01:13:26) setwindow pcb
+\i (01:13:26) zoom in 90.2949 36.6050
+\t (01:13:26) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (01:13:26) trapsize 7259
+\i (01:13:40) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (01:13:42) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (01:13:44) QtSignal ColorVisibilityPane CVPGlobalVisOff clicked
+\i (01:13:47) color192 
+\i (01:13:47) generaledit 
+\i (01:13:49) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (01:13:53) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (01:13:58) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Design_Outline" BrdGeo 1
+\i (01:13:58) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 11 0
+\i (01:13:58) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:14:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 1
+\i (01:14:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (01:14:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:14:07) show element 
+\i (01:14:13) pick grid 160.2674 3.9415
+\t (01:14:13) last pick:  160.2500 3.9500
+\i (01:14:26) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Ncroute_Path" BrdGeo 1
+\i (01:14:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 18 0
+\i (01:14:26) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:14:35) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 0
+\i (01:14:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (01:14:35) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:16:21) setwindow text
+\i (01:16:21) close
+\i (01:16:46) setwindow pcb
+\i (01:16:46) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Cutout BrdGeo 1
+\i (01:16:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (01:16:46) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (01:16:54) zcopy shape 
+\t (01:16:54) Select cline, cline segment, shape, rectangle or closed polygon.
+   (01:16:54) Loading cmds.cxt 
+\i (01:17:07) setwindow form.mini
+\i (01:17:07) FORM mini class_name 'BOARD GEOMETRY' 
+\i (01:17:12) FORM mini subclass_name NCROUTE_PATH 
+\i (01:17:24) setwindow pcb
+\i (01:17:24) pick 156.2026 5.5384
+\t (01:17:24) last pick:  156.2026 5.5384
+\i (01:17:26) prepopup 142.8468 24.9913
+\i (01:17:28) pop Done 
+\i (01:17:28) generaledit 
+\i (01:17:39) ncroute 
+\i (01:17:43) setwindow form.nc_route
+\i (01:17:43) FORM nc_route execute  
+\t (01:17:43) Starting NC Route...
+\i (01:17:46) FORM nc_route viewlog  
+\i (01:19:22) setwindow pcb
+\i (01:19:22) add text 
+\t (01:19:22) Pick text location.
+\i (01:19:26) setwindow form.mini
+\i (01:19:26) FORM mini class 'BOARD GEOMETRY' 
+\i (01:19:33) FORM mini subclass NCROUTE_PATH 
+\i (01:19:33) setwindow pcb
+\i (01:19:33) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:19:33) updateport CVPane
+\i (01:19:38) zoom points 
+\t (01:19:38) Pick 1st corner of the new window.
+\i (01:19:39) drag_start 145.0244 14.3938
+\i (01:19:40) drag_stop 170.1390 -4.7688
+\i (01:19:40) trapsize 1096
+\i (01:19:42) pick grid 154.4741 5.5799
+\t (01:19:42) last pick:  154.5000 5.6000
+\t (01:19:42) Enter text string.
+\i (01:19:45) setwindow pcb
+\i (01:19:45) pick 154.5000 5.6000
+\t (01:19:45) Enter text string.
+\i (01:19:49) pick grid 163.5731 5.5799
+\t (01:19:49) last pick:  163.6000 5.6000
+\t (01:19:49) Enter text string.
+\i (01:19:51) setwindow pcb
+\i (01:19:51) pick 163.6000 5.6000
+\t (01:19:51) Enter text string.
+\i (01:19:54) prepopup 161.6217 7.3339
+\i (01:19:55) done 
+\i (01:19:55) generaledit 
+\i (01:20:02) setwindow text
+\i (01:20:02) close
+\i (01:20:07) setwindow pcb
+\i (01:20:07) artwork 
+\i (01:20:12) setwindow form.film_control
+\i (01:20:12) FORM film_control cancel  
+\i (01:20:12) setwindow pcb
+\i (01:20:12) generaledit 
+\i (01:20:22) ncroute 
+\i (01:20:25) setwindow form.nc_route
+\i (01:20:25) FORM nc_route execute  
+\t (01:20:25) Starting NC Route...
+\i (01:20:28) FORM nc_route viewlog  
+\i (01:21:30) FORM nc_route close  
+\i (01:21:30) setwindow pcb
+\i (01:21:30) generaledit 
+\i (01:26:21) color192 
+\i (01:26:21) generaledit 
+\i (01:26:37) artwork 
+\i (01:26:48) setwindow form.film_control
+\i (01:26:48) FORM film_control filmtree  19_CUTOUT 
+\i (01:28:41) setwindow pcb
+\i (01:28:41) ncroute 
+\i (01:28:43) setwindow form.nc_route
+\i (01:28:43) FORM nc_route parameters  
+\i (01:28:56) setwindow form.nc_parameters
+\i (01:28:56) FORM nc_parameters cancel  
+\i (01:28:59) setwindow form.nc_route
+\i (01:28:59) FORM nc_route cancel  
+\i (01:28:59) setwindow pcb
+\i (01:28:59) generaledit 
+\i (01:29:07) nctape_full 
+\i (01:29:09) setwindow form.nc_drill
+\i (01:29:09) FORM nc_drill parameters  
+\i (01:29:15) setwindow form.nc_parameters
+\i (01:29:15) FORM nc_parameters cancel  
+\i (01:29:19) setwindow form.nc_drill
+\i (01:29:19) FORM nc_drill close  
+\i (01:29:19) setwindow pcb
+\i (01:29:19) generaledit 
+\i (01:29:21) save 
+\i (01:29:22) fillin yes 
+\i (01:29:23) generaledit 
+\i (01:29:24) zoom in 
+\i (01:29:24) setwindow pcb
+\i (01:29:24) zoom in 158.7496 4.7906
+\i (01:29:24) trapsize 548
+\i (01:29:26) zoom points 
+\t (01:29:26) Pick 1st corner of the new window.
+\i (01:29:28) zoom fit 
+\i (01:29:28) trapsize 7259
+\i (01:31:23) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:31:23) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (01:31:25) zoom in 
+\i (01:31:25) setwindow pcb
+\i (01:31:25) zoom in 90.2950 36.6049
+\t (01:31:25) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (01:31:25) trapsize 3629
+\i (01:31:26) zoom in 
+\i (01:31:26) setwindow pcb
+\i (01:31:26) zoom in 90.2950 36.6049
+\t (01:31:26) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:31:26) trapsize 1815
+\i (01:31:28) roam y -96 
+\i (01:31:28) roam y -96
+\i (01:31:28) roam y -96 
+\i (01:31:28) roam y -96
+\i (01:31:28) roam y -96 
+\i (01:31:28) roam y -96
+\i (01:31:29) roam x 96 
+\i (01:31:29) roam x 96
+\i (01:31:29) roam x 96 
+\i (01:31:29) roam x 96
+\i (01:31:29) roam x 96 
+\i (01:31:29) roam x 96
+\i (01:31:29) roam y -96 
+\i (01:31:29) roam y -96
+\i (01:31:29) roam y -96 
+\i (01:31:29) roam y -96
+\i (01:31:34) show measure 
+\i (01:31:36) pick grid 109.7904 58.4099
+\t (01:31:36) last pick:  109.8000 58.4000
+\i (01:31:37) pick grid 109.1734 58.1558
+\t (01:31:37) last pick:  109.1500 58.1500
+\i (01:31:41) zoom in 
+\i (01:31:41) setwindow pcb
+\i (01:31:41) zoom in 100.7172 54.0185
+\t (01:31:41) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:31:41) trapsize 907
+\i (01:31:43) roam x 96 
+\i (01:31:43) roam x 96
+\i (01:31:43) roam x 96 
+\i (01:31:43) roam x 96
+\i (01:31:43) roam x 96 
+\i (01:31:43) roam x 96
+\i (01:31:44) roam y 96 
+\i (01:31:44) roam y 96
+\i (01:31:54) shape select 
+\i (01:31:55) pick grid 113.7915 55.8236
+\t (01:31:55) last pick:  113.8000 55.8000
+\i (01:31:56) prepopup 113.7915 55.8236
+\i (01:31:57) pop shape param 
+\i (01:31:59) setwindow form.dyn_xshape
+\i (01:31:59) FORM dyn_xshape clearances  
+\i (01:32:07) FORM dyn_xshape shape_clear_drc 0.254 
+\i (01:32:08) FORM dyn_xshape apply  
+\i (01:32:11) FORM dyn_xshape done  
+\i (01:32:12) setwindow pcb
+\i (01:32:12) prepopup 107.2406 56.6583
+\i (01:32:13) done 
+\i (01:32:13) generaledit 
+\i (01:32:18) status 
+\i (01:32:18) generaledit 
+\i (01:32:21) setwindow form.status
+\i (01:32:21) FORM status done  
+\i (01:32:25) setwindow pcb
+\i (01:32:25) show measure 
+\i (01:32:26) pick grid 110.3437 53.5734
+\t (01:32:26) last pick:  110.3500 53.5500
+\i (01:32:28) pick grid 109.5634 52.8294
+\t (01:32:28) last pick:  109.5500 52.8500
+\i (01:32:44) shape select 
+\i (01:32:45) pick grid 113.5012 55.8236
+\t (01:32:45) last pick:  113.5000 55.8000
+\i (01:32:45) prepopup 113.5193 55.8236
+\i (01:32:47) pop shape param 
+\i (01:32:52) setwindow form.dyn_xshape
+\i (01:32:52) FORM dyn_xshape line_clear_drc 0.254 
+\i (01:32:52) FORM dyn_xshape done  
+\i (01:32:55) setwindow pcb
+\i (01:32:55) zoom out 
+\i (01:32:55) setwindow pcb
+\i (01:32:55) zoom out 105.9341 52.2669
+\t (01:32:55) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:32:55) trapsize 1815
+\i (01:33:02) zoom in 
+\i (01:33:02) setwindow pcb
+\i (01:33:02) zoom in 105.9340 52.2669
+\t (01:33:02) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:33:02) trapsize 907
+\i (01:33:04) roam y -96 
+\i (01:33:04) roam y -96
+\i (01:33:04) roam y -96 
+\i (01:33:04) roam y -96
+\i (01:33:09) prepopup 107.4039 61.4853
+\i (01:33:10) done 
+\i (01:33:10) generaledit 
+\i (01:33:14) show measure 
+\i (01:33:19) pick grid 109.2911 60.8502
+\t (01:33:19) last pick:  109.3000 60.8500
+\i (01:33:20) pick grid 109.2185 61.9571
+\t (01:33:20) last pick:  109.2000 61.9500
+\i (01:33:42) setwindow text
+\i (01:33:42) close
+\i (01:33:45) setwindow pcb
+\i (01:33:45) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:33:45) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (01:33:46) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (01:33:46) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (01:33:54) setwindow form.find
+\i (01:33:54) FORM find find_by_query  
+\i (01:33:57) setwindow pcb
+\i (01:33:57) QtSignal FBQDialog cancelButton clicked
+\i (01:34:02) setwindow form.find
+\i (01:34:02) FORM find find_name c55 
+\i (01:34:02) setwindow pcb
+\i (01:34:02) trapsize 473
+\i (01:34:05) zoom out 
+\i (01:34:05) setwindow pcb
+\i (01:34:05) zoom out 72.5000 49.4905
+\i (01:34:05) trapsize 947
+\i (01:34:06) zoom out 
+\i (01:34:06) setwindow pcb
+\i (01:34:06) zoom out 72.5000 49.4906
+\t (01:34:06) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:34:06) trapsize 1893
+\i (01:34:11) setwindow text
+\i (01:34:11) close
+\i (01:34:20) setwindow pcb
+\i (01:34:20) zoom in 
+\i (01:34:20) setwindow pcb
+\i (01:34:20) zoom in 72.5000 49.4905
+\t (01:34:20) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:34:20) trapsize 947
+\i (01:34:20) zoom in 
+\i (01:34:20) setwindow pcb
+\i (01:34:20) zoom in 72.5000 49.4906
+\i (01:34:20) trapsize 473
+\i (01:34:25) show measure 
+\i (01:34:26) pick grid 71.7806 49.6042
+\t (01:34:26) last pick:  71.8000 49.6000
+\i (01:34:27) pick grid 71.9131 49.1783
+\t (01:34:27) last pick:  71.9000 49.2000
+\i (01:34:31) zoom out 
+\i (01:34:31) setwindow pcb
+\i (01:34:31) zoom out 72.5000 49.4906
+\i (01:34:31) trapsize 947
+\i (01:34:36) prepopup 76.0593 52.0276
+\i (01:34:36) done 
+\i (01:34:36) generaledit 
+\i (01:34:40) show element 
+\i (01:34:44) setwindow form.find
+\i (01:34:44) FORM find name_type 'Comp (or Pin)' 
+\i (01:34:46) FORM find find_name c55 
+\i (01:34:46) setwindow pcb
+\i (01:34:46) trapsize 473
+\i (01:35:06) show measure 
+\i (01:35:07) pick grid 72.5095 49.6041
+\t (01:35:07) last pick:  72.5000 49.6000
+\i (01:35:08) pick grid 72.7177 50.7590
+\t (01:35:08) last pick:  72.7000 50.7500
+\i (01:35:11) zoom out 
+\i (01:35:11) setwindow pcb
+\i (01:35:11) zoom out 72.5000 49.4905
+\i (01:35:11) trapsize 947
+\i (01:35:12) zoom out 
+\i (01:35:12) setwindow pcb
+\i (01:35:12) zoom out 72.5000 49.4906
+\t (01:35:12) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:35:12) trapsize 1893
+\i (01:35:14) roam x 96 
+\i (01:35:14) roam x 96
+\i (01:35:14) roam x 96 
+\i (01:35:14) roam x 96
+\i (01:35:15) roam x 96 
+\i (01:35:15) roam x 96
+\i (01:35:20) zoom in 
+\i (01:35:20) setwindow pcb
+\i (01:35:20) zoom in 83.3954 49.4905
+\t (01:35:20) Grids are drawn 0.1000, 0.1000 apart for enhanced viewing.
+\i (01:35:20) trapsize 947
+\i (01:35:21) zoom in 
+\i (01:35:21) setwindow pcb
+\i (01:35:21) zoom in 83.3954 49.4906
+\i (01:35:21) trapsize 473
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:22) roam x 96 
+\i (01:35:22) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x 96 
+\i (01:35:23) roam x 96
+\i (01:35:23) roam x -96 
+\i (01:35:23) roam x -96
+\i (01:35:31) zoom out 
+\i (01:35:31) setwindow pcb
+\i (01:35:31) zoom out 94.2909 49.4906
+\i (01:35:31) trapsize 947
+\i (01:35:32) zoom out 
+\i (01:35:32) setwindow pcb
+\i (01:35:32) zoom out 94.2909 49.4907
+\t (01:35:32) Grids are drawn 0.2000, 0.2000 apart for enhanced viewing.
+\i (01:35:32) trapsize 1893
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:36) roam x 96 
+\i (01:35:36) roam x 96
+\i (01:35:39) roam x 96 
+\i (01:35:39) roam x 96
+\i (01:35:39) roam x 96 
+\i (01:35:39) roam x 96
+\i (01:35:39) roam x 96 
+\i (01:35:39) roam x 96
+\i (01:35:40) roam x 96 
+\i (01:35:40) roam x 96
+\i (01:35:41) roam x 96 
+\i (01:35:41) roam x 96
+\i (01:35:46) zoom out 
+\i (01:35:46) setwindow pcb
+\i (01:35:46) zoom out 126.9775 49.4906
+\t (01:35:46) Grids are drawn 0.4000, 0.4000 apart for enhanced viewing.
+\i (01:35:46) trapsize 3786
+\i (01:35:48) roam x -96 
+\i (01:35:48) roam x -96
+\i (01:35:48) roam x -96 
+\i (01:35:48) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:49) roam x -96 
+\i (01:35:49) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:50) roam x -96 
+\i (01:35:50) roam x -96
+\i (01:35:51) roam x -96 
+\i (01:35:51) roam x -96
+\i (01:35:51) roam x -96 
+\i (01:35:51) roam x -96
+\i (01:35:52) roam x 96 
+\i (01:35:52) roam x 96
+\i (01:35:52) roam x 96 
+\i (01:35:52) roam x 96
+\i (01:35:54) prepopup 48.8251 46.4615
+\i (01:35:55) done 
+\i (01:35:55) generaledit 
+\i (01:35:56) zoom out 
+\i (01:35:56) setwindow pcb
+\i (01:35:56) zoom out 47.0076 49.4907
+\t (01:35:56) Grids are drawn 0.8000, 0.8000 apart for enhanced viewing.
+\i (01:35:56) trapsize 7573
+\i (01:35:58) roam x 96 
+\i (01:35:58) roam x 96
+\i (01:35:58) roam x 96 
+\i (01:35:58) roam x 96
+\i (01:35:58) roam x 96 
+\i (01:35:58) roam x 96
+\i (01:35:59) roam x 96 
+\i (01:35:59) roam x 96
+\i (01:36:04) artwork 
+\i (01:36:06) setwindow form.film_control
+\i (01:36:06) FORM film_control select_all  
+\i (01:36:07) FORM film_control create  
+\i (01:36:09) fillin yes 
+\t (01:36:09) Checking db records
+\t (01:36:09)     checking for orphans...
+\t (01:36:09)     Checked   6 percent
+\t (01:36:09)     Checked  12 percent
+\t (01:36:09)     Checked  19 percent
+\t (01:36:09)     Checked  25 percent
+\t (01:36:09)     Checked  31 percent
+\t (01:36:09)     Checked  38 percent
+\t (01:36:09)     Checked  44 percent
+\t (01:36:09)     Checked  51 percent
+\t (01:36:09)     Checked  57 percent
+\t (01:36:09)     Checked  63 percent
+\t (01:36:09)     Checked  70 percent
+\t (01:36:09)     Checked  76 percent
+\t (01:36:09)     Checked  83 percent
+\t (01:36:09)     Checked  89 percent
+\t (01:36:09)     Checked  95 percent
+\t (01:36:09)     Checked 100 percent
+\t (01:36:09) Done dbdoctor.
+\t (01:36:09) Starting Create artwork films...
+\w (01:36:11) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
