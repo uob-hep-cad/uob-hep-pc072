@@ -1,217 +1,276 @@
-\t (00:00:17) allegro 17.4 S033 Windows SPB 64-bit Edition
-\t (00:00:17)     Journal start - Tue Jul  4 09:33:36 2023
-\t (00:00:17)         Host=IT088130 User=phdgc Pid=18396 CPUs=16
-\t (00:00:17) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_ethernet_jtag_serial.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr23583 -mpshost IT088130
-\t (00:00:17) 
-   (00:00:18) Loading axlcore.cxt 
-\t (00:00:19) Opening existing design...
-\i (00:00:19) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_fp_ethernet_02"
-\d (00:00:19) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_02.brd
-\i (00:00:19) trapsize 3625
-\i (00:00:19) trapsize 3729
-\i (00:00:19) trapsize 3760
-\i (00:00:19) trapsize 3896
-\i (00:00:19) trapsize 4073
-\t (00:00:20) Loaded GPU Plugin from: plugins/gpu
-\i (00:00:20) trapsize 3790
-\i (00:00:20) trapsize 3899
-\i (00:00:20) trapsize 3931
-\i (00:00:20) trapsize 4073
-\i (00:00:20) generaledit 
-\i (00:00:22) zoom in 1 
-\i (00:00:22) setwindow pcb
-\i (00:00:22) zoom in 55.9051 40.6978
-\i (00:00:22) trapsize 2036
-\i (00:00:23) zoom out 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom out 55.9051 40.6978
-\i (00:00:23) trapsize 4073
-\i (00:00:26) zoom fit 
-\i (00:00:26) trapsize 6228
-\i (00:00:32) place manual 
-\i (00:00:33) setwindow form.plc_manual
-\i (00:00:33) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:35) FORM plc_manual tree  IC1 'Components by refdes' 
-\i (00:00:40) FORM plc_manual tree 'MULTISEL YES' IC1 'Components by refdes' 
-\t (00:00:42) Placing IC1 / JTAG-SMT2_SMD-JTAG-SMT2-NC / DIGILENT_JTAG-SMT2-NC on Top.
-\i (00:00:54) setwindow pcb
-\i (00:00:54) zoom out 
-\i (00:00:54) setwindow pcb
-\i (00:00:54) zoom out 138.7975 36.6255
-\t (00:00:54) Grids are drawn 1.0000, 1.0000 apart for enhanced viewing.
-\i (00:00:54) trapsize 12455
-\i (00:00:56) pick grid 227.2307 48.8317
-\t (00:00:56) last pick:  227.0000 49.0000
-\i (00:01:11) setwindow form.plc_manual
-\i (00:01:11) FORM plc_manual done  
-\i (00:01:11) setwindow pcb
-\i (00:01:11) generaledit 
-\i (00:01:13) save 
-\i (00:01:15) fillin yes 
-\i (00:01:16) generaledit 
-\i (00:01:48) pick grid 174.1708 85.6996
-\t (00:01:48) last pick:  174.0000 85.5000
-\i (00:01:50) move 
-\t (00:01:50) last pick:  170.8150 65.0240
-\t (00:01:50) Moving U1 / SFP_CAGE-2227023-1-2227023-1,SB / SFP_CAGE.
-\t (00:01:50) Pick new location for the element(s).
-\i (00:01:52) pick grid 245.9138 -13.4453
-\t (00:01:52) last pick:  246.0000 -13.5000
-\i (00:01:52) generaledit 
-\i (00:01:57) save 
-\i (00:01:59) fillin yes 
-\i (00:02:00) generaledit 
-\i (00:02:13) zoom in 
-\i (00:02:13) setwindow pcb
-\i (00:02:13) zoom in 138.7975 36.6254
-\i (00:02:13) trapsize 6228
-\i (00:02:16) roam x -96 
-\i (00:02:16) roam x -96
-\i (00:02:17) roam x -96 
-\i (00:02:17) roam x -96
-\i (00:02:17) roam x -96 
-\i (00:02:17) roam x -96
-\i (00:02:17) roam x -96 
-\i (00:02:17) roam x -96
-\i (00:02:17) roam x -96 
-\i (00:02:17) roam x -96
-\i (00:02:18) roam x -96 
-\i (00:02:18) roam x -96
-\i (00:02:18) roam x -96 
-\i (00:02:18) roam x -96
-\i (00:02:18) roam y 96 
-\i (00:02:18) roam y 96
-\i (00:02:21) delete 
-\i (00:02:21) generaledit 
-\i (00:02:25) setwindow form.find
-\i (00:02:25) FORM find all_off  
-\i (00:02:26) FORM find text YES 
-\i (00:02:29) setwindow pcb
-\i (00:02:29) pick grid -6.9974 45.4006
-\t (00:02:29) last pick:  -7.0000 45.5000
-\i (00:02:31) drag_start grid -3.7590 47.7672
-\i (00:02:32) drag_stop 91.0265 -9.9013
-\i (00:02:33) pick grid 91.0265 -9.9013
-\t (00:02:33) last pick:  91.0000 -10.0000
-\i (00:02:39) pick grid 58.6425 28.2122
-\t (00:02:39) last pick:  58.5000 28.0000
-\i (00:02:40) prepopup 58.6425 28.2122
-\i (00:02:41) pop dyn_option_select @:@Delete 
-\i (00:02:41) delete 
-\i (00:02:41) generaledit 
-\i (00:02:44) drag_start grid -12.7269 50.8810
-\i (00:02:44) roam y 16
-\i (00:02:44) roam y 16
-\i (00:02:46) drag_stop 90.2791 -8.2820
-\i (00:02:50) delete 
-\i (00:02:50) generaledit 
-\i (00:02:52) zoom in 1 
-\i (00:02:52) setwindow pcb
-\i (00:02:52) zoom in 51.9166 12.0202
-\i (00:02:52) trapsize 3114
-\i (00:02:55) zoom fit 
-\i (00:02:55) trapsize 6228
-\i (00:03:23) roam y -96 
-\i (00:03:23) roam y -96
-\i (00:04:52) move 
-\t (00:04:52) Select element(s) to move.
-\i (00:04:55) pick grid 127.2140 59.7243
-\t (00:04:55) last pick:  127.0000 59.5000
-\t (00:04:55) last pick:  131.0000 57.0000
-\t (00:04:55) Moving IC2 / FT232RL / SOP65P780X200-28N.
-\t (00:04:55) Pick new location for the element(s).
-\i (00:04:56) pick grid 82.7483 78.1583
-\t (00:04:56) last pick:  82.5000 78.0000
-\i (00:05:06) pick grid 95.3282 50.7564
-\t (00:05:06) last pick:  95.5000 51.0000
-\t (00:05:06) last pick:  96.7500 50.5000
-\t (00:05:06) Moving QZ1 / 7M-25.000MEEQ-T / OSCCC250X320X80-4N.
-\t (00:05:06) Pick new location for the element(s).
-\i (00:05:08) pick grid 95.7019 82.3931
-\t (00:05:08) last pick:  95.5000 82.5000
-\i (00:05:09) pick grid 103.2997 49.2618
-\t (00:05:09) last pick:  103.5000 49.5000
-\t (00:05:09) last pick:  103.5000 48.7180
-\t (00:05:09) Moving J5 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10.
-\t (00:05:09) Pick new location for the element(s).
-\i (00:05:09) pick grid dbl 103.2997 49.2618
-\t (00:05:09) last pick:  103.5000 49.5000
-\i (00:05:12) move 
-\t (00:05:12) Select element(s) to move.
-\i (00:05:16) setwindow form.find
-\i (00:05:16) FORM find all_off  
-\i (00:05:21) setwindow pcb
-\i (00:05:21) pick grid 103.6733 50.7564
-\t (00:05:21) last pick:  103.5000 51.0000
-\i (00:05:23) move 
-\t (00:05:23) Select element(s) to move.
-\i (00:05:25) pick grid 103.9224 48.5145
-\t (00:05:25) last pick:  104.0000 48.5000
-\i (00:05:27) drag_start grid 103.0505 51.0055
-\i (00:05:27) drag_stop 102.9260 60.7207
-\i (00:05:29) setwindow form.find
-\i (00:05:29) FORM find symbols YES 
-\i (00:05:31) setwindow pcb
-\i (00:05:31) drag_start grid 104.4206 48.5145
-\i (00:05:32) drag_stop 102.9260 50.2582
-\t (00:05:32) last pick:  103.5000 49.5000
-\t (00:05:32) Moving J5 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10.
-\t (00:05:32) Pick new location for the element(s).
-\i (00:05:33) pick grid 105.7907 81.1476
-\t (00:05:33) last pick:  106.0000 81.0000
-\i (00:06:07) move 
-\t (00:06:07) Select element(s) to move.
-\i (00:06:08) pick grid 145.5234 55.3649
-\t (00:06:08) last pick:  145.5000 55.5000
-\t (00:06:08) last pick:  145.2380 54.7732
-\t (00:06:08) Moving J3 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10.
-\t (00:06:08) Pick new location for the element(s).
-\i (00:06:10) pick grid 83.8692 65.2047
-\t (00:06:10) last pick:  84.0000 65.0000
-\i (00:06:48) delete 
-\i (00:06:55) drag_start grid 92.3389 75.0444
-\i (00:06:56) roam y 16
-\i (00:06:57) roam y 16
-\i (00:06:57) roam y 16
-\i (00:06:57) roam y 16
-\i (00:06:58) roam y 16
-\i (00:06:58) roam y 16
-\i (00:06:58) roam y 16
-\i (00:06:58) roam y 16
-\i (00:06:58) roam y 16
-\i (00:06:59) drag_stop 130.7015 -1.8053
-\i (00:07:06) prepopup 77.5170 40.0448
-\i (00:07:08) cancel 
-\i (00:07:08) generaledit 
-\i (00:07:10) delete 
-\i (00:07:12) setwindow form.find
-\i (00:07:12) FORM find shapes NO 
-\i (00:07:32) setwindow pcb
-\i (00:07:32) roam y -96 
-\i (00:07:32) roam y -96
-\i (00:07:37) drag_start grid 93.7090 75.7917
-\i (00:07:39) roam y 16
-\i (00:07:39) roam y 16
-\i (00:07:39) roam y 16
-\i (00:07:45) drag_stop 131.1997 0.3122
-\i (00:07:47) pick grid 131.1997 0.3122
-\t (00:07:47) last pick:  131.0000 0.5000
-\i (00:08:35) move 
-\t (00:08:35) Select element(s) to move.
-\i (00:08:39) pick grid 165.2029 65.5784
-\t (00:08:39) last pick:  165.0000 65.5000
-\t (00:08:39) last pick:  164.8460 65.6844
-\t (00:08:39) Moving D1 / USBLC6-2SC6 / SOT95P280X145-6N.
-\t (00:08:39) Pick new location for the element(s).
-\i (00:08:41) pick grid 207.0530 25.3475
-\t (00:08:41) last pick:  207.0000 25.5000
-\i (00:08:47) move 
-\t (00:08:47) Select element(s) to move.
-\i (00:08:49) pick grid 131.8225 66.5748
-\t (00:08:49) last pick:  132.0000 66.5000
-\i (00:08:53) delete 
-\i (00:08:55) drag_start grid 148.8864 70.4360
-\i (00:08:57) drag_stop 174.5445 60.8454
-\i (00:08:58) pick grid 174.5445 60.8454
-\t (00:08:58) last pick:  174.5000 61.0000
-\i (00:09
+\t (00:00:12) allegro 17.4 S033 Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Tue Jul  4 11:31:35 2023
+\t (00:00:12)         Host=IT088130 User=phdgc Pid=13044 CPUs=16
+\t (00:00:12) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_ethernet_jtag_serial.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr23583 -mpshost IT088130
+\t (00:00:12) 
+   (00:00:12) Loading axlcore.cxt 
+\t (00:00:15) Opening existing design...
+\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_fp_ethernet_03"
+\d (00:00:15) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_03.brd
+\i (00:00:16) trapsize 1449
+\i (00:00:16) trapsize 1490
+\i (00:00:16) trapsize 1503
+\i (00:00:16) trapsize 1557
+\i (00:00:16) trapsize 1628
+\t (00:00:16) Loaded GPU Plugin from: plugins/gpu
+\i (00:00:16) trapsize 1515
+\i (00:00:16) trapsize 1558
+\i (00:00:16) trapsize 1571
+\i (00:00:16) trapsize 1628
+\i (00:00:17) generaledit 
+\i (00:00:20) zoom out 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 163.5794 9.4502
+\i (00:00:20) trapsize 3255
+\i (00:00:21) zoom out 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 163.5794 9.4501
+\t (00:00:21) Grids are drawn 1.0000, 1.0000 apart for enhanced viewing.
+\i (00:00:21) trapsize 6511
+\i (00:00:22) roam y -96 
+\i (00:00:22) roam y -96
+\i (00:00:22) roam y -96 
+\i (00:00:22) roam y -96
+\i (00:00:22) roam y -96 
+\i (00:00:22) roam y -96
+\i (00:00:24) roam y 96 
+\i (00:00:24) roam y 96
+\i (00:01:05) plctxt in 
+\i (00:01:08) setwindow form.plctxt
+\i (00:01:08) FORM plctxt browse  
+\i (00:01:10) fillin "place_txt_front_panel_ethernet_sfp_holes_only.txt"
+\i (00:01:13) FORM plctxt execute  
+\t (00:01:13) Starting Place symbols by text file...
+\t (00:01:18) Opening existing design...
+\t (00:01:19) Grids are drawn 256.0000, 256.0000 apart for enhanced viewing.
+\t (00:01:19) Grids are drawn 1.0000, 1.0000 apart for enhanced viewing.
+\i (00:01:19) setwindow pcb
+\i (00:01:19) trapsize 6511
+\i (00:01:30) setwindow form.plctxt
+\i (00:01:30) FORM plctxt cancel  
+\i (00:01:30) setwindow pcb
+\i (00:01:30) generaledit 
+\i (00:01:35) viewlog -last 
+\i (00:01:37) fillin confirm
+\i (00:01:41) roam y -96 
+\i (00:01:41) roam y -96
+\i (00:01:44) roam y -96 
+\i (00:01:44) roam y -96
+\i (00:01:45) roam x -96 
+\i (00:01:45) roam x -96
+\i (00:01:45) roam x -96 
+\i (00:01:45) roam x -96
+\i (00:01:46) roam y 96 
+\i (00:01:46) roam y 96
+\i (00:01:46) roam x 96 
+\i (00:01:46) roam x 96
+\i (00:01:46) roam x 96 
+\i (00:01:46) roam x 96
+\i (00:01:52) pick grid 118.0666 57.7087
+\t (00:01:52) last pick:  118.0000 57.5000
+\i (00:01:54) delete 
+\i (00:01:56) pick grid 196.4571 26.8473
+\t (00:01:56) last pick:  196.5000 27.0000
+\t (00:01:56) Symbol "Mh1"
+\i (00:01:57) pick grid 193.9830 14.0861
+\t (00:01:57) last pick:  194.0000 14.0000
+\t (00:01:57) Symbol "Mh3"
+\i (00:01:58) prepopup 193.9830 14.0861
+\i (00:01:59) done 
+\i (00:01:59) generaledit 
+\i (00:02:02) save 
+\i (00:02:04) fillin yes 
+\i (00:02:05) generaledit 
+\i (00:02:19) plctxt in 
+\i (00:02:21) setwindow form.plctxt
+\i (00:02:21) FORM plctxt browse  
+\i (00:02:23) fillin "place_txt_front_panel_ethernet_sfp_holes_only.txt"
+\i (00:02:27) FORM plctxt execute  
+\t (00:02:27) Starting Place symbols by text file...
+\t (00:02:32) Opening existing design...
+\t (00:02:32) Grids are drawn 256.0000, 256.0000 apart for enhanced viewing.
+\t (00:02:32) Grids are drawn 1.0000, 1.0000 apart for enhanced viewing.
+\i (00:02:32) setwindow pcb
+\i (00:02:32) trapsize 6511
+\i (00:02:35) roam y 96 
+\i (00:02:35) roam y 96
+\i (00:02:39) setwindow form.plctxt
+\i (00:02:39) FORM plctxt cancel  
+\i (00:02:39) setwindow pcb
+\i (00:02:39) generaledit 
+\i (00:02:41) save 
+\i (00:02:42) fillin yes 
+\i (00:02:43) generaledit 
+\i (00:02:53) place manual 
+\i (00:02:54) setwindow form.plc_manual
+\i (00:02:54) FORM plc_manual tree  'Components by refdes' 
+\i (00:02:56) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:02:56) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\t (00:03:10) Placing U1 / SFP_CAGE-2227023-1-2227023-1,SB / SFP_CAGE on Top.
+\i (00:03:15) setwindow pcb
+\i (00:03:15) prepopup 196.9780 38.6971
+\i (00:03:18) rotate 
+\t (00:03:18) Spin the element(s).
+\i (00:03:28) iangle -180.000
+\t (00:03:28) last angle:  +180.000 Degrees
+\i (00:03:32) pick grid 187.3419 14.9976
+\t (00:03:32) last pick:  187.5000 15.0000
+\i (00:03:42) setwindow form.plc_manual
+\i (00:03:42) FORM plc_manual done  
+\i (00:03:42) setwindow pcb
+\i (00:03:42) generaledit 
+\i (00:04:02) plctxt out 
+\i (00:04:05) setwindow form.plctxt
+\i (00:04:05) FORM plctxt browse  
+\i (00:04:14) fillin "place_txt_front_panel_ethernet_sfp_holes_only_01.txt"
+\i (00:04:29) FORM plctxt cancel  
+\i (00:04:29) setwindow pcb
+\i (00:04:29) generaledit 
+\i (00:04:57) plctxt out 
+\i (00:04:59) setwindow form.plctxt
+\i (00:04:59) FORM plctxt browse  
+\i (00:05:06) fillin "place_txt_front_panel_ethernet_sfp_holes_only_01.txt"
+\i (00:05:09) FORM plctxt execute  
+\t (00:05:09) Starting Place symbols by text file...
+\i (00:05:16) FORM plctxt cancel  
+\i (00:05:16) setwindow pcb
+\i (00:05:16) generaledit 
+\i (00:06:34) pick grid 225.1048 17.2113
+\t (00:06:34) last pick:  225.0000 17.0000
+\i (00:06:36) delete 
+\i (00:06:37) pick grid 226.4070 11.8724
+\t (00:06:37) last pick:  226.5000 12.0000
+\t (00:06:37) Symbol "U1"
+\i (00:06:38) pick grid dbl 226.4070 11.8724
+\t (00:06:38) last pick:  226.5000 12.0000
+\i (00:07:01) plctxt in 
+\i (00:07:05) setwindow form.plctxt
+\i (00:07:05) FORM plctxt browse  
+\i (00:07:11) fillin "place_txt_front_panel_ethernet_sfp_holes_only_01.txt"
+\i (00:07:13) FORM plctxt execute  
+\t (00:07:13) Starting Place symbols by text file...
+\t (00:07:20) Opening existing design...
+\t (00:07:20) Grids are drawn 256.0000, 256.0000 apart for enhanced viewing.
+\t (00:07:20) Grids are drawn 1.0000, 1.0000 apart for enhanced viewing.
+\i (00:07:20) setwindow pcb
+\i (00:07:20) trapsize 6511
+\i (00:07:40) setwindow form.plctxt
+\i (00:07:40) FORM plctxt browse  
+\i (00:07:43) fillin "place_txt_front_panel_ethernet_sfp_holes_only_01.txt"
+\i (00:07:49) FORM plctxt cancel  
+\i (00:07:49) setwindow pcb
+\i (00:07:49) generaledit 
+\i (00:08:04) place manual 
+\i (00:08:04) setwindow form.plc_manual
+\i (00:08:04) FORM plc_manual tree  'Components by refdes' 
+\i (00:08:09) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:08:09) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\t (00:08:10) Placing U1 / SFP_CAGE-2227023-1-2227023-1,SB / SFP_CAGE on Top.
+\i (00:08:16) setwindow pcb
+\i (00:08:16) prepopup 182.3937 19.0344
+\i (00:08:18) rotate 
+\t (00:08:18) Spin the element(s).
+\i (00:08:21) iangle 0.000
+\t (00:08:21) last angle:  +0.000 Degrees
+\i (00:08:21) pick grid 182.5239 19.0344
+\t (00:08:21) last pick:  182.5000 19.0000
+\i (00:08:23) prepopup 182.5239 19.0344
+\i (00:08:25) pick grid 227.3185 12.5235
+\t (00:08:25) last pick:  227.5000 12.5000
+\i (00:08:27) setwindow form.plc_manual
+\i (00:08:27) FORM plc_manual done  
+\i (00:08:27) setwindow pcb
+\i (00:08:27) generaledit 
+\i (00:08:29) move 
+\t (00:08:30) Select element(s) to move.
+\i (00:08:33) pick grid 183.9563 25.6754
+\t (00:08:33) last pick:  184.0000 25.5000
+\t (00:08:33) last pick:  182.5000 19.0000
+\t (00:08:33) Moving U1 / SFP_CAGE-2227023-1-2227023-1,SB / SFP_CAGE.
+\t (00:08:33) Pick new location for the element(s).
+\i (00:08:34) prepopup 186.3002 22.2898
+\i (00:08:39) rotate 
+\t (00:08:39) Spin the element(s).
+\i (00:08:43) iangle -180.000
+\t (00:08:43) last angle:  180.000 Degrees
+\i (00:08:43) mouse_pos 182.5000 19.0000
+\i (00:08:46) pick grid 145.6725 37.2647
+\t (00:08:46) last pick:  145.5000 37.5000
+\i (00:08:48) zoom in 
+\i (00:08:48) setwindow pcb
+\i (00:08:48) zoom in 163.5123 34.2697
+\i (00:08:48) trapsize 3255
+\i (00:08:50) move 
+\t (00:08:50) Select element(s) to move.
+\i (00:08:52) pick grid 144.8913 36.7438
+\t (00:08:52) last pick:  145.0000 36.5000
+\t (00:08:52) last pick:  145.5000 37.5000
+\t (00:08:52) Moving U1 / SFP_CAGE-2227023-1-2227023-1,SB / SFP_CAGE.
+\t (00:08:52) Pick new location for the element(s).
+\i (00:08:55) roam y -96 
+\i (00:08:55) roam y -96
+\i (00:08:55) roam y -96 
+\i (00:08:55) roam y -96
+\i (00:09:02) zoom in 
+\i (00:09:02) setwindow pcb
+\i (00:09:02) zoom in 163.5123 46.7692
+\i (00:09:02) trapsize 1628
+\i (00:09:02) zoom in 
+\i (00:09:02) setwindow pcb
+\i (00:09:02) zoom in 163.5123 46.7693
+\i (00:09:02) trapsize 814
+\i (00:09:04) roam y -96 
+\i (00:09:04) roam y -96
+\i (00:09:05) roam x -96 
+\i (00:09:05) roam x -96
+\i (00:09:06) zoom out 
+\i (00:09:06) setwindow pcb
+\i (00:09:06) zoom out 161.9483 48.3319
+\i (00:09:06) trapsize 1628
+\i (00:09:08) roam x -96 
+\i (00:09:08) roam x -96
+\i (00:11:01) pick grid 146.7454 54.4195
+\t (00:11:01) last pick:  146.5000 54.5000
+\i (00:11:10) show element 
+\i (00:11:11) setwindow text
+\i (00:11:11) close
+\i (00:11:12) setwindow pcb
+\i (00:11:12) pick grid 165.4967 43.3511
+\t (00:11:12) last pick:  165.5000 43.5000
+\i (00:11:15) show element 
+\i (00:11:17) setwindow form.find
+\i (00:11:17) FORM find all_off  
+\i (00:11:24) FORM find lines YES 
+\i (00:11:31) setwindow pcb
+\i (00:11:31) pick grid 147.1035 50.1874
+\t (00:11:31) last pick:  147.0000 50.0000
+\i (00:11:52) pick grid 145.0852 49.9596
+\t (00:11:52) last pick:  145.0000 50.0000
+\i (00:11:57) setwindow form.find
+\i (00:11:57) FORM find pins YES 
+\i (00:12:01) setwindow pcb
+\i (00:12:01) pick grid 145.2154 49.9596
+\t (00:12:01) last pick:  145.0000 50.0000
+\i (00:13:21) move 
+\t (00:13:21) Select element(s) to move.
+\i (00:13:24) pick grid 152.8005 47.0948
+\t (00:13:24) last pick:  153.0000 47.0000
+\t (00:13:24) last pick:  146.5000 54.5000
+\t (00:13:24) Moving U1 / SFP_CAGE-2227023-1-2227023-1,SB / SFP_CAGE.
+\t (00:13:24) Pick new location for the element(s).
+\i (00:13:31) pick grid 145.1828 55.1031
+\t (00:13:31) last pick:  145.0000 55.0000
+\i (00:13:39) setwindow form.find
+\i (00:13:39) FORM find symbols NO 
+\i (00:13:57) setwindow pcb
+\i (00:13:57) show element 
+\i (00:13:59) pick grid 150.7822 41.9187
+\t (00:13:59) last pick:  151.0000 42.0000
+\i (00:14:00) pick grid 150.7822 41.9187
+\t (00:14:00) last pick:  151.0000 42.0000
+\i (00:14:01) setwindow text
+\i (00:14:01) close
+\i (00:14:02) setwindow pcb
+\i (00:14:02) show element 
+\i (00:14:06) setwindow form.find
+\i (00:14:06) FO
