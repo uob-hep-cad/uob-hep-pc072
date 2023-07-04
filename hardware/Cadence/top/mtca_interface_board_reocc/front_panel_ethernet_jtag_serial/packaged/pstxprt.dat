@@ -1,0 +1,1191 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 03-Jul-2023 AT 14:41:51 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='FRONT_PANEL_ETHERNET_JTAG_SERIAL';
+ POST_TIME='03-Jul-2023 AT 14:41:51';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='JTAG';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I87@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i87@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i87@ocad_parts_lib.cap_np(chips)',
+ PATH='I87',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(-425,-3150)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='JTAG',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C86 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_55P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_55p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_55p@ocad_parts_lib.cap_np(chips)',
+ PATH='55P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(1000,-625)',
+ ROT='0',
+ VER='1',
+ LOCATION='C86',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C87 'CAP_NP-GRM188R61A106KE69D,CAP_B':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_49P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_49p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_49p@ocad_parts_lib.cap_np(chips)',
+ PATH='49P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TOLERANCE='10%',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM188R61A106KE69D',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-10474-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 10UF 10V X5R 0603',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(1200,-625)',
+ ROT='0',
+ VER='1',
+ LOCATION='C87',
+ JEDEC_TYPE='CAP0603',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM188R61A106KE69D,CAP_B',
+ VOLTAGE='10V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM188R61A106KE69D',
+ VALUE='10UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C109 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_61P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_61p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_61p@ocad_parts_lib.cap_np(chips)',
+ PATH='61P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM188R60J226MEA0D',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-7611-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 22UF 6.3V X5R 0603',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(2325,-650)',
+ ROT='0',
+ VER='1',
+ LOCATION='C109',
+ JEDEC_TYPE='CAP0603',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM188R60J226MEA0D,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM188R60J226MEA0D',
+ VALUE='22UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C110 'CAP_NP-GRT155R61E105ME01D,CAP_B':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_47P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_47p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_47p@ocad_parts_lib.cap_np(chips)',
+ PATH='47P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRT155R61E105ME01D',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-10006-1-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 1UF 25V X5R 0402',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(2125,-650)',
+ ROT='0',
+ VER='1',
+ LOCATION='C110',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRT155R61E105ME01D,CAP_B',
+ VOLTAGE='25V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRT155R61E105ME01D',
+ VALUE='1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C111 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_59P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_59p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_59p@ocad_parts_lib.cap_np(chips)',
+ PATH='59P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(1900,-650)',
+ ROT='0',
+ VER='1',
+ LOCATION='C111',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C115 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_48P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_48p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_48p@ocad_parts_lib.cap_np(chips)',
+ PATH='48P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='C1005X7R1E104K050BB ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-7348-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(3575,-600)',
+ ROT='0',
+ VER='1',
+ LOCATION='C115',
+ JEDEC_TYPE='CAP0402',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-7348-2-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-7348-2-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C117 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_53P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_53p@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_53p@ocad_parts_lib.cap_np(chips)',
+ PATH='53P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TOLERANCE='20%',
+ SOURCE_PACKAGE='CAP_NP',
+ REUSE_ANNOTATE='TRUE',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='GRM188R60J226MEA0D',
+ MANUFACTURER='Murata',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='490-7611-2-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP CER 22UF 6.3V X5R 0603',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(3225,-600)',
+ ROT='0',
+ VER='1',
+ LOCATION='C117',
+ JEDEC_TYPE='CAP0603',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-GRM188R60J226MEA0D,CAP_B',
+ VOLTAGE='6.3V',
+ ROOM='SFP0',
+ ALT_SYMBOLS='',
+ PART_NUMBER='GRM188R60J226MEA0D',
+ VALUE='22UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ D1 'USBLC6-2SC6':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I70@CNDISCRETE.USBLC6-2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i70@cndiscrete.\usblc6-2\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i70@cndiscrete.\usblc6-2\(chips)',
+ PATH='I70',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='USBLC6-2SC6',
+ PHYS_PAGE='1',
+ XY='(1900,-4650)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SOT23',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='USBLC6-2SC6',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/usblc6#2d2/chi~
+ps/chips.prt';
+
+PART_NAME
+ IC1 'JTAG-SMT2_SMD-JTAG-SMT2-NC':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I68@CNPLD.JTAG-SMT2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i68@cnpld.\jtag-smt2\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i68@cnpld.\jtag-smt2\(chips)',
+ PATH='I68',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='JTAG-SMT2-NC',
+ PHYS_PAGE='1',
+ XY='(875,-3375)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='cnpld',
+ CDS_PART_NAME='JTAG-SMT2_SMD-JTAG-SMT2-NC',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpld/jtag#2dsmt2/chips/c~
+hips.prt';
+
+PART_NAME
+ IC2 'FT232RL':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I69@CNINTERFACE.FT232R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i69@cninterface.ft232r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i69@cninterface.ft232r(chips)',
+ PATH='I69',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='FT232RL',
+ PHYS_PAGE='1',
+ XY='(1900,-3925)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='FT232RL',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ft232r/chips/~
+chips.prt';
+
+PART_NAME
+ J1 '7X2RECPT_SMD_2MM-878321420,7X2B':
+ ROOM='JTAG',
+ REUSE_ID='39';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I90@OCAD_PARTS_LIB.7X2RECPT_SMD_2MM(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i90@ocad_parts_lib.\7x2recpt_smd_2mm\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i90@ocad_parts_lib.\7x2recpt_smd_2mm\(chips)',
+ PATH='I90',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ ORC_SIGNAL_MODEL='ZA8H-24-033-Z-07_B_ZA8H_168_A_(_ZA8H-24-0.33-Z-07',
+ HOUSINGGENDER='Male',
+ CONTACTGENDER='Male',
+ SOURCE_PACKAGE='7x2RECPT_SMD_2mm',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Receptacle',
+ MPN='0878321420',
+ MANUFACTURER='Molex Connector Corporation',
+ DISTRIBUTOR_PARTNUMBER='WM18641-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='CONN HEADER SMD 14POS 2MM',
+ PHYS_PAGE='1',
+ XY='(-800,-3375)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='HDR14PINSMD',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='7X2RECPT_SMD_2MM-878321420,7X2B',
+ REUSE_ID='39',
+ ROOM='JTAG',
+ PART_NUMBER='878321420',
+ VALUE='7x2RECPT_SMD_2mm',
+ PRIM_FILE='./ocad_parts_lib/7x2recpt_smd_2mm/chips/chips.prt';
+
+PART_NAME
+ J2 'PCOAX-U.FL-R-SMT-1(10)':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I104@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i104@cnconnector.pcoax(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i104@cnconnector.pcoax(chips)',
+ PATH='I104',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='U.FL-R-SMT-1(10)',
+ PHYS_PAGE='1',
+ XY='(1850,-1350)',
+ ROT='2',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
+
+PART_NAME
+ J3 'PCOAX-U.FL-R-SMT-1(10)':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I105@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i105@cnconnector.pcoax(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i105@cnconnector.pcoax(chips)',
+ PATH='I105',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='U.FL-R-SMT-1(10)',
+ PHYS_PAGE='1',
+ XY='(1850,-1525)',
+ ROT='2',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
+
+PART_NAME
+ J4 'CON4P-53398-0471':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I98@CNCONNECTOR.CON4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i98@cnconnector.con4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i98@cnconnector.con4p(chips)',
+ PATH='I98',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='53398-0471',
+ PHYS_PAGE='1',
+ XY='(3325,-3275)',
+ ROT='2',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON4P-53398-0471',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/c~
+hips.prt';
+
+PART_NAME
+ J5 'PCOAX-U.FL-R-SMT-1(10)':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I102@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i102@cnconnector.pcoax(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i102@cnconnector.pcoax(chips)',
+ PATH='I102',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='U.FL-R-SMT-1(10)',
+ PHYS_PAGE='1',
+ XY='(3750,-1350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
+
+PART_NAME
+ J6 'CON20P_SFP-1367073-1-1367073-1B':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_57P@OCAD_PARTS_LIB.CON20P_SFP-1367073-1(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_57p@ocad_parts_lib.\con20p_sfp-1367073-1\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_57p@ocad_parts_lib.\con20p_sfp-1367073-1\(chips)',
+ PATH='57P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ HOUSINGGENDER='Female',
+ CONTACTGENDER='Female',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Tyco\ENG_CAT_1242163_0299_~
+10_[1].pdf',
+ SOURCE_PACKAGE='CON20P_SFP-1367073-1',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Receptacle',
+ MPN='1367073-1',
+ MANUFACTURER='TE Connectivity AMP Connectors',
+ DISTRIBUTOR_PARTNUMBER='A97430TR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='CONN SFP RCPT 20POS SLD R/A SMD',
+ PHYS_PAGE='1',
+ XY='(2925,-1725)',
+ ROT='0',
+ VER='1',
+ LOCATION='J6',
+ JEDEC_TYPE='TYCO_1367073',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CON20P_SFP-1367073-1-1367073-1B',
+ ROOM='SFP0',
+ PART_NUMBER='1367073-1',
+ VALUE='1367073-1',
+ PRIM_FILE='./ocad_parts_lib/con20p_sfp#2d1367073#2d1/chips/chips.prt';
+
+PART_NAME
+ J7 'PCOAX-U.FL-R-SMT-1(10)':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I103@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i103@cnconnector.pcoax(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i103@cnconnector.pcoax(chips)',
+ PATH='I103',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='U.FL-R-SMT-1(10)',
+ PHYS_PAGE='1',
+ XY='(3750,-1525)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
+
+PART_NAME
+ L7 'IND-CIGT201208EH1R0MNE,IND-CIGA':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_62P@IND.IND(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_62p@ind.ind(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_62p@ind.ind(chips)',
+ PATH='62P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ RATING='3.0 A',
+ QFACTOR='25',
+ DCRESISTANCE='55mOhm ',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AGA0000CE31.pdf',
+ TOLERANCE='10 %',
+ SOURCE_PACKAGE='IND',
+ PART_TYPE='Inductor',
+ MPN='CIGT201208EH1R0MNE',
+ MANUFACTURER='Samsung Electro-Mechanics',
+ DISTRIBUTOR_PARTNUMBER='1276-6886-2-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='FIXED IND 1UH 3.1A 55MOHM SMD',
+ PHYS_PAGE='1',
+ XY='(1475,-450)',
+ ROT='1',
+ VER='1',
+ LOCATION='L7',
+ JEDEC_TYPE='INDC2013X105N',
+ SEC='1',
+ CDS_LIB='ind',
+ CDS_PART_NAME='IND-CIGT201208EH1R0MNE,IND-INDA',
+ PART_NUMBER='CIGT201208EH1R0MNE',
+ VALUE='1 uH',
+ PRIM_FILE='./ind/ind/chips/chips.prt';
+
+PART_NAME
+ L8 'IND-CIGT201208EH1R0MNE,IND-CIGA':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_54P@IND.IND(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_54p@ind.ind(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_54p@ind.ind(chips)',
+ PATH='54P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ RATING='3.0 A',
+ QFACTOR='25',
+ DCRESISTANCE='55mOhm ',
+ DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AGA0000CE31.pdf',
+ TOLERANCE='10 %',
+ SOURCE_PACKAGE='IND',
+ PART_TYPE='Inductor',
+ MPN='CIGT201208EH1R0MNE',
+ MANUFACTURER='Samsung Electro-Mechanics',
+ DISTRIBUTOR_PARTNUMBER='1276-6886-2-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='FIXED IND 1UH 3.1A 55MOHM SMD',
+ PHYS_PAGE='1',
+ XY='(3750,-450)',
+ ROT='1',
+ VER='1',
+ LOCATION='L8',
+ JEDEC_TYPE='INDC2013X105N',
+ SEC='1',
+ CDS_LIB='ind',
+ CDS_PART_NAME='IND-CIGT201208EH1R0MNE,IND-INDA',
+ PART_NUMBER='CIGT201208EH1R0MNE',
+ VALUE='1 uH',
+ PRIM_FILE='./ind/ind/chips/chips.prt';
+
+PART_NAME
+ MH1 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':
+ ROOM='TE0712',
+ REUSE_ID='175';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I109@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i109@ocad_parts_lib.mt_hole(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i109@ocad_parts_lib.mt_hole(chips)',
+ PATH='I109',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ PRICE='0.02',
+ SOURCE_PACKAGE='Mt_Hole',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Misc',
+ MPN='Mt_Hole',
+ MANUFACTURER='HEP',
+ DISTRIBUTOR_PARTNUMBER='Mt_Hole',
+ DISTRIBUTOR='HEP',
+ DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
+ AVAILABILITY='21 days',
+ PHYS_PAGE='1',
+ XY='(5550,-2450)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='MOUNTHOLE',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ REUSE_ID='175',
+ ROOM='TE0712',
+ PART_NUMBER='Mt_Hole',
+ VALUE='Mt_Hole',
+ PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
+
+PART_NAME
+ MH2 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':
+ ROOM='TE0712';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I106@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i106@ocad_parts_lib.mt_hole(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i106@ocad_parts_lib.mt_hole(chips)',
+ PATH='I106',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ PRICE='0.02',
+ SOURCE_PACKAGE='Mt_Hole',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Misc',
+ MPN='Mt_Hole',
+ MANUFACTURER='HEP',
+ DISTRIBUTOR_PARTNUMBER='Mt_Hole',
+ DISTRIBUTOR='HEP',
+ DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
+ AVAILABILITY='21 days',
+ PHYS_PAGE='1',
+ XY='(5875,-2450)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='MOUNTHOLE',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ ROOM='TE0712',
+ PART_NUMBER='Mt_Hole',
+ VALUE='Mt_Hole',
+ PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
+
+PART_NAME
+ MH3 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I111@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i111@ocad_parts_lib.mt_hole(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i111@ocad_parts_lib.mt_hole(chips)',
+ PATH='I111',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ PRICE='0.02',
+ SOURCE_PACKAGE='Mt_Hole',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Misc',
+ MPN='Mt_Hole',
+ MANUFACTURER='HEP',
+ DISTRIBUTOR_PARTNUMBER='Mt_Hole',
+ DISTRIBUTOR='HEP',
+ DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
+ AVAILABILITY='21 days',
+ PHYS_PAGE='1',
+ XY='(4725,-2400)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='MOUNTHOLE',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ PART_NUMBER='Mt_Hole',
+ VALUE='Mt_Hole',
+ PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
+
+PART_NAME
+ MH4 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I110@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i110@ocad_parts_lib.mt_hole(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i110@ocad_parts_lib.mt_hole(chips)',
+ PATH='I110',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ PRICE='0.02',
+ SOURCE_PACKAGE='Mt_Hole',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Misc',
+ MPN='Mt_Hole',
+ MANUFACTURER='HEP',
+ DISTRIBUTOR_PARTNUMBER='Mt_Hole',
+ DISTRIBUTOR='HEP',
+ DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
+ AVAILABILITY='21 days',
+ PHYS_PAGE='1',
+ XY='(5075,-2400)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='MOUNTHOLE',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ PART_NUMBER='Mt_Hole',
+ VALUE='Mt_Hole',
+ PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
+
+PART_NAME
+ QZ1 '7M-25.000MEEQ-T':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I72@CNDISCRETE.XTAL_4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i72@cndiscrete.xtal_4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i72@cndiscrete.xtal_4p(chips)',
+ PATH='I72',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='7M-25.000MEEQ-T',
+ PHYS_PAGE='1',
+ XY='(1350,-3925)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='13',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='7M-25.000MEEQ-T',
+ VALUE='25MHZ',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/xtal_4p/chips/~
+chips.prt';
+
+PART_NAME
+ R1 'R-311-24.9LRCT-ND,R-311-24.9LRA':
+ ROOM='JTAG',
+ REUSE_ID='47';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I83@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i83@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i83@discrete.r(chips)',
+ PATH='I83',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='RC0402FR-0724R9L',
+ MANUFACTURER='Yageo',
+ DISTRIBUTOR_PARTNUMBER='311-24.9LRCT-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 24.9 OHM 1% 1/16W 0402',
+ PHYS_PAGE='1',
+ XY='(25,-3325)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-311-24.9LRCT-ND,R-RES0402',
+ REUSE_ID='47',
+ ROOM='JTAG',
+ PART_NUMBER='311-24.9LRCT-ND',
+ VALUE='24.9',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R2 'R-311-24.9LRCT-ND,R-311-24.9LRA':
+ ROOM='JTAG';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I82@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i82@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i82@discrete.r(chips)',
+ PATH='I82',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='RC0402FR-0724R9L',
+ MANUFACTURER='Yageo',
+ DISTRIBUTOR_PARTNUMBER='311-24.9LRCT-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 24.9 OHM 1% 1/16W 0402',
+ PHYS_PAGE='1',
+ XY='(25,-3375)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-311-24.9LRCT-ND,R-RES0402',
+ ROOM='JTAG',
+ PART_NUMBER='311-24.9LRCT-ND',
+ VALUE='24.9',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R3 'R-311-24.9LRCT-ND,R-311-24.9LRA':
+ ROOM='JTAG';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I85@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i85@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i85@discrete.r(chips)',
+ PATH='I85',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='RC0402FR-0724R9L',
+ MANUFACTURER='Yageo',
+ DISTRIBUTOR_PARTNUMBER='311-24.9LRCT-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 24.9 OHM 1% 1/16W 0402',
+ PHYS_PAGE='1',
+ XY='(25,-3425)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-311-24.9LRCT-ND,R-RES0402',
+ ROOM='JTAG',
+ PART_NUMBER='311-24.9LRCT-ND',
+ VALUE='24.9',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R4 'R-311-24.9LRCT-ND,R-311-24.9LRA':
+ ROOM='JTAG';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I84@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i84@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i84@discrete.r(chips)',
+ PATH='I84',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='RC0402FR-0724R9L',
+ MANUFACTURER='Yageo',
+ DISTRIBUTOR_PARTNUMBER='311-24.9LRCT-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 24.9 OHM 1% 1/16W 0402',
+ PHYS_PAGE='1',
+ XY='(25,-3475)',
+ ROT='1',
+ VER='1',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-311-24.9LRCT-ND,R-RES0402',
+ ROOM='JTAG',
+ PART_NUMBER='311-24.9LRCT-ND',
+ VALUE='24.9',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R112 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_52P@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_52p@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_52p@discrete.r(chips)',
+ PATH='52P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10 W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2RKF4991X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P4.99KLTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(4450,-1300)',
+ ROT='0',
+ VER='1',
+ LOCATION='R112',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-ERJ-2RKF4991X,R-RES0402',
+ ROOM='SFP0',
+ PART_NUMBER='ERJ-2RKF4991X',
+ VALUE='4.99k',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R114 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_56P@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_56p@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_56p@discrete.r(chips)',
+ PATH='56P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10 W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2RKF4991X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P4.99KLTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(875,-1275)',
+ ROT='0',
+ VER='1',
+ LOCATION='R114',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-ERJ-2RKF4991X,R-RES0402',
+ ROOM='SFP0',
+ PART_NUMBER='ERJ-2RKF4991X',
+ VALUE='4.99k',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R116 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_58P@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_58p@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_58p@discrete.r(chips)',
+ PATH='58P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10 W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2RKF4991X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P4.99KLTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(1025,-2150)',
+ ROT='0',
+ VER='1',
+ LOCATION='R116',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-ERJ-2RKF4991X,R-RES0402',
+ ROOM='SFP0',
+ PART_NUMBER='ERJ-2RKF4991X',
+ VALUE='4.99k',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ R117 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_50P@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_50p@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_50p@discrete.r(chips)',
+ PATH='50P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ POWER='1/10 W',
+ TOLERANCE='1%',
+ SOURCE_PACKAGE='R',
+ REUSE_ANNOTATE='TRUE',
+ PART_TYPE='Thick Film',
+ MPN='ERJ-2RKF4991X',
+ MANUFACTURER='Panasonic',
+ DISTRIBUTOR_PARTNUMBER='P4.99KLTR-ND',
+ DISTRIBUTOR='Digikey',
+ DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(4325,-1300)',
+ ROT='0',
+ VER='1',
+ LOCATION='R117',
+ JEDEC_TYPE='RES0402',
+ SEC='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-ERJ-2RKF4991X,R-RES0402',
+ ROOM='SFP0',
+ PART_NUMBER='ERJ-2RKF4991X',
+ VALUE='4.99k',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ U1 'SFP_CAGE-2227023-1-2227023-1,SB':
+ ROOM='SFP0';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_60P@OCAD_PARTS_LIB.SFP_CAGE-2227023-1(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_60p@ocad_parts_lib.\sfp_cage-2227023-1\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_60p@ocad_parts_lib.\sfp_cage-2227023-1\(chips)',
+ PATH='60P',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ SOURCE_PACKAGE='SFP_CAGE-2227023-1',
+ PART_TYPE='Misc',
+ MPN='2227023-1',
+ MANUFACTURER='TE Connectivity AMP Connectors',
+ DISTRIBUTOR_PARTNUMBER='A120615-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CONN SFP CAGE 1POS PRESS-FIT R/A',
+ AVAILABILITY='In Stock',
+ PHYS_PAGE='1',
+ XY='(5650,-1100)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='SFP_CAGE',
+ SEC='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='SFP_CAGE-2227023-1-2227023-1,SB',
+ ROOM='SFP0',
+ PART_NUMBER='2227023-1',
+ VALUE='2227023-1',
+ PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt';
+
+PART_NAME
+ USB1 'CON5P_USB-1981584-1':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PAGE1_I71@CNCONNECTOR.CON5P_USB(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i71@cnconnector.con5p_usb(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_ethernet_jtag_serial(sch_1):pag~
+e1_i71@cnconnector.con5p_usb(chips)',
+ PATH='I71',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_ETHERNET_JTAG_SERIAL(SCH_1):PA~
+GE1',
+ TYPE='1981584-1',
+ PHYS_PAGE='1',
+ XY='(1900,-3200)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON5P_USB-1981584-1',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con5p_usb/chi~
+ps/chips.prt';
+
+END.

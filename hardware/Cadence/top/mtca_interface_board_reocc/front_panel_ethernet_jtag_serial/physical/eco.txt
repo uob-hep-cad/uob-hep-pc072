@@ -1,0 +1,1132 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  AMC_N_PS<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J7.3             3.7200 36.7500
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUXIO_N0     pins MOVED FROM this net (to net name listed on right)
+                                 J4.1            39.4174 52.2886
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUXIO_P0     pins MOVED FROM this net (to net name listed on right)
+                                 J4.2            39.4174 51.0386
+                                                            UART_RX_TO_FPGA_3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DATA_FROM_UPSTREAM_N<1> pins MOVED FROM this net (to net name listed on right)
+                                 C1.1            109.051 69.4600
+                                                                      VREF_JTAG
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 J4.3            39.4174 49.7886
+                                                                         VCC3V3
+                                 J4.4            39.4174 48.5386
+                                                          UART_TX_FROM_FPGA_3V3
+                                 R2.1            132.650 48.4500
+                                                                            TCK
+                                 R4.1            132.650 51.4500
+                                                                            TDI
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.3            86.5378 66.9016
+                                 J1.5            84.5566 66.9016
+                                 J1.9            80.5434 66.9016
+                                 J1.11           78.5622 66.9016
+                                 U1.1            177.940 95.9240
+                                 U1.2            177.940 85.9240
+                                 U1.3            177.940 75.9240
+                                 U1.4            177.940 65.9240
+                                 U1.5            163.690 90.9240
+                                 U1.6            163.690 80.9240
+                                 U1.7            163.690 70.9240
+                                 U1.8            163.690 60.9240
+                                 U1.9            169.360 95.9240
+                                 U1.10           172.260 75.9240
+                                 U1.11           166.860 75.9240
+                                 U1.12           177.940 73.1240
+                                 U1.13           177.940 68.4240
+                                 U1.14           177.940 63.4240
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U1.15           163.690 73.1240
+                                 U1.16           163.690 68.4240
+                                 U1.17           163.690 63.4240
+                                 U1.18           166.010 58.8243
+                                 U1.19           170.809 58.8243
+                                 U1.20           175.610 58.8243
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GREEN_LED    pins MOVED FROM this net (to net name listed on right)
+                                 R3.2            157.800 67.0000
+                                                                       FPGA_TDO
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00183       pins DELETED FROM this net (all pins deleted)
+                                 J6.6            149.338 38.3856
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00505       pins MOVED FROM this net (to net name listed on right)
+                                 R3.1            158.700 67.0000
+                                                                            TDO
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins MOVED FROM this net (to net name listed on right)
+                                 IC1.8                          
+                                                                       FPGA_TDO
+                                 IC2.5           134.500 55.3750
+                                                          UART_TX_FROM_FPGA_3V3
+                                 J1.10           80.5434 62.6344
+                                                                            TDI
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_N         pins ADDED TO this new net
+                                 J7.1             2.2450 38.2750
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_P         pins ADDED TO this new net
+                                 J5.1            101.975 48.7180
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP1_CLKGEN_N pins MOVED FROM this net (to net name listed on right)
+                                 IC1.11                         
+                                                                            VDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_DATA_OUT_N<1> pins MOVED FROM this net (to net name listed on right)
+                                 C1.2            110.048 69.4600
+                                                                            GND
+                                 IC1.9                          
+                                                                      VREF_JTAG
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_DATA_OUT_P<1> pins MOVED FROM this net (to net name listed on right)
+                                 IC1.10                         
+                                                                            GND
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SFP_LOS<1>   pins MOVED FROM this net (to net name listed on right)
+                                 J6.8            149.338 39.9856
+                                                                            LOS
+                                 R112.2          152.050 40.5000
+                                                                            LOS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_RATE_SELECT<1> net RENAMED (to net name listed on right)           RATE_SELECT  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_RD_N<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J6.12           141.138 40.3856
+                                                                           RD_N
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_RD_P<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J6.13           141.138 39.5856
+                                                                           RD_P
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_SCL<1>   pins MOVED FROM this net (to net name listed on right)
+                                 J6.5            149.338 37.5856
+                                                                            SCL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_SDA<1>   pins MOVED FROM this net (to net name listed on right)
+                                 J6.4            149.338 36.7856
+                                                                            SDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TD_N<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J6.19           141.138 34.7856
+                                                                           TD_N
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TD_P<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J6.18           141.138 35.5856
+                                                                           TD_P
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<1> pins MOVED FROM this net (to net name listed on right)
+                                 J6.3            149.338 35.9856
+                                                                     TX_DISABLE
+                                 R116.2          152.050 35.5000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<2> pins MOVED FROM this net (to net name listed on right)
+                                 J3.3            143.763 54.7732
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_FAULT<1> pins MOVED FROM this net (to net name listed on right)
+                                 J6.2            149.338 35.1856
+                                                                       TX_FAULT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R117.2          152.050 34.5000
+                                                                       TX_FAULT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_FAULT<2> pins MOVED FROM this net (to net name listed on right)
+                                 J3.2            146.713 54.7732
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDO          pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.8            82.5500 62.6344
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_N         pins ADDED TO this new net
+                                 J3.1            145.238 53.2482
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_P         pins ADDED TO this new net
+                                 J2.1            25.2961 54.9656
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UDATA_IN_N<2> pins MOVED FROM this net (to net name listed on right)
+                                 R1.1            122.700 51.5500
+                                                                            TMS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UDATA_IN_P<2> pins MOVED FROM this net (to net name listed on right)
+                                 R1.2            122.700 52.4500
+                                                                       FPGA_TMS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9381ESA_I649_Q pins MOVED FROM this net (to net name listed on right)
+                                 R2.2            132.650 49.3500
+                                                                       FPGA_TCK
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_MAX9381ESA_I649_Q_1 pins MOVED FROM this net (to net name listed on right)
+                                 R4.2            132.650 50.5500
+                                                                       FPGA_TDI
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_R_I567_2 pins MOVED FROM this net (to net name listed on right)
+                                 IC1.4                          
+                                                                       FPGA_TMS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_R_I568_2 pins MOVED FROM this net (to net name listed on right)
+                                 IC1.1                          
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_R_I574_2 pins MOVED FROM this net (to net name listed on right)
+                                 IC2.4           134.500 54.7250
+                                                                          VCCIO
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_R_I575_2 pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 IC2.1           134.500 52.7750
+                                                            UART_RX_TO_FPGA_3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_SY58608U_I564_VREF pins MOVED FROM this net (to net name listed on right)
+                                 IC1.2                          
+                                                                       FPGA_TCK
+                                 IC1.3                          
+                                                                       FPGA_TDI
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_CAPCERSMDCL2_I418_B pins MOVED FROM this net (to net name listed on right)
+                                 J1.2            88.5444 62.6344
+                                                                      VREF_JTAG
+                                 J1.4            86.5378 62.6344
+                                                                            TMS
+                                 J1.6            84.5566 62.6344
+                                                                            TCK
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC3V3       pins MOVED FROM this net (to net name listed on right)
+                                 R116.1          152.950 35.5000
+                                                                     TX_DISABLE
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VP12         pins MOVED FROM this net (to net name listed on right)
+                                 J7.2             0.7700 36.7500
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XA           pins MOVED FROM this net (to net name listed on right)
+                                 QZ1.4           98.0000 49.5500
+                                                                            GND
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 7M-25.000MEEQ-T
+ CON5P_USB-1981584-1
+ FT232RL
+ JTAG-SMT2_SMD-JTAG-SMT2-NC
+ USBLC6-2SC6
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2                  CAP_NP_0-445-7348-2-ND,CAP_NP_A 112.160 70.2900
+ C3                  CAP_NP_0-445-7348-2-ND,CAP_NP_A 95.5000 52.5000
+ C4                  CAP_NP_0-445-7348-2-ND,CAP_NP_A 95.5000 53.7500
+ C5                  CAPCERSMDCL2_0402-1UF,16V 127.000 25.0000
+ C6                  CAPCERSMDCL2_0402-1UF,16V 127.000 42.0000
+ C7                  CAPCERSMDCL2_0402-1UF,16V 127.000 59.0000
+ C8                  CAPCERSMDCL2_0402-100NF,16V_GEA 12.7500 46.7500
+ C9                  CAP_NP-GRM152R60J105ME15D,CAP_B 11.0000 41.0000
+ C10                 CAP_NP_0-445-7348-2-ND,CAP_NP_A  8.9700 59.8200
+ C11                 CAP_NP_0-445-7348-2-ND,CAP_NP_A  8.9700 58.6300
+ C12                 CAPCERSMDCL2_0402-100NF,16V_GEN 133.000 25.5000
+ C13                 CAPCERSMDCL2_0402-100NF,16V_GEN 133.000 42.5000
+ C14                 CAPCERSMDCL2_0402-100NF,16V_GEN 133.000 59.5000
+ C15                 CAPCERSMDCL2_0402-100NF,16V_GEN 118.800 51.5000
+ C16                 CAP_NP-GRM31CD80J107ME39K,CAP_B 60.5000 12.0000
+ C17                 TANTPOLY_SMD-220UF,6.3V 119.000 12.2000
+ C18                 CAPCERSMDCL2_0402-1NF_X7R,50V 132.750 20.2500
+ C19                 CAPCERSMDCL2_0402-100NF,16V_GEA 14.7500 59.7500
+ C20                 CAP_NP-GRM152R60J105ME15D,CAP_B 16.0000 58.0000
+ C21                 CAPCERSMDCL2_0402-1NF_X7R,50V 132.750 37.2500
+ C22                 CAPCERSMDCL2_0402-1NF_X7R,50V 132.750 54.2500
+ C23                 CAPCERSMDCL2_0603-1UF,16V 92.7500 69.5000
+ C24                 CAPCERSMDCL2_0402-100NF,16V_GEN 119.000 47.4000
+ C25                 ELCAPTAN_SMD-220UF,25V 115.250 31.7500
+ C26                 CAP_NP_0-445-7348-2-ND,CAP_NP_A  9.0100 46.5300
+ C27                 CAPCERSMDCL2_0402-100NF,16V_GEN 118.800 52.6000
+ C28                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 95.2500 44.5000
+ C29                 CAPCERSMDCL2_0402-100NF,16V_GEN 119.000 48.4000
+ C30                 CAP_NP_0-445-7348-2-ND,CAP_NP_A  9.0000 45.5000
+ C31                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 94.5000 43.7500
+ C32                 CAPCERSMDCL2_0402-100NF,16V_GEN 134.000 22.5000
+ C33                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 90.0000 42.5000
+ C34                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 88.9500 42.5000
+ C35                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 91.5000 42.5000
+ C36                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 92.5800 42.5000
+ C37                 CAPCERSMDCL2_0402-100NF,16V_GEA 10.7200 53.9900
+ C38                 CAP_NP-GRM152R60J105ME15D,CAP_B 11.0000 54.0000
+ C39                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 112.900 42.1000
+ C40                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 112.900 43.3000
+ C41                 CAPCERSMDCL2_0603-1UF,16V 98.2500 68.5000
+ C42                 CAP_NP-445-8173-1-ND,CAP_NP-44A 125.000 21.0000
+ C43                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 99.5000 41.0000
+ C44                 TANTPOLY_SMD-220UF,6.3V 98.8700  9.5100
+ C45                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 99.5000 42.2500
+ C46                 CAP_NP-GRM155R60J474KE19J,CAP_B 17.6500 26.3500
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C47                 CAP_NP-445-8173-1-ND,CAP_NP-44A 80.7500 14.5000
+ C48                 CAP_NP-445-8173-1-ND,CAP_NP-44A 58.0000 12.0000
+ C49                 CAPCERSMDCL2_0402-100NF,16V_GEN 134.250 39.5000
+ C50                 CAP_NP-GRM21BR60J476ME15K,CAP_B 101.750 21.7500
+ C51                 ELCAPTAN_SMD-220UF,25V 143.250  7.2500
+ C52                 ELCAPTAN_SMD-220UF,25V 37.2500 14.0000
+ C53                 CAP_NP-C0402C104K9RACTU,CAP_NPA 15.1500 20.3500
+ C54                 CAP_NP-GRM21BR60J476ME15K,CAP_B 68.5000 49.5000
+ C55                 CAP_NP-GRM21BR60J476ME15K,CAP_B 72.5000 49.5000
+ C56                 CAP_NP-GRM21BR60J476ME15K,CAP_B 76.2500 40.0000
+ C57                 CAP_NP-445-7348-2-ND,CAP_NP-44A 71.5000 43.5000
+ C58                 ELCAPTAN_SMD-220UF,25V 37.2500  6.2500
+ C59                 CAP_NP-GRM21BR60J476ME15K,CAP_B 68.7500 21.7500
+ C60                 CAP_NP-GRM21BR60J476ME15K,CAP_B 70.5000 49.5000
+ C61                 TANTPOLY_SMD-220UF,6.3V 71.7500 13.2500
+ C62                 CAP_NP-445-7348-2-ND,CAP_NP-44A 61.0000 21.7500
+ C63                 TANTPOLY_SMD-220UF,6.3V 51.4100  9.3200
+ C64                 CAP_NP-445-7348-2-ND,CAP_NP-44A 73.5000 42.2500
+ C65                 CAP_NP-GRM21BR60J476ME15K,CAP_B 62.7500 21.7500
+ C66                 CAP_NP-445-7348-2-ND,CAP_NP-44A 40.0000 69.0000
+ C67                 TANTPOLY_SMD-220UF,6.3V 56.1700 18.4800
+ C68                 CAP_NP-GRM21BR60J476ME15K,CAP_B 64.7500 21.7500
+ C69                 CAP_NP-445-7348-2-ND,CAP_NP-44A 108.500 17.2500
+ C70                 TANTPOLY_SMD-220UF,6.3V 56.5000 25.7500
+ C71                 CAP_NP-GRM21BR60J476ME15K,CAP_B 108.000 21.7500
+ C72                 CAP_NP-GRM21BR60J476ME15K,CAP_B 66.7500 21.7500
+ C73                 TANTPOLY_SMD-220UF,6.3V 117.000 20.5000
+ C74                 TANTPOLY_SMD-220UF,6.3V 98.9800 15.8300
+ C81                 CAP_NP-GRM21BR60J476ME15K,CAP_B 106.000 21.7500
+ C82                 CAP_NP-GRM21BR60J476ME15K,CAP_B 104.000 21.7500
+ C88                 CAP_NP-GRM188R60J226MEA0D,CAP_B 136.750 22.5000
+ C89                 CAP_NP-GRT155R61E105ME01D,CAP_B 141.500 22.5000
+ C90                 CAP_NP-445-7348-2-ND,CAP_NP-44A 141.500 21.2500
+ C91                 CAP_NP_0-445-7348-2-ND,CAP_NP_A 87.0000  7.5000
+ C92                 CAP_NP-445-8173-1-ND,CAP_NP-44A 105.500 12.0000
+ C93                 CAP_NP-C0402C104K9RACTU,CAP_NPA 87.7500 22.0000
+ C94                 CAP_NP-445-7348-2-ND,CAP_NP-44A 141.500 20.0000
+ C95                 CAP_NP-GRM31CD80J107ME39K,CAP_B 108.000 12.0000
+ C96                 CAP_NP-GRM188R60J226MEA0D,CAP_B 139.000 13.7500
+ C97                 CAPCERSMDCL2_0402-100NF,16V_GEN 134.000 56.5000
+ C98                 CAPCERSMDCL2_0402-100NF,16V_GEN 121.750 34.5000
+ C99                 CAPCERSMDCL2_0402-100NF,16V_GEN 121.750 30.5000
+ C100                CAPCERSMDCL2_0402-100NF,16V_GEN 126.500 22.0000
+ C101                CAPCERSMDCL2_0402-100NF,16V_GEN 121.750 35.5000
+ C102                CAPCERSMDCL2_0402-100NF,16V_GEN 127.750 14.2500
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C103                CAP_NP-445-7348-2-ND,CAP_NP-44A 43.7500 29.7500
+ C104                CAP_NP-C0402C104K9RACTU,CAP_NPA 11.7500 29.2500
+ C105                CAPCERSMDCL2_0402-100NF,16V_GEN 121.750 31.5000
+ C106                CAPCERSMDCL2_0402-100NF,16V_GEN 125.500 22.0000
+ C107                CAP_NP-445-7348-2-ND,CAP_NP-44A 133.250 27.0000
+ C108                CAP_NP-GRM188R61A106KE69D,CAP_B 124.750 27.0000
+ C112                CAP_NP-GRM188R61A106KE69D,CAP_B 19.5000 51.0000
+ C113                CAPCERSMDCL2_0402-100NF,16V_GEN 127.750 15.2500
+ C114                CAPCERSMDCL2_0402-1UF,16V 128.500 19.2500
+ C116                CAPCERSMDCL2_0402-1UF,16V 127.200 36.3000
+ C118                CAPCERSMDCL2_0402-1UF,16V 125.700 53.4000
+ C119                CAPCERSMDCL2_0402-100NF,16V_GEN 132.750 19.2500
+ C120                CAPCERSMDCL2_0402-100NF,16V_GEN 131.450 36.0500
+ C121                CAP_NP-GRM188R61A106KE69D,CAP_B  7.5000 53.5000
+ C122                CAPCERSMDCL2_0402-100NF,16V_GEN 129.950 53.1500
+ C123                CAPCERSMDCL2_0402-1NF_X7R,50V 132.750 19.2500
+ C124                CAPCERSMDCL2_0402-1NF_X7R,50V 131.450 36.0500
+ C125                CAPCERSMDCL2_0402-1NF_X7R,50V 129.950 53.1500
+ C126                CAPCERSMDCL2_0603-10UF,6.3V 93.7500 47.7500
+ C127                CAPCERSMDCL2_0603-10UF,6.3V 98.0000 61.5000
+ C128                CAPCERSMDCL2_0603-10UF,6.3V 91.2500 50.0000
+ C129                CAPCERSMDCL2_0603-10UF,6.3V 96.5000 56.8000
+ C130                CAPCERSMDCL2_0402-1UF,16V 91.0000 51.2500
+ C131                CAPCERSMDCL2_0402-1UF,16V 97.5000 54.7500
+ C132                CAPCERSMDCL2_0402-1UF,16V 80.5000 47.2500
+ C133                CAPCERSMDCL2_0402-100NF,16V_GEN 99.2500 46.5000
+ C134                CAPCERSMDCL2_0402-1UF,16V 89.7500 46.2500
+ C135                CAPCERSMDCL2_0402-100NF,16V_GEA 12.7500 59.7500
+ C136                CAPCERSMDCL2_0402-100NF,16V_GEA 16.5000 53.5000
+ C137                CAPCERSMDCL2_0402-100NF,16V_GEN 91.7500 52.7500
+ C138                CAPCERSMDCL2_0402-100NF,16V_GEN 83.0000 47.7500
+ C139                CAPCERSMDCL2_0402-100NF,16V_GEA  9.0900 44.3800
+ C140                CAP_NP-445-7348-2-ND,CAP_NP-44A 133.000 61.2500
+ C141                CAP_NP-GRM188R61A106KE69D,CAP_B 125.000 61.0000
+ C142                CAPCERSMDCL2_0402-100NF,16V_GEN 88.0000 46.2500
+ C143                CAP_NP-GRM188R60J226MEA0D,CAP_B 136.500 56.5000
+ C144                CAP_NP-GRT155R61E105ME01D,CAP_B 141.000 56.5000
+ C145                CAP_NP-445-7348-2-ND,CAP_NP-44A 141.000 55.2500
+ C146                CAPCERSMDCL2_0402-100NF,16V_GEN 83.2500 52.2500
+ C147                CAP_NP-GRM152R60J105ME15D,CAP_B 16.0000 45.0000
+ C148                CAPCERSMDCL2_0402-100NF,16V_GEA 17.1900 40.3800
+ C149                CAPCERSMDCL2_0402-100NF,16V_GEN 85.5000 53.2500
+ C150                CAPCERSMDCL2_0402-100NF,16V_GEN 83.2500 50.5000
+ C151                CAPCERSMDCL2_0402-100NF,16V_GEN 83.2500 49.0000
+ C152                CAPCERSMDCL2_0402-100NF,16V_GEN 89.0000 53.5000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C153                CAPCERSMDCL2_0402-100NF,16V_GEN 80.7500 53.7500
+ C154                CAPCERSMDCL2_0402-100NF,16V_GEN 81.2500 46.2500
+ C155                CAP_NP-GRM188R61A106KE69D,CAP_B  8.2500 48.7500
+ C156                CAP_NP-445-7348-2-ND,CAP_NP-44A 141.000 53.7500
+ C157                CAPCERSMDCL2_0402-100NF,16V_GEN 85.0000 46.5000
+ C158                CAPCERSMDCL2_0402-100NF,16V_GEN 86.7500 46.2500
+ C159                CAPCERSMDCL2_0402-100NF,16V_GEN 87.0000 53.2500
+ C160                CAPCERSMDCL2_0402-1UF,16V 90.0000 53.7500
+ C161                CAP_NP-GRM188R60J226MEA0D,CAP_B 139.000 47.7500
+ C162                CAPCERSMDCL2_0603-10UF,6.3V 83.2500 43.5000
+ C163                CAPCERSMDCL2_0603-10UF,6.3V 84.2500 39.2500
+ C165                CAPCERSMDCL2_0402-100NF,16V_GEA 11.0000 41.0000
+ C166                CAPCERSMDCL2_0402-100NF,16V_GEA 14.7500 46.7500
+ C167                CAPCERSMDCL2_0402-100NF,16V_GEN 80.5000 50.0000
+ C168                CAPCERSMDCL2_0402-1UF,16V 83.7500 40.5000
+ C169                CAPCERSMDCL2_0402-100NF,16V_GEN 80.5000 49.0000
+ C170                CAPCERSMDCL2_0402-100NF,16V_GEN 83.7500 41.5000
+ C171                CAPCERSMDCL2_0603-10UF,6.3V 75.0000 43.5000
+ C172                CAPCERSMDCL2_0603-10UF,6.3V 79.0000 41.0000
+ C173                CAPCERSMDCL2_0402-1UF,16V 82.2500 56.2500
+ C174                CAPCERSMDCL2_0402-100NF,16V_GEN 83.7500 55.0000
+ C175                CAPCERSMDCL2_0402-100NF,16V_GEA 15.5100 49.6300
+ C176                CAPCERSMDCL2_0402-100NF,16V_GEA 15.5200 48.5700
+ C177                CAPCERSMDCL2_0402-100NF,16V_GEA 21.0500 48.5800
+ C178                CAPCERSMDCL2_0402-100NF,16V_GEA 21.0000 47.5000
+ C179                CAPCERSMDCL2_0402-100NF,16V_GEA 18.9800 47.0800
+ C180                CAPCERSMDCL2_0402-100NF,16V_GEA 19.0000 46.0000
+ C181                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5000 45.5000
+ C182                CAPCERSMDCL2_0402-100NF,16V_GEA 21.4900 44.4200
+ C183                CAPCERSMDCL2_0402-100NF,16V_GEA 19.0000 44.0000
+ C184                CAPCERSMDCL2_0402-100NF,16V_GEA 19.0100 42.9300
+ C185                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5000 42.5000
+ C186                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5200 41.4700
+ C187                CAPCERSMDCL2_0402-100NF,16V_GEA  9.0100 57.5500
+ C188                CAPCERSMDCL2_0402-100NF,16V_GEA 15.0100 63.3400
+ C189                CAPCERSMDCL2_0402-100NF,16V_GEA 15.0000 62.2500
+ C190                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5000 60.6000
+ C191                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5000 59.5000
+ C192                CAPCERSMDCL2_0402-100NF,16V_GEA 19.0000 59.0800
+ C193                CAPCERSMDCL2_0402-100NF,16V_GEA 19.0000 58.0000
+ C194                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5200 57.5200
+ C195                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5000 56.5000
+ C196                CAPCERSMDCL2_0402-100NF,16V_GEA 19.2500 56.0000
+ C197                CAPCERSMDCL2_0402-100NF,16V_GEA 19.2700 54.9400
+ C198                CAPCERSMDCL2_0402-100NF,16V_GEA 21.4800 54.5300
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C199                CAPCERSMDCL2_0402-100NF,16V_GEA 21.5000 53.5000
+ D2                  LED RED 0603_0-LNJ237W82RA,LEDB 168.808 65.6844
+ D3                  LED_0-LTST-C193TBKT-5A,LED_0-LA 172.821 65.6844
+ D4                  LED RED 0603_0-LNJ237W82RA,LEDB 94.5000 20.5000
+ D5                  LED GREEN 0603_0-LNJ326W83RA,LB 47.7500 57.7500
+ D6                  LED GREEN 0603_0-LNJ326W83RA,LB 36.2500 22.0000
+ D8                  TVS_2X-PGB1010603NR,TVS_2X-D06A 53.5000 29.7500
+ D9                  TVS_2X-PGB1010603NR,TVS_2X-D06A 50.5000 29.7500
+ D10                 TVS_2X-PGB1010603NR,TVS_2X-D06A 48.7500 33.5000
+ D11                 TVS_2X-PGB1010603NR,TVS_2X-D06A 46.7500 29.7500
+ D12                 DIODE-1N4148W-13-F,DIODE-1N414A 15.5500 24.5500
+ IC3                 ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA 13.5000 57.5000
+ IC4                 ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA 13.5000 44.5000
+ IC5                 TOSHIBA               131.000  5.0000
+ IC6                 LTC2991CMS#PBF-VCC=VCC3V3 84.0000  8.0000
+ J8                  TE0712 CONNECTOR-JB2-LSHM-150-B 82.5500 32.7680
+ J9                  LSHM-150-0XXX-L-DV-A-S-LSHM-15B 26.8211 24.7904
+ J10                 7X2RECPT_SMD_2MM-878321420,7X2B 51.2500 23.7500
+ J11                 CON20P_SFP-1367073-1-1367073-1B 145.238 20.7880
+ J12                 HDR1X3-HDR1X3,HDR1X3-HDR1X3,HDA 137.000  9.0000
+ J13                 CON10P-HTST-105-01-L-DV 49.2500 46.2500
+ J14                 PCOAX-U.FL-R-SMT-1(10) 69.0000 47.2500
+ J15                 PCOAX-U.FL-R-SMT-1(10) 69.0000 51.5000
+ J16                 CON4P-53398-0471      128.750 66.2500
+ J17                 PCOAX-U.FL-R-SMT-1(10) 113.000 51.5000
+ J18                 PCOAX-U.FL-R-SMT-1(10) 111.500 56.4000
+ J19                 PCOAX-U.FL-R-SMT-1(10) 111.500 61.0000
+ L1                  IND-BLM18AG121SN1D,IND-BLM18AGA 83.2500 43.5000
+ L2                  IND-BLM18AG121SN1D,IND-BLM18AGA 98.7500 58.0000
+ L3                  IND-BLM18AG121SN1D,IND-BLM18AGA 92.2500 47.7500
+ L4                  IND-74438323100,IND-7443832310A 11.2000 32.6000
+ L5                  IND-CIGT201208EH1R0MNE,IND-CIGA 133.250 27.0000
+ L6                  IND-CIGT201208EH1R0MNE,IND-CIGA 133.500 12.2500
+ L9                  FERRITE_SMD-BLM21PG221SN1,MURAA 11.5200 50.7700
+ L10                 IND-BLM18AG121SN1D,IND-BLM18AGA 75.7500 45.7500
+ L11                 IND-CIGT201208EH1R0MNE,IND-CIGA 133.250 61.2500
+ L12                 FERRITE_SMD-MPZ1608S101A,TDK 95.7500 69.5000
+ L13                 IND-CIGT201208EH1R0MNE,IND-CIGA 133.250 46.2500
+ MH5                 MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 159.995 71.1500
+ MH6                 MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 176.845  3.2500
+ MH7                 MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 19.6850 65.2450
+ MH8                 MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 10.6680 65.2450
+ MH9                 MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 19.6850  8.2550
+ MH10                MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA 10.6680  8.2550
+ MMC                 RSMD0603_-00,         17.3500 16.8500
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ POWER1              PTH08T210WAD          108.000 11.0000
+ PWR1                PTH08T210WAD          60.5000 11.0000
+ R5                  R-EMA-00003608,R-EMA-00003608,A 158.250 65.5000
+ R6                  R-ERJ-3EKF1600V,R-ERJ-3EKF1600A 158.250 64.0000
+ R7                  R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 124.250 31.0000
+ R8                  R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 124.250 35.0000
+ R9                  R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 127.000 14.7500
+ R10                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 127.000 17.2500
+ R11                 RSMD0402_1/16W-1K,1%   9.1500 60.8800
+ R12                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 133.850 31.5000
+ R13                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A  9.8500 39.3500
+ R14                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 135.500 14.2000
+ R15                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 133.750 34.1000
+ R16                 R-311-24.9LRCT-ND,R-311-24.9LRA 132.500  8.0000
+ R17                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 77.7500 52.5000
+ R18                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 135.500 18.1000
+ R19                 R-EMA-00007500V42,R-EMA-000075A 136.000 40.5000
+ R20                 R-311-49.9LRCT-ND,R-311-49.9LRA 78.2500 51.0000
+ R21                 R-ERJ-2RKF4990X,R-ERJ-2RKF4990A 78.2500 50.0000
+ R22                 R-ERJ-2RKF4990X,R-ERJ-2RKF4990A 78.2500 49.0000
+ R23                 R-311-49.9LRCT-ND,R-311-49.9LRA 78.2500 48.0000
+ R24                 RSMD0402_1/16W-1K,1%   9.0900 47.5400
+ R25                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 93.5000 45.5000
+ R26                 R-EMA-00007500V42,R-EMA-000075A 135.100 33.3000
+ R27                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 91.7500 44.2500
+ R28                 R-EMA-00007500V42,R-EMA-000075A 136.000 39.5000
+ R29                 R-EMA-00007500V42,R-EMA-000075A 136.000 56.5000
+ R30                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 89.5000 44.0000
+ R31                 R-311-24.9LRCT-ND,R-311-24.9LRA 134.500  9.0000
+ R32                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 94.0000 53.2500
+ R33                 R-ERJ-2RKF1503X,R-ERJ-2RKF1503A 130.000  9.0000
+ R34                 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 92.5000 50.2500
+ R35                 R-EMA-00007500V42,R-EMA-000075A 136.000 23.5000
+ R36                 R-EMA-00007500V42,R-EMA-000075A 136.000 22.5000
+ R37                 RSMD0402_1/16W-1K,1%  121.700 46.9000
+ R38                 RSMD0402_1/16W-1K,1%  121.700 51.1000
+ R39                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A 21.8500 33.4500
+ R40                 RSMD0402_1/16W-1K,1%  121.700 48.9000
+ R41                 R-ERJ-2RKF4701X,R-ERJ-2RKF4701A 12.5500 23.9000
+ R42                 RSMD0402_1/16W-1K,1%  121.700 53.1000
+ R43                 RSMD0402_1/16W-2.2K,1% 120.700 46.9000
+ R44                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A  9.0000 23.2000
+ R45                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A  6.3500 17.4500
+ R46                 RSMD0402_1/16W-2.2K,1% 120.600 51.1000
+ R47                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A 10.8500 21.5000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R48                 R-311-24.9LRCT-ND,R-311-24.9LRA 50.0000 32.7500
+ R49                 RSMD0402_1/16W-2.2K,1% 120.700 48.9000
+ R50                 R-311-24.9LRCT-ND,R-311-24.9LRA 51.7500 29.0000
+ R51                 R-311-24.9LRCT-ND,R-311-24.9LRA 54.7500 29.0000
+ R52                 R-ERJ-2RKF4701X,R-ERJ-2RKF4701A 12.4000 13.5500
+ R53                 R-311-24.9LRCT-ND,R-311-24.9LRA 48.0000 29.0000
+ R54                 R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 18.4500 19.8500
+ R55                 R-ERJ-2RKF49R9X,R-ERJ-2RKF49R9A  5.9000 43.0000
+ R56                 R-ERJ-2RKF49R9X,R-ERJ-2RKF49R9A 17.7000 13.0500
+ R57                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A 10.2000 35.2500
+ R58                 R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 18.8500 13.0500
+ R59                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 68.0000 39.7500
+ R60                 RSMD0603_1/10W-1.6K,1% 80.0000 10.5000
+ R61                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A 15.9000 12.2500
+ R62                 RES_SR_LVK12-0.05,1%  112.700 11.9000
+ R63                 R-EMA-00003608,R-EMA-00003608,A 38.0000 22.0000
+ R64                 RSMD0603_-00,         88.0000 12.0000
+ R65                 RSMD0603_1/10W-XX,1%  82.0000 10.5000
+ R66                 RSMD0603_-00,         88.0000 10.0000
+ R67                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 47.3600 58.9200
+ R68                 R-ERJ-2RKF1001X,R-ERJ-2RKF1001A 75.2500 47.5000
+ R69                 RSMD0603_-00,         84.0000 10.5000
+ R70                 RSMD0603_1/10W-1.6K,1% 127.000 10.0000
+ R71                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A  9.9500 25.7500
+ R72                 R-M55342K11B10E0RS3,R-M55342K1A 73.0000 52.2500
+ R73                 R-EMA-00007500V42,R-EMA-000075A 30.5000 67.7500
+ R74                 R-NO_STUFF,R-NO_STUFF,R,RES0402 32.2500 67.7500
+ R75                 R-EMA-00007500V42,R-EMA-000075A 30.5000 66.2500
+ R76                 R-NO_STUFF,R-NO_STUFF,R,RES0402 32.2500 66.2500
+ R77                 R-EMA-00007500V42,R-EMA-000075A 30.5000 64.7500
+ R78                 R-NO_STUFF,R-NO_STUFF,R,RES0402 32.2500 64.7500
+ R79                 RSMD0603_1/10W-XX,1%  129.000 10.0000
+ R80                 R-ERJ-6GEY0R00V,R-ERJ-6GEY0R00A 27.0500  6.7500
+ R81                 RSMD0603_1/10W-XX,1%  80.0000  4.0000
+ R82                 RSMD0603_-00,         88.0000 14.0000
+ R83                 RSMD0603_1/10W-XX,1%  127.000  4.0000
+ R84                 RSMD0603_-00,         131.000 10.0000
+ R85                 R-M55342K11B10E0RS3,R-M55342K1A 21.7500 37.2500
+ R86                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 21.7500 36.2500
+ R87                 RSMD0805_125MW-0.27,1% 72.5000 39.8000
+ R88                 RSMD0402_1/16W-6.2K,1%  9.9000 24.7500
+ R89                 RSMD0603_-00,         11.9500 16.8500
+ R90                 RES_SR_LVK12-0.05,1%  63.5000 12.0000
+ R91                 R-EMA-00007500V42,R-EMA-000075A 135.100 32.4000
+ R92                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 23.5000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R93                 R-ERJ-2RKF3302X,R-ERJ-2RKF3302A 14.6000 12.2000
+ R94                 R-M55342K11B10E0RS3,R-M55342K1A 18.7500 15.5500
+ R95                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 22.5000
+ R96                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 21.5000
+ R97                 R-EMA-00007500V42,R-EMA-000075A 136.000 57.5000
+ R98                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 18.5000
+ R99                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 17.5000
+ R100                RSMD0402_1/16W-2.2K,1% 120.600 53.1000
+ R101                RSMD0402_1/16W-1K,1%  123.750 29.5000
+ R102                R-ERJ-2RKF33R0X,R-ERJ-2RKF33R0A 12.5000 27.5500
+ R103                R-ERJ-2RKF1503X,R-ERJ-2RKF1503A 12.5500 24.8500
+ R104                R-ERJ-2RKF3903X,R-ERJ-2RKF3903A 12.5500 26.6500
+ R105                R-ERJ-PA2F3300X,R-ERJ-PA2F3300A 12.5500 25.8000
+ R106                R-M55342K11B10E0RS3,R-M55342K1A 92.7000 28.6000
+ R107                R-ERJ-2RKF1001X,R-ERJ-2RKF1001A 13.7500 29.2500
+ R108                R-ERJ-2RKF1001X,R-ERJ-2RKF1001A 14.7000 29.2500
+ R109                R-ERJ-2RKF1001X,R-ERJ-2RKF1001A 15.6500 29.2500
+ R110                R-ERA-2AEB303X,R-ERA-2AEB303X,A 19.7500 28.8000
+ R111                R-ERJ-2RKF1503X,R-ERJ-2RKF1503A 18.7000 28.7500
+ R113                R-ERJ-2RKF1001X,R-ERJ-2RKF1001A 16.6000 29.2500
+ R115                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 38.5000
+ R118                RSMD0402_1/16W-1K,1%  123.750 33.5000
+ R119                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 42.5000 66.7500
+ R120                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 42.0000 62.2500
+ R121                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 152.500 54.5000
+ R122                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 152.500 53.5000
+ R123                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 92.5000 48.0000
+ R124                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 152.500 19.5000
+ R125                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 152.500 20.5000
+ R126                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 152.500 36.5000
+ R127                R-ERJ-2RKF2201X,R-ERJ-2RKF2201A 152.500 37.5000
+ R128                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 57.5000
+ R129                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 94.0000 51.5000
+ R130                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 56.5000
+ R131                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 55.5000
+ R132                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 52.5000
+ R133                R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 152.500 51.5000
+ R134                R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 122.700 48.0000
+ R135                R-EMA-00003608,R-EMA-00003608,A 98.0000 20.5000
+ R136                R-M55342K11B10E0RS3,R-M55342K1A 66.0000 68.5000
+ R137                R-CRCW060310M0FKEAC,R-CRCW0603A 34.0000 69.2500
+ R138                R-CRCW060310M0FKEAC,R-CRCW0603A 34.0000 70.7500
+ R139                RSMD0402_1/16W-1K,1%  123.750 32.5000
+ R140                RSMD0402_1/16W-1K,1%  128.750 13.2500
+ R141                RSMD0402_1/16W-1K,1%  123.750 36.5000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R142                RSMD0402_1/16W-1K,1%  128.000 21.5000
+ R143                RSMD0402_1/16W-1K,1%  128.250 16.7500
+ R144                RSMD0402_1/16W-1K,1%  124.000 21.5000
+ R145                RSMD0402_1/16W-2.2K,1% 121.750 32.5000
+ R146                RSMD0402_1/16W-2.2K,1% 121.750 29.5000
+ R147                R-EMA-00007500V42,R-EMA-000075A 136.400 17.2000
+ R148                RSMD0402_1/16W-2.2K,1% 121.750 36.5000
+ R149                RSMD0402_1/16W-2.2K,1% 121.750 33.5000
+ R150                RSMD0402_1/16W-2.2K,1% 127.250 16.7500
+ R151                RSMD0402_1/16W-2.2K,1% 126.750 13.2500
+ R152                RSMD0402_1/16W-2.2K,1% 124.000 22.5000
+ R153                RSMD0402_1/16W-2.2K,1% 128.000 22.5000
+ R154                R-EMA-00007500V42,R-EMA-000075A 136.400 15.2000
+ R155                RSMD0402_1/16W-1K,1%   9.0000 56.5000
+ R156                RSMD0402_1/16W-1K,1%   8.9200 43.3100
+ R157                RSMD0402_1/16W-2.2K,1%  9.0000 55.5000
+ R158                RSMD0402_1/16W-2.2K,1%  8.9900 42.3000
+ R159                RSMD0402_1/16W-200,1% 12.2500 52.7500
+ R160                RSMD0402_1/16W-200,1% 12.2500 39.5000
+ R161                RSMD0402_1/16W-200,1% 13.2500 52.7500
+ R162                RSMD0402_1/16W-200,1% 13.2500 39.5000
+ R163                RSMD0402_1/16W-200,1% 14.2500 52.7500
+ R164                RSMD0402_1/16W-200,1% 14.2500 39.5000
+ R165                RSMD0402_1/16W-200,1% 15.2800 52.5000
+ R166                RSMD0402_1/16W-200,1% 15.2500 39.5000
+ R167                RSMD0402_1/16W-200,1% 15.0000 63.2500
+ R168                RSMD0402_1/16W-200,1% 15.5000 49.7500
+ R169                RSMD0402_1/16W-200,1% 15.0000 62.2500
+ R170                RSMD0402_1/16W-200,1% 15.5000 48.6700
+ R171                RSMD0402_1/16W-200,1% 21.5000 60.5000
+ R172                RSMD0402_1/16W-200,1% 21.0000 48.5000
+ R173                RSMD0402_1/16W-200,1% 21.5000 59.5000
+ R174                RSMD0402_1/16W-200,1% 21.0000 47.5000
+ R175                RSMD0402_1/16W-200,1% 19.0000 59.0000
+ R176                RSMD0402_1/16W-200,1% 19.0000 47.0000
+ R177                RSMD0402_1/16W-200,1% 19.0000 58.0000
+ R178                RSMD0402_1/16W-200,1% 19.0000 46.0000
+ R179                RSMD0402_1/16W-200,1% 21.5000 57.5000
+ R180                RSMD0402_1/16W-200,1% 21.5000 45.5000
+ R181                RSMD0402_1/16W-200,1% 21.5000 56.5000
+ R182                RSMD0402_1/16W-200,1% 21.5000 44.5000
+ R183                RSMD0402_1/16W-200,1% 19.2500 56.0000
+ R184                RSMD0402_1/16W-200,1% 19.0000 44.0000
+ R185                RSMD0402_1/16W-200,1% 19.2500 55.0000
+ R186                RSMD0402_1/16W-200,1% 19.0000 43.0000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R187                RSMD0402_1/16W-200,1% 21.5000 54.5000
+ R188                RSMD0402_1/16W-200,1% 21.5000 42.5000
+ R189                RSMD0402_1/16W-200,1% 21.5000 53.5000
+ R190                RSMD0402_1/16W-200,1% 21.5000 41.5000
+ R191                R-EMA-00007500V42,R-EMA-000075A 134.200 50.5000
+ R192                R-EMA-00007500V42,R-EMA-000075A 134.200 49.4000
+ SW1                 HDT0001-HDT0001,HDT0001-HDT000A 149.645  5.0000
+ T1                  TRANS MOSFET_GSD-PJE8408,SOT523 128.000  9.0000
+ T2                  TRANS MOSFET_GSD-PJE8408,SOT523 76.2500 52.7500
+ TE1                 PCOAX-U.FL-R-SMT-1(10) 113.000 46.9000
+ TIMING1             SY58608UMG-VCC=P2V5   131.000 23.0000
+ TP1                 TP_HOLE-1.0MM         112.550 67.1700
+ TP2                 TP_HOLE-1.0MM         80.7500 70.0000
+ TP3                 TP_HOLE-1.0MM         99.3000 31.6000
+ TP4                 TESTPOINT-EMA-00001481V22,TESTB 66.6900  6.6600
+ TP5                 TESTPOINT-EMA-00001481V22,TESTB 106.580  7.4000
+ TP7                 TESTPOINT-EMA-00001481V22,TESTB 54.4700 64.0200
+ TP9                 TESTPOINT-EMA-00001481V22,TESTB 72.7000 46.0000
+ TP11                TESTPOINT-EMA-00001481V22,TESTB 44.9100 67.9300
+ TP13                TESTPOINT-EMA-00001481V22,TESTB 139.500 66.6000
+ TP14                TESTPOINT-EMA-00001481V22,TESTB 65.7500 39.7500
+ U2                  MAX9381ESA_SMD-MAX9381ESA 128.200 49.9000
+ U3                  MAX9381ESA_SMD-MAX9381ESA 129.700 32.8000
+ U4                  ATMGA128_TQFP-ATMEGA128A-AU,ATB  6.2500 30.7500
+ U5                  SFP_CAGE-2227023-1-2227023-1,SB 145.238 54.7832
+ U6                  SI5395A-A-GM-SI5395A-A-GM,SI53B 86.9761 50.1462
+ U8                  MAX9381ESA_SMD-MAX9381ESA 131.000 16.0000
+ U11                 SFP_CAGE-2227023-1-2227023-1,SB 145.238 37.7906
+ U14                 SFP_CAGE-2227023-1-2227023-1,SB 145.238 20.7980
+ U15                 INV_1CH_OD-SN74LVC1G06DBVTE4,IB 14.7000 17.0500
+ U16                 TPS74618P-TPS74618PQWDRVRQ1,TPB 69.7500 43.0000
+ U18                 24AA025E48T-I/SN-24AA025E48T-IB 37.7500 65.5000
+ U25                 LM75A-LM75AIMME/NOPB,LM75A-LM7A 85.7500 19.2500
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ USB1                CON5P_USB-1981584-1   
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_NP-445-7348-2-ND,CAP_NP-44A 109.550 69.4600 CAP_NP_0-445-7348-2-ND,CAP_NP_A
+ D1                  USBLC6-2SC6           164.846 65.6844 LED GREEN 0603_0-LNJ326W83RA,LB
+ IC1                 JTAG-SMT2_SMD-JTAG-SMT2-NC 131.000 40.0000 SY58608UMG-VCC=P2V5
+ IC2                 FT232RL               131.000 57.0000 SY58608UMG-VCC=P2V5
+ J1                  7X2RECPT_SMD_2MM-878321420,7X2B 82.5500 64.7680 TE0712 CONNECTOR-JB1-LSHM-150-B
+ J2                  PCOAX-U.FL-R-SMT-1(10) 26.8211 54.9656 LSHM-130-0XXX-L-DV-A-S-LSHM-13B
+ J3                  PCOAX-U.FL-R-SMT-1(10) 145.238 54.7732 CON20P_SFP-1367073-1-1367073-1B
+ J4                  CON4P-53398-0471      37.6174 51.6636 CONN30P-FTSH-115-01-L-DV,CONN3B
+ J5                  PCOAX-U.FL-R-SMT-1(10) 103.500 48.7180 TE0712 CONNECTOR-JB3-LSHM-130-B
+ J7                  PCOAX-U.FL-R-SMT-1(10)  2.2450 36.7500 MCH_CONNECTOR1-MCH1B-EDGE-170,B
+ QZ1                 7M-25.000MEEQ-T       96.7500 50.5000 SIT5021AI-2DE-25E-50.000000-VDA
+ R1                  R-311-24.9LRCT-ND,R-311-24.9LRA 122.700 52.0000 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A
+ R2                  R-311-24.9LRCT-ND,R-311-24.9LRA 132.650 48.9000 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A
+ R3                  R-311-24.9LRCT-ND,R-311-24.9LRA 158.250 67.0000 R-EMA-00003608,R-EMA-00003608,A
+ R4                  R-311-24.9LRCT-ND,R-311-24.9LRA 132.650 51.0000 R-ERJ-2RKF1000X,R-ERJ-2RKF1000A
+ U1                  SFP_CAGE-2227023-1-2227023-1,SB 170.815 65.0240 LP_515XXX-5151230F,LP_515XXX-5A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES deleted from design                                     |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1             164.846 65.6844 REUSE_ID       245
+ D1             164.846 65.6844 ROOM           MMC
+ IC1                            ROOM           SFP_DFF_AND_FANOUT
+ IC2            131.000 57.0000 ROOM           SFP_DFF_AND_FANOUT
+ J3             145.238 54.7732 HARD_LOCATION  
+ J3             145.238 54.7732 ROOM           SFP0
+ L7             133.250 44.0000 ROOM           SFP2
+ L8             133.250 29.2500 ROOM           SFP2
+ MH2            104.550 65.7180 REUSE_ID       175
+ MH3            60.5500 31.7180 REUSE_ID       176
+ MH3            60.5500 31.7180 ROOM           TE0712
+ MH4            104.550 31.7180 REUSE_ID       173
+ MH4            104.550 31.7180 ROOM           TE0712
+ QZ1            96.7500 50.5000 ROOM           CLK_GEN_X12
+ R3             158.250 67.0000 REUSE_ID       248
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  20  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1             109.550 69.4600 ROOM           JTAG
+ J1             82.5500 64.7680 REUSE_ID       39
+ J1             82.5500 64.7680 ROOM           JTAG
+ MH1            60.5500 65.7180 REUSE_ID       175
+ R1             122.700 52.0000 REUSE_ID       47
+ R1             122.700 52.0000 ROOM           JTAG
+ R2             132.650 48.9000 ROOM           JTAG
+ R3             158.250 67.0000 ROOM           JTAG
+ R4             132.650 51.0000 ROOM           JTAG
+ U1             170.815 65.0240 ROOM           SFP0
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  21  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           109.550 69.4600 DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0402
+ C1.2           109.550 69.4600 NO_SWAP_GATE   
+ C1.2           109.550 69.4600 PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
+ C1.2           109.550 69.4600 ROOM           JTAG
+ C1.2           109.550 69.4600 XY             (-425,-3150)
+ D1.5           164.846 65.6844 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/usblc6#2d2/chips/chips.prt
+ D1.5           164.846 65.6844 XY             (1900,-4650)
+ IC1.9                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpld/jtag#2dsmt2/chips/chips.prt
+ IC1.9                          XY             (875,-3375)
+ IC2.15         131.000 57.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ft232r/chips/chips.prt
+ IC2.15         131.000 57.0000 XY             (1900,-3925)
+ J1.9           82.5500 64.7680 DESCRIPTION    CONN HEADER SMD 14POS 2MM
+ J1.9           82.5500 64.7680 NO_SWAP_GATE   
+ J1.9           82.5500 64.7680 PRIM_FILE      ./ocad_parts_lib/7x2recpt_smd_2mm/chips/chips.prt
+ J1.9           82.5500 64.7680 ROOM           JTAG
+ J1.9           82.5500 64.7680 XY             (-800,-3375)
+ J2.1           26.8211 54.9656 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J2.1           26.8211 54.9656 XY             (1850,-1350)
+ J3.1           145.238 54.7732 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J3.1           145.238 54.7732 XY             (1850,-1525)
+ J4.4           37.6174 51.6636 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/chips.prt
+ J4.4           37.6174 51.6636 XY             (3325,-3275)
+ J5.1           103.500 48.7180 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J5.1           103.500 48.7180 XY             (3750,-1350)
+ J7.1            2.2450 36.7500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J7.1            2.2450 36.7500 XY             (3750,-1525)
+ MH1.1          60.5500 65.7180 XY             (5550,-2450)
+ MH2.1          104.550 65.7180 XY             (5875,-2450)
+ MH3.1          60.5500 31.7180 XY             (4725,-2400)
+ MH4.1          104.550 31.7180 XY             (5075,-2400)
+ QZ1.3          96.7500 50.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/xtal_4p/chips/chips.prt
+ QZ1.3          96.7500 50.5000 XY             (1350,-3925)
+ R1.2           122.700 52.0000 DESCRIPTION    RES SMD 24.9 OHM 1% 1/16W 0402
+ R1.2           122.700 52.0000 NO_SWAP_GATE   
+ R1.2           122.700 52.0000 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R1.2           122.700 52.0000 ROOM           JTAG
+ R1.2           122.700 52.0000 XY             (25,-3325)
+ R2.2           132.650 48.9000 DESCRIPTION    RES SMD 24.9 OHM 1% 1/16W 0402
+ R2.2           132.650 48.9000 NO_SWAP_GATE   
+ R2.2           132.650 48.9000 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R2.2           132.650 48.9000 ROOM           JTAG
+ R2.2           132.650 48.9000 XY             (25,-3375)
+ R3.2           158.250 67.0000 DESCRIPTION    RES SMD 24.9 OHM 1% 1/16W 0402
+ R3.2           158.250 67.0000 NO_SWAP_GATE   
+ R3.2           158.250 67.0000 PRIM_FILE      ./discrete/r/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  22  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R3.2           158.250 67.0000 ROOM           JTAG
+ R3.2           158.250 67.0000 XY             (25,-3425)
+ R4.2           132.650 51.0000 DESCRIPTION    RES SMD 24.9 OHM 1% 1/16W 0402
+ R4.2           132.650 51.0000 NO_SWAP_GATE   
+ R4.2           132.650 51.0000 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R4.2           132.650 51.0000 ROOM           JTAG
+ R4.2           132.650 51.0000 XY             (25,-3475)
+ R116.2         152.500 35.5000 XY             (1025,-2150)
+ U1.19          170.815 65.0240 DESCRIPTION    CONN SFP CAGE 1POS PRESS-FIT R/A
+ U1.19          170.815 65.0240 NO_SWAP_GATE   
+ U1.19          170.815 65.0240 PRIM_FILE      ./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt
+ U1.19          170.815 65.0240 ROOM           SFP0
+ U1.19          170.815 65.0240 XY             (5650,-1100)
+ USB1.1                         PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con5p_usb/chips/chips.prt
+ USB1.1                         XY             (1900,-3200)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  23  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D1.1           163.896 64.3844 CDS_PINID      \i/o1\(0)
+ D1.2           164.846 64.3844 CDS_PINID      GND
+ D1.3           165.796 64.3844 CDS_PINID      \i/o2\(0)
+ D1.4           165.796 66.9844 CDS_PINID      \i/o2\(1)
+ D1.5           164.846 66.9844 CDS_PINID      VBUS
+ D1.6           163.896 66.9844 CDS_PINID      \i/o1\(1)
+ IC1.2                          CDS_PINID      TCK
+ IC1.3                          CDS_PINID      TDI
+ IC1.4                          CDS_PINID      TMS
+ IC1.5                          CDS_PINID      GPIO0
+ IC1.6                          CDS_PINID      GPIO1
+ IC1.7                          CDS_PINID      GPIO2
+ IC1.8                          CDS_PINID      TDO
+ IC1.9                          CDS_PINID      VREF
+ IC1.12                         CDS_PINID      DM
+ IC1.13                         CDS_PINID      DP
+ IC2.1          134.500 52.7750 CDS_PINID      TXD
+ IC2.2          134.500 53.4250 CDS_PINID      \dtr*\
+ IC2.3          134.500 54.0750 CDS_PINID      \rts*\
+ IC2.5          134.500 55.3750 CDS_PINID      RXD
+ IC2.6          134.500 56.0250 CDS_PINID      \ri*\
+ IC2.9          134.500 57.9750 CDS_PINID      \dsr*\
+ IC2.10         134.500 58.6250 CDS_PINID      \dcd*\
+ IC2.11         134.500 59.2750 CDS_PINID      \cts*\
+ IC2.12         134.500 59.9250 CDS_PINID      CBUS4
+ IC2.13         134.500 60.5750 CDS_PINID      CBUS2
+ IC2.14         134.500 61.2250 CDS_PINID      CBUS3
+ IC2.15         127.500 61.2250 CDS_PINID      USBDP
+ IC2.16         127.500 60.5750 CDS_PINID      USBDM
+ IC2.17         127.500 59.9250 CDS_PINID      \3v3out\
+ IC2.19         127.500 58.6250 CDS_PINID      \reset*\
+ IC2.22         127.500 56.6750 CDS_PINID      CBUS1
+ IC2.23         127.500 56.0250 CDS_PINID      CBUS0
+ IC2.26         127.500 54.0750 CDS_PINID      TEST
+ IC2.27         127.500 53.4250 CDS_PINID      OSCI
+ IC2.28         127.500 52.7750 CDS_PINID      OSCO
+ J1.1           88.5444 66.9016 CDS_PINID      \1\
+ J1.2           88.5444 62.6344 CDS_PINID      \2\
+ J1.3           86.5378 66.9016 CDS_PINID      \3\
+ J1.4           86.5378 62.6344 CDS_PINID      \4\
+ J1.5           84.5566 66.9016 CDS_PINID      \5\
+ J1.6           84.5566 62.6344 CDS_PINID      \6\
+ J1.7           82.5500 66.9016 CDS_PINID      \7\
+ J1.8           82.5500 62.6344 CDS_PINID      \8\
+ J1.9           80.5434 66.9016 CDS_PINID      \9\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  24  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.10          80.5434 62.6344 CDS_PINID      \10\
+ J1.11          78.5622 66.9016 CDS_PINID      \11\
+ J1.12          78.5622 62.6344 CDS_PINID      \12\
+ J1.13          76.5556 66.9016 CDS_PINID      \13\
+ J1.14          76.5556 62.6344 CDS_PINID      \14\
+ J2.1           25.2961 54.9656 CDS_PINID      A
+ J3.1           145.238 53.2482 CDS_PINID      A
+ J4.1           39.4174 52.2886 CDS_PINID      A(0)
+ J4.2           39.4174 51.0386 CDS_PINID      A(1)
+ J4.3           39.4174 49.7886 CDS_PINID      A(2)
+ J4.4           39.4174 48.5386 CDS_PINID      A(3)
+ J5.1           101.975 48.7180 CDS_PINID      A
+ J7.1            2.2450 38.2750 CDS_PINID      A
+ QZ1.1          98.0000 51.4500 CDS_PINID      A
+ QZ1.3          95.5000 49.5500 CDS_PINID      B
+ R3.1           158.700 67.0000 CDS_PINID      \1\
+ R3.2           157.800 67.0000 CDS_PINID      \2\
+ U1.1           177.940 95.9240 CDS_PINID      CG1
+ U1.2           177.940 85.9240 CDS_PINID      CG2
+ U1.3           177.940 75.9240 CDS_PINID      CG3
+ U1.4           177.940 65.9240 CDS_PINID      CG4
+ U1.5           163.690 90.9240 CDS_PINID      CG5
+ U1.6           163.690 80.9240 CDS_PINID      CG6
+ U1.7           163.690 70.9240 CDS_PINID      CG7
+ U1.8           163.690 60.9240 CDS_PINID      CG8
+ U1.9           169.360 95.9240 CDS_PINID      CG
+ U1.10          172.260 75.9240 CDS_PINID      CG_0
+ U1.11          166.860 75.9240 CDS_PINID      CG_1
+ U1.12          177.940 73.1240 CDS_PINID      CG_2
+ U1.13          177.940 68.4240 CDS_PINID      CG_3
+ U1.14          177.940 63.4240 CDS_PINID      CG_4
+ U1.15          163.690 73.1240 CDS_PINID      CG_5
+ U1.16          163.690 68.4240 CDS_PINID      CG_6
+ U1.17          163.690 63.4240 CDS_PINID      CG_7
+ U1.18          166.010 58.8243 CDS_PINID      CG_8
+ U1.19          170.809 58.8243 CDS_PINID      CG_9
+ U1.20          175.610 58.8243 CDS_PINID      CG_10
+ USB1.1                         CDS_PINID      VBUS
+ USB1.2                         CDS_PINID      \d-\
+ USB1.3                         CDS_PINID      \d+\
+ USB1.4                         CDS_PINID      ID
+ USB1.5                         CDS_PINID      GND
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  25  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd           |
+|                                                    Mon Jul  3 14:42:01 2023  |
+|------------------------------------------------------------------------------|
+| SHAPE MOVED TO DUMMY NET                                                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name                  |   layer      |    first point on shape      |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ N00183                           BOTTOM         (151.2708 38.5884)
+ N00183                           TOP            (150.5747 38.4415)
+ N00183                           TOP            (150.7032 38.3856)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      78                                        |
+|       Shapes to dummy net   :       3                                        |
+|       Comp definitions added:       5                                        |
+|       Components added      :       1                                        |
+|       Components deleted    :     438                                        |
+|       Components changed    :      16                                        |
+|       Comp property added   :      10                                        |
+|       Comp property deleted :      15                                        |
+|       Pin property added    :      87                                        |
+|       Slot property added   :      60                                        |
+|                                                                              |
+|   Total ECO changes reported:     713                                        |
+|------------------------------------------------------------------------------|
