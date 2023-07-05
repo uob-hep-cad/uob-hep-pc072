@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v206.brd                             )
+(    Drawing          : mib_fp_ethernet_05.brd                        )
 (    Software Version : 17.4S033                                      )
-(    Date/Time        : Mon Jul  3 14:42:01 2023                      )
+(    Date/Time        : Wed Jul  5 09:42:28 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_rev2_v206.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_02.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_05.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_06.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_ethernet_jtag_serial.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_rev2_v206.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_02.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_ethernet_jtag_serial.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_05.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_06.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstchip.dat (00:00:00.47)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstchip.dat (00:00:00.23)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstxprt.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstxnet.dat 
@@ -36,50 +36,15 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtc
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'DIGILENT_JTAG-SMT2-NC' used by RefDes IC1 for device 'JTAG-SMT2_SMD-JTAG-SMT2-NC' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate
-
-#2   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R4', property 'ROOM'. Value 'SFP_DFF_AND_FANOUT' was overwritten by 'JTAG'.
-
-#3   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R3', property 'ROOM'. Value 'MMC' was overwritten by 'JTAG'.
-
-#4   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R2', property 'ROOM'. Value 'SFP_DFF_AND_FANOUT' was overwritten by 'JTAG'.
-
-#5   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R1', property 'REUSE_ID'. Value '210' was overwritten by '47'.
-
-#6   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'R1', property 'ROOM'. Value 'SFP_DFF_AND_FANOUT' was overwritten by 'JTAG'.
-
-#7   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'MH1', property 'REUSE_ID'. Value '174' was overwritten by '175'.
-
-#8   WARNING(SPMHNI-297): Component instance property overwrite detected.
-
-WARNING(SPMHNI-295): Component 'C1', property 'ROOM'. Value 'TE0712' was overwritten by 'JTAG'.
-
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstcmdb.dat
-	Start time: Mon Jul  3 14:42:10 2023
+	Start time: Wed Jul  5 09:42:29 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Mon Jul  3 14:42:10 2023
+Finished Constraint Update	Time: Wed Jul  5 09:42:29 2023
 ===========================================================
 
 ------ Library Paths ------
@@ -124,6 +89,7 @@ PSMPATH =  .
            Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\mec 
            Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\pwr 
            Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\res 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\chip 
            /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            ./symbols 
            ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/symbols 
@@ -155,9 +121,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 3 14:42:00 2023
+netrev run on Jul 5 9:42:28 2023
    DESIGN NAME : 'FRONT_PANEL_ETHERNET_JTAG_SERIAL'
-   PACKAGING ON 03-Jul-2023 AT 14:41:51
+   PACKAGING ON 05-Jul-2023 AT 09:42:22
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -174,6 +140,7 @@ netrev run on Jul 3 14:42:00 2023
               'cn75als' 'cncmos' 'cnfast' 'cngaas' 'cnlinear' 'cnmech'
               'cnmemory' 'cnmicro' 'cnpld' 'cnspecial' 'cnstandard' 'cnvlsi'
               'help' 'bris_cds_standard' 'bris_cds_logic' 'bris_cds_discrete'
+              'bris_cds_pld'
    MASTER_LIBRARIES  <none>
    MAX_ERRORS 500
    MERGE_MINIMUM 5
@@ -188,8 +155,8 @@ netrev run on Jul 3 14:42:00 2023
 
  No error detected
  No oversight detected
-  8 warnings detected
+ No warning detected
 
-cpu time      0:23:51
-elapsed time  0:00:12
+cpu time      0:03:39
+elapsed time  0:00:01
 

@@ -1,1 +1,1 @@
-mib_fp_ethernet_03.brd
+mib_fp_ethernet_06.brd

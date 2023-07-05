@@ -1,34 +1,139 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Jul-2023 AT 14:41:51 }
-primitive '7M-25.000MEEQ-T';
+{ Packager-XL run on 05-Jul-2023 AT 09:42:22 }
+primitive '410_357_B-DIGILENT,410-357-B';
   pin
-    'A':
+    'GND_1':
       PIN_NUMBER='(1)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'B':
+    'VREF':
+      PIN_NUMBER='(2)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'CTS':
       PIN_NUMBER='(3)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'RTS':
+      PIN_NUMBER='(4)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'RXD':
+      PIN_NUMBER='(5)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'TXD':
+      PIN_NUMBER='(6)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'GND_2':
+      PIN_NUMBER='(7)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'VREF_JTAG':
+      PIN_NUMBER='(8)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'PS_SRST_B':
+      PIN_NUMBER='(9)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'TCK':
+      PIN_NUMBER='(10)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'TDO':
+      PIN_NUMBER='(11)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'TDI':
+      PIN_NUMBER='(12)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'TMS':
+      PIN_NUMBER='(13)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'GND_3':
+      PIN_NUMBER='(14)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(15)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'USB_DM':
+      PIN_NUMBER='(16)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'USB_DP':
+      PIN_NUMBER='(17)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'VBUS_DETECT':
+      PIN_NUMBER='(18)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='XTAL_4P';
-      BODY_NAME='XTAL_4P';
-      PHYS_DES_PREFIX='QZ';
+      PART_NAME='410_357_B';
+      PHYS_DES_PREFIX='IC';
+      NO_LOAD_CHECK='TRUE';
+      PIN_COUNT='18';
+      BODY_NAME='410_357_B';
+      JEDEC_TYPE='410357B';
       CLASS='IC';
-      STATUS='Preferred';
-      PART_NUMBER='7M-25.000MEEQ-T';
-      MANUFACTURER='TXC';
-      DESCRIPTION='SMD Seam Sealing Crystal - 7M series';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/osc_txc_7m-se~
-ries.pdf';
-      PINCOUNT='4';
-      SMD='YES';
-      CASE='3.2x2.5mm';
-      JEDEC_TYPE='OSCCC250X320X80-4N';
-      VALUE='25MHz';
-      POWER_PINS='(GND:2,4)';
-      PARENT_PART_TYPE='XTAL_4P_13';
-      PARENT_PPT='XTAL_4P';
-      PARENT_PPT_PART='7M-25.000MEEQ-T';
+      PART_NUMBER='';
+      PACK_TYPE='OTHER';
+      MOUSER_PART_NUMBER='424-410-357-B';
+      MOUSER_PRICE/STOCK='https://www.mouser.co.uk/ProductDetail/Digilent/410-35~
+7-B?qs=55YtniHzbhB0Q%2F0WyPl3Gg%3D%3D';
+      ARROW_PART_NUMBER='';
+      ARROW_PRICE/STOCK='';
+      DESCRIPTION='JTAG Debuggers JTAG-SMT3-NC: Surface-mount Programming Module~
+ with UART interface (MSL 3)';
+      DATASHEET='https://reference.digilentinc.com/reference/programmers/jtag-sm~
+t3/reference-manual';
+      HEIGHT='2.63 mm';
+      PARENT_PART_TYPE='410_357_B_OTHER';
+      PARENT_PPT='410_357_B';
+      PARENT_PPT_PART='410_357_B-DIGILENT,410-357-B';
   end_body;
 end_primitive;
 primitive '7X2RECPT_SMD_2MM-878321420,7X2B';
@@ -151,6 +256,92 @@ primitive '7X2RECPT_SMD_2MM-878321420,7X2B';
       PARENT_PPT_PART='7X2RECPT_SMD_2MM-878321420,7X2RECPT_SMD_2MM';
   end_body;
 end_primitive;
+primitive 'CAPCERSMDCL2_0603-100NF,16V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_100NF_16V_10%_X7R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X7R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='100nF';
+      VOLT='16V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-100NF,16V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0805-10UF,16V_GEN';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0805_10UF_16V_10%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0805';
+      JEDEC_TYPE='C0805';
+      VALUE='10uF';
+      VOLT='16V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0805';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0805-10UF,16V_GEN';
+  end_body;
+end_primitive;
 primitive 'CAP_NP-445-7348-2-ND,CAP_NP-44A';
   pin
     '1':
@@ -223,43 +414,6 @@ primitive 'CAP_NP-GRM188R60J226MEA0D,CAP_B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_NP';
       PARENT_PPT_PART='CAP_NP-GRM188R60J226MEA0D,CAP_NP';
-  end_body;
-end_primitive;
-primitive 'CAP_NP-GRM188R61A106KE69D,CAP_B';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      PART_NAME='CAP_NP';
-      BODY_NAME='CAP_NP';
-      JEDEC_TYPE='CAP0603';
-      VALUE='10UF';
-      DESCRIPTION='CAP CER 10UF 10V X5R 0603';
-      MPN='GRM188R61A106KE69D';
-      MANUFACTURER='MURATA';
-      PART_TYPE='CERAMIC';
-      ALT_SYMBOLS='';
-      SOURCE_PACKAGE='CAP_NP';
-      PART_NUMBER='GRM188R61A106KE69D';
-      PARENT_PART_TYPE='CAP_NP';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CAP_NP';
-      PARENT_PPT_PART='CAP_NP-GRM188R61A106KE69D,CAP_NP';
   end_body;
 end_primitive;
 primitive 'CAP_NP-GRT155R61E105ME01D,CAP_B';
@@ -442,184 +596,45 @@ primitive 'CON4P-53398-0471';
       PARENT_PPT_PART='CON4P-53398-0471';
   end_body;
 end_primitive;
-primitive 'CON5P_USB-1981584-1';
+primitive 'CON4P-67068-8001';
   pin
-    'VBUS':
-      PIN_NUMBER='(1)';
-      PINUSE='POWER';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'GND':
-      PIN_NUMBER='(5)';
-      PINUSE='GROUND';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'D-':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'D+':
-      PIN_NUMBER='(3)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'ID':
+    'A'<3>:
       PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='CON5P_USB';
-      BODY_NAME='CON5P_USB';
-      PHYS_DES_PREFIX='USB';
+      PART_NAME='CON4P';
+      BODY_NAME='CON4P';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      PHYS_DES_PREFIX='J';
       CLASS='IO';
       STATUS='Preferred';
-      PART_NUMBER='1981584-1';
-      MANUFACTURER='TYCO ELECTRONICS';
-      DESCRIPTION='5 Pins Micro-AB USB Receptacle';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/tyco_1981584-~
-1.pdf';
-      PINCOUNT='11';
-      SMD='YES';
+      PART_NUMBER='67068-8001';
+      MANUFACTURER='MOLEX';
+      DESCRIPTION='USB Shielded I/O Type B Receptacle, Right Angle, with Kinked ~
+Solder Tabs, Color Black';
+      DATASHEET_URL='';
+      PINCOUNT='6';
+      SMD='';
       CASE='_';
-      JEDEC_TYPE='TYCO_1981584-1';
-      POWER_PINS='(SHIELD:6..11)';
-      PARENT_PART_TYPE='CON5P_USB';
-      PARENT_PPT='CON5P_USB';
-      PARENT_PPT_PART='CON5P_USB-1981584-1';
-  end_body;
-end_primitive;
-primitive 'FT232RL';
-  pin
-    'TXD':
-      PIN_NUMBER='(1)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'RXD':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'RTS*':
-      PIN_NUMBER='(3)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'CTS*':
-      PIN_NUMBER='(11)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'DTR*':
-      PIN_NUMBER='(2)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'DSR*':
-      PIN_NUMBER='(9)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'DCD*':
-      PIN_NUMBER='(10)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'RI*':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CBUS0':
-      PIN_NUMBER='(23)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'CBUS1':
-      PIN_NUMBER='(22)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'CBUS2':
-      PIN_NUMBER='(13)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'CBUS3':
-      PIN_NUMBER='(14)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'CBUS4':
-      PIN_NUMBER='(12)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'TEST':
-      PIN_NUMBER='(26)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'OSCO':
-      PIN_NUMBER='(28)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OSCI':
-      PIN_NUMBER='(27)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'RESET*':
-      PIN_NUMBER='(19)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'USBDP':
-      PIN_NUMBER='(15)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    '3V3OUT':
-      PIN_NUMBER='(17)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'USBDM':
-      PIN_NUMBER='(16)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='FT232R';
-      BODY_NAME='FT232R';
-      CLASS='IC';
-      PHYS_DES_PREFIX='IC';
-      GROUND_NETS='GND;AGND';
-      STATUS='Preferred';
-      PART_NUMBER='FT232RL';
-      MANUFACTURER='FTDI CHIP';
-      DESCRIPTION='USB to Serial UART Interface';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/ft232r.pdf';
-      PINCOUNT='28';
-      SMD='YES';
-      CASE='SOIC28';
-      JEDEC_TYPE='SOP65P780X200-28N';
-      POWER_PINS='(GND:7,18,21;AGND:25;VCCIO:4;VCC:20)';
-      NC_PINS='(8,24)';
-      PARENT_PART_TYPE='FT232R_SSOP';
-      PARENT_PPT='FT232R';
-      PARENT_PPT_PART='FT232RL';
+      JEDEC_TYPE='JACK12X17_USB4B';
+      POWER_PINS='(GND:5,6)';
+      PARENT_PART_TYPE='CON4P';
+      PARENT_PPT='CON4P';
+      PARENT_PPT_PART='CON4P-67068-8001';
   end_body;
 end_primitive;
 primitive 'IND-CIGT201208EH1R0MNE,IND-CIGA';
@@ -656,83 +671,6 @@ primitive 'IND-CIGT201208EH1R0MNE,IND-CIGA';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='IND';
       PARENT_PPT_PART='IND-CIGT201208EH1R0MNE,IND';
-  end_body;
-end_primitive;
-primitive 'JTAG-SMT2_SMD-JTAG-SMT2-NC';
-  pin
-    'TCK':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'TDI':
-      PIN_NUMBER='(3)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'TMS':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'GPIO0':
-      PIN_NUMBER='(5)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'GPIO1':
-      PIN_NUMBER='(6)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'GPIO2':
-      PIN_NUMBER='(7)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'TDO':
-      PIN_NUMBER='(8)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VREF':
-      PIN_NUMBER='(9)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'DM':
-      PIN_NUMBER='(12)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'DP':
-      PIN_NUMBER='(13)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='JTAG-SMT2';
-      BODY_NAME='JTAG-SMT2';
-      PHYS_DES_PREFIX='IC';
-      CLASS='IC';
-      GROUND_NETS='GND';
-      STATUS='Preferred';
-      PART_NUMBER='JTAG-SMT2-NC';
-      MANUFACTURER='DIGILENT INC';
-      DESCRIPTION='Programming Module for Xilinx FPGAs';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/jtag-smt2-nc.~
-pdf';
-      PINCOUNT='13';
-      SMD='YES';
-      CASE='SOCAV13';
-      JEDEC_TYPE='DIGILENT_JTAG-SMT2-NC';
-      POWER_PINS='(GND:1,10;VDD:11)';
-      SENSITIVE='YES';
-      SENSE_COMMENT='MSL6';
-      PARENT_PART_TYPE='JTAG-SMT2_SMD';
-      PARENT_PPT='JTAG-SMT2';
-      PARENT_PPT_PART='JTAG-SMT2_SMD-JTAG-SMT2-NC';
   end_body;
 end_primitive;
 primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
@@ -795,76 +733,84 @@ primitive 'PCOAX-U.FL-R-SMT-1(10)';
       PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
   end_body;
 end_primitive;
-primitive 'R-311-24.9LRCT-ND,R-311-24.9LRA';
+primitive 'RSMD0603_1/10W-10K,1%';
   pin
-    '1':
+    'A'<0>:
       PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
       PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
-      PHYS_DES_PREFIX='R';
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
       CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES0402';
-      VALUE='24.9';
-      DESCRIPTION='RES SMD 24.9 OHM 1% 1/16W 0402';
-      MPN='RC0402FR-0724R9L';
-      MANUFACTURER='YAGEO';
-      PART_TYPE='THICK FILM';
-      PART_NUMBER='311-24.9LRCT-ND';
-      SOURCE_PACKAGE='R';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-311-24.9LRCT-ND,R';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_10K_1%_0.1W_100PPM';
+      VALUE='10k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-10K,1%';
   end_body;
 end_primitive;
-primitive 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A';
+primitive 'RSMD0603_1/10W-4.7K,1%';
   pin
-    '1':
+    'A'<0>:
       PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
       PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
-      PHYS_DES_PREFIX='R';
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
       CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES0402';
-      VALUE='4.99K';
-      DESCRIPTION='RES SMD 4.99K OHM 1% 1/10W 0402';
-      MPN='ERJ-2RKF4991X';
-      MANUFACTURER='PANASONIC';
-      PART_TYPE='THICK FILM';
-      PART_NUMBER='ERJ-2RKF4991X';
-      SOURCE_PACKAGE='R';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-ERJ-2RKF4991X,R';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_4K7_1%_0.1W_100PPM';
+      VALUE='4.7k';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.347.1';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-4.7K,1%';
   end_body;
 end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
