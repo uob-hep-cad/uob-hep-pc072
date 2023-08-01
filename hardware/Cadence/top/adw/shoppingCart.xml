@@ -174,4 +174,51 @@
 		<property name="PART_NUMBER"  value="ATMEGA128A-AU"/>
 		<property name="SOURCE_PACKAGE"  value="ATMGA128"/>
 	</component>
+	<component cell="jtag-smt2" library="cnpld" partname="JTAG-SMT2" partno="JTAG-SMT2-NC" quantity="1" >
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="TYPE"  value="JTAG-SMT2-NC"/>
+	</component>
+	<component cell="ft232r" library="cninterface" partname="FT232R" partno="FT232RL" quantity="1" >
+		<property name="PACK_TYPE"  value="SSOP"/>
+		<property name="TYPE"  value="FT232RL"/>
+	</component>
+	<component cell="usblc6-2" library="cndiscrete" partname="USBLC6-2" partno="USBLC6-2SC6" quantity="1" >
+		<property name="PACK_TYPE"  value="SOT23"/>
+		<property name="TYPE"  value="USBLC6-2SC6"/>
+	</component>
+	<component cell="con5p_usb" library="cnconnector" partname="CON5P_USB" partno="1981584-1" quantity="1" >
+		<property name="TYPE"  value="1981584-1"/>
+	</component>
+	<component cell="xtal_4p" library="cndiscrete" partname="XTAL_4P" partno="7M-25.000MEEQ-T" quantity="1" >
+		<property name="PACK_TYPE"  value="13"/>
+		<property name="TYPE"  value="7M-25.000MEEQ-T"/>
+		<property name="VALUE"  value="25MHz"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0805_10UF_16V_10%_X5R" quantity="1" >
+		<property name="PACK_TYPE"  value="0805"/>
+		<property name="VALUE"  value="10uF"/>
+		<property name="VOLTAGE"  value="16V_GEN"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0603_100NF_16V_10%_X7R" quantity="1" >
+		<property name="PACK_TYPE"  value="0603"/>
+		<property name="VALUE"  value="100nF"/>
+		<property name="VOLTAGE"  value="16V"/>
+	</component>
+	<component cell="410_357_b" library="bris_cds_pld" partname="410_357_B" partno="" quantity="1" >
+		<property name="MANUFACTURER_NAME"  value="DIGILENT"/>
+		<property name="MANUFACTURER_PART_NUMBER"  value="410-357-B"/>
+	</component>
+	<component cell="con4p" library="cnconnector" partname="CON4P" partno="67068-8001" quantity="1" >
+		<property name="TYPE"  value="67068-8001"/>
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="R0603_10K_1%_0.1W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="10k"/>
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="R0603_4K7_1%_0.1W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="4.7k"/>
+	</component>
 </sc:shoppingCart>
