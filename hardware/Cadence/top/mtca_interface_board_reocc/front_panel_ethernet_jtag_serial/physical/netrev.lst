@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_fp_ethernet_05.brd                        )
-(    Software Version : 17.4S033                                      )
-(    Date/Time        : Wed Jul  5 09:42:28 2023                      )
+(    Drawing          : mib_fp_ethernet_10.brd                        )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Thu Dec 21 10:21:04 2023                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_05.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_06.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_10.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/physical/mib_fp_ethernet_10_junk.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_ethernet_jtag_serial.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_05.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_06.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_ethernet_jtag_serial.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_10.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_ethernet_jtag_serial\physical\mib_fp_ethernet_10_junk.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstchip.dat (00:00:00.23)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstchip.dat (00:00:00.29)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstxprt.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstxnet.dat 
@@ -41,15 +41,15 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtc
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_ethernet_jtag_serial/packaged/pstcmdb.dat
-	Start time: Wed Jul  5 09:42:29 2023
+	Start time: Thu Dec 21 10:21:04 2023
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Wed Jul  5 09:42:29 2023
+Finished Constraint Update	Time: Thu Dec 21 10:21:04 2023
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/cadence/spb_17.4/share/local/pcb/modules 
+           c:/cadence/spb_23.1/share/local/pcb/modules 
 
 PSMPATH =  . 
            /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
@@ -121,9 +121,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 5 9:42:28 2023
+netrev run on Dec 21 10:21:04 2023
    DESIGN NAME : 'FRONT_PANEL_ETHERNET_JTAG_SERIAL'
-   PACKAGING ON 05-Jul-2023 AT 09:42:22
+   PACKAGING ON 21-Dec-2023 AT 10:20:52
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -145,7 +145,7 @@ netrev run on Jul 5 9:42:28 2023
    MAX_ERRORS 500
    MERGE_MINIMUM 5
    NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
-   NET_NAME_LENGTH 24
+   NET_NAME_LENGTH 31
    OVERSIGHTS ON
    REPLACE_CHECK OFF
    SINGLE_NODE_NETS ON
@@ -157,6 +157,6 @@ netrev run on Jul 5 9:42:28 2023
  No oversight detected
  No warning detected
 
-cpu time      0:03:39
-elapsed time  0:00:01
+cpu time      0:05:06
+elapsed time  0:00:00
 
