@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 01-Aug-2023 AT 18:16:42 }
+{ Packager-XL run on 10-Jun-2024 AT 13:59:56 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -175,6 +175,56 @@ primitive '7X2RECPT_SMD_2MM-878321420,7X2B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='7X2RECPT_SMD_2MM';
       PARENT_PPT_PART='7X2RECPT_SMD_2MM-878321420,7X2RECPT_SMD_2MM';
+  end_body;
+end_primitive;
+primitive '854S01AKILF';
+  pin
+    'PCLK'<0>:
+      PIN_NUMBER='(3,1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'NPCLK'<0>:
+      PIN_NUMBER='(4,2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'NQ':
+      PIN_NUMBER='(10*2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'Q':
+      PIN_NUMBER='(11*2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'CLK_SEL':
+      PIN_NUMBER='(6*2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'RESERVED':
+      PIN_NUMBER='(5*2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+  end_pin;
+  body
+      BODY_NAME='854S01I';
+      PART_NAME='854S01I';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      GROUND_NETS='GND';
+      STATUS='Preferred';
+      PART_NUMBER='854S01AKILF';
+      MANUFACTURER='IDT';
+      DESCRIPTION='2:1 Differential-to-LVDS Multiplexer';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/854s01i.pdf';
+      PINCOUNT='17';
+      SMD='YES';
+      CASE='QFN16';
+      JEDEC_TYPE='QFN50P300X300X100-17N-S180';
+      POWER_PINS='(GND:9,12,14,15,17;VDD:8,13)';
+      NC_PINS='(7,16)';
+      PARENT_PART_TYPE='854S01I_QFN';
+      PARENT_PPT='854S01I';
+      PARENT_PPT_PART='854S01AKILF';
   end_body;
 end_primitive;
 primitive 'ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA';

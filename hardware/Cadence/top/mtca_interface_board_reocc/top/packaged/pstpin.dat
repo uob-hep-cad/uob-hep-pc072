@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 01-Aug-2023 AT 18:16:42 }
-TIME=' COMPILATION ON 01-Aug-2023 AT 18:16:42';
+{ Packager-XL run on 10-Jun-2024 AT 13:59:56 }
+TIME=' COMPILATION ON 10-Jun-2024 AT 13:59:56';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -26,6 +26,14 @@ primitive '7X2RECPT_SMD_2MM-878321420,7X2B';body '7X2RECPT_SMD_2MM';
     '12':'(12)';
     '13':'(13)';
     '14':'(14)';
+end_primitive;
+primitive '854S01AKILF'; body '854S01I';
+    'PCLK'<0>:'(3,1)';$S;IN;
+    'NPCLK'<0>:'(4,2)';$S;IN;
+    'NQ':'(10,10)';OUT;
+    'Q':'(11,11)';OUT;
+    'CLK_SEL':'(6,6)';IN;
+    'RESERVED':'(5,5)';IN;
 end_primitive;
 primitive 'ADCLK948BCPZ-VCC=VDD_CLK_BUFFEA';body 'ADCLK948';
     'VREF0':'(3,3,3,3,3,3,3,3)';IN;

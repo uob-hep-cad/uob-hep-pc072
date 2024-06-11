@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 01-Aug-2023 AT 18:16:42 }
+{ Packager-XL run on 10-Jun-2024 AT 13:59:56 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP';
- POST_TIME='01-Aug-2023 AT 18:16:42';
+ POST_TIME='10-Jun-2024 AT 13:59:56';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -7707,6 +7707,53 @@ occ.\02_ power\(sch_1):page1_i162@cnlinear.ltc2991(chips)',
  ROOM='POWER',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/ltc2991/chips/ch~
 ips.prt';
+
+PART_NAME
+ IC7 '854S01AKILF':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)'(1):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i802(1)@cninterface.\854s01i\(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i802(1)@cninterface.\854s01i\(chips)',
+ PATH='I802',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ SIZE='2',
+ TYPE='854S01AKILF',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(15075,-5175)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='QFN',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='854S01AKILF',
+ HAS_FIXED_SIZE='2',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/854s01i/chips~
+/chips.prt';
+
+SECTION_NUMBER 2
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)'(0):
+ C_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i802(0)@cninterface.\854s01i\(chips)',
+ P_PATH='@mtca_interface_board_reocc.top(sch_1):page2_2p@mtca_interface_board_re~
+occ.\08_ timing\(sch_1):page1_i802(0)@cninterface.\854s01i\(chips)',
+ PATH='I802',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
+ SIZE='2',
+ TYPE='854S01AKILF',
+ DESIGNATORNAMEPROP='TIMING',
+ PHYS_PAGE='1',
+ XY='(15075,-5175)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='QFN',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='854S01AKILF',
+ HAS_FIXED_SIZE='2',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/854s01i/chips~
+/chips.prt';
 
 PART_NAME
  J1 'TE0712 CONNECTOR-JB1-LSHM-150-B':;

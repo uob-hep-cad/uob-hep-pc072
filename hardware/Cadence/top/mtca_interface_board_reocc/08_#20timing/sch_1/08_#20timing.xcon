@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-04-20T13:17:55</modificationTime>
+    <modificationTime>2024-06-10T13:37:06</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="08_ timing" view="sch_1">
       <lastids>
-        <instanceid>454</instanceid>
+        <instanceid>455</instanceid>
         <netid>409</netid>
-        <insttermid>1187</insttermid>
+        <insttermid>1193</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -709,6 +709,50 @@
               <id>T267</id>
               <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S21</id>
+          <library>cninterface</library>
+          <name>854s01i</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T278</id>
+              <name>clk_sel</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T279</id>
+              <name>npclk</name>
+              <direction>input</direction>
+              <msb>1</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T280</id>
+              <name>nq</name>
+              <direction>output</direction>
+            </term>
+            <term>
+              <id>T281</id>
+              <name>pclk</name>
+              <direction>input</direction>
+              <msb>1</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T282</id>
+              <name>q</name>
+              <direction>output</direction>
+            </term>
+            <term>
+              <id>T283</id>
+              <name>reserved</name>
+              <direction>input</direction>
             </term>
           </terms>
         </cell>
@@ -7940,6 +7984,59 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I455</id>
+          <cellid>S21</cellid>
+          <name>page1_i802</name>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>2</value>
+            </parameter>
+          </parameters>
+          <pins>
+            <pin>
+              <id>M1188</id>
+              <termid>T278</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1189</id>
+              <termid>T279</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1190</id>
+              <termid>T280</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1191</id>
+              <termid>T281</termid>
+              <msb>1</msb>
+              <lsb>0</lsb>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1192</id>
+              <termid>T282</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1193</id>
+              <termid>T283</termid>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -8193,6 +8290,7 @@
               <instance ref="i799"></instance>
               <instance ref="i800"></instance>
               <instance ref="i801"></instance>
+              <instance ref="i802"></instance>
             </instances>
           </page>
           <page number="2">
