@@ -1,0 +1,39 @@
+FILE_TYPE=LIBRARY_PARTS ;
+TIME=' Compilation on mercredi 23 juin 2004 11:15:54 ';
+PRIMITIVE 'RES_SR';
+ PIN
+  'C1'<0>:
+   PIN_NUMBER='(1)';
+   PIN_GROUP='1';
+   INPUT_LOAD='(*,*)';
+   OUTPUT_LOAD='(*,*)';
+   BIDIRECTIONAL='TRUE';
+  'C2'<0>:
+   PIN_NUMBER='(2)';
+   PIN_GROUP='1';
+   INPUT_LOAD='(*,*)';
+   OUTPUT_LOAD='(*,*)';
+   BIDIRECTIONAL='TRUE';
+  'S1'<0>:
+   PIN_NUMBER='(3)';
+   PIN_GROUP='1';
+   INPUT_LOAD='(*,*)';
+   OUTPUT_LOAD='(*,*)';
+   BIDIRECTIONAL='TRUE';
+  'S2'<0>:
+   PIN_NUMBER='(4)';
+   PIN_GROUP='1';
+   INPUT_LOAD='(*,*)';
+   OUTPUT_LOAD='(*,*)';
+   BIDIRECTIONAL='TRUE';
+ END_PIN;
+ BODY
+  PART_NAME='RES_SR';
+  BODY_NAME='RES_SR';
+  CLASS='DISCRETE';
+  PINCOUNT='4';
+  SIZE='1';
+ END_BODY;
+END_PRIMITIVE;
+
+END.

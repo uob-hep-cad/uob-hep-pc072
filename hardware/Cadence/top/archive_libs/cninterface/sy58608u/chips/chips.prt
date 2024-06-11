@@ -1,0 +1,41 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'SY58608U_QFN';
+  pin
+    'VREF-AC':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'Q0':
+      PIN_NUMBER='(12)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    '-Q0':
+      PIN_NUMBER='(11)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'Q1':
+      PIN_NUMBER='(10)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    '-Q1':
+      PIN_NUMBER='(9)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VT':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '-IN':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'IN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='SY58608U';
+    BODY_NAME='SY58608U';
+    PHYS_DES_PREFIX='IC';
+    CLASS='IC';
+    GROUND_NETS='GND';
+    POWER_PINS='(VCC:5,8,13,16)';
+    POWER_PINS='(GND:6,7,14,15,17)';
+  end_body;
+
+end_primitive;
+
+END.

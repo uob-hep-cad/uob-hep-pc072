@@ -1,0 +1,275 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' Created/Modified on Mon Jun 13 10:37:53 2005' ;
+primitive 'TRANS MOSFET_DGS';
+  pin
+    'S':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_GDS';
+  pin
+    'S':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_GSD';
+  pin
+    'S':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_DSG';
+  pin
+    'S':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_SDG';
+  pin
+    'S':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_SGD';
+  pin
+    'S':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_SGD_P';
+  pin
+    'S':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    NC_PINS='(6,7,8,2,3)';
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_SGD_N';
+  pin
+    'S':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    NC_PINS='(6,7,8,2,3)';
+    CLASS='DISCRETE';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    BODY_NAME='TRANS MOSFET';
+  end_body;
+end_primitive;
+primitive 'TRANS MOSFET_G1S3D4';
+  pin
+    'S':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'G':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'D':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    BODY_NAME='TRANS MOSFET';
+    PART_NAME='TRANS MOSFET';
+    PHYS_DES_PREFIX='T';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+  end_body;
+end_primitive; 
+END.

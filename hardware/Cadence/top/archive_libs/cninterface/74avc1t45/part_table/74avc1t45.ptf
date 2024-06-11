@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74AVC1T45'
+PHYS_DES_PREFIX=IC
+CLASS=IC
+
+{========================================================================================}
+:TYPE              | PACK_TYPE                  = STATUS       | PART_NUMBER       | MANUFACTURER        | DESCRIPTION                                                                                         | DATASHEET_URL                                                   | PINCOUNT | SMD   | CASE      | JEDEC_TYPE         ;
+{========================================================================================}
+ 'SN74AVC1T45DCK'  | 'SC70'(~SN74AVC1T45DCK)    = 'Preferred'  | 'SN74AVC1T45DCK'  | 'TEXAS INSTRUMENTS' | 'Single-Bit Dual-Supply Bus Transceiver with Configurable Voltage Translation and 3-State Outputs'  | 'file://cern.ch/dfs/services/cdslib/datasheets/sn74avc1t45.pdf' | '6'      | 'YES' | 'SC70-6'  | 'SOP65P210X110-6N'
+
+END_PART
+
+END.
+
+
+

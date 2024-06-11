@@ -1,0 +1,18 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPTOCOUPLER_AC_EC'
+PHYS_DES_PREFIX=IC
+CLASS=IC
+
+{========================================================================================}
+:TYPE                | CASE       | PACK_TYPE               = STATUS         | PART_NUMBER      | MANUFACTURER          | DESCRIPTION                                                         | DATASHEET_URL                                                              | PINCOUNT | SMD     | CASE      | JEDEC_TYPE ;
+{========================================================================================}
+ 'SFH6106-2'         | 'SMD'      | '1234'(~SFH6106-2)      =  'Preferred'   | 'SFH6106-2'      | 'VISHAY'              | '5300Vrms High Reliability Optocoupler with Phototransistor Output' | 'file://cern.ch/dfs/services/cdslib/datasheets/sfh6106.pdf'                | '4'      | 'YES'   | 'SMD-4'   | 'SO_4'
+ 'PS2801C-1'         | 'SSOP'     | '1243'(~PS2801C-1)      =  'Preferred'   | 'PS2801C-1'      | 'CEL'                 | 'Single High Isolation Voltage Photocoupler'                        | 'file://cern.ch/dfs/services/cdslib/datasheets/ps2801c.pdf'                | '4'      | 'YES'   | 'SSOP4'   | 'SOIC127P700X210-4N'
+ 'ACPL-217-500E'     | 'SOIC'     | '1243'(~ACPL-217-500E)  =  'Preferred'   | 'ACPL-217-500E'  | 'AVAGO TECHNOLOGIES'  | 'DC Input, Half-Pitch Phototransistor Optocoupler'                  | 'file://cern.ch/dfs/services/cdslib/datasheets/acpl-217.pdf'               | '4'      | 'YES'   | 'SOIC4'   | 'SOIC127P700X220-4N'
+ 'TLP183'            | 'SOIC'     | '1264'(~TOSHIBA)        =  'Preferred'   | 'TLP183'         | 'TOSHIBA'             | 'Photocoupler InGaAs Infrared LED & Photo-Transistor'               | 'file://cern.ch/dfs/services/cdslib/datasheets/tlp183.pdf'                 | '4'      | 'YES'   | 'SOIC4'   | 'TOSHIBA_11-4M1S'
+
+END_PART
+
+END.
+

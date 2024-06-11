@@ -1,0 +1,43 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'TP_20-2136','TP_302','TP_303','TP_380598-2','TP_FASTON','TP_FORK','TP_H3182-05','TP_HARWIN_S1751-46','TP_HOLE','TP_KEYSTONE_1417','TP_PIN-16.5','TP_PIN-6.3','TP_SMD','TP_SMD-WIRING','TP_U-TERM','TP_VOGT-1018/0.5','TP_WIRING','TP_7-1437514-0','TP_5-1437514-9','TP_23.3200-22','TP_3110346000500','TP_0985-1-15-20-71-14-11-0','TP_0900-1-15-20-75-14-11-0','TP_0922-0-15-20-72-14-11-0';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PINCOUNT='1';
+    PART_NAME='TP';
+    BODY_NAME='TP';
+    PHYS_DES_PREFIX='TP';
+    CLASS='IO';
+  end_body;
+end_primitive;
+
+primitive 'TP_GND_HOLE+GND','TP_GND_SMD+GND','TP_GND_WIRING+GND','TP_GND_PIN-6.3+GND','TP_GND_PIN-16.5+GND','TP_GND_U-TERM+GND','TP_GND_PIN+GND';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PINCOUNT='2';
+    PART_NAME='TP_GND';
+    BODY_NAME='TP';
+    PHYS_DES_PREFIX='TP';
+    CLASS='IO';
+    POWER_PINS='(GND:2)';
+  end_body;
+end_primitive;
+
+END.

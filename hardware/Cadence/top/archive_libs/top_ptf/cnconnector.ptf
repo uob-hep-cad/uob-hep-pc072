@@ -1,0 +1,1229 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CONAMP100'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE        = JEDEC_TYPE   | PINCOUNT | PART_NUMBER    ;
+{========================================================================================}
+ 'CONAMP100'(!) = 'CONAMP2X50' | '100'    | '09.CONAMP100'
+
+END_PART
+
+PART 'PASCOAX'
+PHYS_DES_PREFIX=PX
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                  | PINCOUNT | PART_NUMBER | DESCRIPTION ;
+{========================================================================================}
+ 'BNC50_FP'(!)            = 'CON_BNC50_FP'              | '2'      | '23_BNC-50-0-2'   | 'External Wiring for BNC 50 Ohm Front Panel Connector'
+ 'LEMO00_FP'(!)           = 'LEMO_ERA00_FP'             | '2'      | '09.46.11.110.0'  | 'External Wiring for LEMO size 00 Front Panel Connector'
+ 'PASCOAX200'(200)        = 'PASCOAX200'                | '2'      | 'PASCOAX200'      | '0.8mm(signal)+1.2mm(Shield) Through-Hole Pads for Coaxial Cable External Wiring'
+ 'PASCOAX200_1H'(200_1)   = 'PASCOAX200_1H'             | '2'      | 'PASCOAX200'      | '0.8mm(signal) Through-Hole + 4mm Square(Shield) Pads for Coaxial Cable External Wiring'
+ 'PASCOAX400'(400)        = 'PASCOAX400'                | '2'      | 'PASCOAX400'      | '0.8mm(signal)+1.2mm(Shield) Through-Hole Pads for Coaxial Cable External Wiring'
+ 'PCOAX_TOP'(!)           = 'PCOAX_TOP'                 | '6'      | 'DP101A004-10T'   | 'NONE'  : NC_PINS = '(3..6)'
+ 'PCOAX_BOTTOM'(!)        = 'PCOAX_BOTTOM'              | '2'      | 'DP101A004-10B'   | 'NONE'
+ '23_N-50-0-1/133_NE'(!)  = 'PCOAX_SMD_9x3mm'           | '1'      | '22542272'        | 'Pads for External Wiring of Straight Panel Receptacle Jack, Flange Mount' : MANUFACTURER='HUBER-SUHNER', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/23_n-50-0-1.pdf'
+ 'R317580'(!)             = 'RADIALL_R317580'           | '2'      | 'R317580'         | 'Pads for External Wiring of SHV Coaxial Front Panel Connector (Supports up to 10kV)' : MANUFACTURER= 'RADIALL', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/radiall_shv_r317580.pdf'
+ '30x7-50x60'(!)          = 'COAXCABLE_SMD_30x7_50x60'  | '2'      | ''                | 'Pads for Coaxial Cable External Wiring (Wire Pad 30x7mm - Shield Pad 50x60mm'
+ '30x7-50x30'(!)          = 'COAXCABLE_SMD_30x7_50x30'  | '2'      | ''                | 'Pads for Coaxial Cable External Wiring (Wire Pad 30x7mm - Shield Pad 50x60mm'
+
+END_PART
+
+PART 'PCOAX2P'
+PHYS_DES_PREFIX=PX
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE       | PINCOUNT | PART_NUMBER        | DESCRIPTION                                              | MANUFACTURER          ;
+{========================================================================================}
+ 'EGG00302CLL'(!)  = 'LEMO2P_GND'     | '3'      | '09.31.28.004.5'   | '2x0.8mm(signals)+1.2mm(Shield) Through-Hole Pads for Size 00 LEMO B Series  External Wiring' | 'LEMO' : POWER_PINS = '(GND:3)'
+
+END_PART
+
+PART 'PCOAX1CI'
+PHYS_DES_PREFIX=PX
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE        | PINCOUNT | PART_NUMBER        | DESCRIPTION                                          | MANUFACTURER          ;
+{========================================================================================}
+ 'VBI201'(!)       = 'PCOAX_VBI201'    | '4'      | '477-090'          | 'ISOLATED 90D PCB MOUNT JACK'                        | 'VITELEC-RADIOSPARES' : POWER_PINS = '(GND:2,3,4)'
+
+END_PART
+
+PART 'PCOAXSMD_FREE'
+PHYS_DES_PREFIX=PX
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE        | PINCOUNT | PART_NUMBER        | DESCRIPTION                                                  | MANUFACTURER          ;
+{========================================================================================}
+
+ 'UFL_R_SMT'(!)    = 'PCOAX_UFLR_SMD'  | '3'      | 'U.FL-R-SMT(01)'   | 'Ultra Small Surface Mount Coaxial Connectors Low profile'   | 'HIROSE'
+
+END_PART
+
+PART 'PLEMO4FP'
+PHYS_DES_PREFIX=PX
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE        | PINCOUNT | PART_NUMBER        | DESCRIPTION                                                  ;
+{========================================================================================}
+ 'LEMO0'(!)        = 'SIP5'            | '5'      | '09.31.30.085.5'   | 'LEMO 0 FOR FP 2FEMALES 2MALES'
+ 'LEMO1'(!)        = 'SIP5'            | '5'      | '09.31.30.190.5'   | 'LEMO 1 FOR FP 2FEMALES 2MALES'
+ 'LEMO2'(!)        = 'SIP5'            | '5'      | '09.31.30.170.9'   | 'LEMO 2 FOR FP 2FEMALES 2MALES'
+ 'ECP_0S_304_CLV'(!)= 'PLEMOC_4P'      | '5'      | 'ECP-0S-304-CLV'   | 'HERMAPHRODITE 4 POLE SERIE S LEMO'
+END_PART
+
+PART 'BORNE2P'
+PHYS_DES_PREFIX=B
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE        | PINCOUNT | PART_NUMBER        | MANUFACTURER       | DESCRIPTION      ;
+{========================================================================================}
+ 'BORNE2H_B'(!)    = 'BORNE2H_4MM'     | '3'      | '07.RS 103-6561'   | 'NONE'           | 'EMBASE 4MM POUR CI' : NC_PINS = '(3)'
+ 'BORNE2P'(!)      = 'SMDJUMP2'        | '2'      | '07.BORNE2P.SMD'   | 'NONE'           | 'NONE' : MOUNTED=NO
+ 'FASTON2P'(!)     = 'FASTON1D_500'    | '2'      | '3866A.6(X)MS'     | 'VOGT AG'        | '5mm Pitch Fast-On Connector'
+ 'BORNIER2'(!)     = 'BORNIER2'        | '2'      | '07.88.BORNIER2'   | 'NONE'           | 'NONE'
+ 'H3486'(!)        = 'SOCKET_H3486'    | '2'      | 'H3486-XX'         | 'HARWIN'         | '2mm Diameter SMD Test Socket Assembly'
+ 'WAGO_250-402'(!) = 'WAGO_250-402'    | '2'      | '250-402'          | 'WAGO'           | 'Connecting Terminals 2.5mm Pitch For 20/24AWG Grey'
+ 'WAGO_250-402/000-006'(!) = 'WAGO_250-402' | '2' | '250-402/000-006'  | 'WAGO'           | 'Bornier 2.5mm pour CI avec poussoir bleu'
+ 'WAGO_250-402/000-012'(!) = 'WAGO_250-402' | '2' | '250-402/000-012'  | 'WAGO'           | 'Bornier 2.5mm pour CI avec poussoir orange'
+ '257_551'(!)      = 'BORNE1P_257'     | '2'      | '257-551'          | 'WAGO'           | 'MODULAR BORNE 1POLE'
+ '1813_2235'(!)    = 'TPMENTORX2'      | '3'      | '1813.2235'        | 'MENTOR'         | 'Double Front Panel 2mm Jack' : SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=07.88.10.501.9'
+ 'L117_302'(!)     = 'FASTON2C_762'    | '2'      | 'L 117 302 01 000' | 'LMI'            | 'PCB Terminal Blocks Spacing 7.62 mm 90D. type Faston'
+ '1-1469387-1'(!)  = 'TYCO_1-1469387-1'| '2'      | '1-1469387-1'      | 'TYCO'           | 'ATCA Guide Module (Back Plane - A1)' : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/ENG_CD_1469387_A.pdf'
+ '3-1469387-7'(!)  = 'TYCO_3-1469387-7'| '2'      | '3-1469387-7'      | 'TYCO'           | 'ATCA Guide Module (Back Plane - A1)' : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/ENG_CD_1469387_A.pdf'
+ '6-1469387-8'(!)  = 'TYCO_6-1469387-8'| '2'      | '6-1469387-8'      | 'TYCO'           | 'ATCA Guide Module (Back Plane - A1)' : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/ENG_CD_1469387_A.pdf'
+ '726386-2'(!)     = 'TYCO_726386-2'   | '2'      | '726386-2'	       | 'TYCO'           | 'Faston Connector Straight Male 6.3x0.8mm': DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/tyco_726386-2.pdf'
+
+
+END_PART
+
+PART 'BORNE3P'
+PHYS_DES_PREFIX=B
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='BORNIER3')   = JEDEC_TYPE        | PINCOUNT | PART_NUMBER      | MANUFACTURER     | DESCRIPTION   ;
+{========================================================================================}
+ 'ATCA_K1K2'(!)         = 'BORNE_ATCA_K1'   | '3'      | '1-1469373-1'	  | 'Tyco'   | 'ATCA Guide Module (Front Board - K1/K2)
+ 'BORNE3P'(!)           = 'SMDJUMP3'        | '3'      | 'BORNE3P.SMD'    | 'NONE'   |  'Bornes 3 Points'
+ 'BORNE3P_WIRING'(!)    = 'SMDJUMP3'        | '3'      | ''               | ''       |  '3 Holes for External Wiring'
+ 'BORNIER3'(!)          = 'BORNIER3'        | '3'      | 'WKB01-03 AWP'   | 'THOMAS-BETTS'  |  '3 Points Screw Connecting PCB Terminals' : SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=07.88.25.500.5'
+ 'FASTOND5MM'(!)        = 'XXX'             | '3'      | 'OBSOLETE'       | 'FASTON' |  'Use CNCONNECTOR/FASTON3 Instead'
+ 'FASTOND6H5MM'(!)      = 'XXX'             | '3'      | 'OBSOLETE'       | 'FASTON' |  'Use CNCONNECTOR/FASTON3 Instead'
+ 'FASTONC5MM'(!)        = 'XXX'             | '6'      | 'OBSOLETE'       | 'FASTON' |  'Use CNCONNECTOR/FASTON3 Instead'    : NC_PINS = '(4..6)'
+ 'FASTONC6H5MM'(!)      = 'XXX'             | '3'      | 'OBSOLETE'       | 'FASTON' |  'Use CNCONNECTOR/FASTON3 Instead'
+ 'FASTOND7.5MM'(!)      = 'XXX'             | '6'      | 'OBSOLETE'       | 'FASTON' |  'Use CNCONNECTOR/FASTON3 Instead'    : NC_PINS = '(4..6)'
+ 'FASTONC7.5MM'(!)      = 'XXX'             | '6'      | 'OBSOLETE'       | 'FASTON' |  'Use CNCONNECTOR/FASTON3 Instead'    : NC_PINS = '(4..6)'
+
+
+END_PART
+
+PART 'BORNE4P'
+PHYS_DES_PREFIX=B
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE      | PINCOUNT | PART_NUMBER       | MANUFACTURER    | DESCRIPTION       ;
+{========================================================================================}
+ 'WAGO_250-404'(!)        = 'WAGO_250-404'  | '4'      | '250-404'         | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir gris'
+ 'WAGO_250-404/000-006'(!)= 'WAGO_250-404'  | '4'      | '250-404/000-006' | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir bleu'
+ 'WAGO_250-404/000-012'(!)= 'WAGO_250-404'  | '4'      | '250-404/000-012' | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir orange'
+ 'K8190'(!)               = 'DIP4_POWER'    | '4'      | '14-12-00'        | 'KEYSTONE'      | 'CONTACTS VISSES POUR CI'
+ '60800-493'(!) = 'BORNE4P_1VIS_60800-493'  | '4'      | '60800-493'       | 'SCHROFF'       | 'CONTACTS VISSES POUR CI' : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/plot_schroff.pdf'
+
+END_PART
+
+
+PART 'BORNE8P'
+PHYS_DES_PREFIX=B
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE        | PINCOUNT | PART_NUMBER       | MANUFACTURER    | DESCRIPTION       ;
+{========================================================================================}
+ 'MSB_5MM'(!)             = 'CON8_CI5MM'    | '8'      | '262-026'         | 'COMPONA'       | 'Bornier 5mm pour CI'
+ 'WAGO_250-408'(!)        = 'WAGO_250-408'  | '8'      | '250-408'         | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir gris'
+ 'WAGO_250-408/000-006'(!)= 'WAGO_250-408'  | '8'      | '250-408/000-006' | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir bleu'
+ 'WAGO_250-408/000-012'(!)= 'WAGO_250-408'  | '8'      | '250-408/000-012' | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir orange'
+
+END_PART
+
+PART 'BORNE10P'
+PHYS_DES_PREFIX=B
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE             | PINCOUNT | PART_NUMBER        | MANUFACTURER   | DESCRIPTION                                ;
+{========================================================================================}
+ 'L117_310'(!)     = 'XXX'                  | '10'      | 'OBSOLETE'        | 'LMI'          | 'Use CNCONNECTOR/FASTON10 Instead'
+ 'WAGO_250-410'(!)        = 'WAGO_250-410'  | '10'      | '250-410'         | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir gris'
+ 'WAGO_250-410/000-006'(!)= 'WAGO_250-410'  | '10'      | '250-410/000-006' | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir bleu'
+ 'WAGO_250-410/000-012'(!)= 'WAGO_250-410'  | '10'      | '250-410/000-012' | 'WAGO'          | 'Bornier 2.5mm pour CI avec poussoir orange'
+
+END_PART
+
+
+PART 'PASCON'
+PHYS_DES_PREFIX=P
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE        | PINCOUNT | PART_NUMBER        ;
+{========================================================================================}
+ 'PASCON143'(143)       = 'PASCON143'       | '1'      | '09.PASCON143'
+ 'PASCON183'(183)       = 'PASCON183'       | '1'      | '09.PASCON183'
+ 'PINCAR'(!)            = 'PINCAR'          | '1'      | '09.PINCAR'
+
+END_PART
+
+PART 'PINCESIL'
+PHYS_DES_PREFIX=P
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE        | PINCOUNT | PART_NUMBER        ;
+{========================================================================================}
+ 'PINCAR'(!)            = 'PINCAR'          | '1'      | '09.PINCESIL'
+
+END_PART
+
+PART 'CON100FCN290H'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE          | PINCOUNT | PART_NUMBER              | MANUFACTURER                                                 | DESCRIPTION                                            ;
+{========================================================================================}
+ 'FCN_298P100'(!)       = 'CON100FCN298P100'  | '122'    | 'FCN298P100'       | 'FIJUTSU'                                                    | '0.5mm SMD 100Pins Socket FCN-290H Series'
+ 'FCN_298J100'(!)       = 'CON100FCN298J100'  | '122'    | 'FCN298J100'       | 'FIJUTSU'                                                    | '0.5mm SMD 100Pins Plug FCN-290H Series'
+
+END_PART
+
+PART 'CON10MP2'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE           | PINCOUNT | PART_NUMBER              | MANUFACTURER                                                 | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'MP2-SP10-51M1'(!)     = 'CON10MP2_SP10'      | '30'     | 'MP2-SP10-51M1'          | 'ROBINSON NUGENT'                                            | 'FEMALE POWER 90D PRESS-FIT 5-GRID'
+ 'MP2-HP10-52P5'(!)     = 'CON10MP2_HP10'      | '30'     | 'MP2-HP10-52P5'          | 'ROBINSON NUGENT'                                            | 'MALE POWER STRAIGHT PRESS-FIT 5-GRID'
+ 'MP2-HP10-51S1'(!)     = 'CON10MP2_HP10_51S'  | '30'     | 'MP2-HP10-51S1'          | 'ROBINSON NUGENT'                                            | 'MALE POWER STRAIGHT SOLDER TAIL'
+
+END_PART
+
+PART 'CON114P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   | NOTE                                                   = JEDEC_TYPE     | PINCOUNT                 | PART_NUMBER              | MANUFACTURER    | DESCRIPTION                                        ;
+{========================================================================================}
+ 'MICTOR114PC'          | 'GND:115..129'(MICTOR114PC)                            = 'CON114PLUGRA' | '131'                    | '09.xxxx    .SM'         | 'AMP'           | '114 Contacts 0.64 Center Line Right-Angle MICTOR SMD Plug Connector'       : POWER_PINS = '(GND:115..129)' , NC_PINS = '(130,131)'
+ 'MICTOR114RC'          | 'GND:115..129'(MICTOR114RC)                            = 'CON114RECRA'  | '131'                    | '09.xxxxx   .SM'         | 'AMP'           | '114 Contacts 0.64 Center Line Right-Angle MICTOR SMD Receptacle Connector' : POWER_PINS = '(GND:115..129)' , NC_PINS = '(130,131)'
+ 'MICTOR114P'           | 'GND:115..129'(MICTOR114P)                             = 'CON114PLUGV'  | '130'                    | '767042-3.SM'            | 'AMP'           | '114 Contacts 0.64 Center Line Right-Angle MICTOR SMD Plug Connector'       : POWER_PINS = '(GND:115..129)' , NC_PINS = '(130)'
+ 'MICTOR114R'           | 'GND:115..129'(MICTOR114R)                             = 'CON114RECV'   | '130'                    | '767054-3.SM'            | 'AMP'           | '114 Contacts 0.64 Center Line Right-Angle MICTOR SMD Receptacle Connector' : POWER_PINS = '(GND:115..129)' , NC_PINS = '(130)'
+ 'MICTOR114PV'          | 'VDD:115..119;GND:120..124;VDD1:125..129'(MICTOR114PV) = 'CON114PLUGV'  | '130'                    | '767042-3.SM'            | 'AMP'           | '114 Contacts 0.64 Center Line Right-Angle MICTOR SMD Plug Connector'       : POWER_PINS = '(VDD:115..119;GND:120..124;VDD1:125..129)' , NC_PINS = '(130)'
+ 'MICTOR114RV'          | 'VDD:115..119;GND:120..124;VDD1:125..129'(MICTOR114RV) = 'CON114RECV'   | '130'                    | '767054-3.SM'            | 'AMP'           | '114 Contacts 0.64 Center Line Right-Angle MICTOR SMD Receptacle Connector' : POWER_PINS = '(VDD:115..119;GND:120..124;VDD1:125..129)' , NC_PINS = '(130)'
+
+END_PART
+
+PART 'CON120P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                  ;
+{========================================================================================}
+ 'RN_P50L_120SAS'(!)    = 'CONP50L120S_SMD'                         | '126'          | 'P50.120SAS'             | '1.27MM CENTERLINE SMT SOCKET(TYPE A)'                       : NC_PINS = '(121..126)'
+ 'RN_P50L_120PAS'(!)    = 'CONP50L120P_SMD'                         | '126'          | 'P50.120PAS'             | '1.27MM CENTERLINE SMT PLUG(TYPE A)'                         : NC_PINS = '(121..126)'
+ 'RN_P50L_120SBS'(!)    = 'CONP50L120S_SMD'                         | '126'          | 'P50.120SBS'             | '1.27MM CENTERLINE SMT SOCKET(TYPE B)'                       : NC_PINS = '(121..126)'
+ 'RN_P50L_120PBS'(!)    = 'CONP50L120P_SMD'                         | '126'          | 'P50.120PBS'             | '1.27MM CENTERLINE SMT PLUG(TYPE B)'                         : NC_PINS = '(121..126)'
+ 'FCN_298B120'(!)       = 'CON120FCN298B120'                        | '120'          | 'FCN298B120'             | '0.5MM SMT SOCKET (FCN-290 SERIES)'
+ 'FCN_298Q120'(!)       = 'CON120FCN298Q120'                        | '120'          | 'FCN298Q120'             | '0.5MM SMT PLUG (FCN-290 SERIES)'
+ 'FX8_120S_SV'(!)       = 'CON120_FX8_120S'                         | '120'          | '578-0206-9'             | '0.6MM RECEPTACLE SMD TYPE FX8 HRS'
+ 'FX8_120P_SV'(!)       = 'CON120_FX8_120P'                         | '120'          | '578-0006-0'             | '0.6MM HEADER SMD TYPE FX8 HRS'
+ 'AXK5A2145'  (!)       = 'CON120AXK5A2XXX'                         | '120'          | 'AXK5A2145'              | '0.5MM SOCKET CONNECTOR P5 SERIES NAIS'
+ 'AXK6A2345'  (!)       = 'CON120AXK6A2XXX'                         | '120'          | 'AXK6A2345'              | '0.5MM HEADER CONNECTOR P5 SERIES NAIS'
+ 'QTE-060-01-L-D-A'(!)  = 'SAMTEC_QTE-060-01-X-D-A'  		    | '132'          | 'QTE-060-01-L-D-A'       | '120 Contacts 0.8mm Hi-Speed Header QTE Series'            : POWER_PINS = '(GND:121..132)' , DATASHEET_URL= 'file://cern.ch/dfs/Services/cdslib/Datasheets/samtec_QTE.pdf' 
+
+END_PART
+
+PART 'CON120AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                  ;
+{========================================================================================}
+ 'RN_P50L_120PAS'(!)    = 'CON120ABRNP_SMD'                         | '126'          | '09.55.32.P50.120PAS'    | '1.27MM CENTERLINE SMT PLUG(TYPE A)'                         : NC_PINS = '(121..126)'
+ 'RN_P50L_120SAS'(!)    = 'CON120ABRNS_SMD'                         | '126'          | '09.55.32.P50.120SAS'    | '1.27MM CENTERLINE SMT SOCKET(TYPE A)'                       : NC_PINS = '(121..126)'
+
+END_PART
+
+PART 'CON120ABC'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                 | DESCRIPTION                                                         ;
+{========================================================================================}
+ '854-90-120MC'(!)      = 'CON120ABC_127MC'                         | '120'          | '854-90-120-20-001'      | 'PRECI-DIP'                                                  | 'SERIES 850 PCB CONNECTOR 1.27mm TRIPLE ROW Solder tail'
+
+END_PART
+
+PART 'CON124AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                 | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'PCI32BIT_UNI'(!)      = 'CON124ABPCIFC'                           | '126'          | '09.98XXXX-120-2MCF'     | 'MERITEC'                                                    | 'PCI CONNECTOR UNIVERSAL 32 BIT 90D'                                : NC_PINS = '(125,126)'
+
+END_PART
+
+PART 'CON128P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                  | MANUFACTURER                                                        ;
+{========================================================================================}
+ 'CONDO-HEADER.1X.1C'(!) = 'CONVROUC4X32'                            | '130'          | '09.55.CONDO-HEADER'     | '.100X.100 CONDO HEADER RIGHT ANGLE 4WALL 3000 Series'       | '3M'                                                                : NC_PINS = '(129,130)'
+
+END_PART
+
+PART 'CON144P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'SO144DIMM3V3'(!)      = 'CONBERG144FC_SMD'                        | '148'          | '09.61178-318144'        | 'BERG'                                                                | 'SO 144 PINS DIMM CONNECTOR 3V3'                                    : NC_PINS = '(145..148)'
+
+END_PART
+
+PART 'CON17P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'BARD17'(!)            = 'CONBARD17'                               | '17'           | '07.88.26.536.9'         | 'PRECI_DIP'                                                           | 'BARRETTE 17 PINS MALE A SOUDER'
+
+END_PART
+
+PART 'CON188AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER           | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'PCI64BIT_UNI'(!)      = 'CON188ABPCIFC'                           | '192'          | '09.98XXXX-184-2MCF'     | 'MERITEC'              | 'Right Angle Universal 64Bits PCI Connector' : NC_PINS = '(189..192)'
+
+END_PART
+
+PART 'CON2X62AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ '2X62AB-PCI'(!)        = 'CON62AB_PCI5V'                           | '120'          | '09.55.CON2X62AB'
+
+END_PART
+
+PART 'CON20AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'P50E_20P1_SR1'(!)     = 'CONIDC20MC'                              | '22'           | '09.55.21.320.6'         | 'IDC CONNECTORS P50E SERIES'                                          : NC_PINS = '(21,22)'
+ 'RN_P50L_020PAS'(!)    = 'CON20ABRNP_SMD'                          | '26'           | '09.55.32.P50.20PAS'     | '1.27MM CENTERLINE SMT PLUG(TYPE A)'                                  : NC_PINS = '(21..26)'
+ 'RN_P50L_020SAS'(!)    = 'CON20ABRNS_SMD'                          | '26'           | '09.55.32.P50.20SAS'     | '1.27MM CENTERLINE SMT SOCKET(TYPE A)'                                : NC_PINS = '(21..26)'
+
+END_PART
+
+PART 'CON240P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE     | PINCOUNT | PART_NUMBER | MANUFACTURER  | DESCRIPTION  ;
+{========================================================================================}
+ 'MICROPAX240RA_TMR'(!) = 'CON240FC_FCI' |'240'| '94768-001'         | 'BERG'   | 'RIGHT ANGLE THROUGH MOUNT RECEPTACLE 0.635mm CENTERLINE'
+ 'MICROPAX240RA_TMP'(!) = 'CON240MC_FCI' |'240'| '94767-001'         | 'BERG'   | 'RIGHT ANGLE THROUGH MOUNT PLUG 0.635mm CENTERLINE'
+ 'QSH120_01XD'      (!) = 'QSH120_01XDA' |'256'| 'QSH-120-01-X-D-XX' | 'SAMTEC' | '0.5 mm Double Row HS Socket Assembly' : POWER_PINS ='(GND:241..256)'
+
+END_PART
+
+PART 'CON240AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'MICROPAX240RA_TMR'(!) = 'CON240ABFC_FCI'                          | '240'          | '94768-001'              | 'BERG'                                                                | 'RIGHT ANGLE THROUGH MOUNT RECEPTACLE 0.635mm CENTERLINE'
+ 'MICROPAX240RA_TMP'(!) = 'CON240ABMC_FCI'                          | '240'          | '94767-001'              | 'BERG'                                                                | 'RIGHT ANGLE THROUGH MOUNT PLUG 0.635mm CENTERLINE'
+ 'MOLEX52760_SMT'(!)    = 'CON240AB_52760'                          | '242'          | '52760-2409'             | 'MOLEX'                                                               | 'BOARD TO BOARD 0.635mm PITCH RECEPTACLE VERTICAL'                  : NC_PINS = '(241,242)'
+ 'MOLEX53475_SMT'(!)    = 'CON240AB_53475'                          | '242'          | '53475-2409'             | 'MOLEX'                                                               | 'BOARD TO BOARD 0.635mm PITCH PLUG VERTICAL'                        : NC_PINS = '(241,242)'
+
+END_PART
+
+PART 'CON24ABCD'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'BERG4X6MD'(!)         = 'CONBERG4X6MD'                            | '26'           | '09.61.88951'            | 'PCB-MOUNTED SIGNAL HEADER 2mm CENTERLINES'                           : NC_PINS = '(25,26)'
+ 'BERG4X6'(!)           = 'CONBERG4X6FC'                            | '27'           | '09.61.70227'            | 'PCB-MOUNTED SIGNAL RECEPTACLE 90D 2mm CENTERLINES'                   : NC_PINS = '(25..27)'
+ 'BERG4X2'(!)           = 'CONBERG4X6MC'                            | '27'           | '09.61.70231'            | 'PCB-MOUNTED POWER RECEPTACLE 90D 2mm CENTERLINES'                    : NC_PINS = '(25..27)'
+
+END_PART
+
+PART 'CON2X25P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'DSUB_FC'(!)           = 'CON2X25FC_DSUB'                          | '52'           | 'C-440397'               | 'TYCO'                                                                | 'D-SUB DUAL 25 PINS CONNECTOR FEMALE 90D'                           : POWER_PINS = '(GND:1,2)'
+
+END_PART
+
+PART 'CON30AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'RN_P50L_030PA'(!)     = 'CONROBINSONXXXXXXX'                      | '32'           | '09.55.32.P50.30PA'      | 'RN PAK-50 LOW PROFILE PLUG(TYPE A)'                                  : NC_PINS = '(31,32)'
+ 'RN_P50L_030PC'(!)     = 'CONROBINSONXXXXXXX'                      | '32'           | '09.55.32.P50.30PC'      | 'RN PAK-50 LOW PROFILE PLUG(TYPE C)'                                  : NC_PINS = '(31,32)'
+ 'RN_P50L_030SA'(!)     = 'CONROBINSONXXXXXXX'                      | '32'           | '09.55.32.P50.30SA'      | 'RN PAK-50 LOW PROFILE SOCKET(TYPE A)'                                : NC_PINS = '(31,32)'
+ 'RN_P50L_030SB'(!)     = 'CONROBINSONXXXXXXX'                      | '32'           | '09.55.32.P50.30SB'      | 'RN PAK-50 LOW PROFILE SOCKET(TYPE B)'                                : NC_PINS = '(31,32)'
+ 'RN_P50L_030SC'(!)     = 'CONROBINSONXXXXXXX'                      | '32'           | '09.55.32.P50.30SD'      | 'RN PAK-50 LOW PROFILE SOCKET(TYPE D)'                                : NC_PINS = '(31,32)'
+ 'RN_P50L_030PAS'(!)    = 'CON30ABRNP_SMD'                          | '36'           | '09.55.32.P50.30PAS'     | '1.27MM CENTERLINE SMT PLUG(TYPE A)'                                  : NC_PINS = '(31..36)'
+ 'RN_P50L_030SAS'(!)    = 'CON30ABRNS_SMD'                          | '36'           | '09.55.32.P50.30SAS'     | '1.27MM CENTERLINE SMT SOCKET(TYPE A)'                                : NC_PINS = '(31..36)'
+ 'IMSA9830S'(!)         = 'CON30IMSA9830S'                          | '32'           | '09.IMSA9830S30'         | 'IRISO BOARD-TO-BOARD CONNECTOR SOCKET'                               : NC_PINS = '(31,32)'
+ 'IMSA9841B'(!)         = 'CON30IMSA9841B'                          | '34'           | '09.IMSA9841B30'         | 'IRISO BOARD-TO-BOARD CONNECTOR PLUG'                                 : NC_PINS = '(31..34)'
+
+END_PART
+
+PART 'CON30ABC'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE         | PINCOUNT       | PART_NUMBER      | MANUFACTURER   | DESCRIPTION                          | DATASHEET_URL      ;
+{========================================================================================}
+ 'ERNI_424189'(!)       = 'CONEURC3X10M'     | '32'           | '424189'         | 'ERNI'         | 'Male Connector C/3, 30 Solder'      | 'file://cern.ch/dfs/Services/cdslib/Datasheets/erni_424189.pdf' : NC_PINS = '(1,2)', SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.61.35.050.5'
+
+END_PART
+
+PART 'CON34AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                 | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'P50E_34P1_SR1'(!)     = 'CONCIDC_34'                              | '36'           | 'P50E-034P1-SR1-EA'      | '3M'                         | '34 Contacts 1.27mm Pitch Right Angle 3M(TM) Pak 50 Boardmount Plug - P50E Series'  : NC_PINS = '(69,70)', SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.21.334.0'
+ 'RN_P25E_34STG'(!)     = 'CON34P25ESTG'                            | '34'           | '09.55.P25E34STG'        | ''                           | 'RN PAK-50 IDC CONNECTOR P25E SERIE SOCKET CABLE'
+ 'RN_P50_034SRR1'(!)    = 'CON34P_034S_RR1'                         | '34'           | '09.55.21.534.4'         | ''                           | 'RN , PAK-50 1.27MM. SOCKET RIGHT ANGLE CONNECTOR'
+
+END_PART
+
+PART 'CON37P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE               | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'DSUBC37F'(!)     = 'CONDSUBC37F'            | '39'           | '09.21.22.130.1'         : NC_PINS = '(38,39)'
+ 'DSUBC37F_FCT'(!) = 'CONDSUBC37F'            | '39'           | 'F-37S5G2-0997'          : NC_PINS = '(38,39)'
+ 'DSUBC37M'(!)     = 'CONDSUBC37M'            | '39'           | '09.21.22.140.9'         : NC_PINS = '(38,39)'
+ 'DSUBD37F'(!)     = 'CONDSUBD37F'            | '37'           | '09.21.22.DSUBD37F'
+ 'DSUBD37M'(!)     = 'CONDSUBD37M'            | '37'           | '09.21.22.DSUBD37M'
+ 'DSUBD37M_EDGE'(!) = 'CONDSUBD37M_EDGE'      | '37'           | '105695_FARNELL'
+ 'DSUBD37F_EDGE'(!) = 'CONDSUBD37F_EDGE'      | '37'           | '105698_FARNELL'
+ 'DSUBD37M_EDGE_SHORT'(!) = 'DSUBD37M_EDGE_SHORT'   | '37'     | 'DCF37POL'  : MANUFACTURER = 'ITW'
+ 'DSUBD37F_EDGE_SHORT'(!) = 'DSUBD37F_EDGE_SHORT'   | '37'     | 'DCF37SOL'  : MANUFACTURER = 'ITW'
+
+
+
+END_PART
+
+PART 'CON40AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'RN_P50L_040PAS'(!)    = 'CON40ABRNP_SMD'                          | '46'           | '09.55.32.P50.40PAS'     | 'ROBINSON-NUGENT'                                                     | '1.27MM CENTERLINE SMT PLUG(TYPE A)'                                : NC_PINS = '(41..46)'
+ 'RN_P50L_040SAS'(!)    = 'CON40ABRNS_SMD'                          | '46'           | '09.55.32.P50.40SAS'     | 'ROBINSON-NUGENT'                                                     | '1.27MM CENTERLINE SMT SOCKET(TYPE A)'                              : NC_PINS = '(41..46)'
+ 'P50E_40P1_SR1'(!)     = 'CONMCIDC_40'                             | '40'           | 'P50E-040P1-SR1'         | 'ROBINSON-NUGENT'                                                     | 'P50E SERIE PLUG'
+ 'P50LE_40P1_RR1'(!)    = 'CONP50LE40PC'                            | '42'           | 'P50LE-40P1-RR1'         | 'ROBINSON-NUGENT'                                                     | '40 Contacts Low-Profile P50LE Series Plug'                         : NC_PINS = '(41,42)'
+ 'IMSA9830S'(!)         = 'CON40IMSA9830S'                          | '42'           | '09.IMSA9830S40'         | 'IRISO'                                                               | 'BOARD-TO-BOARD CONNECTOR SOCKET'                                   : NC_PINS = '(41,42)'
+ 'IMSA9841B'(!)         = 'CON40IMSA9841B'                          | '44'           | '09.IMSA9841B40'         | 'IRISO'                                                               | 'BOARD-TO-BOARD CONNECTOR PLUG'                                     : NC_PINS = '(41..44)'
+ 'M50-4922005'(!)       = 'CON40MD_M50_49'                          | '40'           | 'M50-4922005'            | 'HARMAN'                                                              | 'DOUBLE ROW SURFACE MOUNT PIN HEADER 2 POLARISED WITH POSTS'
+ 'FX2_40P_127SV'(!)     = 'CON40MD_FX2_127SV'                       | '40'           | 'FX2-40P-1.27SV'         | 'HSR'                                                                 | '1.27 mm Pitch Header SMD Straight FX2 Series'
+ 'FX2_40P_127SVL'(!)    = 'CON40MD_FX2_127SVL'                      | '40'           | 'FX2-40P-1.27SVL'        | 'HSR'                                                                 | '1.27 mm Pitch Header SMD Straight FX2 Series'
+ 'FX2C_40P_127DSA'(!)   = 'CON40MD_FX2C_127DSA'                     | '40'           | 'FX2C-40P-1.27DSA'       | 'HSR'                                                                 | '1.27 mm Pitch Header Straight FX2C Series'
+ 'FX2CA2_40P_127DSA'(!) = 'CON40MD_FX2CA2_127DSA'                   | '42'           | 'FX2CA2-40P-1.27DSA'     | 'HSR'                                                                 | '1.27 mm Pitch Header Straight Cleaning Type FX2CA2 Series'         : POWER_PINS = '(GND:1,2)'
+ '354065'(!)            = 'ERNI_354065'                             | '44'           | '354065'                 | 'ERNI'                                                                | '40 Pin Dual Row 1.27 mm Pitch SMC Vertical Female Connector'       : POWER_PINS = '(GND:1..4)'
+
+END_PART
+
+
+PART 'CON43P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'RPI43G20R5'(!)        = 'CON43FC_PI43'                            | '43'           | 'RPI43G20R5G00'          | 'FCI'                                                                 | 'RIGHT-ANGLE BOARDMOUNT RECEPTACLE'
+ 'PI43G20PTB'(!)        = 'CON43MC_PI43'                            | '43'           | 'PI43G20PTBF08'          | 'FCI'                                                                 | 'RIGHT-ANGLE BOARDMOUNT MALE'
+
+END_PART
+
+PART 'CON36AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{=======================================================================================}
+:TYPE                                             = JEDEC_TYPE                | PINCOUNT | PART_NUMBER           | MANUFACTURER           | DESCRIPTION                                                         ;
+{=======================================================================================}
+ 'CON2X18AB'(!)                                   = 'CONCAR2X18AB'                | '36' | 'NONE'                | 'NONE'                 | 'CONNECTEUR 2X18AB POUR CARD PCIEXPRESS'
+ 'CON2X18AB_PCI'(!)                               = 'CONAB2X18_PCI'               | '36' | '1612163-1'           | 'TYCO ELECTRONICS'     | '2X18AB CONNECTOR PCI EXPRESS THROUGH HOLES PITCH 2MM'
+ 'CON36AB_PCIE_EDGE_PCB' (~CON36AB_PCIE_EDGE_PCB) = 'CON36AB_PCIE_EDGE_PCB'       | '36' | 'NONE'                | 'NONE'                 | 'PCI Express PCB Connector'                            : DATASHEET_URL= 'file://cern.ch/dfs/Services/cdslib/Datasheets/PCIE-XXX-02-X-D-EM2.pdf'
+ 'PCIE-036-02-F-D-EM2'   (~PCIE-036-02-F-D-EM2)   = 'SAMTEC_PCIE-036-02-X-D-EM2'  | '36' | 'PCIE-036-02-F-D-EM2' | 'SAMTEC'               | 'PCI Express Connector'                                : DATASHEET_URL= 'file://cern.ch/dfs/Services/cdslib/Datasheets/PCIE-XXX-02-X-D-EM2.pdf'
+
+END_PART
+
+PART 'CON41612M40'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'STV_M40/4-M-AC'(!)    = 'CON41612M40_4MAC'                        | '44'           | '594 160'                | 'ERNI'                                                                | 'MALE CONNECTOR TYPE M (DIN41612)'
+
+END_PART
+
+PART 'CON46AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+'AMP26-AB'(!)       = 'CONAMP2X23AB_254'                            | '46'           | '2-216603-3'             | 'AMP'                                                                 | 'THROUG HOLE CONNECTOR 2.54MM FEMALE COUDE'
+
+END_PART
+
+
+PART 'CON48ABC'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE        | PINCOUNT | PART_NUMBER | MANUFACTURER | DESCRIPTION    ;
+{========================================================================================}
+ 'ERNI_413864'(!)  = 'CONEUR48ABC_MC'  | '48'     | '413864'   | 'ERNI'  | '90D Male Connector For Daughter Card Type C/2'
+ 'ERNI_424198'(!)  = 'CONEUR48ABC_FC'  | '48'     | '424198'   | 'ERNI'  | '90D Female Connector For Daughter Card Type R/2'
+ 'ERNI_424198INV'(!)='CONINV48ABC_FC'  | '48'     | '424198'   | 'ERNI'  | '90D Female Connector For Daughter Card Type R/2' Pins inverted from original
+
+END_PART
+
+PART 'CON48ABCD'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'BERG4X12MD'(!)        = 'CONBERG4X12MD'                           | '48'           | '09.61.536501-2'         | 'AMP'                                                                 | 'HIGH SPEED 2 mm CENTERLINE (Z-PACK 2mm FB)'
+ 'BERG4X12FC'(!)        = 'CONBERG4X12FC'                           | '48'           | '09.61.536507-2'         | 'AMP'                                                                 | 'HIGH SPEED 2 mm CENTERLINE (Z-PACK 2mm FB)'
+
+END_PART
+
+PART 'CON52P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE              | GENDER                        = JEDEC_TYPE     | PINCOUNT | PART_NUMBER | MANUFACTURER| DESCRIPTION                                      | DATASHEET_URL                                                         ;
+{========================================================================================}
+
+ 'TYCO_292443-1'   |'RECEPTACLE'  (~TYCO_292443-1) = 'TYCO_292443'  |'54'      |'292443-1'   |   'TYCO'    | 'Mini PCI Express Connector Assembly (5.6H)'     | 'file://cern.ch/dfs/Services/cdslib/Datasheets/tyco_292443.pdf'                    : POWER_PINS = '(GND:53,54)'
+
+END_PART
+
+
+PART 'CON52AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'P50E_52P1_SR1'(!)     = 'CONMCIDC_52'                             | '52'           | '09.55.21.352.8'         | 'IDC P50E MICRORIBBON MALE COUDE'
+ 'RN_P25E_52STG'(!)     = 'CON52P25ESTG'                            | '52'           | 'P25E52STG'              | 'RN PAK-50 IDC CONNECTOR P25E SERIE SOCKET CABLE'
+
+END_PART
+
+PART 'CONA5X22P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE             | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                                                       | MANUFACTURER       ;
+{========================================================================================}
+ 'CONABCDE110MA'(!)     = 'CON110IECAMD'         | '111'          | '243-11010-15'       | 'MALE CONNECTOR TYPE A'                                                                               | 'EPT'            : NC_PINS = '(111)'
+ 'CONABCDE110FA'(!)     = 'CON110IECAFC'         | '112'          | '243-11100-15'       | '90D FEMALE CONNECTOR TYPE A WITHOUT SHIELDING'                                                       | 'EPT'            : NC_PINS = '(111,112)'
+ 'CONABCDEF110FA'(!)    = 'CON110IECAFCS'        | '137'          | '244-11300-15'       | '5x22Pins 2mm Pitch Right Angle Female Type A25 Connector with Shielding - Press-Fit Terminations'    | 'EPT'            : POWER_PINS = '(GND:F1..F25)' , NC_PINS = '(111,112)'
+ 'CONZABCDEF154MA'(!)   = 'CON154IECAMD'         | '155'          | '243-11310-15'       | 'MALE CONNECTOR TYPE A'                                                                               | 'EPT'            : NC_PINS = '(155)' , POWER_PINS = '(GND:F1..F11,F15..F25,Z1..Z11,Z15..Z25)'
+ 'CONAMP110FA_S'(!)     = 'CON110IECAFC'         | '112'          | '100147-1'           | '90D FEMALE CONNECTOR TYPE A STANDARD'                                                                | 'AMP'            : NC_PINS = '(111,112)'
+ 'CONAMP110FA_RC'(!)    = 'CON110IECAFC'         | '112'          | '100623-1'           | '90D FEMALE CONNECTOR TYPE A REDUCED CROSSTALK'                                                       | 'AMP'            : NC_PINS = '(111,112)'
+ '5X22FCSH'      (!)    = 'CON110FCSH_PCIA'      | '135'          | 'NONE'               | '90D FEMALE CONNECTOR SHIELD TYPE PCIA'                                                               | 'AVX'            : POWER_PINS = '(GND:F1..F25)'
+ '5X22MCSH'      (!)    = 'CON110MCSH_PCIA'      | '135'          | 'NONE'               | '90D MALE CONNECTOR SHIELD TYPE PCIA'                                                                 | 'AVX'            : POWER_PINS = '(GND:F1..F25)'
+
+END_PART
+
+PART 'CONC5X11P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE             | PINCOUNT       | PART_NUMBER          | DESCRIPTION                                                           | MANUFACTURER        ;
+{========================================================================================}
+ 'CONFABCDEZ55FC11'(!)  = 'CONERNI5X11FD_GND'    | '77'           | '104114'             | 'FEMALE CONNECTOR TYPE C WITH SHIELDING'                              | 'ERNI'           : POWER_PINS = '(GND:F1..F11,Z1..Z11)'
+ 'ABCDE5X11FC'(!)       = 'CON55IECBFC'          | '55'           | '100161'             | '5x11 Contacts 2mm Hard Metric Pitch Right-Angle Female Connector'    | 'TYCO'
+ 'ABCDEZ5X11FC'(!)      = 'CON55IECBFCZ'         | '66'           | '95678'              | 'HAR-BUS HM FEMALE CONNECTOR TYPE C 55 POL WITH SHIELD ROW-Z'         | 'HARTING'        : POWER_PINS = '(GND:Z1..Z11)'
+END_PART
+
+PART 'CONB5X19P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE             | PINCOUNT       | PART_NUMBER          | DESCRIPTION                                                                                           | MANUFACTURER    ;
+{========================================================================================}
+ 'CONABCDE95MB19'(!)    = 'CON95IECB19MD'        | '95'           | '243-23010-15'       | 'MALE CONNECTOR TYPE B'                                                                               | 'EPT'
+ 'CONZABCDEF133MB19'(!) = 'CON133IECB19MD'       | '133'          | '243-23310-15'       | 'MALE CONNECTOR TYPE B WITH SHIELDING'                                                                | 'EPT'           : POWER_PINS = '(GND:F1..F19,Z1..Z19)'
+ 'ERNI_114112'(!)       = 'ERNI_114112'          | '133'          | '114112'             | '5x19Pins 2mm Pitch Vertical Female Type B Connector with Shielding - Pressfit Terminations'          | 'ERNI'          : POWER_PINS = '(GND:F1..F19,Z1..Z19)', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/erni_114112.pdf', CASE='ZABCDEF19', PRESSFIT='YES'
+ 'CONABCDE95FB19'(!)    = 'CON95IECB19FC'        | '95'           | '244-23000-15'       | '5x19Pins 2mm Pitch Right Angle Female Type B19 Connector without Shielding - Press-Fit Terminations' | 'EPT'
+ 'CONABCDEF95FB19'(!)   = 'CON95IECB19FCS'       | '114'          | '244-23300-15'       | '5x19Pins 2mm Pitch Right Angle Female Type B19 Connector with Shielding - Press-Fit Terminations'    | 'EPT'           : POWER_PINS = '(GND:F1..F19)'
+
+END_PART
+
+PART 'CONB5X22P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE             | PINCOUNT       | PART_NUMBER          | DESCRIPTION                                                                                           | MANUFACTURER                                                        ;
+{========================================================================================}
+ 'ABCDE110MC_EDGE'(!)   = 'CON110MC_PCIB'        | '132'          | 'C106015'            | 'Z-PACK 2mm HM TYPE B22 110POS SHIELD 90D CONNECTOR ASSEMBLY'                                         | 'AMP'                                                               : POWER_PINS = '(GND:F1..F22)'
+ 'CONABCDE110MB22'(!)   = 'CON110IECB22MD'       | '110'          | '243-22xx0-15'       | 'MALE CONNECTOR TYPE B22'                                                                             | 'EPT'
+ 'CONABCDE110FB22'(!)   = 'CON110IECB22FC'       | '110'          | '244-22000-15'       | '5x22Pins 2mm Pitch Right Angle Female Type B19 Connector without Shielding - Press-Fit Terminations' | 'EPT'
+ 'ERNI_114114'(!)       = 'CON110FC_ABCDEFZ'     | '152'          | '114114'             | 'FEMALE CONNECTOR TYPE B22 WITH SHIELDING'                                                            | 'ERNI'                                                              : POWER_PINS = '(GND:F2..F22,Z2..Z22)'
+ 'ERNI_064785'(!)       = 'CON110FC_PCIBSH'      | '132'          | '064785'             | 'Right Angle Female Connector Type B22 with Shilding'                                                 | 'ERNI'                                                              : POWER_PINS = '(GND:F1..F22)'
+ 'CONABCDEF110FB22'(!)  = 'CON110IECB22FCS'      | '132'          | '244-22300-15'       | '5x22Pins 2mm Pitch Right Angle Female Type B19 Connector with Shielding - Press-Fit Terminations'    | 'EPT'                                                               : POWER_PINS = '(GND:F1..F22)'
+ 'CONZABCDEF154MB22'(!) = 'CON154IECB22MD'       | '154'          | '243-22310-15'       | 'MALE CONNECTOR TYPE B22 WITH SHIELDING'                                                              | 'EPT'                                                               : POWER_PINS = '(GND:F1..F22,Z1..Z22)'
+ 'PCIJ2FREE_A1B'(!)     = 'CON110IECB22FCS_A1B'  | '132'          | '17 24 110 2101'     | 'FREE FEMALE CON PCI TYPE B WITH SHIELDING A1 BOTTOM'                                                 | 'HARTING'                                                           : POWER_PINS = '(GND:F1..F22)'
+
+END_PART
+
+PART 'CONB5X25P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER          | DESCRIPTION                                                           | MANUFACTURER                                                        ;
+{========================================================================================}
+ 'CONABCDE125MB'(!)     = 'CON125IECBMD'                            | '125'          | '243-21010-15'       | 'MALE CONNECTOR TYPE B'                                               | 'EPT'
+ 'CONABCDE125FB'(!)     = 'CON125IECBFC'                            | '125'          | '244-21000-15'       | 'FEMALE CONNECTOR TYPE B WITHOUT SHIELDING'                           | 'EPT'
+ 'CONABCDEF125FB'(!)    = 'CON125IECBFCS'                           | '150'          | '244-21300-15'       | 'FEMALE CONNECTOR TYPE B WITH SHIELDING'                              | 'EPT'                                                               : POWER_PINS = '(GND:F1..F25)'
+ 'CONZABCDEF175MB'(!)   = 'CON175IECBMD'                            | '175'          | '243-21310-15'       | 'MALE CONNECTOR TYPE B WITH SHIELDING'                                | 'EPT'                                                               : POWER_PINS = '(GND:F1..F25,Z1..Z25)'
+ 'CONAMP125FB_S'(!)     = 'CON125IECBFC'                            | '125'          | '100145-1'           | '5x25 Contacts 2mm Hard Metric Pitch Right-Angle Female Connector'    | 'TYCO'
+ 'CONAMP125FB_RC'(!)    = 'CON125IECBFC'                            | '125'          | '100624-1'           | 'FREE BOARD FEMALE CONNECTOR TYPE B REDUCED CROSSTALK'                | 'TYCO'
+ 'ERNI_064179'(!)       = 'CON125FC_PCIBSH'                         | '150'          | '064179'             | 'Right Angle Female Connector Type B with Shilding'                   | 'ERNI'                                                              : POWER_PINS = '(GND:F1..F25)'
+
+END_PART
+
+PART 'CONPCI5X44P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER          | DESCRIPTION                                                           | MANUFACTURER                                                        ;
+{========================================================================================}
+ 'CONZABCDEF308MPCI'(!) = 'CON308IECPCIMD'                          | '309'          | '243-12321-15'       | 'MALE CONNECTOR TYPE COMPACT PCI WITH SHIELDING'                      | 'EPT'                                                               : POWER_PINS = '(GND:F1..F11,F15..F47,Z1..Z11,Z15..Z47)' , NC_PINS = '(309)'
+ 'CONABCDE220FPCI'(!)   = 'CON220IECPCIFC'                          | '222'          | '244-12000-15'       | 'FEMALE CONNECTOR TYPE COMPACT PCI'                                   | 'EPT'                                                               : NC_PINS = '(221,222)'
+ 'CONABCDEF220FPCI'(!)  = 'CON220IECPCIFCS'                         | '269'          | '244-12300-15'       | 'FEMALE CONNECTOR TYPE COMPACT PCI WITH SHIELDING'                    | 'EPT'                                                               : POWER_PINS = '(GND:F1..F47)' , NC_PINS = '(221,222)'
+
+END_PART
+
+PART 'CON60AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'P50E_60P1_SR1'(!)     = 'CONMCIDC_60'                             | '60'           | '09.55.21.360.8'         | 'ROBINSON NUGENT'                                                     | 'IDC P50E MICRORIBBON MALE COUDE'
+ 'P50E_60S_RR1'(!)      = 'CONFCIDC_60'                             | '62'           | '09.55.21.560.2'         | 'ROBINSON NUGENT'                                                     | 'IDC P50E MICRORIBBON FEMM COUDE'                                   : POWER_PINS = '(GND:61,62)'
+ 'RN_P50L_060PAS'(!)    = 'CON60ABRNP_SMD'                          | '66'           | 'P50.60PAS'              | 'ROBINSON NUGENT'                                                     | '1.27MM CENTERLINE SMT PLUG(TYPE A)'                                : NC_PINS = '(61..66)'
+ 'RN_P50L_060SAS'(!)    = 'CON60ABRNS_SMD'                          | '66'           | 'P50.60SAS'              | 'ROBINSON NUGENT'                                                     | '1.27MM CENTERLINE SMT SOCKET(TYPE A)'                              : NC_PINS = '(61..66)'
+ 'RN_P25E_60STG'(!)     = '625ESTG'                                 | '60'           | 'P25E60STG'              | 'ROBINSON NUGENT'                                                     | 'RN PAK-50 IDC CONNECTOR P25E SERIE SOCKET CABLE'
+ 'IMSA9830S'(!)         = 'CON60IMSA9830S'                          | '62'           | 'IMSA9830S60'            | 'IRISO'                                                               | 'BOARD-TO-BOARD CONNECTOR SOCKET'                                   : NC_PINS = '(61,62)'
+ 'IMSA9841B'(!)         = 'CON60IMSA9841B'                          | '64'           | 'IMSA9841B60'            | 'IRISO'                                                               | 'BOARD-TO-BOARD CONNECTOR PLUG'                                     : NC_PINS = '(61..64)'
+ 'FTSH130_GUIDE_ASM'(!) = 'FTSH130_SUB_ASM'                         | '60'           | 'FTSH-130-01-S-DV'       | 'SAMTEC'                                                              | 'SMT FLEX CARD GUIDE SYSTEM ASM FOR FTSH_130-01-S-DV'
+END_PART
+
+PART 'CON64P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER   ;
+{========================================================================================}
+ 'BARC2X32'(!)          = 'CONHE13C2X32M'                           | '64'           | '09.55.05.BARC2X32'      | 'X'
+ 'BARD2X32'(!)          = 'CONHE13D2X32M'                           | '64'           | '09.55.05.BARD2X32'      | 'X'
+ 'VROUD2X32'(!)         = 'CONVROUD2X32'                            | '66'           | '09.55.05.670.1'         | '3M'         : NC_PINS = '(65,66)'
+ 'VROUC2X32'(!)         = 'CONVROUC2X32'                            | '66'           | '09.55.05.770.8'         | '3M'         : NC_PINS = '(65,66)'
+ 'MOLEX64P'(!)          = 'MOLEX64'                                 | '66'           | '09.53483-0649'          | 'MOLEX'      : NC_PINS = '(65,66)'
+ 'CLE132_01G_DV'(!)     = 'CLE132DVA_SMD'                           | '64'           | 'CLE-132-01-G-DV'        | 'SAMTEC'
+ 'FTE132_01G_DV'(!)     = 'FTE132DV_SMD'                            | '64'           | 'FTE-132-01-G-DV'        | 'SAMTEC'
+ 'CON64FPMC-PN1'(!)     = 'CON64FMEZ_PCI'                           | '66'           | '120521-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Receptacle Connector' , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.41.064.3'
+ 'CON64MPMC-PN1'(!)     = 'CON64MMEZ_PCI'                           | '66'           | '120527-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Plug Connector'       , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.40.064.7'
+ 'CON64FPMC-PN2'(!)     = 'CON64FMEZ_PCI'                           | '66'           | '120521-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Receptacle Connector' , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.41.064.3'
+ 'CON64MPMC-PN2'(!)     = 'CON64MMEZ_PCI'                           | '66'           | '120527-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Plug Connector'       , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.40.064.7'
+ 'CON64FPMC-PN3'(!)     = 'CON64FMEZ_PCI'                           | '66'           | '120521-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Receptacle Connector' , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.41.064.3'
+ 'CON64MPMC-PN3'(!)     = 'CON64MMEZ_PCI'                           | '66'           | '120527-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Plug Connector'       , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.40.064.7'
+ 'CON64FPMC-PN4'(!)     = 'CON64FMEZ_PCI'                           | '66'           | '120521-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Receptacle Connector' , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.41.064.3'
+ 'CON64MPMC-PN4'(!)     = 'CON64MMEZ_PCI'                           | '66'           | '120527-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Plug Connector'       , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.40.064.7'
+ 'CON64FPMC-FREE'(!)    = 'CON64FMEZ_PCI'                           | '66'           | '120521-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Receptacle Connector' , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.41.064.3'
+ 'CON64MPMC-FREE'(!)    = 'CON64MMEZ_PCI'                           | '66'           | '120527-1'               | 'AMP/TYCO'   : NC_PINS = '(65,66)', DESCRIPTION='64 Positions 1mm Free Height (IEEE 1386) Plug Connector'       , SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.40.064.7'
+
+END_PART
+
+PART 'CON68AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'P50E_68P1_S1'(!)      = 'CONCIDD_68'                              | '70'           | '09.55.21.268.3'         | '3M/ROBINSON-NUGENT'                                                  | 'MICRORIBBON ROBINSON-NUGENT'                                       : NC_PINS = '(69,70)'
+ 'P50E_68P1_SR1'(!)     = 'CONMCIDC_68'                             | '68'           | 'P50E-068P1-SR1-EA'      | '3M/ROBINSON-NUGENT'                                                  | '68 Contacts MicroRibbon Male Right-Angle Connector'                : SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.21.368.0'
+ 'P50E_68P1_SR1G'(!)    = 'CONCIDC_68G'                             | '70'           | 'P50E-068P1-SR1-EA'      | '3M/ROBINSON-NUGENT'                                                  | '68 Contacts MicroRibbon Male Right-Angle Connector'                : POWER_PINS = '(GND:69,70)', SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.55.21.368.0'
+ 'P50LE_68P1_RR1'(!)    = 'CONP50LE68PC'                            | '70'           | 'P50LE-068P1-RR1'        | '3M/ROBINSON-NUGENT'                                                  | 'ROBINSON-NUGENT P50LE SERIE'                                       : NC_PINS = '(69,70)'
+ 'RN_P25E_68STG'(!)     = 'CON68P25ESTG'                            | '68'           | 'P25E68STG'              | '3M/ROBINSON-NUGENT'                                                  | 'RN PAK-50 IDC CONNECTOR P25E SERIE SOCKET CABLE'
+ 'AMP68ABMC_050'(!)     = 'CON68ABMC_050'                           | '70'           | '2-174225-5'             | 'AMP'                                                                 | '68 POSITIONS 0.050 BOARD MOUNT CONNECTOR RIGHT ANGLE MALE'         : NC_PINS = '(69,70)'
+ 'ROBINSON68MD'(!)      = 'CONCIDD_68'                              | '70'           | '09.55.21.268.x'         | '3M/ROBINSON-NUGENT'                                                  | 'MICRORIBBON ROBINSON-NUGENT'                                       : NC_PINS = '(69,70)'
+ 'ERNI68MC_B'(!)        = 'CON68ABMC_114805'                        | '68'           | '114805'                 | 'ERNI'                                                                | 'Right Angle Male Connector Type B Standard Assembly Height'
+ 'ERNI68FD_B'(!)        = 'CON68ABFD_114803'                        | '72'           | '114803'                 | 'ERNI'                                                                | '68 Contacts Dual Row Vertical Female Type B Connector'             : NC_PINS = '(1..4)'
+ 'ERNI68MD_Q'(!)        = 'CON68ABMD_114807'                        | '72'           | '114807'                 | 'ERNI'                                                                | 'Straight Connector Type Q Standard Assembly Height'                : NC_PINS = '(1..4)'
+
+END_PART
+
+PART 'CON69P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'CONAN_VR69P'(!)       = 'CONSMD69_VR'                             | '71'           | 'CONAN_VR69P'            | 'BERG'                                                                | 'CONAN69P VERTICAL RECEPTACLE SMT'                                  : NC_PINS = '(70,71)'
+ 'BKT_SMD69P'(!)        = 'CON69MDSMD_BKT'                          | '69'           | 'BKT-169-X-L-V-S'        | 'SAMTEC'                                                              | '1mm POLARIZED HEADER BKT SERIES'
+ 'BKS_SMD69P'(!)        = 'CON69FDSMD_BKS'                          | '69'           | 'BKS-169-01-F-V-A'       | 'SAMTEC'                                                              | 'STAGGERED 1mm C.L. SURFASE MOUNT SOCKET BKS SERIES'
+
+END_PART
+
+PART 'CON70AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'IMSA9830S'(!)         = 'CON70IMSA9830S'                          | '72'           | 'IMSA9830S70'            | 'IRISO'                                                               | 'BOARD-TO-BOARD CONNECTOR SOCKET'                                   : NC_PINS = '(71,72)'
+ 'IMSA9841B'(!)         = 'CON70IMSA9841B'                          | '74'           | 'IMSA9841B70'            | 'IRISO'                                                               | 'BOARD-TO-BOARD CONNECTOR PLUG'                                     : NC_PINS = '(71..74)'
+
+END_PART
+
+PART 'CON71P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'ALICE_PIXEL_PSEUDO_M'(!) = 'XXX'                                  | '71'           | '09.55.10.PSEUDO.M'      | 'PRINTED CIRCUIT CONNECTOR ALICE PIXEL PSEUDO MALE'
+ 'ALICE_PIXEL_PSEUDO_F'(!) = 'XXX'                                  | '71'           | '09.55.10.PSEUDO.F'      | 'PRINTED CIRCUIT CONNECTOR ALICE PIXEL PSEUDO FEMALE'
+
+END_PART
+
+PART 'CON76P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   | NOTE                                      = JEDEC_TYPE     | PINCOUNT                 | PART_NUMBER                                                           | MANUFACTURER                                                        | DESCRIPTION                                         ;
+{========================================================================================}
+ 'MICTOR76PC'           | 'VDD:77..81;GND:82..86'(MICTOR76PC)       = 'CON76PLUGRA'  | '88'                     | '09.MICTOR76PC'                                                       | 'AMP'                                                               | 'MICTOR SMT PLUG .64 CENTER LINE RIGHT-ANGLE'       : POWER_PINS = '(VDD:77..81;GND:82..86)' , NC_PINS = '(87,88)'
+ 'MICTOR76PV'           | 'VDD:77..81;GND:82..86'(MICTOR76PV)       = 'CON76PLUGV'   | '87'                     | '09.MICTOR76PV'                                                       | 'AMP'                                                               | 'MICTOR SMT PLUG .64 CENTER LINE VERTICAL'          : POWER_PINS = '(VDD:77..81;GND:82..86)' , NC_PINS = '(87)'
+ 'MICTOR76RC'           | 'VDD:77..81;GND:82..86'(MICTOR76RC)       = 'CON76RECV'    | '87'                     | '09.MICTOR76RC'                                                       | 'AMP'                                                               | 'MICTOR SMT RECEPTACLE .64 CENTER LINE RIGHT-ANGLE' : POWER_PINS = '(VDD:77..81;GND:82..86)' , NC_PINS = '(87)'
+
+END_PART
+
+PART 'CON8ROWS320'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER           | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'MSB140_03_G8'(!)      = 'CON320M_SMD'                             | '320'          | 'MSB140_03_G8'        | 'SAMTEC'                                                              | 'CONNECTORS MSB SERIES (MALE)'
+ 'CSB140_03_G8'(!)      = 'CON320F_SMD'                             | '322'          | 'CSB140_03_G8'        | 'SAMTEC'                                                              | 'CONNECTORS CSB SERIES (FEMALE)'                                    : NC_PINS = '(321,322)'
+ 'YFT140-05-G-E'(!)     = 'CON320YFT05EA_B'                         | '322'          | 'YFT140-05-G-E'       | 'SAMTEC'                                                              | 'CONNECTORS MSB SERIES (MALE)'                                      : NC_PINS = '(321,322)'
+ 'YFE140-01-G-E'(!)     = 'CON320YFEEA_B'                           | '322'          | 'YFE140-01-G-E'       | 'SAMTEC'                                                              | 'CONNECTORS CSB SERIES (FEMALE)'                                    : NC_PINS = '(321,322)'
+
+END_PART
+
+PART 'CON80ABCD'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'CON4X20P'(!)          = 'XXX'                                     | '80'           | 'NONE'                   | 'X'                                                                   | 'NONE'
+ 'FOLC120_02SQLC'(!)    = 'CON80_FOLC02LC'                          | '80'           | 'FOLC120-02-SQ-LC'       | 'SAMTEC'                                                              | 'SMT .050x.050 SOCKETS FOLC SERIES'
+
+END_PART
+
+PART 'CON82P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'SIP82'(!)             = 'CONHE13D82M'                             | '82'           | '09.55.10.82WRAP-PINS'   | 'PRINTED CIRCUIT CONNECTOR SPACING 2,54MM'
+
+END_PART
+
+PART 'CON88P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'SIP88'(!)             = 'CONHE13D88M'                             | '88'           | '09.55.10.88WRAP-PINS'   | 'PRINTED CIRCUIT CONNECTOR SPACING 2,54MM'
+
+END_PART
+
+PART 'CON90P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'BERG90MSMD'(!)        = 'CONBERG90M_SMD'                          | '92'           | '09.55.32.BERG-145'      | 'SMD VERTICAL SHROUDET HEADERS 1.27'                                  : NC_PINS = '(91,92)'
+ 'BERG90FSMD'(!)        = 'CONBERG90F_SMD'                          | '92'           | '09.55.32.BERG-645'      | 'SMD VERTICAL RECEPTACLE 1.27'                                        : NC_PINS = '(91,92)'
+
+END_PART
+
+PART 'CON42ABC_10TO23'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'TB0903142x901'(!)     = 'CON42MC_6901'                            | '42'           | '09.61.37.030.1'         | 'HARTING'                                                             | 'CONNECTOR 42+6 HIGH CURRENT OR COAXIAL CONTACT'
+
+END_PART
+
+PART 'CON45P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ '45FXS_RSM1'(!)        = 'CON45FXS_RSM'                            | '45'           | '45FXS-RSM1-G-1-TF'      | 'JST'                                                                 | 'FXS CONNECTOR FOR FPC LOCK'
+
+END_PART
+
+PART 'CONA11'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='EUR1X11M')   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'EUR1X11M'(!)          = 'CONEUR1X11M'                             | '13'           | '09.KPBCL'               : NC_PINS = '(1,2)'
+
+END_PART
+
+
+
+PART 'CON96ABCD'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'BERG4X24'(!)          = 'XXX'                                     | '108'          | '09.61.70229'            | 'PCB-MOUNTED RECEPTACLE ASSEMBLIES 2mm CENTERLINES'                   : NC_PINS = '(97..108)'
+
+END_PART
+
+PART 'CON136AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'ITT2X68PCMCIA'(!)     = 'XXX'                                     | '138'          | '09.HC068DN'             | 'ITT CANNON 68P DUAL-HIGH HOST CONNECTOR'                             : NC_PINS = '(137,138)'
+
+END_PART
+
+PART 'CONABCDE160'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'EURC5X32M'(!)         = 'CONEURC5X32M'                            | '162'          | '09.61.C5X32M'           | 'ERNI TYPE STVE160M ABCDE'                                            : NC_PINS = '(1,2)'
+ 'EURD5X32F'(!)         = 'CONEURD5X32F'                            | '162'          | '09.61.D5X32F'           | 'ERNI TYPE STVE160F ABCDE'                                            : NC_PINS = '(1,2)'
+
+END_PART
+
+PART 'CON56'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE             | GENDER                     =  STATUS      | PART_NUMBER       | MANUFACTURER | DESCRIPTION                              | DATASHEET_URL                                                   | PINCOUNT  |  SMD  |  SCEM  |  JEDEC_TYPE          ;
+{========================================================================================}
+'FTE-128-01-G-DV' | 'HEADER'(~FTE-128-01-G-DV) =  'Preferred' | 'FTE-128-01-G-DV' | 'SAMTEC'     |  '0.8MM SMT Header FTE Series Vertical'  | 'file://cern.ch/dfs/Services/cdslib/Datasheets/samtec_FTE.pdf'  | '56'      | 'yes' | 'NS'   | 'SAMTEC_FTE-128-01-G-DV'
+'CLE-128-01-G-DV' | 'SOCKET'(~CLE-128-01-G-DV) =  'Preferred' | 'CLE-128-01-G-DV' | 'SAMTEC'     |  '0.8MM SMT Header CLE Series Vertical'  | 'file://cern.ch/dfs/Services/cdslib/Datasheets/samtec_CLE.pdf'  | '56'      | 'yes' | 'NS'   | 'SAMTEC_CLE-128-01-G-DV'
+END_PART
+
+PART 'CON56AB'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE     | PINCOUNT | PART_NUMBER   | DESCRIPTION                  ;
+{========================================================================================}
+ 'BARFD2X28AB'(!)  = 'ABFD_254'| '56'  | 'NONE' | 'Connector 56 Pins AB Female Straight 2.54 mm'
+
+END_PART
+
+PART 'CONG64'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ '2X32AB'(!)            = 'CONG64'                                  | '66'           | '09.61.30.215.2'         | 'OBSOLETE REPLACE WITH CON64AB EURMC2X32'
+
+END_PART
+
+PART 'CONNEC130'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='FAS2X65')    = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'FAS2X65'(!)           = 'CONFAST2X65'                             | '130'          | '09.FAS2X65'
+
+END_PART
+
+PART 'CONNEC195'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='FAS3X65')    = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'FAS3X65'(!)           = 'CONFAST3X65'                             | '195'          | '09.FAS3X65'
+
+END_PART
+
+
+PART 'CON215P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'MIS095_01FD'(!)       = 'CON215_MIS635'                           | '215'          | 'MIS095-01FD'            | 'SAMTEC'                                                              | '0.635mm Hi-Speed Header MIS Series (5 X 38P + 25 PWR PIN)'
+ 'MIT095_01FD'(!)       = 'CON215_MIT635'                           | '215'          | 'MIT095-01FD'            | 'SAMTEC'                                                              | '0.635mm Hi-Speed Header MIT Series (5 X 38P + 25 PWR PIN)'
+
+END_PART
+
+PART 'CONNECCAM86'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='CONCAR2X43')   = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'CONCAR2X43'()           = 'CONCAR2X43'                              | '86'           | '09.CONCAR2X43'
+
+END_PART
+
+PART 'CONNFASTAUX'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='3X65')         = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ '3X65'(!)                = 'CONFAST3X65'                             | '195'          | '09.AUX3X65'
+
+END_PART
+
+PART 'CONNFASTBUS'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='2X65')         = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ '2X65'(!)                = 'CONFAST2X65'                             | '130'          | '09.2X65'
+
+END_PART
+
+PART 'CONNVME'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='EUR3X32')      = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'EUR3X32'(!)             = 'HARTING_09031966921'                     | '98'           | '09 03 196 6921'         : NC_PINS = '(1,2)',DESCRIPTION='96poles DIN41612 Type C Male Right Angle PCB Connector',MANUFACTURER='HARTING',DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/harting_09031962921.pdf'
+ 'EUR3X32_REAR_FEMALE'(!) = 'CONEURC3X32F'                            | '98'           | '09 73 296 6801'         : NC_PINS = '(1,2)'
+ '09031966921'(!)         = 'HARTING_09031966921'                     | '98'           | '09 03 196 6921'         : NC_PINS = '(1,2)',DESCRIPTION='96poles DIN41612 Type C Male Right Angle PCB Connector',MANUFACTURER='HARTING',DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/harting_09031966921.pdf'
+
+END_PART
+
+PART 'CONNVMEJAUX'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER      | MANUFACTURER     |  DESCRIPTION                                            | DATASHEET_URL  ;
+{========================================================================================}
+ 'CONNVMEJAUX'(!)         = 'CONEURC3X10M'                            | '32'           | '424189'         |   'ERNI'         |  '30 Poles DIN41612 Male Connector C/3, 30 Solder'      |  'file://cern.ch/dfs/Services/cdslib/Datasheets/erni_424189.pdf' : NC_PINS = '(1,2)', SCEM='http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=09.61.35.050.5'
+
+END_PART
+
+PART 'CONNVMEP2'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='EUR3X32')      = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ '09031966921'(!)         = 'HARTING_09031966921'                     | '98'           | '09 03 196 6921'         : NC_PINS = '(1,2)',DESCRIPTION='96poles DIN41612 Type C Male Right Angle PCB Connector',MANUFACTURER='HARTING',DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/harting_09031966921.pdf'
+ '09 73 296 6801'(!)      = 'HARTING_09732966801'                     | '98'           | '09 73 296 6801'         : NC_PINS = '(1,2)',DESCRIPTION='96poles DIN41612 Type R Female Right Angle PCB Connector',MANUFACTURER='HARTING',DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/harting_0973296x801.pdf'
+ '09 73 296 6801 RTM'(!)  = 'HARTING_09732966801_RTM'                 | '98'           | '09 73 296 6801'         : NC_PINS = '(1,2)',DESCRIPTION='96poles DIN41612 Type R Female Right Angle PCB Connector',MANUFACTURER='HARTING',DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/harting_0973296x801.pdf'
+
+END_PART
+
+PART 'CONVXIP1'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='EUR3X32')      = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'EUR3X32'(!)             = 'CONEURC3X32M'                            | '98'           | '09 03 196 6921'         : NC_PINS = '(1,2)'
+ 'EUR3X32_REAR_FEMALE'(!) = 'CONEURC3X32F'                            | '98'           | '09 73 296 6801'         : NC_PINS = '(1,2)'
+ 'EUR3X32WW'(!)           = 'CONEURC3X32M'                            | '98'           | '09.61.33.330.8'         : NC_PINS = '(1,2)'
+
+END_PART
+
+PART 'CONVXIP2'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='EUR3X32')      = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'EUR3X32'(!)             = 'CONEURC3X32M'                            | '98'           | '09 03 196 6921'         : NC_PINS = '(1,2)'
+ 'EUR3X32_REAR_FEMALE'(!) = 'CONEURC3X32F'                            | '98'           | '09 73 296 6801'         : NC_PINS = '(1,2)'
+ 'EUR3X32WW'(!)           = 'CONEURC3X32M'                            | '98'           | '09.61.33.330.8'         : NC_PINS = '(1,2)'
+
+END_PART
+
+PART 'CONVXIP3'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE(OPT='EUR3X32')      = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'EUR3X32'(!)             = 'CONEURC3X32M'                            | '98'           | '09 03 196 6921'         : NC_PINS = '(1,2)'
+ 'EUR3X32_REAR_FEMALE'(!) = 'CONEURC3X32F'                            | '98'           | '09 73 296 6801'         : NC_PINS = '(1,2)'
+ 'EUR3X32WW'(!)           = 'CONEURC3X32M'                            | '98'           | '09.61.33.330.8'         : NC_PINS = '(1,2)'
+
+END_PART
+
+PART 'HARLINK-12P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'HARLINK12'(!)           = 'CONHARTING12F'                           | '13'           | 'HARLINK12'           : NC_PINS = '(13)'
+
+END_PART
+
+PART 'JACK4P_1SW'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ '40F140'    (!)          = 'JACK_40F140'                             | '4'            | '5202550'                | 'BUERKLIN'                            | '6.3 mm DIAMETER JACK DOUBLE-POLE HORIZONTAL'
+
+END_PART
+
+PART 'JACK7P'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE        = JEDEC_TYPE   | PINCOUNT  | PART_NUMBER     | MANUFACTURER     | DESCRIPTION                       ;
+{========================================================================================}
+ 'HSSDC2'(!)  = 'JACK7P_HSSDC2'  | '13'  | '1364532'      | 'TYCO'    | 'Receptacle Assembly Infiniband SMD Single Row'  : POWER_PINS = '(GND:8..13)'
+
+END_PART
+
+PART 'JACK_RJ45X2'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                          = JEDEC_TYPE             | PINCOUNT       | PART_NUMBER              | MANUFACTURER          | DESCRIPTION                                                         ;
+{========================================================================================}
+ '445600012'(~MOLEX_445600012) = 'MOLEX_445600012'      | '19'           | '445600012'              | 'MOLEX'               | 'Compact Ganged RJ45 Category 5E Modjack'        : POWER_PINS = '(GND:1,2,3)',DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/molex_445600012.pdf'
+
+END_PART
+
+PART 'JACK_RJ45X4'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                          = JEDEC_TYPE             | PINCOUNT       | PART_NUMBER              | MANUFACTURER          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'HFJ14_1G01E'(!)              = 'RJ45X4_HFJ14'         | '40'           | 'HFJ14_1G01E'            | 'HALO'                | 'SINGLE LEVEL GIGABIT RJ-45 CONNECTORS'          : POWER_PINS = '(VCC:A9,B9,C9,D9; GND:A10,B10,C10,D10)'
+ '94910'(!)                    = 'RJ45X4_94910'         | '37'           | '94910-X04N'             | 'FCI'                 | 'R/A 8 Pos Gang Jack Assy Shielded Snap PEG'     : POWER_PINS = '(GND:1,2,3,4,5)', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/FCI_94910.pdf'
+ '94910-X04MLF'(~94910-X04MLF) = 'FCI_94910_X04XX'      | '37'           | '94910-X04MLF'           | 'FCI'                 | 'R/A 8 Pos Gang Jack Assy Shielded Snap PEG'     : POWER_PINS = '(GND:1,2,3,4,5)', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/FCI_94910.pdf'
+ 'TYCO_5569260'(~TYCO_5569260) = 'TYCO_5569260'         | '38'           | '5569260-1'              | 'TYCO'                | 'Jack Assy 2X2 Port 8 Pos Shielded'              : POWER_PINS = '(GND:1,2,3,4,5,6)', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/tyco_5569260.pdf'
+END_PART
+
+PART 'JACK_RJ45X6'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ '33TS3012SR'(!)          = 'RJ45X6S_94910'                           | '55'           | '33TS3012SR_06'          | 'CONEC'                                                               | '6 PORT PCB JACK (RJ45 SHIELD)'                                     : POWER_PINS = '(GND:1,2,3,4,5,6,7)'
+
+END_PART
+
+PART 'JACK_MJD'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | MANUFACTURER                                                          | DESCRIPTION                                                         ;
+{========================================================================================}
+ 'MJD10X8P_ABCDEFGHJK'(!) = 'JACK10X8P_ABCDEFGHJK'                    | '90'           | '133066'                 | 'ERNI'                                                                | 'MOD JACK MJD RIGHT ANGLE 10X8P PITCH 2.54 SHIELD'                : POWER_PINS = '(GND:81,82,83,84,85,86,87,88,89,90)'
+
+END_PART
+
+PART 'OLC48'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'OLC48'(!)               = 'CONOLC48'                                | '48'           | '09.OLC48'
+
+END_PART
+
+PART 'PCIO'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              ;
+{========================================================================================}
+ 'CONCAR2X31'(!)          = 'CONCAR2X31'                              | '62'           | '09.CONCAR2X31'
+
+END_PART
+
+PART 'GLM'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = JEDEC_TYPE                                | PINCOUNT       | PART_NUMBER              | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'MOLC-120-01'(!)         = 'TH'                                      | '82'           | '09.MOLC-120-01'         | '050x050 MICRO STRIPS THROUGH HOLE'                                   : NC_PINS = '(81,82)'
+ 'MOLC-120-02'(!)         = 'SM'                                      | '82'           | '09.MOLC-120-02'         | '050x050 MICRO STRIPS SURFASE MOUNT'                                  : NC_PINS = '(81,82)'
+ 'FOLC-120-01'(!)         = 'TH'                                      | '82'           | '09.FOLC-120-01'         | '050x050 MICRO STRIPS THROUGH HOLE'                                   : NC_PINS = '(81,82)'
+ 'FOLC-120-02'(!)         = 'SM'                                      | '82'           | '09.FOLC-120-02'         | '050x050 MICRO STRIPS SURFASE MOUNT'                                  : NC_PINS = '(81,82)'
+
+END_PART
+
+END.
+

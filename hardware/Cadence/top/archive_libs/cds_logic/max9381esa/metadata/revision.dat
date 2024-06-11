@@ -1,0 +1,196 @@
+(Cell	max9381esa
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	06/27/22,10:13:26)
+
+			(User	phdgc)
+
+			(Path	bris_cds_logic.max9381esa)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	06/27/22,10:13:26)
+
+					(User	phdgc)
+
+					(Path	bris_cds_logic.max9381esa)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ef3e576a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/27/22,10:13:26)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.max9381esa)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e3303e7)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000f10bdd11)
+
+			(Primitives	1
+
+				(Primitive	MAX9381ESA
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Modified)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	)
+
+							(User	)
+
+							(Path	)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX9381ESA
+
+							(PackType	MAX9381ESA)
+
+							(PackType	MAX9381ESA_SMD)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	SOIC8)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d7603e3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S029 (4026063))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bc2037e)
+
+)
+

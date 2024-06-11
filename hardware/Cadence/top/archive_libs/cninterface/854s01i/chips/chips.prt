@@ -1,0 +1,35 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive '854S01I_QFN';
+  pin
+    'PCLK'<0>:
+      PIN_NUMBER='(3,1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'NPCLK'<0>:
+      PIN_NUMBER='(4,2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'NQ':
+      PIN_NUMBER='(10*2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'Q':
+      PIN_NUMBER='(11*2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'CLK_SEL':
+      PIN_NUMBER='(6*2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'RESERVED':
+      PIN_NUMBER='(5*2)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    BODY_NAME='854S01I';
+    PART_NAME='854S01I';
+    PHYS_DES_PREFIX='IC';
+    CLASS='IC';
+    GROUND_NETS='GND';
+    POWER_PINS='(GND:9,12,14,15,17)';
+    POWER_PINS='(VDD:8,13)';
+    NC_PINS='(7,16)';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,22 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC2991'
+CLASS=IC
+PHYS_DES_PREFIX=IC
+
+{========================================================================================}
+: TYPE            | PACK_TYPE                  = STATUS       | PART_NUMBER        | MANUFACTURER        | DESCRIPTION                                         | DATASHEET_URL                                               | PINCOUNT | SMD   | CASE     | JEDEC_TYPE;
+{========================================================================================}
+
+'LTC2991CMS#PBF'  | 'MSOP'(~LTC2991CMS#PBF)    = 'Preferred'  | 'LTC2991CMS#PBF'   | 'LINEAR TECHNOLOGY' | 'Octal I2C Voltage Current and Temperature Monitor' | 'file://cern.ch/dfs/services/cdslib/datasheets/ltc2991.pdf' | '16'     | 'YES' | 'MSOP16' | 'SOP50P490X110-16N' : POWER_PINS='(GND:9;VCC:16)'
+
+END_PART
+
+END.
+
+
+
+
+
+
+

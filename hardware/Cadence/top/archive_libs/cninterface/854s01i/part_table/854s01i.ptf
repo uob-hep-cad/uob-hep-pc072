@@ -1,0 +1,18 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '854S01I'
+CLASS=IC
+PHYS_DES_PREFIX=IC
+
+{========================================================================================}
+: TYPE            |  PACK_TYPE           =  STATUS     | PART_NUMBER     | MANUFACTURER     | DESCRIPTION                             | DATASHEET_URL                                                | PINCOUNT | SMD   | CASE       | JEDEC_TYPE;
+{========================================================================================}
+ '854S01AKILF'    | 'QFN'(~854S01AKILF)  = 'Preferred' | '854S01AKILF'   | 'IDT'            | '2:1 Differential-to-LVDS Multiplexer'  | 'file://cern.ch/dfs/services/cdslib/datasheets/854s01i.pdf'  | '17'     | 'YES' | 'QFN16'    | 'QFN50P300X300X100-17N-S180' : POWER_PINS='(GND:9,12,14,15,17;VDD:8,13)', NC_PINS='(7,16)'
+
+END_PART
+END.
+
+
+
+
+

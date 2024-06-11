@@ -1,0 +1,200 @@
+(Cell	optocoupler_ac_ec
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/01/14,16:07:21)
+
+			(User	billerea)
+
+			(Path	cndiscrete.optocoupler_ac_ec)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ffaeb787)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/01/14,16:07:21)
+
+							(User	billerea)
+
+							(Path	cndiscrete.optocoupler_ac_ec)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000114dbd36)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/01/14,16:07:21)
+
+							(User	billerea)
+
+							(Path	cndiscrete.optocoupler_ac_ec)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ca403dd)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000001b8b58b5)
+
+			(Primitives	1
+
+				(Primitive	OPTOCOUPLER_AC_EC_1234
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/01/14,16:07:21)
+
+							(User	billerea)
+
+							(Path	cndiscrete.optocoupler_ac_ec)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OPTOCOUPLER_AC_EC
+
+							(PackType	OPTOCOUPLER_AC_EC_1234)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bbb0387)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.3-S040 (v16-3-85BY))
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001d3c03aa)
+
+)
+

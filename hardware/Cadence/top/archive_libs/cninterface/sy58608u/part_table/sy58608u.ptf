@@ -1,0 +1,18 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SY58608U'
+PHYS_DES_PREFIX=IC
+CLASS=IC
+
+{========================================================================================}
+:TYPE             | PACK_TYPE           = STATUS      | PART_NUMBER  | MANUFACTURER | DESCRIPTION                                                                               | DATASHEET_URL                                                | PINCOUNT | SMD   | CASE    | JEDEC_TYPE                    ;
+{========================================================================================}
+ 'SY58608UMG'     | 'QFN'(~SY58608UMG)  = 'Preferred' | 'SY58608UMG' | 'MICREL'     | '3.2Gbps Precision, 1:2 LVDS Fanout Buffer with Internal Termination and Fail Safe Input' | 'file://cern.ch/dfs/Services/cdslib/datasheets/sy58608u.pdf' | '17'     | 'YES' | 'QFN16' | 'QFN50P300X300X90-17N-S160' 
+
+END_PART
+
+END.
+
+
+
+

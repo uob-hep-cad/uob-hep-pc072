@@ -1,0 +1,28 @@
+FILE_TYPE=LIBRARY_PARTS   ;
+TIME=' Compilation on  8-DEC-1988 at 13:39:50.15';
+PRIMITIVE 'CON10P';
+ PIN
+  'A'<9> :PIN_NUMBER='(10)';
+  'A'<8> :PIN_NUMBER='(9)';
+  'A'<7> :PIN_NUMBER='(8)';
+  'A'<6> :PIN_NUMBER='(7)';
+  'A'<5> :PIN_NUMBER='(6)';
+  'A'<4> :PIN_NUMBER='(5)';
+  'A'<3> :PIN_NUMBER='(4)';
+  'A'<2> :PIN_NUMBER='(3)';
+  'A'<1> :PIN_NUMBER='(2)';
+  'A'<0> :PIN_NUMBER='(1)';
+ END_PIN;
+ BODY
+  PART_NAME='CON10P';
+  BODY_NAME='CON10P';
+  VER='3';
+  NO_IO_CHECK='TRUE';
+  NO_LOAD_CHECK='TRUE';
+  UNKNOWN_LOADING='TRUE';
+  FAMILY='CONNECTOR';
+  ALLOW_CONNECT='TRUE';
+  SIZE='1';
+ END_BODY;
+END_PRIMITIVE;
+END.

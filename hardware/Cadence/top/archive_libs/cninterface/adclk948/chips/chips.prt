@@ -1,0 +1,50 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'ADCLK948_LFCSP';
+  pin
+    'VREF0':
+      PIN_NUMBER='(3,3,3,3,3,3,3,3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VREF1':
+      PIN_NUMBER='(8,8,8,8,8,8,8,8)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VT0':
+      PIN_NUMBER='(4,4,4,4,4,4,4,4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VT1':
+      PIN_NUMBER='(7,7,7,7,7,7,7,7)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'CLK0':
+      PIN_NUMBER='(1,1,1,1,1,1,1,1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'CLK1':
+      PIN_NUMBER='(5,5,5,5,5,5,5,5)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '-CLK0':
+      PIN_NUMBER='(2,2,2,2,2,2,2,2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '-CLK1':
+      PIN_NUMBER='(6,6,6,6,6,6,6,6)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'IN_SEL':
+      PIN_NUMBER='(32,32,32,32,32,32,32,32)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'Q'<0>:
+      PIN_NUMBER='(12,14,18,20,22,24,28,30)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '-Q'<0>:
+      PIN_NUMBER='(11,13,17,19,21,23,27,29)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='ADCLK948';
+    BODY_NAME='ADCLK948';
+    PHYS_DES_PREFIX='IC';
+    CLASS='IC';
+    GROUND_NETS='VEE';
+    POWER_PINS='(VEE:33)';
+    POWER_PINS='(VCC:10,15,16,25,26,31)';
+    NC_PINS='(9)';
+  end_body;
+end_primitive;
+
+END.

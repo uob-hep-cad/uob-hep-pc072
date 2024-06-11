@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADCLK948'
+CLASS=IC
+
+{========================================================================================}
+:TYPE           | PACK_TYPE               = STATUS      | PART_NUMBER    | MANUFACTURER     | DESCRIPTION                                                       | DATASHEET_URL                                                | PINCOUNT | SMD   | CASE      | JEDEC_TYPE                   ;
+{========================================================================================}
+ 'ADCLK948BCPZ' | 'LFCSP'(~ADCLK948BCPZ)  = 'Preferred' | 'ADCLK948BCPZ' | 'ANALOG DEVICES' | 'Two Selectable Inputs 8 LVPECL Outputs SiGe Clock Fanout Buffer' | 'file://cern.ch/dfs/Services/cdslib/datasheets/adclk948.pdf' | '33'     | 'YES' | 'LFCSP32' | 'QFN50P500X500X100-33N-S285' : POWER_PINS='(VEE:33;VCC:10,15,16,25,26,31)', NC_PINS='(9)'
+
+END_PART
+
+END.
+
+

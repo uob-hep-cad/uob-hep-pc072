@@ -1,0 +1,53 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON THU JAN 30 11:41:48 1997  ';
+primitive 'FERRITE','FERRITE_SMD';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='FERRITE';
+    BODY_NAME='FERRITE';
+    NO_LOAD_CHECK='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    NO_IO_CHECK='TRUE';
+  end_body;
+end_primitive;
+
+primitive 'FERRITE_AXIAL';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  end_pin;
+  body
+    CLASS='DISCRETE';
+    PART_NAME='FERRITE';
+    BODY_NAME='FERRITE';
+    NO_LOAD_CHECK='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    NO_IO_CHECK='TRUE';
+  end_body;
+end_primitive;
+
+END.

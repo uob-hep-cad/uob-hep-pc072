@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TRANS MOSFET'
+PHYS_DES_PREFIX=T
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE              | PACK_TYPE | TYPE             = STATUS                    | PART_NUMBER         | MANUFACTURER              | DESCRIPTION                                                      | DATASHEET_URL                                                      | PINCOUNT | SMD     | CASE            | JEDEC_TYPE                    ;
+{========================================================================================}
+ 'PJE8408'          | 'GSD'     | 'SOT523'(!)      = ''                        | 'PJE8408'           | 'PANJIT SEMICONDUCTOR'    | '500mA 20V N-Channel Enhancement Mode MOSFET'                    | 'file://cern.ch/dfs/services/cdslib/datasheets/pje8408.pdf'        | '3'      | 'YES'   | 'SOT523-3'      | 'SOTFL50P160X60-3N'
+
+END_PART
+
+END.

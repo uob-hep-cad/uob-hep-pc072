@@ -1,0 +1,445 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+
+PART 'TANTPOLY'
+PINCOUNT=2
+PHYS_DES_PREFIX=C
+CLASS=DISCRETE
+DESCRIPTION='Tantalum Electrolytic Capacitor'
+
+{========================================================================================}
+: VALUE          | VOLTAGE      | PACK_TYPE    = VALUE        | JEDEC_TYPE            | PART_NUMBER                           ;
+{========================================================================================}
+ '220uF'   | '6.3V'        | 'SMD'(!)     = '220uF'      | 'T520V'      | 'T520V227M006ATE018'        : MANUFACTURER = 'Kemet', CASE = 'Z', SMD = 'YES', VOLT='6.3V', TOL='20%', DESCRIPTION='Low-profile Polymer Tantalum Capacitor', DATASHEET_URL = 'https://www.mouser.co.uk/datasheet/2/427/t55-1763893.pdf' 
+END_PART
+
+PART 'CAPACITOR'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE   | TOLERANCE | MANUF(OPT='CAT')   = CI         | PART_NUMBER              | PART_DESCRIPTION                                 | JEDEC_TYPE     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ '2220'           | '1N'    | '+/-20%'  | 'WIMA'(!)          = '03509A-1' | 'WIMA 2220-1N-100V'      | '1nF SMD Capacitor, 2220,100V'                   | 'SMD2220'      | 'Available from Farnell 568855'  | '-'         | '-'        
+ '2220'           | '10N'   | '+/-20%'  | 'WIMA'(!)          = '03509A-1' | 'WIMA 2220-10N-100V'     | '10nF SMD Capacitor, 2220,100V'                  | 'SMD2220'      | 'Available from Farnell 570266'  | '-'         | '-'        
+ '2220'           | '100N'  | '+/-20%'  | 'WIMA'(!)          = '03509A-1' | 'WIMA 2220-100N-100V'    | '100nF SMD Capacitor, 2220,100V'                 | 'SMD2220'      | 'Available from Farnell 570321'  | '-'         | '-'        
+ '2220'           | '1U'    | '+/-20%'  | 'AVX'(!)           = '03509A-2' | '22201C105KAT1A'         | '1uF SMD Capacitor, 2220,100V'                   | 'SMD2220'      | 'Available from Farnell 7569459' | '-'         | '-'
+ '2220'           | '47U'   | '+/-20%'  | 'TDK'(!)           = '03509A-3' | 'C5750X5R1C476M230KA'    | '47uF SMD Capacitor, 2220,16V'                   | 'SMD2220'      | 'Available from Farnell 2112739' | '-'         | '-' 
+ 'CASE-E'         | '1500U' | '+/-10%'  | 'AVX'(!)           = '03263A-1' | 'EPCOS TPME158K004R0018' | '1500uF 4V tantalum SMD capacitor, Case size: E' | 'CASE_E'       | 'Digikey 478-3627-1-ND'          | '-'         | '-'        
+ 'GS-2XX'         | '800M'  | '+/-20%'  | 'CAP-X'(!)         = '03267A-1' | 'CAP-X GS208D'           | '800mF 4.5V SuperCapacitor'                      | 'GS-2XX'       | 'Free samples'                   | '-'         | '-'  
+ '1206'           | '10N'   | '+/-5%'   | 'AVX'(!)           = '03267B-1' | 'AXV 12063A103JAT2A'     | '10nF 25V 1206 C0G/NP0 +/- 30ppm/K'              | 'SMD1206'      | 'Farnell 1658883'                | '-'         | '-'        
+ '1206'           | '10P'   | '+/-5%'   | 'AVX'(!)           = '03267C-1' | 'AXV 1206GA100JAT2A'     | '10pF 2000V 1206 C0G/NP0 +/- 30ppm/K'            | 'SMD1206'      | 'Farnell 1658883'                | '-'         | '-'  
+END_PART
+
+
+PART 'CAPACITOR-HV'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE   | TOLERANCE | MANUF(OPT='CAT')   = CI         | PART_NUMBER              | PART_DESCRIPTION                                 | JEDEC_TYPE     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'HV-PTH-AS-SMD'  |  '1N'   | '+/-5%'   | 'AVX'(!)           = '03269C-1' | 'AXV 1206GA100JAT2A'     | '10pF 2000V 1206 C0G/NP0 +/- 30ppm/K'            | 'HV_PTH_AS_SMD'| 'Farnell 1658883'                | '-'         | '-'  
+END_PART
+
+PART 'DIODE_BRIS'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE      | MANUF(OPT='CAT')   = CI                 | PART_NUMBER  | PART_DESCRIPTION         | JEDEC_TYPE                                       | OL_COMMENTS    | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'PTH'            | 'BZX85C20' | 'Vishay'(!)        = '00362A-2'         | 'RS 812-522' | '20V Zener Diode'        | 'GENK_2_400_120_36'                              | '-'            | '-'                              | '-'        
+
+END_PART
+
+PART 'TRANSISTOR-JFET'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE      | MANUF(OPT='CAT')   = CI                 | PART_NUMBER  | PART_DESCRIPTION                 | OL_COMMENTS                                      | KL_COMMENTS    | PL_COMMENTS                      ;
+{========================================================================================}
+ 'MPAK'           | '2SK322'   | 'Hitachi'(!)       = ''                 | ''           | 'Silicon N-Channel Junction FET' | ''                                               | ''             | ''                              
+ 'TO72'           | '2N4416'   | 'Vishay'(!)        = ''                 | ''           | 'Silicon N-Channel'              | ''                                               | ''             | ''                              
+ 'SOT23'          | 'BFT46'    | 'Phillips'(!)      = ''                 | ''           | 'Silicon N-Channel'              | ''                                               | ''             | ''                              
+
+END_PART
+
+PART 'TRANSISTOR-PNP'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE      | MANUF(OPT='CAT')   = CI                 | PART_NUMBER  | PART_DESCRIPTION                 | OL_COMMENTS                                      | KL_COMMENTS    | PL_COMMENTS                      ;
+{========================================================================================}
+ 'SOT23'          | 'BFT92'    | 'Siemens'(!)       = ''                 | ''           | 'low power wideband'             | ''                                               | ''             | ''                              
+
+END_PART
+
+PART 'TRANSISTOR-IGBT'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER  | PART_DESCRIPTION                 | OL_COMMENTS                                      | KL_COMMENTS    | PL_COMMENTS                      ;
+{========================================================================================}
+ 'TO-220'         | 'BUP213'    | 'Siemens'(!)       = ''                 | ''           | 'Vce=1200V(max) IGBT'            | 'Farnell 743586'                                 | ''             | ''                              
+ 'TO-247AC'       | 'IRG4PH20K' | 'IR'(!)            = ''                 | ''           | 'Vce=1200V(max) IGBT'            | 'Farnell 8650667'                                | ''             | ''                              
+
+END_PART
+
+PART 'TRANSISTOR-I-MIRROR-PNP'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER      | PART_DESCRIPTION                        | OL_COMMENTS                                      | KL_COMMENTS    | PL_COMMENTS                      ;
+{========================================================================================}
+ 'SOT143'         | 'BCV62C'    | 'Infinion'(!)      = '02105A-1'         | 'Farnell 743203' | 'SMT matched pair (Current Mirror) PNP' | '-'                                              | '-'            | '-'                             
+
+END_PART
+
+PART 'TRANSISTOR-I-MIRROR-NPN'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                        | OL_COMMENTS                                      | KL_COMMENTS    | PL_COMMENTS                      ;
+{========================================================================================}
+ 'SOT143'         | 'BCV61C'    | 'Infinion'(!)      = '02105A-1'         | 'Farnell 	1056514' | 'SMT matched pair (Current Mirror) NPN' | '-'                                              | '-'            | '-'                             
+
+END_PART
+
+PART 'RESISTOR'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ '0603'           | '22R'       | '1%'               | 'Vishay'(!)        = ''                 | 'RS 347-9011'                           | '22R SMD Resistor, 0.063W, 0603'                 | '-'                                                 | '-'                              | '-'        
+ 'PR01'           | '560k'      | '5%'               | 'Vishay'(!)        = '03808A-1'         | 'Vishay 2306 197 53564'                 | '560k PR01 Series Resistor, 1W'                  | 'Farnell 338175'                                    | '-'                              | '-'        
+ '0603'           | '10M'       | '5%'               | 'Rohm'(!)          = '00768A-1'         | 'Phicomp 232270461006'                  | '10M SMD Resistor, 0.063W, 0603'                 | 'Farnell 1117238'                                   | '-'                              | '-'        
+ '0603'           | '15M'       | '5%'               | 'Rohm'(!)          = '00769A-1'         | 'Phicomp 235052210156'                  | '15M SMD Resistor, 0.063W, 0603'                 | 'Farnell 9236376'                                   | '-'                              | '-'        
+ '1206'           | 'PT100'     | '1%'               | 'MULTICOMP'(!)     = 'MC1206-PT1'       | 'Please Check'                          | '1206 PT100 Thermistor'                          | 'Compatible component available at Farnell 1266933' | '-'                              | '-'        
+ '1218'           | '4R7'       | '5%'               | 'Phycomp'(!)       = '03859A-1'         | 'Phicomp 232273564478'                  | '15R SMD Resistor, 1.0W, 1218, 5%'               | 'Farnell  9236333'                                  | '-'                              | '-'        
+
+END_PART
+
+PART 'RESISTOR-HV'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE   | TOLERANCE | MANUF(OPT='CAT')   = CI         | PART_NUMBER              | PART_DESCRIPTION                                 | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'HV_PTH_AS_SMD'  | '10M'   | '+/-5%'   | 'AVX'(!)           = '03269C-1' | 'AXV 1206GA100JAT2A'     | '10pF 2000V 1206 C0G/NP0 +/- 30ppm/K'            | 'Farnell 1658883'            | '-'         | '-'  
+
+END_PART
+
+PART 'RESISTOR-POWER'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'HS25'           | '0R1'       | '5%'               | 'Arcol'(!)         = 'HS25-0R1'         | 'RS 158-480'                            | '0R1  Wire-wound Resistor, 25W, HS25 package'    | '-'                                                 | '-'                              | '-'        
+ 'HS25'           | '0R22'      | '5%'               | 'Arcol'(!)         = 'HS25-0R22'        | 'RS 160-663'                            | '0R22 Wire-wound Resistor, 25W, HS25 package'    | '-'                                                 | '-'                              | '-'        
+ 'HS25'           | '0R33'      | '5%'               | 'Arcol'(!)         = 'HS25-0R33'        | 'RS 160-679'                            | '0R33 Wire-wound Resistor, 25W, HS25 package'    | '-'                                                 | '-'                              | '-'        
+ 'SQM7'           | '0R1'       | '5%'               | 'Meggitt'(!)       = 'SQM-X-W-7-R10-J'  | 'RS 199-7955'                           | '0R1  Wire-wound Resistor, 7W, SQM7 package'     | '-'                                                 | '-'                              | '-'        
+ 'SQM7'           | '0R22'      | '5%'               | 'Meggitt'(!)       = 'SQM-X-W-7-R10-J'  | 'RS 199-7961'                           | '0R22 Wire-wound Resistor, 7W, SQM7 package'     | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'CAPACITOR-NET-4I'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'            | '100N'      | '5%'               | 'AVX'(!)           = 'xxxxxxxx'         | 'RS  405-7505'                          | '4x 0603 100NF capacitors'                       | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'CAPACITOR-4I-VER2'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'           | '100n'      | '5%'               | 'AVX'(!)           = 'xxxxxxxx'         | 'RS  405-7505'                          | '4x 0603 100NF capacitors'                       | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'RESISTOR-4I'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'           | '0R'        | '5%'               | 'Philips'(!)       = '01723A-1'         | 'Farnell 776-579'                       | '0R, ARC241, 4-isolated Resistors, 0.062W'       | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '10R'       | '5%'               | 'Philips'(!)       = '01724A-1'         | 'Farnell 776-580'                       | '10R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '12R'       | '5%'               | 'Philips'(!)       = '02354A-1'         | 'Farnell 307-0074'                      | '12R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '15R'       | '5%'               | 'Philips'(!)       = '01725A-1'         | 'Farnell 776-592'                       | '15R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '18R'       | '5%'               | 'Philips'(!)       = '02355A-1'         | 'Farnell 307-0086'                      | '18R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '22R'       | '5%'               | 'Philips'(!)       = '01726A-1'         | 'Farnell 776-609'                       | '22R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '27R'       | '5%'               | 'Philips'(!)       = '02356A-1'         | 'Farnell 307-0098'                      | '27R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '33R'       | '5%'               | 'Philips'(!)       = '01727A-1'         | 'Farnell 776-610'                       | '33R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '39R'       | '5%'               | 'Philips'(!)       = '02357A-1'         | 'Farnell 307-0104'                      | '39R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '47R'       | '5%'               | 'Philips'(!)       = '01728A-1'         | 'Farnell 776-622'                       | '47R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '56R'       | '5%'               | 'Philips'(!)       = '02358A-1'         | 'Farnell 307-0116'                      | '56R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '68R'       | '5%'               | 'Philips'(!)       = '01729A-1'         | 'Farnell 776-634'                       | '68R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '82R'       | '5%'               | 'Philips'(!)       = '02359A-1'         | 'Farnell 307-0128'                      | '82R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '100R'      | '5%'               | 'Philips'(!)       = '01730A-1'         | 'Farnell 776-646'                       | '100R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '120R'      | '5%'               | 'Philips'(!)       = '02360A-1'         | 'Farnell 307-0130'                      | '120R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '150R'      | '5%'               | 'Philips'(!)       = '01731A-1'         | 'Farnell 776-658'                       | '150R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '180R'      | '5%'               | 'Philips'(!)       = '02361A-1'         | 'Farnell 307-0141'                      | '180R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '220R'      | '5%'               | 'Philips'(!)       = '01732A-1'         | 'Farnell 776-660'                       | '220R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '270R'      | '5%'               | 'Philips'(!)       = '02362A-1'         | 'Farnell 307-0153'                      | '270R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '330R'      | '5%'               | 'Philips'(!)       = '01733A-1'         | 'Farnell 776-671'                       | '330R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '390R'      | '5%'               | 'Philips'(!)       = '02363A-1'         | 'Farnell 307-0165'                      | '390R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '470R'      | '5%'               | 'Philips'(!)       = '01734A-1'         | 'Farnell 776-683'                       | '470R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '560R'      | '5%'               | 'Philips'(!)       = '02364A-1'         | 'Farnell 307-0177'                      | '560R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '680R'      | '5%'               | 'Philips'(!)       = '01735A-1'         | 'Farnell 776-695'                       | '680R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '820R'      | '5%'               | 'Philips'(!)       = '02365A-1'         | 'Farnell 307-0189'                      | '820R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '1K'        | '5%'               | 'Philips'(!)       = '01736A-1'         | 'Farnell 776-701'                       | '1K, ARC241, 4-isolated Resistors, 0.062W'       | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '1K2'       | '5%'               | 'Philips'(!)       = '02366A-1'         | 'Farnell 307-0190'                      | '1K2, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '1K5'       | '5%'               | 'Philips'(!)       = '01737A-1'         | 'Farnell 776-713'                       | '1K5, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '1K8'       | '5%'               | 'Philips'(!)       = '02367A-1'         | 'Farnell 307-0207'                      | '1K8, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '2K2'       | '5%'               | 'Philips'(!)       = '01738A-1'         | 'Farnell 776-725'                       | '2K2, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '2K7'       | '5%'               | 'Philips'(!)       = '02368A-1'         | 'Farnell 307-0219'                      | '2K7, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '3K3'       | '5%'               | 'Philips'(!)       = '01739A-1'         | 'Farnell 776-737'                       | '3K3, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '3K9'       | '5%'               | 'Philips'(!)       = '02369A-1'         | 'Farnell 307-0220'                      | '3K9, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '4K7'       | '5%'               | 'Philips'(!)       = '01740A-1'         | 'Farnell 776-749'                       | '4K7, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '5K6'       | '5%'               | 'Philips'(!)       = '02370A-1'         | 'Farnell 307-0232'                      | '5K6, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '6K8'       | '5%'               | 'Philips'(!)       = '01741A-1'         | 'Farnell 776-750'                       | '6K8, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '8K2'       | '5%'               | 'Philips'(!)       = '02371A-1'         | 'Farnell 307-0244'                      | '8K2, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '10K'       | '5%'               | 'Philips'(!)       = '01742A-1'         | 'Farnell 776-762'                       | '10K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '12K'       | '5%'               | 'Philips'(!)       = '02372A-1'         | 'Farnell 307-0256'                      | '12K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '15K'       | '5%'               | 'Philips'(!)       = '01743A-1'         | 'Farnell 776-774'                       | '15K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '18K'       | '5%'               | 'Philips'(!)       = '02373A-1'         | 'Farnell 307-0268'                      | '18K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '22K'       | '5%'               | 'Philips'(!)       = '01744A-1'         | 'Farnell 776-786'                       | '22K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '27K'       | '5%'               | 'Philips'(!)       = '02374A-1'         | 'Farnell 307-0270'                      | '27K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '33K'       | '5%'               | 'Philips'(!)       = '01745A-1'         | 'Farnell 776-798'                       | '33K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '39K'       | '5%'               | 'Philips'(!)       = '02375A-1'         | 'Farnell 307-0281'                      | '39K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '47K'       | '5%'               | 'Philips'(!)       = '01746A-1'         | 'Farnell 776-804'                       | '47K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '56K'       | '5%'               | 'Philips'(!)       = '02376A-1'         | 'Farnell 307-0293'                      | '56K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '68K'       | '5%'               | 'Philips'(!)       = '01747A-1'         | 'Farnell 776-816'                       | '68K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '82K'       | '5%'               | 'Philips'(!)       = '02377A-1'         | 'Farnell 307-0300'                      | '82K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '100K'      | '5%'               | 'Philips'(!)       = '01748A-1'         | 'Farnell 776-828'                       | '100K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '120K'      | '5%'               | 'Philips'(!)       = '02378A-1'         | 'Farnell 307-0311'                      | '120K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '150K'      | '5%'               | 'Philips'(!)       = '01749A-1'         | 'Farnell 776-830'                       | '150K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '180K'      | '5%'               | 'Philips'(!)       = '02379A-1'         | 'Farnell 307-0323'                      | '180K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '220K'      | '5%'               | 'Philips'(!)       = '01750A-1'         | 'Farnell 776-841'                       | '220K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '270K'      | '5%'               | 'Philips'(!)       = '02380A-1'         | 'Farnell 307-0335'                      | '270K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '330K'      | '5%'               | 'Philips'(!)       = '01751A-1'         | 'Farnell 776-853'                       | '330K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '390K'      | '5%'               | 'Philips'(!)       = '02381A-1'         | 'Farnell 307-0347'                      | '390K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '470K'      | '5%'               | 'Philips'(!)       = '01752A-1'         | 'Farnell 776-865'                       | '470K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '560K'      | '5%'               | 'Philips'(!)       = '02382A-1'         | 'Farnell 307-0359'                      | '560K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '680K'      | '5%'               | 'Philips'(!)       = '01753A-1'         | 'Farnell 776-877'                       | '680K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '820K'      | '5%'               | 'Philips'(!)       = '02383A-1'         | 'Farnell 307-0360'                      | '820K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '1M0'       | '5%'               | 'Philips'(!)       = '02384A-1'         | 'Farnell 307-0372'                      | '1M0, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'RESISTOR-NET-4I'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'            | '0R'        | '5%'               | 'Philips'(!)       = '01723A-1'         | 'Farnell 776-579'                       | '0R, ARC241, 4-isolated Resistors, 0.062W'       | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '10R'       | '5%'               | 'Philips'(!)       = '01724A-1'         | 'Farnell 776-580'                       | '10R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '12R'       | '5%'               | 'Philips'(!)       = '02354A-1'         | 'Farnell 307-0074'                      | '12R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '15R'       | '5%'               | 'Philips'(!)       = '01725A-1'         | 'Farnell 776-592'                       | '15R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '18R'       | '5%'               | 'Philips'(!)       = '02355A-1'         | 'Farnell 307-0086'                      | '18R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '22R'       | '5%'               | 'Philips'(!)       = '01726A-1'         | 'Farnell 776-609'                       | '22R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '27R'       | '5%'               | 'Philips'(!)       = '02356A-1'         | 'Farnell 307-0098'                      | '27R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '33R'       | '5%'               | 'Philips'(!)       = '01727A-1'         | 'Farnell 776-610'                       | '33R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '39R'       | '5%'               | 'Philips'(!)       = '02357A-1'         | 'Farnell 307-0104'                      | '39R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '47R'       | '5%'               | 'Philips'(!)       = '01728A-1'         | 'Farnell 776-622'                       | '47R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '56R'       | '5%'               | 'Philips'(!)       = '02358A-1'         | 'Farnell 307-0116'                      | '56R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '68R'       | '5%'               | 'Philips'(!)       = '01729A-1'         | 'Farnell 776-634'                       | '68R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '82R'       | '5%'               | 'Philips'(!)       = '02359A-1'         | 'Farnell 307-0128'                      | '82R, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '100R'      | '5%'               | 'Philips'(!)       = '01730A-1'         | 'Farnell 776-646'                       | '100R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '120R'      | '5%'               | 'Philips'(!)       = '02360A-1'         | 'Farnell 307-0130'                      | '120R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '150R'      | '5%'               | 'Philips'(!)       = '01731A-1'         | 'Farnell 776-658'                       | '150R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '180R'      | '5%'               | 'Philips'(!)       = '02361A-1'         | 'Farnell 307-0141'                      | '180R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '220R'      | '5%'               | 'Philips'(!)       = '01732A-1'         | 'Farnell 776-660'                       | '220R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '270R'      | '5%'               | 'Philips'(!)       = '02362A-1'         | 'Farnell 307-0153'                      | '270R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '330R'      | '5%'               | 'Philips'(!)       = '01733A-1'         | 'Farnell 776-671'                       | '330R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '390R'      | '5%'               | 'Philips'(!)       = '02363A-1'         | 'Farnell 307-0165'                      | '390R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '470R'      | '5%'               | 'Philips'(!)       = '01734A-1'         | 'Farnell 776-683'                       | '470R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '560R'      | '5%'               | 'Philips'(!)       = '02364A-1'         | 'Farnell 307-0177'                      | '560R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '680R'      | '5%'               | 'Philips'(!)       = '01735A-1'         | 'Farnell 776-695'                       | '680R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '820R'      | '5%'               | 'Philips'(!)       = '02365A-1'         | 'Farnell 307-0189'                      | '820R, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '1K'        | '5%'               | 'Philips'(!)       = '01736A-1'         | 'Farnell 776-701'                       | '1K, ARC241, 4-isolated Resistors, 0.062W'       | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '1K2'       | '5%'               | 'Philips'(!)       = '02366A-1'         | 'Farnell 307-0190'                      | '1K2, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '1K5'       | '5%'               | 'Philips'(!)       = '01737A-1'         | 'Farnell 776-713'                       | '1K5, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '1K8'       | '5%'               | 'Philips'(!)       = '02367A-1'         | 'Farnell 307-0207'                      | '1K8, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '2K2'       | '5%'               | 'Philips'(!)       = '01738A-1'         | 'Farnell 776-725'                       | '2K2, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '2K7'       | '5%'               | 'Philips'(!)       = '02368A-1'         | 'Farnell 307-0219'                      | '2K7, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '3K3'       | '5%'               | 'Philips'(!)       = '01739A-1'         | 'Farnell 776-737'                       | '3K3, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '3K9'       | '5%'               | 'Philips'(!)       = '02369A-1'         | 'Farnell 307-0220'                      | '3K9, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '4K7'       | '5%'               | 'Philips'(!)       = '01740A-1'         | 'Farnell 776-749'                       | '4K7, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '5K6'       | '5%'               | 'Philips'(!)       = '02370A-1'         | 'Farnell 307-0232'                      | '5K6, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '6K8'       | '5%'               | 'Philips'(!)       = '01741A-1'         | 'Farnell 776-750'                       | '6K8, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '8K2'       | '5%'               | 'Philips'(!)       = '02371A-1'         | 'Farnell 307-0244'                      | '8K2, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '10K'       | '5%'               | 'Philips'(!)       = '01742A-1'         | 'Farnell 776-762'                       | '10K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '12K'       | '5%'               | 'Philips'(!)       = '02372A-1'         | 'Farnell 307-0256'                      | '12K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '15K'       | '5%'               | 'Philips'(!)       = '01743A-1'         | 'Farnell 776-774'                       | '15K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '18K'       | '5%'               | 'Philips'(!)       = '02373A-1'         | 'Farnell 307-0268'                      | '18K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '22K'       | '5%'               | 'Philips'(!)       = '01744A-1'         | 'Farnell 776-786'                       | '22K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '27K'       | '5%'               | 'Philips'(!)       = '02374A-1'         | 'Farnell 307-0270'                      | '27K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '33K'       | '5%'               | 'Philips'(!)       = '01745A-1'         | 'Farnell 776-798'                       | '33K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '39K'       | '5%'               | 'Philips'(!)       = '02375A-1'         | 'Farnell 307-0281'                      | '39K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '47K'       | '5%'               | 'Philips'(!)       = '01746A-1'         | 'Farnell 776-804'                       | '47K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '56K'       | '5%'               | 'Philips'(!)       = '02376A-1'         | 'Farnell 307-0293'                      | '56K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '68K'       | '5%'               | 'Philips'(!)       = '01747A-1'         | 'Farnell 776-816'                       | '68K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '82K'       | '5%'               | 'Philips'(!)       = '02377A-1'         | 'Farnell 307-0300'                      | '82K, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '100K'      | '5%'               | 'Philips'(!)       = '01748A-1'         | 'Farnell 776-828'                       | '100K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '120K'      | '5%'               | 'Philips'(!)       = '02378A-1'         | 'Farnell 307-0311'                      | '120K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '150K'      | '5%'               | 'Philips'(!)       = '01749A-1'         | 'Farnell 776-830'                       | '150K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '180K'      | '5%'               | 'Philips'(!)       = '02379A-1'         | 'Farnell 307-0323'                      | '180K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '220K'      | '5%'               | 'Philips'(!)       = '01750A-1'         | 'Farnell 776-841'                       | '220K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '270K'      | '5%'               | 'Philips'(!)       = '02380A-1'         | 'Farnell 307-0335'                      | '270K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '330K'      | '5%'               | 'Philips'(!)       = '01751A-1'         | 'Farnell 776-853'                       | '330K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '390K'      | '5%'               | 'Philips'(!)       = '02381A-1'         | 'Farnell 307-0347'                      | '390K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '470K'      | '5%'               | 'Philips'(!)       = '01752A-1'         | 'Farnell 776-865'                       | '470K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '560K'      | '5%'               | 'Philips'(!)       = '02382A-1'         | 'Farnell 307-0359'                      | '560K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '680K'      | '5%'               | 'Philips'(!)       = '01753A-1'         | 'Farnell 776-877'                       | '680K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '820K'      | '5%'               | 'Philips'(!)       = '02383A-1'         | 'Farnell 307-0360'                      | '820K, ARC241, 4-isolated Resistors, 0.062W'     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '1M0'       | '5%'               | 'Philips'(!)       = '02384A-1'         | 'Farnell 307-0372'                      | '1M0, ARC241, 4-isolated Resistors, 0.062W'      | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'RESISTOR-NET-8I'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                             | PART_DESCRIPTION                                 | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'           | '10R'       | '5%'               | 'Vishay'(!)        = '01724A-1'         | 'Farnell 309-8692'                      | '10R, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '22R'       | '5%'               | 'Vishay'(!)        = '01726A-1'         | 'Farnell 309-8709'                      | '22R, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '33R'       | '5%'               | 'Vishay'(!)        = '01727A-1'         | 'Farnell 309-8710'                      | '33R, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '47R'       | '5%'               | 'Vishay'(!)        = '01728A-1'         | 'Farnell 309-8722'                      | '47R, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '100R'      | '5%'               | 'Vishay'(!)        = '01730A-1'         | 'Farnell 309-8734'                      | '100R, VSOR1603, 8-isolated Resistors, 0.1W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '220R'      | '5%'               | 'Vishay'(!)        = '01732A-1'         | 'Farnell 309-8746'                      | '220R, VSOR1603, 8-isolated Resistors, 0.1W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '330R'      | '5%'               | 'Vishay'(!)        = '01732A-1'         | 'Farnell 309-8758'                      | '220R, VSOR1603, 8-isolated Resistors, 0.1W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '470R'      | '5%'               | 'Vishay'(!)        = '01734A-1'         | 'Farnell 309-8760'                      | '470R, VSOR1603, 8-isolated Resistors, 0.1W'     | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '1K'        | '5%'               | 'Vishay'(!)        = '01736A-1'         | 'Farnell 309-8771'                      | '1K, VSOR1603, 8-isolated Resistors, 0.1W'       | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '2K2'       | '5%'               | 'Vishay'(!)        = '01738A-1'         | 'Farnell 309-8783'                      | '2K2, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '4K7'       | '5%'               | 'Vishay'(!)        = '01740A-1'         | 'Farnell 309-8795'                      | '4K7, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+ 'SOIC'           | '10K'       | '5%'               | 'Vishay'(!)        = '01742A-1'         | 'Farnell 309-8801'                      | '10K, VSOR1603, 8-isolated Resistors, 0.1W'      | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'INDUCTOR1'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                            | JEDEC_TYPE                                       | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'            | '600n'      | 'Pulse'(!)         = 'P0430T'           | 'RS 306-8223'      | 'P043xT series 2A 14-mOhm SMD inductor'                     | 'SMD_P043XT'                                     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '900n'      | 'Pulse'(!)         = 'P0431T'           | 'RS 306-8239'      | 'P043xT series 1.9A 18-mOhm SMD inductor'                   | 'SMD_P043XT'                                     | '-'                                                 | '-'                              | '-'        
+ 'SMD'            | '470n'      | 'Tyco'(!)          = '3615uH47-K'       | 'Farnell 1174507'  | '3516 series 80-mOhm 1.7A inductor'                         | 'SMD3615'                                        | '-'                                                 | '-'                              | '-'        
+ 'PTH'            | '270u'      | 'Bournes'(!)       = 'HCT_2117H-RC'     | 'Farnell 1189556'  | '21xx series high current toroidal 210-mOhms 1.8A inductor' | 'HCT_2117H-RC'                                   | '-'                                                 | '-'                              | '-'        
+ 'PTH'            | '50u'       | 'Ferroperm'(!)     = '1585-uH-3A-INS'   | 'Farnell 1186800'  | '1585 series high current 60-mOhms 3A inductor'             | 'ISC_1585-50'                                    | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'CMODE-CHOKE'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | JEDEC_TYPE                                       | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'RN112'          | '0.7m'      | 'Schaffner'(!)     = 'RN112-4/02'       | 'Farnell  248-320' | 'RN112 series 4A 35-mOhm through hole common mode choke'                                                                | 'RN112'                                          | '-'                                                 | '-'                              | '-'        
+'0805'          | '120R'      | ' Murata'(!)     = 'DLW21-4/02'       | 'RS 105-243' | 'DLW21 series 120-Ohms at 100MHz, surface mount common mode choke'                                                                | 'DLW21'                                          | '-'                                                 | '-'                              | '-'        
+ 'B62152'         | '300n'      | 'Hand-wound'(!)    = 'B62152A1X1'       | 'RS 212-0588'      | 'Single turn common mode choke wound on EPCOS B62152A1X1 dual aperture core using 1.5mm diameter enammeled copper wire' | 'B62152'                                         | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'RESISTOR-CAPACITOR-NET-4I'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | TOLERANCE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                                                                                                             | PART_DESCRIPTION                                                | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'            | '47R/100p'  | '10%'              | 'AVX'(!)           = 'Z3A43Y101M470K'   | 'RS 405-8479'                                                                                                           | '47R/100pF, ARC241, 4-isolated Resistors+capacitors in series,' | '-'                                                 | '-'                              | '-'        
+
+END_PART
+
+PART 'LED_TRI_CA'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | OL_COMMENTS                                                     | KL_COMMENTS                                         | PL_COMMENTS                      ;
+{========================================================================================}
+ '5MM'            | 'RED-GREEN' | 'Kingbright'(!)    = '00313A-1'         | 'RS 228-5770'      | 'Tricolour_ca  Red/Green 5mm LED'                                                                                       | '-'                                                             | '-'                                                 | '-'                             
+
+END_PART
+
+PART 'LED-SMD-TRI'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | OL_COMMENTS                                                              | KL_COMMENTS                                         | PL_COMMENTS                      ;
+{========================================================================================}
+ 'FLEX1212'       | 'RED/GRN'   | 'Hewlett Packard'(!) = '02587A-1'         | 'HP HSMS-C655'     | 'Surface Mount Flip-Chip tri-colour Red/Green LED, with 80mm Flexible Light Pipe'                                       | 'LED avail. from RS 429-596, also order Flexible Light Pipe RS 395-9551' | '-'                                                 | '-'                             
+
+END_PART
+
+PART 'RELAY-SPNO'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | OL_COMMENTS                                                              | KL_COMMENTS                                         | PL_COMMENTS                      ;
+{========================================================================================}
+ 'RELAY_SPNO'     | '12V'       | 'Crydom'(!)        = '00749A-1'         | 'RS 511-1290'      | '12V SPNO High voltage relay'                                                                                           | '-'                                                                      | '-'                                                 | '-'                             
+
+END_PART
+
+PART 'RELAY_SPDT'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | OL_COMMENTS                                                              | KL_COMMENTS                                         | PL_COMMENTS                      ;
+{========================================================================================}
+ 'SMD'            | '4.5V'      | 'Axicom'(!)        = '00749A-2'         | 'Axicom HF3-52'    | '4.5V SPDT High frequency relay'                                                                                        | 'RS 616-8742'                                                            | '-'                                                 | '-'                             
+
+END_PART
+
+PART 'PHOTO-DIODE'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | JEDEC_TYPE                                                               | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'PTH'            | 'AEPX65'    | ''(!)              = 'Centronic'        | 'RS 846-749 '      | 'Silicon photo detector'                                                                                                | ''                                                                       | ''                                                  | ''                               | ''         
+
+END_PART
+
+PART 'MEM2012T'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | JEDEC_TYPE                                                               | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'            | '10R0'      | 'TDK'(!)           = 'TDK01'            | 'RS 547-5011 '     | '3-Terminal filter for signal line and DC power line'                                                                   | 'FILTER_NFM21P'                                                          | ''                                                  | ''                               | ''         
+
+END_PART
+
+PART 'LBE67C'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE       | MANUF(OPT='CAT')   = CI                 | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | JEDEC_TYPE                                                               | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'LEDSMD4P_3227'  | 'LBE67C'    | ''(!)              = 'OSRAM'            | 'RS 497-4551 '     | 'Blue LED'                                                                                                              | ''                                                                       | ''                                                  | ''                               | ''         
+
+END_PART
+
+PART 'XSTAL003164'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE        | VALUE         | MANUF(OPT='CAT')   = X                  | PART_NUMBER        | PART_DESCRIPTION                                                                                                        | JEDEC_TYPE                                                               | OL_COMMENTS                                         | KL_COMMENTS                      | PL_COMMENTS ;
+{========================================================================================}
+ 'CAPCK06'        | 'XSTAL003164' | 'RS'(!)            = 'XSTAL'            | '478-9375'         | 'CRYSTAL'                                                                                                               | 'CAPCK06'                                                                       | ''                                                  | ''                               | ''         
+
+END_PART
+
+END.
+

@@ -1,0 +1,1042 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+{=======DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/nom_dufichier.pdf'======}
+{=======SCEM = 'http://edh.cern.ch/edhcat/Browser?command=searchItems&scem=numero_scem'=======}
+{Deactivate parts by adding STATUS=NotForNewProject }
+
+PART 'RF-CHOKE'
+PINCOUNT=2
+PHYS_DES_PREFIX=L
+CLASS=DISCRETE
+
+{========================================================================================}
+: VALUE            | TOL          |   PACK_TYPE        =  JEDEC_TYPE          | PART_NUMBER             | MANUFACTURER     |    DESCRIPTION      ;
+{========================================================================================}
+ '1.0uH'           | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2102K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '1.5uH'           | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2152K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '2.2uH'           | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2222K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '3.3uH'           | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2332K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '4.7uH'           | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2472K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '6.8uH'           | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2682K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '10uH'            | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2103K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '15uH'            | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2153K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '22uH'            | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2223K000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '47uH'            | '10%'        |  'AXIAL'(!)        =  'INDUC150X52'       | '1582-47uH'            | 'FERROPERM'      | 'Radio-Frequency Choke type-1582'
+
+ '33uH'            | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2333J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '47uH'            | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2473J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '68uH'            | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2683J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '100uH'           | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2104J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '150uH'           | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2154J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '220uH'           | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2224J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '330uH'           | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2334J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '470uH'           | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2474J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '680uH'           | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2684J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '1000uH'          | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2105J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '1500uH'          | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2155J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '2200uH'          | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2225J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '3300uH'          | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2335J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '4700uH'          | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2475J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '6800uH'          | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2685J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '10000uH'         | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2106J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '15000uH'         | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2156J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '22000uH'         | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2226J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '33000uH'         | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2336J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '47000uH'         | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2476J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '68000uH'         | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2686J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+ '100000uH'        | '5%'         |  'AXIAL'(!)        =  'INDUC150X52'       | 'B82144A2017J000'      | 'EPCOS'          | 'Large Bobbin Core (LBC) RF Choke'
+
+END_PART
+
+PART 'RFTRANSFO'
+PHYS_DES_PREFIX=TR
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE             = JEDEC_TYPE   | PART_NUMBER | PINCOUNT | MANUFACTURER    | DESCRIPTION         ;
+{========================================================================================}
+ 'OBSOLETE REPLACE WITH RFTRANSFO_A,B,C,...F,..'(!)       = '' | ''    | ''      | '' |''
+
+END_PART
+
+PART 'TRANSFO-ETD'
+PHYS_DES_PREFIX=TR
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE              = JEDEC_TYPE   | PART_NUMBER        | PINCOUNT                      | DESCRIPTION                          | MANUFACTURER                                                          ;
+{========================================================================================}
+ 'ETD39'(!)        = 'SELF_ETD39' | '08.71.ETD39'      | '16'                          | 'SWITCHING TRANSFORMER ON ETD CORES' | 'NORDELETTRONICA'
+
+END_PART
+
+
+PART 'ECONORESETH'
+PINCOUNT=3
+PHYS_DES_PREFIX=ER
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 | TYPE         = VALUE                  | JEDEC_TYPE                    | PART_NUMBER                          ;
+{========================================================================================}
+ 'DS1812A'             | 'SO'(!)      = 'DS1812A'              | 'SOT23'                       | '08.57.-812A5SO'
+ 'DS1812A'             | 'TO'(!)      = 'DS1812A'              | 'TO92'                        | '08.57.-812A5TO'
+ 'DS1812B'             | 'SO'(!)      = 'DS1812B'              | 'SOT23'                       | '08.57.-812B10SO'
+ 'DS1812B'             | 'TO'(!)      = 'DS1812B'              | 'TO92'                        | '08.57.-812B10TO'
+ 'DS1812C'             | 'SO'(!)      = 'DS1812C'              | 'SOT23'                       | '08.57.-812C15SO'
+ 'DS1812C'             | 'TO'(!)      = 'DS1812C'              | 'TO92'                        | '08.57.-812C15TO'
+ 'DS1812D'             | 'SO'(!)      = 'DS1812D'              | 'SOT23'                       | '08.57.-812D20SO'
+ 'DS1812D'             | 'TO'(!)      = 'DS1812D'              | 'TO92'                        | '08.57.-812D20TO'
+ 'DS1817A'             | 'SO'(!)      = 'DS1817A'              | 'SOT23'                       | '08.57.-817A5SO'
+ 'DS1817A'             | 'TO'(!)      = 'DS1817A'              | 'TO92'                        | '08.57.-817A5TO'
+ 'DS1817B'             | 'SO'(!)      = 'DS1817B'              | 'SOT23'                       | '08.57.-817B10SO'
+ 'DS1817B'             | 'TO'(!)      = 'DS1817B'              | 'TO92'                        | '08.57.-817B10TO'
+ 'DS1817C'             | 'SO'(!)      = 'DS1817C'              | 'SOT23'                       | '08.57.-817C15SO'
+ 'DS1817C'             | 'TO'(!)      = 'DS1817C'              | 'TO92'                        | '08.57.-817C15TO'
+ 'DS1817D'             | 'SO'(!)      = 'DS1817D'              | 'SOT23'                       | '08.57.-817D20SO'
+ 'DS1817D'             | 'TO'(!)      = 'DS1817D'              | 'TO92'                        | '08.57.-817D20TO'
+
+END_PART
+
+PART 'ECONORESETL'
+PINCOUNT=3
+PHYS_DES_PREFIX=ER
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 | TYPE         = VALUE                  | JEDEC_TYPE                    | PART_NUMBER                          ;
+{========================================================================================}
+ 'DS1810A'             | 'SO'(!)      = 'DS1810A'              | 'SOT23'                       | '08.57.-810A5SO'
+ 'DS1810A'             | 'TO'(!)      = 'DS1810A'              | 'TO92'                        | '08.57.-810A5TO'
+ 'DS1810B'             | 'SO'(!)      = 'DS1810B'              | 'SOT23'                       | '08.57.-810B10SO'
+ 'DS1810B'             | 'TO'(!)      = 'DS1810B'              | 'TO92'                        | '08.57.-810B10TO'
+ 'DS1810C'             | 'SO'(!)      = 'DS1810C'              | 'SOT23'                       | '08.57.-810C15SO'
+ 'DS1810C'             | 'TO'(!)      = 'DS1810C'              | 'TO92'                        | '08.57.-810C15TO'
+ 'DS1810D'             | 'SO'(!)      = 'DS1810D'              | 'SOT23'                       | '08.57.-810D20SO'
+ 'DS1810D'             | 'TO'(!)      = 'DS1810D'              | 'TO92'                        | '08.57.-810D20TO'
+ 'DS1811A'             | 'SO'(!)      = 'DS1811A'              | 'SOT23'                       | '08.57.-811A5SO'
+ 'DS1811A'             | 'TO'(!)      = 'DS1811A'              | 'TO92'                        | '08.57.-811A5TO'
+ 'DS1811B'             | 'SO'(!)      = 'DS1811B'              | 'SOT23'                       | '08.57.-811B10SO'
+ 'DS1811B'             | 'TO'(!)      = 'DS1811B'              | 'TO92'                        | '08.57.-811B10TO'
+ 'DS1811C'             | 'SO'(!)      = 'DS1811C'              | 'SOT23'                       | '08.57.-811C15SO'
+ 'DS1811C'             | 'TO'(!)      = 'DS1811C'              | 'TO92'                        | '08.57.-811C15TO'
+ 'DS1811D'             | 'SO'(!)      = 'DS1811D'              | 'SOT23'                       | '08.57.-811D20SO'
+ 'DS1811D'             | 'TO'(!)      = 'DS1811D'              | 'TO92'                        | '08.57.-811D20TO'
+ 'DS1813A'             | 'SO'(!)      = 'DS1813A'              | 'SOT23'                       | '08.57.-813A5SO'
+ 'DS1813A'             | 'TO'(!)      = 'DS1813A'              | 'TO92'                        | '08.57.-813A5TO'
+ 'DS1813B'             | 'SO'(!)      = 'DS1813B'              | 'SOT23'                       | '08.57.-813B10SO'
+ 'DS1813B'             | 'TO'(!)      = 'DS1813B'              | 'TO92'                        | '08.57.-813B10TO'
+ 'DS1813C'             | 'SO'(!)      = 'DS1813C'              | 'SOT23'                       | '08.57.-813C15SO'
+ 'DS1813C'             | 'TO'(!)      = 'DS1813C'              | 'TO92'                        | '08.57.-813C15TO'
+ 'DS1813D'             | 'SO'(!)      = 'DS1813D'              | 'SOT23'                       | '08.57.-813D20SO'
+ 'DS1813D'             | 'TO'(!)      = 'DS1813D'              | 'TO92'                        | '08.57.-813D20TO'
+ 'DS1815A'             | 'SO'(!)      = 'DS1815A'              | 'SOT23'                       | '08.57.-815A5SO'
+ 'DS1815A'             | 'TO'(!)      = 'DS1815A'              | 'TO92'                        | '08.57.-815A5TO'
+ 'DS1815B'             | 'SO'(!)      = 'DS1815B'              | 'SOT23'                       | '08.57.-815B10SO'
+ 'DS1815B'             | 'TO'(!)      = 'DS1815B'              | 'TO92'                        | '08.57.-815B10TO'
+ 'DS1815C'             | 'SO'(!)      = 'DS1815C'              | 'SOT23'                       | '08.57.-815C15SO'
+ 'DS1815C'             | 'TO'(!)      = 'DS1815C'              | 'TO92'                        | '08.57.-815C15TO'
+ 'DS1815D'             | 'SO'(!)      = 'DS1815D'              | 'SOT23'                       | '08.57.-815D20SO'
+ 'DS1815D'             | 'TO'(!)      = 'DS1815D'              | 'TO92'                        | '08.57.-815D20TO'
+ 'DS1816A'             | 'SO'(!)      = 'DS1816A'              | 'SOT23'                       | '08.57.-816A5SO'
+ 'DS1816A'             | 'TO'(!)      = 'DS1816A'              | 'TO92'                        | '08.57.-816A5TO'
+ 'DS1816B'             | 'SO'(!)      = 'DS1816B'              | 'SOT23'                       | '08.57.-816B10SO'
+ 'DS1816B'             | 'TO'(!)      = 'DS1816B'              | 'TO92'                        | '08.57.-816B10TO'
+ 'DS1816C'             | 'SO'(!)      = 'DS1816C'              | 'SOT23'                       | '08.57.-816C15SO'
+ 'DS1816C'             | 'TO'(!)      = 'DS1816C'              | 'TO92'                        | '08.57.-816C15TO'
+ 'DS1816D'             | 'SO'(!)      = 'DS1816D'              | 'SOT23'                       | '08.57.-816D20SO'
+ 'DS1816D'             | 'TO'(!)      = 'DS1816D'              | 'TO92'                        | '08.57.-816D20TO'
+ 'DS1818A'             | 'SO'(!)      = 'DS1818A'              | 'SOT23'                       | '08.57.-818A5SO'
+ 'DS1818A'             | 'TO'(!)      = 'DS1818A'              | 'TO92'                        | '08.57.-818A5TO'
+ 'DS1818B'             | 'SO'(!)      = 'DS1818B'              | 'SOT23'                       | '08.57.-818B10SO'
+ 'DS1818B'             | 'TO'(!)      = 'DS1818B'              | 'TO92'                        | '08.57.-818B10TO'
+ 'DS1818C'             | 'SO'(!)      = 'DS1818C'              | 'SOT23'                       | '08.57.-818C15SO'
+ 'DS1818C'             | 'TO'(!)      = 'DS1818C'              | 'TO92'                        | '08.57.-818C15TO'
+ 'DS1818D'             | 'SO'(!)      = 'DS1818D'              | 'SOT23'                       | '08.57.-818D20SO'
+ 'DS1818D'             | 'TO'(!)      = 'DS1818D'              | 'TO92'                        | '08.57.-818D20TO'
+
+END_PART
+
+PART 'DS1233'
+PHYS_DES_PREFIX=ER
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 | PACK_TYPE    = VALUE                  | PINCOUNT                      | JEDEC_TYPE                           | PART_NUMBER                                                           | DESCRIPTION                           | MANUFACTURER ;
+{========================================================================================}
+ 'A'                   | 'TO'(!)      = 'A'                    | '3'                           | 'TO92'                               | '08.97.DS1233A-TO'                                                    | '3.3V ECONORESET TO-92 PACKAGE'       | 'DALLAS'
+ 'A'                   | 'SOT'(!)     = 'A'                    | '4'                           | 'SOT223'                             | '08.97.DS1233A-SOT'                                                   | '3.3V ECONORESET SOT-223 PACKAGE'     | 'DALLAS'     : NC_PINS = '(4)'
+ 'D'                   | 'TO'(!)      = 'D'                    | '3'                           | 'TO92'                               | '08.97.DS1233D-TO'                                                    | '5V ECONORESET TO-92 PACKAGE'         | 'DALLAS'
+ 'D'                   | 'SOT'(!)     = 'D'                    | '4'                           | 'SOT223'                             | '08.97.DS1233D-SOT'                                                   | '5V ECONORESET SOT-223 PACKAGE'       | 'DALLAS'     : NC_PINS = '(4)'
+ 'M'                   | 'TO'(!)      = 'M'                    | '3'                           | 'TO92'                               | '08.97.DS1233M-TO'                                                    | '-0.5v to +7.0V TO-92 PACKAGE'        | 'DALLAS'
+ 'M'                   | 'SOIC'(!)    = 'M'                    | '8'                           | 'SOIC8S_127'                         | '08.97.DS1233M-SOIC'                                                  | '-0.5v to +7.0V SOIC8 PACKAGE'        | 'DALLAS'     : NC_PINS = '(3,5..8)'
+
+END_PART
+
+PART 'REL1INTNC'
+PHYS_DES_PREFIX=RL
+CLASS=DISCRETE
+
+{========================================================================================}
+:VOLTAGE               = JEDEC_TYPE   | PINCOUNT               | PART_NUMBER                     | DESCRIPTION                          ;
+{========================================================================================}
+ '5V'(!)               = 'DIP14_3'    | '14'                   | '06.75.47.230.3'                | 'REED RELAY IN DIP CASE (PCB)'
+
+END_PART
+
+PART 'REL1INTNO'
+PHYS_DES_PREFIX=RL
+CLASS=DISCRETE
+
+{========================================================================================}
+:VOLTAGE               = JEDEC_TYPE   | PINCOUNT               | PART_NUMBER                     | DESCRIPTION                          ;
+{========================================================================================}
+ '5V'(!)               = 'DIP14_3'    | '14'                   | '06.75.47.200.9'                | 'REED RELAY IN DIP CASE (PCB)'
+ '24V'(!)              = 'DIP14_3'    | '14'                   | '06.75.47.210.7'                | 'REED RELAY IN DIP CASE (PCB)'
+ '12V'(!)              = 'DIP14_3'    | '14'                   | '06.75.47.308.8'                | 'REED RELAY IN DIP CASE (PCB) NO'
+
+END_PART
+
+PART 'REL2INV_DIODE'
+PHYS_DES_PREFIX=RL
+CLASS=DISCRETE
+CASE=_
+
+{========================================================================================}
+:TYPE                  | PACK_TYPE    = JEDEC_TYPE             | PINCOUNT                        | PART_NUMBER                          | MANUFACTURER        | DESCRIPTION                                           ;
+{========================================================================================}
+ 'S172D_5'             | 'E'(!)       = 'REL8P956X956_SMD'     | '8'                             | 'S172D-5'                            | 'TELEDYNE'          | '5V DPDT SMD Relay with Internal Diode for Coil Transient Suppression - S172 Series'            : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rel_teledyne_s172.pdf'
+ 'S172D_12'            | 'E'(!)       = 'REL8P956X956_SMD'     | '8'                             | 'S172D-12'                           | 'TELEDYNE'          | '12V DPDT SMD Relay with Internal Diode for Coil Transient Suppression - S172 Series'           : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rel_teledyne_s172.pdf'
+ 'S172D_26'            | 'E'(!)       = 'REL8P956X956_SMD'     | '8'                             | 'S172D-26'                           | 'TELEDYNE'          | '26.5V DPDT SMD Relay with Internal Diode for Coil Transient Suppression - S172 Series'         : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rel_teledyne_s172.pdf'
+ '172D_5'              | 'E'(!)       = 'REL8P956X956'         | '8'                             | '172D-5'                             | 'TELEDYNE'          | '5V DPDT Through-Hole Relay with Internal Diode for Coil Transient Suppression - 172 Series'    : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rel_teledyne_172.pdf'
+ '172D_12'             | 'E'(!)       = 'REL8P956X956'         | '8'                             | '172D-12'                            | 'TELEDYNE'          | '12V DPDT Through-Hole Relay with Internal Diode for Coil Transient Suppression - 172 Series'   : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rel_teledyne_172.pdf'
+ '172D_26'             | 'E'(!)       = 'REL8P956X956'         | '8'                             | '172D-26'                            | 'TELEDYNE'          | '26.5V DPDT Through-Hole Relay with Internal Diode for Coil Transient Suppression - 172 Series' : DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/rel_teledyne_172.pdf'
+
+END_PART
+
+PART 'DIODE_CA'
+PHYS_DES_PREFIX=D
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE            | PACK_TYPE       = JEDEC_TYPE ;
+{========================================================================================}
+
+'Obsolete'        | 'Use CNDISCRETE/DIODE instead' = ''
+
+END_PART
+
+PART 'DIODE-CV'
+PHYS_DES_PREFIX=D
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                  = JEDEC_TYPE      | PINCOUNT               | PART_NUMBER                          | DESCRIPTION                          ;
+{========================================================================================}
+ 'BBY31'(!)            = 'SOT23'         | '3'                    | '08.51.BBY31.SMD'                    | 'SMD VARIABLE CAPACITANCE DIODE'     : NC_PINS = '(1)'
+
+END_PART
+
+PART 'LEDBICOLOR'
+PHYS_DES_PREFIX=LD
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                  = JEDEC_TYPE       | PINCOUNT               | PART_NUMBER                          | MANUFACTURER                                                | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'LU5350-HM'(!)        = 'PD28H-1'        | '3'                    | '08.51.72.510.5'                     | 'NONE'                                                      | 'LED RONDE 5MM BICOLOR RED/GREEN'
+ 'CBI550_3505'(!)      = 'LED1_CBI550'    | '3'                    | '550-3505F'                           | 'DIALIGHT'                                                 | '5mm Bicolor (Red/Green) LED'
+
+END_PART
+
+PART 'LED2MENTOR'
+PHYS_DES_PREFIX=LD
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 = JEDEC_TYPE       | PINCOUNT               | PART_NUMBER                    | MANUFACTURER                                                | DESCRIPTION                                                           ;
+{========================================================================================}
+ 'RED_YEL'(!)          = 'LEDS_DOUBLES'   | '4'                    | '1801.1831'                    | 'MENTOR'                                                    | '2LED ABOVE RED BELOW YELLOW'
+ 'RED_RED'(!)          = 'LEDS_DOUBLES'   | '4'                    | '1801.2231'                    | 'MENTOR'                                                    | '2LED ABOVE RED BELOW RED'
+ 'RED_GRE'(!)          = 'LEDS_DOUBLES'   | '4'                    | '07.88.10.830.5'               | 'MENTOR'                                                    | '2LED ABOVE RED BELOW GREEN'
+ 'YEL_GRE'(!)          = 'LEDS_DOUBLES'   | '4'                    | '1801.2131'                    | 'MENTOR'                                                    | '2LED ABOVE YELLOW BELOW GREEN'
+ 'YEL_YEL'(!)          = 'LEDS_DOUBLES'   | '4'                    | '1801.7731'                    | 'MENTOR'                                                    | '2LED ABOVE YELLOW BELOW YELLOW'
+ 'GRE_YEL'(!)          = 'LEDS_DOUBLES'   | '4'                    | '1801.8731'                    | 'MENTOR'                                                    | '2LED ABOVE GREEN BELOW YELLOW'
+ 'GRE_GRE'(!)          = 'LEDS_DOUBLES'   | '4'                    | '1801.8831'                    | 'MENTOR'                                                    | '2LED ABOVE GREEN BELOW GREEN'
+ 'FLAT_RED'(!)         = 'LED_ECHELLES'   | '5'                    | '1802.2232'                    | 'MENTOR'                                                    | '2LED FLAT_RED (TYPE SCALE LEDs)'                                     : NC_PINS = '(5)'
+ 'FLAT_YEL'(!)         = 'LED_ECHELLES'   | '5'                    | '1802.7732'                    | 'MENTOR'                                                    | '2LED FLAT_YEL (TYPE SCALE LEDs)'                                     : NC_PINS = '(5)'
+ 'FLAT_GRE'(!)         = 'LED_ECHELLES'   | '5'                    | '1802.8832'                    | 'MENTOR'                                                    | '2LED FLAT_GRE (TYPE SCALE LEDs)'                                     : NC_PINS = '(5)'
+
+END_PART
+
+PART 'LED6'
+PHYS_DES_PREFIX=LD
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE           | PACK_TYPE  = JEDEC_TYPE        | PINCOUNT | PART_NUMBER  | MANUFACTURER  | DESCRIPTION    ;
+{========================================================================================}
+ '2816_2003'    | '1'(!)     = 'LED2X3_28162003' | '12'   | '2816.2003'| 'MENTOR'      | ' 2X3 LEDs Board Mounting Red '
+
+END_PART
+
+PART 'PONTREDRES'
+PINCOUNT=4
+PHYS_DES_PREFIX=D
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                  = STATUS            ;
+{========================================================================================}
+ 'REDRES'(!)           = 'OSBSOLETE - Replace with CNDISCRETE/BRIDGE_RECTIFIER_1P23AC4M'
+
+END_PART
+
+PART '2N2609'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO18')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO18'(!)             = 'TO18'           | '08.53.2N2609'
+
+END_PART
+
+PART '2N3496'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO18')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO18'(!)             = 'TO18'           | '08.53.2N3496'
+
+END_PART
+
+PART '2N4209'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO18')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO18'(!)             = 'TO18'           | '08.53.2N4209'
+
+END_PART
+
+PART '2N4260'
+PINCOUNT=4
+NC_PINS=(4)
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO72_4P')   = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO72_4P'(!)          = 'TO72_4P'        | '08.53.2N4260'
+
+END_PART
+
+PART '2N5397'
+PINCOUNT=4
+NC_PINS=(4)
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO72_4P')   = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO72_4P'(!)          = 'TO72_4P'        | '08.53.2N5397'
+
+END_PART
+
+PART '2N5462'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO226I')    = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO226I'(!)           = 'TO226I'         | '08.53.2N5462'
+
+END_PART
+
+PART '2SA1464'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.2SA1464'
+
+END_PART
+
+PART '2SC2733'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.2SC2733'
+
+END_PART
+
+
+PART 'BCW32'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                  = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.BCW32SO'
+ 'TO220I'(!)           = 'TO226I'         | '08.53.BCW32TO'
+
+END_PART
+
+PART 'BCY70'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO18')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO18'(!)             = 'TO18'           | '08.53.BCY70'
+
+END_PART
+
+PART 'BCY79'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO18')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO18'(!)             = 'TO18'           | '08.53.BCY79'
+
+END_PART
+
+PART 'BD681'
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+PIN_COUNT=4
+JEDEC_TYPE=TO126H
+PART_NUMBER=08.53.BD681
+ALT_SYMBOLS=(TO126V,TO126H)
+NC_PINS=(4)
+
+{========================================================================================}
+: =  ;
+{========================================================================================}
+
+END_PART
+
+PART 'BFR92A'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'()               = 'SOT23'          | '08.53.BFR92A'
+
+END_PART
+
+PART 'BFT25'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.BFT25'
+
+END_PART
+
+PART 'BFT92'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.BFT92'
+
+END_PART
+
+PART 'BSR18'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.10.010.6'
+
+END_PART
+
+PART 'CA3127E'
+PINCOUNT=16
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SO')        = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SO'(!)               = 'SOZ16_60'       | '08.53.SO.CA3127E'
+ 'DIP'(!)              = 'DIP16_3'        | '08.53.DIP.CA3127E'
+
+END_PART
+
+PART 'IRFD113'
+PINCOUNT=4
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='DIP4')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'DIP4'(!)             = 'DIP4_3'         | '08.53.IRFD113'
+
+END_PART
+
+PART 'SO2369'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.SO2369'
+
+END_PART
+
+PART 'SO4393'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='SOT')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'SOT'(!)              = 'SOT23'          | '08.53.SO4393'
+
+END_PART
+
+PART 'U430'
+PINCOUNT=8
+NC_PINS=(8)
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO')        = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO'(!)               = 'TO76_8P'        | '08.53.U430'
+
+END_PART
+
+PART 'U440'
+PINCOUNT=8
+NC_PINS=(7,8)
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO')        = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO'(!)               = 'TO76_8P'        | '08.53.U440'
+
+END_PART
+
+PART 'VCR2N'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO18')      = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO18'(!)             = 'TO18'           | '08.53.VCR2N'
+
+END_PART
+
+PART 'VN0300'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO226I')    = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO226I'(!)           = 'TO226I'         | '08.53.VN0300'
+
+END_PART
+
+PART 'VN0606MB'
+PINCOUNT=3
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO226I')    = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO226I'(!)           = 'TO226I'         | '08.53.VN0606MB'
+
+END_PART
+
+PART 'VN88AFD'
+PINCOUNT=4
+NC_PINS=(4)
+PHYS_DES_PREFIX=Q
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='TO202H')    = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'TO202H'(!)           = 'TO202H'         | '08.53.VN88AFD'
+
+END_PART
+
+PART 'THYRISTOR'
+PHYS_DES_PREFIX=TY
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                  | PACK_TYPE        | VOLTAGE                = JEDEC_TYPE                           | PINCOUNT                                                    | PART_NUMBER                                                           | DESCRIPTION                                           | MANUFACTURER                                                     ;
+{========================================================================================}
+ 'MCR12D'              | 'TO220H'         | '400V'(!)              = 'TO220H'                             | '4'                                                         | '08.51.MCR12D'                                                        | 'SCR 12 Amp 400 Volts'                                | 'SCI'                                                            : NC_PINS = '(4)'
+ 'MCR12D'              | 'TO220V'         | '400V'(!)              = 'TO220V'                             | '3'                                                         | '08.51.MCR12D'                                                        | 'SCR 12 Amp 400 Volts'                                | 'SCI'
+ 'MCR12M'              | 'TO220H'         | '600V'(!)              = 'TO220H'                             | '4'                                                         | '08.51.MCR12M'                                                        | 'SCR 12 Amp 600 Volts'                                | 'SCI'                                                            : NC_PINS = '(4)'
+ 'MCR12M'              | 'TO220V'         | '600V'(!)              = 'TO220V'                             | '3'                                                         | '08.51.MCR12M'                                                        | 'SCR 12 Amp 600 Volts'                                | 'SCI'
+ 'MCR12N'              | 'TO220H'         | '800V'(!)              = 'TO220H'                             | '4'                                                         | '08.51.MCR12N'                                                        | 'SCR 12 Amp 800 Volts'                                | 'SCI'                                                            : NC_PINS = '(4)'
+ 'MCR12N'              | 'TO220V'         | '800V'(!)              = 'TO220V'                             | '3'                                                         | '08.51.MCR12N'                                                        | 'SCR 12 Amp 800 Volts'                                | 'SCI'
+
+END_PART
+
+PART 'TY6010'
+PINCOUNT=4
+NC_PINS=(4)
+PHYS_DES_PREFIX=TY
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='A')         = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'A'(TO220H)           = 'TO220H'         | '08.51.TY6010_SVBAD'
+
+END_PART
+
+PART 'MCT2'
+PINCOUNT=6
+NC_PINS=(3)
+PHYS_DES_PREFIX=M
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='DIP')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'DIP'(!)              = 'DIP6_3'         | '08.57.71.MCT2_OGBAB'
+
+END_PART
+
+PART 'MCT6'
+PINCOUNT=8
+PHYS_DES_PREFIX=M
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='DIP')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'DIP'(!)              = 'DIP8_3'         | '08.57.71.MCT6'
+
+END_PART
+
+PART 'MOC3041'
+PINCOUNT=6
+NC_PINS=(3,5)
+PHYS_DES_PREFIX=M
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='DIP')       = JEDEC_TYPE       | PART_NUMBER            ;
+{========================================================================================}
+ 'DIP'(!)              = 'DIP6_3'         | '08.51.59.200.8'
+
+END_PART
+
+PART 'LCD32'
+PINCOUNT=14
+CLASS=IC
+JEDEC_TYPE=SIP14
+PHYS_DES_PREFIX=M
+PART_NUMBER=08.57.LCD32
+
+{========================================================================================}
+: =  ;
+{========================================================================================}
+
+END_PART
+
+PART 'ODL1261'
+JEDEC_TYPE=ODLATT
+PHYS_DES_PREFIX=M
+CLASS=DISCRETE
+PINCOUNT=18
+NC_PINS=(17,18)
+PART_NUMBER=08.57.ODL1261
+
+{========================================================================================}
+: =  ;
+{========================================================================================}
+
+END_PART
+
+PART 'ODL1361'
+JEDEC_TYPE=ODLATT
+PHYS_DES_PREFIX=M
+CLASS=DISCRETE
+PINCOUNT=18
+NC_PINS=(17,18)
+PART_NUMBER=08.57.ODL136
+
+{========================================================================================}
+: =  ;
+{========================================================================================}
+
+END_PART
+
+
+PART 'MDU12H'
+PHYS_DES_PREFIX=DL
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 = PART_NUMBER         ;
+{========================================================================================}
+ '3C3'(!)              = '08.08.MDU12H3c3'
+ '4C3'(!)              = '08.08.MDU12H4c3'
+ '5C3'(!)              = '08.08.MDU12H4c3'
+ '10C3'(!)             = '08.08.MDU12H10c3'
+ '15C3'(!)             = '08.08.MDU12H15c3'
+ '20C3'(!)             = '08.08.MDU12H20c3'
+ '25C3'(!)             = '08.08.MDU12H25c3'
+ '30C3'(!)             = '08.08.MDU12H30c3'
+ '35C3'(!)             = '08.08.MDU12H35c3'
+ '40C3'(!)             = '08.08.MDU12H40c3'
+ '45C3'(!)             = '08.08.MDU12H45c3'
+ '50C3'(!)             = '08.08.MDU12H50c3'
+ '60C3'(!)             = '08.08.MDU12H60c3'
+ '75C3'(!)             = '08.08.MDU12H75c3'
+ '100C3'(!)            = '08.08.MDU12H100c3'
+ '125C3'(!)            = '08.08.MDU12H125c3'
+ '150C3'(!)            = '08.08.MDU12H150c3'
+ '200C3'(!)            = '08.08.MDU12H200c3'
+ '250C3'(!)            = '08.08.MDU12H250c3'
+
+END_PART
+
+PART 'MDU13H'
+PHYS_DES_PREFIX=DL
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 = PART_NUMBER         ;
+{========================================================================================}
+ '3C3'(!)              = '08.08.MDU13H3c3'
+ '4C3'(!)              = '08.08.MDU13H4c3'
+ '5C3'(!)              = '08.08.MDU13H4c3'
+ '10C3'(!)             = '08.08.MDU13H10c3'
+ '15C3'(!)             = '08.08.MDU13H15c3'
+ '20C3'(!)             = '08.08.MDU13H20c3'
+ '25C3'(!)             = '08.08.MDU13H25c3'
+ '30C3'(!)             = '08.08.MDU13H30c3'
+ '35C3'(!)             = '08.08.MDU13H35c3'
+ '40C3'(!)             = '08.08.MDU13H40c3'
+ '45C3'(!)             = '08.08.MDU13H45c3'
+ '50C3'(!)             = '08.08.MDU13H50c3'
+
+END_PART
+
+PART 'LAR_SIL7'
+
+{========================================================================================}
+:VALUE                 | Z                   = JEDEC_TYPE              | PART_NUMBER                             ;
+{========================================================================================}
+ '5n'                  | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120650'
+ '10n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120651'
+ '20n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120652'
+ '30n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120653'
+ '40n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120654'
+ '50n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120655'
+ '60n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120656'
+ '70n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120657'
+ '80n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120658'
+ '90n'                 | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120659'
+ '100n'                | '50'(!)             = 'DELAY_SIL7'            | '08.08.SECRE-EP120660'
+ '5n'                  | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120661'
+ '10n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120662'
+ '20n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120663'
+ '30n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120664'
+ '40n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120665'
+ '50n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120666'
+ '60n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120667'
+ '70n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120668'
+ '80n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120669'
+ '90n'                 | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120670'
+ '100n'                | '100'(!)            = 'DELAY_SIL7'            | '08.08.SECRE-EP120671'
+
+END_PART
+
+PART 'LAR_SIL8'
+
+{========================================================================================}
+:VALUE                 = JEDEC_TYPE          | PART_NUMBER             ;
+{========================================================================================}
+ '0n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123101'
+ '0.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123102'
+ '1n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123103'
+ '1.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123104'
+ '2n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123105'
+ '2.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123106'
+ '3n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123107'
+ '3.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123108'
+ '4n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123109'
+ '4.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123110'
+ '5n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123111'
+ '5.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123112'
+ '6n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123113'
+ '6.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123114'
+ '7n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123115'
+ '7.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123116'
+ '8n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123117'
+ '8.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123118'
+ '9n'(!)               = 'DELAY_SIL8'        | '08.08.SECRE-EP123119'
+ '9.5n'(!)             = 'DELAY_SIL8'        | '08.08.SECRE-EP123120'
+ '10n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123121'
+ '11n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123123'
+ '12n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123125'
+ '13n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123127'
+ '14n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123129'
+ '15n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123131'
+ '16n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123133'
+ '17n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123135'
+ '18n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123137'
+ '19n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123139'
+ '20n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123141'
+ '25n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123146'
+ '30n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123151'
+ '35n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123156'
+ '40n'(!)              = 'DELAY_SIL8'        | '08.08.SECRE-EP123161'
+
+END_PART
+
+PART 'OSC1758'
+PINCOUNT=18
+NC_PINS=(1,2,5,8,9,10,14,17)
+PHYS_DES_PREFIX=M
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE(OPT='DIP')       = JEDEC_TYPE          | PART_NUMBER             ;
+{========================================================================================}
+ 'DIP'(!)              = 'DIP18_6'           | 'OSC1758'
+
+END_PART
+
+PART 'OSCILQUARTZ'
+PHYS_DES_PREFIX=QZ
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 = VALUE               | PINCOUNT                | JEDEC_TYPE                              | PART_NUMBER                                                 | MANUFACTURER                                                          ;
+{========================================================================================}
+ '25MHz'(!)            = '25MHz'             | '4'                     | 'QZ_KTH039C'                            | '179-0423'                                                  | 'RADIOSPARE'
+
+END_PART
+
+
+
+PART 'QZ4P'
+PINCOUNT=4
+PHYS_DES_PREFIX=QZ
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 | TYPE                = VALUE                   | JEDEC_TYPE                              | PART_NUMBER                                                 | MANUFACTURER                                                          ;
+{========================================================================================}
+ '139MHZ'              | 'EQSF'(!)           = '139MHz'                | 'QZ4P_110X45'                           | 'EQSF139M'                                                  | 'EUROQUARTZ'
+ '147MHZ'              | 'EQSF'(!)           = '147MHz'                | 'QZ4P_110X45'                           | 'EQSF147M'                                                  | 'EUROQUARTZ'
+ '155MHZ'              | 'EQSF'(!)           = '155MHz'                | 'QZ4P_110X45'                           | 'EQSF155M'                                                  | 'EUROQUARTZ'
+ '163MHZ'              | 'EQSF'(!)           = '163MHz'                | 'QZ4P_110X45'                           | 'EQSF163M'                                                  | 'EUROQUARTZ'
+ '171MHZ'              | 'EQSF'(!)           = '171MHz'                | 'QZ4P_110X45'                           | 'EQSF171M'                                                  | 'EUROQUARTZ'
+ '180MHZ'              | 'EQSF'(!)           = '180MHz'                | 'QZ4P_110X45'                           | 'EQSF180M'                                                  | 'EUROQUARTZ'
+ '281MHZ'              | 'EQSF'(!)           = '281MHz'                | 'QZ4P_110X45'                           | 'EQSF281M'                                                  | 'EUROQUARTZ'
+ '465MHZ'              | 'EQSF'(!)           = '465MHz'                | 'QZ4P_110X45'                           | 'EQSF465M'                                                  | 'EUROQUARTZ'
+ '930MHZ'              | 'EQSF'(!)           = '930MHz'                | 'QZ4P_110X45'                           | 'EQSF930M'                                                  | 'EUROQUARTZ'
+
+END_PART
+
+
+
+PART 'QZ_NKS7'
+PINCOUNT=4
+PHYS_DES_PREFIX=QZ
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE            | PACK_TYPE      = VALUE          | JEDEC_TYPE      | PART_NUMBER        | MANUFACTURER   ;
+{========================================================================================}
+ '24.0MHz'        | 'NKS7'(!)      = '24.0MHz'      | 'QZ4P_NKS7'     | 'NKS7-240-20-E'    | 'SaRonix'    : NC_PINS = '(1,3)'
+
+END_PART
+
+PART 'QZSMD4P-1'
+PINCOUNT=4
+PHYS_DES_PREFIX=QZ
+CLASS=DISCRETE
+DESCRIPTION=SMD 4-Pins Quartz Oscillator
+
+{========================================================================================}
+:VALUE                 | TYPE                = VALUE                   | JEDEC_TYPE                              | PART_NUMBER                                           | MANUFACTURER                                                          ;
+{========================================================================================}
+ '4MHZ'                | 'IQXO70'(!)         = '4MHz'                  | 'QZSMD4P'                               | '4MHZ'                                                | 'IQD/Cmac'
+ '8MHZ'                | 'IQXO70'(!)         = '8MHz'                  | 'QZSMD4P'                               | '8MHZ'                                                | 'IQD/Cmac'
+ '10MHZ'               | 'IQXO70'(!)         = '10MHz'                 | 'QZSMD4P'                               | '10MHZ'                                               | 'IQD/Cmac'
+ '11.0592MHZ'          | 'IQX070'(!)         = '11.0592MHz'            | 'QZSMD4P'                               | '11.0592MHz-IQXO70'                                   | 'IQD/Cmac'
+ '12MHZ'               | 'IQXO70'(!)         = '12MHz'                 | 'QZSMD4P'                               | '12MHZ'                                               | 'IQD/Cmac'
+ '14.318MHZ'           | 'IQXO70'(!)         = '14.318MHz'             | 'QZSMD4P'                               | '14.318MHZ'                                           | 'IQD/Cmac'
+ '16MHZ'               | 'IQXO70'(!)         = '16MHz'                 | 'QZSMD4P'                               | '16MHZ'                                               | 'IQD/Cmac'
+ '20MHZ'               | 'IQXO70'(!)         = '20MHz'                 | 'QZSMD4P'                               | '20MHZ'                                               | 'IQD/Cmac'
+ '24MHZ'               | 'IQXO70'(!)         = '24MHz'                 | 'QZSMD4P'                               | '24MHZ'                                               | 'IQD/Cmac'
+ '32MHZ'               | 'IQXO70'(!)         = '32MHz'                 | 'QZSMD4P'                               | '32MHZ'                                               | 'IQD/Cmac'
+ '40MHZ'               | 'IQXO70'(!)         = '40MHz'                 | 'QZSMD4P'                               | '40.0MHZ IQXO-70C(X357T)'                             | 'IQD/Cmac'
+ '50MHZ'               | 'IQXO70'(!)         = '50MHz'                 | 'QZSMD4P'                               | '50MHZ'                                               | 'IQD/Cmac'
+ '64MHZ'               | 'IQXO70'(!)         = '64MHz'                 | 'QZSMD4P'                               | '64MHZ'                                               | 'IQD/Cmac'
+ '66MHZ'               | 'IQXO70'(!)         = '66MHz'                 | 'QZSMD4P'                               | '66MHz'                                               | 'IQD/Cmac'
+ '80MHZ'               | 'IQXO70'(!)         = '80MHz'                 | 'QZSMD4P'                               | '80MHZ'                                               | 'IQD/Cmac'
+ '33MHZ'               | 'TX55C'(!)          = '33MHz'                 | 'SOJ4W_508'                             | '33MHZ'                                               | 'NONE'
+ '66MHZ'               | 'TX56C'(!)          = '66MHz'                 | 'SOJ4W_508'                             | '66MHZ'                                               | 'NONE'
+ '33.0MHz'             | 'SM1100JP'(!)       = '33.0MHz'               | 'SOJ4W_508'                             | '33.0MHz'                                             | 'NONE'
+ '50.0MHz'             | 'SM1100JP'(!)       = '50.0MHz'               | 'SOJ4W_508'                             | '50.0MHz'                                             | 'NONE'
+ '66.7MHz'             | 'SM1100JP'(!)       = '66.7MHz'               | 'SOJ4W_508'                             | '66.7MHz'                                             | 'NONE'
+ '70.0MHz'             | 'SM1100JP'(!)       = '70.0MHz'               | 'SOJ4W_508'                             | '70.0MHz'                                             | 'NONE'
+ '80.0MHz'             | 'SM1100JP'(!)       = '80.0MHz'               | 'SOJ4W_508'                             | '80.0MHz'                                             | 'NONE'
+ '125.0MHz'            | 'SM1100JP'(!)       = '125.0MHz'              | 'SOJ4W_508'                             | '125.0MHz'                                            | 'NONE'
+ '30.0MHz'             | 'TXQ070'(!)         = '30.0MHz'               | 'QZSMD4P'                               | '30M.TXQ070'                                          | 'NONE'
+ '125.0MHz'            | 'TXQ070'(!)         = '125.0MHz'              | 'QZSMD4P'                               | '125M.TXQ070'                                         | 'NONE'
+ '50MHZ'               | 'S1614'(!)          = '50MHZ'                 | 'QZSMD4P_5X7'                           | 'S1614B-50.0000'                                      | 'SaRonix'
+ '25MHZ'               | 'S1703'(!)          = '25MHZ'                 | 'QZSMD4P_5X7'                           | 'S1703B-25.000'                                       | 'SaRonix'
+ '125MHZ'              | 'S1903'(!)          = '125MHZ'                | 'QZSMD4P_5X7'                           | 'S1903B-125.000'                                      | 'SaRonix'
+ '4MHZ'                | 'IQXO71'(!)         = '4MHz'                  | 'QZSMD4P'                               | '4MHZ.IQXO71'                                         | 'IQD/Cmac'
+ '8MHZ'                | 'IQXO71'(!)         = '8MHz'                  | 'QZSMD4P'                               | '8MHZ.IQXO71'                                         | 'IQD/Cmac'
+ '10MHZ'               | 'IQXO71'(!)         = '10MHz'                 | 'QZSMD4P'                               | '10MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '12MHZ'               | 'IQXO71'(!)         = '12MHz'                 | 'QZSMD4P'                               | '12MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '14.318MHZ'           | 'IQXO71'(!)         = '14.318MHz'             | 'QZSMD4P'                               | '14.318MHZ.IQXO71'                                    | 'IQD/Cmac'
+ '16MHZ'               | 'IQXO71'(!)         = '16MHz'                 | 'QZSMD4P'                               | '16MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '20MHZ'               | 'IQXO71'(!)         = '20MHz'                 | 'QZSMD4P'                               | '20MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '24MHZ'               | 'IQXO71'(!)         = '24MHz'                 | 'QZSMD4P'                               | '24MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '32MHZ'               | 'IQXO71'(!)         = '32MHz'                 | 'QZSMD4P'                               | '32MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '40MHZ'               | 'IQXO71'(!)         = '40MHz'                 | 'QZSMD4P'                               | '40MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '50MHZ'               | 'IQXO71'(!)         = '50MHz'                 | 'QZSMD4P'                               | '50MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '64MHZ'               | 'IQXO71'(!)         = '64MHz'                 | 'QZSMD4P'                               | '64MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '66MHZ'               | 'IQXO71'(!)         = '66MHz'                 | 'QZSMD4P'                               | '66MHz.IQXO71'                                        | 'IQD/Cmac'
+ '80MHZ'               | 'IQXO71'(!)         = '80MHz'                 | 'QZSMD4P'                               | '80MHZ.IQXO71'                                        | 'IQD/Cmac'
+ '100MHZ'              | 'IQXO71'(!)         = '100MHz'                | 'QZSMD4P'                               | '100MHZ.IQXO71'                                       | 'IQD/Cmac'
+ '40MHZ'               | 'SMOVX6'(!)         = '40MHZ'                 | 'QZSMDVX6'                              | '07.94.40MHZ-SMO-VX6'                                 | 'NONE'
+ '40MHZ'               | 'MCSO-B'(!)         = '40MHZ'                 | 'QZSMDMCSO'                             | '07.94.40MHZ-MCSO-B-J/L'                              | 'NONE'
+ '40MHZ'               | 'SM55T'(!)          = '40MHZ'                 | 'QZSMD4P_50X32'                         | 'SM5545TEW-40.0M'                                     | 'PLETRONICS'
+ '40MHZ'               | 'KC5032C'(!)        = '40MHZ'                 | 'OSCSC250P320X500X100-4N'               | 'KC5032C40.0000C30E00'                                | 'AVX' : DESCRIPTION='SMD clock Oscillator with CMOS Output', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/qz_kc5032c.pdf'
+ '125MHZ'              | 'SM7745DV'(!)       = '125MHZ'                | 'QZSMD4P_5X7'                           | 'SM7745DV-125M'                                       | 'PLETRONICS'
+ '100MHZ'              | 'SM7745DV'(!)       = '125MHZ'                | 'QZSMD4P_5X7'                           | 'SM7744DV-100.0M'                                     | 'PLETRONICS' : DESCRIPTION='Leadless SMDCeramic Clock Oscillator', TOL='25ppm', VOLT='3.3V'
+ '83.33MHZ'            | 'SG8002CA'(!)       = '83.33MHZ'              | 'QZSMD4P_5X7'                           | 'SG8002CAxxxxx'                                       | 'EPSON'
+ '40MHZ'               | 'ESC3953M'(!)       = '40MHZ'                 | 'OSCSC508P500X700X180-4N'               | 'ECS-3953M-400-AU'                                    | 'ESC' : DESCRIPTION='SMD Clock Oscillator 3.3V', DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/qz_esc3953m_au.pdf'
+
+END_PART
+
+PART 'QZ_SG310'
+PHYS_DES_PREFIX=QZ
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE         | TYPE             = STATUS         | PART_NUMBER                | MANUFACTURER   | DESCRIPTION                               | DATASHEET_URL                                                         | PINCOUNT | SMD     | CASE        | JEDEC_TYPE    | VALUE  ;
+{========================================================================================}
+ '4.0MHz'      | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 4.0MHZ C'      | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '4.0MHz'     
+ '8.0MHz'      | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 8.0MHZ C'      | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '8.0MHz'     
+ '14.31818MHz' | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 14.31818MHZ C' | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '14.31818MHz'
+ '16.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 16.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '16.0MHz'    
+ '20.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 20.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '20.0MHz'    
+ '24.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 24.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '24.0MHz'    
+ '25.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 25.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '25.0MHz'    
+ '32.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 32.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '32.0MHz'    
+ '40.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 40.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '40.0MHz'    
+ '48.0MHz'     | 'SG_310_SCF'(!)  = 'Preferred'    | 'SG-310 SCF 48.0MHZ C'     | 'EPSON TOYO'   | 'SPXO Crystal Oscillator - SG-310 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_epson_sg310.pdf'   | '4'      | 'YES'   | '3.2x2.5mm' | 'QZSMD_32X25' | '48.0MHz'    
+
+END_PART
+
+PART 'SM1100'
+PINCOUNT=4
+PHYS_DES_PREFIX=QZ
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE                 | TYPE                = VALUE                   | JEDEC_TYPE                              | PART_NUMBER                                                 ;
+{========================================================================================}
+ '33.0MHz'             | 'JP'(!)             = '33.0MHz'               | 'SOJ4W_508'                             | 'SM1100-33.0MHz'
+ '50.0MHz'             | 'JP'(!)             = '50.0MHz'               | 'SOJ4W_508'                             | 'SM1100-50.0MHz'
+ '66.7MHz'             | 'JP'(!)             = '66.7MHz'               | 'SOJ4W_508'                             | 'SM1100-66.7MHz'
+ '70.0MHz'             | 'JP'(!)             = '70.0MHz'               | 'SOJ4W_508'                             | 'SM1100-70.0MHz'
+ '80.0MHz'             | 'JP'(!)             = '80.0MHz'               | 'SOJ4W_508'                             | 'SM1100-80.0MHz'
+ '125.0MHz'            | 'JP'(!)             = '125M.0Hz'              | 'SOJ4W_508'                             | 'SM1100JP-125.0MHz'
+
+END_PART
+
+PART 'DIODEGEN'
+PHYS_DES_PREFIX=D
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                  = JEDEC_TYPE          | PINCOUNT                | PART_NUMBER                             ;
+{========================================================================================}
+ '1N4004_CMS'(!)       = 'SOD87'             | '2'                     | '08.51.32-1N4004_CMS' : STATUS='Obsolete'
+ '1N4007'(!)           = 'DO41'              | '2'                     | '08.51.32.210.4'
+ '1N4118'(!)           = 'DO35'              | '2'                     | '08.51.32-1N4118'
+ '1N4148'(!)           = 'DO35'              | '2'                     | '08.51.32-1N4148_SDBBF'
+ '1N4148_CMS'(!)       = 'S32X16POL'         | '2'                     | '08.51.32-1N4148_CMS'
+ '1N4586'(!)           = 'DO29'              | '2'                     | '08.51.32-1N4586_SDBAH'
+ '1N5082'(!)           = 'DO35'              | '2'                     | '08.51.32-1N5082'
+ '1N5401'(!)           = 'DO27'              | '2'                     | '08.51.32-1N5401'
+ '1N6263_CMS'(!)       = 'S32X16POL'         | '2'                     | '08.51.32-1N6263_CMS'
+ '1N914_CMS'(!)        = 'S32X16POL'         | '2'                     | '08.51.32-1N914_CMS'
+ '1N916'(!)            = 'DO35'              | '2'                     | '08.51.32-1N916'
+ 'BAT45'(!)            = 'DO35'              | '2'                     | '08.51.32-BAT45_SDAAF'
+ 'BAV103_CMS'(!)       = 'S32X16POL'         | '2'                     | '08.51.32-BAV103_CMS'
+ 'BAV21'(!)            = 'DO35'              | '2'                     | '08.51.32-BAV21_SDBBD'
+ 'BY253'(!)            = 'DO27'              | '2'                     | '08.51.32-BY253'
+ 'BY254'(!)            = 'DO27'              | '2'                     | '08.51.32-BY254_SDBDH'
+ 'HP2835'(!)           = 'DO41'              | '2'                     | '08.51.32-HP2835'
+ 'Z1009'(!)            = 'TO226I'            | '3'                     | '08.51.32-Z1009'
+ 'Z1029'(!)            = 'TO226I'            | '3'                     | '08.51.32-Z1029'
+ 'ZBZX46'(!)           = 'DO35'              | '2'                     | '08.51.32-ZBZX46'
+
+END_PART
+
+END.
+

@@ -1,0 +1,27 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'TANTPOLY','TANTPOLY_SMD';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+  end_pin;
+  body
+    PART_NAME='TANTPOLY';
+    BODY_NAME='TANTPOLY';
+    NO_IO_CHECK='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    ALLOW_CONNECT='TRUE';
+    PHYS_DES_PREFIX='U';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

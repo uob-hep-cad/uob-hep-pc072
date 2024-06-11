@@ -1,0 +1,25 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'OSC_6P_ENDIS_OUTP_OUTN_145';
+{ PACK_TYPE 145 = ENDIS(1)_OUTP(4)_OUTN(5) }
+  pin
+    'ENDIS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'OUTN':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    PART_NAME='OSC_6P_ENDIS_OUTP_OUTN';
+    BODY_NAME='OSC_6P_ENDIS_OUTP_OUTN';
+    POWER_PINS='(GND:3;VDD:6)';
+    NC_PINS='(2)';
+    PHYS_DES_PREFIX='QZ';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

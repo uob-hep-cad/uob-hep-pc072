@@ -1,0 +1,16 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OSC_6P_ENDIS_OUTP_OUTN'
+PHYS_DES_PREFIX=QZ
+CLASS=IC
+
+{========================================================================================}
+: TYPE                           | VALUE        | PACK_TYPE                           = STATUS         | PART_NUMBER                    | MANUFACTURER    | DESCRIPTION                                                                                         | DATASHEET_URL                                                                  | PINCOUNT | SMD   | CASE          | JEDEC_TYPE                       | VALUE ;
+{========================================================================================}
+
+ 'SIT5021AI-2DE-25E-50.000000'   | '50MHz'      | '145'(~SIT5021AI-2DE-25E-50.000000) = 'Preferred'    | 'SIT5021AI-2DE-25E-50.000000'  | 'SI TIME'        | '2.5V 5ppm 7x5mm LVDS High Performance Differential (VC) TCXO with Output Enable - SiT5021 Series' | 'file://cern.ch/dfs/services/cdslib/datasheets/osc_sitime_sit5021.pdf'         | '6'      | 'YES' | '7.0x5.0mm'   | 'OSCSC254P500X700X100-6N'        | '50MHz'      : POWER_PINS = '(GND:3;VDD:6)', NC_PINS='(2)'
+
+END_PART
+
+END.
+

@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTH08T210W'
+PHYS_DES_PREFIX=PWR
+CLASS=IC
+
+{========================================================================================}
+: TYPE              | PACK_TYPE            = STATUS      | PART_NUMBER    | MANUFACTURER        | DESCRIPTION                                                                                              | DATASHEET_URL                                                   | PINCOUNT | SMD   | CASE  | JEDEC_TYPE              ;
+{========================================================================================}
+ 'PTH08T210WAD'     | 'ECP'(~PTH08T210WAD) = 'Preferred' | 'PTH08T210WAD' | 'TEXAS INSTRUMENTS' | '30A 5.5V to 14V Input Non-Isolated Wide-Output Adjustable Power Module with Turbo-Trans(TM) Technology' | 'file://cern.ch/dfs/services/cdslib/datasheets/pth08t210w.pdf'  | '14'     | 'NO'  | 'ECP' | 'PWS_TI_ECP-R-PDSS-T14'
+
+END_PART
+
+END.
+
