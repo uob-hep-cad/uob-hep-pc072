@@ -17,9 +17,7 @@ DEFINE graphics graphics
 #INCLUDE $CERN_CDSLIB/lib_psd17.x/pe_cern_lib/cds.lib
 #DEFINE cninterface cninterface
 
-
-
-
+#DEFINE cndiode archive_libs/diode
 DEFINE cnlinear    archive_libs/cnlinear
 DEFINE bris_cds_discrete    archive_libs/cds_discrete
 DEFINE bris_cds_standard    archive_libs/cds_standard
