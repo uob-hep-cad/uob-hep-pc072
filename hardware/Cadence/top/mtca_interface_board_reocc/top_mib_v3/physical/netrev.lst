@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev2_v206a.brd                            )
+(    Drawing          : mib_rev2_v207.brd                             )
 (    Software Version : 17.4S033                                      )
-(    Date/Time        : Mon Jun 10 14:00:18 2024                      )
+(    Date/Time        : Tue Jun 11 15:09:15 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
+Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v206a.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v208.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v206a.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v207.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v207.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v208.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.82)
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.02)
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat (00:00:00.25)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat (00:00:00.01)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxnet.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -40,11 +40,11 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtc
 
 ===========================================================
 Start Constraint Override Import
-	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
-	Start time: Mon Jun 10 14:00:21 2024
+	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstcmdb.dat
+	Start time: Tue Jun 11 15:09:17 2024
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Mon Jun 10 14:00:21 2024
+Finished Constraint Update	Time: Tue Jun 11 15:09:17 2024
 ===========================================================
 
 ------ Library Paths ------
@@ -120,9 +120,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jun 10 14:00:17 2024
-   DESIGN NAME : 'TOP'
-   PACKAGING ON 10-Jun-2024 AT 13:59:56
+netrev run on Jun 11 15:09:15 2024
+   DESIGN NAME : 'TOP_MIB_V3'
+   PACKAGING ON 11-Jun-2024 AT 15:09:10
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -135,10 +135,8 @@ netrev run on Jun 10 14:00:17 2024
               'ocad_parts_lib' 'discrete' 'ind' 'golden_symbols' 'atcs'
               'testpoint' 'diode' 'tp_demonstrator' 'graphics' 'standard'
               'cninterface' 'cnpower' 'cnconnector' 'cndiscrete' 'cnpassive'
-              'cn100e' 'cn10e' 'cn10el' 'cn10k' 'cn10kh' 'cn74lv' 'cn74tiac'
-              'cn75als' 'cncmos' 'cnfast' 'cngaas' 'cnlinear' 'cnmech'
-              'cnmemory' 'cnmicro' 'cnpld' 'cnspecial' 'cnstandard' 'cnvlsi'
-              'help' 'bris_cds_standard' 'bris_cds_logic' 'bris_cds_discrete'
+              'cnlinear' 'bris_cds_standard' 'bris_cds_logic'
+              'bris_cds_discrete'
    MASTER_LIBRARIES  <none>
    MAX_ERRORS 500
    MERGE_MINIMUM 5
@@ -155,6 +153,6 @@ netrev run on Jun 10 14:00:17 2024
  No oversight detected
  No warning detected
 
-cpu time      0:12:02
-elapsed time  0:00:04
+cpu time      0:04:56
+elapsed time  0:00:02
 

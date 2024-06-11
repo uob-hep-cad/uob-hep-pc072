@@ -3,19 +3,19 @@
 <ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Mon Jun 10 14:00:21 2024
+    <Entry Name="Report time">Tue Jun 11 15:09:17 2024
 </Entry>
     <Entry Name="Software version">17.4 (S033)</Entry>
-    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v206a.brd</Entry>
-    <Entry Name="Schematic">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged\pstcmdb.dat</Entry>
+    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v207.brd</Entry>
+    <Entry Name="Schematic">C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\packaged\pstcmdb.dat</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Overwrite</Entry>
     <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
   </RptSummary>
 
   <Tree>
-    <Item Filter="0x101" Name="Summary" Ref="main-summary">
-      <Item Filter="0x0" Name="Buses [15]" Ref="12">
+    <Item Filter="0x1" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="Buses [15]" Ref="10">
         <Item Filter="0x0" Name="BP" Ref="1"/>
         <Item Filter="0x0" Name="BP_2" Ref="2"/>
         <Item Filter="0x0" Name="BP_3" Ref="3"/>
@@ -32,31 +32,14 @@
         <Item Filter="0x0" Name="SFP_DATA_IO_1" Ref="a"/>
         <Item Filter="0x0" Name="UNCONNECTED" Ref="d"/>
       </Item>
-      <Item Filter="0x100" Name="Nets [1]" Ref="11">
-        <Item Filter="0x100" Name="VDD" Ref="10"/>
-      </Item>
     </Item>
   </Tree>
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="15" Ref="12"/>
-      <ChangedObject Filter="0x100" Name="Nets" ObjNumber="1" Ref="11"/>
+      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="15" Ref="10"/>
     </MainSummary>
-    <GroupSummary ID="11" Name="Nets">
-      <ChangedObject Attributes="1" Child="0" Filter="0x100" Membership="0" Name="VDD" Notes="0" Other="0" Ref="10" Reference="0"/>
-    </GroupSummary>
-    <ObjectSummary ID="10" Kind="Net" Name="VDD">
-      <Attributes Filter="0x100" Type="Attributes">
-        <Attribute Filter="0x100" Name="NO_RAT" Status="Deleted" Taken="Src" Type="Scalar">
-          <Value Type="noChange">
-            <Dst>1</Dst>
-            <Src></Src>
-          </Value>
-        </Attribute>
-      </Attributes>
-    </ObjectSummary>
-    <GroupSummary ID="12" Name="Buses">
+    <GroupSummary ID="10" Name="Buses">
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP" Notes="0" Other="0" Ref="1" Reference="0" Status="Created"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP_2" Notes="0" Other="0" Ref="2" Reference="0" Status="Created"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="BP_3" Notes="0" Other="0" Ref="3" Reference="0" Status="Created"/>

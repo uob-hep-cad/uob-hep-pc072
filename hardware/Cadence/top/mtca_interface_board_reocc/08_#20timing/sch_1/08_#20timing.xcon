@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-10T13:37:06</modificationTime>
+    <modificationTime>2024-06-11T15:05:40</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="08_ timing" view="sch_1">
       <lastids>
-        <instanceid>455</instanceid>
+        <instanceid>456</instanceid>
         <netid>409</netid>
-        <insttermid>1193</insttermid>
+        <insttermid>1199</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -752,6 +752,46 @@
             <term>
               <id>T283</id>
               <name>reserved</name>
+              <direction>input</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S22</id>
+          <library>cninterface</library>
+          <name>74avc1t45</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T294</id>
+              <name>a</name>
+              <direction>output</direction>
+            </term>
+            <term>
+              <id>T295</id>
+              <name>b</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T296</id>
+              <name>dir</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T297</id>
+              <name>gnd</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T298</id>
+              <name>vcca</name>
+              <direction>input</direction>
+            </term>
+            <term>
+              <id>T299</id>
+              <name>vccb</name>
               <direction>input</direction>
             </term>
           </terms>
@@ -6033,12 +6073,12 @@
           </parameters>
           <powers>
             <power>
-              <name>vcc</name>
-              <override>N383</override>
-            </power>
-            <power>
               <name>vee</name>
               <override>N21</override>
+            </power>
+            <power>
+              <name>vcc</name>
+              <override>N383</override>
             </power>
           </powers>
           <pins>
@@ -7639,12 +7679,12 @@
           </parameters>
           <powers>
             <power>
-              <name>vcc</name>
-              <override>N383</override>
-            </power>
-            <power>
               <name>vee</name>
               <override>N21</override>
+            </power>
+            <power>
+              <name>vcc</name>
+              <override>N383</override>
             </power>
           </powers>
           <pins>
@@ -8037,6 +8077,49 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I456</id>
+          <cellid>S22</cellid>
+          <name>page1_i803</name>
+          <pins>
+            <pin>
+              <id>M1194</id>
+              <termid>T294</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1195</id>
+              <termid>T295</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1196</id>
+              <termid>T296</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1197</id>
+              <termid>T297</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1198</id>
+              <termid>T298</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M1199</id>
+              <termid>T299</termid>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -8291,6 +8374,7 @@
               <instance ref="i800"></instance>
               <instance ref="i801"></instance>
               <instance ref="i802"></instance>
+              <instance ref="i803"></instance>
             </instances>
           </page>
           <page number="2">
