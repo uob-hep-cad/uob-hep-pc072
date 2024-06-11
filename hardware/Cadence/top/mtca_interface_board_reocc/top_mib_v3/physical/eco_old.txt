@@ -1,0 +1,152 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DCDC_2V5_PG  pins ADDED TO this new net
+                                 R71.1                          
+                                 R88.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 R71.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins ADDED TO this existing net (pins not previously on any net)
+                                 R88.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POWER<3>     pins MOVED FROM this net (to net name listed on right)
+                                 R59.2           18.9230 18.6000
+                                                                     LDS_1V8_PG
+                                 U13.7           12.2428 26.7850
+                                                                   LDS_1V8_PG_1
+                                 U16.5                          
+                                                                     LDS_1V8_PG
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POWER<4>     pins DELETED FROM this net (all pins deleted)
+                                 U13.9           12.2428 25.7850
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POWER<6>     net RENAMED (to net name listed on right)           DCDC_3V6_PG  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POWER<7>     pins MOVED FROM this net (to net name listed on right)
+                                 IC6.10                         
+                                                                  SENSE_I2C_SDA
+                                 R54.2           93.7840 20.8280
+                                                                  SENSE_I2C_SDA
+                                 U13.30          19.3870 21.6408
+                                                                  SENSE_I2C_SDA
+                                 U25.1           65.9178 96.6061
+                                                            POWER.SENSE_12C_SDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POWER<8>     pins MOVED FROM this net (to net name listed on right)
+                                 IC6.11                         
+                                                                  SENSE_I2C_SCL
+                                 R56.2           96.5500 20.5000
+                                                                  SENSE_I2C_SCL
+                                 R58.2           16.4592 18.7778
+                                                                  SENSE_I2C_SCL
+                                 U25.2           65.9178 95.9561
+                                                            POWER.SENSE_12C_SCL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POWER<9>     net RENAMED (to net name listed on right)           DCDC_3V3_PG  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  POWER<10>    net RENAMED (to net name listed on right)           DCDC_ENABLE  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RSMD0402_1/16W-6.2K,1%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R71                 R-ERJ-2RKF4991X,R-ERJ-2RKF4991A 
+ R88                 RSMD0402_1/16W-6.2K,1% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R71                            ROOM           VP3V3
+ R88                            ROOM           POWER
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R71.2                          DESCRIPTION    RES SMD 4.99K OHM 1% 1/10W 0402
+ R71.2                          NO_SWAP_GATE   
+ R71.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R71.2                          ROOM           VP3V3
+ R71.2                          XY             (825,-5100)
+ R88.2                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R88.2                          ROOM           POWER
+ R88.2                          SIZE           1
+ R88.2                          XY             (825,-4800)
+ TP14.1                         XY             (5000,-4925)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../Cadence/top/mtca_interface_board_reocc/top/physical/mib_rev2_v27.brd  |
+|                                                    Wed Mar  8 11:23:52 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R71.1                          CDS_PINID      \1\
+ R71.2                          CDS_PINID      \2\
+ R88.1                          CDS_PINID      A(0)
+ R88.2                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      19                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :       2                                        |
+|       Comp property added   :       2                                        |
+|       Pin property added    :       4                                        |
+|       Slot property added   :      10                                        |
+|                                                                              |
+|   Total ECO changes reported:      38                                        |
+|------------------------------------------------------------------------------|

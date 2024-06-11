@@ -1,0 +1,72 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v206a.brd     |
+|                                                    Mon Jun 10 14:00:18 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 854S01AKILF
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v206a.brd     |
+|                                                    Mon Jun 10 14:00:18 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC7                 854S01AKILF           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v206a.brd     |
+|                                                    Mon Jun 10 14:00:18 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC7.1                          HAS_FIXED_SIZE 2
+ IC7.1                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/854s01i/chips/chips.prt
+ IC7.1                          SIZE           2
+ IC7.1                          SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)
+ IC7.1                          XY             (15075,-5175)
+ IC7.3                          HAS_FIXED_SIZE 2
+ IC7.3                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/854s01i/chips/chips.prt
+ IC7.3                          SIZE           2
+ IC7.3                          SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)
+ IC7.3                          XY             (15075,-5175)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v206a.brd     |
+|                                                    Mon Jun 10 14:00:18 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC7.1                          CDS_PINID      PCLK(0)
+ IC7.2                          CDS_PINID      NPCLK(0)
+ IC7.3                          CDS_PINID      PCLK(1)
+ IC7.4                          CDS_PINID      NPCLK(1)
+ IC7.5                          CDS_PINID      RESERVED
+ IC7.6                          CDS_PINID      CLK_SEL
+ IC7.10                         CDS_PINID      NQ
+ IC7.11                         CDS_PINID      Q
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components added      :       1                                        |
+|       Pin property added    :       8                                        |
+|       Slot property added   :      10                                        |
+|                                                                              |
+|   Total ECO changes reported:      20                                        |
+|------------------------------------------------------------------------------|

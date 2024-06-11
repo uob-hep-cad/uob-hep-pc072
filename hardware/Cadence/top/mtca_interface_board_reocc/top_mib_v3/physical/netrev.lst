@@ -1,0 +1,160 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : mib_rev2_v206a.brd                            )
+(    Software Version : 17.4S033                                      )
+(    Date/Time        : Mon Jun 10 14:00:18 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top\packaged'
+Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v206a.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd'
+
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v206a.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev2_v207.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstchip.dat (00:00:00.82)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxprt.dat (00:00:00.02)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstxnet.dat (00:00:00.01)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Override Import
+	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top/packaged/pstcmdb.dat
+	Start time: Mon Jun 10 14:00:21 2024
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Mon Jun 10 14:00:21 2024
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.4/share/local/pcb/modules 
+
+PSMPATH =  . 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:\cad\bris_cdslib\lib_psd14.x\symbols 
+           Z:\cad\bris_cdslib\lib_psd14.x\formats 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\connector 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\soic 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\discrete 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\dip 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\so 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\bga 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\qfp 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\passif 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\cap 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\led 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\sw 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\mec 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\pwr 
+           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\res 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           ./symbols 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/symbols 
+           ./symbols 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /software/CAD/Cadence/SPB17.40.034/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB17.40.034/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB17.40.034/share/pcb/allegrolib/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+           ./symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:/cad/bris_cdslib/lib_psd14.x/pads 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 10 14:00:17 2024
+   DESIGN NAME : 'TOP'
+   PACKAGING ON 10-Jun-2024 AT 13:59:56
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'default' 'mtca_interface_board_reocc' 'mtca_interface_board'
+              'ocad_parts_lib' 'discrete' 'ind' 'golden_symbols' 'atcs'
+              'testpoint' 'diode' 'tp_demonstrator' 'graphics' 'standard'
+              'cninterface' 'cnpower' 'cnconnector' 'cndiscrete' 'cnpassive'
+              'cn100e' 'cn10e' 'cn10el' 'cn10k' 'cn10kh' 'cn74lv' 'cn74tiac'
+              'cn75als' 'cncmos' 'cnfast' 'cngaas' 'cnlinear' 'cnmech'
+              'cnmemory' 'cnmicro' 'cnpld' 'cnspecial' 'cnstandard' 'cnvlsi'
+              'help' 'bris_cds_standard' 'bris_cds_logic' 'bris_cds_discrete'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:12:02
+elapsed time  0:00:04
+
