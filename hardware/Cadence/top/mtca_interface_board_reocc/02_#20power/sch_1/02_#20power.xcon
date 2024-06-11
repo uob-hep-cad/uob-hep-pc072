@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-04-18T10:03:54</modificationTime>
+    <modificationTime>2024-06-11T15:29:48</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>186</instanceid>
+        <instanceid>187</instanceid>
         <netid>164</netid>
-        <insttermid>511</insttermid>
+        <insttermid>512</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -543,6 +543,23 @@
               <id>T248</id>
               <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S27</id>
+          <library>cnconnector</library>
+          <name>con3p</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T257</id>
+              <name>a</name>
+              <direction>inout</direction>
+              <msb>2</msb>
+              <lsb>0</lsb>
             </term>
           </terms>
         </cell>
@@ -3019,6 +3036,21 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I187</id>
+          <cellid>S27</cellid>
+          <name>page1_i202</name>
+          <pins>
+            <pin>
+              <id>M512</id>
+              <termid>T257</termid>
+              <msb>2</msb>
+              <lsb>0</lsb>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -3173,6 +3205,7 @@
               <instance ref="i199"></instance>
               <instance ref="i200"></instance>
               <instance ref="i201"></instance>
+              <instance ref="i202"></instance>
             </instances>
           </page>
           <page number="2">

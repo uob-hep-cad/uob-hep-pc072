@@ -2,399 +2,44 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
+|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3_v209.brd  |
+|                                                    Tue Jun 11 15:39:34 2024  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- 854S01AKILF
- SN74AVC1T45DCK
+ CON3P-MOLEX_22_29_2031
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC8                 854S01AKILF           
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
+|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3_v209.brd  |
+|                                                    Tue Jun 11 15:39:34 2024  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC7                 SN74AVC1T45DCK        14.6000 92.6000 854S01AKILF
+ J20                 CON3P-MOLEX_22_29_2031                 CON3P-SLA3/180_3.2SN_OR
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
+|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3_v209.brd  |
+|                                                    Tue Jun 11 15:39:34 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C5.2           127.000 25.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C6.2           127.000 42.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C7.2           127.000 59.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C8.2           12.7500 46.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C12.2          133.000 25.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C13.2          133.000 42.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C14.2          133.000 59.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C15.2          118.800 51.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C17.2          119.000 12.2000 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C18.2          132.750 20.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C19.2          14.7500 59.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C21.2          132.750 37.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C22.2          132.750 54.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C23.2          92.7500 69.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C24.2          119.000 47.4000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C25.2          115.250 31.7500 PRIM_FILE      ./archive_libs/cnpassive/elcaptan/chips/chips.prt
- C27.2          118.800 52.6000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C29.2          119.000 48.4000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C32.2          134.000 22.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C37.2          10.7200 53.9900 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C41.2          98.2500 68.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C44.2          98.8700  9.5100 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C49.2          134.250 39.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C51.2          143.250  7.2500 PRIM_FILE      ./archive_libs/cnpassive/elcaptan/chips/chips.prt
- C52.2          37.2500 14.0000 PRIM_FILE      ./archive_libs/cnpassive/elcaptan/chips/chips.prt
- C58.2          37.2500  6.2500 PRIM_FILE      ./archive_libs/cnpassive/elcaptan/chips/chips.prt
- C61.2          71.7500 13.2500 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C63.2          51.4100  9.3200 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C67.2          56.1700 18.4800 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C70.2          56.5000 25.7500 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C73.2          117.000 20.5000 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C74.2          98.9800 15.8300 PRIM_FILE      ./archive_libs/cds_discrete/tantpoly/chips/chips.prt
- C97.2          134.000 56.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C98.2          121.750 34.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C99.2          121.750 30.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C100.2         126.500 22.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C101.2         121.750 35.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C102.2         127.750 14.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C105.2         121.750 31.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C106.2         125.500 22.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C113.2         127.750 15.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C114.2         128.500 19.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C116.2         127.200 36.3000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C118.2         125.700 53.4000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C119.2         132.750 19.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
+ J20.3                          PRIM_FILE      ./archive_libs/cnconnector/con3p/chips/chips.prt
+ J20.3                          ROOM           POWER
+ J20.3                          XY             (-950,-3625)
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C120.2         131.450 36.0500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C122.2         129.950 53.1500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C123.2         132.750 19.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C124.2         131.450 36.0500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C125.2         129.950 53.1500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C126.2         93.7500 47.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C127.2         98.0000 61.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C128.2         91.2500 50.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C129.2         96.5000 56.8000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C130.2         91.0000 51.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C131.2         97.5000 54.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C132.2         80.5000 47.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C133.2         99.2500 46.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C134.2         89.7500 46.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C135.2         12.7500 59.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C136.2         16.5000 53.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C137.2         91.7500 52.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C138.2         83.0000 47.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C139.2          9.0900 44.3800 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C142.2         88.0000 46.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C146.2         83.2500 52.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C148.2         17.1900 40.3800 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C149.2         85.5000 53.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C150.2         83.2500 50.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C151.2         83.2500 49.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C152.2         89.0000 53.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C153.2         80.7500 53.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C154.2         81.2500 46.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C157.2         85.0000 46.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C158.2         86.7500 46.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C159.2         87.0000 53.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C160.2         90.0000 53.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C162.2         83.2500 43.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C163.2         84.2500 39.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C165.2         11.0000 41.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C166.2         14.7500 46.7500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C167.2         80.5000 50.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C168.2         83.7500 40.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C169.2         80.5000 49.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C170.2         83.7500 41.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C171.2         75.0000 43.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C172.2         79.0000 41.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C173.2         82.2500 56.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C174.2         83.7500 55.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C175.2         15.5100 49.6300 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C176.2         15.5200 48.5700 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C177.2         21.0500 48.5800 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C178.2         21.0000 47.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C179.2         18.9800 47.0800 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C180.2         19.0000 46.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C181.2         21.5000 45.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C182.2         21.4900 44.4200 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C183.2         19.0000 44.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C184.2         19.0100 42.9300 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C185.2         21.5000 42.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C186.2         21.5200 41.4700 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C187.2          9.0100 57.5500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C188.2         15.0100 63.3400 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C189.2         15.0000 62.2500 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C190.2         21.5000 60.6000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C191.2         21.5000 59.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C192.2         19.0000 59.0800 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C193.2         19.0000 58.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C194.2         21.5200 57.5200 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C195.2         21.5000 56.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C196.2         19.2500 56.0000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C197.2         19.2700 54.9400 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C198.2         21.4800 54.5300 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C199.2         21.5000 53.5000 PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- IC1.2          131.000 40.0000 PRIM_FILE      ./archive_libs/cninterface/sy58608u/chips/chips.prt
- IC2.2          131.000 57.0000 PRIM_FILE      ./archive_libs/cninterface/sy58608u/chips/chips.prt
- IC3.12         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.12         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.14         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.14         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.18         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.18         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.20         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.20         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.22         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.22         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.24         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.24         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.28         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.28         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC3.30         13.5000 57.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC3.30         13.5000 57.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I178@CNINTERFACE.ADCLK948(CHIPS)
- IC4.12         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.12         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.14         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC4.14         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.18         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.18         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.20         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.20         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.22         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.22         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.24         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.24         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.28         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.28         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC4.30         13.5000 44.5000 PRIM_FILE      ./archive_libs/cninterface/adclk948/chips/chips.prt
- IC4.30         13.5000 44.5000 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I244@CNINTERFACE.ADCLK948(CHIPS)
- IC5.4          131.000  5.0000 PRIM_FILE      ./archive_libs/cndiscrete/optocoupler_ac_ec/chips/chips.prt
- IC6.8          84.0000  8.0000 PRIM_FILE      ./archive_libs/cnlinear/ltc2991/chips/chips.prt
- IC7.6          14.6000 92.6000 PRIM_FILE      ./archive_libs/cninterface/74avc1t45/chips/chips.prt
- IC7.6          14.6000 92.6000 XY             (14400,-5100)
- IC8.1                          HAS_FIXED_SIZE 2
- IC8.1                          PRIM_FILE      ./archive_libs/cninterface/854s01i/chips/chips.prt
- IC8.1                          SIZE           2
- IC8.1                          SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)
- IC8.1                          XY             (15075,-5175)
- IC8.3                          HAS_FIXED_SIZE 2
- IC8.3                          PRIM_FILE      ./archive_libs/cninterface/854s01i/chips/chips.prt
- IC8.3                          SIZE           2
- IC8.3                          SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)
- IC8.3                          XY             (15075,-5175)
- J13.10         49.2500 46.2500 PRIM_FILE      ./archive_libs/cnconnector/con10p/chips/chips.prt
- J14.1          69.0000 47.2500 PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
- J15.1          69.0000 51.5000 PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
- J16.4          128.750 66.2500 PRIM_FILE      ./archive_libs/cnconnector/con4p/chips/chips.prt
- J17.1          113.000 51.5000 PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
- J18.1          111.500 56.4000 PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
- J19.1          111.500 61.0000 PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
- L9.2           11.5200 50.7700 PRIM_FILE      ./archive_libs/cndiscrete/ferrite/chips/chips.prt
- L12.2          95.7500 69.5000 PRIM_FILE      ./archive_libs/cndiscrete/ferrite/chips/chips.prt
- MMC.2          17.3500 16.8500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- POWER1.9       108.000 11.0000 PRIM_FILE      ./archive_libs/cnlinear/pth08t210w/chips/chips.prt
- PWR1.9         60.5000 11.0000 PRIM_FILE      ./archive_libs/cnlinear/pth08t210w/chips/chips.prt
- QZ1.4          96.7500 50.5000 PRIM_FILE      ./archive_libs/cndiscrete/osc_6p_endis_outp_outn/chips/chips.prt
- R11.2           9.1500 60.8800 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R24.2           9.0900 47.5400 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R37.2          121.700 46.9000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R38.2          121.700 51.1000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R40.2          121.700 48.9000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R42.2          121.700 53.1000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R43.2          120.700 46.9000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R46.2          120.600 51.1000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R49.2          120.700 48.9000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R60.2          80.0000 10.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R62.4          112.700 11.9000 PRIM_FILE      ./archive_libs/cnpassive/res_sr/chips/chips.prt
- R64.2          88.0000 12.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R65.2          82.0000 10.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R66.2          88.0000 10.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R69.2          84.0000 10.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R70.2          127.000 10.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R79.2          129.000 10.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R81.2          80.0000  4.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R82.2          88.0000 14.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R83.2          127.000  4.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R84.2          131.000 10.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R87.2          72.5000 39.8000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0805/chips/chips.prt
- R88.2           9.9000 24.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R89.2          11.9500 16.8500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R90.4          63.5000 12.0000 PRIM_FILE      ./archive_libs/cnpassive/res_sr/chips/chips.prt
- R100.2         120.600 53.1000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R101.2         123.750 29.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R118.2         123.750 33.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R139.2         123.750 32.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R140.2         128.750 13.2500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R141.2         123.750 36.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R142.2         128.000 21.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R143.2         128.250 16.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R144.2         124.000 21.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R145.2         121.750 32.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R146.2         121.750 29.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R148.2         121.750 36.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R149.2         121.750 33.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R150.2         127.250 16.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R151.2         126.750 13.2500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R152.2         124.000 22.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R153.2         128.000 22.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R155.2          9.0000 56.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R156.2          8.9200 43.3100 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R157.2          9.0000 55.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R158.2          8.9900 42.3000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R159.2         12.2500 52.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R160.2         12.2500 39.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R161.2         13.2500 52.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R162.2         13.2500 39.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R163.2         14.2500 52.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R164.2         14.2500 39.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R165.2         15.2800 52.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R166.2         15.2500 39.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R167.2         15.0000 63.2500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R168.2         15.5000 49.7500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R169.2         15.0000 62.2500 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R170.2         15.5000 48.6700 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R171.2         21.5000 60.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R172.2         21.0000 48.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R173.2         21.5000 59.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R174.2         21.0000 47.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R175.2         19.0000 59.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R176.2         19.0000 47.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R177.2         19.0000 58.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R178.2         19.0000 46.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R179.2         21.5000 57.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R180.2         21.5000 45.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R181.2         21.5000 56.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R182.2         21.5000 44.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R183.2         19.2500 56.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R184.2         19.0000 44.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R185.2         19.2500 55.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R186.2         19.0000 43.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R187.2         21.5000 54.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R188.2         21.5000 42.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R189.2         21.5000 53.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- R190.2         21.5000 41.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0402/chips/chips.prt
- T1.2           128.000  9.0000 PRIM_FILE      ./archive_libs/cndiscrete/trans#20mosfet/chips/chips.prt
- T2.2           76.2500 52.7500 PRIM_FILE      ./archive_libs/cndiscrete/trans#20mosfet/chips/chips.prt
- TE1.1          113.000 46.9000 PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
- TIMING1.2      131.000 23.0000 PRIM_FILE      ./archive_libs/cninterface/sy58608u/chips/chips.prt
- TP1.1          112.550 67.1700 PRIM_FILE      ./archive_libs/cnpassive/tp/chips/chips.prt
- TP2.1          80.7500 70.0000 PRIM_FILE      ./archive_libs/cnpassive/tp/chips/chips.prt
- TP3.1          99.3000 31.6000 PRIM_FILE      ./archive_libs/cnpassive/tp/chips/chips.prt
- U2.5           128.200 49.9000 PRIM_FILE      ./archive_libs/cds_logic/max9381esa/chips/chips.prt
- U3.5           129.700 32.8000 PRIM_FILE      ./archive_libs/cds_logic/max9381esa/chips/chips.prt
- U8.5           131.000 16.0000 PRIM_FILE      ./archive_libs/cds_logic/max9381esa/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v207.brd  |
-|                                                    Tue Jun 11 15:09:15 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC7.1          13.5500 93.2500 CDS_PINID      VCCA
- IC7.2          13.5500 92.6000 CDS_PINID      GND
- IC7.3          13.5500 91.9500 CDS_PINID      A
- IC7.4          15.6500 91.9500 CDS_PINID      B
- IC7.5          15.6500 92.6000 CDS_PINID      DIR
- IC7.6          15.6500 93.2500 CDS_PINID      VCCB
- IC8.1                          CDS_PINID      PCLK(0)
- IC8.2                          CDS_PINID      NPCLK(0)
- IC8.3                          CDS_PINID      PCLK(1)
- IC8.4                          CDS_PINID      NPCLK(1)
- IC8.5                          CDS_PINID      RESERVED
- IC8.6                          CDS_PINID      CLK_SEL
- IC8.10                         CDS_PINID      NQ
- IC8.11                         CDS_PINID      Q
-|------------------------------------------------------------------------------|
-|       Comp definitions added:       2                                        |
-|       Components added      :       1                                        |
+|       Comp definitions added:       1                                        |
 |       Components changed    :       1                                        |
-|       Pin property added    :      14                                        |
-|       Slot property added   :     263                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:     281                                        |
+|   Total ECO changes reported:       5                                        |
 |------------------------------------------------------------------------------|

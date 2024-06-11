@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 11-Jun-2024 AT 15:09:10 }
+{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1518,6 +1518,44 @@ primitive 'CON20P_SFP-1367073-1-1367073-1B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CON20P_SFP-1367073-1';
       PARENT_PPT_PART='CON20P_SFP-1367073-1-1367073-1,CON20P_SFP-1367073-1';
+  end_body;
+end_primitive;
+primitive 'CON3P-MOLEX_22_29_2031';
+  pin
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='CON3P';
+      BODY_NAME='CON3P';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      PHYS_DES_PREFIX='J';
+      CLASS='IO';
+      STATUS='Preferred';
+      PART_NUMBER='22-29-2031';
+      MANUFACTURER='MOLEX';
+      DESCRIPTION='2.54mm Pitch KK Wire-to-Board Header, Vertical,with Friction ~
+Lock, Gold Plating';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/molex_22_29_2~
+031.pdf';
+      PINCOUNT='3';
+      SMD='NO';
+      CASE='_';
+      JEDEC_TYPE='MOLEX_22_29_2031';
+      PARENT_PART_TYPE='CON3P';
+      PARENT_PPT='CON3P';
+      PARENT_PPT_PART='CON3P-MOLEX_22_29_2031';
   end_body;
 end_primitive;
 primitive 'CON4P-53398-0471';

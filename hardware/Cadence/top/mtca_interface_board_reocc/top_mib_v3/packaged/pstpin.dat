@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 11-Jun-2024 AT 15:09:10 }
-TIME=' COMPILATION ON 11-Jun-2024 AT 15:09:10';
+{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
+TIME=' COMPILATION ON 11-Jun-2024 AT 15:39:29';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -215,6 +215,11 @@ primitive 'CON20P_SFP-1367073-1-1367073-1B';body 'CON20P_SFP-1367073-1';
     'TD+':'(18)';IN;
     'TD-':'(19)';IN;
     'VEET2':'(20)';
+end_primitive;
+primitive 'CON3P-MOLEX_22_29_2031';body 'CON3P';
+    'A'<2>:'(3)';
+    'A'<1>:'(2)';
+    'A'<0>:'(1)';
 end_primitive;
 primitive 'CON4P-53398-0471';body 'CON4P';
     'A'<3>:'(4)';

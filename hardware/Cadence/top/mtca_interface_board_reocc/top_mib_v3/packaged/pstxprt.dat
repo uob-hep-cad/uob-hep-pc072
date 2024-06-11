@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 11-Jun-2024 AT 15:09:10 }
+{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='11-Jun-2024 AT 15:09:10';
+ POST_TIME='11-Jun-2024 AT 15:39:29';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -8262,6 +8262,29 @@ ps)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
  PRIM_FILE='./archive_libs/cnconnector/pcoax/chips/chips.prt';
+
+PART_NAME
+ J20 'CON3P-MOLEX_22_29_2031':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I202@CNCONNECTOR.CON3P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page1_i202@cnconnector.con3p(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page1_i202@cnconnector.con3p(chips)',
+ PATH='I202',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ TYPE='MOLEX_22_29_2031',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(-950,-3625)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON3P-MOLEX_22_29_2031',
+ ROOM='POWER',
+ PRIM_FILE='./archive_libs/cnconnector/con3p/chips/chips.prt';
 
 PART_NAME
  L1 'IND-BLM18AG121SN1D,IND-BLM18AGA':
