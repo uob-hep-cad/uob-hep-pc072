@@ -96,11 +96,11 @@ PACK_TYPE"ECP"
 TYPE"PTH08T210WAD"
 CDS_LIB"cnlinear";
 "VI<1..0>"21;
-"GND<3..0>"6;
+"GND<3..0>"1;
 "VO<1..0>"17;
 "TURBOTRANS"18;
 "SENSP"19;
-"SENSM"5;
+"SENSM"2;
 "UVLO"20;
 "TRACK"11;
 "VADJ"22;
@@ -109,13 +109,13 @@ CDS_LIB"cnlinear";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"6;
+"HOTSPOT_0"1;
 %"gnd"
 "1","(3250,-3025)","0","mtca_interface_board","I143";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"5;
+"HOTSPOT_0"2;
 %"RSMD0603"
 "1","(3200,-2225)","0","cnpassive","I144";
 ;
@@ -157,13 +157,13 @@ SIZE"1B"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/10W";
 "B <SIZE-1..0>\NAC"22;
-"A <SIZE-1..0>\NAC"4;
+"A <SIZE-1..0>\NAC"3;
 %"gnd"
 "1","(2900,-3075)","0","mtca_interface_board","I146";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"4;
+"HOTSPOT_0"3;
 %"RSMD0603"
 "1","(3925,-2375)","1","cnpassive","I147";
 ;
@@ -211,13 +211,13 @@ PACK_TYPE"";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"3;
+"HOTSPOT_0"4;
 %"gnd"
 "1","(1100,-2975)","0","mtca_interface_board","I158";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"2;
+"HOTSPOT_0"5;
 %"CTAP"
 "1","(2250,-2475)","2","standard","I160";
 ;
@@ -299,7 +299,7 @@ SEC"1";
 "1"
 $PN"1"11;
 "2"
-$PN"2"2;
+$PN"2"5;
 %"cap_np"
 "1","(4025,-2700)","0","ocad_parts_lib","I168";
 ;
@@ -605,7 +605,7 @@ VOLTAGE"25V";
 "A <SIZE-1..0>\NAC"
 $PN"#"11;
 "B <SIZE-1..0>\NAC"
-$PN"#"3;
+$PN"#"4;
 %"ELCAPTAN"
 "1","(600,-2775)","1","cnpassive","I185";
 ;
@@ -627,13 +627,13 @@ VOLTAGE"25V";
 "A <SIZE-1..0>\NAC"
 $PN"#"11;
 "B <SIZE-1..0>\NAC"
-$PN"#"1;
+$PN"#"6;
 %"gnd"
 "1","(550,-2975)","0","mtca_interface_board","I186";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"1;
+"HOTSPOT_0"6;
 %"RES_SR"
 "1","(5725,-2525)","2","cnpassive","I188";
 ;

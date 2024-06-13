@@ -9,7 +9,7 @@ FILE_TYPE = CONNECTIVITY;
 3"GND\G";
 6"P2V5\g";
 7"GND\G";
-8"VP1V8\G"ORC_RATSNEST_SCHEDULE"POWER_AND_GROUND"ORC_VOLTAGE"3.3 V";
+8"VP1V8\G"ORC_VOLTAGE"3.3 V"ORC_RATSNEST_SCHEDULE"POWER_AND_GROUND";
 9"1V8_POST_RSHUNT";
 10"SENSE_12C_SCL";
 11"POWER<5..0>";
@@ -131,7 +131,7 @@ PART_NUMBER"ERJ-2RKF4991X"
 REUSE_ANNOTATE"TRUE"
 SEC"1";
 "1"
-$PN"1"2;
+$PN"1"1;
 "2"
 $PN"2"17;
 %"cap_np"
@@ -294,7 +294,7 @@ AVAILABILITY"In Stock"
 ROOM"VCC1V8"
 SEC"1";
 "1"
-$PN"1"1;
+$PN"1"2;
 "2"
 $PN"2"31;
 %"led green 0603_0"
@@ -388,13 +388,13 @@ CDS_LIB"mtca_interface_board";
 ;
 HDL_POWER"VCC3V3"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"2;
+"HOTSPOT_0"1;
 %"vcc_bar"
 "1","(6350,-3275)","0","mtca_interface_board","9P";
 ;
 HDL_POWER"VCC3V3"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"1;
+"HOTSPOT_0"2;
 %"P2V5"
 "1","(1750,-3950)","0","cnpower","I397";
 ;
