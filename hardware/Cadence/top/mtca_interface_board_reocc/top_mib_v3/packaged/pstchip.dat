@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
+{ Packager-XL run on 19-Jun-2024 AT 10:43:36 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -6096,6 +6096,35 @@ primitive 'RSMD0805_125MW-0.27,1%';
       PARENT_PART_TYPE='RSMD0805_125MW';
       PARENT_PPT='RSMD0805';
       PARENT_PPT_PART='RSMD0805_125MW-0.27,1%';
+  end_body;
+end_primitive;
+primitive 'SF-0603S300-2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SF-0603S300-2';
+      BODY_NAME='SF-0603S300-2';
+      JEDEC_TYPE='C0603';
+      PHYS_DES_PREFIX='F';
+      CLASS='DISCRETE';
   end_body;
 end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';

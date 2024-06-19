@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
+{ Packager-XL run on 19-Jun-2024 AT 10:43:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='19-Jun-2024 AT 09:59:31';
+ POST_TIME='19-Jun-2024 AT 10:43:36';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -7113,6 +7113,29 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_177p@diode.diode(chips)',
  PART_NUMBER='1N4148W-13-F',
  VALUE='1N4148',
  PRIM_FILE='./diode/diode/chips/chips.prt';
+
+PART_NAME
+ F1 'SF-0603S300-2':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_I51@OXFLIB.SF-0603S300-2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page2_i51@oxflib.\sf-0603s300-2\(chi~
+ps)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page1_i51@oxflib.\sf-0603s300-2\(chi~
+ps)',
+ PATH='I51',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
+ DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
+ PHYS_PAGE='1',
+ XY='(1525,-300)',
+ ROT='0',
+ VER='1',
+ LOCATION='F1',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SF-0603S300-2',
+ PRIM_FILE='./archive_libs/oxflib/sf#2d0603s300#2d2/chips/chips.prt';
 
 PART_NAME
  IC1 'SY58608UMG-VCC=P2V5':

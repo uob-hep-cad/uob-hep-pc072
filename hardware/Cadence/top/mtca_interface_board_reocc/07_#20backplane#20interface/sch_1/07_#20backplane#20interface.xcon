@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-03-30T14:47:50</modificationTime>
+    <modificationTime>2024-06-19T10:43:17</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="07_ backplane interface" view="sch_1">
       <lastids>
-        <instanceid>19</instanceid>
-        <netid>138</netid>
-        <insttermid>684</insttermid>
+        <instanceid>21</instanceid>
+        <netid>140</netid>
+        <insttermid>688</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1751,6 +1751,26 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S8</id>
+          <library>oxflib</library>
+          <name>sf-0603s300-2</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T516</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T517</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -1982,6 +2002,10 @@
         <net>
           <id>N132</id>
           <name>page2_vp12</name>
+        </net>
+        <net>
+          <id>N140</id>
+          <name>12v_in</name>
         </net>
         <net>
           <id>N73</id>
@@ -2705,56 +2729,56 @@
               <id>M433</id>
               <termid>T432</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M434</id>
               <termid>T433</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M435</id>
               <termid>T434</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M436</id>
               <termid>T435</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M437</id>
               <termid>T436</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M438</id>
               <termid>T437</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M439</id>
               <termid>T438</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
               <id>M440</id>
               <termid>T439</termid>
               <connections>
-                <connection net="N131" />
+                <connection net="N140" />
               </connections>
             </pin>
             <pin>
@@ -4470,6 +4494,27 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I21</id>
+          <cellid>S8</cellid>
+          <name>page2_i51</name>
+          <pins>
+            <pin>
+              <id>M687</id>
+              <termid>T516</termid>
+              <connections>
+                <connection net="N131" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M688</id>
+              <termid>T517</termid>
+              <connections>
+                <connection net="N140" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -4506,6 +4551,7 @@
             <physicalPageNumber>1</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="12v_in"></net>
               <net ref="bp">
                 <msb>180</msb>
                 <lsb>0</lsb>
@@ -4574,6 +4620,7 @@
               <instance ref="26p"></instance>
               <instance ref="27p"></instance>
               <instance ref="28p"></instance>
+              <instance ref="i51"></instance>
             </instances>
           </page>
         </pages>

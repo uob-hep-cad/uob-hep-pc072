@@ -9,9 +9,6 @@
   page2_14p
 #ISCELL
   mtca_interface_board vcc_bar *
-  page2_15p
-#ISCELL
-  mtca_interface_board vcc_bar *
   page2_16p
 #CELL
   ocad_parts_lib mt_hole *
@@ -118,3 +115,9 @@
 #ISCELL
   default bus_top_left_rip *
   page2_i48
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page2_i50
+#CELL
+  oxflib sf-0603s300-2 *
+  page2_i51

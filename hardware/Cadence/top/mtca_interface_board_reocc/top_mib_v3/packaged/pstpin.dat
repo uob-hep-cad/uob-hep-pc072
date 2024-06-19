@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
-TIME=' COMPILATION ON 19-Jun-2024 AT 09:59:31';
+{ Packager-XL run on 19-Jun-2024 AT 10:43:36 }
+TIME=' COMPILATION ON 19-Jun-2024 AT 10:43:36';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -849,6 +849,10 @@ end_primitive;
 primitive 'RSMD0805_125MW-0.27,1%';body 'RSMD0805';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'SF-0603S300-2';body 'SF-0603S300-2';
+    '1':'(1)';
+    '2':'(2)';
 end_primitive;
 primitive 'SFP_CAGE-2227023-1-2227023-1,SB';body 'SFP_CAGE-2227023-1';
     'CG1':'(1)';
