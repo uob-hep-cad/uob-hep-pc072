@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
-TIME=' COMPILATION ON 11-Jun-2024 AT 15:39:29';
+{ Packager-XL run on 19-Jun-2024 AT 09:37:15 }
+TIME=' COMPILATION ON 19-Jun-2024 AT 09:37:15';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -285,6 +285,10 @@ primitive 'HDT0001-HDT0001,HDT0001-HDT000A';body 'HDT0001';
     'C':'(2)';
     'B':'(3)';
     'D':'(4)';
+end_primitive;
+primitive 'HEADER2X1_STR-HARWIN';body 'HEADER2X1';
+    'A'<0>:'(1)';
+    'B'<0>:'(2)';
 end_primitive;
 primitive 'IND-74438323100,IND-7443832310A';body 'IND';
     '1':'(1)';

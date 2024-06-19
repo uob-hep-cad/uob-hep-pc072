@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
+{ Packager-XL run on 19-Jun-2024 AT 09:37:15 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='11-Jun-2024 AT 15:39:29';
+ POST_TIME='19-Jun-2024 AT 09:37:15';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -9173,6 +9173,34 @@ ps)',
  TOL='',
  VALUE='00',
  PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ PL1 'HEADER2X1_STR-HARWIN':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I236@OXFLIB.HEADER2X1(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i236@oxflib.header2x1(chips~
+)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i236@oxflib.header2x1(chips~
+)',
+ PATH='I236',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SIZE='1',
+ PL_COMMENTS='-',
+ OL_COMMENTS='-',
+ MANUF='HARWIN',
+ KL_COMMENTS='-',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(700,-3500)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='STR',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='HEADER2X1_STR-HARWIN',
+ PRIM_FILE='./archive_libs/oxflib/header2x1/chips/chips.prt';
 
 PART_NAME
  POWER1 'PTH08T210WAD':

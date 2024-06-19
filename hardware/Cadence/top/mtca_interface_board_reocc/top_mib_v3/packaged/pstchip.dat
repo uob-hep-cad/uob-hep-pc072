@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
+{ Packager-XL run on 19-Jun-2024 AT 09:37:15 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -2079,6 +2079,39 @@ primitive 'HDT0001-HDT0001,HDT0001-HDT000A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='HDT0001';
       PARENT_PPT_PART='HDT0001-HDT0001,HDT0001';
+  end_body;
+end_primitive;
+primitive 'HEADER2X1_STR-HARWIN';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      JEDEC_TYPE='HEADER2X1_STR';
+      CLASS='IO';
+      PART_NAME='HEADER2X1';
+      PHYS_DES_PREFIX='PL';
+      CI='00145A-1';
+      PART_NUMBER='Harwin M20-999 02 05';
+      PART_DESCRIPTION='Harwin Straight 2 pin Header';
+      OL_COMMENTS='Can be cut from M20-999 36 05';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='HEADER2X1_STR';
+      PARENT_PPT='HEADER2X1';
+      PARENT_PPT_PART='HEADER2X1_STR-HARWIN';
   end_body;
 end_primitive;
 primitive 'IND-74438323100,IND-7443832310A';
