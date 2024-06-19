@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 11-Jun-2024 AT 15:39:29 }
+{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1520,44 +1520,6 @@ primitive 'CON20P_SFP-1367073-1-1367073-1B';
       PARENT_PPT_PART='CON20P_SFP-1367073-1-1367073-1,CON20P_SFP-1367073-1';
   end_body;
 end_primitive;
-primitive 'CON3P-MOLEX_22_29_2031';
-  pin
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='CON3P';
-      BODY_NAME='CON3P';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
-      STATUS='Preferred';
-      PART_NUMBER='22-29-2031';
-      MANUFACTURER='MOLEX';
-      DESCRIPTION='2.54mm Pitch KK Wire-to-Board Header, Vertical,with Friction ~
-Lock, Gold Plating';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/molex_22_29_2~
-031.pdf';
-      PINCOUNT='3';
-      SMD='NO';
-      CASE='_';
-      JEDEC_TYPE='MOLEX_22_29_2031';
-      PARENT_PART_TYPE='CON3P';
-      PARENT_PPT='CON3P';
-      PARENT_PPT_PART='CON3P-MOLEX_22_29_2031';
-  end_body;
-end_primitive;
 primitive 'CON4P-53398-0471';
   pin
     'A'<3>:
@@ -2081,6 +2043,39 @@ primitive 'HDT0001-HDT0001,HDT0001-HDT000A';
       PARENT_PPT_PART='HDT0001-HDT0001,HDT0001';
   end_body;
 end_primitive;
+primitive 'HEADER2X1_STR-HARWIN';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      JEDEC_TYPE='HEADER2X1_STR';
+      CLASS='IO';
+      PART_NAME='HEADER2X1';
+      PHYS_DES_PREFIX='PL';
+      CI='00145A-1';
+      PART_NUMBER='Harwin M20-999 02 05';
+      PART_DESCRIPTION='Harwin Straight 2 pin Header';
+      OL_COMMENTS='Can be cut from M20-999 36 05';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='HEADER2X1_STR';
+      PARENT_PPT='HEADER2X1';
+      PARENT_PPT_PART='HEADER2X1_STR-HARWIN';
+  end_body;
+end_primitive;
 primitive 'IND-74438323100,IND-7443832310A';
   pin
     '1':
@@ -2230,6 +2225,43 @@ primitive 'INV_1CH_OD-SN74LVC1G06DBVTE4,IB';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='INV_1CH_OD';
       PARENT_PPT_PART='INV_1CH_OD-SN74LVC1G06DBVTE4,INV_1CH_OD';
+  end_body;
+end_primitive;
+primitive 'KKCON3_STR-MOLEX';
+  pin
+    'A1'<0>:
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'B1'<0>:
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'A2'<0>:
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      JEDEC_TYPE='MOLEX22_23_2031';
+      CLASS='IO';
+      PART_NAME='KKCON3';
+      PHYS_DES_PREFIX='SK';
+      CI='22-23-2031';
+      PART_NUMBER='Onecall 146-2950';
+      PART_DESCRIPTION='Square pin header 0.1 straight';
+      OL_COMMENTS='-';
+      KL_COMMENTS='-';
+      PL_COMMENTS='-';
+      PARENT_PART_TYPE='KKCON3';
+      PARENT_PPT='KKCON3';
+      PARENT_PPT_PART='KKCON3_STR-MOLEX';
   end_body;
 end_primitive;
 primitive 'LED GREEN 0603_0-LNJ326W83RA,LB';

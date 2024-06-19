@@ -1,0 +1,28 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON WED NOV 20 16:25:57 1996  ';
+primitive 'KKCON3';
+  pin
+    'A1'<0>:
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'B1'<0>:
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'A2'<0>:
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    end_pin;
+  body
+    JEDEC_TYPE='KKCON3';
+    CLASS='IO';
+    PART_NAME='KKCON3';
+    PHYS_DES_PREFIX='SK';
+  end_body;
+end_primitive;
+END.

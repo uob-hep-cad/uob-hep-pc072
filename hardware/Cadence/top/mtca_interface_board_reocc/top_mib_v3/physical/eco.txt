@@ -2,44 +2,106 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3_v209.brd  |
-|                                                    Tue Jun 11 15:39:34 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 SK1.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MP3V3        pins ADDED TO this existing net (pins not previously on any net)
+                                 SK1.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VP12         pins ADDED TO this existing net (pins not previously on any net)
+                                 SK1.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CON3P-MOLEX_22_29_2031
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
-|------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3_v209.brd  |
-|                                                    Tue Jun 11 15:39:34 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J20                 CON3P-MOLEX_22_29_2031                 CON3P-SLA3/180_3.2SN_OR
+ KKCON3_STR-MOLEX
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3_v209.brd  |
-|                                                    Tue Jun 11 15:39:34 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J20                 CON3P-MOLEX_22_29_2031 134.700 78.3000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SK1                 KKCON3_STR-MOLEX      
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SK1                            ROOM           POWER
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J20.3                          PRIM_FILE      ./archive_libs/cnconnector/con3p/chips/chips.prt
- J20.3                          ROOM           POWER
- J20.3                          XY             (-950,-3625)
+ SK1.2                          PRIM_FILE      ./archive_libs/oxflib/kkcon3/chips/chips.prt
+ SK1.2                          ROOM           POWER
+ SK1.2                          SIZE           1
+ SK1.2                          XY             (2375,-3250)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
 |------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
+|                                                    Wed Jun 19 09:59:42 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SK1.1                          CDS_PINID      A1(0)
+ SK1.2                          CDS_PINID      B1(0)
+ SK1.3                          CDS_PINID      A2(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       3                                        |
 |       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Slot property added   :       3                                        |
+|       Components added      :       1                                        |
+|       Components deleted    :       1                                        |
+|       Comp property added   :       1                                        |
+|       Pin property added    :       3                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       5                                        |
+|   Total ECO changes reported:      14                                        |
 |------------------------------------------------------------------------------|

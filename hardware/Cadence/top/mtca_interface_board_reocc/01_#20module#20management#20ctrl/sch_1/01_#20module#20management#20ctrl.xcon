@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-04-20T16:53:35</modificationTime>
+    <modificationTime>2024-06-18T12:28:37</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>46</instanceid>
+        <instanceid>47</instanceid>
         <netid>98</netid>
-        <insttermid>237</insttermid>
+        <insttermid>239</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -664,6 +664,30 @@
               <direction>inout</direction>
               <msb>9</msb>
               <lsb>0</lsb>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S17</id>
+          <library>oxflib</library>
+          <name>header2x1</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T137</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T138</id>
+              <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
             </term>
           </terms>
         </cell>
@@ -2428,6 +2452,31 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I47</id>
+          <cellid>S17</cellid>
+          <name>page1_i236</name>
+          <pins>
+            <pin>
+              <id>M238</id>
+              <termid>T137</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N30" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M239</id>
+              <termid>T138</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N97" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2579,6 +2628,7 @@
               <instance ref="i233"></instance>
               <instance ref="i234"></instance>
               <instance ref="i235"></instance>
+              <instance ref="i236"></instance>
             </instances>
           </page>
         </pages>

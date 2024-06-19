@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-11T15:29:48</modificationTime>
+    <modificationTime>2024-06-19T09:59:25</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>187</instanceid>
+        <instanceid>188</instanceid>
         <netid>164</netid>
-        <insttermid>512</insttermid>
+        <insttermid>515</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -547,19 +547,31 @@
           </terms>
         </cell>
         <cell>
-          <id>S27</id>
-          <library>cnconnector</library>
-          <name>con3p</name>
+          <id>S28</id>
+          <library>oxflib</library>
+          <name>kkcon3</name>
           <view>sym_1</view>
           <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
           </parameters>
           <terms>
             <term>
-              <id>T257</id>
-              <name>a</name>
+              <id>T266</id>
+              <name>a1&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
-              <msb>2</msb>
-              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T267</id>
+              <name>a2&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T268</id>
+              <name>b1&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
             </term>
           </terms>
         </cell>
@@ -3037,16 +3049,35 @@
           </pins>
         </instance>
         <instance>
-          <id>I187</id>
-          <cellid>S27</cellid>
-          <name>page1_i202</name>
+          <id>I188</id>
+          <cellid>S28</cellid>
+          <name>page1_i203</name>
           <pins>
             <pin>
-              <id>M512</id>
-              <termid>T257</termid>
-              <msb>2</msb>
+              <id>M513</id>
+              <termid>T266</termid>
+              <msb>0</msb>
               <lsb>0</lsb>
               <connections>
+                <connection pinmsb="0" pinlsb="0" net="N17" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M514</id>
+              <termid>T267</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M515</id>
+              <termid>T268</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N5" />
               </connections>
             </pin>
           </pins>
@@ -3205,7 +3236,7 @@
               <instance ref="i199"></instance>
               <instance ref="i200"></instance>
               <instance ref="i201"></instance>
-              <instance ref="i202"></instance>
+              <instance ref="i203"></instance>
             </instances>
           </page>
           <page number="2">

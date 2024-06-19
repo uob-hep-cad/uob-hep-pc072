@@ -1,0 +1,25 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON TUE OCT 15 15:46:15 1996  ';
+primitive 'HEADER2X1','HEADER2X1_STR';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+  end_pin;
+  body
+    JEDEC_TYPE='HEADER2X1_STR';
+    CLASS='IO';
+    PART_NAME='HEADER2X1';
+    PHYS_DES_PREFIX='PL';
+  end_body;
+end_primitive;
+END.
