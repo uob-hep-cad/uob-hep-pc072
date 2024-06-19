@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 19-Jun-2024 AT 09:37:15 }
+{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='19-Jun-2024 AT 09:37:15';
+ POST_TIME='19-Jun-2024 AT 09:59:31';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -8264,29 +8264,6 @@ ps)',
  PRIM_FILE='./archive_libs/cnconnector/pcoax/chips/chips.prt';
 
 PART_NAME
- J20 'CON3P-MOLEX_22_29_2031':
- ROOM='POWER';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I202@CNCONNECTOR.CON3P(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
-oard_reocc.\02_ power\(sch_1):page1_i202@cnconnector.con3p(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
-oard_reocc.\02_ power\(sch_1):page1_i202@cnconnector.con3p(chips)',
- PATH='I202',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
- TYPE='MOLEX_22_29_2031',
- DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='1',
- XY='(-950,-3625)',
- ROT='0',
- VER='1',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON3P-MOLEX_22_29_2031',
- ROOM='POWER',
- PRIM_FILE='./archive_libs/cnconnector/con3p/chips/chips.prt';
-
-PART_NAME
  L1 'IND-BLM18AG121SN1D,IND-BLM18AGA':
  ROOM='CLK_GEN_X12';
 
@@ -16293,6 +16270,34 @@ oard_reocc.\08_ timing\(sch_1):page1_i797@discrete.r(chips)',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
  PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ SK1 'KKCON3_STR-MOLEX':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I203@OXFLIB.KKCON3(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page1_i203@oxflib.kkcon3(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page1_i203@oxflib.kkcon3(chips)',
+ PATH='I203',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SIZE='1',
+ PL_COMMENTS='-',
+ OL_COMMENTS='-',
+ MANUF='MOLEX',
+ KL_COMMENTS='-',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(2375,-3250)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='STR',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='KKCON3_STR-MOLEX',
+ ROOM='POWER',
+ PRIM_FILE='./archive_libs/oxflib/kkcon3/chips/chips.prt';
 
 PART_NAME
  SW1 'HDT0001-HDT0001,HDT0001-HDT000A':

@@ -1,4 +1,4 @@
-{ Packager-XL run on 19-Jun-2024 AT 09:37:15 }
+{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "R","108P": LOCATION = "R85" #&CDS_LOCATION = "R85" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -142,10 +142,10 @@ BODY = "RES_SR","I200": LOCATION = "R62" #&CDS_LOCATION = "R62" &SEC = "1" #&CDS
 BODY = "TANTPOLY","I201": LOCATION = "C73" #&CDS_LOCATION = "C73" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CON3P","I202": LOCATION = "J20" #&CDS_LOCATION = "J20" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"A<1>":   PN = "2"  !CDS_PN = "2";
-"A<2>":   PN = "3"  !CDS_PN = "3";
+BODY = "KKCON3","I203": LOCATION = "SK1" #&CDS_LOCATION = "SK1" &SEC = "1" #&CDS_SEC = "1";
+"A1<0>":   PN = "1"  !CDS_PN = "1";
+"A2<0>":   PN = "3"  !CDS_PN = "3";
+"B1<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page4";
 BODY = "CAP_NP","119P": LOCATION = "C16" #&CDS_LOCATION = "C16" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";

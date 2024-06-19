@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+PART 'KKCON3'
+CLASS = IO
+{=====================================================================================================================================}
+:PACK_TYPE | MANUF (OPT='CAT')     = CI              | PART_NUMBER           | PART_DESCRIPTION               | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS | JEDEC_TYPE;
+{=====================================================================================================================================}
+STR	    | "Molex"              = 22-23-2031	| "Onecall 146-2950"    | "Square pin header 0.1 straight" | -           | -           | -          | molex22_23_2031
+RT-ANG    | "Molex"              = 00208A-1        | "Farnell 146-692"    | "Square pin header 0.1 right angle" | -           | -           | -          | KKCON3
+END_PART
+
+END.

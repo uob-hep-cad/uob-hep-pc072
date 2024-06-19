@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 19-Jun-2024 AT 09:37:15 }
-TIME=' COMPILATION ON 19-Jun-2024 AT 09:37:15';
+{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
+TIME=' COMPILATION ON 19-Jun-2024 AT 09:59:31';
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -216,11 +216,6 @@ primitive 'CON20P_SFP-1367073-1-1367073-1B';body 'CON20P_SFP-1367073-1';
     'TD-':'(19)';IN;
     'VEET2':'(20)';
 end_primitive;
-primitive 'CON3P-MOLEX_22_29_2031';body 'CON3P';
-    'A'<2>:'(3)';
-    'A'<1>:'(2)';
-    'A'<0>:'(1)';
-end_primitive;
 primitive 'CON4P-53398-0471';body 'CON4P';
     'A'<3>:'(4)';
     'A'<2>:'(3)';
@@ -308,6 +303,11 @@ primitive 'INV_1CH_OD-SN74LVC1G06DBVTE4,IB';body 'INV_1CH_OD';
     'GND':'(3)';
     'Y':'(4)';OUT;
     'VCC':'(5)';
+end_primitive;
+primitive 'KKCON3_STR-MOLEX';body 'KKCON3';
+    'A1'<0>:'(1)';
+    'B1'<0>:'(2)';
+    'A2'<0>:'(3)';
 end_primitive;
 primitive 'LED GREEN 0603_0-LNJ326W83RA,LB';body 'LED GREEN 0603_0';
     'K':'(1)';
