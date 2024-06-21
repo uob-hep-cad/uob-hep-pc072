@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 19-Jun-2024 AT 09:59:31 }
+{ Packager-XL run on 21-Jun-2024 AT 10:20:04 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='19-Jun-2024 AT 09:59:31';
+ POST_TIME='21-Jun-2024 AT 10:20:04';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2670,6 +2670,82 @@ oard_reocc.\02_ power\(sch_1):page1_i197@bris_cds_discrete.tantpoly(chips)',
  ROOM='POWER',
  VALUE='220UF',
  PRIM_FILE='./archive_libs/cds_discrete/tantpoly/chips/chips.prt';
+
+PART_NAME
+ C75 'CAP_NP-445-8173-1-ND,CAP_NP-44A':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I209@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page1_i209@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page1_i209@ocad_parts_lib.cap_np(chips)',
+ PATH='I209',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='CGJ4J2X7R1E104K125AA ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-8173-1-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='1',
+ XY='(3575,-1725)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-8173-1-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='MAIN_PWR',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-8173-1-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+
+PART_NAME
+ C76 'CAP_NP-445-8173-1-ND,CAP_NP-44A':
+ ROOM='MAIN_PWR';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I194@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page4_i194@ocad_parts_lib.cap_np(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page2_i194@ocad_parts_lib.cap_np(chips)',
+ PATH='I194',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SOURCE_PACKAGE='CAP_NP',
+ PSPICE='C',
+ PART_TYPE='Ceramic',
+ MPN='CGJ4J2X7R1E104K125AA ',
+ MANUFACTURER='TDK CORP',
+ LAST_EDIT_BY='SNF',
+ DISTRIBUTOR_PARTNUMBER='445-8173-1-ND',
+ DISTRIBUTOR='Digi-Key',
+ DESCRIPTION='CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805 ',
+ CLASS='DISCRETE',
+ AVAILABILITY='In Stock',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(3925,-2350)',
+ ROT='0',
+ VER='1',
+ JEDEC_TYPE='CAP0805',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CAP_NP-445-8173-1-ND,CAP_NP-<<A',
+ VOLTAGE='25V',
+ ROOM='MAIN_PWR',
+ ALT_SYMBOLS='',
+ PART_NUMBER='445-8173-1-ND',
+ VALUE='0.1UF',
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
 
 PART_NAME
  C81 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
@@ -7115,6 +7191,52 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_177p@diode.diode(chips)',
  PRIM_FILE='./diode/diode/chips/chips.prt';
 
 PART_NAME
+ F1 'SF-0603S300-2':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_I51@OXFLIB.SF-0603S300-2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page2_i51@oxflib.\sf-0603s300-2\(chi~
+ps)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page1_i51@oxflib.\sf-0603s300-2\(chi~
+ps)',
+ PATH='I51',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
+ DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
+ PHYS_PAGE='1',
+ XY='(1525,-300)',
+ ROT='0',
+ VER='1',
+ LOCATION='F1',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SF-0603S300-2',
+ PRIM_FILE='./archive_libs/oxflib/sf#2d0603s300#2d2/chips/chips.prt';
+
+PART_NAME
+ F2 'SF-0603FP015F-2':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_I52@OXFLIB.SF-0603FP015F-2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page2_i52@oxflib.\sf-0603fp015f-2\(c~
+hips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page1_i52@oxflib.\sf-0603fp015f-2\(c~
+hips)',
+ PATH='I52',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
+ DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
+ PHYS_PAGE='1',
+ XY='(1175,-650)',
+ ROT='0',
+ VER='1',
+ LOCATION='F2',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SF-0603FP015F-2',
+ PRIM_FILE='./archive_libs/oxflib/sf#2d0603fp015f#2d2/chips/chips.prt';
+
+PART_NAME
  IC1 'SY58608UMG-VCC=P2V5':
  ROOM='SFP_DFF_AND_FANOUT';
 
@@ -8103,27 +8225,26 @@ oard_reocc.\02_ power\(sch_1):page1_127p@ocad_parts_lib.hdr1x3(chips)',
  PRIM_FILE='./ocad_parts_lib/hdr1x3/chips/chips.prt';
 
 PART_NAME
- J13 'CON10P-HTST-105-01-L-DV':;
+ J13 'SHF-105-01-L-D-SM':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I234@CNCONNECTOR.CON10P(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I238@OXFLIB.SHF-105-01-L-D-SM(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_i234@cnconnector.con10p(chi~
-ps)',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i238@oxflib.\shf-105-01-l-d~
+-sm\(chips)',
  P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_i234@cnconnector.con10p(chi~
-ps)',
- PATH='I234',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i238@oxflib.\shf-105-01-l-d~
+-sm\(chips)',
+ PATH='I238',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- TYPE='HTST-105-01-L-DV',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
  XY='(1300,-4450)',
  ROT='0',
- VER='3',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON10P-HTST-105-01-L-DV',
- PRIM_FILE='./archive_libs/cnconnector/con10p/chips/chips.prt';
+ VER='1',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SHF-105-01-L-D-SM',
+ PRIM_FILE='./archive_libs/oxflib/shf#2d105#2d01#2dl#2dd#2dsm/chips/chips.prt';
 
 PART_NAME
  J14 'PCOAX-U.FL-R-SMT-1(10)':
@@ -11737,7 +11858,7 @@ oard_reocc.\02_ power\(sch_1):page3_138p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R69 'RSMD0603_-00,':
+ R69 'RSMD0603_1/10W-1,1%':
  ROOM='POWER';
 
 SECTION_NUMBER 1
@@ -11763,13 +11884,13 @@ oard_reocc.\02_ power\(sch_1):page2_i148@cnpassive.rsmd0603(chips)',
  XY='(4050,-2225)',
  ROT='0',
  VER='1',
- PACK_TYPE='',
+ PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_-00,',
+ CDS_PART_NAME='RSMD0603_1/10W-1,1%',
  VOLTAGE='RVMAX',
  ROOM='POWER',
- TOL='',
- VALUE='00',
+ TOL='1%',
+ VALUE='1',
  PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
@@ -11796,7 +11917,7 @@ oard_reocc.\02_ power\(sch_1):page1_i145@cnpassive.rsmd0603(chips)',
  POWER='RMAX',
  DESIGNATORNAMEPROP='POWER',
  PHYS_PAGE='1',
- XY='(2925,-2300)',
+ XY='(2925,-2450)',
  ROT='1',
  VER='1',
  PACK_TYPE='1/10W',
@@ -12165,42 +12286,6 @@ oard_reocc.\07_ backplane interface\(sch_1):page1_20p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R81 'RSMD0603_1/10W-XX,1%':
- ROOM='POWER';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I147@CNPASSIVE.RSMD0603(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
-oard_reocc.\02_ power\(sch_1):page4_i147@cnpassive.rsmd0603(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
-oard_reocc.\02_ power\(sch_1):page2_i147@cnpassive.rsmd0603(chips)',
- PATH='I147',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- POWER='RMAX',
- DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='2',
- XY='(3925,-2375)',
- ROT='1',
- VER='1',
- PACK_TYPE='1/10W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-XX,1%',
- VOLTAGE='RVMAX',
- ROOM='POWER',
- TOL='1%',
- VALUE='XX',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
-
-PART_NAME
  R82 'RSMD0603_-00,':
  ROOM='POWER';
 
@@ -12237,43 +12322,7 @@ oard_reocc.\02_ power\(sch_1):page1_i165@cnpassive.rsmd0603(chips)',
  PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
- R83 'RSMD0603_1/10W-XX,1%':
- ROOM='POWER';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I147@CNPASSIVE.RSMD0603(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
-oard_reocc.\02_ power\(sch_1):page1_i147@cnpassive.rsmd0603(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
-oard_reocc.\02_ power\(sch_1):page1_i147@cnpassive.rsmd0603(chips)',
- PATH='I147',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- POWER='RMAX',
- DESIGNATORNAMEPROP='POWER',
- PHYS_PAGE='1',
- XY='(3575,-1750)',
- ROT='1',
- VER='1',
- PACK_TYPE='1/10W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-XX,1%',
- VOLTAGE='RVMAX',
- ROOM='POWER',
- TOL='1%',
- VALUE='XX',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
-
-PART_NAME
- R84 'RSMD0603_-00,':
+ R84 'RSMD0603_1/10W-1,1%':
  ROOM='POWER';
 
 SECTION_NUMBER 1
@@ -12299,13 +12348,13 @@ oard_reocc.\02_ power\(sch_1):page1_i148@cnpassive.rsmd0603(chips)',
  XY='(3700,-1600)',
  ROT='0',
  VER='1',
- PACK_TYPE='',
+ PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_-00,',
+ CDS_PART_NAME='RSMD0603_1/10W-1,1%',
  VOLTAGE='RVMAX',
  ROOM='POWER',
- TOL='',
- VALUE='00',
+ TOL='1%',
+ VALUE='1',
  PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME

@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev3ox_v211.brd                           )
+(    Drawing          : mib_rev3ox_v212.brd                           )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Wed Jun 19 09:59:42 2024                      )
+(    Date/Time        : Fri Jun 21 10:20:21 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\packaged'
 Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical'
-Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd'
-New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd'
+New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd'
 
-CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -y 1 -Oo \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v211.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v211.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -y 1 -Oo \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v212.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v212.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat (00:00:00.38)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat (00:00:00.39)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat (00:00:00.01)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxnet.dat 
@@ -36,22 +36,15 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'MOLEX22_23_2031' used by RefDes SK1 for device 'KKCON3_STR-MOLEX' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate old symbols.
-
 
 
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstcmdb.dat
-	Start time: Wed Jun 19 09:59:43 2024
+	Start time: Fri Jun 21 10:20:22 2024
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Wed Jun 19 09:59:43 2024
+Finished Constraint Update	Time: Fri Jun 21 10:20:22 2024
 ===========================================================
 
 ------ Library Paths ------
@@ -128,9 +121,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jun 19 9:59:42 2024
+netrev run on Jun 21 10:20:20 2024
    DESIGN NAME : 'TOP_MIB_V3'
-   PACKAGING ON 19-Jun-2024 AT 09:59:31
+   PACKAGING ON 21-Jun-2024 AT 10:20:04
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -159,8 +152,8 @@ netrev run on Jun 19 9:59:42 2024
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
-cpu time      0:05:23
-elapsed time  0:00:02
+cpu time      0:06:32
+elapsed time  0:00:03
 

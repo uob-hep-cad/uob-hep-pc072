@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-18T12:28:37</modificationTime>
+    <modificationTime>2024-06-21T10:19:56</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>47</instanceid>
+        <instanceid>48</instanceid>
         <netid>98</netid>
-        <insttermid>239</insttermid>
+        <insttermid>249</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -651,23 +651,6 @@
           </terms>
         </cell>
         <cell>
-          <id>S16</id>
-          <library>cnconnector</library>
-          <name>con10p</name>
-          <view>sym_3</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T130</id>
-              <name>a</name>
-              <direction>inout</direction>
-              <msb>9</msb>
-              <lsb>0</lsb>
-            </term>
-          </terms>
-        </cell>
-        <cell>
           <id>S17</id>
           <library>oxflib</library>
           <name>header2x1</name>
@@ -687,6 +670,66 @@
             <term>
               <id>T138</id>
               <name>b&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S18</id>
+          <library>oxflib</library>
+          <name>shf-105-01-l-d-sm</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T145</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T146</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T147</id>
+              <name>3</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T148</id>
+              <name>4</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T149</id>
+              <name>5</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T150</id>
+              <name>6</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T151</id>
+              <name>7</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T152</id>
+              <name>8</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T153</id>
+              <name>9</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T154</id>
+              <name>10</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -2002,28 +2045,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I45</id>
-          <cellid>S16</cellid>
-          <name>page1_i234</name>
-          <pins>
-            <pin>
-              <id>M172</id>
-              <termid>T130</termid>
-              <msb>9</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="9" pinlsb="9" net="N30" />
-                <connection pinmsb="1" pinlsb="1" net="N30" />
-                <connection pinmsb="3" pinlsb="3" net="N34" />
-                <connection pinmsb="0" pinlsb="0" net="N74" />
-                <connection pinmsb="8" pinlsb="8" net="N75" />
-                <connection pinmsb="2" pinlsb="2" net="N76" />
-                <connection pinmsb="4" pinlsb="4" net="N77" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I46</id>
           <cellid>S13</cellid>
           <name>page1_i235</name>
@@ -2477,6 +2498,80 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I48</id>
+          <cellid>S18</cellid>
+          <name>page1_i238</name>
+          <pins>
+            <pin>
+              <id>M240</id>
+              <termid>T145</termid>
+              <connections>
+                <connection net="N74" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M241</id>
+              <termid>T146</termid>
+              <connections>
+                <connection net="N30" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M242</id>
+              <termid>T147</termid>
+              <connections>
+                <connection net="N76" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M243</id>
+              <termid>T148</termid>
+              <connections>
+                <connection net="N34" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M244</id>
+              <termid>T149</termid>
+              <connections>
+                <connection net="N77" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M245</id>
+              <termid>T150</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M246</id>
+              <termid>T151</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M247</id>
+              <termid>T152</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M248</id>
+              <termid>T153</termid>
+              <connections>
+                <connection net="N75" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M249</id>
+              <termid>T154</termid>
+              <connections>
+                <connection net="N30" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2626,9 +2721,9 @@
               <instance ref="203p"></instance>
               <instance ref="i232"></instance>
               <instance ref="i233"></instance>
-              <instance ref="i234"></instance>
               <instance ref="i235"></instance>
               <instance ref="i236"></instance>
+              <instance ref="i238"></instance>
             </instances>
           </page>
         </pages>
