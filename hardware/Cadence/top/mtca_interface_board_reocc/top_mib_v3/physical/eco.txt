@@ -3,64 +3,66 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 10:20:21 2024  |
+|                                                    Fri Jun 21 11:37:49 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- SHF-105-01-L-D-SM
+  AMC_N_PS<1>  pins MOVED FROM this net (to net name listed on right)
+                                 R104.1          12.1000 26.6500
+                                                    UNNAMED_1_ATMGA128_I235_PE2
+                                 U4.4             6.2500 28.3500
+                                                    UNNAMED_1_ATMGA128_I235_PE2
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 R81.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_ATMGA128_I235_PE2 pins ADDED TO this new net
+                                 R81.1                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 10:20:21 2024  |
+|                                                    Fri Jun 21 11:37:49 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J13                 SHF-105-01-L-D-SM     49.2500 46.2500 CON10P-HTST-105-01-L-DV
+ R81                 R-DNF,R-DNF,R         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 10:20:21 2024  |
+|                                                    Fri Jun 21 11:37:49 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J13.9          49.2500 46.2500 PRIM_FILE      ./archive_libs/oxflib/shf#2d105#2d01#2dl#2dd#2dsm/chips/chips.prt
- J13.9          49.2500 46.2500 XY             (1300,-4450)
+ R81.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R81.2                          XY             (4675,-1875)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 10:20:21 2024  |
+|                                                    Fri Jun 21 11:37:49 2024  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J13.1          47.2175 48.7900 CDS_PINID      \1\
- J13.2          51.2825 48.7900 CDS_PINID      \2\
- J13.3          47.2175 47.5200 CDS_PINID      \3\
- J13.4          51.2825 47.5200 CDS_PINID      \4\
- J13.5          47.2175 46.2500 CDS_PINID      \5\
- J13.6          51.2825 46.2500 CDS_PINID      \6\
- J13.7          47.2175 44.9800 CDS_PINID      \7\
- J13.8          51.2825 44.9800 CDS_PINID      \8\
- J13.9          47.2175 43.7100 CDS_PINID      \9\
- J13.10         51.2825 43.7100 CDS_PINID      \10\
+ R81.1                          CDS_PINID      \1\
+ R81.2                          CDS_PINID      \2\
 |------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Pin property added    :      10                                        |
+|       Nets changed          :       4                                        |
+|       Components added      :       1                                        |
+|       Pin property added    :       2                                        |
 |       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      14                                        |
+|   Total ECO changes reported:       9                                        |
 |------------------------------------------------------------------------------|

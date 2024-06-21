@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 21-Jun-2024 AT 10:20:04 }
+{ Packager-XL run on 21-Jun-2024 AT 11:37:32 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='21-Jun-2024 AT 10:20:04';
+ POST_TIME='21-Jun-2024 AT 11:37:32';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -7156,39 +7156,25 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_338p@ocad_parts_lib.tvs_2x
  PRIM_FILE='./ocad_parts_lib/tvs_2x/chips/chips.prt';
 
 PART_NAME
- D12 'DIODE-1N4148W-13-F,DIODE-1N414A':
- ROOM='MMC_DISCRETE';
+ D12 'SS16FP':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_177P@DIODE.DIODE(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I240@OXFLIB.SS16FP(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_177p@diode.diode(chips)',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i240@oxflib.ss16fp(chips)',
  P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_177p@diode.diode(chips)',
- PATH='177P',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i240@oxflib.ss16fp(chips)',
+ PATH='I240',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- RATING='150mA',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Diodes\ds11013.pdf',
- SOURCE_PACKAGE='DIODE',
- PART_TYPE='Rectifier',
- MPN='1N4148W-13-F',
- MANUFACTURER='Diodes Incorporated',
- DISTRIBUTOR_PARTNUMBER='1N4148W-13FDITR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='DIODE GEN PURP 100V 150MA SOD123',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(5125,-2075)',
+ XY='(5175,-2125)',
  ROT='1',
  VER='1',
- JEDEC_TYPE='SOD123',
- SEC='1',
- CDS_LIB='diode',
- CDS_PART_NAME='DIODE-1N4148W-13-F,DIODE-SOD123',
- ROOM='MMC_DISCRETE',
- PART_NUMBER='1N4148W-13-F',
- VALUE='1N4148',
- PRIM_FILE='./diode/diode/chips/chips.prt';
+ LOCATION='D12',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SS16FP',
+ PRIM_FILE='./archive_libs/oxflib/ss16fp/chips/chips.prt';
 
 PART_NAME
  F1 'SF-0603S300-2':;
@@ -12286,6 +12272,28 @@ oard_reocc.\07_ backplane interface\(sch_1):page1_20p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
+ R81 'R-DNF,R-DNF,R':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I241@DISCRETE.R(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i241@discrete.r(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i241@discrete.r(chips)',
+ PATH='I241',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SOURCE_PACKAGE='R',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(4675,-1875)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='discrete',
+ CDS_PART_NAME='R-DNF,R',
+ PART_NUMBER='DNF',
+ PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
  R82 'RSMD0603_-00,':
  ROOM='POWER';
 
@@ -13034,38 +13042,26 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_188p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R103 'R-ERJ-2RKF1503X,R-ERJ-2RKF1503A':
- ROOM='MMC_DISCRETE';
+ R103 'R-DNF,R-DNF,R':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_192P@DISCRETE.R(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I239@DISCRETE.R(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_192p@discrete.r(chips)',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i239@discrete.r(chips)',
  P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_192p@discrete.r(chips)',
- PATH='192P',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i239@discrete.r(chips)',
+ PATH='I239',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- POWER='1/10 W',
- TOLERANCE='1 %',
  SOURCE_PACKAGE='R',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF1873X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P150KLTR-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 150K OHM 1% 1/10W 0402',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
  XY='(4700,-1925)',
- ROT='3',
+ ROT='1',
  VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
+ LOCATION='R103',
  CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF1503X,R-RES0402',
- ROOM='MMC_DISCRETE',
- PART_NUMBER='ERJ-2RKF1503X',
- VALUE='150K',
+ CDS_PART_NAME='R-DNF,R',
+ PART_NUMBER='DNF',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
