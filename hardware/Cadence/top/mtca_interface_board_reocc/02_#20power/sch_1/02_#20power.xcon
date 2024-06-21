@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-19T09:59:25</modificationTime>
+    <modificationTime>2024-06-21T08:40:47</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>188</instanceid>
+        <instanceid>190</instanceid>
         <netid>164</netid>
-        <insttermid>515</insttermid>
+        <insttermid>519</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1675,31 +1675,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I100</id>
-          <cellid>S19</cellid>
-          <name>page1_i147</name>
-          <pins>
-            <pin>
-              <id>M302</id>
-              <termid>T173</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N15" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M303</id>
-              <termid>T174</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N79" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I101</id>
           <cellid>S19</cellid>
           <name>page1_i148</name>
@@ -2110,31 +2085,6 @@
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="0" pinlsb="0" net="N120" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I132</id>
-          <cellid>S19</cellid>
-          <name>page4_i147</name>
-          <pins>
-            <pin>
-              <id>M388</id>
-              <termid>T173</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N131" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M389</id>
-              <termid>T174</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N117" />
               </connections>
             </pin>
           </pins>
@@ -3082,6 +3032,48 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I189</id>
+          <cellid>S4</cellid>
+          <name>page4_i194</name>
+          <pins>
+            <pin>
+              <id>M516</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N117" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M517</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N131" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I190</id>
+          <cellid>S4</cellid>
+          <name>page1_i209</name>
+          <pins>
+            <pin>
+              <id>M518</id>
+              <termid>T10</termid>
+              <connections>
+                <connection net="N79" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M519</id>
+              <termid>T11</termid>
+              <connections>
+                <connection net="N15" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -3213,7 +3205,6 @@
               <instance ref="i141"></instance>
               <instance ref="i144"></instance>
               <instance ref="i145"></instance>
-              <instance ref="i147"></instance>
               <instance ref="i148"></instance>
               <instance ref="i154"></instance>
               <instance ref="i159"></instance>
@@ -3237,6 +3228,7 @@
               <instance ref="i200"></instance>
               <instance ref="i201"></instance>
               <instance ref="i203"></instance>
+              <instance ref="i209"></instance>
             </instances>
           </page>
           <page number="2">
@@ -3319,7 +3311,6 @@
               <instance ref="i137"></instance>
               <instance ref="i144"></instance>
               <instance ref="i145"></instance>
-              <instance ref="i147"></instance>
               <instance ref="i148"></instance>
               <instance ref="i167"></instance>
               <instance ref="i168"></instance>
@@ -3340,6 +3331,7 @@
               <instance ref="i190"></instance>
               <instance ref="i192"></instance>
               <instance ref="i193"></instance>
+              <instance ref="i194"></instance>
             </instances>
           </page>
         </pages>

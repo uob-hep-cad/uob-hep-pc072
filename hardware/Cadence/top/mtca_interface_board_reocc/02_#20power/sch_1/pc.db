@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Wed Jun 19 10:33:21 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Jun 21 08:40:47 2024
 #CELL
   discrete r *
   page1_108p
@@ -92,9 +92,6 @@
 #ISCELL
   mtca_interface_board gnd *
   page1_i146
-#CELL
-  cnpassive rsmd0603 *
-  page1_i147
 #CELL
   cnpassive rsmd0603 *
   page1_i148
@@ -221,6 +218,9 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_i208
+#CELL
+  ocad_parts_lib cap_np *
+  page1_i209
 #ISCELL
   bris_cds_standard a3-2000 *
   *
@@ -254,9 +254,6 @@
 #ISCELL
   mtca_interface_board gnd *
   page4_i146
-#CELL
-  cnpassive rsmd0603 *
-  page4_i147
 #CELL
   cnpassive rsmd0603 *
   page4_i148
@@ -353,6 +350,9 @@
 #CELL
   bris_cds_discrete tantpoly *
   page4_i193
+#CELL
+  ocad_parts_lib cap_np *
+  page4_i194
 #CELL
   discrete r *
   page2_138p
