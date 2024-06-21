@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-19T10:43:17</modificationTime>
+    <modificationTime>2024-06-21T09:24:03</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="07_ backplane interface" view="sch_1">
       <lastids>
-        <instanceid>21</instanceid>
-        <netid>140</netid>
-        <insttermid>688</insttermid>
+        <instanceid>22</instanceid>
+        <netid>141</netid>
+        <insttermid>690</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1771,6 +1771,26 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S9</id>
+          <library>oxflib</library>
+          <name>sf-0603fp015f-2</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T522</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T523</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -2006,6 +2026,10 @@
         <net>
           <id>N140</id>
           <name>12v_in</name>
+        </net>
+        <net>
+          <id>N141</id>
+          <name>mp3v3_in</name>
         </net>
         <net>
           <id>N73</id>
@@ -2708,7 +2732,7 @@
               <id>M430</id>
               <termid>T429</termid>
               <connections>
-                <connection net="N126" />
+                <connection net="N141" />
               </connections>
             </pin>
             <pin>
@@ -4515,6 +4539,27 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I22</id>
+          <cellid>S9</cellid>
+          <name>page2_i52</name>
+          <pins>
+            <pin>
+              <id>M689</id>
+              <termid>T522</termid>
+              <connections>
+                <connection net="N126" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M690</id>
+              <termid>T523</termid>
+              <connections>
+                <connection net="N141" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -4602,6 +4647,7 @@
               <net ref="bp.tms"></net>
               <net ref="gnd"></net>
               <net ref="mp3v3"></net>
+              <net ref="mp3v3_in"></net>
               <net ref="segment1"></net>
               <net ref="segment2"></net>
               <net ref="segment3"></net>
@@ -4621,6 +4667,7 @@
               <instance ref="27p"></instance>
               <instance ref="28p"></instance>
               <instance ref="i51"></instance>
+              <instance ref="i52"></instance>
             </instances>
           </page>
         </pages>

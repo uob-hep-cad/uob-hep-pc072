@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 21-Jun-2024 AT 09:06:17 }
+{ Packager-XL run on 21-Jun-2024 AT 10:20:04 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1354,67 +1354,6 @@ primitive 'CAP_NP_0-445-7348-2-ND,CAP_NP_A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CAP_NP_0';
       PARENT_PPT_PART='CAP_NP_0-445-7348-2-ND,CAP_NP_0';
-  end_body;
-end_primitive;
-primitive 'CON10P-HTST-105-01-L-DV';
-  pin
-    'A'<9>:
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'A'<8>:
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'A'<7>:
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'A'<6>:
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'A'<5>:
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'A'<4>:
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A'<3>:
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='CON10P';
-      BODY_NAME='CON10P';
-      VER='3';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
-      SIZE='1';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
-      STATUS='Not Preferred';
-      PART_NUMBER='HTST-105-01-L-DV';
-      MANUFACTURER='SAMTEC';
-      DESCRIPTION='10 Contacts 2.54mm Pitch Dual Row SMD Vertical 0.25 Square Po~
-st IDC Header - HTST Series';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/samtec_HTST.p~
-df';
-      PINCOUNT='10';
-      SMD='YES';
-      CASE='_';
-      JEDEC_TYPE='SAMTEC_HTST-105-01-L-DV';
-      PARENT_PART_TYPE='CON10P';
-      PARENT_PPT='CON10P';
-      PARENT_PPT_PART='CON10P-HTST-105-01-L-DV';
   end_body;
 end_primitive;
 primitive 'CON20P_SFP-1367073-1-1367073-1B';
@@ -6137,6 +6076,35 @@ primitive 'RSMD0805_125MW-0.27,1%';
       PARENT_PPT_PART='RSMD0805_125MW-0.27,1%';
   end_body;
 end_primitive;
+primitive 'SF-0603FP015F-2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SF-0603FP015F-2';
+      BODY_NAME='SF-0603FP015F-2';
+      JEDEC_TYPE='C0603';
+      PHYS_DES_PREFIX='F';
+      CLASS='IC';
+  end_body;
+end_primitive;
 primitive 'SF-0603S300-2';
   pin
     '1':
@@ -6246,6 +6214,107 @@ primitive 'SFP_CAGE-2227023-1-2227023-1,SB';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SFP_CAGE-2227023-1';
       PARENT_PPT_PART='SFP_CAGE-2227023-1-2227023-1,SFP_CAGE-2227023-1';
+  end_body;
+end_primitive;
+primitive 'SHF-105-01-L-D-SM';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SHF-105-01-L-D-SM';
+      BODY_NAME='SHF-105-01-L-D-SM';
+      JEDEC_TYPE='SHF-105-01-X-D-SM';
+      PHYS_DES_PREFIX='J';
+      CLASS='IC';
   end_body;
 end_primitive;
 primitive 'SI5395A-A-GM-SI5395A-A-GM,SI53B';

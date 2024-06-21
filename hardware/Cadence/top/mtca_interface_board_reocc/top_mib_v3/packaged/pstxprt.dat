@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 21-Jun-2024 AT 09:06:17 }
+{ Packager-XL run on 21-Jun-2024 AT 10:20:04 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='21-Jun-2024 AT 09:06:17';
+ POST_TIME='21-Jun-2024 AT 10:20:04';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -7214,6 +7214,29 @@ ps)',
  PRIM_FILE='./archive_libs/oxflib/sf#2d0603s300#2d2/chips/chips.prt';
 
 PART_NAME
+ F2 'SF-0603FP015F-2':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_I52@OXFLIB.SF-0603FP015F-2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page2_i52@oxflib.\sf-0603fp015f-2\(c~
+hips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_b~
+oard_reocc.\07_ backplane interface\(sch_1):page1_i52@oxflib.\sf-0603fp015f-2\(c~
+hips)',
+ PATH='I52',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2',
+ DESIGNATORNAMEPROP='BACKPLANE INTERFACE',
+ PHYS_PAGE='1',
+ XY='(1175,-650)',
+ ROT='0',
+ VER='1',
+ LOCATION='F2',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SF-0603FP015F-2',
+ PRIM_FILE='./archive_libs/oxflib/sf#2d0603fp015f#2d2/chips/chips.prt';
+
+PART_NAME
  IC1 'SY58608UMG-VCC=P2V5':
  ROOM='SFP_DFF_AND_FANOUT';
 
@@ -8202,27 +8225,26 @@ oard_reocc.\02_ power\(sch_1):page1_127p@ocad_parts_lib.hdr1x3(chips)',
  PRIM_FILE='./ocad_parts_lib/hdr1x3/chips/chips.prt';
 
 PART_NAME
- J13 'CON10P-HTST-105-01-L-DV':;
+ J13 'SHF-105-01-L-D-SM':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I234@CNCONNECTOR.CON10P(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I238@OXFLIB.SHF-105-01-L-D-SM(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_i234@cnconnector.con10p(chi~
-ps)',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i238@oxflib.\shf-105-01-l-d~
+-sm\(chips)',
  P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_i234@cnconnector.con10p(chi~
-ps)',
- PATH='I234',
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i238@oxflib.\shf-105-01-l-d~
+-sm\(chips)',
+ PATH='I238',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- TYPE='HTST-105-01-L-DV',
  DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
  XY='(1300,-4450)',
  ROT='0',
- VER='3',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON10P-HTST-105-01-L-DV',
- PRIM_FILE='./archive_libs/cnconnector/con10p/chips/chips.prt';
+ VER='1',
+ CDS_LIB='oxflib',
+ CDS_PART_NAME='SHF-105-01-L-D-SM',
+ PRIM_FILE='./archive_libs/oxflib/shf#2d105#2d01#2dl#2dd#2dsm/chips/chips.prt';
 
 PART_NAME
  J14 'PCOAX-U.FL-R-SMT-1(10)':
