@@ -2,105 +2,50 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
-|                                                    Fri Jun 21 08:41:24 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
+|                                                    Fri Jun 21 09:06:33 2024  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  UNNAMED_1_RSMD0603_I144_B pins ADDED TO this existing net (pins not previously on any net)
-                                 C75.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_PTH08T210W_I137_SENSP pins ADDED TO this existing net (pins not previously on any net)
-                                 C76.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC2V5_PRE_RSHUNT pins ADDED TO this existing net (pins not previously on any net)
-                                 C76.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VCC3V3_PRE_RSHUNT pins ADDED TO this existing net (pins not previously on any net)
-                                 C75.2                          
+ RSMD0603_1/10W-1,1%
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
-|                                                    Fri Jun 21 08:41:24 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
+|                                                    Fri Jun 21 09:06:33 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81                 RSMD0603_1/10W-XX,1%  80.0000  4.0000
- R83                 RSMD0603_1/10W-XX,1%  127.000  4.0000
+ R69                 RSMD0603_1/10W-1,1%   84.0000 10.5000 RSMD0603_-00,
+ R84                 RSMD0603_1/10W-1,1%   131.000 10.0000 RSMD0603_-00,
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
-|                                                    Fri Jun 21 08:41:24 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C75                 CAP_NP-445-8173-1-ND,CAP_NP-44A 
- C76                 CAP_NP-445-8173-1-ND,CAP_NP-44A 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
-|                                                    Fri Jun 21 08:41:24 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C75                            ROOM           MAIN_PWR
- C76                            ROOM           MAIN_PWR
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
-|                                                    Fri Jun 21 08:41:24 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
+|                                                    Fri Jun 21 09:06:33 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C75.2                          DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805
- C75.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C75.2                          ROOM           MAIN_PWR
- C75.2                          XY             (3575,-1725)
- C76.2                          DESCRIPTION    CAP 0.1__F __10% 25V Ceramic Capacitor X7R 0805
- C76.2                          PRIM_FILE      ./ocad_parts_lib/cap_np/chips/chips.prt
- C76.2                          ROOM           MAIN_PWR
- C76.2                          XY             (3925,-2350)
- R70.2          127.000 10.0000 XY             (2925,-2450)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
+ R69.2          84.0000 10.5000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
+ R69.2          84.0000 10.5000 ROOM           POWER
+ R69.2          84.0000 10.5000 SIZE           1
+ R69.2          84.0000 10.5000 XY             (4050,-2225)
+ R84.2          131.000 10.0000 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
+ R84.2          131.000 10.0000 ROOM           POWER
+ R84.2          131.000 10.0000 SIZE           1
+ R84.2          131.000 10.0000 XY             (3700,-1600)
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v211.brd  |
-|                                                    Fri Jun 21 08:41:24 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C75.1                          CDS_PINID      \1\
- C75.2                          CDS_PINID      \2\
- C76.1                          CDS_PINID      \1\
- C76.2                          CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
-|       Components added      :       2                                        |
-|       Components deleted    :       2                                        |
-|       Comp property added   :       2                                        |
-|       Pin property added    :       4                                        |
-|       Slot property added   :       9                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       2                                        |
+|       Slot property added   :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:      23                                        |
+|   Total ECO changes reported:      11                                        |
 |------------------------------------------------------------------------------|
