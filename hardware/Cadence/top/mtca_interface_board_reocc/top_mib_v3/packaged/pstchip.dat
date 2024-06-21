@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 21-Jun-2024 AT 10:20:04 }
+{ Packager-XL run on 21-Jun-2024 AT 11:37:32 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1729,42 +1729,6 @@ primitive 'CONN30P-FTSH-115-01-L-DV,CONN3B';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CONN30P';
       PARENT_PPT_PART='CONN30P-FTSH-115-01-L-DV,CONN30P';
-  end_body;
-end_primitive;
-primitive 'DIODE-1N4148W-13-F,DIODE-1N414A';
-  pin
-    'ANODE':
-      PIN_NUMBER='(A)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'CATHODE':
-      PIN_NUMBER='(C)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='CR';
-      CLASS='DISCRETE';
-      PART_NAME='DIODE';
-      BODY_NAME='DIODE';
-      JEDEC_TYPE='SOD123';
-      VALUE='1N4148';
-      DESCRIPTION='DIODE GEN PURP 100V 150MA SOD123';
-      MPN='1N4148W-13-F';
-      MANUFACTURER='DIODES INCORPORATED';
-      PART_TYPE='RECTIFIER';
-      PART_NUMBER='1N4148W-13-F';
-      SOURCE_PACKAGE='DIODE';
-      PARENT_PART_TYPE='DIODE';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='DIODE';
-      PARENT_PPT_PART='DIODE-1N4148W-13-F,DIODE';
   end_body;
 end_primitive;
 primitive 'ELCAPTAN_SMD-220UF,25V';
@@ -4986,6 +4950,42 @@ primitive 'R-CRCW060310M0FKEAC,R-CRCW0603A';
       PARENT_PPT_PART='R-CRCW060310M0FKEAC,R';
   end_body;
 end_primitive;
+primitive 'R-DNF,R-DNF,R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PHYS_DES_PREFIX='R';
+      CLASS='DISCRETE';
+      PART_NAME='R';
+      BODY_NAME='R';
+      JEDEC_TYPE='RES0402';
+      VALUE='DNF';
+      DESCRIPTION='RES SMD 0402 Do Not Fit';
+      MPN='DNF';
+      MANUFACTURER='DNF';
+      PART_TYPE='THICK FILM';
+      PART_NUMBER='DNF';
+      SOURCE_PACKAGE='R';
+      PARENT_PART_TYPE='R';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-DNF,R';
+  end_body;
+end_primitive;
 primitive 'R-EMA-00003608,R-EMA-00003608,A';
   pin
     '1':
@@ -6689,6 +6689,35 @@ df';
       PARENT_PART_TYPE='74AVC1T45_SC70';
       PARENT_PPT='74AVC1T45';
       PARENT_PPT_PART='SN74AVC1T45DCK';
+  end_body;
+end_primitive;
+primitive 'SS16FP';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SS16FP';
+      BODY_NAME='SS16FP';
+      JEDEC_TYPE='SS16FP';
+      PHYS_DES_PREFIX='D';
+      CLASS='IC';
   end_body;
 end_primitive;
 primitive 'SY58608UMG-VCC=P2V5';

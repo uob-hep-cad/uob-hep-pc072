@@ -1,4 +1,4 @@
-{ Packager-XL run on 21-Jun-2024 AT 10:20:04 }
+{ Packager-XL run on 21-Jun-2024 AT 11:37:32 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "R","108P": LOCATION = "R85" #&CDS_LOCATION = "R85" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -1672,9 +1672,6 @@ BODY = "HDT0001","176P": LOCATION = "SW1" #&CDS_LOCATION = "SW1" #SEC = "1" #&SE
 "B":   PN = "3"  !CDS_PN = "3";
 "C":   PN = "2"  !CDS_PN = "2";
 "D":   PN = "4"  !CDS_PN = "4";
-BODY = "DIODE","177P": LOCATION = "D12" #&CDS_LOCATION = "D12" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"ANODE":   PN = "A"  !CDS_PN = "A";
-"CATHODE":   PN = "C"  !CDS_PN = "C";
 BODY = "LED_0","178P": LOCATION = "D3" #&CDS_LOCATION = "D3" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
@@ -1712,9 +1709,6 @@ BODY = "R","190P": LOCATION = "R5" #&CDS_LOCATION = "R5" #SEC = "1" #&SEC_TYPE =
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "R","191P": LOCATION = "R107" #&CDS_LOCATION = "R107" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","192P": LOCATION = "R103" #&CDS_LOCATION = "R103" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "R","193P": LOCATION = "R94" #&CDS_LOCATION = "R94" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -1833,6 +1827,15 @@ BODY = "SHF-105-01-L-D-SM","I238": LOCATION = "J13" #&CDS_LOCATION = "J13" &SEC 
 "8":   PN = "8"  !CDS_PN = "8";
 "9":   PN = "9"  !CDS_PN = "9";
 "10":   PN = "10"  !CDS_PN = "10";
+BODY = "R","I239": #LOCATION = "R103" !CDS_LOCATION = "R103" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "SS16FP","I240": #LOCATION = "D12" !CDS_LOCATION = "D12" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2";
+"C":   PN = "1"  !CDS_PN = "1";
+BODY = "R","I241": LOCATION = "R81" #&CDS_LOCATION = "R81" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_6p@mtca_interface_board_reocc.\07_ backplane interface\(sch_1):page2";
 BODY = "MT_HOLE","17P": LOCATION = "MH7" #&CDS_LOCATION = "MH7" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
