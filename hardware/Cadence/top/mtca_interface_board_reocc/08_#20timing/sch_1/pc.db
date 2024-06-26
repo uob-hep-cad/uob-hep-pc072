@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Jun 21 14:29:01 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Wed Jun 26 11:13:40 2024
 #ISCELL
   mtca_interface_board gnd *
   page1_141p
@@ -59,42 +59,6 @@
 #ISCELL
   mtca_interface_board offpageleft-l *
   page1_i577
-#CELL
-  bris_cds_logic max9381esa *
-  page1_i578
-#ISCELL
-  cnpower p2v5 *
-  page1_i579
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i580
-#CELL
-  discrete r *
-  page1_i581
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i582
-#CELL
-  discrete r *
-  page1_i583
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i584
-#CELL
-  discrete r *
-  page1_i587
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i590
-#ISCELL
-  cnpower p2v5 *
-  page1_i591
-#ISCELL
-  cnpower p2v5 *
-  page1_i594
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i595
 #ISCELL
   cnpower p2v5 *
   page1_i598
@@ -120,50 +84,14 @@
   cnpower p2v5 *
   page1_i609
 #ISCELL
-  cnpower p2v5 *
-  page1_i612
-#CELL
-  discrete r *
-  page1_i613
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i614
-#CELL
-  discrete r *
-  page1_i615
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i616
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i617
-#CELL
-  bris_cds_logic max9381esa *
-  page1_i618
-#ISCELL
-  cnpower p2v5 *
-  page1_i621
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i622
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i623
-#ISCELL
   mtca_interface_board gnd *
   page1_i624
-#CELL
-  discrete r *
-  page1_i625
 #ISCELL
   mtca_interface_board gnd *
   page1_i628
 #CELL
   discrete r *
   page1_i629
-#ISCELL
-  cnpower p2v5 *
-  page1_i632
 #ISCELL
   cnpower p2v5 *
   page1_i635
@@ -271,22 +199,10 @@
   page1_i738
 #CELL
   cnpassive rsmd0402 *
-  page1_i739
-#CELL
-  cnpassive rsmd0402 *
-  page1_i740
-#CELL
-  cnpassive rsmd0402 *
   page1_i741
 #CELL
   cnpassive rsmd0402 *
   page1_i742
-#CELL
-  cnpassive rsmd0402 *
-  page1_i743
-#CELL
-  cnpassive rsmd0402 *
-  page1_i744
 #CELL
   cnpassive rsmd0402 *
   page1_i745
@@ -295,22 +211,10 @@
   page1_i746
 #CELL
   cnpassive rsmd0402 *
-  page1_i747
-#CELL
-  cnpassive rsmd0402 *
-  page1_i748
-#CELL
-  cnpassive rsmd0402 *
   page1_i749
 #CELL
   cnpassive rsmd0402 *
   page1_i750
-#CELL
-  cnpassive rsmd0402 *
-  page1_i751
-#CELL
-  cnpassive rsmd0402 *
-  page1_i752
 #CELL
   cnpassive capcersmdcl2 *
   page1_i753
@@ -359,36 +263,6 @@
 #ISCELL
   mtca_interface_board gnd *
   page1_i768
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i769
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i770
-#ISCELL
-  cnpower p2v5 *
-  page1_i771
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i772
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i773
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i774
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i775
-#ISCELL
-  cnpower p2v5 *
-  page1_i776
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i777
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i778
 #CELL
   cnpassive capcersmdcl2 *
   page1_i779
@@ -464,6 +338,45 @@
 #CELL
   cninterface 74avc1t45 *
   page1_i803
+#CELL
+  discrete r *
+  page1_i804
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i806
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i807
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i808
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i809
+#CELL
+  discrete r *
+  page1_i810
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page1_i812
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i813
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i814
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i815
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i817
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page1_i818
+#CELL
+  cndiscrete ferrite *
+  page1_i821
 #ISCELL
   bris_cds_standard a3-2000 *
   *

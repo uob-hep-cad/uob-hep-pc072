@@ -2,67 +2,18 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v213.brd  |
+|                                                    Wed Jun 26 11:14:11 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  AMC_N_PS<1>  pins MOVED FROM this net (to net name listed on right)
-                                 R104.1          12.1000 26.6500
-                                                    UNNAMED_1_ATMGA128_I235_PE2
-                                 U4.4             6.2500 28.3500
-                                                    UNNAMED_1_ATMGA128_I235_PE2
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R81.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_ATMGA128_I235_PE2 pins ADDED TO this new net
-                                 R81.1                          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  VCC3V3       pins MOVED FROM this net (to net name listed on right)
+                                 L14.2           163.327 77.1000
+                                                                            VDD
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81                 R-DNF,R-DNF,R         
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
- R81.2                          XY             (4675,-1875)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81.1                          CDS_PINID      \1\
- R81.2                          CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
-|       Components added      :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       2                                        |
+|       Nets changed          :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       9                                        |
+|   Total ECO changes reported:       1                                        |
 |------------------------------------------------------------------------------|
