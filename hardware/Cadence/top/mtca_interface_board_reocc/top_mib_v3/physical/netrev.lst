@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : mib_rev3ox_v213.brd                           )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Wed Jun 26 11:14:11 2024                      )
+(    Date/Time        : Thu Jun 27 07:35:02 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -29,7 +29,7 @@ CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat (00:00:00.39)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat (00:00:00.01)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat (00:00:00.02)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxnet.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxnet.dat (00:00:00.03)
 
@@ -41,15 +41,16 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstcmdb.dat
-	Start time: Wed Jun 26 11:14:11 2024
+	Start time: Thu Jun 27 07:35:04 2024
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Wed Jun 26 11:14:11 2024
+Finished Constraint Update	Time: Thu Jun 27 07:35:05 2024
 ===========================================================
 
 ------ Library Paths ------
-MODULEPATH =  . 
-           c:/cadence/spb_17.4/share/local/pcb/modules 
+MODULEPATH =  Y:/Users/CEG/Central Electronics/Projects/Hastingsp/PaMIR/001x/worklib/switcherpsu/physical/ 
+           . 
+           C:/Cadence/SPB_16.5/share/local/pcb/modules 
 
 PSMPATH =  . 
            /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
@@ -120,9 +121,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jun 26 11:14:10 2024
+netrev run on Jun 27 7:35:02 2024
    DESIGN NAME : 'TOP_MIB_V3'
-   PACKAGING ON 26-Jun-2024 AT 11:13:58
+   PACKAGING ON 27-Jun-2024 AT 07:34:48
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -153,6 +154,6 @@ netrev run on Jun 26 11:14:10 2024
  No oversight detected
  No warning detected
 
-cpu time      0:05:20
-elapsed time  0:00:02
+cpu time      0:08:31
+elapsed time  0:00:04
 
