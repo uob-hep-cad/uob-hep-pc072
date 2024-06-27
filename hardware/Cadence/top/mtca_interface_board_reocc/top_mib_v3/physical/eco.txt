@@ -2,67 +2,105 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v213.brd  |
+|                                                    Thu Jun 27 07:35:03 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  AMC_N_PS<1>  pins MOVED FROM this net (to net name listed on right)
-                                 R104.1          12.1000 26.6500
-                                                    UNNAMED_1_ATMGA128_I235_PE2
-                                 U4.4             6.2500 28.3500
-                                                    UNNAMED_1_ATMGA128_I235_PE2
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R81.2                          
+  CLOCK_SELECT_DEFINE_THIS pins MOVED FROM this net (to net name listed on right)
+                                 IC8.6           150.950 75.6000
+                                                                DIFF_CLK_SELECT
+                                 IC8.6           150.950 75.6000
+                                                                DIFF_CLK_SELECT
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_ATMGA128_I235_PE2 pins ADDED TO this new net
-                                 R81.1                          
+  DEFINE_THIS  pins ADDED TO this new net
+                                 IC7.3           144.450 76.4500
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DFF_CLK_N<0> pins MOVED FROM this net (to net name listed on right)
+                                 C102.2          127.300 14.2500
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DFF_CLK_N<1> pins MOVED FROM this net (to net name listed on right)
+                                 C99.2           122.200 30.5000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DFF_REF_CLK_N<0> pins MOVED FROM this net (to net name listed on right)
+                                 C102.1          128.200 14.2500
+                                                                            VDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DFF_REF_CLK_N<1> pins MOVED FROM this net (to net name listed on right)
+                                 C99.1           121.300 30.5000
+                                                                           P2V5
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DIFF_CLK_SELECT pins ADDED TO this new net
+                                 IC7.4           146.550 76.4500
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 IC7.2           144.450 77.1000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins ADDED TO this existing net (pins not previously on any net)
+                                 IC7.1           144.450 77.7500
+                                 IC7.5           146.550 77.1000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD          pins ADDED TO this existing net (pins not previously on any net)
+                                 IC7.6           146.550 77.7500
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v213.brd  |
+|                                                    Thu Jun 27 07:35:03 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81                 R-DNF,R-DNF,R         
+ C105                CAPCERSMDCL2_0402-100NF,16V_GEN 121.750 31.5000
+ C113                CAPCERSMDCL2_0402-100NF,16V_GEN 127.750 15.2500
+ R7                  R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 124.250 31.0000
+ R9                  R-ERJ-2RKF1000X,R-ERJ-2RKF1000A 127.000 14.7500
+ R101                RSMD0402_1/16W-1K,1%  123.750 29.5000
+ R139                RSMD0402_1/16W-1K,1%  123.750 32.5000
+ R140                RSMD0402_1/16W-1K,1%  128.750 13.2500
+ R143                RSMD0402_1/16W-1K,1%  128.250 16.7500
+ R145                RSMD0402_1/16W-2.2K,1% 121.750 32.5000
+ R146                RSMD0402_1/16W-2.2K,1% 121.750 29.5000
+ R150                RSMD0402_1/16W-2.2K,1% 127.250 16.7500
+ R151                RSMD0402_1/16W-2.2K,1% 126.750 13.2500
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v213.brd  |
+|                                                    Thu Jun 27 07:35:03 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES deleted from design                                     |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U2             128.200 49.9000 ROOM           SFP_DFF_AND_FANOUT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v213.brd  |
+|                                                    Thu Jun 27 07:35:03 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
- R81.2                          XY             (4675,-1875)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+ C99.2          121.750 30.5000 XY             (12975,-8225)
+ C102.2         127.750 14.2500 XY             (14225,-8275)
+ IC7.6          145.500 77.1000 XY             (13425,-8000)
+ L14.2          161.600 77.1000 XY             (15050,-6625)
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v212.brd  |
-|                                                    Fri Jun 21 11:37:49 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R81.1                          CDS_PINID      \1\
- R81.2                          CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
-|       Components added      :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       2                                        |
+|       Nets changed          :      12                                        |
+|       Components deleted    :      12                                        |
+|       Comp property deleted :       1                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       9                                        |
+|   Total ECO changes reported:      29                                        |
 |------------------------------------------------------------------------------|

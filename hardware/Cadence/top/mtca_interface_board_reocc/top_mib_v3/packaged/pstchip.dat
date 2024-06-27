@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 21-Jun-2024 AT 11:37:32 }
+{ Packager-XL run on 27-Jun-2024 AT 07:34:48 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -1771,6 +1771,45 @@ primitive 'ELCAPTAN_SMD-220UF,25V';
       PARENT_PART_TYPE='ELCAPTAN_SMD';
       PARENT_PPT='ELCAPTAN';
       PARENT_PPT_PART='ELCAPTAN_SMD-220UF,25V';
+  end_body;
+end_primitive;
+primitive 'FERRITE_C1206-HH1M3216_501,WPI';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='FERRITE';
+      BODY_NAME='FERRITE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_IO_CHECK='TRUE';
+      PHYS_DES_PREFIX='L';
+      STATUS='Preferred';
+      PART_NUMBER='HH-M3216-501';
+      MANUFACTURER='CERATECH';
+      DESCRIPTION='3A High-Impedance SMD Ferrite Chip Bead HH Series';
+      DATASHEET_URL='';
+      PINCOUNT='2';
+      SMD='';
+      CASE='';
+      JEDEC_TYPE='C1206';
+      PARENT_PART_TYPE='FERRITE';
+      PARENT_PPT='FERRITE';
+      PARENT_PPT_PART='FERRITE_C1206-HH1M3216_501,WPI';
   end_body;
 end_primitive;
 primitive 'FERRITE_SMD-BLM21PG221SN1,MURAA';
