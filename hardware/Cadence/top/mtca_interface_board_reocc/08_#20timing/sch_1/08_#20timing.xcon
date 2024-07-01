@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-27T07:34:40</modificationTime>
+    <modificationTime>2024-06-28T11:03:55</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="08_ timing" view="sch_1">
       <lastids>
         <instanceid>468</instanceid>
-        <netid>426</netid>
+        <netid>428</netid>
         <insttermid>1223</insttermid>
       </lastids>
       <cells>
@@ -1467,14 +1467,6 @@
           <name>max9831_p</name>
         </net>
         <net>
-          <id>N412</id>
-          <name>unnamed_1_854s01i_i802_nq</name>
-        </net>
-        <net>
-          <id>N413</id>
-          <name>unnamed_1_854s01i_i802_q</name>
-        </net>
-        <net>
           <id>N414</id>
           <name>auxio_n0</name>
         </net>
@@ -1509,6 +1501,14 @@
         <net>
           <id>N426</id>
           <name>diff_clk_select</name>
+        </net>
+        <net>
+          <id>N427</id>
+          <name>sfptd2_n</name>
+        </net>
+        <net>
+          <id>N428</id>
+          <name>sfptd2_p</name>
         </net>
         <net>
           <id>N21</id>
@@ -3269,7 +3269,7 @@
               <id>M666</id>
               <termid>T6</termid>
               <connections>
-                <connection net="N413" />
+                <connection net="N428" />
               </connections>
             </pin>
           </pins>
@@ -3290,7 +3290,7 @@
               <id>M668</id>
               <termid>T6</termid>
               <connections>
-                <connection net="N412" />
+                <connection net="N427" />
               </connections>
             </pin>
           </pins>
@@ -6992,7 +6992,7 @@
               <id>M1176</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N413" />
+                <connection net="N428" />
               </connections>
             </pin>
             <pin>
@@ -7013,7 +7013,7 @@
               <id>M1178</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N412" />
+                <connection net="N427" />
               </connections>
             </pin>
             <pin>
@@ -7141,7 +7141,7 @@
               <id>M1190</id>
               <termid>T280</termid>
               <connections>
-                <connection net="N412" />
+                <connection net="N427" />
               </connections>
             </pin>
             <pin>
@@ -7158,7 +7158,7 @@
               <id>M1192</id>
               <termid>T282</termid>
               <connections>
-                <connection net="N413" />
+                <connection net="N428" />
               </connections>
             </pin>
             <pin>
@@ -7651,6 +7651,8 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="sfptd2_n"></net>
+              <net ref="sfptd2_p"></net>
               <net ref="udata_in_n">
                 <msb>2</msb>
                 <lsb>0</lsb>
@@ -7661,9 +7663,7 @@
               </net>
               <net ref="unnamed_1_854s01i_i802_npclk"></net>
               <net ref="unnamed_1_854s01i_i802_npclk_1"></net>
-              <net ref="unnamed_1_854s01i_i802_nq"></net>
               <net ref="unnamed_1_854s01i_i802_pclk"></net>
-              <net ref="unnamed_1_854s01i_i802_q"></net>
               <net ref="unnamed_1_r_i558_2"></net>
               <net ref="unnamed_1_r_i559_2"></net>
               <net ref="unnamed_1_r_i567_2"></net>
