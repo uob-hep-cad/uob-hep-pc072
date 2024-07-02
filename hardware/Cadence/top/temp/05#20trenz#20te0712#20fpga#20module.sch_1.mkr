@@ -1,0 +1,63 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR(SPCOCD-137): Each pin on a concatenation symbol must be connected to a signal.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-137): Each pin on a concatenation symbol must be connected to a signal.
+Object dump: 
+{
+    page:  1
+    instance:  i393
+    cell name: 4 merge
+    pin name:  C
+}
+")
+   (location
+    (
+     (object_kind "InstancePin")
+     (canonical_name "_!drawerror pin i393.C;")
+     (parent_canonical_name "DRAWERROR PIN i393.C;")
+     (drawing_name "@mtca_interface_board_reocc.\05 trenz te0712 fpga module\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 2)
+   (short_msg "ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.
+Port name: trenzdata
+Entity file location: \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\05#20trenz#20te0712#20fpga#20module\entity\verilog.v
+Object dump: 
+{
+    port name: trenzdata
+}
+{
+    port name: trenzdata
+}
+")
+   (location
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal trenzdata;")
+     (parent_canonical_name "DRAWERROR NET trenzdata")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_4p@mtca_interface_board_reocc.\05 trenz te0712 fpga module\(sch_1):page1")
+    )
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal trenzdata;")
+     (parent_canonical_name "DRAWERROR NET trenzdata")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_4p@mtca_interface_board_reocc.\05 trenz te0712 fpga module\(sch_1):page1")
+    )
+   )
+  )
+ )
+)

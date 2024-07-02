@@ -3,21 +3,70 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v216.brd  |
-|                                                    Tue Jul  2 07:59:17 2024  |
+|                                                    Tue Jul  2 15:11:44 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  SPAREIO_N0   pins MOVED FROM this net (to net name listed on right)
-                                 J4.1            35.5874 59.9186
-                                                                            GND
+  AUXIO_N1     pins MOVED FROM this net (to net name listed on right)
+                                 J1.70           77.8000 66.5680
+                                                                       TDATA<0>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SPAREIO_P0   pins MOVED FROM this net (to net name listed on right)
-                                 J4.2            39.6474 59.9186
-                                                                            GND
+  DEFINE_THIS  pins MOVED FROM this net (to net name listed on right)
+                                 IC7.3           142.050 77.4000
+                                                                       TDATA<0>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DIRECT_US_DATA_2_N net RENAMED (to net name listed on right)           TDATA<3>     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DIRECT_US_DATA_2_P net RENAMED (to net name listed on right)           TDATA<2>     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UDATA_IN_N<0> pins MOVED FROM this net (to net name listed on right)
+                                 R154.1          136.450 17.7500
+                                                            UPSTREAM_DATA_N_<0>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UDATA_IN_N<1> pins MOVED FROM this net (to net name listed on right)
+                                 R91.1           136.200 34.6000
+                                                            UPSTREAM_DATA_N_<1>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UDATA_IN_P<0> pins MOVED FROM this net (to net name listed on right)
+                                 R147.1          136.450 18.6000
+                                                             UPSTREAM_DATA_P<0>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UDATA_IN_P<1> pins MOVED FROM this net (to net name listed on right)
+                                 R26.1           136.200 35.5000
+                                                             UPSTREAM_DATA_P<1>
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v216.brd  |
+|                                                    Tue Jul  2 15:11:44 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C98                 CAPCERSMDCL2_0402-100NF,16V_GEN 134.350 34.5500
+ C100                CAPCERSMDCL2_0402-100NF,16V_GEN 134.200 17.6500
+ C101                CAPCERSMDCL2_0402-100NF,16V_GEN 134.350 35.5500
+ C106                CAPCERSMDCL2_0402-100NF,16V_GEN 134.200 18.7000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v216.brd  |
+|                                                    Tue Jul  2 15:11:44 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R2.2                           XY             (1600,-4450)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       8                                        |
+|       Components deleted    :       4                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:      13                                        |
 |------------------------------------------------------------------------------|
