@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-26T10:28:03</modificationTime>
+    <modificationTime>2024-07-02T07:56:50</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top_mib_v3" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>342</netid>
-        <insttermid>657</insttermid>
+        <netid>354</netid>
+        <insttermid>685</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -493,8 +493,14 @@
           <inherited>1</inherited>
         </net>
         <net>
-          <id>vdd</id>
-          <name>vdd</name>
+          <id>direct_us_data_2_n</id>
+          <name>direct_us_data_2_n</name>
+          <scope>global</scope>
+          <inherited>1</inherited>
+        </net>
+        <net>
+          <id>direct_us_data_2_p</id>
+          <name>direct_us_data_2_p</name>
           <scope>global</scope>
           <inherited>1</inherited>
         </net>

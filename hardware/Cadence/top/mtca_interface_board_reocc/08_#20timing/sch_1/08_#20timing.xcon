@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-28T11:03:55</modificationTime>
+    <modificationTime>2024-07-02T07:56:48</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="08_ timing" view="sch_1">
       <lastids>
         <instanceid>468</instanceid>
-        <netid>428</netid>
+        <netid>430</netid>
         <insttermid>1223</insttermid>
       </lastids>
       <cells>
@@ -1467,14 +1467,6 @@
           <name>max9831_p</name>
         </net>
         <net>
-          <id>N414</id>
-          <name>auxio_n0</name>
-        </net>
-        <net>
-          <id>N416</id>
-          <name>auxio_p0</name>
-        </net>
-        <net>
           <id>N418</id>
           <name>unnamed_1_854s01i_i802_npclk</name>
         </net>
@@ -1538,6 +1530,16 @@
         <net>
           <id>N383</id>
           <name>vdd_clk_buffer</name>
+          <scope>global</scope>
+        </net>
+        <net>
+          <id>N429</id>
+          <name>direct_us_data_2_n</name>
+          <scope>global</scope>
+        </net>
+        <net>
+          <id>N430</id>
+          <name>direct_us_data_2_p</name>
           <scope>global</scope>
         </net>
       </nets>
@@ -3249,48 +3251,6 @@
               <termid>T6</termid>
               <connections>
                 <connection net="N227" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I205</id>
-          <cellid>S2</cellid>
-          <name>page1_i644</name>
-          <pins>
-            <pin>
-              <id>M665</id>
-              <termid>T5</termid>
-              <connections>
-                <connection net="N21" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M666</id>
-              <termid>T6</termid>
-              <connections>
-                <connection net="N428" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I206</id>
-          <cellid>S2</cellid>
-          <name>page1_i646</name>
-          <pins>
-            <pin>
-              <id>M667</id>
-              <termid>T5</termid>
-              <connections>
-                <connection net="N21" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M668</id>
-              <termid>T6</termid>
-              <connections>
-                <connection net="N427" />
               </connections>
             </pin>
           </pins>
@@ -7119,6 +7079,12 @@
               <value>2</value>
             </parameter>
           </parameters>
+          <powers>
+            <power>
+              <name>vdd</name>
+              <override>N128</override>
+            </power>
+          </powers>
           <pins>
             <pin>
               <id>M1188</id>
@@ -7299,7 +7265,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N416" />
+                <connection pinmsb="0" pinlsb="0" net="N430" />
               </connections>
             </pin>
             <pin>
@@ -7324,7 +7290,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N414" />
+                <connection pinmsb="0" pinlsb="0" net="N429" />
               </connections>
             </pin>
             <pin>
@@ -7435,31 +7401,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I466</id>
-          <cellid>S20</cellid>
-          <name>page1_i821</name>
-          <pins>
-            <pin>
-              <id>M1218</id>
-              <termid>T266</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N128" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M1219</id>
-              <termid>T267</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N423" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I467</id>
           <cellid>S17</cellid>
           <name>page1_i825</name>
@@ -7535,6 +7476,16 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
+          <netScope ref="direct_us_data_2_n">
+            <pageScope number="1">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
+          <netScope ref="direct_us_data_2_p">
+            <pageScope number="1">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
           <netScope ref="gnd">
             <pageScope number="1">
               <scope>global</scope>
@@ -7593,8 +7544,6 @@
             <physicalPageNumber>1</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="auxio_n0"></net>
-              <net ref="auxio_p0"></net>
               <net ref="define_this"></net>
               <net ref="dff_clk_n">
                 <msb>2</msb>
@@ -7613,6 +7562,8 @@
                 <lsb>2</lsb>
               </net>
               <net ref="diff_clk_select"></net>
+              <net ref="direct_us_data_2_n"></net>
+              <net ref="direct_us_data_2_p"></net>
               <net ref="gnd"></net>
               <net ref="max9831_n"></net>
               <net ref="max9831_p"></net>
@@ -7694,8 +7645,6 @@
               <instance ref="i571"></instance>
               <instance ref="i574"></instance>
               <instance ref="i575"></instance>
-              <instance ref="i644"></instance>
-              <instance ref="i646"></instance>
               <instance ref="i649"></instance>
               <instance ref="i656"></instance>
               <instance ref="i660"></instance>
@@ -7747,7 +7696,6 @@
               <instance ref="i813"></instance>
               <instance ref="i814"></instance>
               <instance ref="i815"></instance>
-              <instance ref="i821"></instance>
               <instance ref="i825"></instance>
               <instance ref="i826"></instance>
             </instances>

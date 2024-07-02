@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 28-Jun-2024 AT 11:40:02 }
+{ Packager-XL run on 02-Jul-2024 AT 07:59:02 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='28-Jun-2024 AT 11:40:02';
+ POST_TIME='02-Jul-2024 AT 07:59:02';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -7695,7 +7695,7 @@ oard_reocc.\08_ timing\(sch_1):page1_i803@cninterface.\74avc1t45\(chips)',
  PRIM_FILE='./archive_libs/cninterface/74avc1t45/chips/chips.prt';
 
 PART_NAME
- IC8 '854S01AKILF':;
+ IC8 '854S01AKILF-VDD=VCC3V3':;
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I802@CNINTERFACE.854S01I(CHIPS)'(1):
@@ -7706,6 +7706,7 @@ oard_reocc.\08_ timing\(sch_1):page1_i802(1)@cninterface.\854s01i\(chips)',
  PATH='I802',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
  SIZE='2',
+ POWER_GROUP='VDD=VCC3V3',
  TYPE='854S01AKILF',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='1',
@@ -7714,7 +7715,7 @@ oard_reocc.\08_ timing\(sch_1):page1_i802(1)@cninterface.\854s01i\(chips)',
  VER='1',
  PACK_TYPE='QFN',
  CDS_LIB='cninterface',
- CDS_PART_NAME='854S01AKILF',
+ CDS_PART_NAME='854S01AKILF-VDD=VCC3V3',
  HAS_FIXED_SIZE='2',
  PRIM_FILE='./archive_libs/cninterface/854s01i/chips/chips.prt';
 
@@ -7727,6 +7728,7 @@ oard_reocc.\08_ timing\(sch_1):page1_i802(0)@cninterface.\854s01i\(chips)',
  PATH='I802',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
  SIZE='2',
+ POWER_GROUP='VDD=VCC3V3',
  TYPE='854S01AKILF',
  DESIGNATORNAMEPROP='TIMING',
  PHYS_PAGE='1',
@@ -7735,7 +7737,7 @@ oard_reocc.\08_ timing\(sch_1):page1_i802(0)@cninterface.\854s01i\(chips)',
  VER='1',
  PACK_TYPE='QFN',
  CDS_LIB='cninterface',
- CDS_PART_NAME='854S01AKILF',
+ CDS_PART_NAME='854S01AKILF-VDD=VCC3V3',
  HAS_FIXED_SIZE='2',
  PRIM_FILE='./archive_libs/cninterface/854s01i/chips/chips.prt';
 
@@ -8821,30 +8823,6 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  PRIM_FILE='./ind/ind/chips/chips.prt';
 
 PART_NAME
- L14 'FERRITE_C1206-HH1M3216_501,WPI':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I821@CNDISCRETE.FERRITE(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_b~
-oard_reocc.\08_ timing\(sch_1):page1_i821@cndiscrete.ferrite(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_b~
-oard_reocc.\08_ timing\(sch_1):page1_i821@cndiscrete.ferrite(chips)',
- PATH='I821',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
- SIZE='1',
- MODEL='WPI',
- DESIGNATORNAMEPROP='TIMING',
- PHYS_PAGE='1',
- XY='(15050,-6625)',
- ROT='0',
- VER='1',
- PACK_TYPE='C1206',
- CDS_LIB='cndiscrete',
- CDS_PART_NAME='FERRITE_C1206-HH1M3216_501,WPI',
- VALUE='HH1M3216_501',
- PRIM_FILE='./archive_libs/cndiscrete/ferrite/chips/chips.prt';
-
-PART_NAME
  MH1 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':
  ROOM='TE0712',
  REUSE_ID='174';
@@ -9398,41 +9376,40 @@ oard_reocc.\08_ timing\(sch_1):page1_i656@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R2 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='SFP_DFF_AND_FANOUT';
+ R2 'RSMD0603_-00,':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I646@DISCRETE.R(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_b~
-oard_reocc.\08_ timing\(sch_1):page1_i646@discrete.r(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_b~
-oard_reocc.\08_ timing\(sch_1):page1_i646@discrete.r(chips)',
- PATH='I646',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.PDF',
- POWER='1/10W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF1000X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P100LCT-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 100 OHM 1% 1/10W 0402',
- DESIGNATORNAMEPROP='TIMING',
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I242@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i242@cnpassive.rsmd0603(chi~
+ps)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i242@cnpassive.rsmd0603(chi~
+ps)',
+ PATH='I242',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='MMC',
  PHYS_PAGE='1',
- XY='(15400,-7650)',
- ROT='4',
+ XY='(1575,-4450)',
+ ROT='0',
  VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF1000X,R-RES0402',
- ROOM='SFP_DFF_AND_FANOUT',
- PART_NUMBER='ERJ-2RKF1000X',
- VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PACK_TYPE='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ TOL='',
+ VALUE='00',
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R3 'R-EMA-00003608,R-EMA-00003608,A':
@@ -9471,43 +9448,6 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_183p@discrete.r(chips)',
  ROOM='MMC',
  PART_NUMBER='EMA-00003608',
  VALUE='249 Ohm',
- PRIM_FILE='./discrete/r/chips/chips.prt';
-
-PART_NAME
- R4 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='SFP_DFF_AND_FANOUT';
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I644@DISCRETE.R(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_b~
-oard_reocc.\08_ timing\(sch_1):page1_i644@discrete.r(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_b~
-oard_reocc.\08_ timing\(sch_1):page1_i644@discrete.r(chips)',
- PATH='I644',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1',
- DATASHEET='C:\EMA\CISQuickStart\Technical_Datasheets\Panasonic\AOA0000CE2.PDF',
- POWER='1/10W',
- TOLERANCE='1%',
- SOURCE_PACKAGE='R',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Thick Film',
- MPN='ERJ-2RKF1000X',
- MANUFACTURER='Panasonic',
- DISTRIBUTOR_PARTNUMBER='P100LCT-ND',
- DISTRIBUTOR='Digikey',
- DESCRIPTION='RES SMD 100 OHM 1% 1/10W 0402',
- DESIGNATORNAMEPROP='TIMING',
- PHYS_PAGE='1',
- XY='(15675,-7650)',
- ROT='4',
- VER='1',
- JEDEC_TYPE='RES0402',
- SEC='1',
- CDS_LIB='discrete',
- CDS_PART_NAME='R-ERJ-2RKF1000X,R-RES0402',
- ROOM='SFP_DFF_AND_FANOUT',
- PART_NUMBER='ERJ-2RKF1000X',
- VALUE='100',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME

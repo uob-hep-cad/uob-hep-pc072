@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-04-18T18:30:03</modificationTime>
+    <modificationTime>2024-07-02T07:58:56</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>136</instanceid>
-        <netid>311</netid>
+        <netid>315</netid>
         <insttermid>894</insttermid>
       </lastids>
       <cells>
@@ -1875,10 +1875,6 @@
           <name>a2</name>
         </net>
         <net>
-          <id>N4</id>
-          <name>auxio_n0</name>
-        </net>
-        <net>
           <id>N5</id>
           <name>auxio_n1</name>
         </net>
@@ -1905,10 +1901,6 @@
         <net>
           <id>N11</id>
           <name>auxio_n7</name>
-        </net>
-        <net>
-          <id>N12</id>
-          <name>auxio_p0</name>
         </net>
         <net>
           <id>N13</id>
@@ -2476,6 +2468,16 @@
           <name>p2v5</name>
           <scope>global</scope>
         </net>
+        <net>
+          <id>N312</id>
+          <name>direct_us_data_2_n</name>
+          <scope>global</scope>
+        </net>
+        <net>
+          <id>N313</id>
+          <name>direct_us_data_2_p</name>
+          <scope>global</scope>
+        </net>
       </nets>
       <aliases>
         <alias net1="N21" lsb1="0" msb1="180" net2="N20" lsb2="0" msb2="180" />
@@ -2954,14 +2956,14 @@
               <id>M265</id>
               <termid>T206</termid>
               <connections>
-                <connection net="N4" />
+                <connection net="N103" />
               </connections>
             </pin>
             <pin>
               <id>M266</id>
               <termid>T207</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N103" />
               </connections>
             </pin>
             <pin>
@@ -4923,14 +4925,14 @@
               <id>M796</id>
               <termid>T298</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N313" />
               </connections>
             </pin>
             <pin>
               <id>M797</id>
               <termid>T299</termid>
               <connections>
-                <connection net="N4" />
+                <connection net="N312" />
               </connections>
             </pin>
             <pin>
@@ -5734,6 +5736,16 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
+          <netScope ref="direct_us_data_2_n">
+            <pageScope number="2">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
+          <netScope ref="direct_us_data_2_p">
+            <pageScope number="2">
+              <scope>global</scope>
+            </pageScope>
+          </netScope>
           <netScope ref="fpga_pg">
             <pageScope number="2">
               <scope>interface</scope>
@@ -5790,7 +5802,6 @@
               <net ref="a0"></net>
               <net ref="a1"></net>
               <net ref="a2"></net>
-              <net ref="auxio_n0"></net>
               <net ref="auxio_n1"></net>
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
@@ -5798,7 +5809,6 @@
               <net ref="auxio_n5"></net>
               <net ref="auxio_n6"></net>
               <net ref="auxio_n7"></net>
-              <net ref="auxio_p0"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
               <net ref="auxio_p3"></net>
@@ -5959,7 +5969,6 @@
               <net ref="aux_gbe_rx_p"></net>
               <net ref="aux_gbe_tx_n"></net>
               <net ref="aux_gbe_tx_p"></net>
-              <net ref="auxio_n0"></net>
               <net ref="auxio_n1"></net>
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
@@ -5967,7 +5976,6 @@
               <net ref="auxio_n5"></net>
               <net ref="auxio_n6"></net>
               <net ref="auxio_n7"></net>
-              <net ref="auxio_p0"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
               <net ref="auxio_p3"></net>
@@ -6017,6 +6025,8 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="direct_us_data_2_n"></net>
+              <net ref="direct_us_data_2_p"></net>
               <net ref="fpga_pg"></net>
               <net ref="fpga_tck"></net>
               <net ref="fpga_tdi"></net>
