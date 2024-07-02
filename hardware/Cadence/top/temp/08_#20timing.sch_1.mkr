@@ -1,0 +1,38 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.
+Port name: trenzdata
+Entity file location: \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\08_#20timing\entity\verilog.v
+Object dump: 
+{
+    port name: trenzdata
+}
+{
+    port name: trenzdata
+}
+")
+   (location
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal trenzdata;")
+     (parent_canonical_name "DRAWERROR NET trenzdata")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal trenzdata;")
+     (parent_canonical_name "DRAWERROR NET trenzdata")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+   )
+  )
+ )
+)
