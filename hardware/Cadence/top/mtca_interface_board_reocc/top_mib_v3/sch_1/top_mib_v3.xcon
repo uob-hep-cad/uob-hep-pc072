@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-26T10:28:03</modificationTime>
+    <modificationTime>2024-07-03T07:32:49</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top_mib_v3" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>342</netid>
-        <insttermid>657</insttermid>
+        <netid>378</netid>
+        <insttermid>745</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -74,6 +74,21 @@
               <msb>11</msb>
               <lsb>0</lsb>
             </term>
+            <term>
+              <id>T261</id>
+              <name>data_select_p2v5</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T262</id>
+              <name>direct_us_data_2_n</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T263</id>
+              <name>direct_us_data_2_p</name>
+              <direction>inout</direction>
+            </term>
           </terms>
         </cell>
         <cell>
@@ -133,6 +148,21 @@
               <direction>inout</direction>
               <msb>11</msb>
               <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T258</id>
+              <name>data_select_p2v5</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T259</id>
+              <name>direct_us_data_2_n</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T260</id>
+              <name>direct_us_data_2_p</name>
+              <direction>inout</direction>
             </term>
           </terms>
         </cell>
@@ -439,6 +469,18 @@
           <name>ldo_1v8_pg</name>
         </net>
         <net>
+          <id>N376</id>
+          <name>data_select_p2v5</name>
+        </net>
+        <net>
+          <id>N377</id>
+          <name>direct_us_data_2_n</name>
+        </net>
+        <net>
+          <id>N378</id>
+          <name>direct_us_data_2_p</name>
+        </net>
+        <net>
           <id>gnd</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -489,12 +531,6 @@
         <net>
           <id>vdd_clk_buffer</id>
           <name>vdd_clk_buffer</name>
-          <scope>global</scope>
-          <inherited>1</inherited>
-        </net>
-        <net>
-          <id>vdd</id>
-          <name>vdd</name>
           <scope>global</scope>
           <inherited>1</inherited>
         </net>
@@ -619,6 +655,27 @@
                 <connection pinmsb="11" pinlsb="9" net="N211" netmsb="2" netlsb="0" />
               </connections>
             </pin>
+            <pin>
+              <id>M743</id>
+              <termid>T261</termid>
+              <connections>
+                <connection net="N376" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M744</id>
+              <termid>T262</termid>
+              <connections>
+                <connection net="N377" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M745</id>
+              <termid>T263</termid>
+              <connections>
+                <connection net="N378" />
+              </connections>
+            </pin>
           </pins>
         </instance>
         <instance>
@@ -732,6 +789,27 @@
                 <connection pinmsb="5" pinlsb="3" net="N209" netmsb="2" netlsb="0" />
                 <connection pinmsb="8" pinlsb="6" net="N210" netmsb="2" netlsb="0" />
                 <connection pinmsb="11" pinlsb="9" net="N211" netmsb="2" netlsb="0" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M740</id>
+              <termid>T258</termid>
+              <connections>
+                <connection net="N376" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M741</id>
+              <termid>T259</termid>
+              <connections>
+                <connection net="N377" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M742</id>
+              <termid>T260</termid>
+              <connections>
+                <connection net="N378" />
               </connections>
             </pin>
           </pins>
@@ -892,9 +970,12 @@
                 <msb>11</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="data_select_p2v5"></net>
               <net ref="dcdc_2v5_pg"></net>
               <net ref="dcdc_3v3_pg"></net>
               <net ref="dcdc_enable"></net>
+              <net ref="direct_us_data_2_n"></net>
+              <net ref="direct_us_data_2_p"></net>
               <net ref="fpga_pg"></net>
               <net ref="gbe_rx_n"></net>
               <net ref="gbe_rx_p"></net>

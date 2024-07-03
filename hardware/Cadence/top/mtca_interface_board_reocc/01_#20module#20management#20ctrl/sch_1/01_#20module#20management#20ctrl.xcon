@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-21T11:37:10</modificationTime>
+    <modificationTime>2024-07-01T15:00:48</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>51</instanceid>
-        <netid>99</netid>
-        <insttermid>255</insttermid>
+        <instanceid>52</instanceid>
+        <netid>100</netid>
+        <insttermid>257</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1013,6 +1013,10 @@
         <net>
           <id>N99</id>
           <name>unnamed_1_atmga128_i235_pe2</name>
+        </net>
+        <net>
+          <id>N100</id>
+          <name>unnamed_1_rsmd0603_i242_a</name>
         </net>
         <net>
           <id>N30</id>
@@ -2504,6 +2508,7 @@
               <id>M245</id>
               <termid>T150</termid>
               <connections>
+                <connection net="N100" />
               </connections>
             </pin>
             <pin>
@@ -2593,6 +2598,31 @@
               <termid>T8</termid>
               <connections>
                 <connection net="N15" netmsb="1" netlsb="1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I52</id>
+          <cellid>S15</cellid>
+          <name>page1_i242</name>
+          <pins>
+            <pin>
+              <id>M256</id>
+              <termid>T122</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N100" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M257</id>
+              <termid>T123</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N96" />
               </connections>
             </pin>
           </pins>
@@ -2702,6 +2732,7 @@
               <net ref="unnamed_1_atmga128_i235_pe2"></net>
               <net ref="unnamed_1_inv1chod_171p_a"></net>
               <net ref="unnamed_1_inv1chod_171p_y"></net>
+              <net ref="unnamed_1_rsmd0603_i242_a"></net>
               <net ref="vp12"></net>
             </nets>
             <instances>
@@ -2751,6 +2782,7 @@
               <instance ref="i239"></instance>
               <instance ref="i240"></instance>
               <instance ref="i241"></instance>
+              <instance ref="i242"></instance>
             </instances>
           </page>
         </pages>

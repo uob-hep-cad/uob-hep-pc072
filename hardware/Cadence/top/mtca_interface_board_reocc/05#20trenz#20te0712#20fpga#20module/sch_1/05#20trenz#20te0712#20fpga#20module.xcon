@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2023-04-18T18:30:03</modificationTime>
+    <modificationTime>2024-07-03T10:25:20</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>136</instanceid>
-        <netid>311</netid>
+        <netid>323</netid>
         <insttermid>894</insttermid>
       </lastids>
       <cells>
@@ -1875,14 +1875,6 @@
           <name>a2</name>
         </net>
         <net>
-          <id>N4</id>
-          <name>auxio_n0</name>
-        </net>
-        <net>
-          <id>N5</id>
-          <name>auxio_n1</name>
-        </net>
-        <net>
           <id>N6</id>
           <name>auxio_n2</name>
         </net>
@@ -1905,10 +1897,6 @@
         <net>
           <id>N11</id>
           <name>auxio_n7</name>
-        </net>
-        <net>
-          <id>N12</id>
-          <name>auxio_p0</name>
         </net>
         <net>
           <id>N13</id>
@@ -2457,6 +2445,24 @@
           <name>unnamed_2_capcersmdcl2_i418_b</name>
         </net>
         <net>
+          <id>N312</id>
+          <name>direct_us_data_2_n</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N313</id>
+          <name>direct_us_data_2_p</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
+          <id>N316</id>
+          <name>data_select_p2v5</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
+        </net>
+        <net>
           <id>N103</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -2954,14 +2960,14 @@
               <id>M265</id>
               <termid>T206</termid>
               <connections>
-                <connection net="N4" />
+                <connection net="N103" />
               </connections>
             </pin>
             <pin>
               <id>M266</id>
               <termid>T207</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N103" />
               </connections>
             </pin>
             <pin>
@@ -2982,7 +2988,7 @@
               <id>M269</id>
               <termid>T210</termid>
               <connections>
-                <connection net="N5" />
+                <connection net="N103" />
               </connections>
             </pin>
             <pin>
@@ -4784,7 +4790,7 @@
               <id>M775</id>
               <termid>T277</termid>
               <connections>
-                <connection net="N5" />
+                <connection net="N316" />
               </connections>
             </pin>
             <pin>
@@ -4923,14 +4929,14 @@
               <id>M796</id>
               <termid>T298</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N313" />
               </connections>
             </pin>
             <pin>
               <id>M797</id>
               <termid>T299</termid>
               <connections>
-                <connection net="N4" />
+                <connection net="N312" />
               </connections>
             </pin>
             <pin>
@@ -5734,6 +5740,24 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
+          <netScope ref="data_select_p2v5">
+            <pageScope number="2">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="direct_us_data_2_n">
+            <pageScope number="2">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="direct_us_data_2_p">
+            <pageScope number="2">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
           <netScope ref="fpga_pg">
             <pageScope number="2">
               <scope>interface</scope>
@@ -5790,15 +5814,12 @@
               <net ref="a0"></net>
               <net ref="a1"></net>
               <net ref="a2"></net>
-              <net ref="auxio_n0"></net>
-              <net ref="auxio_n1"></net>
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
               <net ref="auxio_n4"></net>
               <net ref="auxio_n5"></net>
               <net ref="auxio_n6"></net>
               <net ref="auxio_n7"></net>
-              <net ref="auxio_p0"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
               <net ref="auxio_p3"></net>
@@ -5959,15 +5980,12 @@
               <net ref="aux_gbe_rx_p"></net>
               <net ref="aux_gbe_tx_n"></net>
               <net ref="aux_gbe_tx_p"></net>
-              <net ref="auxio_n0"></net>
-              <net ref="auxio_n1"></net>
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
               <net ref="auxio_n4"></net>
               <net ref="auxio_n5"></net>
               <net ref="auxio_n6"></net>
               <net ref="auxio_n7"></net>
-              <net ref="auxio_p0"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
               <net ref="auxio_p3"></net>
@@ -6017,6 +6035,9 @@
                 <msb>2</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="data_select_p2v5"></net>
+              <net ref="direct_us_data_2_n"></net>
+              <net ref="direct_us_data_2_p"></net>
               <net ref="fpga_pg"></net>
               <net ref="fpga_tck"></net>
               <net ref="fpga_tdi"></net>

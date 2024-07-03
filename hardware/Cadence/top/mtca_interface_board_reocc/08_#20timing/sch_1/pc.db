@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Thu Jun 27 07:34:41 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Wed Jul  3 07:25:33 2024
 #ISCELL
   mtca_interface_board gnd *
   page1_141p
@@ -65,18 +65,6 @@
 #ISCELL
   cnpower p2v5 *
   page1_i643
-#CELL
-  discrete r *
-  page1_i644
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i645
-#CELL
-  discrete r *
-  page1_i646
-#ISCELL
-  mtca_interface_board gnd *
-  page1_i647
 #ISCELL
   mtca_interface_board gnd *
   page1_i648
@@ -225,18 +213,6 @@
   cnpassive capcersmdcl2 *
   page1_i787
 #CELL
-  cnpassive capcersmdcl2 *
-  page1_i790
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i791
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i794
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i795
-#CELL
   discrete r *
   page1_i796
 #CELL
@@ -278,9 +254,6 @@
 #CELL
   discrete r *
   page1_i810
-#ISCELL
-  mtca_interface_board vcc_bar *
-  page1_i812
 #CELL
   cnpassive capcersmdcl2 *
   page1_i813
@@ -296,9 +269,6 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_i818
-#CELL
-  cndiscrete ferrite *
-  page1_i821
 #ISCELL
   mtca_interface_board gnd *
   page1_i822
@@ -317,6 +287,18 @@
 #ISCELL
   cnpower p2v5 *
   page1_i828
+#ISCELL
+  standard ioport *
+  page1_i831
+#ISCELL
+  standard ioport *
+  page1_i832
+#ISCELL
+  standard ioport *
+  page1_i833
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page1_i834
 #ISCELL
   bris_cds_standard a3-2000 *
   *

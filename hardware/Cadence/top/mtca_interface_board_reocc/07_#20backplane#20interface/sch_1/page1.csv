@@ -2,10 +2,10 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020}
 "PAGE_NUMBER" = 2;
 0"NC";
-1"VP12\g";
+1"GND";
 2"GND";
 3"GND";
-4"GND";
+4"VP12\g";
 5"MP3V3\g";
 6"MP3V3_IN";
 7"GND";
@@ -281,7 +281,7 @@ FILE_TYPE = CONNECTIVITY;
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"4;
+"HOTSPOT_0"1;
 %"gnd"
 "1","(6100,-3500)","0","mtca_interface_board","13P";
 ;
@@ -293,7 +293,7 @@ CDS_LIB"mtca_interface_board";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"3;
+"HOTSPOT_0"2;
 %"vcc_bar"
 "1","(875,-500)","0","mtca_interface_board","16P";
 ;
@@ -430,7 +430,7 @@ $PN"79"212;
 "GND27"
 $PN"82"213;
 "GND28"
-$PN"85"4;
+$PN"85"1;
 "GND29"
 $PN"86"258;
 "GND30"
@@ -733,7 +733,7 @@ CDS_LIB"discrete";
 "1"
 $PN"1"274;
 "2"
-$PN"2"3;
+$PN"2"2;
 %"mt_hole"
 "1","(4550,-3950)","1","ocad_parts_lib","21P";
 ;
@@ -822,7 +822,7 @@ SEC"1";
 "1"
 $PN"1"256;
 "2"
-$PN"2"2;
+$PN"2"3;
 %"lshm-130-0xxx-l-dv-a-s"
 "1","(5100,-1200)","0","ocad_parts_lib","25P";
 ;
@@ -1243,7 +1243,7 @@ $PN"1"7;
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"2;
+"HOTSPOT_0"3;
 %"BUSWIDE_TOP_LEFT_RIP"
 "1","(5025,-3250)","0","default","I29";
 ;
@@ -1429,14 +1429,14 @@ BN"88"159;
 ;
 HDL_POWER"VP12"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"1;
+"HOTSPOT_0"4;
 %"SF-0603S300-2"
 "1","(1525,-300)","0","oxflib","I51";
 ;
 CDS_LIB"oxflib"
 CDS_LMAN_SYM_OUTLINE"-125,125,125,-125";
 "2"11;
-"1"1;
+"1"4;
 %"SF-0603FP015F-2"
 "1","(1175,-650)","0","oxflib","I52";
 ;
