@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-07-02T15:11:04</modificationTime>
+    <modificationTime>2024-07-03T07:30:53</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -1471,10 +1471,6 @@
           <name>page1_vcc3v3</name>
         </net>
         <net>
-          <id>N423</id>
-          <name>vdd</name>
-        </net>
-        <net>
           <id>N426</id>
           <name>diff_clk_select</name>
         </net>
@@ -1489,10 +1485,14 @@
         <net>
           <id>N429</id>
           <name>direct_us_data_2_n</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
         </net>
         <net>
           <id>N430</id>
           <name>direct_us_data_2_p</name>
+          <scope>interface</scope>
+          <direction>inout</direction>
         </net>
         <net>
           <id>N431</id>
@@ -1513,32 +1513,8 @@
         <net>
           <id>N435</id>
           <name>data_select_p2v5</name>
-        </net>
-        <net>
-          <id>N436</id>
-          <name>page1_data_select_p2v5</name>
-        </net>
-        <net>
-          <id>N437</id>
-          <name>trenzdata</name>
           <scope>interface</scope>
           <direction>inout</direction>
-          <msb>3</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N438</id>
-          <name>page1_trenzdata</name>
-          <msb>3</msb>
-          <lsb>0</lsb>
-        </net>
-        <net>
-          <id>N439</id>
-          <name>page1_direct_us_data_2_n</name>
-        </net>
-        <net>
-          <id>N440</id>
-          <name>page1_direct_us_data_2_p</name>
         </net>
         <net>
           <id>N21</id>
@@ -1636,14 +1612,6 @@
         <alias net1="N359" lsb1="-1" msb1="-1" net2="N343" lsb2="4" msb2="4" />
         <alias net1="N361" lsb1="-1" msb1="-1" net2="N360" lsb2="-1" msb2="-1" />
         <alias net1="N422" lsb1="-1" msb1="-1" net2="N128" lsb2="-1" msb2="-1" />
-        <alias net1="N436" lsb1="-1" msb1="-1" net2="N435" lsb2="-1" msb2="-1" />
-        <alias net1="N438" lsb1="1" msb1="1" net2="N436" lsb2="-1" msb2="-1" />
-        <alias net1="N438" lsb1="0" msb1="0" net2="N436" lsb2="-1" msb2="-1" />
-        <alias net1="N438" lsb1="0" msb1="3" net2="N437" lsb2="0" msb2="3" />
-        <alias net1="N439" lsb1="-1" msb1="-1" net2="N429" lsb2="-1" msb2="-1" />
-        <alias net1="N439" lsb1="-1" msb1="-1" net2="N438" lsb2="3" msb2="3" />
-        <alias net1="N440" lsb1="-1" msb1="-1" net2="N430" lsb2="-1" msb2="-1" />
-        <alias net1="N440" lsb1="-1" msb1="-1" net2="N438" lsb2="2" msb2="2" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -7115,7 +7083,7 @@
               <id>M1199</id>
               <termid>T299</termid>
               <connections>
-                <connection net="N423" />
+                <connection net="N128" />
               </connections>
             </pin>
           </pins>
@@ -7348,7 +7316,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N423" />
+                <connection pinmsb="0" pinlsb="0" net="N128" />
               </connections>
             </pin>
             <pin>
@@ -7413,6 +7381,24 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
+          <netScope ref="data_select_p2v5">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="direct_us_data_2_n">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="direct_us_data_2_p">
+            <pageScope number="1">
+              <scope>interface</scope>
+              <direction>inout</direction>
+            </pageScope>
+          </netScope>
           <netScope ref="gnd">
             <pageScope number="1">
               <scope>global</scope>
@@ -7439,12 +7425,6 @@
             </pageScope>
           </netScope>
           <netScope ref="sfp_data_io">
-            <pageScope number="1">
-              <scope>interface</scope>
-              <direction>inout</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="trenzdata">
             <pageScope number="1">
               <scope>interface</scope>
               <direction>inout</direction>
@@ -7541,10 +7521,6 @@
               </net>
               <net ref="sfptd2_n"></net>
               <net ref="sfptd2_p"></net>
-              <net ref="trenzdata">
-                <msb>3</msb>
-                <lsb>0</lsb>
-              </net>
               <net ref="udata_in_n">
                 <msb>2</msb>
                 <lsb>2</lsb>
@@ -7571,7 +7547,6 @@
                 <lsb>0</lsb>
               </net>
               <net ref="vcc3v3"></net>
-              <net ref="vdd"></net>
             </nets>
             <instances>
               <instance ref="i557"></instance>

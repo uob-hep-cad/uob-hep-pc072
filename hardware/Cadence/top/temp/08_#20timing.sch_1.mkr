@@ -9,11 +9,109 @@
    (short_msg "ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.")
    (long_msg "Severity : Error (Concept)
 Description : ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.
+Port name: data_select_p2v5
+Entity file location: \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\08_#20timing\entity\verilog.v
+Object dump: 
+{
+    port name: data_select_p2v5
+}
+{
+    port name: data_select_p2v5
+}
+")
+   (location
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal data_select_p2v5;")
+     (parent_canonical_name "DRAWERROR NET data_select_p2v5")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal data_select_p2v5;")
+     (parent_canonical_name "DRAWERROR NET data_select_p2v5")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 2)
+   (short_msg "ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.
+Port name: direct_us_data_2_n
+Entity file location: \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\08_#20timing\entity\verilog.v
+Object dump: 
+{
+    port name: direct_us_data_2_n
+}
+{
+    port name: direct_us_data_2_n
+}
+")
+   (location
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal direct_us_data_2_n;")
+     (parent_canonical_name "DRAWERROR NET direct_us_data_2_n")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal direct_us_data_2_n;")
+     (parent_canonical_name "DRAWERROR NET direct_us_data_2_n")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 3)
+   (short_msg "ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-168): Schematic has port but port does not exist in the symbol. Either delete this port from the schematic or add this port in the symbol.
+Port name: direct_us_data_2_p
+Entity file location: \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\08_#20timing\entity\verilog.v
+Object dump: 
+{
+    port name: direct_us_data_2_p
+}
+{
+    port name: direct_us_data_2_p
+}
+")
+   (location
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal direct_us_data_2_p;")
+     (parent_canonical_name "DRAWERROR NET direct_us_data_2_p")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+    (
+     (object_kind "ThisEntityPort")
+     (canonical_name "_!drawerror signal direct_us_data_2_p;")
+     (parent_canonical_name "DRAWERROR NET direct_us_data_2_p")
+     (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 4)
+   (short_msg "ERROR(SPCOCD-171): Port exists in symbol but not in the schematic. Either delete this port from the symbol or add this port in the schematic.")
+   (long_msg "Severity : Error (Concept)
+Description : ERROR(SPCOCD-171): Port exists in symbol but not in the schematic. Either delete this port from the symbol or add this port in the schematic.
 Port name: trenzdata
 Entity file location: \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\08_#20timing\entity\verilog.v
 Object dump: 
 {
-    port name: trenzdata
 }
 {
     port name: trenzdata
@@ -21,9 +119,9 @@ Object dump:
 ")
    (location
     (
-     (object_kind "ThisEntityPort")
-     (canonical_name "_!drawerror signal trenzdata;")
-     (parent_canonical_name "DRAWERROR NET trenzdata")
+     (object_kind "ThisCellView")
+     (canonical_name ";;;")
+     (parent_canonical_name "CONCEPT")
      (drawing_name "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page1")
     )
     (

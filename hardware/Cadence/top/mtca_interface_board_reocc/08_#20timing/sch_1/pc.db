@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Tue Jul  2 15:11:04 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Wed Jul  3 07:25:33 2024
 #ISCELL
   mtca_interface_board gnd *
   page1_141p
@@ -289,10 +289,16 @@
   page1_i828
 #ISCELL
   standard ioport *
-  page1_i829
+  page1_i831
 #ISCELL
-  standard 4#20merge *
-  page1_i830
+  standard ioport *
+  page1_i832
+#ISCELL
+  standard ioport *
+  page1_i833
+#ISCELL
+  mtca_interface_board vcc_bar *
+  page1_i834
 #ISCELL
   bris_cds_standard a3-2000 *
   *

@@ -3,10 +3,10 @@
 <ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Tue Jul  2 15:11:46 2024
+    <Entry Name="Report time">Wed Jul  3 07:33:10 2024
 </Entry>
     <Entry Name="Software version">17.4 (S011)</Entry>
-    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v216.brd</Entry>
+    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v217.brd</Entry>
     <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\packaged\pstcmdb.dat</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Overwrite</Entry>
@@ -55,7 +55,7 @@
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_2" Notes="0" Other="0" Ref="6" Reference="0" Status="Created"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_DATA_IO" Notes="0" Other="0" Ref="8" Reference="0" Status="Created"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_DATA_IO_1" Notes="0" Other="0" Ref="a" Reference="0" Status="Created"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="3" Name="TDATA" Notes="0" Other="0" Ref="10" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="3" Name="TDATA" Notes="0" Other="0" Ref="10" Reference="0" Status="Deleted"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="UNCONNECTED" Notes="0" Other="0" Ref="d" Reference="0" Status="Created"/>
     </GroupSummary>
     <ObjectSummary ID="1" Kind="Bus" Name="BP" Status="Created"/>
@@ -72,11 +72,11 @@
     <ObjectSummary ID="6" Kind="Bus" Name="SFP_2" Status="Created"/>
     <ObjectSummary ID="8" Kind="Bus" Name="SFP_DATA_IO" Status="Created"/>
     <ObjectSummary ID="a" Kind="Bus" Name="SFP_DATA_IO_1" Status="Created"/>
-    <ObjectSummary ID="10" Kind="Bus" Name="TDATA" Status="Created">
+    <ObjectSummary ID="10" Kind="Bus" Name="TDATA" Status="Deleted">
       <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TDATA&lt;0>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TDATA&lt;2>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TDATA&lt;3>"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DIRECT_US_DATA_2_N"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DIRECT_US_DATA_2_P"/>
+        <Reference Add="0" Filter="0x40000000" Kind="Net" Name="DATA_SELECT_P2V5"/>
       </Associations>
     </ObjectSummary>
     <ObjectSummary ID="d" Kind="Bus" Name="UNCONNECTED" Status="Created"/>

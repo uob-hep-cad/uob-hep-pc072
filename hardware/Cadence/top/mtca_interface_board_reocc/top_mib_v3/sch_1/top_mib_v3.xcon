@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-07-02T15:10:04</modificationTime>
+    <modificationTime>2024-07-03T07:32:49</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="top_mib_v3" view="sch_1">
       <lastids>
         <instanceid>6</instanceid>
-        <netid>366</netid>
-        <insttermid>715</insttermid>
+        <netid>378</netid>
+        <insttermid>745</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -75,11 +75,19 @@
               <lsb>0</lsb>
             </term>
             <term>
-              <id>T224</id>
-              <name>trenzdata</name>
+              <id>T261</id>
+              <name>data_select_p2v5</name>
               <direction>inout</direction>
-              <msb>3</msb>
-              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T262</id>
+              <name>direct_us_data_2_n</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T263</id>
+              <name>direct_us_data_2_p</name>
+              <direction>inout</direction>
             </term>
           </terms>
         </cell>
@@ -142,11 +150,19 @@
               <lsb>0</lsb>
             </term>
             <term>
-              <id>T223</id>
-              <name>trenzdata</name>
+              <id>T258</id>
+              <name>data_select_p2v5</name>
               <direction>inout</direction>
-              <msb>3</msb>
-              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T259</id>
+              <name>direct_us_data_2_n</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T260</id>
+              <name>direct_us_data_2_p</name>
+              <direction>inout</direction>
             </term>
           </terms>
         </cell>
@@ -453,10 +469,16 @@
           <name>ldo_1v8_pg</name>
         </net>
         <net>
-          <id>N366</id>
-          <name>tdata</name>
-          <msb>3</msb>
-          <lsb>0</lsb>
+          <id>N376</id>
+          <name>data_select_p2v5</name>
+        </net>
+        <net>
+          <id>N377</id>
+          <name>direct_us_data_2_n</name>
+        </net>
+        <net>
+          <id>N378</id>
+          <name>direct_us_data_2_p</name>
         </net>
         <net>
           <id>gnd</id>
@@ -634,12 +656,24 @@
               </connections>
             </pin>
             <pin>
-              <id>M715</id>
-              <termid>T224</termid>
-              <msb>3</msb>
-              <lsb>0</lsb>
+              <id>M743</id>
+              <termid>T261</termid>
               <connections>
-                <connection pinmsb="3" pinlsb="0" net="N366" netmsb="3" netlsb="0" />
+                <connection net="N376" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M744</id>
+              <termid>T262</termid>
+              <connections>
+                <connection net="N377" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M745</id>
+              <termid>T263</termid>
+              <connections>
+                <connection net="N378" />
               </connections>
             </pin>
           </pins>
@@ -758,12 +792,24 @@
               </connections>
             </pin>
             <pin>
-              <id>M714</id>
-              <termid>T223</termid>
-              <msb>3</msb>
-              <lsb>0</lsb>
+              <id>M740</id>
+              <termid>T258</termid>
               <connections>
-                <connection pinmsb="3" pinlsb="0" net="N366" netmsb="3" netlsb="0" />
+                <connection net="N376" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M741</id>
+              <termid>T259</termid>
+              <connections>
+                <connection net="N377" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M742</id>
+              <termid>T260</termid>
+              <connections>
+                <connection net="N378" />
               </connections>
             </pin>
           </pins>
@@ -924,9 +970,12 @@
                 <msb>11</msb>
                 <lsb>0</lsb>
               </net>
+              <net ref="data_select_p2v5"></net>
               <net ref="dcdc_2v5_pg"></net>
               <net ref="dcdc_3v3_pg"></net>
               <net ref="dcdc_enable"></net>
+              <net ref="direct_us_data_2_n"></net>
+              <net ref="direct_us_data_2_p"></net>
               <net ref="fpga_pg"></net>
               <net ref="gbe_rx_n"></net>
               <net ref="gbe_rx_p"></net>
@@ -995,10 +1044,6 @@
                 <lsb>0</lsb>
               </net>
               <net ref="tck"></net>
-              <net ref="tdata">
-                <msb>3</msb>
-                <lsb>0</lsb>
-              </net>
               <net ref="tdi"></net>
               <net ref="tdo"></net>
               <net ref="tms"></net>
