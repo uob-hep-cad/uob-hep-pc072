@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-07-03T07:22:24</modificationTime>
+    <modificationTime>2024-07-03T10:25:20</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -1875,10 +1875,6 @@
           <name>a2</name>
         </net>
         <net>
-          <id>N5</id>
-          <name>auxio_n1</name>
-        </net>
-        <net>
           <id>N6</id>
           <name>auxio_n2</name>
         </net>
@@ -2992,7 +2988,7 @@
               <id>M269</id>
               <termid>T210</termid>
               <connections>
-                <connection net="N5" />
+                <connection net="N103" />
               </connections>
             </pin>
             <pin>
@@ -5818,7 +5814,6 @@
               <net ref="a0"></net>
               <net ref="a1"></net>
               <net ref="a2"></net>
-              <net ref="auxio_n1"></net>
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
               <net ref="auxio_n4"></net>
