@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-06-21T08:40:47</modificationTime>
+    <modificationTime>2024-07-23T10:30:10</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -1148,7 +1148,7 @@
               <id>M58</id>
               <termid>T37</termid>
               <connections>
-                <connection net="N55" />
+                <connection net="N5" />
               </connections>
             </pin>
           </pins>
@@ -1748,7 +1748,7 @@
           <powers>
             <power>
               <name>vcc</name>
-              <override>N55</override>
+              <override>N5</override>
             </power>
           </powers>
           <pins>
@@ -1861,7 +1861,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
+                <connection pinmsb="0" pinlsb="0" net="N5" />
               </connections>
             </pin>
             <pin>
