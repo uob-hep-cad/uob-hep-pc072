@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Jul-2024 AT 16:37:42 }
+{ Packager-XL run on 23-Jul-2024 AT 10:30:24 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -3565,7 +3565,7 @@ primitive 'LSHM-150-0XXX-L-DV-A-S-LSHM-15B';
       PARENT_PPT_PART='LSHM-150-0XXX-L-DV-A-S-LSHM-150-03.0-L-DV-A-S-K-TR,LSHM-150-0XXX-L-DV-A-S';
   end_body;
 end_primitive;
-primitive 'LTC2991CMS#PBF-VCC=VCC3V3';
+primitive 'LTC2991CMS#PBF-VCC=MP3V3';
   pin
     'V1':
       PIN_NUMBER='(1)';
@@ -3641,7 +3641,7 @@ primitive 'LTC2991CMS#PBF-VCC=VCC3V3';
       SMD='YES';
       CASE='MSOP16';
       JEDEC_TYPE='SOP50P490X110-16N';
-      POWER_PINS='(GND:9;VCC3V3:16)';
+      POWER_PINS='(GND:9;MP3V3:16)';
       PARENT_PART_TYPE='LTC2991_MSOP';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='LTC2991';
