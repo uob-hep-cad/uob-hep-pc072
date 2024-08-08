@@ -2,18 +2,16 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v219.brd  |
-|                                                    Tue Jul 23 10:30:36 2024  |
+|  .../top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v220.brd  |
+|                                                    Tue Aug  6 09:50:00 2024  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  VCC3V3       pins MOVED FROM this net (to net name listed on right)
-                                 C91.2           87.0000  7.0011
-                                                                          MP3V3
+ U1                  LP_515XXX-5151230F,LP_515XXX-5A 170.815 65.0240
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
+|       Components deleted    :       1                                        |
 |                                                                              |
 |   Total ECO changes reported:       1                                        |
 |------------------------------------------------------------------------------|

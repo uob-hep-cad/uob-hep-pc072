@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_rev3ox_v219.brd                           )
+(    Drawing          : mib_rev3ox_v220.brd                           )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Tue Jul 23 10:30:36 2024                      )
+(    Date/Time        : Tue Aug  6 09:50:00 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\packaged'
 Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical'
-Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v219.brd'
-New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v219.brd'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v220.brd'
+New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v220.brd'
 
-CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -y 1 -Oo \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v219.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v219.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -y 1 -Oo \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v220.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\top_mib_v3\physical\mib_rev3ox_v220.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat (00:00:00.44)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstchip.dat (00:00:00.35)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxprt.dat (00:00:00.01)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstxnet.dat 
@@ -41,16 +41,15 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ===========================================================
 Start Constraint Override Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/packaged/pstcmdb.dat
-	Start time: Tue Jul 23 10:30:36 2024
+	Start time: Tue Aug  6 09:50:01 2024
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Tue Jul 23 10:30:36 2024
+Finished Constraint Update	Time: Tue Aug  6 09:50:01 2024
 ===========================================================
 
 ------ Library Paths ------
-MODULEPATH =  Y:/Users/CEG/Central Electronics/Projects/Hastingsp/PaMIR/001x/worklib/switcherpsu/physical/ 
-           . 
-           C:/Cadence/SPB_16.5/share/local/pcb/modules 
+MODULEPATH =  . 
+           c:/cadence/spb_17.4/share/local/pcb/modules 
 
 PSMPATH =  . 
            /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
@@ -121,9 +120,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 23 10:30:35 2024
+netrev run on Aug 6 9:50:00 2024
    DESIGN NAME : 'TOP_MIB_V3'
-   PACKAGING ON 23-Jul-2024 AT 10:30:24
+   PACKAGING ON 06-Aug-2024 AT 09:49:44
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -154,6 +153,6 @@ netrev run on Jul 23 10:30:35 2024
  No oversight detected
  No warning detected
 
-cpu time      0:04:53
+cpu time      0:05:46
 elapsed time  0:00:02
 

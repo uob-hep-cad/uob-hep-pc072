@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 23-Jul-2024 AT 10:30:24 }
+{ Packager-XL run on 06-Aug-2024 AT 09:49:44 }
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -2240,42 +2240,6 @@ primitive 'LED RED 0603_0-LNJ237W82RA,LEDB';
       PARENT_PPT_PART='LED RED 0603_0-LNJ237W82RA,LED RED 0603_0';
   end_body;
 end_primitive;
-primitive 'LED_0-LTST-C193TBKT-5A,LED_0-LA';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='D';
-      CLASS='DISCRETE';
-      PART_NAME='LED_0';
-      BODY_NAME='LED_0';
-      JEDEC_TYPE='LEDC1608X80N';
-      VALUE='LTST-C170TBKT';
-      DESCRIPTION='LED BLUE CLEAR CHIP SMD';
-      MPN='LTST-C193TBKT-5A';
-      MANUFACTURER='LITE-ON INC.';
-      PART_TYPE='LED\BLUE';
-      SOURCE_PACKAGE='LED_0';
-      PART_NUMBER='LTST-C193TBKT-5A';
-      PARENT_PART_TYPE='LED_0';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='LED_0';
-      PARENT_PPT_PART='LED_0-LTST-C193TBKT-5A,LED_0';
-  end_body;
-end_primitive;
 primitive 'LM75A-LM75AIMME/NOPB,LM75A-LM7A';
   pin
     'SDA':
@@ -2328,49 +2292,6 @@ primitive 'LM75A-LM75AIMME/NOPB,LM75A-LM7A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='LM75A';
       PARENT_PPT_PART='LM75A-LM75AIMME/NOPB,LM75A';
-  end_body;
-end_primitive;
-primitive 'LP_515XXX-5151230F,LP_515XXX-5A';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-      PART_NAME='LP_515XXX';
-      BODY_NAME='LP_515XXX';
-      JEDEC_TYPE='LP_515XXX';
-      VALUE='5151230F';
-      DESCRIPTION='LIGHT PIPE 4 HIGH DENSITY 1.5MM';
-      MPN='5151230F';
-      MANUFACTURER='DIALIGHT';
-      PART_TYPE='MISC';
-      PART_NUMBER='5151230F';
-      SOURCE_PACKAGE='LP_515XXX';
-      PARENT_PART_TYPE='LP_515XXX';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='LP_515XXX';
-      PARENT_PPT_PART='LP_515XXX-5151230F,LP_515XXX';
   end_body;
 end_primitive;
 primitive 'LSHM-130-0XXX-L-DV-A-S-LSHM-13B';
@@ -5491,42 +5412,6 @@ primitive 'R-ERJ-2RKF49R9X,R-ERJ-2RKF49R9A';
       PARENT_PPT_PART='R-ERJ-2RKF49R9X,R';
   end_body;
 end_primitive;
-primitive 'R-ERJ-3EKF1600V,R-ERJ-3EKF1600A';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      PART_NAME='R';
-      BODY_NAME='R';
-      JEDEC_TYPE='RES0603';
-      VALUE='160 OHM';
-      DESCRIPTION='RES SMD 160 OHM 1% 1/10W 0603';
-      MPN='ERJ-3EKF1600V';
-      MANUFACTURER='PANASONIC';
-      PART_TYPE='THICK FILM';
-      PART_NUMBER='ERJ-3EKF1600V';
-      SOURCE_PACKAGE='R';
-      PARENT_PART_TYPE='R';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-ERJ-3EKF1600V,R';
-  end_body;
-end_primitive;
 primitive 'R-ERJ-6GEY0R00V,R-ERJ-6GEY0R00A';
   pin
     '1':
@@ -5998,6 +5883,47 @@ primitive 'RSMD0603_1/10W-1.6K,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-1.6K,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/10W-20,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_20R_1%_0.1W_100PPM';
+      VALUE='20';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.120.8';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-20,1%';
+  end_body;
+end_primitive;
 primitive 'RSMD0603_1/10W-XX,1%';
   pin
     'A'<0>:
@@ -6036,6 +5962,45 @@ primitive 'RSMD0603_1/10W-XX,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-XX,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/16W-270,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0603_270R_1%_0.063W_100PPM';
+      VALUE='270';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0603_1/16W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/16W-270,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0805_125MW-0.27,1%';
@@ -8525,6 +8490,64 @@ primitive 'TVS_2X-PGB1010603NR,TVS_2X-D06A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='TVS_2X';
       PARENT_PPT_PART='TVS_2X-PGB1010603NR,TVS_2X';
+  end_body;
+end_primitive;
+primitive 'WURTH_155060BS73200';
+  pin
+    'K':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='WURTH_155060BS73200';
+      BODY_NAME='WURTH_155060BS73200';
+      JEDEC_TYPE='155060YS73200';
+      PHYS_DES_PREFIX='DS';
+      CLASS='DISCRETE';
+  end_body;
+end_primitive;
+primitive 'WURTH_155060RS73200';
+  pin
+    'K':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='WURTH_155060RS73200';
+      BODY_NAME='WURTH_155060RS73200';
+      JEDEC_TYPE='155060YS73200';
+      PHYS_DES_PREFIX='DS';
+      CLASS='DISCRETE';
   end_body;
 end_primitive;
 END.
