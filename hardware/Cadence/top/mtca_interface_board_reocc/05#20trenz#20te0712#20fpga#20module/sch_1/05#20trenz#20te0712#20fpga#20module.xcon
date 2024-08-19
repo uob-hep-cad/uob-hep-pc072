@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-07-03T10:25:20</modificationTime>
+    <modificationTime>2024-08-19T11:41:56</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>136</instanceid>
-        <netid>323</netid>
+        <netid>327</netid>
         <insttermid>894</insttermid>
       </lastids>
       <cells>
@@ -3487,14 +3487,14 @@
               <id>M465</id>
               <termid>T36</termid>
               <connections>
-                <connection net="N245" netmsb="0" netlsb="0" />
+                <connection net="N22" netmsb="11" netlsb="11" />
               </connections>
             </pin>
             <pin>
               <id>M466</id>
               <termid>T37</termid>
               <connections>
-                <connection net="N247" netmsb="0" netlsb="0" />
+                <connection net="N36" netmsb="11" netlsb="11" />
               </connections>
             </pin>
             <pin>
@@ -3527,14 +3527,14 @@
               <id>M471</id>
               <termid>T42</termid>
               <connections>
-                <connection net="N245" netmsb="2" netlsb="2" />
+                <connection net="N7" />
               </connections>
             </pin>
             <pin>
               <id>M472</id>
               <termid>T43</termid>
               <connections>
-                <connection net="N247" netmsb="2" netlsb="2" />
+                <connection net="N15" />
               </connections>
             </pin>
             <pin>
@@ -3661,14 +3661,14 @@
               <id>M491</id>
               <termid>T62</termid>
               <connections>
-                <connection net="N50" netmsb="5" netlsb="5" />
+                <connection net="N298" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M492</id>
               <termid>T63</termid>
               <connections>
-                <connection net="N64" netmsb="5" netlsb="5" />
+                <connection net="N299" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
@@ -4050,14 +4050,14 @@
               <id>M556</id>
               <termid>T13</termid>
               <connections>
-                <connection net="N299" netmsb="2" netlsb="2" />
+                <connection net="N243" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M557</id>
               <termid>T14</termid>
               <connections>
-                <connection net="N243" netmsb="2" netlsb="2" />
+                <connection net="N299" netmsb="2" netlsb="2" />
               </connections>
             </pin>
           </pins>
@@ -4113,14 +4113,14 @@
               <id>M594</id>
               <termid>T13</termid>
               <connections>
-                <connection net="N298" netmsb="2" netlsb="2" />
+                <connection net="N241" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M595</id>
               <termid>T14</termid>
               <connections>
-                <connection net="N241" netmsb="2" netlsb="2" />
+                <connection net="N298" netmsb="2" netlsb="2" />
               </connections>
             </pin>
           </pins>
@@ -4194,14 +4194,14 @@
               <id>M612</id>
               <termid>T138</termid>
               <connections>
-                <connection net="N298" netmsb="2" netlsb="2" />
+                <connection net="N6" />
               </connections>
             </pin>
             <pin>
               <id>M613</id>
               <termid>T139</termid>
               <connections>
-                <connection net="N299" netmsb="2" netlsb="2" />
+                <connection net="N14" />
               </connections>
             </pin>
             <pin>
@@ -4648,14 +4648,14 @@
               <id>M754</id>
               <termid>T256</termid>
               <connections>
-                <connection net="N36" netmsb="11" netlsb="11" />
+                <connection net="N247" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M755</id>
               <termid>T257</termid>
               <connections>
-                <connection net="N22" netmsb="11" netlsb="11" />
+                <connection net="N245" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
@@ -4676,14 +4676,14 @@
               <id>M758</id>
               <termid>T260</termid>
               <connections>
-                <connection net="N299" netmsb="1" netlsb="1" />
+                <connection net="N64" netmsb="5" netlsb="5" />
               </connections>
             </pin>
             <pin>
               <id>M759</id>
               <termid>T261</termid>
               <connections>
-                <connection net="N298" netmsb="1" netlsb="1" />
+                <connection net="N50" netmsb="5" netlsb="5" />
               </connections>
             </pin>
             <pin>
@@ -4849,14 +4849,14 @@
               <id>M784</id>
               <termid>T286</termid>
               <connections>
-                <connection net="N15" />
+                <connection net="N247" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M785</id>
               <termid>T287</termid>
               <connections>
-                <connection net="N7" />
+                <connection net="N245" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
@@ -4901,14 +4901,14 @@
               <id>M792</id>
               <termid>T294</termid>
               <connections>
-                <connection net="N14" />
+                <connection net="N299" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M793</id>
               <termid>T295</termid>
               <connections>
-                <connection net="N6" />
+                <connection net="N298" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
@@ -5468,14 +5468,14 @@
               <id>M871</id>
               <termid>T13</termid>
               <connections>
-                <connection net="N298" netmsb="1" netlsb="1" />
+                <connection net="N241" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M872</id>
               <termid>T14</termid>
               <connections>
-                <connection net="N241" netmsb="1" netlsb="1" />
+                <connection net="N298" netmsb="1" netlsb="1" />
               </connections>
             </pin>
           </pins>
@@ -5489,14 +5489,14 @@
               <id>M873</id>
               <termid>T13</termid>
               <connections>
-                <connection net="N299" netmsb="1" netlsb="1" />
+                <connection net="N243" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M874</id>
               <termid>T14</termid>
               <connections>
-                <connection net="N243" netmsb="1" netlsb="1" />
+                <connection net="N299" netmsb="1" netlsb="1" />
               </connections>
             </pin>
           </pins>
