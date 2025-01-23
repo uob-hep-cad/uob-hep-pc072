@@ -1,0 +1,25 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'DSC1123CI5_SMD';
+  pin
+    'OUTN':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'EN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='DSC1123CI5';
+    BODY_NAME='DSC1123CI5';
+    PHYS_DES_PREFIX='QZ';
+    CLASS='IC';
+    POWER_PINS='(GND:3)';
+    POWER_PINS='(VDD:6)';
+    NC_PINS='(2)';
+  end_body;
+end_primitive;
+
+END.

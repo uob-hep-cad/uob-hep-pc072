@@ -1,0 +1,34 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'MAX9381_UMAX';
+  pin
+    'D_P':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D_N':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'CLK_P':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'CLK_N':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'Q_N':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'Q_P':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    PART_NAME='MAX9381_UMAX';
+    BODY_NAME='MAX9381_UMAX';
+    JEDEC_TYPE='sop65p490x110-8n';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    POWER_PINS='(VEE:5)';
+    POWER_PINS='(VCC:8)';
+  end_body;
+end_primitive;
+
+END.

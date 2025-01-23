@@ -1,0 +1,29 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'SIT5022_145';
+  pin
+    'OUTN':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'ENDIS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SIT5022';
+    BODY_NAME='SIT5022';
+    PHYS_DES_PREFIX='QZ';
+    CLASS='IC';
+    NC_PINS='(2)';
+  end_body;
+end_primitive;
+
+END.

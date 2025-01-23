@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-08-06T09:48:58</modificationTime>
+    <modificationTime>2025-01-23T13:12:15</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>58</instanceid>
-        <netid>103</netid>
-        <insttermid>269</insttermid>
+        <instanceid>60</instanceid>
+        <netid>105</netid>
+        <insttermid>273</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -670,40 +670,20 @@
           </terms>
         </cell>
         <cell>
-          <id>S21</id>
+          <id>S20</id>
           <library>bris_cds_discrete</library>
-          <name>wurth_155060rs73200</name>
+          <name>wurth_155060ys73200</name>
           <view>sym_1</view>
           <parameters>
           </parameters>
           <terms>
             <term>
-              <id>T177</id>
+              <id>T169</id>
               <name>a</name>
               <direction>inout</direction>
             </term>
             <term>
-              <id>T178</id>
-              <name>k</name>
-              <direction>inout</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
-          <id>S22</id>
-          <library>bris_cds_discrete</library>
-          <name>wurth_155060bs73200</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T185</id>
-              <name>a</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T186</id>
+              <id>T170</id>
               <name>k</name>
               <direction>inout</direction>
             </term>
@@ -986,11 +966,11 @@
           <name>unnamed_1_rsmd0603_i242_a</name>
         </net>
         <net>
-          <id>N102</id>
+          <id>N104</id>
           <name>unnamed_1_rsmd0603_i249_b</name>
         </net>
         <net>
-          <id>N103</id>
+          <id>N105</id>
           <name>unnamed_1_rsmd0603_i250_b</name>
         </net>
         <net>
@@ -2494,48 +2474,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I55</id>
-          <cellid>S21</cellid>
-          <name>page1_i246</name>
-          <pins>
-            <pin>
-              <id>M262</id>
-              <termid>T177</termid>
-              <connections>
-                <connection net="N34" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M263</id>
-              <termid>T178</termid>
-              <connections>
-                <connection net="N103" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I56</id>
-          <cellid>S22</cellid>
-          <name>page1_i247</name>
-          <pins>
-            <pin>
-              <id>M264</id>
-              <termid>T185</termid>
-              <connections>
-                <connection net="N34" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M265</id>
-              <termid>T186</termid>
-              <connections>
-                <connection net="N102" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I57</id>
           <cellid>S15</cellid>
           <name>page1_i249</name>
@@ -2555,7 +2493,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N102" />
+                <connection pinmsb="0" pinlsb="0" net="N104" />
               </connections>
             </pin>
           </pins>
@@ -2580,7 +2518,49 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N103" />
+                <connection pinmsb="0" pinlsb="0" net="N105" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I59</id>
+          <cellid>S20</cellid>
+          <name>page1_i246</name>
+          <pins>
+            <pin>
+              <id>M270</id>
+              <termid>T169</termid>
+              <connections>
+                <connection net="N34" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M271</id>
+              <termid>T170</termid>
+              <connections>
+                <connection net="N105" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I60</id>
+          <cellid>S20</cellid>
+          <name>page1_i247</name>
+          <pins>
+            <pin>
+              <id>M272</id>
+              <termid>T169</termid>
+              <connections>
+                <connection net="N34" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M273</id>
+              <termid>T170</termid>
+              <connections>
+                <connection net="N104" />
               </connections>
             </pin>
           </pins>

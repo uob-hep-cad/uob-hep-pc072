@@ -1,13 +1,13 @@
 FILE_TYPE = CONNECTIVITY;
-{Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020}
+{Allegro Design Entry HDL 23.1 P001 (4147275) 9/30/2023}
 "PAGE_NUMBER" = 1;
 0"NC";
-1"VCC3V3\g";
-2"AUXIO_N2";
-3"AUXIO_N6";
-4"GND";
-5"GND";
-6"GND";
+1"GND";
+2"GND";
+3"GND";
+4"VCC3V3\g";
+5"AUXIO_N2";
+6"AUXIO_N6";
 7"GND";
 8"AUXIO_P2";
 9"GND";
@@ -99,7 +99,7 @@ HDL_POWER"GND";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"5;
+"HOTSPOT_0"1;
 %"portboth-r_1"
 "1","(5575,-6725)","0","mtca_interface_board","1P";
 ;
@@ -212,7 +212,7 @@ SEC"1";
 "A"
 $PN"2"68;
 "K"
-$PN"1"7;
+$PN"1"3;
 %"mt_hole"
 "1","(8925,-7025)","1","ocad_parts_lib","304P";
 ;
@@ -343,7 +343,7 @@ SEC"1";
 "A"
 $PN"2"67;
 "K"
-$PN"1"7;
+$PN"1"3;
 %"24aa025e48t-i/sn"
 "1","(8850,-4950)","0","ocad_parts_lib","316P";
 ;
@@ -407,7 +407,7 @@ SEC"1";
 "1"
 $PN"1"15;
 "2"
-$PN"2"6;
+$PN"2"2;
 %"cap_np"
 "1","(8650,-4550)","7","ocad_parts_lib","323P";
 ;
@@ -436,7 +436,7 @@ SEC"1";
 "1"
 $PN"1"18;
 "2"
-$PN"2"5;
+$PN"2"1;
 %"tvs_2x"
 "1","(7075,-5100)","1","ocad_parts_lib","326P";
 ;
@@ -467,7 +467,7 @@ SEC"1";
 "A"
 $PN"2"66;
 "K"
-$PN"1"7;
+$PN"1"3;
 %"r"
 "1","(9425,-4725)","0","discrete","330P";
 ;
@@ -574,7 +574,7 @@ SEC"1";
 "A"
 $PN"2"65;
 "K"
-$PN"1"7;
+$PN"1"3;
 %"conn30p"
 "1","(4125,-5100)","0","ocad_parts_lib","341P";
 ;
@@ -587,15 +587,15 @@ CDS_LIB"ocad_parts_lib"
 CDS_LOCATION"J4"
 JEDEC_TYPE"FTSH-115-01-L-DV";
 "1"
-$PN"1"1;
+$PN"1"4;
 "5"
-$PN"5"1;
+$PN"5"4;
 "9"
-$PN"9"2;
+$PN"9"5;
 "2"
 $PN"2"11;
 "3"
-$PN"3"1;
+$PN"3"4;
 "4"
 $PN"4"9;
 "6"
@@ -631,11 +631,11 @@ $PN"21"81;
 "22"
 $PN"22"24;
 "23"
-$PN"23"4;
+$PN"23"7;
 "24"
 $PN"24"23;
 "25"
-$PN"25"3;
+$PN"25"6;
 "26"
 $PN"26"22;
 "27"
@@ -813,7 +813,7 @@ PIN_NAME"BP<180..0>"39,38;
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"6;
+"HOTSPOT_0"2;
 %"gnd"
 "1","(6325,-5125)","0","mtca_interface_board","45P";
 ;
@@ -825,7 +825,7 @@ HDL_POWER"GND";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"7;
+"HOTSPOT_0"3;
 %"gnd"
 "1","(9375,-7225)","0","mtca_interface_board","5P";
 ;
@@ -1048,7 +1048,7 @@ CDS_LIB"standard";
 %"vcc_bar"
 "1","(4750,-4700)","0","mtca_interface_board","I393";
 ;
-CDS_LIB"mtca_interface_board"
-HDL_POWER"VCC3V3";
-"HOTSPOT_0"1;
+HDL_POWER"VCC3V3"
+CDS_LIB"mtca_interface_board";
+"HOTSPOT_0"4;
 END.

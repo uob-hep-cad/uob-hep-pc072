@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SIT5022'
+PHYS_DES_PREFIX=QZ
+CLASS=IC
+
+{========================================================================================}
+:TYPE                            | VALUE    | PACK_TYPE                               = STATUS      | PART_NUMBER | MANUFACTURER | DESCRIPTION                                                                                     | DATASHEET_URL | PINCOUNT | SMD   | CASE        | JEDEC_TYPE       | VALUE    ;
+{========================================================================================}
+ 'SIT5022AI-2CE-33N-250.000000X' | '250MHz' | '145'(~SIT5022AI-2CE-33N-250.000000)    = 'Preferred' | ''          | 'SI TIME'    | '3.3V 5ppm 5x3.2 mm LVDS High Performance Temperature Compenstated Oscillator - SiT5022 Series' | ''            | '6'      | 'YES' | '7.0x5.0mm' | 'qfn_5032_6pins' | '250MHz' : NC_PINS = '(2)' , * = '*'
+
+END_PART
+
+END.
+

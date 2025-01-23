@@ -1,0 +1,16 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DSC1123CI5'
+PHYS_DES_PREFIX=QZ
+CLASS=IC
+
+{========================================================================================}
+:TYPE                 | VALUE      | PACK_TYPE                     = STATUS      | PART_NUMBER          | MANUFACTURER | DESCRIPTION                                                   | DATASHEET_URL                                   | PINCOUNT | SMD   | CASE          | JEDEC_TYPE                | VALUE      ;
+{========================================================================================}
+ 'DSC1123CI5-40.0000' | '40.00MHz' | 'SMD'(~DSC1123CI5-40.0000)    = 'Preferred' | 'DSC1123CI5-40.0000' | 'Micrel'     | '3.3V 100ppm 3.2x2.5mm SMD LVDS Oscillator - DSC1103  Series' | 'http://www.micrel.com/_PDF/clk/DSC1103-23.pdf' | '6'      | 'YES' | '3.2mmx2.5mm' | 'oscsc105p250x320x180-6n' | '40.00MHz' : POWER_PINS = '(GND:3;VDD:6)'
+ 'DSC1123CI5-50.0000' | '50.00MHz' | 'SMD'(~DSC1123CI5-50.0000)    = 'Preferred' | 'DSC1123CI5-50.0000' | 'Micrel'     | '3.3V 100ppm 3.2x2.5mm SMD LVDS Oscillator - DSC1103  Series' | 'http://www.micrel.com/_PDF/clk/DSC1103-23.pdf' | '6'      | 'YES' | '3.2mmx2.5mm' | 'oscsc105p250x320x180-6n' | '40.00MHz' : POWER_PINS = '(GND:3;VDD:6)'
+
+END_PART
+
+END.
+

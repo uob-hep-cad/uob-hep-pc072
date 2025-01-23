@@ -1,0 +1,204 @@
+(Cell	max9381_umax
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.9)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/23/20,16:33:05)
+
+			(User	phpgb)
+
+			(Path	bris_cds_discrete.max9381_umax)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/23/20,16:41:17)
+
+			(User	phpgb)
+
+			(Path	bris_cds_discrete.max9381_umax)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Modified)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004fcca620)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/23/20,16:41:02)
+
+							(User	phpgb)
+
+							(Path	bris_cds_discrete.max9381_umax)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e3503da)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e1c2a2f5)
+
+			(Primitives	1
+
+				(Primitive	MAX9381_UMAX
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/23/20,16:33:15)
+
+							(User	phpgb)
+
+							(Path	bris_cds_discrete.max9381_umax)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX9381_UMAX
+
+							(PackType	MAX9381_UMAX)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	sop65p490x110-8n)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001f93044a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 060 (3822212))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b9c037d)
+
+)
+

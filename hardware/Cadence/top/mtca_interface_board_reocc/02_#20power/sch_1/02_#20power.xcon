@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-07-23T10:30:10</modificationTime>
+    <modificationTime>2025-01-23T13:09:23</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>190</instanceid>
+        <instanceid>198</instanceid>
         <netid>164</netid>
-        <insttermid>519</insttermid>
+        <insttermid>535</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -465,30 +465,6 @@
           </terms>
         </cell>
         <cell>
-          <id>S24</id>
-          <library>bris_cds_discrete</library>
-          <name>tantpoly</name>
-          <view>sym_1</view>
-          <parameters>
-            <parameter>
-              <name>size</name>
-              <value>1</value>
-            </parameter>
-          </parameters>
-          <terms>
-            <term>
-              <id>T233</id>
-              <name>a&lt;SIZE-1..0&gt;</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T234</id>
-              <name>b&lt;SIZE-1..0&gt;</name>
-              <direction>inout</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
           <id>S25</id>
           <library>cnpassive</library>
           <name>res_sr</name>
@@ -571,6 +547,30 @@
             <term>
               <id>T268</id>
               <name>b1&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S29</id>
+          <library>bris_cds_discrete</library>
+          <name>tantpoly</name>
+          <view>sym_1</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T277</id>
+              <name>a&lt;SIZE-1..0&gt;</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T278</id>
+              <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -2688,81 +2688,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I176</id>
-          <cellid>S24</cellid>
-          <name>page1_i197</name>
-          <pins>
-            <pin>
-              <id>M486</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N55" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M487</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I177</id>
-          <cellid>S24</cellid>
-          <name>page1_i198</name>
-          <pins>
-            <pin>
-              <id>M488</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N15" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M489</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I178</id>
-          <cellid>S24</cellid>
-          <name>page1_i199</name>
-          <pins>
-            <pin>
-              <id>M490</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N15" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M491</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I179</id>
           <cellid>S25</cellid>
           <name>page1_i200</name>
@@ -2806,31 +2731,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I180</id>
-          <cellid>S24</cellid>
-          <name>page1_i201</name>
-          <pins>
-            <pin>
-              <id>M496</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N55" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M497</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I181</id>
           <cellid>S25</cellid>
           <name>page4_i188</name>
@@ -2869,106 +2769,6 @@
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="0" pinlsb="0" net="N163" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I182</id>
-          <cellid>S24</cellid>
-          <name>page4_i189</name>
-          <pins>
-            <pin>
-              <id>M502</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N96" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M503</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I183</id>
-          <cellid>S24</cellid>
-          <name>page4_i190</name>
-          <pins>
-            <pin>
-              <id>M504</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N96" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M505</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I184</id>
-          <cellid>S24</cellid>
-          <name>page4_i192</name>
-          <pins>
-            <pin>
-              <id>M506</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N131" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M507</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I185</id>
-          <cellid>S24</cellid>
-          <name>page4_i193</name>
-          <pins>
-            <pin>
-              <id>M508</id>
-              <termid>T233</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N131" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M509</id>
-              <termid>T234</termid>
-              <msb>0</msb>
-              <lsb>0</lsb>
-              <connections>
-                <connection pinmsb="0" pinlsb="0" net="N3" />
               </connections>
             </pin>
           </pins>
@@ -3070,6 +2870,206 @@
               <termid>T11</termid>
               <connections>
                 <connection net="N15" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I191</id>
+          <cellid>S29</cellid>
+          <name>page1_i197</name>
+          <pins>
+            <pin>
+              <id>M520</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M521</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I192</id>
+          <cellid>S29</cellid>
+          <name>page1_i198</name>
+          <pins>
+            <pin>
+              <id>M522</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N15" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M523</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I193</id>
+          <cellid>S29</cellid>
+          <name>page1_i199</name>
+          <pins>
+            <pin>
+              <id>M524</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N15" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M525</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I194</id>
+          <cellid>S29</cellid>
+          <name>page1_i201</name>
+          <pins>
+            <pin>
+              <id>M526</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N55" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M527</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I195</id>
+          <cellid>S29</cellid>
+          <name>page4_i189</name>
+          <pins>
+            <pin>
+              <id>M528</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M529</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I196</id>
+          <cellid>S29</cellid>
+          <name>page4_i190</name>
+          <pins>
+            <pin>
+              <id>M530</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M531</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I197</id>
+          <cellid>S29</cellid>
+          <name>page4_i192</name>
+          <pins>
+            <pin>
+              <id>M532</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N131" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M533</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I198</id>
+          <cellid>S29</cellid>
+          <name>page4_i193</name>
+          <pins>
+            <pin>
+              <id>M534</id>
+              <termid>T277</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N131" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M535</id>
+              <termid>T278</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
               </connections>
             </pin>
           </pins>

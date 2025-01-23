@@ -1,12 +1,12 @@
 FILE_TYPE = CONNECTIVITY;
-{Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020}
+{Allegro Design Entry HDL 23.1 P001 (4147275) 9/30/2023}
 "PAGE_NUMBER" = 2;
 0"NC";
-1"VP1V8\G";
-2"GND\G";
+1"GND\G";
+2"VCC3V3\G";
 3"VCC3V3\g";
 4"P2V5\g";
-5"VCC3V3\G";
+5"VP1V8\G";
 6"CLKGEN_CLK_N<0>";
 7"CLKGEN_CLK_P<0>";
 8"CLK_TST_N";
@@ -85,7 +85,7 @@ FILE_TYPE = CONNECTIVITY;
 ROOM"CLK_GEN_X12"
 HDL_POWER"VP1V8"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"1;
+"HOTSPOT_0"5;
 %"gnd"
 "1","(6550,-3575)","2","mtca_interface_board","133P";
 ;
@@ -177,7 +177,7 @@ SOURCE_PACKAGE"IND"
 DISTRIBUTOR"Digikey"
 DISTRIBUTOR_PARTNUMBER"490-1011-2-ND";
 "1"
-$PN"1"1;
+$PN"1"5;
 "2"
 $PN"2"41;
 %"r"
@@ -289,7 +289,7 @@ CDS_LIB"discrete";
 "1"
 $PN"1"36,35;
 "2"
-$PN"2"5;
+$PN"2"2;
 %"r"
 "1","(1775,-2150)","3","discrete","279P";
 ;
@@ -314,7 +314,7 @@ CDS_LOCATION"R17"
 CDS_LIB"discrete"
 JEDEC_TYPE"res0402";
 "1"
-$PN"1"5;
+$PN"1"2;
 "2"
 $PN"2"15;
 %"si5395a-a-gm"
@@ -467,7 +467,7 @@ $PN"63"34;
 "IN0B \B"
 $PN"64"33;
 "GND_PAD"
-$PN"65"2;
+$PN"65"1;
 %"cap_np_0"
 "1","(1750,-2850)","1","ocad_parts_lib","286P";
 ;
@@ -725,7 +725,7 @@ CDS_LIB"mtca_interface_board";
 ROOM"CLK_GEN_X12"
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"2;
+"HOTSPOT_0"1;
 %"gnd"
 "1","(1950,-2450)","2","mtca_interface_board","47P";
 ;
@@ -746,7 +746,7 @@ CDS_LIB"mtca_interface_board";
 ROOM"CLK_GEN_X12"
 HDL_POWER"VCC3V3"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"5;
+"HOTSPOT_0"2;
 %"r"
 "1","(2300,-3125)","1","discrete","I319";
 ;
@@ -1274,7 +1274,7 @@ $SEC"?";
 "A <SIZE-1..0>\NAC"
 $PN"#"40;
 "B <SIZE-1..0>\NAC"
-$PN"#"1;
+$PN"#"5;
 %"CAPCERSMDCL2"
 "1","(725,-3800)","1","cnpassive","I369";
 ;
