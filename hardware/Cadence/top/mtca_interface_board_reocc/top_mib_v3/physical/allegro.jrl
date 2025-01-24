@@ -1,257 +1,432 @@
-\t (14:53:32) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (14:53:32)     Journal start - Thu Jan 23 09:17:59 2025
-\t (14:53:32)         Host=IT088130 User=phdgc Pid=23516 CPUs=16
-\t (14:53:32) CmdLine= allegro -proj C:\Users\phdgc\Downloads\aidainnova_tlu-hw\hardware\Cadence\aidainnova_tlu_baseboard_v1a\aidainnova_tlu_baseboard_v1a.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr17500 -mpshost IT088130
-\t (14:53:32) 
-\d (14:53:32) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v224_manuf.brd
-\i (14:53:32) generaledit 
-\i (14:53:35) zoom in 1 
-\i (14:53:35) setwindow pcb
-\i (14:53:35) zoom in -16.39 33.09
-\i (14:53:35) trapsize 61
-\i (14:53:35) zoom in 1 
-\i (14:53:35) setwindow pcb
-\i (14:53:35) zoom in -16.39 33.22
-\i (14:53:35) trapsize 31
-\i (14:53:36) zoom out 1 
-\i (14:53:36) setwindow pcb
-\i (14:53:36) zoom out -16.39 33.28
-\i (14:53:36) trapsize 61
-\i (14:53:48) assign color 
-\i (14:53:57) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (14:54:00) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
-\i (14:54:00) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (14:54:14) setwindow form.mini
-\i (14:54:14) FORM mini color1 1 
-\i (14:54:19) setwindow form.find
-\i (14:54:19) FORM find name_type Net 
-\i (14:54:21) setwindow pcb
-\i (14:54:21) zoom in 1 
-\i (14:54:21) setwindow pcb
-\i (14:54:21) zoom in 2.62 3.60
-\i (14:54:21) trapsize 31
-\i (14:54:21) zoom in 1 
-\i (14:54:21) setwindow pcb
-\i (14:54:21) zoom in 2.63 3.60
-\i (14:54:21) trapsize 15
-\i (14:54:21) zoom in 1 
-\i (14:54:21) setwindow pcb
-\i (14:54:21) zoom in 2.63 3.60
-\i (14:54:21) trapsize 8
-\i (14:54:21) zoom out 1 
-\i (14:54:21) setwindow pcb
-\i (14:54:21) zoom out 2.64 3.60
-\i (14:54:21) trapsize 15
-\i (14:54:27) pick grid 20.30 3.35
-\t (14:54:27) last pick:  20.30 3.40
-\t (14:54:27) Net "12V_In" assigned color.
-\i (14:54:28) zoom out 1 
-\i (14:54:28) setwindow pcb
-\i (14:54:28) zoom out -6.63 8.05
-\i (14:54:28) trapsize 31
-\i (14:54:31) zoom out 1 
-\i (14:54:31) setwindow pcb
-\i (14:54:31) zoom out -5.77 8.84
-\i (14:54:31) trapsize 61
-\i (14:54:31) roam y -96 
-\i (14:54:31) roam y -96
-\i (14:55:04) QtSignal CVPLayerGrid CVPBoxAll02_Gnd clicked true
-\i (14:55:05) QtSignal CVPLayerGrid CVPBoxAll02_Gnd clicked false
-\i (14:55:07) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked true
-\i (14:55:37) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked false
-\i (14:55:43) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked true
-\i (14:55:44) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked false
-\i (14:55:46) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked true
-\i (14:56:35) capture image 
-\t (14:56:35) [09:21:02.058712] Periodic Lic check successful
-[09:21:02.583000] Feature usage summary:
-[09:21:02.583000] Allegro_X_Platinum_Layout
-[09:21:02.583000] Allegro_PCB_Harmony_Option
-[09:21:02.583000] Allegro_Venture_PCB_Designer
-[09:21:02.583000] PCB_design_studio
-[09:21:02.583000] Venture_PCB_Schematic
-[09:21:02.583000] Allegro_Venture_PCB_Designer2
+\t (00:00:11) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:11)     Journal start - Fri Jan 24 10:57:07 2025
+\t (00:00:11)         Host=IT088130 User=phdgc Pid=29516 CPUs=16
+\t (00:00:11) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr27237 -mpshost IT088130
+\t (00:00:11) 
+\t (00:00:11) Loading axlcore.cxt 
+\t (00:00:12) Opening existing design...
+\i (00:00:16) fillin yes 
+\i (00:00:16) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev3ox_v224_manuf"
+\d (00:00:16) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3ox_v224_manuf.brd
+\i (00:00:16) trapsize 59
+\i (00:00:16) trapsize 60
+\i (00:00:17) trapsize 59
+\i (00:00:17) trapsize 88
+\t (00:00:17) Loading NV GPU Plugin
+\i (00:00:18) generaledit 
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 12.70 39.34
+\i (00:00:19) trapsize 44
+\i (00:02:46) assign color 
+\i (00:02:56) setwindow form.mini
+\i (00:02:56) FORM mini color1 1 
+\i (00:03:00) setwindow pcb
+\i (00:03:00) pick grid 21.37 2.73
+\t (00:03:00) last pick:  21.40 2.70
+\t (00:03:00) Net "12V_In" assigned color.
+\i (01:02:17) color192 
+\t (01:02:17) [11:59:13.029712] Periodic Lic check successful
+[11:59:13.554000] Feature usage summary:
+[11:59:13.554000] Allegro_X_Platinum_Layout
+[11:59:13.554000] Allegro_PCB_Harmony_Option
+[11:59:13.554000] Allegro_Venture_PCB_Designer
+[11:59:13.554000] PCB_design_studio
+[11:59:13.554000] Venture_PCB_Schematic
+[11:59:13.554000] Allegro_Venture_PCB_Designer2
 
-\i (14:57:35) fillin "mib_rev2_v224_mapped_image_with_power_colour.png"
-\i (14:57:35) capture image "C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v224_mapped_image_with_power_colour.png" 
-\i (15:01:23) setwindow form.mini
-\i (15:01:23) FORM mini color14 1 
-\i (15:01:29) setwindow pcb
-\i (15:01:29) pick grid 5.50 7.23
-\t (15:01:29) last pick:  5.50 7.20
-\t (15:01:29) Net "Mp3v3_In" assigned color.
-\i (15:01:36) setwindow form.mini
-\i (15:01:36) FORM mini color17 1 
-\i (15:01:40) setwindow pcb
-\i (15:01:40) pick grid 3.17 7.35
-\t (15:01:40) last pick:  3.20 7.40
-\t (15:01:40) Net "Mp3v3_In" assigned color.
-\i (15:01:41) pick grid -8.49 8.95
-\t (15:01:41) last pick:  -8.50 9.00
-\i (15:01:52) setwindow form.mini
-\i (15:01:52) FORM mini color27 1 
-\i (15:01:56) setwindow pcb
-\i (15:01:56) pick grid 3.78 7.35
-\t (15:01:56) last pick:  3.80 7.40
-\t (15:01:56) Net "Mp3v3_In" assigned color.
-\i (15:01:59) setwindow form.mini
-\i (15:01:59) FORM mini color2 1 
-\i (15:02:00) setwindow pcb
-\i (15:02:00) pick grid 154.47 51.90
-\t (15:02:00) last pick:  154.50 51.90
-\t (15:02:00) Net "Vcc3v3" assigned color.
-\i (15:02:02) pick grid 107.97 12.88
-\t (15:02:02) last pick:  108.00 12.90
-\t (15:02:02) Net "P2v5" assigned color.
-\i (15:02:03) pick grid 116.31 8.09
-\t (15:02:03) last pick:  116.30 8.10
-\t (15:02:03) Net "Vp12" assigned color.
-\i (15:02:05) drag_start grid 133.74 64.05
-\i (15:02:06) drag_stop 154.47 4.78
-\t (15:02:06) 63 Net(s) assigned color.
-\i (15:02:40) setwindow form.mini
-\i (15:02:40) FORM mini color14 1 
-\i (15:02:42) setwindow pcb
-\i (15:02:42) pick grid 31.52 3.55
-\t (15:02:42) last pick:  31.50 3.60
-\t (15:02:42) Net "Vp12" assigned color.
-\i (15:06:50) plot 
-\t (15:06:50) [09:31:17.334000] Periodic Lic check successful
-[09:31:17.334000] Feature usage summary:
-[09:31:17.334000] Allegro_X_Platinum_Layout
-[09:31:17.334000] Allegro_PCB_Harmony_Option
-[09:31:17.334000] Allegro_Venture_PCB_Designer
-[09:31:17.334000] PCB_design_studio
-[09:31:17.334000] Venture_PCB_Schematic
-[09:31:17.334000] Allegro_Venture_PCB_Designer2
+\i (01:02:24) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (01:02:28) QtSignal CVDDisplayGroup CVDBackgroundButton clicked
+\i (01:02:28) trapsize 44
+\i (01:02:33) QtFillin Yes
+\i (01:02:40) QtSignal CVDColorTable CVDColorButton5:1 clicked
+\i (01:02:42) QtSignal CVDDisplayGroup CVDBackgroundButton clicked
+\i (01:02:42) trapsize 44
+\i (01:02:43) QtFillin Yes
+\i (01:03:11) pick grid 4.90 67.46
+\t (01:03:11) last pick:  4.90 67.50
+\t (01:03:11) Net "12V_In" assigned color.
+\i (01:03:14) setwindow form.mini
+\i (01:03:14) FORM mini color28 1 
+\i (01:03:17) setwindow pcb
+\i (01:03:17) pick grid 4.99 67.63
+\t (01:03:17) last pick:  5.00 67.60
+\t (01:03:17) Net "12V_In" assigned color.
+\i (01:03:21) setwindow form.mini
+\i (01:03:21) FORM mini color1 1 
+\i (01:03:25) setwindow pcb
+\i (01:03:25) pick grid 4.47 67.46
+\t (01:03:25) last pick:  4.50 67.50
+\t (01:03:25) Net "12V_In" assigned color.
+\i (01:03:28) setwindow form.mini
+\i (01:03:28) FORM mini color29 1 
+\i (01:03:31) setwindow pcb
+\i (01:03:31) pick grid 5.08 67.37
+\t (01:03:31) last pick:  5.10 67.40
+\t (01:03:31) Net "12V_In" assigned color.
+\i (01:03:53) capture image 
+\i (01:04:31) fillin "mib_rev2_v224_top_layer_with_power_colour_white_bg.png"
+\i (01:04:31) capture image "C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v224_top_layer_with_power_colour_white_bg.png" 
+\i (01:04:35) plot setup 
+\i (01:04:39) setwindow form.fpfileplotsetup
+\i (01:04:39) FORM fpfileplotsetup fpplotfittopage YES 
+\i (01:04:41) FORM fpfileplotsetup fpplotcolor YES 
+\i (01:04:55) FORM fpfileplotsetup fpipfvectortext YES 
+\i (01:04:59) FORM fpfileplotsetup fpipfvectorwidth 0.20 
+\i (01:05:05) FORM fpfileplotsetup done  
+\i (01:05:05) setwindow pcb
+\i (01:05:05) generaledit 
+\i (01:05:12) viewlog -browse 
+\i (01:05:14) fillin "menu_cancel"
+\i (01:05:18) plot setup 
+\i (01:05:23) setwindow form.fpfileplotsetup
+\i (01:05:23) FORM fpfileplotsetup done  
+\i (01:05:23) setwindow pcb
+\i (01:05:23) generaledit 
+\i (01:05:26) plot 
+\i (01:05:42) QtSignal PrintPreviewDialog SaveToPDFAction triggered
+\i (01:06:26) QtFillin "mib_rev3ox_v224_manuf_top_layer_power_coloured.pdf"
+\i (01:06:26) QtFillin PageLayout "A4;595;842;Landscape;17;12;17;12"
+\i (01:07:51) QtSignal PrintPreviewDialog PrintPreviewDialog closed
+\i (01:07:53) show element 
+\t (01:07:53) [12:04:49.327712] Periodic Lic check successful
+[12:04:49.852000] Feature usage summary:
+[12:04:49.852000] Allegro_X_Platinum_Layout
+[12:04:49.852000] Allegro_PCB_Harmony_Option
+[12:04:49.852000] Allegro_Venture_PCB_Designer
+[12:04:49.852000] PCB_design_studio
+[12:04:49.852000] Venture_PCB_Schematic
+[12:04:49.852000] Allegro_Venture_PCB_Designer2
 
-\i (15:06:53) QtSignal PrintPreviewDialog PrintPreviewDialog closed
-\i (15:06:56) capture image 
-\i (15:07:04) fillin "mib_rev2_v224_mapped_image_with_power_colour.png"
-\i (15:07:04) capture image "C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v224_mapped_image_with_power_colour.png" 
-\i (15:33:31) show element 
-\t (15:33:31) [09:57:58.312000] Periodic Lic check successful
-[09:57:58.312000] Feature usage summary:
-[09:57:58.312000] Allegro_X_Platinum_Layout
-[09:57:58.312000] Allegro_PCB_Harmony_Option
-[09:57:58.312000] Allegro_Venture_PCB_Designer
-[09:57:58.312000] PCB_design_studio
-[09:57:58.312000] Venture_PCB_Schematic
-[09:57:58.312000] Allegro_Venture_PCB_Designer2
+\i (01:07:56) setwindow form.find
+\i (01:07:56) FORM find shapes YES 
+\i (01:07:59) setwindow pcb
+\i (01:07:59) pick grid 11.39 71.66
+\t (01:07:59) last pick:  11.40 71.70
+\i (01:08:02) pick grid 11.12 72.10
+\t (01:08:02) last pick:  11.10 72.10
+\i (01:08:13) change 
+\i (01:08:16) setwindow form.mini
+\i (01:08:16) FORM mini apply_width YES 
+\i (01:08:17) FORM mini apply_size NO 
+\i (01:08:21) FORM mini line_width 0.30 
+\i (01:08:27) setwindow form.find
+\i (01:08:27) FORM find all_off  
+\i (01:08:28) FORM find shapes YES 
+\i (01:08:30) setwindow pcb
+\i (01:08:30) pick grid 10.69 72.01
+\t (01:08:30) last pick:  10.70 72.00
+\e (01:08:30) ERROR(SPMHGE-536): Shape line width cannot be changed.
+\i (01:09:59) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (01:09:59) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (01:10:06) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked true
+\i (01:10:23) assign color 
+\i (01:10:28) setwindow form.mini
+\i (01:10:28) FORM mini color_choose  
+\i (01:10:48) setwindow pcb
+\i (01:10:48) capture image 
+\i (01:11:10) fillin "mib_rev2_v224_pwr1_layer_with_power_colour_white_bg.png"
+\i (01:11:10) capture image "C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v224_pwr1_layer_with_power_colour_white_bg.png" 
+\i (01:11:52) pick grid -9.72 46.61
+\t (01:11:52) last pick:  -9.70 46.60
+\i (01:15:13) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked false
+\i (01:15:14) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (01:15:21) setwindow form.mini
+\i (01:15:21) FORM mini color17 1 
+\i (01:15:23) setwindow pcb
+\i (01:15:23) pick grid 9.55 11.49
+\t (01:15:23) last pick:  9.60 11.50
+\t (01:15:23) Net "Mp3v3_In" assigned color.
+\i (01:15:27) setwindow form.mini
+\i (01:15:27) FORM mini color16 1 
+\i (01:15:30) setwindow pcb
+\i (01:15:30) pick grid 10.16 11.84
+\t (01:15:30) last pick:  10.20 11.80
+\t (01:15:30) Net "Mp3v3_In" assigned color.
+\i (01:15:41) capture image 
+\t (01:15:41) [12:12:37.455712] Periodic Lic check successful
+[12:12:37.980000] Feature usage summary:
+[12:12:37.980000] Allegro_X_Platinum_Layout
+[12:12:37.980000] Allegro_PCB_Harmony_Option
+[12:12:37.980000] Allegro_Venture_PCB_Designer
+[12:12:37.980000] PCB_design_studio
+[12:12:37.980000] Venture_PCB_Schematic
+[12:12:37.980000] Allegro_Venture_PCB_Designer2
 
-\i (15:33:36) setwindow form.find
-\i (15:33:36) FORM find name_type 'Symbol (or Pin)' 
-\i (15:33:41) setwindow pcb
-\i (15:33:41) zoom in 1 
-\i (15:33:41) setwindow pcb
-\i (15:33:41) zoom in 26.36 3.55
-\i (15:33:41) trapsize 31
-\i (15:33:41) zoom in 1 
-\i (15:33:41) setwindow pcb
-\i (15:33:41) zoom in 26.36 3.55
-\i (15:33:41) trapsize 15
-\i (15:33:45) prepopup 19.19 1.37
-\i (15:33:46) done 
-\i (15:33:46) generaledit 
-\i (15:33:52) setwindow form.find
-\i (15:33:52) FORM find all_off  
-\i (15:33:53) FORM find symbols YES 
-\i (15:33:56) setwindow pcb
-\i (15:33:56) pick grid 24.62 3.86
-\t (15:33:56) last pick:  24.60 3.90
-\i (15:33:58) show element 
-\i (15:33:58) generaledit 
-\i (15:37:51) zoom out 1 
-\i (15:37:51) setwindow pcb
-\i (15:37:51) zoom out 25.11 3.52
-\i (15:37:51) trapsize 31
-\i (15:37:51) zoom out 1 
-\i (15:37:51) setwindow pcb
-\i (15:37:51) zoom out 25.10 3.52
-\i (15:37:51) trapsize 61
-\i (15:37:52) zoom in 1 
-\i (15:37:52) setwindow pcb
-\i (15:37:52) zoom in 4.61 66.72
-\i (15:37:52) trapsize 31
-\i (15:37:54) show element 
-\i (15:37:54) generaledit 
-\i (15:38:00) setwindow form.find
-\i (15:38:00) FORM find vias YES 
-\i (15:38:03) setwindow pcb
-\i (15:38:03) pick grid 6.08 67.64
-\t (15:38:03) last pick:  6.10 67.60
-\i (15:38:15) padeditdb 
-\i (15:38:19) pick grid 6.08 67.52
-\t (15:38:19) last pick:  6.10 67.50
-\i (15:38:22) setwindow form.mini
-\i (15:38:22) FORM mini pad_stack_edit  
-\i (16:54:56) setwindow pcb
-\i (16:54:56) roam y 96 
-\i (16:54:56) roam y 96
-\i (16:54:57) roam y 96 
-\i (16:54:57) roam y 96
-\i (16:54:57) zoom out 1 
-\i (16:54:57) setwindow pcb
-\i (16:54:57) zoom out 14.07 52.00
-\i (16:54:57) trapsize 61
-\t (16:54:57) [11:19:24.046712] Periodic Lic check successful
-[11:19:24.571000] Feature usage summary:
-[11:19:24.571000] Allegro_X_Platinum_Layout
-[11:19:24.571000] Allegro_PCB_Harmony_Option
-[11:19:24.571000] Allegro_Venture_PCB_Designer
-[11:19:24.571000] PCB_design_studio
-[11:19:24.571000] Venture_PCB_Schematic
-[11:19:24.571000] Allegro_Venture_PCB_Designer2
+\i (01:15:54) fillin "mib_rev2_v224_top_layer_with_power_colour_white_bg.png"
+\i (01:15:54) capture image "C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v224_top_layer_with_power_colour_white_bg.png" 
+\i (02:11:36) zoom in 1 
+\i (02:11:36) setwindow pcb
+\i (02:11:36) zoom in 1.66 65.44
+\t (02:11:36) [13:08:33.408000] Periodic Lic check successful
+[13:08:33.408000] Feature usage summary:
+[13:08:33.408000] Allegro_X_Platinum_Layout
+[13:08:33.408000] Allegro_PCB_Harmony_Option
+[13:08:33.408000] Allegro_Venture_PCB_Designer
+[13:08:33.408000] PCB_design_studio
+[13:08:33.408000] Venture_PCB_Schematic
+[13:08:33.408000] Allegro_Venture_PCB_Designer2
 
-\i (16:54:57) zoom out 1 
-\i (16:54:57) setwindow pcb
-\i (16:54:57) zoom out 14.07 52.00
-\i (16:54:57) trapsize 123
-\i (16:54:58) zoom in 1 
-\i (16:54:58) setwindow pcb
-\i (16:54:58) zoom in 14.06 52.00
-\i (16:54:58) trapsize 61
-\i (16:54:58) zoom in 1 
-\i (16:54:58) setwindow pcb
-\i (16:54:58) zoom in 14.07 52.12
-\i (16:54:58) trapsize 31
-\i (16:54:59) zoom out 1 
-\i (16:54:59) setwindow pcb
-\i (16:54:59) zoom out 14.07 52.24
-\i (16:54:59) trapsize 61
-\i (16:54:59) zoom out 1 
-\i (16:54:59) setwindow pcb
-\i (16:54:59) zoom out 14.07 52.25
-\i (16:54:59) trapsize 123
-\i (16:54:59) zoom in 1 
-\i (16:54:59) setwindow pcb
-\i (16:54:59) zoom in 14.06 52.25
-\i (16:54:59) trapsize 61
-\i (16:55:00) roam x 96 
-\i (16:55:00) roam x 96
-\i (16:55:08) plot 
-\i (16:55:11) QtSignal PrintPreviewDialog PrintPreviewDialog closed
-\i (16:55:14) capture image 
-\i (16:55:24) fillin "mib_rev2_v224_mapped_image_with_power_colour.png"
-\i (16:55:24) capture image "C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev2_v224_mapped_image_with_power_colour.png" 
-\i (16:55:34) exit 
-\e (16:55:34) Do you want to save the changes you made to mib_rev3ox_v224_manuf.brd?
-\i (16:55:43) fillin menu_cancel 
-\i (16:55:43) generaledit 
-\i (16:55:45) save_as 
-\i (16:55:54) fillin "menu_cancel"
-\i (16:55:54) generaledit 
-\i (16:55:57) exit 
-\e (16:55:57) Do you want to save the changes you made to mib_rev3ox_v224_manuf.brd?
-\i (16:55:59) fillin no 
-\t (16:55:59) Lic Summary:
-[11:20:26.309000] Cdslmd servers: ppl
-[11:20:26.309000] Feature usage summary:
-[11:20:26.309000] Allegro_X_Platinum_Layout
-[11:20:26.309000] Allegro_PCB_Harmony_Option
-[11:20:26.309000] Allegro_Venture_PCB_Designer
-[11:20:26.309000] PCB_design_studio
-[11:20:26.309000] Venture_PCB_Schematic
-[11:20:26.309000] Allegro_Venture_PCB_Designer2
+\i (02:11:36) trapsize 22
+\i (02:11:36) zoom in 1 
+\i (02:11:36) setwindow pcb
+\i (02:11:36) zoom in 1.66 65.45
+\i (02:11:36) trapsize 11
+\i (02:11:36) zoom in 1 
+\i (02:11:36) setwindow pcb
+\i (02:11:36) zoom in 1.65 65.45
+\i (02:11:36) trapsize 5
+\i (02:11:38) zoom out 1 
+\i (02:11:38) setwindow pcb
+\i (02:11:38) zoom out 1.65 65.46
+\i (02:11:38) trapsize 11
+\i (02:11:39) zoom out 1 
+\i (02:11:39) setwindow pcb
+\i (02:11:39) zoom out 1.65 65.45
+\i (02:11:39) trapsize 22
+\i (02:11:43) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (02:11:44) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (02:11:45) roam y 96 
+\i (02:11:45) roam y 96
+\i (02:11:46) roam y 96 
+\i (02:11:46) roam y 96
+\i (02:11:46) roam y 96 
+\i (02:11:46) roam y 96
+\i (02:11:46) roam y 96 
+\i (02:11:46) roam y 96
+\i (02:11:46) roam y 96 
+\i (02:11:46) roam y 96
+\i (02:11:47) roam y 96 
+\i (02:11:47) roam y 96
+\i (02:11:47) roam y 96 
+\i (02:11:47) roam y 96
+\i (02:11:47) roam y 96 
+\i (02:11:47) roam y 96
+\i (02:11:47) roam y -96 
+\i (02:11:47) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:48) roam y -96 
+\i (02:11:48) roam y -96
+\i (02:11:52) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (02:11:54) zoom in 1 
+\i (02:11:54) setwindow pcb
+\i (02:11:54) zoom in 2.32 63.33
+\i (02:11:54) trapsize 11
+\i (02:12:09) setwindow form.mini
+\i (02:12:09) FORM mini color22 1 
+\i (02:12:13) setwindow pcb
+\i (02:12:13) pick grid 2.85 68.09
+\t (02:12:13) last pick:  2.90 68.10
+\t (02:12:13) Net "Gnd" assigned color.
+\i (02:12:18) zoom out 1 
+\i (02:12:18) setwindow pcb
+\i (02:12:18) zoom out -2.26 67.76
+\i (02:12:18) trapsize 22
+\i (02:12:18) zoom out 1 
+\i (02:12:18) setwindow pcb
+\i (02:12:18) zoom out -2.25 67.40
+\i (02:12:18) trapsize 44
+\i (02:12:41) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (02:12:44) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (02:12:45) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (02:13:02) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (02:13:05) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (02:45:43) show element 
+\t (02:45:43) [13:42:40.218000] Periodic Lic check successful
+[13:42:40.218000] Feature usage summary:
+[13:42:40.218000] Allegro_X_Platinum_Layout
+[13:42:40.218000] Allegro_PCB_Harmony_Option
+[13:42:40.218000] Allegro_Venture_PCB_Designer
+[13:42:40.218000] PCB_design_studio
+[13:42:40.218000] Venture_PCB_Schematic
+[13:42:40.218000] Allegro_Venture_PCB_Designer2
 
-\t (16:55:59)     Journal end - Thu Jan 23 11:20:26 2025
+\i (02:45:47) setwindow form.find
+\i (02:45:47) FORM find all_off  
+\i (02:45:49) FORM find vias YES 
+\i (02:45:53) setwindow pcb
+\i (02:45:53) pick grid 19.04 4.49
+\t (02:45:53) last pick:  19.00 4.50
+\t (02:45:53) Via "12V_In, V20h10, (19.30 4.85)" assigned color.
+\i (02:46:04) padeditdb 
+\i (02:46:07) pick grid 19.30 5.10
+\t (02:46:07) last pick:  19.30 5.10
+\i (02:46:10) setwindow form.mini
+\i (02:46:10) FORM mini pad_stack_edit  
+\i (02:55:23) setwindow pcb
+\i (02:55:23) show element 
+\t (02:55:23) [13:52:19.068712] Periodic Lic check successful
+[13:52:19.593000] Feature usage summary:
+[13:52:19.593000] Allegro_X_Platinum_Layout
+[13:52:19.593000] Allegro_PCB_Harmony_Option
+[13:52:19.593000] Allegro_Venture_PCB_Designer
+[13:52:19.593000] PCB_design_studio
+[13:52:19.593000] Venture_PCB_Schematic
+[13:52:19.593000] Allegro_Venture_PCB_Designer2
+
+\i (02:55:29) prepopup 66.54 58.21
+\i (02:55:29) done 
+\i (02:55:29) generaledit 
+\i (02:55:32) show element 
+\i (02:55:35) setwindow form.find
+\i (02:55:35) FORM find all_off  
+\i (02:55:36) FORM find clines YES 
+\i (02:55:39) setwindow pcb
+\i (02:55:39) pick grid 5.02 48.13
+\t (02:55:39) last pick:  5.00 48.10
+\i (02:55:44) pick grid 4.32 45.94
+\t (02:55:44) last pick:  4.30 45.90
+\i (02:55:48) zoom in 1 
+\i (02:55:48) setwindow pcb
+\i (02:55:48) zoom in 3.00 38.75
+\i (02:55:48) trapsize 22
+\i (02:55:48) zoom in 1 
+\i (02:55:48) setwindow pcb
+\i (02:55:48) zoom in 3.01 38.76
+\i (02:55:48) trapsize 11
+\i (02:55:48) zoom in 1 
+\i (02:55:48) setwindow pcb
+\i (02:55:48) zoom in 3.01 38.76
+\i (02:55:48) trapsize 5
+\i (02:55:51) pick grid 3.88 34.42
+\t (02:55:51) last pick:  3.90 34.40
+\i (02:55:53) zoom out 1 
+\i (02:55:53) setwindow pcb
+\i (02:55:53) zoom out 3.87 34.78
+\i (02:55:53) trapsize 11
+\i (02:55:53) zoom out 1 
+\i (02:55:53) setwindow pcb
+\i (02:55:53) zoom out 3.87 34.77
+\i (02:55:53) trapsize 22
+\i (02:55:54) zoom in 1 
+\i (02:55:54) setwindow pcb
+\i (02:55:54) zoom in 6.49 56.73
+\i (02:55:54) trapsize 11
+\i (02:55:55) zoom in 1 
+\i (02:55:55) setwindow pcb
+\i (02:55:55) zoom in 6.49 56.73
+\i (02:55:55) trapsize 5
+\i (02:55:59) zoom out 1 
+\i (02:55:59) setwindow pcb
+\i (02:55:59) zoom out 2.60 56.32
+\i (02:55:59) trapsize 11
+\i (02:55:59) roam y -96 
+\i (02:55:59) roam y -96
+\i (02:56:00) roam y -96 
+\i (02:56:00) roam y -96
+\i (02:56:00) roam y -96 
+\i (02:56:00) roam y -96
+\i (02:56:00) roam y -96 
+\i (02:56:00) roam y -96
+\i (02:56:04) pick grid 4.32 68.17
+\t (02:56:04) last pick:  4.30 68.20
+\i (02:56:16) zoom out 1 
+\i (02:56:16) setwindow pcb
+\i (02:56:16) zoom out 18.54 63.24
+\i (02:56:16) trapsize 22
+\i (02:56:16) zoom out 1 
+\i (02:56:16) setwindow pcb
+\i (02:56:16) zoom out 18.89 63.02
+\i (02:56:16) trapsize 44
+\i (02:56:17) roam y 96 
+\i (02:56:17) roam y 96
+\i (02:56:17) roam y 96 
+\i (02:56:17) roam y 96
+\i (03:00:54) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked true
+\i (03:05:06) show element 
+\t (03:05:06) [14:02:02.211712] Periodic Lic check successful
+[14:02:02.736000] Feature usage summary:
+[14:02:02.736000] Allegro_X_Platinum_Layout
+[14:02:02.736000] Allegro_PCB_Harmony_Option
+[14:02:02.736000] Allegro_Venture_PCB_Designer
+[14:02:02.736000] PCB_design_studio
+[14:02:02.736000] Venture_PCB_Schematic
+[14:02:02.736000] Allegro_Venture_PCB_Designer2
+
+\i (03:05:13) QtSignal CVPLayerGrid CVPBoxAll05_Pwr1 clicked false
+\i (03:05:14) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (03:05:18) pick grid 5.58 35.90
+\t (03:05:18) last pick:  5.60 35.90
+\i (05:34:20) zoom in 1 
+\i (05:34:20) setwindow pcb
+\i (05:34:20) zoom in 6.11 40.20
+\i (05:34:20) trapsize 22
+\t (05:34:20) [16:31:16.363712] Periodic Lic check successful
+[16:31:16.888000] Feature usage summary:
+[16:31:16.888000] Allegro_X_Platinum_Layout
+[16:31:16.888000] Allegro_PCB_Harmony_Option
+[16:31:16.888000] Allegro_Venture_PCB_Designer
+[16:31:16.888000] PCB_design_studio
+[16:31:16.888000] Venture_PCB_Schematic
+[16:31:16.888000] Allegro_Venture_PCB_Designer2
+
+\i (05:34:21) zoom in 1 
+\i (05:34:21) setwindow pcb
+\i (05:34:21) zoom in -0.95 34.68
+\i (05:34:21) trapsize 11
+\i (05:34:21) zoom in 1 
+\i (05:34:21) setwindow pcb
+\i (05:34:21) zoom in 2.49 35.27
+\i (05:34:21) trapsize 5
+\i (05:34:21) zoom in 1 
+\i (05:34:21) setwindow pcb
+\i (05:34:21) zoom in 2.60 35.33
+\i (05:34:21) trapsize 3
+\i (05:34:25) show element 
+\i (05:34:27) pick grid 4.79 36.01
+\t (05:34:27) last pick:  4.80 36.00
+\i (05:34:37) zoom out 1 
+\i (05:34:37) setwindow pcb
+\i (05:34:37) zoom out 4.79 36.01
+\i (05:34:37) trapsize 5
+\i (05:34:37) zoom out 1 
+\i (05:34:37) setwindow pcb
+\i (05:34:37) zoom out 4.79 36.00
+\i (05:34:37) trapsize 11
+\i (06:30:09) exit 
+\t (06:30:09) [17:27:06.117000] Periodic Lic check successful
+[17:27:06.117000] Feature usage summary:
+[17:27:06.117000] Allegro_X_Platinum_Layout
+[17:27:06.117000] Allegro_PCB_Harmony_Option
+[17:27:06.117000] Allegro_Venture_PCB_Designer
+[17:27:06.117000] PCB_design_studio
+[17:27:06.117000] Venture_PCB_Schematic
+[17:27:06.117000] Allegro_Venture_PCB_Designer2
+
+\e (06:30:09) Do you want to save the changes you made to mib_rev3ox_v224_manuf.brd?
+\i (06:30:16) fillin menu_cancel 
+\i (06:30:16) generaledit 
+\i (06:30:40) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (06:30:48) QtSignal CVDSaveMenu CVDSaveColorViewAction triggered
+\i (06:30:48) colorview create 
+\i (06:30:48) generaledit 
+\i (06:31:09) setwindow form.colorview_create
+\i (06:31:09) FORM colorview_create colorview_name white_background 
+\i (06:31:10) FORM colorview_create save  
+\i (06:31:12) FORM colorview_create done  
+\i (06:31:15) setwindow pcb
+\i (06:31:15) exit 
+\e (06:31:15) Do you want to save the changes you made to mib_rev3ox_v224_manuf.brd?
+\i (06:31:17) fillin no 
+\t (06:31:17) Lic Summary:
+[17:28:14.053000] Cdslmd servers: ppl
+[17:28:14.053000] Feature usage summary:
+[17:28:14.053000] Allegro_X_Platinum_Layout
+[17:28:14.053000] Allegro_PCB_Harmony_Option
+[17:28:14.053000] Allegro_Venture_PCB_Designer
+[17:28:14.053000] PCB_design_studio
+[17:28:14.053000] Venture_PCB_Schematic
+[17:28:14.053000] Allegro_Venture_PCB_Designer2
+
+\t (06:31:17)     Journal end - Fri Jan 24 17:28:14 2025
