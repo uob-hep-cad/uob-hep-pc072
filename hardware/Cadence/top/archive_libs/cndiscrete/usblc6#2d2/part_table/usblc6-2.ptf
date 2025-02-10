@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USBLC6-2'
+PHYS_DES_PREFIX=D
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE          | PACK_TYPE              = STATUS      | PART_NUMBER   | MANUFACTURER          | DESCRIPTION                           | DATASHEET_URL                                                | PINCOUNT | SMD   | CASE       | JEDEC_TYPE         ;
+{========================================================================================}
+ 'USBLC6-2SC6' | 'SOT23'(~USBLC6-2SC6)  = 'Preferred' | 'USBLC6-2SC6' | 'ST MICROELECTRONICS' | 'Very Low Capacitance ESD Protection' | 'file://cern.ch/dfs/Services/cdslib/datasheets/usblc6-2.pdf' | '6'      | 'YES' | 'SOT23-6L' | 'SOT95P280X145-6N'
+
+END_PART
+
+END.
+
+
+

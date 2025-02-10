@@ -1,0 +1,112 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' Created/Modified on Mon Aug 15 16:39:05 2005' ;
+primitive 'DIODE_TO18B','DIODE_SWITCHING','DIODE_A2C1';
+  pin
+    'K'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'A'<0>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='IC';
+    PART_NAME='DIODE';
+    BODY_NAME='DIODE';
+    FAMILY='DIODE';
+    UNKNOWN_LOADING='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    NO_IO_CHECK='TRUE';
+    ALLOW_CONNECT='TRUE';
+  end_body;
+end_primitive;
+
+primitive 'DIODE_TRANS-SUP','DIODE_TRANSIL','DIODE_GE','DIODE_SI','DIODE_SCHOTTKY','DIODE_RECTIFIER','DIODE_REGULATOR','DIODE_TVS','DIODE_A1C2','DIODE_LCC2D';
+  pin
+    'K'<0>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='IC';
+    PART_NAME='DIODE';
+    BODY_NAME='DIODE';
+    FAMILY='DIODE';
+    UNKNOWN_LOADING='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    NO_IO_CHECK='TRUE';
+    ALLOW_CONNECT='TRUE';
+  end_body;
+end_primitive;
+
+primitive 'DIODE_SOT23','DIODE_SOT323';
+  pin
+    'K'<0>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='IC';
+    PART_NAME='DIODE';
+    BODY_NAME='DIODE';
+    NC_PINS='(2)';
+    FAMILY='DIODE';
+    UNKNOWN_LOADING='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    NO_IO_CHECK='TRUE';
+    ALLOW_CONNECT='TRUE';
+  end_body;
+end_primitive;
+
+primitive 'DIODE_SOD110','DIODE_CA','DIODE_SCHOTTKY_CA';
+  pin
+    'K'<0>:
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'A'<0>:
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    CLASS='IC';
+    PART_NAME='DIODE';
+    BODY_NAME='DIODE';
+    FAMILY='DIODE';
+    UNKNOWN_LOADING='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    NO_IO_CHECK='TRUE';
+    ALLOW_CONNECT='TRUE';
+  end_body;
+end_primitive;
+
+END.

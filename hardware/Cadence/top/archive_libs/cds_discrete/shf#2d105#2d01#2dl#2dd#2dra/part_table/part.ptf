@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SHF-105-01-L-D-RA'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                        = STATUS           | PART_NUMBER                    | MANUFACTURER       | DESCRIPTION                                                                                                    | DATASHEET_URL                                                        | PINCOUNT | SMD   | CASE  | JEDEC_TYPE                 ;
+{========================================================================================}
+ 'SHF-105-01-L-D-RA'(!)               = 'Preferred'      | 'SHF-105-01-L-D-RA'                | 'Samtec'            | 'Pin Header, Right Angle, Wire-to-Board, 1.27 mm, 2 Rows, 10 Contacts, Through Hole Right Angle, SHF'     | 'https://www.farnell.com/datasheets/1810787.pdf'                    | '10'     | 'NO'    | '_'   | 'shdrra10w41p127_2x5_1270x546x533p'
+
+END_PART
+
+END.
+
