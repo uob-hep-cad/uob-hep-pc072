@@ -1,0 +1,20 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LED1_BICOLOR4P'
+PHYS_DES_PREFIX = LD
+CLASS = DISCRETE
+
+{PACK_TYPE 1243 = C1:1, A1:2, C2:4, A2:3, COLOR1=AC1, COLOR2=AC2}
+
+{========================================================================================}
+: TYPE                   | COLOR1 | COLOR2 | PACK_TYPE                    = STATUS      | PART_NUMBER           | MANUFACTURER   | DESCRIPTION                                             | DATASHEET_URL                                                                            | PINCOUNT | SMD   |  CASE          | JEDEC_TYPE ;
+{========================================================================================}
+ '591-3001-0xxF'         | 'R'    | 'G'    | '1243'(~591-3001-0xxF)       = 'Preferred' | '591-3001-0xxF'       | 'DIALIGHT'     | '3mm Prism Bi-Color Red/Green SMD LED'                  | 'file://cern.ch/dfs/Services/cdslib/datasheets/led_dialight_591-3001.pdf'                | '4'      | 'YES' | '9x4.3mm'      | 'LED_DIALIGHT_591-3XX1'
+ '591-3101-0xxF'         | 'Y'    | 'G'    | '1243'(~591-3101-0xxF)       = 'Preferred' | '591-3101-0xxF'       | 'DIALIGHT'     | '3mm Prism Bi-Color Yellow/Green SMD LED'               | 'file://cern.ch/dfs/Services/cdslib/datasheets/led_dialight_591-3101.pdf'                | '4'      | 'YES' | '9x4.3mm'      | 'LED_DIALIGHT_591-3XX1'
+ '591-3201-0xxF'         | 'R'    | 'Y'    | '1243'(~591-3201-0xxF)       = 'Preferred' | '591-3201-0xxF'       | 'DIALIGHT'     | '3mm Prism Bi-Color Red/Yellow SMD LED'                 | 'file://cern.ch/dfs/Services/cdslib/datasheets/led_dialight_591-3201.pdf'                | '4'      | 'YES' | '9x4.3mm'      | 'LED_DIALIGHT_591-3XX1'
+ '598-8410-207CF'        | 'R'    | 'G'    | '4312'(~598-8410-207CF)      = 'Preferred' | '598-8410-207CF'      | 'DIALIGHT'     | 'Micro LED(R) Bi-Color Red/Green SMD LED - 0606 Series' | 'file://cern.ch/dfs/Services/cdslib/datasheets/led_dialight_598-8410-207.pdf'            | '4'      | 'YES' | '0606'         | 'LED_DIALIGHT_598-8410-207CF'
+ 'KPHBM-2012QBDSURKC'    | 'B'    | 'R'    | '2134'(~KPHBM-2012QBDSURKC)  = 'Preferred' | 'KPHBM-2012QBDSURKC'  | 'KINGBRIGHT'   | 'Bi-Color Blue/Hyper Red SMD LED - KPHBM-2012 Series'   | 'file://cern.ch/dfs/Services/cdslib/datasheets/led_kingbright_kphbm-2012qbdsurkc.pdf'    | '4'      | 'YES' | '2.0x1.25mm'   | 'LED_KINGBRIGHT_KPHBM-2012_BR' {Info: _BR=Blue/Red for 3D model}
+
+END_PART
+
+END.

@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PIPELIGHT_1LED'
+PHYS_DES_PREFIX=PL
+CLASS=MECHANICAL
+
+{========================================================================================}
+:TYPE           =  STATUS              | PART_NUMBER | MANUFACTURER | DESCRIPTION                                      | DATASHEET_URL                                                                             | PINCOUNT | SMD    | CASE  | JEDEC_TYPE ;
+{========================================================================================}
+ '515-1049'(!)  = Preferred            | '515-1049'  | 'DIALIGHT'   | 'Single-Element Lightpipe'                       | 'file://cern.ch/dfs/services/cdslib/datasheets/pipelight_dialight_515-1049.pdf'           | '0'      | 'MECH' | '_'   | 'PIPELIGHT_DIALIGHT_515-1049'
+ '7511A85'(!)   = Preferred            | '7511A85'   | 'VCCLITE'    | 'Single-LED Bright*Pipes(TM) Optical Lightpipe'  | 'file://cern.ch/dfs/services/cdslib/datasheets/pipelight_vcclite_7511a85.pdf'             | '0'      | 'MECH' | '_'   | 'PIPELIGHT_VCCLITE_7511A85'
+
+END_PART
+
+END.
+
+

@@ -1,0 +1,3 @@
+page1.csa
+front_panel_jtag_serial.xcon
+front_panel_jtag_serial.dcf

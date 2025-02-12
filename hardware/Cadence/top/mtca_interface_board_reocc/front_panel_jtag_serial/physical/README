@@ -1,0 +1,102 @@
+
+
+pc072_mib_jtag_serial
+
+Version = A
+Subversion = 20
+
+This file describes PCB fabrication details for the
+JTAG/Serial mezzanine board for the MIB v2 
+for the DUNE timing system
+ 
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+
+Files produced by Cadence Allegro PE17.4
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+"PCBTrain" 4-layer build from Newbury
+Immersion silver finish to outer layers
+
+Layers as follows:
+
+pc072_mib_jtag_serial_20_01_Top.art
+pc072_mib_jtag_serial_20_02_Gnd.art
+pc072_mib_jtag_serial_20_03_Vcc.art
+pc072_mib_jtag_serial_20_04_Bottom.art
+
+
+Solder Masks
+------------
+
+pc072_mib_jtag_serial_20_13_smask_top.art
+pc072_mib_jtag_serial_20_14_smask_bot.art
+
+Colour - green. 
+
+Solderpaste mask (N.B. No SMD components on bottom face of board)
+-----------------
+
+pc072_mib_jtag_serial_20_27_pmask_top.art
+pc072_mib_jtag_serial_20_28_pmask_bot.art
+
+Silk screen
+-----------
+
+pc072_mib_jtag_serial_20_11_silk_top.art
+pc072_mib_jtag_serial_20_12_silk_bot.art
+
+Colour - white.
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+pc072_mib_jtag_serial_20_18_DESIGN_OUTLINE.art
+
+
+Fabrication drawing: ( Including illustration of hole sizes/position and board stack-up)
+----------------------------------------------------------------------------------------
+
+pc072_mib_jtag_serial_20_fab_plot.art
+
+
+Drill information ( Excellon format, described in nc_param.txt. Drill size also in nc_tools_auto.txt )
+----------------------------------------------------------------
+
+pc072_mib_jtag_serial_20-1-4.drl
+
+
+Router information ( Excellon format, described in nc_param.txt. Router bit information also in ncroutebits_auto.txt )
+----------------------------------------------------------------
+
+mib_fp_jtag_serial_20_1-4.rou 
+
+
+Drill figure (Gerber format)
+----------------------------
+
+pc072_mib_jtag_serial_20_10_drill_figure.art
+
+Bill of Materials for Assembly (Microsoft Excel XLSX format)
+------------------------------------------------------------
+
+uob-hep-pc072-mib_fp_jtag_serial_10.xlsx
+
+
+Assembly Information (IPC2581 format)
+-------------------------------------
+
+mib_fp_jtag_serial_20_ipc2581.xml
+
+
