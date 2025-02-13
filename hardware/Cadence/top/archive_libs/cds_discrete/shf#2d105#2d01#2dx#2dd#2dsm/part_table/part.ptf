@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SHF-105-01-X-D-SM'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                = STATUS      | PART_NUMBER         | MANUFACTURER | DESCRIPTION                                                                             | DATASHEET_URL | PINCOUNT | SMD  | CASE | JEDEC_TYPE                 ;
+{========================================================================================}
+ 'SHF-105-01-X-D-SM'(!) = 'Preferred' | 'SHF-105-01-X-D-SM' | 'Samtec'     | 'Pin Header, straight, Wire-to-Board, 1.27 mm, 2 Rows, 10 Contacts, surface mount, SHF' | ''            | '10'     | 'NO' | '_'  | 'samtec_shf-105-01-x-d-sm'
+
+END_PART
+
+END.
+

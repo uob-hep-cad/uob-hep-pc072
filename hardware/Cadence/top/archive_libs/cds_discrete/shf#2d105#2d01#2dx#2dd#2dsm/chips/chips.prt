@@ -1,0 +1,51 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'SHF-105-01-X-D-SM';
+  pin
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<3>:
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'A'<5>:
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A'<7>:
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'A'<9>:
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'A'<6>:
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A'<8>:
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<4>:
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SHF-105-01-X-D-SM';
+    BODY_NAME='SHF-105-01-X-D-SM';
+    VER='3';
+    NO_IO_CHECK='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    FAMILY='CONNECTOR';
+    ALLOW_CONNECT='TRUE';
+    SIZE='1';
+    JEDEC_TYPE='samtec_shf-105-01-x-d-sm';
+    PHYS_DES_PREFIX='J';
+    CLASS='IO';
+  end_body;
+end_primitive;
+
+END.

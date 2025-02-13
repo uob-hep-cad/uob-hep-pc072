@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 30-Jul-2024 AT 10:02:54 }
+{ Packager-XL run on 13-Feb-2025 AT 12:55:23 }
 primitive '410_357_B-DIGILENT,410-357-B';
   pin
     'GND_1':
@@ -136,6 +136,31 @@ t3/reference-manual';
       PARENT_PPT_PART='410_357_B-DIGILENT,410-357-B';
   end_body;
 end_primitive;
+primitive '74LVC07A_SOIC-VCC=P2V5';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(13,11,9,5,3,1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'Y'<0>:
+      PIN_NUMBER='(12,10,8,6,4,2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+  end_pin;
+  body
+      CLASS='IC';
+      PART_NAME='74LVC07A';
+      PHYS_DES_PREFIX='IC';
+      JEDEC_TYPE='SOIC14S_127';
+      BODY_NAME='74LVC07A';
+      PART_NUMBER='SN74LVC07AD';
+      MANUFACTURER='TI';
+      DESCRIPTION='HEX BUFFERS / DRIVERS WITH OPEN-DRAIN OUTPUTS';
+      POWER_PINS='(P2V5:14;GND:7)';
+      PARENT_PART_TYPE='74LVC07A_SOIC';
+      SCH_MODIFIED_PART='TRUE';
+  end_body;
+end_primitive;
 primitive 'CAPCERSMDCL2_0603-100NF,16V';
   pin
     'A'<0>:
@@ -177,6 +202,49 @@ primitive 'CAPCERSMDCL2_0603-100NF,16V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0603';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0603-100NF,16V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0805_10UF_10V_-20+80%_Y5V';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD Y5V Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0805';
+      JEDEC_TYPE='C0805';
+      VALUE='10uF';
+      VOLT='10V ';
+      TOL='+80%-20%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0805';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN';
   end_body;
 end_primitive;
 primitive 'CON14P-MOLEX_87833';
@@ -421,44 +489,339 @@ y) Position Through Hole, Right Angle ';
       PARENT_PPT_PART='CON16P_USB_C_USB2-2137160001';
   end_body;
 end_primitive;
-primitive 'CON4P-53398-0471';
+primitive 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P-CONN30P,FTSH-115-01-L-D-A';
   pin
-    'A'<3>:
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
+    '1':
       PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '17':
+      PIN_NUMBER='(17)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '18':
+      PIN_NUMBER='(18)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '19':
+      PIN_NUMBER='(19)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '20':
+      PIN_NUMBER='(20)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '21':
+      PIN_NUMBER='(21)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '22':
+      PIN_NUMBER='(22)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '23':
+      PIN_NUMBER='(23)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '24':
+      PIN_NUMBER='(24)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '25':
+      PIN_NUMBER='(25)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '26':
+      PIN_NUMBER='(26)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '27':
+      PIN_NUMBER='(27)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '28':
+      PIN_NUMBER='(28)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '29':
+      PIN_NUMBER='(29)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '30':
+      PIN_NUMBER='(30)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='CON4P';
-      BODY_NAME='CON4P';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
       PHYS_DES_PREFIX='J';
       CLASS='IO';
+      PART_NAME='CONN30P';
+      BODY_NAME='CONN30P';
+      JEDEC_TYPE='FTSH-115-01-L-D-RA-KV';
+      VALUE='FTSH-115-01-L-D-RA-KV';
+      DESCRIPTION='CONN HEADER SMD 30POS 1.27MM, Right angle';
+      MPN='FTSH-115-01-L-D-RA-KV';
+      MANUFACTURER='SAMTEC';
+      PART_TYPE='HEADER';
+      SOURCE_PACKAGE='CONN30P';
+      PART_NUMBER='FTSH-115-01-L-D-RA-KV';
+      PARENT_PART_TYPE='CONN30P';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='CONN30P';
+      PARENT_PPT_PART='CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P';
+  end_body;
+end_primitive;
+primitive 'KPHBM-2012QBDSURKC';
+  pin
+    'C1':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'C2':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A2':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='LED1_BICOLOR4P';
+      BODY_NAME='LED1_BICOLOR4P';
+      PHYS_DES_PREFIX='LD';
       STATUS='Preferred';
-      PART_NUMBER='53398-0471';
-      MANUFACTURER='MOLEX';
-      DESCRIPTION='1.25mm PicoBlade Wire-to-Board Header';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/molex_53398-0~
-32.pdf';
+      PART_NUMBER='KPHBM-2012QBDSURKC';
+      MANUFACTURER='KINGBRIGHT';
+      DESCRIPTION='Bi-Color Blue/Hyper Red SMD LED - KPHBM-2012 Series';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/led_kingbrigh~
+t_kphbm-2012qbdsurkc.pdf';
       PINCOUNT='4';
-      SMD='';
-      CASE='_';
-      JEDEC_TYPE='MOLEX_53398-0471';
-      PARENT_PART_TYPE='CON4P';
-      PARENT_PPT='CON4P';
-      PARENT_PPT_PART='CON4P-53398-0471';
+      SMD='YES';
+      CASE='2.0x1.25mm';
+      JEDEC_TYPE='LED_KINGBRIGHT_KPHBM-2012_BR';
+      PARENT_PART_TYPE='LED1_BICOLOR4P_2134';
+      PARENT_PPT='LED1_BICOLOR4P';
+      PARENT_PPT_PART='KPHBM-2012QBDSURKC';
+  end_body;
+end_primitive;
+primitive 'LD3985M25R';
+  pin
+    'VI':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'VINH':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='INPUT';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'BYPASS':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'VO':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+  end_pin;
+  body
+      CLASS='IC';
+      PART_NAME='LD3985';
+      BODY_NAME='LD3985';
+      PHYS_DES_PREFIX='RG';
+      STATUS='Preferred';
+      PART_NUMBER='LD3985M25R';
+      MANUFACTURER='ST MICROELECTRONICS';
+      DESCRIPTION='2.5V Ultra Low Drop and Low Noise BiCMOS Voltage Regulator';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ld3985.pdf';
+      PINCOUNT='5';
+      SMD='YES';
+      CASE='SOT23-5';
+      JEDEC_TYPE='SOT95P280X145-5N';
+      PARENT_PART_TYPE='LD3985_SOT23';
+      PARENT_PPT='LD3985';
+      PARENT_PPT_PART='LD3985M25R';
   end_body;
 end_primitive;
 primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
@@ -488,6 +851,29 @@ primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='MT_HOLE';
       PARENT_PPT_PART='MT_HOLE-MT_HOLE,MT_HOLE';
+  end_body;
+end_primitive;
+primitive 'PIPELIGHT_1LED-7511A85';
+  pin
+  end_pin;
+  body
+      PART_NAME='PIPELIGHT_1LED';
+      BODY_NAME='PIPELIGHT_1LED';
+      PHYS_DES_PREFIX='PL';
+      CLASS='MECHANICAL';
+      STATUS='Preferred';
+      PART_NUMBER='7511A85';
+      MANUFACTURER='VCCLITE';
+      DESCRIPTION='Single-LED Bright*Pipes(TM) Optical Lightpipe';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/pipelight_vcc~
+lite_7511a85.pdf';
+      PINCOUNT='0';
+      SMD='MECH';
+      CASE='_';
+      JEDEC_TYPE='PIPELIGHT_VCCLITE_7511A85';
+      PARENT_PART_TYPE='PIPELIGHT_1LED';
+      PARENT_PPT='PIPELIGHT_1LED';
+      PARENT_PPT_PART='PIPELIGHT_1LED-7511A85';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-10K,1%';
@@ -610,7 +996,7 @@ primitive 'RSMD0603_1/16W-XX,5%';
       PARENT_PPT_PART='RSMD0603_1/16W-XX,5%';
   end_body;
 end_primitive;
-primitive 'SHF-105-01-L-D-RA-SHF-105-01-LA';
+primitive 'SHF-105-01-L-D-RA-SHF-105-01-L-D-RA';
   pin
     'A'<1>:
       PIN_NUMBER='(2)';
@@ -668,6 +1054,66 @@ ontacts, Through Hole Right Angle, SHF';
       PARENT_PART_TYPE='SHF-105-01-L-D-RA';
       PARENT_PPT='SHF-105-01-L-D-RA';
       PARENT_PPT_PART='SHF-105-01-L-D-RA-SHF-105-01-L-D-RA';
+  end_body;
+end_primitive;
+primitive 'SHF-105-01-X-D-SM-SHF-105-01-X-D-SM';
+  pin
+    'A'<1>:
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'A'<3>:
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'A'<5>:
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A'<7>:
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'A'<9>:
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'A'<6>:
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'A'<8>:
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'A'<2>:
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A'<4>:
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SHF-105-01-X-D-SM';
+      BODY_NAME='SHF-105-01-X-D-SM';
+      VER='3';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      FAMILY='CONNECTOR';
+      ALLOW_CONNECT='TRUE';
+      SIZE='1';
+      JEDEC_TYPE='SAMTEC_SHF-105-01-X-D-SM';
+      PHYS_DES_PREFIX='J';
+      CLASS='IO';
+      STATUS='Preferred';
+      PART_NUMBER='SHF-105-01-X-D-SM';
+      MANUFACTURER='Samtec';
+      DESCRIPTION='Pin Header, straight, Wire-to-Board, 1.27 mm, 2 Rows, 10 Cont~
+acts, surface mount, SHF';
+      DATASHEET_URL='';
+      PINCOUNT='10';
+      SMD='NO';
+      CASE='_';
+      PARENT_PART_TYPE='SHF-105-01-X-D-SM';
+      PARENT_PPT='SHF-105-01-X-D-SM';
+      PARENT_PPT_PART='SHF-105-01-X-D-SM-SHF-105-01-X-D-SM';
   end_body;
 end_primitive;
 primitive 'USBLC6-2SC6';

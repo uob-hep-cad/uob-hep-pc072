@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LD3985'
+PHYS_DES_PREFIX=RG
+CLASS=IC
+
+{========================================================================================}
+:TYPE          | PACK_TYPE             = STATUS      | PART_NUMBER  | MANUFACTURER            | DESCRIPTION                                                  | DATASHEET_URL                                                | PINCOUNT | SMD   | CASE      | JEDEC_TYPE         ;
+{========================================================================================}
+ 'LD3985M25R'  | 'SOT23'(~LD3985M25R)  = 'Preferred' | 'LD3985M25R'  | 'ST MICROELECTRONICS'  | '2.5V Ultra Low Drop and Low Noise BiCMOS Voltage Regulator' | 'file://cern.ch/dfs/services/cdslib/datasheets/ld3985.pdf'  | '5'       | 'YES' | 'SOT23-5'  | 'SOT95P280X145-5N'
+
+END_PART
+
+END.

@@ -1,3 +1,0 @@
-page1.csa
-front_panel_ethernet_jtag_serial.xcon
-front_panel_ethernet_jtag_serial.dcf
