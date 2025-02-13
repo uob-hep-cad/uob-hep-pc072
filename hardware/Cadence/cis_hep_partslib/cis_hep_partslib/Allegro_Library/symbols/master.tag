@@ -1,1 +1,1 @@
-amc0_r2_bplus_pcb_edge.dra
+SAMTEC_SHF-105-01-X-D-SM.dra

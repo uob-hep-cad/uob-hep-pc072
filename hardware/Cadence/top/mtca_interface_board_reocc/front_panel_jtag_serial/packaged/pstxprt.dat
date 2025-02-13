@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 30-Jul-2024 AT 10:02:54 }
+{ Packager-XL run on 13-Feb-2025 AT 12:55:23 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='FRONT_PANEL_JTAG_SERIAL';
- POST_TIME='30-Jul-2024 AT 10:02:54';
+ POST_TIME='13-Feb-2025 AT 12:55:23';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -28,8 +28,7 @@ npassive.capcersmdcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
  VOLTAGE='16V',
  VALUE='100NF',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
-ips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
  C2 'CAPCERSMDCL2_0603-100NF,16V':;
@@ -52,8 +51,7 @@ npassive.capcersmdcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
  VOLTAGE='16V',
  VALUE='100NF',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
-ips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
  C3 'CAPCERSMDCL2_0603-100NF,16V':;
@@ -68,7 +66,7 @@ npassive.capcersmdcl2(chips)',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(4300,-2200)',
+ XY='(4600,-1800)',
  ROT='1',
  VER='1',
  PACK_TYPE='0603',
@@ -76,8 +74,99 @@ npassive.capcersmdcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
  VOLTAGE='16V',
  VALUE='100NF',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
-ips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C4 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I180@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i180@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i180@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I180',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2975,-3150)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ VALUE='100NF',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C5 'CAPCERSMDCL2_0603-100NF,16V':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I185@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i185@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i185@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I185',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2375,-1175)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
+ VOLTAGE='16V',
+ VALUE='100NF',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C6 'CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I184@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i184@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i184@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I184',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2450,-4175)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0805',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN',
+ VOLTAGE='10V_GEN',
+ VALUE='10UF_Y5V',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C7 'CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I183@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i183@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i183@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I183',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(6300,-575)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0805',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN',
+ VOLTAGE='10V_GEN',
+ VALUE='10UF_Y5V',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
  D1 'USBLC6-2SC6':;
@@ -98,8 +187,7 @@ discrete.\usblc6-2\(chips)',
  PACK_TYPE='SOT23',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='USBLC6-2SC6',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/usblc6#2d2/chi~
-ps/chips.prt';
+ PRIM_FILE='./archive_libs/cndiscrete/usblc6#2d2/chips/chips.prt';
 
 PART_NAME
  IC1 '410_357_B-DIGILENT,410-357-B':;
@@ -115,13 +203,142 @@ ris_cds_pld.\410_357_b\(chips)',
  MANUFACTURER_PART_NUMBER='410-357-B',
  MANUFACTURER_NAME='DIGILENT',
  PHYS_PAGE='1',
- XY='(1975,-1500)',
+ XY='(2125,-1500)',
  ROT='0',
  VER='1',
  PACK_TYPE='OTHER',
  CDS_LIB='bris_cds_pld',
- CDS_PART_NAME='410_357_B_OTHER-DIGILENT,410-3A',
- PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_pld/410_357_b/chips/chips.prt';
+ CDS_PART_NAME='410_357_B_OTHER-DIGILENT,410-357-B',
+ PRIM_FILE='./archive_libs/cds_pld/410_357_b/chips/chips.prt';
+
+PART_NAME
+ IC2 '74LVC07A_SOIC-VCC=P2V5':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(5):
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(5~
+)@cninterface.\74lvc07a\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(5~
+)@cninterface.\74lvc07a\(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='6',
+ POWER_GROUP='VCC=P2V5',
+ PHYS_PAGE='1',
+ XY='(4175,-3100)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=P2V5',
+ HAS_FIXED_SIZE='6',
+ PART_NAME='74LVC07A',
+ PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(4):
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(4~
+)@cninterface.\74lvc07a\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(4~
+)@cninterface.\74lvc07a\(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='6',
+ POWER_GROUP='VCC=P2V5',
+ PHYS_PAGE='1',
+ XY='(4175,-3100)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=P2V5',
+ HAS_FIXED_SIZE='6',
+ PART_NAME='74LVC07A',
+ PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(3):
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(3~
+)@cninterface.\74lvc07a\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(3~
+)@cninterface.\74lvc07a\(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='6',
+ POWER_GROUP='VCC=P2V5',
+ PHYS_PAGE='1',
+ XY='(4175,-3100)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=P2V5',
+ HAS_FIXED_SIZE='6',
+ PART_NAME='74LVC07A',
+ PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(2):
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(2~
+)@cninterface.\74lvc07a\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(2~
+)@cninterface.\74lvc07a\(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='6',
+ POWER_GROUP='VCC=P2V5',
+ PHYS_PAGE='1',
+ XY='(4175,-3100)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=P2V5',
+ HAS_FIXED_SIZE='6',
+ PART_NAME='74LVC07A',
+ PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(1):
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(1~
+)@cninterface.\74lvc07a\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(1~
+)@cninterface.\74lvc07a\(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='6',
+ POWER_GROUP='VCC=P2V5',
+ PHYS_PAGE='1',
+ XY='(4175,-3100)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=P2V5',
+ HAS_FIXED_SIZE='6',
+ PART_NAME='74LVC07A',
+ PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(0):
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(0~
+)@cninterface.\74lvc07a\(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i178(0~
+)@cninterface.\74lvc07a\(chips)',
+ PATH='I178',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='6',
+ POWER_GROUP='VCC=P2V5',
+ PHYS_PAGE='1',
+ XY='(4175,-3100)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=P2V5',
+ HAS_FIXED_SIZE='6',
+ PART_NAME='74LVC07A',
+ PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
 
 PART_NAME
  J1 'CON14P-MOLEX_87833':;
@@ -141,8 +358,7 @@ nconnector.con14p(chips)',
  VER='3',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON14P-MOLEX_87833',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con14p/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnconnector/con14p/chips/chips.prt';
 
 PART_NAME
  J2 'CON16P_USB_C_USB2-2137160001':;
@@ -178,11 +394,31 @@ sition Through Hole, Right Angle',
  VER='1',
  CDS_LIB='bris_cds_discrete',
  CDS_PART_NAME='CON16P_USB_C_USB2-2137160001',
- PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/con16p_usb_c_usb2/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cds_discrete/con16p_usb_c_usb2/chips/chips.prt';
 
 PART_NAME
- J4 'SHF-105-01-L-D-RA-SHF-105-01-LA':;
+ J3 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P-CONN30P,FTSH-115-01-L-D-A':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I174@OCAD_PARTS_LIB.CONN30P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i174@o~
+cad_parts_lib.conn30p(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i174@o~
+cad_parts_lib.conn30p(chips)',
+ PATH='I174',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SOURCE_PACKAGE='CONN30P',
+ PHYS_PAGE='1',
+ XY='(5375,-775)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='ocad_parts_lib',
+ CDS_PART_NAME='CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P',
+ PART_NUMBER='FTSH-115-01-L-D-RA-KV',
+ PRIM_FILE='./ocad_parts_lib/conn30p/chips/chips.prt';
+
+PART_NAME
+ J4 'SHF-105-01-L-D-RA-SHF-105-01-L-D-RA':;
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I151@BRIS_CDS_DISCRETE.SHF-105-01-L-D-RA(CHIPS)':
@@ -194,55 +430,103 @@ ris_cds_discrete.\shf-105-01-l-d-ra\(chips)',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  TYPE='SHF-105-01-L-D-RA',
  PHYS_PAGE='1',
- XY='(825,-3250)',
+ XY='(-225,-3725)',
  ROT='0',
  VER='3',
  CDS_LIB='bris_cds_discrete',
- CDS_PART_NAME='SHF-105-01-L-D-RA-SHF-105-01-LA',
- PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/shf#2d105#2d01#2dl#2dd#2~
-dra/chips/chips.prt';
+ CDS_PART_NAME='SHF-105-01-L-D-RA-SHF-105-01-L-D-RA',
+ PRIM_FILE='./archive_libs/cds_discrete/shf#2d105#2d01#2dl#2dd#2dra/chips/chips.~
+prt';
 
 PART_NAME
- J5 'SHF-105-01-L-D-RA-SHF-105-01-LA':;
+ J5 'SHF-105-01-X-D-SM-SHF-105-01-X-D-SM':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I156@BRIS_CDS_DISCRETE.SHF-105-01-L-D-RA(CHIPS)':
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I156@BRIS_CDS_DISCRETE.SHF-105-01-X-D-SM(CHIPS)':
  C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i156@b~
-ris_cds_discrete.\shf-105-01-l-d-ra\(chips)',
+ris_cds_discrete.\shf-105-01-x-d-sm\(chips)',
  P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i156@b~
-ris_cds_discrete.\shf-105-01-l-d-ra\(chips)',
+ris_cds_discrete.\shf-105-01-x-d-sm\(chips)',
  PATH='I156',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
- TYPE='SHF-105-01-L-D-RA',
+ TYPE='SHF-105-01-X-D-SM',
  PHYS_PAGE='1',
- XY='(825,-4125)',
+ XY='(-225,-4600)',
  ROT='0',
  VER='3',
  CDS_LIB='bris_cds_discrete',
- CDS_PART_NAME='SHF-105-01-L-D-RA-SHF-105-01-LA',
- PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_discrete/shf#2d105#2d01#2dl#2dd#2~
-dra/chips/chips.prt';
+ CDS_PART_NAME='SHF-105-01-X-D-SM-SHF-105-01-X-D-SM',
+ PRIM_FILE='./archive_libs/cds_discrete/shf#2d105#2d01#2dx#2dd#2dsm/chips/chips.~
+prt';
 
 PART_NAME
- J6 'CON4P-53398-0471':;
+ LD1 'KPHBM-2012QBDSURKC':;
 
 SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I98@CNCONNECTOR.CON4P(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i98@cn~
-connector.con4p(chips)',
- P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i98@cn~
-connector.con4p(chips)',
- PATH='I98',
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I175@CNDISCRETE.LED1_BICOLOR4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i175@c~
+ndiscrete.led1_bicolor4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i175@c~
+ndiscrete.led1_bicolor4p(chips)',
+ PATH='I175',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
- TYPE='53398-0471',
+ COLOR2='R',
+ COLOR1='B',
+ TYPE='KPHBM-2012QBDSURKC',
  PHYS_PAGE='1',
- XY='(3975,-2200)',
- ROT='2',
+ XY='(4975,-2250)',
+ ROT='5',
  VER='1',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON4P-53398-0471',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/c~
-hips.prt';
+ PACK_TYPE='2134',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='KPHBM-2012QBDSURKC',
+ PRIM_FILE='./archive_libs/cndiscrete/led1_bicolor4p/chips/chips.prt';
+
+PART_NAME
+ LD2 'KPHBM-2012QBDSURKC':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I177@CNDISCRETE.LED1_BICOLOR4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i177@c~
+ndiscrete.led1_bicolor4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i177@c~
+ndiscrete.led1_bicolor4p(chips)',
+ PATH='I177',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ COLOR2='R',
+ COLOR1='B',
+ TYPE='KPHBM-2012QBDSURKC',
+ PHYS_PAGE='1',
+ XY='(5250,-2250)',
+ ROT='5',
+ VER='1',
+ PACK_TYPE='2134',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='KPHBM-2012QBDSURKC',
+ PRIM_FILE='./archive_libs/cndiscrete/led1_bicolor4p/chips/chips.prt';
+
+PART_NAME
+ LD3 'KPHBM-2012QBDSURKC':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I176@CNDISCRETE.LED1_BICOLOR4P(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i176@c~
+ndiscrete.led1_bicolor4p(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i176@c~
+ndiscrete.led1_bicolor4p(chips)',
+ PATH='I176',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ COLOR2='R',
+ COLOR1='B',
+ TYPE='KPHBM-2012QBDSURKC',
+ PHYS_PAGE='1',
+ XY='(5525,-2250)',
+ ROT='5',
+ VER='1',
+ PACK_TYPE='2134',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='KPHBM-2012QBDSURKC',
+ PRIM_FILE='./archive_libs/cndiscrete/led1_bicolor4p/chips/chips.prt';
 
 PART_NAME
  MH1 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':
@@ -265,13 +549,13 @@ cad_parts_lib.mt_hole(chips)',
  DISTRIBUTOR_PARTNUMBER='Mt_Hole',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  PHYS_PAGE='1',
- XY='(5550,-2450)',
+ XY='(-350,-600)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
  SEC='1',
  CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHOLE',
  REUSE_ID='175',
  ROOM='TE0712',
  PART_NUMBER='Mt_Hole',
@@ -298,13 +582,13 @@ cad_parts_lib.mt_hole(chips)',
  DISTRIBUTOR_PARTNUMBER='Mt_Hole',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  PHYS_PAGE='1',
- XY='(5875,-2450)',
+ XY='(-25,-600)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
  SEC='1',
  CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHOLE',
  ROOM='TE0712',
  PART_NUMBER='Mt_Hole',
  VALUE='Mt_Hole',
@@ -330,13 +614,13 @@ cad_parts_lib.mt_hole(chips)',
  DISTRIBUTOR='HEP',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  PHYS_PAGE='1',
- XY='(4725,-2400)',
+ XY='(-1175,-550)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
  SEC='1',
  CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHOLE',
  PART_NUMBER='Mt_Hole',
  VALUE='Mt_Hole',
  PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
@@ -361,16 +645,76 @@ cad_parts_lib.mt_hole(chips)',
  DISTRIBUTOR='HEP',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  PHYS_PAGE='1',
- XY='(5075,-2400)',
+ XY='(-825,-550)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
  SEC='1',
  CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA',
+ CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHOLE',
  PART_NUMBER='Mt_Hole',
  VALUE='Mt_Hole',
  PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
+
+PART_NAME
+ PL1 'PIPELIGHT_1LED-7511A85':;
+
+SECTION_NUMBER -1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I171@CNMECH.PIPELIGHT_1LED(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i171@c~
+nmech.pipelight_1led(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i171@c~
+nmech.pipelight_1led(chips)',
+ PATH='I171',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ TYPE='7511A85',
+ PHYS_PAGE='1',
+ XY='(6050,-1950)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnmech',
+ CDS_PART_NAME='PIPELIGHT_1LED-7511A85',
+ PRIM_FILE='./archive_libs/cnmech/pipelight_1led/chips/chips.prt';
+
+PART_NAME
+ PL2 'PIPELIGHT_1LED-7511A85':;
+
+SECTION_NUMBER -1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I172@CNMECH.PIPELIGHT_1LED(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i172@c~
+nmech.pipelight_1led(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i172@c~
+nmech.pipelight_1led(chips)',
+ PATH='I172',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ TYPE='7511A85',
+ PHYS_PAGE='1',
+ XY='(6050,-2350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnmech',
+ CDS_PART_NAME='PIPELIGHT_1LED-7511A85',
+ PRIM_FILE='./archive_libs/cnmech/pipelight_1led/chips/chips.prt';
+
+PART_NAME
+ PL3 'PIPELIGHT_1LED-7511A85':;
+
+SECTION_NUMBER -1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I173@CNMECH.PIPELIGHT_1LED(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i173@c~
+nmech.pipelight_1led(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i173@c~
+nmech.pipelight_1led(chips)',
+ PATH='I173',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ TYPE='7511A85',
+ PHYS_PAGE='1',
+ XY='(6050,-2675)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnmech',
+ CDS_PART_NAME='PIPELIGHT_1LED-7511A85',
+ PRIM_FILE='./archive_libs/cnmech/pipelight_1led/chips/chips.prt';
 
 PART_NAME
  R1 'RSMD0603_1/10W-4.7K,1%':;
@@ -403,8 +747,7 @@ npassive.rsmd0603(chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R2 'RSMD0603_1/10W-10K,1%':;
@@ -437,8 +780,7 @@ npassive.rsmd0603(chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='10K',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R3 'RSMD0603_1/10W-4.7K,1%':;
@@ -471,8 +813,7 @@ npassive.rsmd0603(chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R4 'RSMD0603_1/10W-4.7K,1%':;
@@ -505,8 +846,7 @@ npassive.rsmd0603(chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R5 'RSMD0603_1/16W-XX,5%':;
@@ -530,7 +870,7 @@ npassive.rsmd0603(chips)',
  DIST='FLAT',
  POWER='RMAX',
  PHYS_PAGE='1',
- XY='(-400,-4175)',
+ XY='(-925,-4650)',
  ROT='0',
  VER='1',
  PACK_TYPE='1/16W',
@@ -539,8 +879,7 @@ npassive.rsmd0603(chips)',
  VOLTAGE='RVMAX',
  TOL='5%',
  VALUE='XX',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
  R6 'RSMD0603_1/16W-XX,5%':;
@@ -564,7 +903,7 @@ npassive.rsmd0603(chips)',
  DIST='FLAT',
  POWER='RMAX',
  PHYS_PAGE='1',
- XY='(1775,-4125)',
+ XY='(725,-4600)',
  ROT='0',
  VER='1',
  PACK_TYPE='1/16W',
@@ -573,7 +912,60 @@ npassive.rsmd0603(chips)',
  VOLTAGE='RVMAX',
  TOL='5%',
  VALUE='XX',
- PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
-chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R7 'RSMD0603_1/16W-XX,5%':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I187@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i187@c~
+npassive.rsmd0603(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i187@c~
+npassive.rsmd0603(chips)',
+ PATH='I187',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ PHYS_PAGE='1',
+ XY='(5575,-1725)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/16W-XX,5%',
+ VOLTAGE='RVMAX',
+ TOL='5%',
+ VALUE='XX',
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ RG1 'LD3985M25R':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I182@CNLINEAR.LD3985(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i182@c~
+nlinear.ld3985(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i182@c~
+nlinear.ld3985(chips)',
+ PATH='I182',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ TYPE='LD3985M25R',
+ PHYS_PAGE='1',
+ XY='(2050,-4150)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SOT23',
+ CDS_LIB='cnlinear',
+ CDS_PART_NAME='LD3985M25R',
+ PRIM_FILE='./archive_libs/cnlinear/ld3985/chips/chips.prt';
 
 END.

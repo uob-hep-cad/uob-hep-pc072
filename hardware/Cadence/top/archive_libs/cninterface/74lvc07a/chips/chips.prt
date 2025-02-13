@@ -1,0 +1,25 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' Created/Modified on Thu Sep 18 10:49:21 2003' ;
+primitive '74LVC07A_SOIC';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(13,11,9,5,3,1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'Y'<0>:
+      PIN_NUMBER='(12,10,8,6,4,2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    POWER_PINS='(VCC:14)';
+    POWER_PINS='(GND:7)';
+    CLASS='IC';
+    PART_NAME='74LVC07A';
+    PHYS_DES_PREFIX='IC';
+    JEDEC_TYPE='SOIC14S_127';
+    BODY_NAME='74LVC07A';
+    PART_NUMBER='SN74LVC07AD';
+    MANUFACTURER='TI';
+    DESCRIPTION='HEX BUFFERS / DRIVERS WITH OPEN-DRAIN OUTPUTS';
+  end_body;
+end_primitive;
+END.

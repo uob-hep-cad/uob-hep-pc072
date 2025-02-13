@@ -1,0 +1,36 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'LD3985_SOT23';
+  pin
+    'VI':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'VINH':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='INPUT';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'BYPASS':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'VO':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+    'GND':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+  end_pin;
+  body
+    CLASS='IC';
+    PART_NAME='LD3985';
+    BODY_NAME='LD3985';
+  end_body;
+end_primitive;
+END.

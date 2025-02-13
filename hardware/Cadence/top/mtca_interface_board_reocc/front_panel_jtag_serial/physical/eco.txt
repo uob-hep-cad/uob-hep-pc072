@@ -2,46 +2,80 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  Z:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_20.brd            |
-|                                                    Tue Jul 30 10:03:10 2024  |
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
+|                                                    Thu Feb 13 12:55:29 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  MMC_RESET*   pins MOVED FROM this net (to net name listed on right)
-                                 J5.6            102.868 48.3132
-                                                      UNNAMED_1_RSMD0603_I170_A
-                                 R6.1            134.288 62.7732
-                                                      UNNAMED_1_RSMD0603_I170_A
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R6.2            132.788 62.7732
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  MMC_SPARE    pins MOVED FROM this net (to net name listed on right)
-                                 J5.7            104.138 49.5832
-                                                      UNNAMED_1_RSMD0603_I169_B
-                                 R5.2            134.288 56.6732
-                                                      UNNAMED_1_RSMD0603_I169_B
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 R5.1            132.788 56.6732
+  VCC3V3       pins ADDED TO this existing net (pins not previously on any net)
+                                 C3.2            66.8303 53.9303
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  Z:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_20.brd            |
-|                                                    Tue Jul 30 10:03:10 2024  |
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
+|                                                    Thu Feb 13 12:55:29 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SHF-105-01-X-D-SM-SHF-105-01-X-D-SM
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
+|                                                    Thu Feb 13 12:55:29 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J5                  SHF-105-01-X-D-SM-SHF-105-01-X-D-SM 104.138 45.7732 SHF-105-01-L-D-RA-SHF-105-01-L-D-RA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
+|                                                    Thu Feb 13 12:55:29 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R5.2           133.538 56.6732 XY             (-400,-4175)
- R6.2           133.538 62.7732 XY             (1775,-4125)
+ C3.2           66.3000 53.4000 XY             (4600,-1800)
+ J5.10                          PRIM_FILE      ./archive_libs/cds_discrete/shf#2d105#2d01#2dx#2dd#2dsm/chips/chips.prt
+ J5.10                          XY             (-225,-4600)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
-|       Slot property added   :       2                                        |
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
+|                                                    Thu Feb 13 12:55:29 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J5.1                           CDS_PINID      A(0)
+ J5.2                           CDS_PINID      A(1)
+ J5.3                           CDS_PINID      A(2)
+ J5.4                           CDS_PINID      A(3)
+ J5.5                           CDS_PINID      A(4)
+ J5.6                           CDS_PINID      A(5)
+ J5.7                           CDS_PINID      A(6)
+ J5.8                           CDS_PINID      A(7)
+ J5.9                           CDS_PINID      A(8)
+ J5.10                          CDS_PINID      A(9)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       1                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Pin property added    :      10                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:       8                                        |
+|   Total ECO changes reported:      16                                        |
 |------------------------------------------------------------------------------|
