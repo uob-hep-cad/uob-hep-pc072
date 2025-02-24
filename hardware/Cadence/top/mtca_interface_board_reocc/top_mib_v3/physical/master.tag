@@ -1,1 +1,1 @@
-mib_rev3b_v226.brd
+wurth_smsw.dra
