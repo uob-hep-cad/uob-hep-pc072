@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2025-01-23T13:09:23</modificationTime>
+    <modificationTime>2025-02-24T15:16:14</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="02_ power" view="sch_1">
       <lastids>
-        <instanceid>198</instanceid>
+        <instanceid>199</instanceid>
         <netid>164</netid>
-        <insttermid>535</insttermid>
+        <insttermid>537</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -3074,6 +3074,31 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I199</id>
+          <cellid>S19</cellid>
+          <name>page4_i195</name>
+          <pins>
+            <pin>
+              <id>M536</id>
+              <termid>T173</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M537</id>
+              <termid>T174</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N120" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -3332,6 +3357,7 @@
               <instance ref="i192"></instance>
               <instance ref="i193"></instance>
               <instance ref="i194"></instance>
+              <instance ref="i195"></instance>
             </instances>
           </page>
         </pages>

@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 24-Feb-2025 AT 13:14:03 }
+{ Packager-XL run on 24-Feb-2025 AT 15:16:38 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='24-Feb-2025 AT 13:14:03';
+ POST_TIME='24-Feb-2025 AT 15:16:38';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -9345,6 +9345,42 @@ ps)',
  PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME
+ R6 'RSMD0603_1/10W-75K,1%':
+ ROOM='POWER';
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I195@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page4_i195@cnpassive.rsmd0603(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_b~
+oard_reocc.\02_ power\(sch_1):page2_i195@cnpassive.rsmd0603(chips)',
+ PATH='I195',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ POWER='RMAX',
+ DESIGNATORNAMEPROP='POWER',
+ PHYS_PAGE='2',
+ XY='(3125,-2925)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='1/10W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-75K,1%',
+ VOLTAGE='RVMAX',
+ ROOM='POWER',
+ TOL='1%',
+ VALUE='75K',
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
  R7 'RSMD0603_1/16W-270,1%':;
 
 SECTION_NUMBER 1
@@ -11092,7 +11128,7 @@ oard_reocc.\02_ power\(sch_1):page3_145p@discrete.r(chips)',
  PRIM_FILE='./discrete/r/chips/chips.prt';
 
 PART_NAME
- R60 'RSMD0603_1/10W-1.6K,1%':
+ R60 'RSMD0603_1/10W-5.6K,1%':
  ROOM='POWER';
 
 SECTION_NUMBER 1
@@ -11120,11 +11156,11 @@ oard_reocc.\02_ power\(sch_1):page2_i145@cnpassive.rsmd0603(chips)',
  VER='1',
  PACK_TYPE='1/10W',
  CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0603_1/10W-1.6K,1%',
+ CDS_PART_NAME='RSMD0603_1/10W-5.6K,1%',
  VOLTAGE='RVMAX',
  ROOM='POWER',
  TOL='1%',
- VALUE='1.6K',
+ VALUE='5.6K',
  PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
 
 PART_NAME

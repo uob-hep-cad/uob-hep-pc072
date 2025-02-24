@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 24-Feb-2025 AT 13:14:03 }
-TIME=' COMPILATION ON 24-Feb-2025 AT 13:14:03';
+{ Packager-XL run on 24-Feb-2025 AT 15:16:38 }
+TIME=' COMPILATION ON 24-Feb-2025 AT 15:16:38';
 primitive '155060RS73200';body 'WURTH_SMSW';
     'WURTH SMSW':'(1)';
     'A':'(2)';
@@ -830,6 +830,14 @@ primitive 'RSMD0603_1/10W-1.6K,1%';body 'RSMD0603';
     'B'<0>:'(2)';BIDI;
 end_primitive;
 primitive 'RSMD0603_1/10W-20,1%';body 'RSMD0603';
+    'A'<0>:'(1)';BIDI;
+    'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'RSMD0603_1/10W-5.6K,1%';body 'RSMD0603';
+    'A'<0>:'(1)';BIDI;
+    'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'RSMD0603_1/10W-75K,1%';body 'RSMD0603';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
 end_primitive;
