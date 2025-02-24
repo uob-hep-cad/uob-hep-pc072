@@ -1,6 +1,14 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 02-Sep-2024 AT 08:02:45 }
-TIME=' COMPILATION ON 02-Sep-2024 AT 08:02:45';
+{ Packager-XL run on 24-Feb-2025 AT 13:14:03 }
+TIME=' COMPILATION ON 24-Feb-2025 AT 13:14:03';
+primitive '155060RS73200';body 'WURTH_SMSW';
+    'WURTH SMSW':'(1)';
+    'A':'(2)';
+end_primitive;
+primitive '155124BS73200';body 'WURTH_SMSW';
+    'WURTH SMSW':'(1)';
+    'A':'(2)';
+end_primitive;
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';body '24AA025E48T-I/SN';
     'A0':'(1)';IN;
     'A1':'(2)';IN;
@@ -1275,14 +1283,6 @@ primitive 'TRANS MOSFET_GSD-PJE8408,SOT523';body 'TRANS MOSFET';
     'D':'(3)';
 end_primitive;
 primitive 'TVS_2X-PGB1010603NR,TVS_2X-D06A';body 'TVS_2X';
-    'K':'(1)';
-    'A':'(2)';
-end_primitive;
-primitive 'WURTH_155060BS73200';body 'WURTH_155060BS73200';
-    'K':'(1)';
-    'A':'(2)';
-end_primitive;
-primitive 'WURTH_155060RS73200';body 'WURTH_155060RS73200';
     'K':'(1)';
     'A':'(2)';
 end_primitive;
