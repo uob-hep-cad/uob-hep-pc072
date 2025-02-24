@@ -1,5 +1,79 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 02-Sep-2024 AT 08:02:45 }
+{ Packager-XL run on 24-Feb-2025 AT 13:14:03 }
+primitive '155060RS73200';
+  pin
+    'WURTH SMSW':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='WURTH_SMSW';
+      DESCRIPTION='RED';
+      BODY_NAME='WURTH_SMSW';
+      JEDEC_TYPE='WURTH_SMSW';
+      PHYS_DES_PREFIX='DS';
+      CLASS='DISCRETE';
+      CI='WURTH';
+      PART_NUMBER='155060RS73200';
+      PART_DESCRIPTION='Wurth, SMSW, LED, Red, SMD, 0603 [1608 Metric], 20 mA, 2~
+ V, 624 nm';
+      PARENT_PART_TYPE='WURTH_SMSW_SMD';
+      PARENT_PPT='WURTH_SMSW';
+      PARENT_PPT_PART='155060RS73200';
+  end_body;
+end_primitive;
+primitive '155124BS73200';
+  pin
+    'WURTH SMSW':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='WURTH_SMSW';
+      DESCRIPTION='BLUE';
+      BODY_NAME='WURTH_SMSW';
+      JEDEC_TYPE='WURTH_SMSW';
+      PHYS_DES_PREFIX='DS';
+      CLASS='DISCRETE';
+      CI='WURTH';
+      PART_NUMBER='155124BS73200';
+      PART_DESCRIPTION='Wurth, SMSW, LED, Side View, Round, Blue, SMD, 25 mA, 3.~
+4 V, 470 nm';
+      PARENT_PART_TYPE='WURTH_SMSW_SMD';
+      PARENT_PPT='WURTH_SMSW';
+      PARENT_PPT_PART='155124BS73200';
+  end_body;
+end_primitive;
 primitive '24AA025E48T-I/SN-24AA025E48T-IB';
   pin
     'A0':
@@ -8490,64 +8564,6 @@ primitive 'TVS_2X-PGB1010603NR,TVS_2X-D06A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='TVS_2X';
       PARENT_PPT_PART='TVS_2X-PGB1010603NR,TVS_2X';
-  end_body;
-end_primitive;
-primitive 'WURTH_155060BS73200';
-  pin
-    'K':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'A':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='WURTH_155060BS73200';
-      BODY_NAME='WURTH_155060BS73200';
-      JEDEC_TYPE='155060YS73200';
-      PHYS_DES_PREFIX='DS';
-      CLASS='DISCRETE';
-  end_body;
-end_primitive;
-primitive 'WURTH_155060RS73200';
-  pin
-    'K':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'A':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='WURTH_155060RS73200';
-      BODY_NAME='WURTH_155060RS73200';
-      JEDEC_TYPE='155060YS73200';
-      PHYS_DES_PREFIX='DS';
-      CLASS='DISCRETE';
   end_body;
 end_primitive;
 END.

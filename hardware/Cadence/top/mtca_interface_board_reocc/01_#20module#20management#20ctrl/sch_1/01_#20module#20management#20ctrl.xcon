@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2025-01-23T13:12:15</modificationTime>
+    <modificationTime>2025-02-24T13:13:06</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>60</instanceid>
-        <netid>105</netid>
-        <insttermid>273</insttermid>
+        <instanceid>64</instanceid>
+        <netid>107</netid>
+        <insttermid>281</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -672,7 +672,7 @@
         <cell>
           <id>S20</id>
           <library>bris_cds_discrete</library>
-          <name>wurth_155060ys73200</name>
+          <name>wurth_smsw</name>
           <view>sym_1</view>
           <parameters>
           </parameters>
@@ -684,7 +684,7 @@
             </term>
             <term>
               <id>T170</id>
-              <name>k</name>
+              <name>wurth smsw</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -966,11 +966,11 @@
           <name>unnamed_1_rsmd0603_i242_a</name>
         </net>
         <net>
-          <id>N104</id>
+          <id>N106</id>
           <name>unnamed_1_rsmd0603_i249_b</name>
         </net>
         <net>
-          <id>N105</id>
+          <id>N107</id>
           <name>unnamed_1_rsmd0603_i250_b</name>
         </net>
         <net>
@@ -2493,7 +2493,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N104" />
+                <connection pinmsb="0" pinlsb="0" net="N106" />
               </connections>
             </pin>
           </pins>
@@ -2518,49 +2518,49 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N105" />
+                <connection pinmsb="0" pinlsb="0" net="N107" />
               </connections>
             </pin>
           </pins>
         </instance>
         <instance>
-          <id>I59</id>
+          <id>I63</id>
           <cellid>S20</cellid>
-          <name>page1_i246</name>
+          <name>page1_i251</name>
           <pins>
             <pin>
-              <id>M270</id>
+              <id>M278</id>
               <termid>T169</termid>
               <connections>
                 <connection net="N34" />
               </connections>
             </pin>
             <pin>
-              <id>M271</id>
+              <id>M279</id>
               <termid>T170</termid>
               <connections>
-                <connection net="N105" />
+                <connection net="N106" />
               </connections>
             </pin>
           </pins>
         </instance>
         <instance>
-          <id>I60</id>
+          <id>I64</id>
           <cellid>S20</cellid>
-          <name>page1_i247</name>
+          <name>page1_i252</name>
           <pins>
             <pin>
-              <id>M272</id>
+              <id>M280</id>
               <termid>T169</termid>
               <connections>
                 <connection net="N34" />
               </connections>
             </pin>
             <pin>
-              <id>M273</id>
+              <id>M281</id>
               <termid>T170</termid>
               <connections>
-                <connection net="N104" />
+                <connection net="N107" />
               </connections>
             </pin>
           </pins>
@@ -2716,10 +2716,10 @@
               <instance ref="i240"></instance>
               <instance ref="i241"></instance>
               <instance ref="i242"></instance>
-              <instance ref="i246"></instance>
-              <instance ref="i247"></instance>
               <instance ref="i249"></instance>
               <instance ref="i250"></instance>
+              <instance ref="i251"></instance>
+              <instance ref="i252"></instance>
             </instances>
           </page>
         </pages>
