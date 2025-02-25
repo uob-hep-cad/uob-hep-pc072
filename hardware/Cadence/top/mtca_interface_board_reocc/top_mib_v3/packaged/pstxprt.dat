@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 24-Feb-2025 AT 15:16:38 }
+{ Packager-XL run on 25-Feb-2025 AT 10:41:57 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='TOP_MIB_V3';
- POST_TIME='24-Feb-2025 AT 15:16:38';
+ POST_TIME='25-Feb-2025 AT 10:41:57';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -93,7 +93,8 @@ _0(chips)',
 
 PART_NAME
  C3 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='194';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I320@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -129,11 +130,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i320@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='194';
 
 PART_NAME
  C4 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='195';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I321@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -169,11 +172,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i321@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='195';
 
 PART_NAME
  C5 'CAPCERSMDCL2_0402-1UF,16V':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='193';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I754@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -195,11 +200,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i754@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='1UF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='193';
 
 PART_NAME
  C6 'CAPCERSMDCL2_0402-1UF,16V':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='217';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I762@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -221,11 +228,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i762@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='1UF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='217';
 
 PART_NAME
  C7 'CAPCERSMDCL2_0402-1UF,16V':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='206';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I767@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -247,11 +256,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i767@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='1UF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='206';
 
 PART_NAME
  C8 'CAPCERSMDCL2_0402-100NF,16V_GEA':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='5';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_151P@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -286,11 +297,13 @@ oard_reocc.\08_ timing\(sch_1):page3_151p@cnpassive.capcersmdcl2(chips)',
  ROOM='CLK_FO_6_11',
  ALT_SYMBOLS='',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='5';
 
 PART_NAME
  C9 'CAP_NP-GRM152R60J105ME15D,CAP_B':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='6';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_141P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -325,11 +338,13 @@ oard_reocc.\08_ timing\(sch_1):page3_141p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM152R60J105ME15D',
  VALUE='1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='6';
 
 PART_NAME
  C10 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_FO_0_5';
+ ROOM='CLK_FO_0_5',
+ REUSE_ID='1';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_160P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -365,11 +380,13 @@ oard_reocc.\08_ timing\(sch_1):page3_160p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='1';
 
 PART_NAME
  C11 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_FO_0_5';
+ ROOM='CLK_FO_0_5',
+ REUSE_ID='2';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_145P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -405,7 +422,8 @@ oard_reocc.\08_ timing\(sch_1):page3_145p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='2';
 
 PART_NAME
  C12 'CAPCERSMDCL2_0402-100NF,16V_GEN':
@@ -616,7 +634,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i755@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C19 'CAPCERSMDCL2_0402-100NF,16V_GEA':
- ROOM='CLK_FO_0_5';
+ ROOM='CLK_FO_0_5',
+ REUSE_ID='8';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_154P@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -651,7 +670,8 @@ oard_reocc.\08_ timing\(sch_1):page3_154p@cnpassive.capcersmdcl2(chips)',
  ROOM='CLK_FO_0_5',
  ALT_SYMBOLS='',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='8';
 
 PART_NAME
  C20 'CAP_NP-GRM152R60J105ME15D,CAP_B':
@@ -720,7 +740,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i759@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C22 'CAPCERSMDCL2_0402-1NF_X7R,50V':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='159';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I764@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -742,7 +763,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i764@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='50V',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='1NF_X7R',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='159';
 
 PART_NAME
  C23 'CAPCERSMDCL2_0603-1UF,16V':;
@@ -772,7 +794,8 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i418@cnpassive.capcersmdcl
 
 PART_NAME
  C24 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='194';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I787@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -794,7 +817,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i787@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='194';
 
 PART_NAME
  C25 'ELCAPTAN_SMD-220UF,25V':
@@ -873,7 +897,8 @@ oard_reocc.\08_ timing\(sch_1):page3_137p@ocad_parts_lib.cap_np_0(chips)',
 
 PART_NAME
  C27 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='202';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I785@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -895,11 +920,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i785@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='202';
 
 PART_NAME
  C28 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='136';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_290P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -935,11 +962,13 @@ oard_reocc.\08_ timing\(sch_1):page2_290p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='136';
 
 PART_NAME
  C29 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='158';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I786@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -961,7 +990,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i786@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='158';
 
 PART_NAME
  C30 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
@@ -1005,7 +1035,8 @@ oard_reocc.\08_ timing\(sch_1):page3_146p@ocad_parts_lib.cap_np_0(chips)',
 
 PART_NAME
  C31 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='143';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_259P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -1041,7 +1072,8 @@ oard_reocc.\08_ timing\(sch_1):page2_259p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='143';
 
 PART_NAME
  C32 'CAPCERSMDCL2_0402-100NF,16V_GEN':
@@ -1071,7 +1103,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i756@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C33 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='2';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_276P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -1107,11 +1140,13 @@ oard_reocc.\08_ timing\(sch_1):page2_276p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='2';
 
 PART_NAME
  C34 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='3';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_305P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -1147,11 +1182,13 @@ oard_reocc.\08_ timing\(sch_1):page2_305p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='3';
 
 PART_NAME
  C35 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='140';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_266P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -1187,11 +1224,13 @@ oard_reocc.\08_ timing\(sch_1):page2_266p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='140';
 
 PART_NAME
  C36 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='141';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_286P@OCAD_PARTS_LIB.CAP_NP_0(CHIPS)':
@@ -1227,7 +1266,8 @@ oard_reocc.\08_ timing\(sch_1):page2_286p@ocad_parts_lib.cap_np_0(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np_0/chips/chips.prt',
+ REUSE_ID='141';
 
 PART_NAME
  C37 'CAPCERSMDCL2_0402-100NF,16V_GEA':
@@ -1561,7 +1601,8 @@ _0(chips)',
 
 PART_NAME
  C46 'CAP_NP-GRM155R60J474KE19J,CAP_B':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='24';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_179P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -1598,7 +1639,8 @@ chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM155R60J474KE19J',
  VALUE='0.47UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='24';
 
 PART_NAME
  C47 'CAP_NP-445-8173-1-ND,CAP_NP-44A':
@@ -1680,7 +1722,8 @@ oard_reocc.\02_ power\(sch_1):page2_i168@ocad_parts_lib.cap_np(chips)',
 
 PART_NAME
  C49 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='263';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I757@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -1702,7 +1745,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i757@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='263';
 
 PART_NAME
  C50 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
@@ -1816,7 +1860,8 @@ oard_reocc.\02_ power\(sch_1):page2_i185@cnpassive.elcaptan(chips)',
 
 PART_NAME
  C53 'CAP_NP-C0402C104K9RACTU,CAP_NPA':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='5';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_198P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -1854,7 +1899,8 @@ chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='C0402C104K9RACTU',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='5';
 
 PART_NAME
  C54 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
@@ -1898,7 +1944,8 @@ oard_reocc.\02_ power\(sch_1):page3_i403@ocad_parts_lib.cap_np(chips)',
 
 PART_NAME
  C55 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
- ROOM='VCC1V8';
+ ROOM='VCC1V8',
+ REUSE_ID='179';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_144P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -1934,7 +1981,8 @@ oard_reocc.\02_ power\(sch_1):page3_144p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM21BR60J476ME15K',
  VALUE='47UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='179';
 
 PART_NAME
  C56 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
@@ -2095,7 +2143,8 @@ oard_reocc.\02_ power\(sch_1):page2_i170@ocad_parts_lib.cap_np(chips)',
 
 PART_NAME
  C60 'CAP_NP-GRM21BR60J476ME15K,CAP_B':
- ROOM='VCC1V8';
+ ROOM='VCC1V8',
+ REUSE_ID='172';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_180P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -2131,7 +2180,8 @@ oard_reocc.\02_ power\(sch_1):page3_180p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM21BR60J476ME15K',
  VALUE='47UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='172';
 
 PART_NAME
  C61 'TANTPOLY_SMD-220UF,6.3V':
@@ -2329,7 +2379,8 @@ oard_reocc.\02_ power\(sch_1):page2_i172@ocad_parts_lib.cap_np(chips)',
 
 PART_NAME
  C66 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='8';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_323P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -2367,7 +2418,8 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_323p@ocad_parts_lib.cap_np
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='8';
 
 PART_NAME
  C67 'TANTPOLY_SMD-220UF,6.3V':
@@ -3011,7 +3063,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i813@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C86 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='182';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_55P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3051,11 +3104,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='182';
 
 PART_NAME
  C87 'CAP_NP-GRM188R61A106KE69D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='190';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_49P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3096,11 +3151,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R61A106KE69D',
  VALUE='10UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='190';
 
 PART_NAME
  C88 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='181';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_61P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3141,11 +3198,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R60J226MEA0D',
  VALUE='22UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='181';
 
 PART_NAME
  C89 'CAP_NP-GRT155R61E105ME01D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='177';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_47P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3186,11 +3245,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRT155R61E105ME01D',
  VALUE='1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='177';
 
 PART_NAME
  C90 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='175';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_59P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3231,7 +3292,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='175';
 
 PART_NAME
  C91 'CAP_NP_0-445-7348-2-ND,CAP_NP_A':
@@ -3316,7 +3378,8 @@ oard_reocc.\02_ power\(sch_1):page1_118p@ocad_parts_lib.cap_np(chips)',
 
 PART_NAME
  C93 'CAP_NP-C0402C104K9RACTU,CAP_NPA':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='180';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_200P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3354,7 +3417,8 @@ chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='C0402C104K9RACTU',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='180';
 
 PART_NAME
  C94 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
@@ -3403,7 +3467,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
 
 PART_NAME
  C95 'CAP_NP-GRM31CD80J107ME39K,CAP_B':
- ROOM='MAIN_PWR';
+ ROOM='MAIN_PWR',
+ REUSE_ID='185';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_119P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3441,11 +3506,13 @@ oard_reocc.\02_ power\(sch_1):page1_119p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM31CD80J107ME39K',
  VALUE='100UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='185';
 
 PART_NAME
  C96 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='47';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_53P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3487,7 +3554,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R60J226MEA0D',
  VALUE='22UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='47';
 
 PART_NAME
  C97 'CAPCERSMDCL2_0402-100NF,16V_GEN':
@@ -3517,7 +3585,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i758@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C99 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='264';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I826@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -3539,11 +3608,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i826@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='264';
 
 PART_NAME
  C102 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='261';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I825@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -3565,11 +3636,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i825@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='261';
 
 PART_NAME
  C103 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='JTAG';
+ ROOM='JTAG',
+ REUSE_ID='23';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_321P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3607,11 +3680,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_321p@ocad_parts_lib.cap_np
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='23';
 
 PART_NAME
  C104 'CAP_NP-C0402C104K9RACTU,CAP_NPA':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='259';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_166P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3649,11 +3724,13 @@ chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='C0402C104K9RACTU',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='259';
 
 PART_NAME
  C107 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='195';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_55P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3693,11 +3770,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='195';
 
 PART_NAME
  C108 'CAP_NP-GRM188R61A106KE69D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='198';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_49P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3739,11 +3818,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R61A106KE69D',
  VALUE='10UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='198';
 
 PART_NAME
  C109 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='184';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_61P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3784,11 +3865,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R60J226MEA0D',
  VALUE='22UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='184';
 
 PART_NAME
  C110 'CAP_NP-GRT155R61E105ME01D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='201';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_47P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3828,7 +3911,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRT155R61E105ME01D',
  VALUE='1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='201';
 
 PART_NAME
  C111 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
@@ -3876,7 +3960,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
 
 PART_NAME
  C112 'CAP_NP-GRM188R61A106KE69D,CAP_B':
- ROOM='CLK_FO_0_5';
+ ROOM='CLK_FO_0_5',
+ REUSE_ID='207';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_157P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -3913,7 +3998,8 @@ oard_reocc.\08_ timing\(sch_1):page3_157p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R61A106KE69D',
  VALUE='10UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='207';
 
 PART_NAME
  C115 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
@@ -4099,7 +4185,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i780@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C125 'CAPCERSMDCL2_0402-1NF_X7R,50V':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='147';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I779@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4121,7 +4208,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i779@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='50V',
  ROOM='SFP_DFF_AND_FANOUT',
  VALUE='1NF_X7R',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='147';
 
 PART_NAME
  C126 'CAPCERSMDCL2_0603-10UF,6.3V':
@@ -4255,7 +4343,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i385@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C131 'CAPCERSMDCL2_0402-1UF,16V':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='196';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I360@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4277,7 +4366,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i360@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V',
  ROOM='CLK_GEN_X12',
  VALUE='1UF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='196';
 
 PART_NAME
  C132 'CAPCERSMDCL2_0402-1UF,16V':
@@ -4398,7 +4488,8 @@ oard_reocc.\08_ timing\(sch_1):page3_152p@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C136 'CAPCERSMDCL2_0402-100NF,16V_GEA':
- ROOM='CLK_FO_0_5';
+ ROOM='CLK_FO_0_5',
+ REUSE_ID='145';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_144P@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4433,7 +4524,8 @@ oard_reocc.\08_ timing\(sch_1):page3_144p@cnpassive.capcersmdcl2(chips)',
  ROOM='CLK_FO_0_5',
  ALT_SYMBOLS='',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='145';
 
 PART_NAME
  C137 'CAPCERSMDCL2_0402-100NF,16V_GEN':
@@ -4463,7 +4555,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i382@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C138 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='10';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I357@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4485,11 +4578,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i357@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='10';
 
 PART_NAME
  C139 'CAPCERSMDCL2_0402-100NF,16V_GEA':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='223';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I246@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4524,11 +4619,13 @@ oard_reocc.\08_ timing\(sch_1):page3_i246@cnpassive.capcersmdcl2(chips)',
  ROOM='CLK_FO_6_11',
  ALT_SYMBOLS='',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='223';
 
 PART_NAME
  C140 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='225';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_55P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -4569,7 +4666,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='225';
 
 PART_NAME
  C141 'CAP_NP-GRM188R61A106KE69D,CAP_B':
@@ -4645,7 +4743,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i353@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C143 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='214';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_61P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -4687,11 +4786,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R60J226MEA0D',
  VALUE='22UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='214';
 
 PART_NAME
  C144 'CAP_NP-GRT155R61E105ME01D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='213';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_47P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -4732,11 +4833,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRT155R61E105ME01D',
  VALUE='1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='213';
 
 PART_NAME
  C145 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='151';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_59P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -4777,11 +4880,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='445-7348-2-ND',
  VALUE='0.1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='151';
 
 PART_NAME
  C146 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='12';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I370@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4803,11 +4908,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i370@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='12';
 
 PART_NAME
  C147 'CAP_NP-GRM152R60J105ME15D,CAP_B':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='13';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_153P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -4842,7 +4949,8 @@ oard_reocc.\08_ timing\(sch_1):page3_153p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM152R60J105ME15D',
  VALUE='1UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='13';
 
 PART_NAME
  C148 'CAPCERSMDCL2_0402-100NF,16V_GEA':
@@ -4963,7 +5071,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i377@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C152 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='150';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I376@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -4985,7 +5094,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i376@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='150';
 
 PART_NAME
  C153 'CAPCERSMDCL2_0402-100NF,16V_GEN':
@@ -5041,7 +5151,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i374@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C155 'CAP_NP-GRM188R61A106KE69D,CAP_B':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='211';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_143P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -5078,7 +5189,8 @@ oard_reocc.\08_ timing\(sch_1):page3_143p@ocad_parts_lib.cap_np(chips)',
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R61A106KE69D',
  VALUE='10UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='211';
 
 PART_NAME
  C156 'CAP_NP-445-7348-2-ND,CAP_NP-44A':
@@ -5153,7 +5265,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i373@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C158 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='214';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I372@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5175,7 +5288,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i372@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='214';
 
 PART_NAME
  C159 'CAPCERSMDCL2_0402-100NF,16V_GEN':
@@ -5231,7 +5345,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i381@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C161 'CAP_NP-GRM188R60J226MEA0D,CAP_B':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='220';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_53P@OCAD_PARTS_LIB.CAP_NP(CHIPS)':
@@ -5273,11 +5388,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ALT_SYMBOLS='',
  PART_NUMBER='GRM188R60J226MEA0D',
  VALUE='22UF',
- PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/cap_np/chips/chips.prt',
+ REUSE_ID='220';
 
 PART_NAME
  C162 'CAPCERSMDCL2_0603-10UF,6.3V':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='205';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I380@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5299,7 +5416,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i380@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='6.3V',
  ROOM='CLK_GEN_X12',
  VALUE='10UF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='205';
 
 PART_NAME
  C163 'CAPCERSMDCL2_0603-10UF,6.3V':
@@ -5329,7 +5447,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i362@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C165 'CAPCERSMDCL2_0402-100NF,16V_GEA':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='4';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_155P@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5364,11 +5483,13 @@ oard_reocc.\08_ timing\(sch_1):page3_155p@cnpassive.capcersmdcl2(chips)',
  ROOM='CLK_FO_6_11',
  ALT_SYMBOLS='',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='4';
 
 PART_NAME
  C166 'CAPCERSMDCL2_0402-100NF,16V_GEA':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='202';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_136P@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5403,11 +5524,13 @@ oard_reocc.\08_ timing\(sch_1):page3_136p@cnpassive.capcersmdcl2(chips)',
  ROOM='CLK_FO_6_11',
  ALT_SYMBOLS='',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='202';
 
 PART_NAME
  C167 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='216';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I367@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5429,11 +5552,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i367@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='216';
 
 PART_NAME
  C168 'CAPCERSMDCL2_0402-1UF,16V':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='204';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I364@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5455,11 +5580,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i364@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V',
  ROOM='CLK_GEN_X12',
  VALUE='1UF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='204';
 
 PART_NAME
  C169 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='203';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I366@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5481,11 +5608,13 @@ oard_reocc.\08_ timing\(sch_1):page2_i366@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='203';
 
 PART_NAME
  C170 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='219';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I365@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5507,7 +5636,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i365@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='219';
 
 PART_NAME
  C171 'CAPCERSMDCL2_0603-10UF,6.3V':
@@ -5589,7 +5719,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i354@cnpassive.capcersmdcl2(chips)',
 
 PART_NAME
  C174 'CAPCERSMDCL2_0402-100NF,16V_GEN':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='146';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_I358@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
@@ -5611,7 +5742,8 @@ oard_reocc.\08_ timing\(sch_1):page2_i358@cnpassive.capcersmdcl2(chips)',
  VOLTAGE='16V_GEN',
  ROOM='CLK_GEN_X12',
  VALUE='100NF',
- PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt',
+ REUSE_ID='146';
 
 PART_NAME
  C175 'CAPCERSMDCL2_0402-100NF,16V_GEA':
@@ -6678,7 +6810,8 @@ oard_reocc.\02_ power\(sch_1):page1_121p@atcs.\led red 0603_0\(chips)',
 
 PART_NAME
  D5 'LED GREEN 0603_0-LNJ326W83RA,LB':
- ROOM='MMC';
+ ROOM='MMC',
+ REUSE_ID='174';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_191P@OCAD_PARTS_LIB.LED GREEN 0603_0(CHIPS)':
@@ -6718,11 +6851,13 @@ oard_reocc.\02_ power\(sch_1):page3_191p@ocad_parts_lib.\led green 0603_0\(chips
  ROOM='MMC',
  PART_NUMBER='LNJ326W83RA',
  VALUE='Green',
- PRIM_FILE='./ocad_parts_lib/led#20green#200603_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/led#20green#200603_0/chips/chips.prt',
+ REUSE_ID='174';
 
 PART_NAME
  D6 'LED GREEN 0603_0-LNJ326W83RA,LB':
- ROOM='POWER';
+ ROOM='POWER',
+ REUSE_ID='151';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I176@OCAD_PARTS_LIB.LED GREEN 0603_0(CHIPS)':
@@ -6755,7 +6890,8 @@ oard_reocc.\02_ power\(sch_1):page2_i176@ocad_parts_lib.\led green 0603_0\(chips
  ROOM='POWER',
  PART_NUMBER='LNJ326W83RA',
  VALUE='Green',
- PRIM_FILE='./ocad_parts_lib/led#20green#200603_0/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/led#20green#200603_0/chips/chips.prt',
+ REUSE_ID='151';
 
 PART_NAME
  D8 'TVS_2X-PGB1010603NR,TVS_2X-D06A':
@@ -6981,6 +7117,31 @@ h_smsw(chips)',
  CDS_LIB='bris_cds_discrete',
  CDS_PART_NAME='155060RS73200',
  VALUE='155060RS73200',
+ PRIM_FILE='./archive_libs/cds_discrete/wurth_smsw/chips/chips.prt';
+
+PART_NAME
+ DS2 '155124BS73200':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I251@BRIS_CDS_DISCRETE.WURTH_SMSW(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i251@bris_cds_discrete.wurt~
+h_smsw(chips)',
+ P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
+oard_reocc.\01_ module management ctrl\(sch_1):page1_i251@bris_cds_discrete.wurt~
+h_smsw(chips)',
+ PATH='I251',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
+ MANUF='',
+ DESIGNATORNAMEPROP='MMC',
+ PHYS_PAGE='1',
+ XY='(3150,-3875)',
+ ROT='3',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='155124BS73200',
+ VALUE='155124BS73200',
  PRIM_FILE='./archive_libs/cds_discrete/wurth_smsw/chips/chips.prt';
 
 PART_NAME
@@ -7692,7 +7853,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  PRIM_FILE='./ocad_parts_lib/con20p_sfp#2d1367073#2d1/chips/chips.prt';
 
 PART_NAME
- J4 'CONN30P-FTSH-115-01-L-DV,CONN3B':;
+ J4 'CONN30P-FTSH-115-01-L-DV,CONN3B':
+ REUSE_ID='212';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_341P@OCAD_PARTS_LIB.CONN30P(CHIPS)':
@@ -7716,7 +7878,8 @@ p(chips)',
  CDS_PART_NAME='CONN30P-FTSH-115-01-L-DV,CONN3B',
  PART_NUMBER='FTSH-115-01-L-DV',
  VALUE='FTSH-115-01-L-DV',
- PRIM_FILE='./ocad_parts_lib/conn30p/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/conn30p/chips/chips.prt',
+ REUSE_ID='212';
 
 PART_NAME
  J5 'TE0712 CONNECTOR-JB3-LSHM-130-B':;
@@ -7798,7 +7961,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  PRIM_FILE='./ocad_parts_lib/con20p_sfp#2d1367073#2d1/chips/chips.prt';
 
 PART_NAME
- J7 'MCH_CONNECTOR1-MCH1B-EDGE-170,B':;
+ J7 'MCH_CONNECTOR1-MCH1B-EDGE-170,B':
+ REUSE_ID='191';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_19P@OCAD_PARTS_LIB.MCH_CONNECTOR1(CHIPS)':
@@ -7830,7 +7994,8 @@ or1(chips)',
  CDS_PART_NAME='MCH_CONNECTOR1-MCH1B-EDGE-170,B',
  PART_NUMBER='MCH1B-EDGE-170',
  VALUE='MCH_TG1-EDGE-170',
- PRIM_FILE='./ocad_parts_lib/mch_connector1/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/mch_connector1/chips/chips.prt',
+ REUSE_ID='191';
 
 PART_NAME
  J8 'TE0712 CONNECTOR-JB2-LSHM-150-B':;
@@ -7984,7 +8149,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
 
 PART_NAME
  J12 'HDR1X3-HDR1X3,HDR1X3-HDR1X3,HDA':
- ROOM='USB-JTAG';
+ ROOM='USB-JTAG',
+ REUSE_ID='173';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_127P@OCAD_PARTS_LIB.HDR1X3(CHIPS)':
@@ -8017,7 +8183,8 @@ oard_reocc.\02_ power\(sch_1):page1_127p@ocad_parts_lib.hdr1x3(chips)',
  ROOM='USB-JTAG',
  PART_NUMBER='HDR1x3',
  VALUE='HDR1x3',
- PRIM_FILE='./ocad_parts_lib/hdr1x3/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/hdr1x3/chips/chips.prt',
+ REUSE_ID='173';
 
 PART_NAME
  J13 'SHF-105-01-L-D-SM':;
@@ -9032,31 +9199,6 @@ ps)',
  PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
 
 PART_NAME
- MMC '155124BS73200':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I251@BRIS_CDS_DISCRETE.WURTH_SMSW(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_i251@bris_cds_discrete.wurt~
-h_smsw(chips)',
- P_PATH='@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_b~
-oard_reocc.\01_ module management ctrl\(sch_1):page1_i251@bris_cds_discrete.wurt~
-h_smsw(chips)',
- PATH='I251',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1',
- MANUF='',
- DESIGNATORNAMEPROP='MMC',
- PHYS_PAGE='1',
- XY='(3150,-3875)',
- ROT='3',
- VER='1',
- PACK_TYPE='SMD',
- CDS_LIB='bris_cds_discrete',
- CDS_PART_NAME='155124BS73200',
- VALUE='155124BS73200',
- PRIM_FILE='./archive_libs/cds_discrete/wurth_smsw/chips/chips.prt';
-
-PART_NAME
  PL1 'HEADER2X1_STR-HARWIN':;
 
 SECTION_NUMBER 1
@@ -9162,7 +9304,8 @@ s)',
 
 PART_NAME
  R1 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='210';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I656@DISCRETE.R(CHIPS)':
@@ -9195,7 +9338,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i656@discrete.r(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  PART_NUMBER='ERJ-2RKF1000X',
  VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='210';
 
 PART_NAME
  R2 'RSMD0603_-00,':;
@@ -9490,7 +9634,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i810@discrete.r(chips)',
 
 PART_NAME
  R11 'RSMD0402_1/16W-1K,1%':
- ROOM='CLK_FO_0_5';
+ ROOM='CLK_FO_0_5',
+ REUSE_ID='199';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I182@CNPASSIVE.RSMD0402(CHIPS)':
@@ -9522,7 +9667,8 @@ oard_reocc.\08_ timing\(sch_1):page3_i182@cnpassive.rsmd0402(chips)',
  ROOM='CLK_FO_0_5',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='199';
 
 PART_NAME
  R13 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
@@ -9602,7 +9748,8 @@ oard_reocc.\02_ power\(sch_1):page1_i159@discrete.r(chips)',
 
 PART_NAME
  R17 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='208';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_279P@DISCRETE.R(CHIPS)':
@@ -9635,11 +9782,13 @@ oard_reocc.\08_ timing\(sch_1):page2_279p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='208';
 
 PART_NAME
  R19 'R-EMA-00007500V42,R-EMA-000075A':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='162';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I567@DISCRETE.R(CHIPS)':
@@ -9671,11 +9820,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i567@discrete.r(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='162';
 
 PART_NAME
  R20 'R-311-49.9LRCT-ND,R-311-49.9LRA':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='205';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_296P@DISCRETE.R(CHIPS)':
@@ -9706,11 +9857,13 @@ oard_reocc.\08_ timing\(sch_1):page2_296p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='311-49.9LRCT-ND',
  VALUE='49.9',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='205';
 
 PART_NAME
  R21 'R-ERJ-2RKF4990X,R-ERJ-2RKF4990A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='206';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_288P@DISCRETE.R(CHIPS)':
@@ -9742,11 +9895,13 @@ oard_reocc.\08_ timing\(sch_1):page2_288p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF4990X',
  VALUE='499 Ohm',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='206';
 
 PART_NAME
  R22 'R-ERJ-2RKF4990X,R-ERJ-2RKF4990A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='157';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_269P@DISCRETE.R(CHIPS)':
@@ -9778,11 +9933,13 @@ oard_reocc.\08_ timing\(sch_1):page2_269p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF4990X',
  VALUE='499 Ohm',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='157';
 
 PART_NAME
  R23 'R-311-49.9LRCT-ND,R-311-49.9LRA':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='161';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_299P@DISCRETE.R(CHIPS)':
@@ -9813,11 +9970,13 @@ oard_reocc.\08_ timing\(sch_1):page2_299p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='311-49.9LRCT-ND',
  VALUE='49.9',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='161';
 
 PART_NAME
  R24 'RSMD0402_1/16W-1K,1%':
- ROOM='CLK_FO_6_11';
+ ROOM='CLK_FO_6_11',
+ REUSE_ID='160';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE3_I252@CNPASSIVE.RSMD0402(CHIPS)':
@@ -9849,11 +10008,13 @@ oard_reocc.\08_ timing\(sch_1):page3_i252@cnpassive.rsmd0402(chips)',
  ROOM='CLK_FO_6_11',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='160';
 
 PART_NAME
  R25 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='156';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_302P@DISCRETE.R(CHIPS)':
@@ -9885,7 +10046,8 @@ oard_reocc.\08_ timing\(sch_1):page2_302p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF1000X',
  VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='156';
 
 PART_NAME
  R26 'R-EMA-00007500V42,R-EMA-000075A':
@@ -9925,7 +10087,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i798@discrete.r(chips)',
 
 PART_NAME
  R27 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='137';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_301P@DISCRETE.R(CHIPS)':
@@ -9957,11 +10120,13 @@ oard_reocc.\08_ timing\(sch_1):page2_301p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF1000X',
  VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='137';
 
 PART_NAME
  R28 'R-EMA-00007500V42,R-EMA-000075A':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='201';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I568@DISCRETE.R(CHIPS)':
@@ -9993,7 +10158,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i568@discrete.r(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='201';
 
 PART_NAME
  R29 'R-EMA-00007500V42,R-EMA-000075A':
@@ -10033,7 +10199,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i575@discrete.r(chips)',
 
 PART_NAME
  R30 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='204';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_298P@DISCRETE.R(CHIPS)':
@@ -10065,7 +10232,8 @@ oard_reocc.\08_ timing\(sch_1):page2_298p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF1000X',
  VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='204';
 
 PART_NAME
  R31 'R-311-24.9LRCT-ND,R-311-24.9LRA':
@@ -10248,7 +10416,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i558@discrete.r(chips)',
 
 PART_NAME
  R36 'R-EMA-00007500V42,R-EMA-000075A':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='208';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I559@DISCRETE.R(CHIPS)':
@@ -10280,11 +10449,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i559@discrete.r(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='208';
 
 PART_NAME
  R37 'RSMD0402_1/16W-1K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='199';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I726@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10316,11 +10487,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i726@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='199';
 
 PART_NAME
  R38 'RSMD0402_1/16W-1K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='198';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I732@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10352,11 +10525,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i732@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='198';
 
 PART_NAME
  R39 'R-ERJ-2RKF3302X,R-ERJ-2RKF3302A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='271';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_180P@DISCRETE.R(CHIPS)':
@@ -10388,11 +10563,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_180p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF3302X',
  VALUE='33k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='271';
 
 PART_NAME
  R40 'RSMD0402_1/16W-1K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='27';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I731@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10424,11 +10601,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i731@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='27';
 
 PART_NAME
  R41 'R-ERJ-2RKF4701X,R-ERJ-2RKF4701A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='270';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_170P@DISCRETE.R(CHIPS)':
@@ -10460,11 +10639,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_170p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF4701X',
  VALUE='4.7k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='270';
 
 PART_NAME
  R42 'RSMD0402_1/16W-1K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='28';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I733@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10496,11 +10677,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i733@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='28';
 
 PART_NAME
  R43 'RSMD0402_1/16W-2.2K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='269';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I727@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10532,11 +10715,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i727@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='2.2K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='269';
 
 PART_NAME
  R44 'R-ERJ-2RKF3302X,R-ERJ-2RKF3302A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='12';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_199P@DISCRETE.R(CHIPS)':
@@ -10568,11 +10753,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_199p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF3302X',
  VALUE='33k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='12';
 
 PART_NAME
  R45 'R-ERJ-2RKF3302X,R-ERJ-2RKF3302A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='272';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_189P@DISCRETE.R(CHIPS)':
@@ -10604,11 +10791,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_189p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF3302X',
  VALUE='33k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='272';
 
 PART_NAME
  R46 'RSMD0402_1/16W-2.2K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='262';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I729@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10640,11 +10829,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i729@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='2.2K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='262';
 
 PART_NAME
  R47 'R-ERJ-2RKF3302X,R-ERJ-2RKF3302A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='19';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_182P@DISCRETE.R(CHIPS)':
@@ -10676,7 +10867,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_182p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF3302X',
  VALUE='33k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='19';
 
 PART_NAME
  R48 'R-311-24.9LRCT-ND,R-311-24.9LRA':
@@ -10718,7 +10910,8 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_336p@discrete.r(chips)',
 
 PART_NAME
  R49 'RSMD0402_1/16W-2.2K,1%':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='268';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I728@CNPASSIVE.RSMD0402(CHIPS)':
@@ -10750,7 +10943,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i728@cnpassive.rsmd0402(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  TOL='1%',
  VALUE='2.2K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0402/chips/chips.prt',
+ REUSE_ID='268';
 
 PART_NAME
  R50 'R-311-24.9LRCT-ND,R-311-24.9LRA':
@@ -10830,7 +11024,8 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_332p@discrete.r(chips)',
 
 PART_NAME
  R52 'R-ERJ-2RKF4701X,R-ERJ-2RKF4701A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='267';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_184P@DISCRETE.R(CHIPS)':
@@ -10862,7 +11057,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_184p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF4701X',
  VALUE='4.7k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='267';
 
 PART_NAME
  R53 'R-311-24.9LRCT-ND,R-311-24.9LRA':
@@ -10943,7 +11139,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_172p@discrete.r(chips)',
 
 PART_NAME
  R55 'R-ERJ-2RKF49R9X,R-ERJ-2RKF49R9A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='7';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_203P@DISCRETE.R(CHIPS)':
@@ -10975,7 +11172,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_203p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF49R9X',
  VALUE='49.9',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='7';
 
 PART_NAME
  R56 'R-ERJ-2RKF49R9X,R-ERJ-2RKF49R9A':
@@ -11129,7 +11327,8 @@ oard_reocc.\02_ power\(sch_1):page3_145p@discrete.r(chips)',
 
 PART_NAME
  R60 'RSMD0603_1/10W-5.6K,1%':
- ROOM='POWER';
+ ROOM='POWER',
+ REUSE_ID='9';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I145@CNPASSIVE.RSMD0603(CHIPS)':
@@ -11161,7 +11360,8 @@ oard_reocc.\02_ power\(sch_1):page2_i145@cnpassive.rsmd0603(chips)',
  ROOM='POWER',
  TOL='1%',
  VALUE='5.6K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt',
+ REUSE_ID='9';
 
 PART_NAME
  R61 'R-ERJ-2RKF3302X,R-ERJ-2RKF3302A':
@@ -11301,7 +11501,8 @@ oard_reocc.\02_ power\(sch_1):page1_i166@cnpassive.rsmd0603(chips)',
 
 PART_NAME
  R65 'RSMD0603_1/10W-XX,1%':
- ROOM='POWER';
+ ROOM='POWER',
+ REUSE_ID='147';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE4_I144@CNPASSIVE.RSMD0603(CHIPS)':
@@ -11333,7 +11534,8 @@ oard_reocc.\02_ power\(sch_1):page2_i144@cnpassive.rsmd0603(chips)',
  ROOM='POWER',
  TOL='1%',
  VALUE='XX',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt',
+ REUSE_ID='147';
 
 PART_NAME
  R66 'RSMD0603_-00,':
@@ -11482,7 +11684,8 @@ oard_reocc.\02_ power\(sch_1):page2_i148@cnpassive.rsmd0603(chips)',
 
 PART_NAME
  R70 'RSMD0603_1/10W-1.6K,1%':
- ROOM='POWER';
+ ROOM='POWER',
+ REUSE_ID='178';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I145@CNPASSIVE.RSMD0603(CHIPS)':
@@ -11514,7 +11717,8 @@ oard_reocc.\02_ power\(sch_1):page1_i145@cnpassive.rsmd0603(chips)',
  ROOM='POWER',
  TOL='1%',
  VALUE='1.6K',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt',
+ REUSE_ID='178';
 
 PART_NAME
  R71 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
@@ -11592,7 +11796,8 @@ oard_reocc.\02_ power\(sch_1):page3_168p@discrete.r(chips)',
 
 PART_NAME
  R73 'R-EMA-00007500V42,R-EMA-000075A':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='144';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_299P@DISCRETE.R(CHIPS)':
@@ -11624,11 +11829,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_299p@discrete.r(chips)',
  ROOM='EEPROM',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='144';
 
 PART_NAME
  R74 'R-NO_STUFF,R-NO_STUFF,R,RES0402':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='163';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_298P@DISCRETE.R(CHIPS)':
@@ -11659,11 +11866,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_298p@discrete.r(chips)',
  ROOM='EEPROM',
  PART_NUMBER='NO_STUFF',
  VALUE='DNP',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='163';
 
 PART_NAME
  R75 'R-EMA-00007500V42,R-EMA-000075A':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='169';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_352P@DISCRETE.R(CHIPS)':
@@ -11695,11 +11904,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_352p@discrete.r(chips)',
  ROOM='EEPROM',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='169';
 
 PART_NAME
  R76 'R-NO_STUFF,R-NO_STUFF,R,RES0402':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='7';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_330P@DISCRETE.R(CHIPS)':
@@ -11730,11 +11941,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_330p@discrete.r(chips)',
  ROOM='EEPROM',
  PART_NUMBER='NO_STUFF',
  VALUE='DNP',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='7';
 
 PART_NAME
  R77 'R-EMA-00007500V42,R-EMA-000075A':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='6';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_300P@DISCRETE.R(CHIPS)':
@@ -11766,11 +11979,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_300p@discrete.r(chips)',
  ROOM='EEPROM',
  PART_NUMBER='EMA-00007500V42',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='6';
 
 PART_NAME
  R78 'R-NO_STUFF,R-NO_STUFF,R,RES0402':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='1';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_345P@DISCRETE.R(CHIPS)':
@@ -11801,11 +12016,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_345p@discrete.r(chips)',
  ROOM='EEPROM',
  PART_NUMBER='NO_STUFF',
  VALUE='DNP',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='1';
 
 PART_NAME
  R79 'RSMD0603_1/10W-XX,1%':
- ROOM='POWER';
+ ROOM='POWER',
+ REUSE_ID='2';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_I144@CNPASSIVE.RSMD0603(CHIPS)':
@@ -11837,10 +12054,12 @@ oard_reocc.\02_ power\(sch_1):page1_i144@cnpassive.rsmd0603(chips)',
  ROOM='POWER',
  TOL='1%',
  VALUE='XX',
- PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cnpassive/rsmd0603/chips/chips.prt',
+ REUSE_ID='2';
 
 PART_NAME
- R80 'R-ERJ-6GEY0R00V,R-ERJ-6GEY0R00A':;
+ R80 'R-ERJ-6GEY0R00V,R-ERJ-6GEY0R00A':
+ REUSE_ID='3';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_20P@DISCRETE.R(CHIPS)':
@@ -11870,7 +12089,8 @@ oard_reocc.\07_ backplane interface\(sch_1):page1_20p@discrete.r(chips)',
  CDS_PART_NAME='R-ERJ-6GEY0R00V,R-RES0805',
  PART_NUMBER='ERJ-6GEY0R00V',
  VALUE='0',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='3';
 
 PART_NAME
  R81 'R-DNF,R-DNF,R':;
@@ -12332,7 +12552,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_193p@discrete.r(chips)',
 
 PART_NAME
  R95 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='178';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_56P@DISCRETE.R(CHIPS)':
@@ -12370,11 +12591,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='178';
 
 PART_NAME
  R96 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='8';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_51P@DISCRETE.R(CHIPS)':
@@ -12412,7 +12635,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='8';
 
 PART_NAME
  R97 'R-EMA-00007500V42,R-EMA-000075A':
@@ -12452,7 +12676,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i574@discrete.r(chips)',
 
 PART_NAME
  R98 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='179';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_58P@DISCRETE.R(CHIPS)':
@@ -12490,11 +12715,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='179';
 
 PART_NAME
  R99 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='188';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_50P@DISCRETE.R(CHIPS)':
@@ -12532,7 +12759,8 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='188';
 
 PART_NAME
  R100 'RSMD0402_1/16W-2.2K,1%':
@@ -12572,7 +12800,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i730@cnpassive.rsmd0402(chips)',
 
 PART_NAME
  R102 'R-ERJ-2RKF33R0X,R-ERJ-2RKF33R0A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='174';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_188P@DISCRETE.R(CHIPS)':
@@ -12604,10 +12833,12 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_188p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF33R0X',
  VALUE='33',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='174';
 
 PART_NAME
- R103 'R-DNF,R-DNF,R':;
+ R103 'R-DNF,R-DNF,R':
+ REUSE_ID='256';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_I239@DISCRETE.R(CHIPS)':
@@ -12627,7 +12858,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_i239@discrete.r(chips)',
  CDS_LIB='discrete',
  CDS_PART_NAME='R-DNF,R',
  PART_NUMBER='DNF',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='256';
 
 PART_NAME
  R104 'R-ERJ-2RKF3903X,R-ERJ-2RKF3903A':
@@ -12666,7 +12898,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_201p@discrete.r(chips)',
 
 PART_NAME
  R105 'R-ERJ-PA2F3300X,R-ERJ-PA2F3300A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='13';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_169P@DISCRETE.R(CHIPS)':
@@ -12699,10 +12932,12 @@ _4.pdf',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-PA2F3300X',
  VALUE='330',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='13';
 
 PART_NAME
- R106 'R-M55342K11B10E0RS3,R-M55342K1A':;
+ R106 'R-M55342K11B10E0RS3,R-M55342K1A':
+ REUSE_ID='15';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_342P@DISCRETE.R(CHIPS)':
@@ -12731,11 +12966,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_342p@discrete.r(chips)',
  CDS_PART_NAME='R-M55342K11B10E0RS3,R-RES0402',
  PART_NUMBER='M55342K11B10E0RS3',
  VALUE='10K',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='15';
 
 PART_NAME
  R107 'R-ERJ-2RKF1001X,R-ERJ-2RKF1001A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='14';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_191P@DISCRETE.R(CHIPS)':
@@ -12767,11 +13004,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_191p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF1001X',
  VALUE='1k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='14';
 
 PART_NAME
  R108 'R-ERJ-2RKF1001X,R-ERJ-2RKF1001A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='16';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_175P@DISCRETE.R(CHIPS)':
@@ -12803,7 +13042,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_175p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF1001X',
  VALUE='1k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='16';
 
 PART_NAME
  R109 'R-ERJ-2RKF1001X,R-ERJ-2RKF1001A':
@@ -12843,7 +13083,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_162p@discrete.r(chips)',
 
 PART_NAME
  R110 'R-ERA-2AEB303X,R-ERA-2AEB303X,A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='21';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_168P@DISCRETE.R(CHIPS)':
@@ -12875,11 +13116,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_168p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERA-2AEB303X',
  VALUE='30k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='21';
 
 PART_NAME
  R111 'R-ERJ-2RKF1503X,R-ERJ-2RKF1503A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='32';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_187P@DISCRETE.R(CHIPS)':
@@ -12910,11 +13153,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_187p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF1503X',
  VALUE='150K',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='32';
 
 PART_NAME
  R112 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='22';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_52P@DISCRETE.R(CHIPS)':
@@ -12951,11 +13196,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='22';
 
 PART_NAME
  R113 'R-ERJ-2RKF1001X,R-ERJ-2RKF1001A':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='31';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_185P@DISCRETE.R(CHIPS)':
@@ -12987,11 +13234,13 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_185p@discrete.r(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='ERJ-2RKF1001X',
  VALUE='1k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='31';
 
 PART_NAME
  R114 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='30';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_56P@DISCRETE.R(CHIPS)':
@@ -13028,11 +13277,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='30';
 
 PART_NAME
  R115 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='204';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_51P@DISCRETE.R(CHIPS)':
@@ -13069,11 +13320,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='204';
 
 PART_NAME
  R116 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='29';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_58P@DISCRETE.R(CHIPS)':
@@ -13110,11 +13363,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='29';
 
 PART_NAME
  R117 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='196';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_50P@DISCRETE.R(CHIPS)':
@@ -13151,11 +13406,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='196';
 
 PART_NAME
  R119 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='203';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I399@DISCRETE.R(CHIPS)':
@@ -13188,11 +13445,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i399@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='203';
 
 PART_NAME
  R120 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='205';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I397@DISCRETE.R(CHIPS)':
@@ -13225,7 +13484,8 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i397@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='205';
 
 PART_NAME
  R121 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
@@ -13266,7 +13526,8 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i398@discrete.r(chips)',
 
 PART_NAME
  R122 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='214';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I396@DISCRETE.R(CHIPS)':
@@ -13299,11 +13560,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i396@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='214';
 
 PART_NAME
  R123 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='215';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_278P@DISCRETE.R(CHIPS)':
@@ -13336,11 +13599,13 @@ oard_reocc.\08_ timing\(sch_1):page2_278p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='215';
 
 PART_NAME
  R124 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='209';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I403@DISCRETE.R(CHIPS)':
@@ -13373,11 +13638,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i403@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='209';
 
 PART_NAME
  R125 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='208';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I401@DISCRETE.R(CHIPS)':
@@ -13410,11 +13677,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i401@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='208';
 
 PART_NAME
  R126 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='134';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I402@DISCRETE.R(CHIPS)':
@@ -13447,11 +13716,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i402@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='134';
 
 PART_NAME
  R127 'R-ERJ-2RKF2201X,R-ERJ-2RKF2201A':
- ROOM='SFP I2C SWITCH';
+ ROOM='SFP I2C SWITCH',
+ REUSE_ID='212';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_I400@DISCRETE.R(CHIPS)':
@@ -13484,11 +13755,13 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_i400@discrete.r(chips)',
  ROOM='SFP I2C SWITCH',
  PART_NUMBER='ERJ-2RKF2201X',
  VALUE='2.2k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='212';
 
 PART_NAME
  R128 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='213';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_52P@DISCRETE.R(CHIPS)':
@@ -13526,11 +13799,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='213';
 
 PART_NAME
  R129 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='216';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_270P@DISCRETE.R(CHIPS)':
@@ -13563,11 +13838,13 @@ oard_reocc.\08_ timing\(sch_1):page2_270p@discrete.r(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='216';
 
 PART_NAME
  R130 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='207';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_56P@DISCRETE.R(CHIPS)':
@@ -13605,11 +13882,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='207';
 
 PART_NAME
  R131 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='221';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_51P@DISCRETE.R(CHIPS)':
@@ -13647,11 +13926,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='221';
 
 PART_NAME
  R132 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='135';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_58P@DISCRETE.R(CHIPS)':
@@ -13689,11 +13970,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='135';
 
 PART_NAME
  R133 'R-ERJ-2RKF4991X,R-ERJ-2RKF4991A':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='218';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_50P@DISCRETE.R(CHIPS)':
@@ -13730,11 +14013,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='ERJ-2RKF4991X',
  VALUE='4.99k',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='218';
 
 PART_NAME
  R134 'R-ERJ-2RKF1000X,R-ERJ-2RKF1000A':
- ROOM='SFP_DFF_AND_FANOUT';
+ ROOM='SFP_DFF_AND_FANOUT',
+ REUSE_ID='217';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I660@DISCRETE.R(CHIPS)':
@@ -13767,11 +14052,13 @@ oard_reocc.\08_ timing\(sch_1):page1_i660@discrete.r(chips)',
  ROOM='SFP_DFF_AND_FANOUT',
  PART_NUMBER='ERJ-2RKF1000X',
  VALUE='100',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='217';
 
 PART_NAME
  R135 'R-EMA-00003608,R-EMA-00003608,A':
- ROOM='VCC3V3I_V';
+ ROOM='VCC3V3I_V',
+ REUSE_ID='219';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE1_111P@DISCRETE.R(CHIPS)':
@@ -13804,10 +14091,12 @@ oard_reocc.\02_ power\(sch_1):page1_111p@discrete.r(chips)',
  ROOM='VCC3V3I_V',
  PART_NUMBER='EMA-00003608',
  VALUE='249 Ohm',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='219';
 
 PART_NAME
- R136 'R-M55342K11B10E0RS3,R-M55342K1A':;
+ R136 'R-M55342K11B10E0RS3,R-M55342K1A':
+ REUSE_ID='222';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE2_340P@DISCRETE.R(CHIPS)':
@@ -13833,10 +14122,12 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page2_340p@discrete.r(chips)',
  CDS_PART_NAME='R-M55342K11B10E0RS3,R-RES0402',
  PART_NUMBER='M55342K11B10E0RS3',
  VALUE='10K',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='222';
 
 PART_NAME
- R137 'R-CRCW060310M0FKEAC,R-CRCW0603A':;
+ R137 'R-CRCW060310M0FKEAC,R-CRCW0603A':
+ REUSE_ID='198';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_6P@MTCA_INTERFACE_BOARD_REOCC.07_ BACKPLANE INTERFACE(SCH_1):PAGE2_26P@DISCRETE.R(CHIPS)':
@@ -13866,7 +14157,8 @@ oard_reocc.\07_ backplane interface\(sch_1):page1_26p@discrete.r(chips)',
  CDS_PART_NAME='R-CRCW060310M0FKEAC,R-RES0603',
  PART_NUMBER='CRCW060310M0FKEAC',
  VALUE='10M',
- PRIM_FILE='./discrete/r/chips/chips.prt';
+ PRIM_FILE='./discrete/r/chips/chips.prt',
+ REUSE_ID='198';
 
 PART_NAME
  R138 'R-CRCW060310M0FKEAC,R-CRCW0603A':;
@@ -15671,7 +15963,8 @@ oard_reocc.\02_ power\(sch_1):page1_i176@testpoint.testpoint(chips)',
 
 PART_NAME
  TP9 'TESTPOINT-EMA-00001481V22,TESTB':
- ROOM='VCC1V8';
+ ROOM='VCC1V8',
+ REUSE_ID='177';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_174P@TESTPOINT.TESTPOINT(CHIPS)':
@@ -15700,7 +15993,8 @@ oard_reocc.\02_ power\(sch_1):page3_174p@testpoint.testpoint(chips)',
  ROOM='VCC1V8',
  PART_NUMBER='EMA-00001481V22',
  VALUE='5002 White',
- PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
+ PRIM_FILE='./testpoint/testpoint/chips/chips.prt',
+ REUSE_ID='177';
 
 PART_NAME
  TP11 'TESTPOINT-EMA-00001481V22,TESTB':
@@ -15770,7 +16064,8 @@ oard_reocc.\02_ power\(sch_1):page1_i177@testpoint.testpoint(chips)',
 
 PART_NAME
  TP14 'TESTPOINT-EMA-00001481V22,TESTB':
- ROOM='VCC1V8';
+ ROOM='VCC1V8',
+ REUSE_ID='167';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_140P@TESTPOINT.TESTPOINT(CHIPS)':
@@ -15799,10 +16094,12 @@ oard_reocc.\02_ power\(sch_1):page3_140p@testpoint.testpoint(chips)',
  ROOM='VCC1V8',
  PART_NUMBER='EMA-00001481V22',
  VALUE='5002 White',
- PRIM_FILE='./testpoint/testpoint/chips/chips.prt';
+ PRIM_FILE='./testpoint/testpoint/chips/chips.prt',
+ REUSE_ID='167';
 
 PART_NAME
- U2 'MAX9381ESA_SMD-MAX9381ESA':;
+ U2 'MAX9381ESA_SMD-MAX9381ESA':
+ REUSE_ID='211';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE1_I649@BRIS_CDS_LOGIC.MAX9381ESA(CHIPS)':
@@ -15822,7 +16119,8 @@ oard_reocc.\08_ timing\(sch_1):page1_i649@bris_cds_logic.max9381esa(chips)',
  CDS_LIB='bris_cds_logic',
  CDS_PART_NAME='MAX9381ESA_SMD-MAX9381ESA',
  VALUE='MAX9381ESA',
- PRIM_FILE='./archive_libs/cds_logic/max9381esa/chips/chips.prt';
+ PRIM_FILE='./archive_libs/cds_logic/max9381esa/chips/chips.prt',
+ REUSE_ID='211';
 
 PART_NAME
  U4 'ATMGA128_TQFP-ATMEGA128A-AU,ATB':;
@@ -15851,7 +16149,8 @@ oard_reocc.\01_ module management ctrl\(sch_1):page1_i235@ocad_parts_lib.atmga12
 
 PART_NAME
  U5 'SFP_CAGE-2227023-1-2227023-1,SB':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='207';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_3P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_60P@OCAD_PARTS_LIB.SFP_CAGE-2227023-1(CHIPS)':
@@ -15885,11 +16184,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_3p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='2227023-1',
  VALUE='2227023-1',
- PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt',
+ REUSE_ID='207';
 
 PART_NAME
  U6 'SI5395A-A-GM-SI5395A-A-GM,SI53B':
- ROOM='CLK_GEN_X12';
+ ROOM='CLK_GEN_X12',
+ REUSE_ID='138';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_2P@MTCA_INTERFACE_BOARD_REOCC.08_ TIMING(SCH_1):PAGE2_285P@OCAD_PARTS_LIB.SI5395A-A-GM(CHIPS)':
@@ -15920,11 +16221,13 @@ oard_reocc.\08_ timing\(sch_1):page2_285p@ocad_parts_lib.\si5395a-a-gm\(chips)',
  ROOM='CLK_GEN_X12',
  PART_NUMBER='SI5395A-A-GM',
  VALUE='SI5395A-A-GM',
- PRIM_FILE='./ocad_parts_lib/si5395a#2da#2dgm/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/si5395a#2da#2dgm/chips/chips.prt',
+ REUSE_ID='138';
 
 PART_NAME
  U11 'SFP_CAGE-2227023-1-2227023-1,SB':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='209';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_4P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_60P@OCAD_PARTS_LIB.SFP_CAGE-2227023-1(CHIPS)':
@@ -15958,11 +16261,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_4p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='2227023-1',
  VALUE='2227023-1',
- PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt',
+ REUSE_ID='209';
 
 PART_NAME
  U14 'SFP_CAGE-2227023-1-2227023-1,SB':
- ROOM='SFP0';
+ ROOM='SFP0',
+ REUSE_ID='208';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_3P@MTCA_INTERFACE_BOARD_REOCC.03_ SFP(SCH_1):PAGE1_2P@MTCA_INTERFACE_BOARD_REOCC.04_ SFP_MODULE(SCH_1):PAGE1_60P@OCAD_PARTS_LIB.SFP_CAGE-2227023-1(CHIPS)':
@@ -15995,11 +16300,13 @@ oard_reocc.\03_ sfp\(sch_1):page1_2p@mtca_interface_board_reocc.\04_ sfp_module\
  ROOM='SFP0',
  PART_NUMBER='2227023-1',
  VALUE='2227023-1',
- PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/sfp_cage#2d2227023#2d1/chips/chips.prt',
+ REUSE_ID='208';
 
 PART_NAME
  U15 'INV_1CH_OD-SN74LVC1G06DBVTE4,IB':
- ROOM='MMC_DISCRETE';
+ ROOM='MMC_DISCRETE',
+ REUSE_ID='4';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_171P@OCAD_PARTS_LIB.INV_1CH_OD(CHIPS)':
@@ -16033,11 +16340,13 @@ _od(chips)',
  ROOM='MMC_DISCRETE',
  PART_NUMBER='SN74LVC1G06DBVTE4',
  VALUE='SN74LVC1G06',
- PRIM_FILE='./ocad_parts_lib/inv_1ch_od/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/inv_1ch_od/chips/chips.prt',
+ REUSE_ID='4';
 
 PART_NAME
  U16 'TPS74618P-TPS74618PQWDRVRQ1,TPB':
- ROOM='VCC1V8';
+ ROOM='VCC1V8',
+ REUSE_ID='171';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_1P@MTCA_INTERFACE_BOARD_REOCC.02_ POWER(SCH_1):PAGE2_159P@OCAD_PARTS_LIB.TPS74618P(CHIPS)':
@@ -16070,11 +16379,13 @@ df',
  ROOM='VCC1V8',
  PART_NUMBER='TPS74618PQWDRVRQ1',
  VALUE='TPS74618PQWDRVRQ1',
- PRIM_FILE='./ocad_parts_lib/tps74618p/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/tps74618p/chips/chips.prt',
+ REUSE_ID='171';
 
 PART_NAME
  U18 '24AA025E48T-I/SN-24AA025E48T-IB':
- ROOM='EEPROM';
+ ROOM='EEPROM',
+ REUSE_ID='5';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_4P@MTCA_INTERFACE_BOARD_REOCC.05 TRENZ TE0712 FPGA MODULE(SCH_1):PAGE1_316P@OCAD_PARTS_LIB.24AA025E48T-I/SN(CHIPS)':
@@ -16106,10 +16417,12 @@ oard_reocc.\05 trenz te0712 fpga module\(sch_1):page1_316p@ocad_parts_lib.\24aa0
  ROOM='EEPROM',
  PART_NUMBER='24AA025E48T-I/SN',
  VALUE='24AA025E48T-I/SN',
- PRIM_FILE='./ocad_parts_lib/24aa025e48t#2di#2fsn/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/24aa025e48t#2di#2fsn/chips/chips.prt',
+ REUSE_ID='5';
 
 PART_NAME
- U25 'LM75A-LM75AIMME/NOPB,LM75A-LM7A':;
+ U25 'LM75A-LM75AIMME/NOPB,LM75A-LM7A':
+ REUSE_ID='255';
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.TOP_MIB_V3(SCH_1):PAGE2_5P@MTCA_INTERFACE_BOARD_REOCC.01_ MODULE MANAGEMENT CTRL(SCH_1):PAGE1_163P@OCAD_PARTS_LIB.LM75A(CHIPS)':
@@ -16143,6 +16456,7 @@ f',
  CDS_PART_NAME='LM75A-LM75AIMME/NOPB,LM75A-TSSA',
  PART_NUMBER='LM75AIMME/NOPB',
  VALUE='LM75AIMME/NOPB',
- PRIM_FILE='./ocad_parts_lib/lm75a/chips/chips.prt';
+ PRIM_FILE='./ocad_parts_lib/lm75a/chips/chips.prt',
+ REUSE_ID='255';
 
 END.
