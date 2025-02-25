@@ -1,28 +1,31 @@
-{ Packager-XL run on 24-Feb-2025 AT 15:16:38 }
+{ Packager-XL run on 25-Feb-2025 AT 10:41:57 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page1";
 BODY = "R","108P": LOCATION = "R85" #&CDS_LOCATION = "R85" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","111P": LOCATION = "R135" #&CDS_LOCATION = "R135" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","111P": LOCATION = "R135" #&CDS_LOCATION = "R135" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "219";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "R","117P": LOCATION = "R86" #&CDS_LOCATION = "R86" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP","118P": LOCATION = "C92" #&CDS_LOCATION = "C92" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","119P": LOCATION = "C95" #&CDS_LOCATION = "C95" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","119P": LOCATION = "C95" #&CDS_LOCATION = "C95" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "185";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "LED RED 0603_0","121P": LOCATION = "D4" #&CDS_LOCATION = "D4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "A":   PN = "2"  !CDS_PN = "2";
 "K":   PN = "1"  !CDS_PN = "1";
 BODY = "CAP_NP_0","126P": LOCATION = "C91" #&CDS_LOCATION = "C91" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "HDR1X3","127P": LOCATION = "J12" #&CDS_LOCATION = "J12" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "HDR1X3","127P": LOCATION = "J12" #&CDS_LOCATION = "J12" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "173";
 "P1":   PN = "1"  !CDS_PN = "1";
 "P2":   PN = "2"  !CDS_PN = "2";
 "P3":   PN = "3"  !CDS_PN = "3";
@@ -55,10 +58,12 @@ BODY = "OPTOCOUPLER_AC_EC","I139": LOCATION = "IC5" #&CDS_LOCATION = "IC5" &SEC 
 BODY = "R","I141": LOCATION = "R33" #&CDS_LOCATION = "R33" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0603","I144": LOCATION = "R79" #&CDS_LOCATION = "R79" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0603","I144": LOCATION = "R79" #&CDS_LOCATION = "R79" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "2";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0603","I145": LOCATION = "R70" #&CDS_LOCATION = "R70" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0603","I145": LOCATION = "R70" #&CDS_LOCATION = "R70" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "178";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0603","I148": LOCATION = "R84" #&CDS_LOCATION = "R84" &SEC = "1" #&CDS_SEC = "1";
@@ -167,10 +172,12 @@ BODY = "PTH08T210W","I137": LOCATION = "PWR1" #&CDS_LOCATION = "PWR1" &SEC = "1"
 "VI<1>":   PN = "6"  !CDS_PN = "6";
 "VO<0>":   PN = "5"  !CDS_PN = "5";
 "VO<1>":   PN = "9"  !CDS_PN = "9";
-BODY = "RSMD0603","I144": LOCATION = "R65" #&CDS_LOCATION = "R65" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0603","I144": LOCATION = "R65" #&CDS_LOCATION = "R65" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "147";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0603","I145": LOCATION = "R60" #&CDS_LOCATION = "R60" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0603","I145": LOCATION = "R60" #&CDS_LOCATION = "R60" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "9";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0603","I148": LOCATION = "R69" #&CDS_LOCATION = "R69" &SEC = "1" #&CDS_SEC = "1";
@@ -197,7 +204,8 @@ BODY = "CAP_NP","I173": LOCATION = "C68" #&CDS_LOCATION = "C68" #SEC = "1" #&SEC
 BODY = "CAP_NP","I175": LOCATION = "C72" #&CDS_LOCATION = "C72" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "LED GREEN 0603_0","I176": LOCATION = "D6" #&CDS_LOCATION = "D6" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "LED GREEN 0603_0","I176": LOCATION = "D6" #&CDS_LOCATION = "D6" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "151";
 "A":   PN = "2"  !CDS_PN = "2";
 "K":   PN = "1"  !CDS_PN = "1";
 BODY = "R","I177": LOCATION = "R63" #&CDS_LOCATION = "R63" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -242,20 +250,23 @@ BODY = "RSMD0603","I195": LOCATION = "R6" #&CDS_LOCATION = "R6" &SEC = "1" #&CDS
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_1p@mtca_interface_board_reocc.\02_ power\(sch_1):page2";
 BODY = "R","138P": LOCATION = "R68" #&CDS_LOCATION = "R68" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "TESTPOINT","140P": LOCATION = "TP14" #&CDS_LOCATION = "TP14" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "TESTPOINT","140P": LOCATION = "TP14" #&CDS_LOCATION = "TP14" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "167";
 "TP":   PN = "1"  !CDS_PN = "1";
-BODY = "CAP_NP","144P": LOCATION = "C55" #&CDS_LOCATION = "C55" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","144P": LOCATION = "C55" #&CDS_LOCATION = "C55" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "179";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","145P": LOCATION = "R59" #&CDS_LOCATION = "R59" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP","149P": LOCATION = "C64" #&CDS_LOCATION = "C64" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "TPS74618P","159P": LOCATION = "U16" #&CDS_LOCATION = "U16" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "TPS74618P","159P": LOCATION = "U16" #&CDS_LOCATION = "U16" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "171";
 "EN":   PN = "4"  !CDS_PN = "4";
 "EPAD":   PN = "7"  !CDS_PN = "7";
 "GND":   PN = "3"  !CDS_PN = "3";
@@ -263,22 +274,25 @@ BODY = "TPS74618P","159P": LOCATION = "U16" #&CDS_LOCATION = "U16" #SEC = "1" #&
 "OUT":   PN = "1"  !CDS_PN = "1";
 "PG":   PN = "5"  !CDS_PN = "5";
 BODY = "R","168P": LOCATION = "R72" #&CDS_LOCATION = "R72" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "TESTPOINT","174P": LOCATION = "TP9" #&CDS_LOCATION = "TP9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "TESTPOINT","174P": LOCATION = "TP9" #&CDS_LOCATION = "TP9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "177";
 "TP":   PN = "1"  !CDS_PN = "1";
-BODY = "CAP_NP","180P": LOCATION = "C60" #&CDS_LOCATION = "C60" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","180P": LOCATION = "C60" #&CDS_LOCATION = "C60" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "172";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","190P": LOCATION = "R67" #&CDS_LOCATION = "R67" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "LED GREEN 0603_0","191P": LOCATION = "D5" #&CDS_LOCATION = "D5" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "LED GREEN 0603_0","191P": LOCATION = "D5" #&CDS_LOCATION = "D5" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "174";
 "A":   PN = "2"  !CDS_PN = "2";
 "K":   PN = "1"  !CDS_PN = "1";
 BODY = "CAP_NP","194P": LOCATION = "C57" #&CDS_LOCATION = "C57" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TRANS MOSFET","I398": LOCATION = "T2" #&CDS_LOCATION = "T2" &SEC = "1" #&CDS_SEC = "1";
 "D":   PN = "3"  !CDS_PN = "3";
 "G":   PN = "1"  !CDS_PN = "1";
@@ -303,11 +317,12 @@ BODY = "SY58608U","I557": LOCATION = "TIMING1" #&CDS_LOCATION = "TIMING1" &SEC =
 "VREF-AC":   PN = "3"  !CDS_PN = "3";
 "VT":   PN = "2"  !CDS_PN = "2";
 BODY = "R","I558": LOCATION = "R35" #&CDS_LOCATION = "R35" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I559": LOCATION = "R36" #&CDS_LOCATION = "R36" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I559": LOCATION = "R36" #&CDS_LOCATION = "R36" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "208";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "SY58608U","I564": LOCATION = "IC1" #&CDS_LOCATION = "IC1" &SEC = "1" #&CDS_SEC = "1";
 "IN":   PN = "1"  !CDS_PN = "1";
 "IN*":   PN = "4"  !CDS_PN = "4";
@@ -317,12 +332,14 @@ BODY = "SY58608U","I564": LOCATION = "IC1" #&CDS_LOCATION = "IC1" &SEC = "1" #&C
 "Q1*":   PN = "9"  !CDS_PN = "9";
 "VREF-AC":   PN = "3"  !CDS_PN = "3";
 "VT":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I567": LOCATION = "R19" #&CDS_LOCATION = "R19" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I568": LOCATION = "R28" #&CDS_LOCATION = "R28" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","I567": LOCATION = "R19" #&CDS_LOCATION = "R19" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "162";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I568": LOCATION = "R28" #&CDS_LOCATION = "R28" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "201";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "SY58608U","I571": LOCATION = "IC2" #&CDS_LOCATION = "IC2" &SEC = "1" #&CDS_SEC = "1";
 "IN":   PN = "1"  !CDS_PN = "1";
 "IN*":   PN = "4"  !CDS_PN = "4";
@@ -333,12 +350,13 @@ BODY = "SY58608U","I571": LOCATION = "IC2" #&CDS_LOCATION = "IC2" &SEC = "1" #&C
 "VREF-AC":   PN = "3"  !CDS_PN = "3";
 "VT":   PN = "2"  !CDS_PN = "2";
 BODY = "R","I574": LOCATION = "R97" #&CDS_LOCATION = "R97" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","I575": LOCATION = "R29" #&CDS_LOCATION = "R29" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "MAX9381ESA","I649": LOCATION = "U2" #&CDS_LOCATION = "U2" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "MAX9381ESA","I649": LOCATION = "U2" #&CDS_LOCATION = "U2" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "211";
 "CLK":   PN = "3"  !CDS_PN = "3";
 "CLK*":   PN = "4"  !CDS_PN = "4";
 "D":   PN = "1"  !CDS_PN = "1";
@@ -347,40 +365,50 @@ BODY = "MAX9381ESA","I649": LOCATION = "U2" #&CDS_LOCATION = "U2" &SEC = "1" #&C
 "Q*":   PN = "6"  !CDS_PN = "6";
 "VCC":   PN = "8"  !CDS_PN = "8";
 "VEE":   PN = "5"  !CDS_PN = "5";
-BODY = "R","I656": LOCATION = "R1" #&CDS_LOCATION = "R1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I660": LOCATION = "R134" #&CDS_LOCATION = "R134" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I726": LOCATION = "R37" #&CDS_LOCATION = "R37" &SEC = "1" #&CDS_SEC = "1";
+BODY = "R","I656": LOCATION = "R1" #&CDS_LOCATION = "R1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "210";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I660": LOCATION = "R134" #&CDS_LOCATION = "R134" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "217";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "RSMD0402","I726": LOCATION = "R37" #&CDS_LOCATION = "R37" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "199";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I727": LOCATION = "R43" #&CDS_LOCATION = "R43" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I727": LOCATION = "R43" #&CDS_LOCATION = "R43" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "269";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I728": LOCATION = "R49" #&CDS_LOCATION = "R49" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I728": LOCATION = "R49" #&CDS_LOCATION = "R49" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "268";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I729": LOCATION = "R46" #&CDS_LOCATION = "R46" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I729": LOCATION = "R46" #&CDS_LOCATION = "R46" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "262";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I730": LOCATION = "R100" #&CDS_LOCATION = "R100" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I731": LOCATION = "R40" #&CDS_LOCATION = "R40" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I731": LOCATION = "R40" #&CDS_LOCATION = "R40" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "27";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I732": LOCATION = "R38" #&CDS_LOCATION = "R38" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I732": LOCATION = "R38" #&CDS_LOCATION = "R38" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "198";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I733": LOCATION = "R42" #&CDS_LOCATION = "R42" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I733": LOCATION = "R42" #&CDS_LOCATION = "R42" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "28";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I753": LOCATION = "C12" #&CDS_LOCATION = "C12" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I754": LOCATION = "C5" #&CDS_LOCATION = "C5" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I754": LOCATION = "C5" #&CDS_LOCATION = "C5" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "193";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I755": LOCATION = "C18" #&CDS_LOCATION = "C18" &SEC = "1" #&CDS_SEC = "1";
@@ -389,7 +417,8 @@ BODY = "CAPCERSMDCL2","I755": LOCATION = "C18" #&CDS_LOCATION = "C18" &SEC = "1"
 BODY = "CAPCERSMDCL2","I756": LOCATION = "C32" #&CDS_LOCATION = "C32" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I757": LOCATION = "C49" #&CDS_LOCATION = "C49" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I757": LOCATION = "C49" #&CDS_LOCATION = "C49" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "263";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I758": LOCATION = "C97" #&CDS_LOCATION = "C97" &SEC = "1" #&CDS_SEC = "1";
@@ -401,19 +430,23 @@ BODY = "CAPCERSMDCL2","I759": LOCATION = "C21" #&CDS_LOCATION = "C21" &SEC = "1"
 BODY = "CAPCERSMDCL2","I760": LOCATION = "C13" #&CDS_LOCATION = "C13" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I762": LOCATION = "C6" #&CDS_LOCATION = "C6" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I762": LOCATION = "C6" #&CDS_LOCATION = "C6" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "217";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I764": LOCATION = "C22" #&CDS_LOCATION = "C22" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I764": LOCATION = "C22" #&CDS_LOCATION = "C22" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "159";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I765": LOCATION = "C14" #&CDS_LOCATION = "C14" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I767": LOCATION = "C7" #&CDS_LOCATION = "C7" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I767": LOCATION = "C7" #&CDS_LOCATION = "C7" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "206";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I779": LOCATION = "C125" #&CDS_LOCATION = "C125" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I779": LOCATION = "C125" #&CDS_LOCATION = "C125" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "147";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I780": LOCATION = "C122" #&CDS_LOCATION = "C122" &SEC = "1" #&CDS_SEC = "1";
@@ -425,13 +458,16 @@ BODY = "CAPCERSMDCL2","I782": LOCATION = "C118" #&CDS_LOCATION = "C118" &SEC = "
 BODY = "CAPCERSMDCL2","I784": LOCATION = "C15" #&CDS_LOCATION = "C15" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I785": LOCATION = "C27" #&CDS_LOCATION = "C27" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I785": LOCATION = "C27" #&CDS_LOCATION = "C27" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "202";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I786": LOCATION = "C29" #&CDS_LOCATION = "C29" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I786": LOCATION = "C29" #&CDS_LOCATION = "C29" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "158";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I787": LOCATION = "C24" #&CDS_LOCATION = "C24" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I787": LOCATION = "C24" #&CDS_LOCATION = "C24" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "194";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "R","I796": LOCATION = "R191" #&CDS_LOCATION = "R191" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -495,38 +531,48 @@ BODY = "CAPCERSMDCL2","I814": LOCATION = "C84" #&CDS_LOCATION = "C84" &SEC = "1"
 BODY = "CAPCERSMDCL2","I815": LOCATION = "C83" #&CDS_LOCATION = "C83" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I825": LOCATION = "C102" #&CDS_LOCATION = "C102" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I825": LOCATION = "C102" #&CDS_LOCATION = "C102" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "261";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I826": LOCATION = "C99" #&CDS_LOCATION = "C99" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I826": LOCATION = "C99" #&CDS_LOCATION = "C99" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "264";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page2";
-BODY = "CAP_NP_0","259P": LOCATION = "C31" #&CDS_LOCATION = "C31" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","266P": LOCATION = "C35" #&CDS_LOCATION = "C35" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP_0","259P": LOCATION = "C31" #&CDS_LOCATION = "C31" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "143";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP_0","266P": LOCATION = "C35" #&CDS_LOCATION = "C35" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "140";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "IND","268P": LOCATION = "L10" #&CDS_LOCATION = "L10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","269P": LOCATION = "R22" #&CDS_LOCATION = "R22" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","270P": LOCATION = "R129" #&CDS_LOCATION = "R129" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","276P": LOCATION = "C33" #&CDS_LOCATION = "C33" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","278P": LOCATION = "R123" #&CDS_LOCATION = "R123" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","279P": LOCATION = "R17" #&CDS_LOCATION = "R17" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "SI5395A-A-GM","285P": LOCATION = "U6" #&CDS_LOCATION = "U6" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "R","269P": LOCATION = "R22" #&CDS_LOCATION = "R22" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "157";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","270P": LOCATION = "R129" #&CDS_LOCATION = "R129" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "216";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP_0","276P": LOCATION = "C33" #&CDS_LOCATION = "C33" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","278P": LOCATION = "R123" #&CDS_LOCATION = "R123" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "215";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","279P": LOCATION = "R17" #&CDS_LOCATION = "R17" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "208";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "SI5395A-A-GM","285P": LOCATION = "U6" #&CDS_LOCATION = "U6" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "138";
 "A0/CSB":   PN = "19"  !CDS_PN = "19";
 "A1/SDO":   PN = "17"  !CDS_PN = "17";
 "FDEC":   PN = "25"  !CDS_PN = "25";
@@ -592,40 +638,51 @@ BODY = "SI5395A-A-GM","285P": LOCATION = "U6" #&CDS_LOCATION = "U6" #SEC = "1" #
 "X2/NC":   PN = "10"  !CDS_PN = "10";
 "XA/NC":   PN = "8"  !CDS_PN = "8";
 "XB/NC":   PN = "9"  !CDS_PN = "9";
-BODY = "CAP_NP_0","286P": LOCATION = "C36" #&CDS_LOCATION = "C36" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","288P": LOCATION = "R21" #&CDS_LOCATION = "R21" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","290P": LOCATION = "C28" #&CDS_LOCATION = "C28" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","296P": LOCATION = "R20" #&CDS_LOCATION = "R20" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","298P": LOCATION = "R30" #&CDS_LOCATION = "R30" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","299P": LOCATION = "R23" #&CDS_LOCATION = "R23" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","301P": LOCATION = "R27" #&CDS_LOCATION = "R27" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","302P": LOCATION = "R25" #&CDS_LOCATION = "R25" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","305P": LOCATION = "C34" #&CDS_LOCATION = "C34" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP_0","286P": LOCATION = "C36" #&CDS_LOCATION = "C36" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "141";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","288P": LOCATION = "R21" #&CDS_LOCATION = "R21" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "206";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP_0","290P": LOCATION = "C28" #&CDS_LOCATION = "C28" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "136";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","296P": LOCATION = "R20" #&CDS_LOCATION = "R20" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "205";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","298P": LOCATION = "R30" #&CDS_LOCATION = "R30" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "204";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","299P": LOCATION = "R23" #&CDS_LOCATION = "R23" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "161";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","301P": LOCATION = "R27" #&CDS_LOCATION = "R27" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "137";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","302P": LOCATION = "R25" #&CDS_LOCATION = "R25" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "156";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP_0","305P": LOCATION = "C34" #&CDS_LOCATION = "C34" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "3";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","I319": LOCATION = "R32" #&CDS_LOCATION = "R32" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP_0","I320": LOCATION = "C3" #&CDS_LOCATION = "C3" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "194";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","I320": LOCATION = "C3" #&CDS_LOCATION = "C3" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","I321": LOCATION = "C4" #&CDS_LOCATION = "C4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "CAP_NP_0","I321": LOCATION = "C4" #&CDS_LOCATION = "C4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "195";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "IND","I327": LOCATION = "L1" #&CDS_LOCATION = "L1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -643,8 +700,8 @@ BODY = "IND","I346": LOCATION = "L2" #&CDS_LOCATION = "L2" #SEC = "1" #&SEC_TYPE
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "R","I350": LOCATION = "R34" #&CDS_LOCATION = "R34" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAPCERSMDCL2","I353": LOCATION = "C142" #&CDS_LOCATION = "C142" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
@@ -657,16 +714,19 @@ BODY = "CAPCERSMDCL2","I355": LOCATION = "C132" #&CDS_LOCATION = "C132" &SEC = "
 BODY = "CAPCERSMDCL2","I356": LOCATION = "C134" #&CDS_LOCATION = "C134" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I357": LOCATION = "C138" #&CDS_LOCATION = "C138" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I357": LOCATION = "C138" #&CDS_LOCATION = "C138" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "10";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I358": LOCATION = "C174" #&CDS_LOCATION = "C174" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I358": LOCATION = "C174" #&CDS_LOCATION = "C174" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "146";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I359": LOCATION = "C133" #&CDS_LOCATION = "C133" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I360": LOCATION = "C131" #&CDS_LOCATION = "C131" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I360": LOCATION = "C131" #&CDS_LOCATION = "C131" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "196";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I361": LOCATION = "C172" #&CDS_LOCATION = "C172" &SEC = "1" #&CDS_SEC = "1";
@@ -678,16 +738,20 @@ BODY = "CAPCERSMDCL2","I362": LOCATION = "C163" #&CDS_LOCATION = "C163" &SEC = "
 BODY = "CAPCERSMDCL2","I363": LOCATION = "C129" #&CDS_LOCATION = "C129" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I364": LOCATION = "C168" #&CDS_LOCATION = "C168" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I364": LOCATION = "C168" #&CDS_LOCATION = "C168" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "204";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I365": LOCATION = "C170" #&CDS_LOCATION = "C170" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I365": LOCATION = "C170" #&CDS_LOCATION = "C170" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "219";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I366": LOCATION = "C169" #&CDS_LOCATION = "C169" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I366": LOCATION = "C169" #&CDS_LOCATION = "C169" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "203";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I367": LOCATION = "C167" #&CDS_LOCATION = "C167" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I367": LOCATION = "C167" #&CDS_LOCATION = "C167" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "216";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I368": LOCATION = "C171" #&CDS_LOCATION = "C171" &SEC = "1" #&CDS_SEC = "1";
@@ -696,13 +760,15 @@ BODY = "CAPCERSMDCL2","I368": LOCATION = "C171" #&CDS_LOCATION = "C171" &SEC = "
 BODY = "CAPCERSMDCL2","I369": LOCATION = "C127" #&CDS_LOCATION = "C127" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I370": LOCATION = "C146" #&CDS_LOCATION = "C146" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I370": LOCATION = "C146" #&CDS_LOCATION = "C146" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "12";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I371": LOCATION = "C159" #&CDS_LOCATION = "C159" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I372": LOCATION = "C158" #&CDS_LOCATION = "C158" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I372": LOCATION = "C158" #&CDS_LOCATION = "C158" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "214";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I373": LOCATION = "C157" #&CDS_LOCATION = "C157" &SEC = "1" #&CDS_SEC = "1";
@@ -714,7 +780,8 @@ BODY = "CAPCERSMDCL2","I374": LOCATION = "C154" #&CDS_LOCATION = "C154" &SEC = "
 BODY = "CAPCERSMDCL2","I375": LOCATION = "C153" #&CDS_LOCATION = "C153" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I376": LOCATION = "C152" #&CDS_LOCATION = "C152" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I376": LOCATION = "C152" #&CDS_LOCATION = "C152" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "150";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I377": LOCATION = "C151" #&CDS_LOCATION = "C151" &SEC = "1" #&CDS_SEC = "1";
@@ -726,7 +793,8 @@ BODY = "CAPCERSMDCL2","I378": LOCATION = "C150" #&CDS_LOCATION = "C150" &SEC = "
 BODY = "CAPCERSMDCL2","I379": LOCATION = "C149" #&CDS_LOCATION = "C149" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I380": LOCATION = "C162" #&CDS_LOCATION = "C162" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I380": LOCATION = "C162" #&CDS_LOCATION = "C162" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "205";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPCERSMDCL2","I381": LOCATION = "C160" #&CDS_LOCATION = "C160" &SEC = "1" #&CDS_SEC = "1";
@@ -749,62 +817,73 @@ BODY = "CAPCERSMDCL2","I389": LOCATION = "C126" #&CDS_LOCATION = "C126" &SEC = "
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_2p@mtca_interface_board_reocc.\08_ timing\(sch_1):page3";
 BODY = "CAP_NP","135P": LOCATION = "C20" #&CDS_LOCATION = "C20" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","136P": LOCATION = "C166" #&CDS_LOCATION = "C166" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAPCERSMDCL2","136P": LOCATION = "C166" #&CDS_LOCATION = "C166" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "202";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP_0","137P": LOCATION = "C26" #&CDS_LOCATION = "C26" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP","138P": LOCATION = "C121" #&CDS_LOCATION = "C121" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","141P": LOCATION = "C9" #&CDS_LOCATION = "C9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","141P": LOCATION = "C9" #&CDS_LOCATION = "C9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "6";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAPCERSMDCL2","142P": LOCATION = "C37" #&CDS_LOCATION = "C37" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","143P": LOCATION = "C155" #&CDS_LOCATION = "C155" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","143P": LOCATION = "C155" #&CDS_LOCATION = "C155" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "211";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","144P": LOCATION = "C136" #&CDS_LOCATION = "C136" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","145P": LOCATION = "C11" #&CDS_LOCATION = "C11" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAPCERSMDCL2","144P": LOCATION = "C136" #&CDS_LOCATION = "C136" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "145";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP_0","145P": LOCATION = "C11" #&CDS_LOCATION = "C11" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP_0","146P": LOCATION = "C30" #&CDS_LOCATION = "C30" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP","147P": LOCATION = "C38" #&CDS_LOCATION = "C38" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAPCERSMDCL2","148P": LOCATION = "C148" #&CDS_LOCATION = "C148" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","151P": LOCATION = "C8" #&CDS_LOCATION = "C8" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAPCERSMDCL2","151P": LOCATION = "C8" #&CDS_LOCATION = "C8" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "5";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAPCERSMDCL2","152P": LOCATION = "C135" #&CDS_LOCATION = "C135" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","153P": LOCATION = "C147" #&CDS_LOCATION = "C147" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","153P": LOCATION = "C147" #&CDS_LOCATION = "C147" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "13";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAPCERSMDCL2","154P": LOCATION = "C19" #&CDS_LOCATION = "C19" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "8";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAPCERSMDCL2","155P": LOCATION = "C165" #&CDS_LOCATION = "C165" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "4";
+"A<0>":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","157P": LOCATION = "C112" #&CDS_LOCATION = "C112" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "207";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","154P": LOCATION = "C19" #&CDS_LOCATION = "C19" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","155P": LOCATION = "C165" #&CDS_LOCATION = "C165" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","157P": LOCATION = "C112" #&CDS_LOCATION = "C112" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP_0","160P": LOCATION = "C10" #&CDS_LOCATION = "C10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP_0","160P": LOCATION = "C10" #&CDS_LOCATION = "C10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "ADCLK948","I178": LOCATION = "IC3" #&CDS_LOCATION = "IC3";
 "CLK0":   PN = "1"  !CDS_PN = "1";
 "CLK0*":   PN = "2"  !CDS_PN = "2";
@@ -837,7 +916,8 @@ BODY = "CAPCERSMDCL2","I179": LOCATION = "C187" #&CDS_LOCATION = "C187" &SEC = "
 BODY = "RSMD0402","I181": LOCATION = "R155" #&CDS_LOCATION = "R155" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I182": LOCATION = "R11" #&CDS_LOCATION = "R11" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I182": LOCATION = "R11" #&CDS_LOCATION = "R11" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "199";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I183": LOCATION = "R157" #&CDS_LOCATION = "R157" &SEC = "1" #&CDS_SEC = "1";
@@ -1040,10 +1120,12 @@ BODY = "ADCLK948","I244": LOCATION = "IC4" #&CDS_LOCATION = "IC4";
 BODY = "RSMD0402","I245": LOCATION = "R158" #&CDS_LOCATION = "R158" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPCERSMDCL2","I246": LOCATION = "C139" #&CDS_LOCATION = "C139" &SEC = "1" #&CDS_SEC = "1";
+BODY = "CAPCERSMDCL2","I246": LOCATION = "C139" #&CDS_LOCATION = "C139" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "223";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "RSMD0402","I252": LOCATION = "R24" #&CDS_LOCATION = "R24" &SEC = "1" #&CDS_SEC = "1";
+BODY = "RSMD0402","I252": LOCATION = "R24" #&CDS_LOCATION = "R24" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "160";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I253": LOCATION = "R156" #&CDS_LOCATION = "R156" &SEC = "1" #&CDS_SEC = "1";
@@ -1053,32 +1135,36 @@ BODY = "FERRITE","I255": LOCATION = "L9" #&CDS_LOCATION = "L9" &SEC = "1" #&CDS_
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_4p@mtca_interface_board_reocc.\05 trenz te0712 fpga module\(sch_1):page1";
-BODY = "R","298P": LOCATION = "R74" #&CDS_LOCATION = "R74" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "R","298P": LOCATION = "R74" #&CDS_LOCATION = "R74" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "163";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","299P": LOCATION = "R73" #&CDS_LOCATION = "R73" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "R","299P": LOCATION = "R73" #&CDS_LOCATION = "R73" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "144";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","300P": LOCATION = "R77" #&CDS_LOCATION = "R77" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","300P": LOCATION = "R77" #&CDS_LOCATION = "R77" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "6";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TVS_2X","301P": LOCATION = "D8" #&CDS_LOCATION = "D8" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"A":   PN = "2"  !CDS_PN = "2";
-"K":   PN = "1"  !CDS_PN = "1";
+"A":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+"K":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
 BODY = "MT_HOLE","304P": LOCATION = "MH3" #&CDS_LOCATION = "MH3" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
 BODY = "R","305P": LOCATION = "R53" #&CDS_LOCATION = "R53" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","306P": LOCATION = "R50" #&CDS_LOCATION = "R50" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "MT_HOLE","311P": LOCATION = "MH4" #&CDS_LOCATION = "MH4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
 BODY = "TVS_2X","314P": LOCATION = "D9" #&CDS_LOCATION = "D9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"A":   PN = "2"  !CDS_PN = "2";
-"K":   PN = "1"  !CDS_PN = "1";
-BODY = "24AA025E48T-I/SN","316P": LOCATION = "U18" #&CDS_LOCATION = "U18" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+"K":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+BODY = "24AA025E48T-I/SN","316P": LOCATION = "U18" #&CDS_LOCATION = "U18" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "5";
 "A0":   PN = "1"  !CDS_PN = "1";
 "A1":   PN = "2"  !CDS_PN = "2";
 "A2":   PN = "3"  !CDS_PN = "3";
@@ -1087,28 +1173,32 @@ BODY = "24AA025E48T-I/SN","316P": LOCATION = "U18" #&CDS_LOCATION = "U18" #SEC =
 "SDA":   PN = "5"  !CDS_PN = "5";
 "VCC":   PN = "8"  !CDS_PN = "8";
 "VSS":   PN = "4"  !CDS_PN = "4";
-BODY = "CAP_NP","321P": LOCATION = "C103" #&CDS_LOCATION = "C103" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","323P": LOCATION = "C66" #&CDS_LOCATION = "C66" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","321P": LOCATION = "C103" #&CDS_LOCATION = "C103" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "23";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","323P": LOCATION = "C66" #&CDS_LOCATION = "C66" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "8";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TVS_2X","326P": LOCATION = "D10" #&CDS_LOCATION = "D10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"A":   PN = "2"  !CDS_PN = "2";
-"K":   PN = "1"  !CDS_PN = "1";
-BODY = "R","330P": LOCATION = "R76" #&CDS_LOCATION = "R76" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"A":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+"K":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+BODY = "R","330P": LOCATION = "R76" #&CDS_LOCATION = "R76" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "7";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","332P": LOCATION = "R51" #&CDS_LOCATION = "R51" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","336P": LOCATION = "R48" #&CDS_LOCATION = "R48" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TVS_2X","338P": LOCATION = "D11" #&CDS_LOCATION = "D11" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"A":   PN = "2"  !CDS_PN = "2";
-"K":   PN = "1"  !CDS_PN = "1";
-BODY = "CONN30P","341P": LOCATION = "J4" #&CDS_LOCATION = "J4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+"K":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+BODY = "CONN30P","341P": LOCATION = "J4" #&CDS_LOCATION = "J4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "212";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 "3":   PN = "3"  !CDS_PN = "3";
@@ -1141,9 +1231,10 @@ BODY = "CONN30P","341P": LOCATION = "J4" #&CDS_LOCATION = "J4" #SEC = "1" #&SEC_
 "30":   PN = "30"  !CDS_PN = "30";
 BODY = "MT_HOLE","343P": LOCATION = "MH1" #&CDS_LOCATION = "MH1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
-BODY = "R","345P": LOCATION = "R78" #&CDS_LOCATION = "R78" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","345P": LOCATION = "R78" #&CDS_LOCATION = "R78" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "MT_HOLE","347P": LOCATION = "MH2" #&CDS_LOCATION = "MH2" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
 BODY = "7X2RECPT_SMD_2MM","349P": LOCATION = "J10" #&CDS_LOCATION = "J10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -1161,9 +1252,10 @@ BODY = "7X2RECPT_SMD_2MM","349P": LOCATION = "J10" #&CDS_LOCATION = "J10" #SEC =
 "12":   PN = "12"  !CDS_PN = "12";
 "13":   PN = "13"  !CDS_PN = "13";
 "14":   PN = "14"  !CDS_PN = "14";
-BODY = "R","352P": LOCATION = "R75" #&CDS_LOCATION = "R75" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","352P": LOCATION = "R75" #&CDS_LOCATION = "R75" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "169";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_4p@mtca_interface_board_reocc.\05 trenz te0712 fpga module\(sch_1):page2";
 BODY = "TE0712 CONNECTOR-JB2","307P": LOCATION = "J8" #&CDS_LOCATION = "J8" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "B14_L_8__N":   PN = "12"  !CDS_PN = "12";
@@ -1269,17 +1361,17 @@ BODY = "TE0712 CONNECTOR-JB2","307P": LOCATION = "J8" #&CDS_LOCATION = "J8" #SEC
 "VIN6":   PN = "5"  !CDS_PN = "5";
 "VIN7":   PN = "7"  !CDS_PN = "7";
 BODY = "CAP_NP_0","313P": LOCATION = "C39" #&CDS_LOCATION = "C39" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","322P": LOCATION = "R13" #&CDS_LOCATION = "R13" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP_0","327P": LOCATION = "C45" #&CDS_LOCATION = "C45" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP_0","329P": LOCATION = "C40" #&CDS_LOCATION = "C40" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TE0712 CONNECTOR-JB3","333P": LOCATION = "J5" #&CDS_LOCATION = "J5" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "13_L_14_N":   PN = "3"  !CDS_PN = "3";
 "13_L_14_P":   PN = "1"  !CDS_PN = "1";
@@ -1344,14 +1436,16 @@ BODY = "TE0712 CONNECTOR-JB3","333P": LOCATION = "J5" #&CDS_LOCATION = "J5" #SEC
 "NC1":   PN = "56"  !CDS_PN = "56";
 "NC2":   PN = "55"  !CDS_PN = "55";
 BODY = "CAP_NP_0","339P": LOCATION = "C43" #&CDS_LOCATION = "C43" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","340P": LOCATION = "R136" #&CDS_LOCATION = "R136" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","342P": LOCATION = "R106" #&CDS_LOCATION = "R106" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","340P": LOCATION = "R136" #&CDS_LOCATION = "R136" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "222";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","342P": LOCATION = "R106" #&CDS_LOCATION = "R106" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "15";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TE0712 CONNECTOR-JB1","350P": LOCATION = "J1" #&CDS_LOCATION = "J1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "3V3VIN0":   PN = "14"  !CDS_PN = "14";
 "3V3VIN1":   PN = "16"  !CDS_PN = "16";
@@ -1455,36 +1549,43 @@ BODY = "TE0712 CONNECTOR-JB1","350P": LOCATION = "J1" #&CDS_LOCATION = "J1" #SEC
 "VIN1":   PN = "2"  !CDS_PN = "2";
 "VIN2":   PN = "4"  !CDS_PN = "4";
 "VIN3":   PN = "6"  !CDS_PN = "6";
-BODY = "R","I396": LOCATION = "R122" #&CDS_LOCATION = "R122" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I397": LOCATION = "R120" #&CDS_LOCATION = "R120" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","I396": LOCATION = "R122" #&CDS_LOCATION = "R122" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "214";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I397": LOCATION = "R120" #&CDS_LOCATION = "R120" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "205";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","I398": LOCATION = "R121" #&CDS_LOCATION = "R121" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I399": LOCATION = "R119" #&CDS_LOCATION = "R119" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I400": LOCATION = "R127" #&CDS_LOCATION = "R127" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I401": LOCATION = "R125" #&CDS_LOCATION = "R125" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I402": LOCATION = "R126" #&CDS_LOCATION = "R126" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","I403": LOCATION = "R124" #&CDS_LOCATION = "R124" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I399": LOCATION = "R119" #&CDS_LOCATION = "R119" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "203";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I400": LOCATION = "R127" #&CDS_LOCATION = "R127" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "212";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I401": LOCATION = "R125" #&CDS_LOCATION = "R125" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "208";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I402": LOCATION = "R126" #&CDS_LOCATION = "R126" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "134";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","I403": LOCATION = "R124" #&CDS_LOCATION = "R124" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "209";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP_0","I405": LOCATION = "C1" #&CDS_LOCATION = "C1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "CAP_NP_0","I406": LOCATION = "C2" #&CDS_LOCATION = "C2" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "TP","I411": LOCATION = "TP1" #&CDS_LOCATION = "TP1" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 BODY = "TP","I412": LOCATION = "TP2" #&CDS_LOCATION = "TP2" &SEC = "1" #&CDS_SEC = "1";
@@ -1515,9 +1616,10 @@ BODY = "PCOAX","I424": LOCATION = "J19" #&CDS_LOCATION = "J19" &SEC = "1" #&CDS_
 "A":   PN = "1"  !CDS_PN = "1";
 DRAWING = "@mtca_interface_board_reocc.top_mib_v3(sch_1):page2_5p@mtca_interface_board_reocc.\01_ module management ctrl\(sch_1):page1";
 BODY = "R","162P": LOCATION = "R109" #&CDS_LOCATION = "R109" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "LM75A","163P": LOCATION = "U25" #&CDS_LOCATION = "U25" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "LM75A","163P": LOCATION = "U25" #&CDS_LOCATION = "U25" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "255";
 "+VS":   PN = "8"  !CDS_PN = "8";
 "A0":   PN = "7"  !CDS_PN = "7";
 "A1":   PN = "6"  !CDS_PN = "6";
@@ -1527,103 +1629,122 @@ BODY = "LM75A","163P": LOCATION = "U25" #&CDS_LOCATION = "U25" #SEC = "1" #&SEC_
 "SCL":   PN = "2"  !CDS_PN = "2";
 "SDA":   PN = "1"  !CDS_PN = "1";
 BODY = "R","164P": LOCATION = "R58" #&CDS_LOCATION = "R58" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "LED GREEN 0603_0","165P": LOCATION = "D1" #&CDS_LOCATION = "D1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "A":   PN = "2"  !CDS_PN = "2";
 "K":   PN = "1"  !CDS_PN = "1";
-BODY = "CAP_NP","166P": LOCATION = "C104" #&CDS_LOCATION = "C104" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","166P": LOCATION = "C104" #&CDS_LOCATION = "C104" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "259";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","167P": LOCATION = "R61" #&CDS_LOCATION = "R61" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","168P": LOCATION = "R110" #&CDS_LOCATION = "R110" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","169P": LOCATION = "R105" #&CDS_LOCATION = "R105" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","170P": LOCATION = "R41" #&CDS_LOCATION = "R41" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "INV_1CH_OD","171P": LOCATION = "U15" #&CDS_LOCATION = "U15" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","168P": LOCATION = "R110" #&CDS_LOCATION = "R110" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "21";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","169P": LOCATION = "R105" #&CDS_LOCATION = "R105" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "13";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","170P": LOCATION = "R41" #&CDS_LOCATION = "R41" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "270";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "INV_1CH_OD","171P": LOCATION = "U15" #&CDS_LOCATION = "U15" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "4";
 "A":   PN = "2"  !CDS_PN = "2";
 "GND":   PN = "3"  !CDS_PN = "3";
 "NC":   PN = "1"  !CDS_PN = "1";
 "VCC":   PN = "5"  !CDS_PN = "5";
 "Y":   PN = "4"  !CDS_PN = "4";
 BODY = "R","172P": LOCATION = "R54" #&CDS_LOCATION = "R54" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","174P": LOCATION = "R56" #&CDS_LOCATION = "R56" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","175P": LOCATION = "R108" #&CDS_LOCATION = "R108" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","175P": LOCATION = "R108" #&CDS_LOCATION = "R108" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "16";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "HDT0001","176P": LOCATION = "SW1" #&CDS_LOCATION = "SW1" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "A":   PN = "1"  !CDS_PN = "1";
 "B":   PN = "3"  !CDS_PN = "3";
 "C":   PN = "2"  !CDS_PN = "2";
 "D":   PN = "4"  !CDS_PN = "4";
-BODY = "CAP_NP","179P": LOCATION = "C46" #&CDS_LOCATION = "C46" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","180P": LOCATION = "R39" #&CDS_LOCATION = "R39" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","182P": LOCATION = "R47" #&CDS_LOCATION = "R47" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAP_NP","179P": LOCATION = "C46" #&CDS_LOCATION = "C46" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "24";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","180P": LOCATION = "R39" #&CDS_LOCATION = "R39" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "271";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","182P": LOCATION = "R47" #&CDS_LOCATION = "R47" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "19";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","183P": LOCATION = "R3" #&CDS_LOCATION = "R3" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","184P": LOCATION = "R52" #&CDS_LOCATION = "R52" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","185P": LOCATION = "R113" #&CDS_LOCATION = "R113" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","184P": LOCATION = "R52" #&CDS_LOCATION = "R52" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "267";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","185P": LOCATION = "R113" #&CDS_LOCATION = "R113" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "31";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","186P": LOCATION = "R57" #&CDS_LOCATION = "R57" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","187P": LOCATION = "R111" #&CDS_LOCATION = "R111" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","188P": LOCATION = "R102" #&CDS_LOCATION = "R102" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","189P": LOCATION = "R45" #&CDS_LOCATION = "R45" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","191P": LOCATION = "R107" #&CDS_LOCATION = "R107" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","187P": LOCATION = "R111" #&CDS_LOCATION = "R111" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "32";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","188P": LOCATION = "R102" #&CDS_LOCATION = "R102" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "174";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","189P": LOCATION = "R45" #&CDS_LOCATION = "R45" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "272";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","191P": LOCATION = "R107" #&CDS_LOCATION = "R107" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "14";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","193P": LOCATION = "R94" #&CDS_LOCATION = "R94" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "IND","194P": LOCATION = "L4" #&CDS_LOCATION = "L4" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "R","196P": LOCATION = "R93" #&CDS_LOCATION = "R93" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","198P": LOCATION = "C53" #&CDS_LOCATION = "C53" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","199P": LOCATION = "R44" #&CDS_LOCATION = "R44" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAP_NP","200P": LOCATION = "C93" #&CDS_LOCATION = "C93" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","198P": LOCATION = "C53" #&CDS_LOCATION = "C53" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "5";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","199P": LOCATION = "R44" #&CDS_LOCATION = "R44" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "12";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "CAP_NP","200P": LOCATION = "C93" #&CDS_LOCATION = "C93" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "180";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "R","201P": LOCATION = "R104" #&CDS_LOCATION = "R104" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "R","203P": LOCATION = "R55" #&CDS_LOCATION = "R55" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
+BODY = "R","203P": LOCATION = "R55" #&CDS_LOCATION = "R55" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "7";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "RSMD0603","I232": LOCATION = "R89" #&CDS_LOCATION = "R89" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
@@ -1709,9 +1830,10 @@ BODY = "SHF-105-01-L-D-SM","I238": LOCATION = "J13" #&CDS_LOCATION = "J13" &SEC 
 "8":   PN = "8"  !CDS_PN = "8";
 "9":   PN = "9"  !CDS_PN = "9";
 "10":   PN = "10"  !CDS_PN = "10";
-BODY = "R","I239": #LOCATION = "R103" !CDS_LOCATION = "R103" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
+BODY = "R","I239": #LOCATION = "R103" !CDS_LOCATION = "R103" &SEC = "1" #&CDS_SEC = "1",
+     #REUSE_ID = "256";
+"1":   PN = "1"  !CDS_PN = "1",  #XNET_PINS = "1";
+"2":   PN = "2"  !CDS_PN = "2",  #XNET_PINS = "1";
 BODY = "SS16FP","I240": #LOCATION = "D12" !CDS_LOCATION = "D12" &SEC = "1" #&CDS_SEC = "1";
 "A":   PN = "2"  !CDS_PN = "2";
 "C":   PN = "1"  !CDS_PN = "1";
@@ -1727,7 +1849,7 @@ BODY = "RSMD0603","I249": LOCATION = "R4" #&CDS_LOCATION = "R4" &SEC = "1" #&CDS
 BODY = "RSMD0603","I250": LOCATION = "R7" #&CDS_LOCATION = "R7" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "WURTH_SMSW","I251": LOCATION = "MMC" #&CDS_LOCATION = "MMC" &SEC = "1" #&CDS_SEC = "1";
+BODY = "WURTH_SMSW","I251": #LOCATION = "DS2" !CDS_LOCATION = "DS2" &SEC = "1" #&CDS_SEC = "1";
 "A":   PN = "2"  !CDS_PN = "2";
 "WURTH SMSW":   PN = "1"  !CDS_PN = "1";
 BODY = "WURTH_SMSW","I252": LOCATION = "DS1" #&CDS_LOCATION = "DS1" &SEC = "1" #&CDS_SEC = "1";
@@ -1738,7 +1860,8 @@ BODY = "MT_HOLE","17P": LOCATION = "MH7" #&CDS_LOCATION = "MH7" #SEC = "1" #&SEC
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
 BODY = "MT_HOLE","18P": LOCATION = "MH8" #&CDS_LOCATION = "MH8" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
 "MH_SIG":   PN = "1"  !CDS_PN = "1";
-BODY = "MCH_CONNECTOR1","19P": LOCATION = "J7" #&CDS_LOCATION = "J7" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "MCH_CONNECTOR1","19P": LOCATION = "J7" #&CDS_LOCATION = "J7" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "191";
 "ENABLE#":   PN = "41"  !CDS_PN = "41";
 "GA0":   PN = "5"  !CDS_PN = "5";
 "GA1":   PN = "17"  !CDS_PN = "17";
@@ -1909,7 +2032,8 @@ BODY = "MCH_CONNECTOR1","19P": LOCATION = "J7" #&CDS_LOCATION = "J7" #SEC = "1" 
 "XOVER1-":   PN = "78"  !CDS_PN = "78";
 "XOVER2+":   PN = "80"  !CDS_PN = "80";
 "XOVER2-":   PN = "81"  !CDS_PN = "81";
-BODY = "R","20P": LOCATION = "R80" #&CDS_LOCATION = "R80" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "R","20P": LOCATION = "R80" #&CDS_LOCATION = "R80" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "3";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "MT_HOLE","21P": LOCATION = "MH10" #&CDS_LOCATION = "MH10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
@@ -1984,7 +2108,8 @@ BODY = "LSHM-130-0XXX-L-DV-A-S","25P": LOCATION = "J2" #&CDS_LOCATION = "J2" #SE
 "60":   PN = "60"  !CDS_PN = "60";
 "F1":   PN = "61"  !CDS_PN = "61";
 "F2":   PN = "62"  !CDS_PN = "62";
-BODY = "R","26P": LOCATION = "R137" #&CDS_LOCATION = "R137" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+BODY = "R","26P": LOCATION = "R137" #&CDS_LOCATION = "R137" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1",
+     #REUSE_ID = "198";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "LSHM-150-0XXX-L-DV-A-S","27P": LOCATION = "J9" #&CDS_LOCATION = "J9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
