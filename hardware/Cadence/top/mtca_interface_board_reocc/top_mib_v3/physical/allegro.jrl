@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \t (00:00:55) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
 \t (00:00:55)     Journal start - Mon Mar 10 10:17:38 2025
 \t (00:00:55)         Host=IT088130 User=phdgc Pid=26896 CPUs=16
@@ -41,3 +42,91 @@
 [10:18:10.889000] Venture_PCB_Schematic
 
 \t (00:01:27)     Journal end - Mon Mar 10 10:18:10 2025
+=======
+\t (00:00:16) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:16)     Journal start - Tue Feb 25 10:40:11 2025
+\t (00:00:16)         Host=IT088130 User=phdgc Pid=29132 CPUs=16
+\t (00:00:16) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\top_mib_v3.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr5829 -mpshost IT088130
+\t (00:00:16) 
+\t (00:00:17) Loading axlcore.cxt 
+\t (00:00:19) Opening existing design...
+\i (00:00:20) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_rev3b_v226"
+\d (00:00:20) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v226.brd
+\i (00:00:20) trapsize 216
+\i (00:00:20) trapsize 241
+\i (00:00:20) trapsize 249
+\i (00:00:20) trapsize 117
+\i (00:00:20) trapsize 272
+\t (00:00:20) Loading NV GPU Plugin
+\i (00:00:20) trapsize 134
+\i (00:00:22) generaledit 
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 163.44 1.83
+\i (00:00:23) trapsize 67
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 163.44 1.84
+\i (00:00:23) trapsize 33
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 163.45 1.84
+\i (00:00:23) trapsize 17
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 163.45 1.85
+\i (00:00:25) trapsize 8
+\i (00:00:31) text edit 
+\i (00:00:41) show element 
+\i (00:00:43) setwindow form.find
+\i (00:00:43) FORM find name_type 'Comp (or Pin)' 
+\i (00:00:46) FORM find find_name ds1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) trapsize 8
+\i (00:00:50) setwindow form.find
+\i (00:00:50) FORM find find_name ds2 
+\i (00:00:53) FORM find find_name mmc 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) trapsize 7
+\i (00:00:58) text edit 
+\i (00:00:59) pick grid 165.72 3.75
+\t (00:00:59) last pick:  165.70 3.75
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick grid 165.80 3.82
+\t (00:01:03) last pick:  165.80 3.80
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick 165.72 3.75
+\i (00:01:05) setwindow pcb
+\i (00:01:05) pick grid 165.80 3.82
+\t (00:01:05) last pick:  165.80 3.80
+\i (00:01:05) setwindow pcb
+\i (00:01:05) pick 165.80 3.82
+\i (00:01:12) setwindow pcb
+\i (00:01:12) pick 165.80 3.82
+\i (00:01:13) setwindow pcb
+\i (00:01:13) prepopup 165.25 4.46
+\i (00:01:14) done 
+\i (00:01:14) generaledit 
+\i (00:01:18) setwindow form.find
+\i (00:01:18) FORM find find_name ds1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) trapsize 9
+\i (00:01:21) setwindow form.find
+\i (00:01:21) FORM find find_name ds2 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) trapsize 7
+\i (00:01:24) save 
+\i (00:01:26) fillin yes 
+\i (00:01:27) generaledit 
+\i (00:01:31) exit 
+\t (00:01:31) Lic Summary:
+[10:41:26.348712] Cdslmd servers: ppl
+[10:41:26.873000] Feature usage summary:
+[10:41:26.873000] Allegro_X_Platinum_Layout
+[10:41:26.873000] Allegro_Venture_PCB_Designer
+[10:41:26.873000] PCB_design_studio
+[10:41:26.873000] Venture_PCB_Schematic
+[10:41:26.873000] Allegro_Venture_PCB_Designer2
+
+\t (00:01:32)     Journal end - Tue Feb 25 10:41:26 2025
+>>>>>>> 209504d0 (Fixed bizzare issue that one of the two side-launch LEDS (blue/red) got given the Ref Des MMC when exported to PCB. Fixed this by editing the RefDes in PCB and then doing physical-import back to schematic. Also re-printed circuit schematic)
