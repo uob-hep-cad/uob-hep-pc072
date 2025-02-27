@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_tongue2_m11.brd                           )
-(    Software Version : 17.4S034                                      )
-(    Date/Time        : Thu Feb  2 15:07:35 2023                      )
+(    Drawing          : mib_tongue2_m18_ph.brd                        )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Thu Feb 27 08:40:41 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged'
-Design Directory:            '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m11.brd'
-New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m12.brd'
+Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\mib_tongue2\packaged'
+Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m18_ph.brd'
+New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m18_ph.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mib_tongue2.cpm -y 1 -Oo /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m11.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/physical/mib_tongue2_m12.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mib_tongue2.cpm -y 1 -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\mib_tongue2\physical\mib_tongue2_m18_ph.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\mib_tongue2\physical\mib_tongue2_m18_ph.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstchip.dat (00:00:00.41)
-Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxprt.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxprt.dat (00:00:00.00)
-Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxnet.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxnet.dat (00:00:00.00)
+Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstchip.dat 
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstchip.dat (00:00:00.41)
+Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxprt.dat 
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxprt.dat (00:00:00.00)
+Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxnet.dat 
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstxnet.dat (00:00:00.02)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -39,69 +39,33 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardwar
 
 
 ===========================================================
-Start Constraint Override Import
-	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstcmdb.dat
-	Start time: Thu Feb  2 15:07:35 2023
+Start Constraint Diff3 Import
+	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/mib_tongue2/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaaj23652.tmp
+	Start time: Thu Feb 27 08:40:41 2025
 ===========================================================
+NOTE: Constraint information is up-to-date. No processing was required.
 ===========================================================
-Finished Constraint Update	Time: Thu Feb  2 15:07:35 2023
+Finished Constraint Update	Time: Thu Feb 27 08:40:42 2025
 ===========================================================
 
 ------ Library Paths ------
-MODULEPATH =  . 
-           ../../pc048c_fanout/physical 
-           /cadence/psd15.1/share/local/pcb/modules 
-           ../../../modules 
-           ../../pc048c_mux/physical 
-           ../../pc048c_dp_connector/physical 
-           ../../pc048c_dboard_fanout/physical 
+MODULEPATH =  Y:/Users/CEG/Central Electronics/Projects/Hastingsp/PaMIR/001x/worklib/switcherpsu/physical/ 
+           . 
+           C:/Cadence/SPB_16.5/share/local/pcb/modules 
 
-PSMPATH =  . 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
-           ./symbols 
-           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/symbols 
+PSMPATH =  //ppfs6.physics.ox.ac.uk/CEG/CEG_Software/Cadence/Shared_Libraries/V23_1/symbols 
+           //ppfs6.physics.ox.ac.uk/CEG/CEG_Software/Cadence/Shared_Libraries/V23_1/formats 
 
-PADPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           /software/CAD/Cadence/SPB17.40.034/share/local/pcb/padstacks 
-           /software/CAD/Cadence/SPB17.40.034/share/pcb/pcb_lib/symbols 
-           /software/CAD/Cadence/SPB17.40.034/share/pcb/allegrolib/symbols 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
-           ./symbols 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
-           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
+PADPATH =  //ppfs6.physics.ox.ac.uk/CEG/CEG_Software/Cadence/Shared_Libraries/V23_1/pads 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Feb 2 15:07:34 2023
+netrev run on Feb 27 8:40:41 2025
    DESIGN NAME : 'MIB_TONGUE2'
-   PACKAGING ON 02-Feb-2023 AT 15:07:33
+   PACKAGING ON 27-Feb-2025 AT 08:40:34
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -119,7 +83,7 @@ netrev run on Feb 2 15:07:34 2023
    MAX_ERRORS 500
    MERGE_MINIMUM 5
    NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
-   NET_NAME_LENGTH 24
+   NET_NAME_LENGTH 31
    OVERSIGHTS ON
    REPLACE_CHECK OFF
    SINGLE_NODE_NETS ON
@@ -131,6 +95,6 @@ netrev run on Feb 2 15:07:34 2023
  No oversight detected
  No warning detected
 
-cpu time      0:00:03
-elapsed time  0:00:02
+cpu time      0:05:11
+elapsed time  0:00:01
 
