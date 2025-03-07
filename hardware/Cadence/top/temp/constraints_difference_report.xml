@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <?xml-stylesheet type="text/xsl" href="file:///c:/cadence/spb_24.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
-<ConstraintDifferenceReport Path="file:///c:/cadence/spb_24.1/share/pcb/consmgr/VDD/report/rc" Status="not-run" Type="Constraint Difference Report">
+<ConstraintDifferenceReport Path="file:///c:/cadence/spb_24.1/share/pcb/consmgr/VDD/report/rc" Status="no-change" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Thu Feb 27 08:40:42 2025
+    <Entry Name="Report time">Fri Mar  7 13:37:47 2025
 </Entry>
     <Entry Name="Software version">24.1 (P001)</Entry>
-    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\mib_tongue2\physical\mib_tongue2_m18_ph.brd</Entry>
-    <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\mib_tongue2\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaaj23652.tmp</Entry>
-    <Entry Name="Status">Diff3 not run. Input file and Baseline file having matching keys.</Entry>
+    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_24_PH.brd</Entry>
+    <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\packaged\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaaj31564.tmp</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
+    <Entry Name="White list">c:\cadence\spb_24.1\share\local\consmgr\cds_flow_config.txt - No valid filters found.</Entry>
   </RptSummary>
 
   <Tree>
@@ -20,16 +23,10 @@
     <MainSummary ID="main-summary"/>
   </Summaries>
 
-  <Notes>
-    <Note Text="Diff3 not run. Input file and Baseline file having matching keys." Type="Warning"/>
-  </Notes>
-
   <Layers>
     <Layer Name="TOP" Type="Conductor"/>
     <Layer Name="02_GND" Type="Plane"/>
-    <Layer Name="03_SIGNAL" Type="Conductor"/>
-    <Layer Name="04_SIGNAL" Type="Conductor"/>
-    <Layer Name="05_GND" Type="Plane"/>
+    <Layer Name="03_VCC" Type="Plane"/>
     <Layer Name="BOTTOM" Type="Conductor"/>
   </Layers>
 

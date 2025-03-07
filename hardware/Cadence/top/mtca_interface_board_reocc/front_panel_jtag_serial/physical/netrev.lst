@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_fp_jtag_serial_22.brd                     )
+(    Drawing          : mib_fp_jtag_serial_24_PH.brd                  )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Thu Feb 13 12:55:29 2025                      )
+(    Date/Time        : Fri Mar  7 13:37:47 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,93 +17,62 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\packaged'
-Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_23.brd'
+Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\packaged'
+Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_24_PH.brd'
+New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\front_panel_jtag_serial.cpm -y 1 -Oo C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_22.brd C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_23.brd -w C:\Users\phdgc\Downloads\uob-hep-pc072\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\front_panel_jtag_serial.cpm -y 1 -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_24_PH.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_25_PH.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat (00:00:00.31)
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxprt.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxprt.dat (00:00:00.00)
-Starting to read C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxnet.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxnet.dat (00:00:00.00)
+Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat 
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat (00:00:00.33)
+Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxprt.dat 
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxprt.dat (00:00:00.00)
+Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxnet.dat 
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SAMTEC_SHF-105-01-X-D-SM' used by RefDes J5 for device 'SHF-105-01-X-D-SM-SHF-105-01-X-D-SM': WARNING(SPMHUT-127): Could not find padstack H_C119.
-   With Padstack: ERROR(SPMHDB-181): The current version of software is unable to open design h_c119.
-The des
-
-     Could not find padstack H_C119.
-
 
 
 ===========================================================
-Start Constraint Override Import
-	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc072/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstcmdb.dat
-	Start time: Thu Feb 13 12:55:30 2025
+Start Constraint Diff3 Import
+	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaaj31564.tmp
+	Start time: Fri Mar  7 13:37:47 2025
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Thu Feb 13 12:55:30 2025
+Finished Constraint Update	Time: Fri Mar  7 13:37:47 2025
 ===========================================================
 
 ------ Library Paths ------
-MODULEPATH =  . 
-           c:/cadence/spb_23.1/share/local/pcb/modules 
-           ../../aidainnova_dut_interface/physical 
-           ../../fmc_tlu_threshold_discriminator_dual/physical 
-           ../../fmc_tlu_clock_gen/physical 
-           ../../aidainnova_tlu_pwr_supplies/physical 
-           C:/Users/phdgc/Downloads/aidainnova_tlu-hw/hardware/Cadence/aidainnova_tlu_baseboard_v1a/worklib/fmc_tlu_threshold_discriminator_dual/physical 
+MODULEPATH =  Y:/Users/CEG/Central Electronics/Projects/Hastingsp/PaMIR/001x/worklib/switcherpsu/physical/ 
+           . 
+           C:/Cadence/SPB_16.5/share/local/pcb/modules 
 
 PSMPATH =  . 
-           z:\cad\bris_cdslib\lib_psd14.x/symbols 
-           z:\cad\bris_cdslib\lib_psd14.x/formats 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
-           Z:\cad\bris_cdslib\lib_psd14.x\symbols 
-           Z:\cad\bris_cdslib\lib_psd14.x\formats 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\connector 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\soic 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\discrete 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\dip 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\so 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\bga 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\qfp 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\passif 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\cap 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\led 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\rel 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\sw 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\mec 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\pwr 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\res 
-           Z:\cad\cern_cdslib\lib_psd17.x\pe_allegro_lib\symbols\chip 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           $BRIS_CDSLIB/symbols 
+           $BRIS_CDSLIB/formats 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/so 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/passif 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/cap 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/led 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/rel 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/sw 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/mec 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/pwr 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/symbols/res 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            ./symbols 
            ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/symbols 
            ./symbols 
@@ -113,30 +82,21 @@ PADPATH =  .
            symbols 
            .. 
            ../symbols 
-           /software/CAD/Cadence/SPB17.40.034/share/local/pcb/padstacks 
-           /software/CAD/Cadence/SPB17.40.034/share/pcb/pcb_lib/symbols 
-           /software/CAD/Cadence/SPB17.40.034/share/pcb/allegrolib/symbols 
-           z:\cad\bris_cdslib\lib_psd14.x/pads 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+           $BRIS_CDSLIB/pads 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
            ./symbols 
-           z:\cad\cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           $CERN_CDSLIB/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
-            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
-           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
-           Z:/cad/bris_cdslib/lib_psd14.x/pads 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Feb 13 12:55:29 2025
+netrev run on Mar 7 13:37:46 2025
    DESIGN NAME : 'FRONT_PANEL_JTAG_SERIAL'
-   PACKAGING ON 13-Feb-2025 AT 12:55:23
+   PACKAGING ON 07-Mar-2025 AT 13:37:38
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -165,8 +125,8 @@ netrev run on Feb 13 12:55:29 2025
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
-cpu time      0:04:28
+cpu time      0:03:37
 elapsed time  0:00:01
 

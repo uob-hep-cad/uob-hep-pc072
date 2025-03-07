@@ -19,49 +19,5 @@
    (long_msg "WARNING(SPCODD-44): File $CERN_CDSLIB/lib_psd17.x/pe_cern_lib/parttables not found. Cannot load PPT file(s). System Error(2): No such file or directory. Check the physical path of the part table files defined under the PPT directive.
       ")
   )
-  (
-   (tool "Packager-XL")
-   (class "LOGICAL")
-   (severity 40)
-   (error_num 169)
-   (short_msg "ERROR(SPCODD-169): Physical part name 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P' exceeds the maximum set length of 31 characters.")
-   (long_msg "ERROR(SPCODD-169): Physical part name 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P' exceeds the maximum set length of 31 characters.
-      If you have reduced the value for the PART_TYPE_LENGTH directive since the last time the design was packaged, the pxl.state file might contain part names that are longer than the new PART_TYPE_LENGTH. Increase the maximum permissible part name length in the Packager Setup dialog box.
-       
-	Details: This error is generated if a physical part name exceeds the maximum specified length for net names, which is controlled by the PART_TYPE_LENGTH directive. The default PART_TYPE_LENGTH is 31. This error is typically generated when you have packaged the design once and then reduced the value in the PART_TYPE_LENGTH directive. This may cause data in the pxl.state file to contain part names whose length exceeds the PART_TYPE_LENGTH value. If you now package the design, Packager-XL will generate this error. Increase the maximum permissible part name length by entering a new value in the Part Type Length field in the Packager Setup - Layout tab.
-")
-  )
-  (
-   (tool "Packager-XL")
-   (class "LOGICAL")
-   (severity 40)
-   (error_num 169)
-   (short_msg "ERROR(SPCODD-169): Physical part name 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P' exceeds the maximum set length of 31 characters.")
-   (long_msg "ERROR(SPCODD-169): Physical part name 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P' exceeds the maximum set length of 31 characters.
-      If you have reduced the value for the PART_TYPE_LENGTH directive since the last time the design was packaged, the pxl.state file might contain part names that are longer than the new PART_TYPE_LENGTH. Increase the maximum permissible part name length in the Packager Setup dialog box.
-       
-	Details: This error is generated if a physical part name exceeds the maximum specified length for net names, which is controlled by the PART_TYPE_LENGTH directive. The default PART_TYPE_LENGTH is 31. This error is typically generated when you have packaged the design once and then reduced the value in the PART_TYPE_LENGTH directive. This may cause data in the pxl.state file to contain part names whose length exceeds the PART_TYPE_LENGTH value. If you now package the design, Packager-XL will generate this error. Increase the maximum permissible part name length by entering a new value in the Part Type Length field in the Packager Setup - Layout tab.
-        This error occurred for primitive instance: '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I174@OCAD_PARTS_LIB.CONN30P(CHIPS)'
-      ")
-   (location
-	(
-     (object_kind "instance")
-     (canonical_name "_!drawerror inst I174;")
-     (parent_canonical_name "DRAWERROR inst I174")
-     (drawing_name "@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1")
-    )
-   )
-  )
-  (
-   (tool "Packager-XL")
-   (class "LOGICAL")
-   (severity 40)
-   (error_num 47)
-   (short_msg "ERROR(SPCODD-47): Packaging cannot be completed because the file \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\packaged/pxl.state could not be loaded. There might be syntax errors in this file. Ensure that the syntax is correct before proceeding.")
-   (long_msg "ERROR(SPCODD-47): Packaging cannot be completed because the file \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\packaged/pxl.state could not be loaded. There might be syntax errors in this file. Ensure that the syntax is correct before proceeding.
-       
-	Details: This error is generated along with another packaging error, which prevents Packager-XL from completing its operation. Fix the other errors that are generated in the pxl.log file and package the design again.
-")
-  )
  )
 )
