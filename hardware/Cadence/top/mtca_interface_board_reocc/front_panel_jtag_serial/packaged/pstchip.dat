@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 10-Mar-2025 AT 09:33:09 }
+{ Packager-XL run on 10-Mar-2025 AT 14:14:06 }
 primitive '410_357_B-DIGILENT,410-357-B';
   pin
     'GND_1':
@@ -187,7 +187,7 @@ primitive '591-3001-0XXF';
       PARENT_PPT_PART='591-3001-0XXF';
   end_body;
 end_primitive;
-primitive '74LVC07A_SOIC-VCC=VCC3V3';
+primitive '74LVC07A_SOIC-VCC=2V5';
   pin
     'A'<0>:
       PIN_NUMBER='(13,11,9,5,3,1)';
@@ -207,9 +207,52 @@ primitive '74LVC07A_SOIC-VCC=VCC3V3';
       PART_NUMBER='SN74LVC07AD';
       MANUFACTURER='TI';
       DESCRIPTION='HEX BUFFERS / DRIVERS WITH OPEN-DRAIN OUTPUTS';
-      POWER_PINS='(VCC3V3:14;GND:7)';
+      POWER_PINS='(2V5:14;GND:7)';
       PARENT_PART_TYPE='74LVC07A_SOIC';
       SCH_MODIFIED_PART='TRUE';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0603-1.0UF,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_1UF_6V3_10%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='1.0uF';
+      VOLT='6.3V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-1.0UF,6.3V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0603-100NF,16V';
@@ -253,6 +296,49 @@ primitive 'CAPCERSMDCL2_0603-100NF,16V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0603';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0603-100NF,16V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0603-10NF,50V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_10NF_50V_10%_X7R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X7R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='10nF';
+      VOLT='50V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-10NF,50V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN';
@@ -770,6 +856,58 @@ primitive 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P-CONN30P,FTSH-115-01-L-D-A';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='CONN30P';
       PARENT_PPT_PART='CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P';
+  end_body;
+end_primitive;
+primitive 'LD3985M25R';
+  pin
+    'VI':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'VINH':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='INPUT';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'BYPASS':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'VO':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+  end_pin;
+  body
+      CLASS='IC';
+      PART_NAME='LD3985';
+      BODY_NAME='LD3985';
+      PHYS_DES_PREFIX='RG';
+      STATUS='Preferred';
+      PART_NUMBER='LD3985M25R';
+      MANUFACTURER='ST MICROELECTRONICS';
+      DESCRIPTION='2.5V Ultra Low Drop and Low Noise BiCMOS Voltage Regulator';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ld3985.pdf';
+      PINCOUNT='5';
+      SMD='YES';
+      CASE='SOT23-5';
+      JEDEC_TYPE='SOT95P280X145-5N';
+      PARENT_PART_TYPE='LD3985_SOT23';
+      PARENT_PPT='LD3985';
+      PARENT_PPT_PART='LD3985M25R';
   end_body;
 end_primitive;
 primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';

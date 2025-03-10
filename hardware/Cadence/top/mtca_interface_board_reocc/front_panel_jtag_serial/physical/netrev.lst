@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : mib_fp_jtag_serial_26_PH.brd                  )
+(    Drawing          : mib_fp_jtag_serial_27_PH.brd                  )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Mon Mar 10 09:33:15 2025                      )
+(    Date/Time        : Mon Mar 10 14:14:17 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\packaged'
 Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical'
-Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_26_PH.brd'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd'
 New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd'
 
-CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\front_panel_jtag_serial.cpm -y 1 -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_26_PH.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_27_PH.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\front_panel_jtag_serial.cpm -y 1 -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_27_PH.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\mtca_interface_board_reocc\front_panel_jtag_serial\physical\mib_fp_jtag_serial_27_PH.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat (00:00:00.41)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstchip.dat (00:00:00.31)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxprt.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxprt.dat (00:00:00.00)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstxnet.dat 
@@ -36,16 +36,23 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ------ Oversights/Warnings/Errors ------
 
 
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOT95P280X145-5N' used by RefDes RG1 for device 'LD3985M25R' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
 
 
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaaj23640.tmp
-	Start time: Mon Mar 10 09:33:15 2025
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaaj27200.tmp
+	Start time: Mon Mar 10 14:14:17 2025
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Mon Mar 10 09:33:16 2025
+Finished Constraint Update	Time: Mon Mar 10 14:14:17 2025
 ===========================================================
 
 ------ Library Paths ------
@@ -94,9 +101,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 10 9:33:14 2025
+netrev run on Mar 10 14:14:17 2025
    DESIGN NAME : 'FRONT_PANEL_JTAG_SERIAL'
-   PACKAGING ON 10-Mar-2025 AT 09:33:09
+   PACKAGING ON 10-Mar-2025 AT 14:14:06
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -125,8 +132,8 @@ netrev run on Mar 10 9:33:14 2025
 
  No error detected
  No oversight detected
- No warning detected
+  1 warnings detected
 
-cpu time      0:05:55
-elapsed time  0:00:02
+cpu time      0:04:09
+elapsed time  0:00:01
 

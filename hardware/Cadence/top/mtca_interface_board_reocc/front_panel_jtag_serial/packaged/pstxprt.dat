@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 10-Mar-2025 AT 09:33:09 }
+{ Packager-XL run on 10-Mar-2025 AT 14:14:06 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='FRONT_PANEL_JTAG_SERIAL';
- POST_TIME='10-Mar-2025 AT 09:33:09';
+ POST_TIME='10-Mar-2025 AT 14:14:06';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -89,7 +89,7 @@ npassive.capcersmdcl2(chips)',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='1',
  PHYS_PAGE='1',
- XY='(2975,-3150)',
+ XY='(3250,-2875)',
  ROT='1',
  VER='1',
  PACK_TYPE='0603',
@@ -123,6 +123,29 @@ npassive.capcersmdcl2(chips)',
  PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
+ C6 'CAPCERSMDCL2_0603-1.0UF,6.3V':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I203@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i203@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i203@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I203',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(1500,-3050)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-1.0UF,6.3V',
+ VOLTAGE='6.3V',
+ VALUE='1.0UF',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
  C7 'CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN':;
 
 SECTION_NUMBER 1
@@ -143,6 +166,52 @@ npassive.capcersmdcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN',
  VOLTAGE='10V_GEN',
  VALUE='10UF_Y5V',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C8 'CAPCERSMDCL2_0603-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I205@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i205@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i205@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I205',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(1825,-3250)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-10NF,50V',
+ VOLTAGE='50V',
+ VALUE='10NF',
+ PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C9 'CAPCERSMDCL2_0603-1.0UF,6.3V':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I204@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i204@c~
+npassive.capcersmdcl2(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i204@c~
+npassive.capcersmdcl2(chips)',
+ PATH='I204',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2600,-3075)',
+ ROT='1',
+ VER='1',
+ PACK_TYPE='0603',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-1.0UF,6.3V',
+ VOLTAGE='6.3V',
+ VALUE='1.0UF',
  PRIM_FILE='./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
@@ -189,7 +258,7 @@ ris_cds_pld.\410_357_b\(chips)',
  PRIM_FILE='./archive_libs/cds_pld/410_357_b/chips/chips.prt';
 
 PART_NAME
- IC2 '74LVC07A_SOIC-VCC=VCC3V3':;
+ IC2 '74LVC07A_SOIC-VCC=2V5':;
 
 SECTION_NUMBER 1
  '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)'(5):
@@ -200,14 +269,14 @@ SECTION_NUMBER 1
  PATH='I178',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='6',
- POWER_GROUP='VCC=VCC3V3',
+ POWER_GROUP='VCC=2V5',
  PHYS_PAGE='1',
  XY='(4175,-3100)',
  ROT='0',
  VER='2',
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
- CDS_PART_NAME='74LVC07A_SOIC-VCC=VCC3V3',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=2V5',
  HAS_FIXED_SIZE='6',
  PART_NAME='74LVC07A',
  PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
@@ -221,14 +290,14 @@ SECTION_NUMBER 2
  PATH='I178',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='6',
- POWER_GROUP='VCC=VCC3V3',
+ POWER_GROUP='VCC=2V5',
  PHYS_PAGE='1',
  XY='(4175,-3100)',
  ROT='0',
  VER='2',
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
- CDS_PART_NAME='74LVC07A_SOIC-VCC=VCC3V3',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=2V5',
  HAS_FIXED_SIZE='6',
  PART_NAME='74LVC07A',
  PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
@@ -242,14 +311,14 @@ SECTION_NUMBER 3
  PATH='I178',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='6',
- POWER_GROUP='VCC=VCC3V3',
+ POWER_GROUP='VCC=2V5',
  PHYS_PAGE='1',
  XY='(4175,-3100)',
  ROT='0',
  VER='2',
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
- CDS_PART_NAME='74LVC07A_SOIC-VCC=VCC3V3',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=2V5',
  HAS_FIXED_SIZE='6',
  PART_NAME='74LVC07A',
  PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
@@ -263,14 +332,14 @@ SECTION_NUMBER 4
  PATH='I178',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='6',
- POWER_GROUP='VCC=VCC3V3',
+ POWER_GROUP='VCC=2V5',
  PHYS_PAGE='1',
  XY='(4175,-3100)',
  ROT='0',
  VER='2',
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
- CDS_PART_NAME='74LVC07A_SOIC-VCC=VCC3V3',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=2V5',
  HAS_FIXED_SIZE='6',
  PART_NAME='74LVC07A',
  PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
@@ -284,14 +353,14 @@ SECTION_NUMBER 5
  PATH='I178',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='6',
- POWER_GROUP='VCC=VCC3V3',
+ POWER_GROUP='VCC=2V5',
  PHYS_PAGE='1',
  XY='(4175,-3100)',
  ROT='0',
  VER='2',
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
- CDS_PART_NAME='74LVC07A_SOIC-VCC=VCC3V3',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=2V5',
  HAS_FIXED_SIZE='6',
  PART_NAME='74LVC07A',
  PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
@@ -305,14 +374,14 @@ SECTION_NUMBER 6
  PATH='I178',
  DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
  SIZE='6',
- POWER_GROUP='VCC=VCC3V3',
+ POWER_GROUP='VCC=2V5',
  PHYS_PAGE='1',
  XY='(4175,-3100)',
  ROT='0',
  VER='2',
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
- CDS_PART_NAME='74LVC07A_SOIC-VCC=VCC3V3',
+ CDS_PART_NAME='74LVC07A_SOIC-VCC=2V5',
  HAS_FIXED_SIZE='6',
  PART_NAME='74LVC07A',
  PRIM_FILE='./archive_libs/cninterface/74lvc07a/chips/chips.prt';
@@ -962,5 +1031,26 @@ iscrete.r(chips)',
  PART_NUMBER='ERA-2VEB2700X',
  VALUE='270',
  PRIM_FILE='./discrete/r/chips/chips.prt';
+
+PART_NAME
+ RG1 'LD3985M25R':;
+
+SECTION_NUMBER 1
+ '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I200@CNLINEAR.LD3985(CHIPS)':
+ C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i200@c~
+nlinear.ld3985(chips)',
+ P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i200@c~
+nlinear.ld3985(chips)',
+ PATH='I200',
+ DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
+ TYPE='LD3985M25R',
+ PHYS_PAGE='1',
+ XY='(2125,-3025)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SOT23',
+ CDS_LIB='cnlinear',
+ CDS_PART_NAME='LD3985M25R',
+ PRIM_FILE='./archive_libs/cnlinear/ld3985/chips/chips.prt';
 
 END.

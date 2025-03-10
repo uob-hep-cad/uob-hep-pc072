@@ -1,4 +1,4 @@
-{ Packager-XL run on 10-Mar-2025 AT 09:33:09 }
+{ Packager-XL run on 10-Mar-2025 AT 14:14:06 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1";
 BODY = "USBLC6-2","I70": LOCATION = "D1" #&CDS_LOCATION = "D1" &SEC = "1" #&CDS_SEC = "1";
@@ -206,4 +206,19 @@ BODY = "R","I197": LOCATION = "R11" #&CDS_LOCATION = "R11" &SEC = "1" #&CDS_SEC 
 BODY = "R","I198": LOCATION = "R12" #&CDS_LOCATION = "R12" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
+BODY = "LD3985","I200": LOCATION = "RG1" #&CDS_LOCATION = "RG1" &SEC = "1" #&CDS_SEC = "1";
+"BYPASS":   PN = "4"  !CDS_PN = "4";
+"GND":   PN = "2"  !CDS_PN = "2";
+"VI":   PN = "1"  !CDS_PN = "1";
+"VINH":   PN = "3"  !CDS_PN = "3";
+"VO":   PN = "5"  !CDS_PN = "5";
+BODY = "CAPCERSMDCL2","I203": LOCATION = "C6" #&CDS_LOCATION = "C6" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "CAPCERSMDCL2","I204": LOCATION = "C9" #&CDS_LOCATION = "C9" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "CAPCERSMDCL2","I205": LOCATION = "C8" #&CDS_LOCATION = "C8" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
 END.

@@ -1,3189 +1,818 @@
-\t (00:00:03) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Mon Mar 10 10:11:00 2025
-\t (00:00:03)         Host=ELWE4 User=hastingsp Pid=2248 CPUs=32
-\t (00:00:03) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\front_panel_jtag_serial.cpm -product Allegro_Venture_PCB_Designer -mpssession hastingsp_ProjectMgr19222 -mpshost ELWE4
-\t (00:00:03) 
-\t (00:00:03) Loading axlcore.cxt 
-\t (00:00:06) Opening existing design...
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_fp_jtag_serial_27_PH"
-\d (00:00:07) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd
-\t (00:00:07) Grids are drawn 1.60, 1.60 apart for enhanced viewing.
-\i (00:00:07) trapsize 115
-\i (00:00:07) trapsize 118
-\i (00:00:07) trapsize 119
-\t (00:00:07) Grids are drawn 1.60, 1.60 apart for enhanced viewing.
-\i (00:00:07) trapsize 115
-\i (00:00:07) trapsize 115
-\t (00:00:07) Loading NV GPU Plugin
-\t (00:00:07) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
-\i (00:00:07) trapsize 78
-\i (00:02:48) zoom in 1 
-\i (00:02:48) setwindow pcb
-\i (00:02:48) zoom in 23.69 50.40
-\t (00:02:48) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:02:48) trapsize 39
-\i (00:02:49) zoom in 1 
-\i (00:02:49) setwindow pcb
-\i (00:02:49) zoom in 30.91 49.32
-\t (00:02:49) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:02:49) trapsize 19
-\i (00:02:51) roam start
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 32
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam y -16
-\i (00:02:51) roam x 32
-\i (00:02:51) roam x 16
-\i (00:02:51) roam x 32
-\i (00:02:51) roam y -16
-\i (00:02:51) roam x 16
-\i (00:02:51) roam end
-\i (00:02:51) zoom out 1 
-\i (00:02:51) setwindow pcb
-\i (00:02:51) zoom out 58.23 42.69
-\t (00:02:51) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:02:51) trapsize 39
-\i (00:02:53) zoom in 1 
-\i (00:02:53) setwindow pcb
-\i (00:02:53) zoom in 71.81 66.57
-\t (00:02:53) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:02:53) trapsize 19
-\i (00:02:56) zoom out 1 
-\i (00:02:56) setwindow pcb
-\i (00:02:56) zoom out 71.50 65.41
-\t (00:02:56) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:02:56) trapsize 39
-\i (00:03:03) zoom in 1 
-\i (00:03:03) setwindow pcb
-\i (00:03:03) zoom in 73.13 7.01
-\t (00:03:03) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:03:03) trapsize 19
-\i (00:03:04) zoom in 1 
-\i (00:03:04) setwindow pcb
-\i (00:03:04) zoom in 73.13 7.55
-\i (00:03:04) trapsize 10
-\i (00:03:05) delete 
-\i (00:03:07) pick grid 68.68 12.61
-\t (00:03:07) last pick:  68.70 12.60
-\t (00:03:07) Horizontal Line Segment "Unnamed_1_74Lvc07a_I178_Y, Etch/Bottom"
-\i (00:03:09) setwindow form.find
-\i (00:03:09) FORM find clines YES 
-\i (00:03:11) setwindow pcb
-\i (00:03:11) pick grid 71.60 12.24
-\t (00:03:11) last pick:  71.60 12.20
-\t (00:03:11) Connect Line "Unnamed_1_74Lvc07a_I178_Y, Etch/Bottom"
-\i (00:03:12) setwindow form.find
-\i (00:03:12) FORM find symbols NO 
-\i (00:03:13) setwindow pcb
-\i (00:03:13) pick grid 65.44 12.61
-\t (00:03:13) last pick:  65.40 12.60
-\t (00:03:13) Connect Line "Not On A Net, Etch/Bottom"
-\i (00:03:15) setwindow form.find
-\i (00:03:15) FORM find shapes NO 
-\i (00:03:16) FORM find text NO 
-\i (00:03:18) setwindow pcb
-\i (00:03:18) pick grid 65.44 12.51
-\t (00:03:18) last pick:  65.40 12.50
-\i (00:03:18) prepopup 66.08 11.97
-\i (00:03:18) done 
-\i (00:03:20) add connect 
-\e (00:03:20) ERROR(SPMHSY-24): 'V19H10Z17', not found in search path.
-\w (00:03:20) WARNING(SPMHDB-95): Padstack V19H10Z17 not found. Purging it from DEFAULT constraint set will eliminate warning.
-\t (00:03:20) Pick first element.
-\i (00:03:21) pick grid 72.49 10.67
-\t (00:03:21) last pick:  72.50 10.70
-\t (00:03:21) last pick:  72.50 10.75
-\t (00:03:21) Target Symbol Pin is defined on TOP.
-\t (00:03:21) last pick:  72.50 10.75
-\i (00:03:23) pick grid 74.32 10.19
-\t (00:03:23) last pick:  74.30 10.20
-\t (00:03:23) No DRC errors detected.
-\i (00:03:24) pick grid 74.04 7.65
-\t (00:03:24) last pick:  74.00 7.70
-\t (00:03:24) No DRC errors detected.
-\i (00:03:24) mouse_pos 66.47 9.10
-\i (00:03:24) mouse_pos 66.37 9.14
-\i (00:03:25) pick grid 64.64 9.66
-\t (00:03:25) last pick:  64.60 9.70
-\t (00:03:25) No DRC errors detected.
-\i (00:03:26) pick grid 60.53 15.28
-\t (00:03:26) last pick:  60.50 15.30
-\t (00:03:26) No DRC errors detected.
-\i (00:03:26) roam start
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam x -32
-\i (00:03:26) roam y -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -48
-\i (00:03:26) roam y -32
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -32
-\i (00:03:26) roam y -32
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -32
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -32
-\i (00:03:26) roam y -32
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam x -32
-\i (00:03:26) roam y -32
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -32
-\i (00:03:26) roam y -32
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam y -16
-\i (00:03:26) roam x -16
-\i (00:03:26) roam end
-\i (00:03:27) roam start
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -32
-\i (00:03:27) roam y -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -32
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -32
-\i (00:03:27) roam y -32
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -32
-\i (00:03:27) roam y -32
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -32
-\i (00:03:27) roam y -32
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -32
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam x -16
-\i (00:03:27) roam y -16
-\i (00:03:27) roam end
-\i (00:03:28) pick grid 43.87 38.56
-\t (00:03:28) last pick:  43.90 38.60
-\t (00:03:28) No DRC errors detected.
-\i (00:03:29) prepopup 44.03 38.62
-\i (00:03:30) next 
-\t (00:03:30) Pick first element.
-\i (00:03:30) zoom out 1 
-\i (00:03:30) setwindow pcb
-\i (00:03:30) zoom out 46.80 34.10
-\i (00:03:30) trapsize 19
-\i (00:03:30) zoom out 1 
-\i (00:03:30) setwindow pcb
-\i (00:03:30) zoom out 46.83 34.10
-\t (00:03:30) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:03:30) trapsize 39
-\i (00:03:31) roam start
-\i (00:03:31) roam y -16
-\i (00:03:31) roam x 16
-\i (00:03:31) roam y -32
-\i (00:03:31) roam x 16
-\i (00:03:31) roam y -16
-\i (00:03:31) roam x 16
-\i (00:03:31) roam y -16
-\i (00:03:31) roam x 16
-\i (00:03:31) roam y -32
-\i (00:03:31) roam x 16
-\i (00:03:31) roam y -16
-\i (00:03:31) roam x 16
-\i (00:03:31) roam x 16
-\i (00:03:31) roam y -32
-\i (00:03:31) roam end
-\i (00:03:32) zoom in 1 
-\i (00:03:32) setwindow pcb
-\i (00:03:32) zoom in 76.23 72.62
-\t (00:03:32) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:03:32) trapsize 19
-\i (00:03:32) zoom in 1 
-\i (00:03:32) setwindow pcb
-\i (00:03:32) zoom in 76.23 72.63
-\i (00:03:32) trapsize 10
-\i (00:03:33) roam start
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam y -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -32
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam x -16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:33) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam y 16
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -16
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -16
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -16
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -32
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -16
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -32
-\i (00:03:34) roam x 16
-\i (00:03:34) roam y -32
-\i (00:03:35) roam x 32
-\i (00:03:35) roam y -32
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -32
-\i (00:03:35) roam x 32
-\i (00:03:35) roam y -32
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -32
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -32
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 32
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam x 16
-\i (00:03:35) roam y -16
-\i (00:03:35) roam end
-\i (00:03:37) delete 
-\i (00:03:38) pick grid 63.61 69.03
-\t (00:03:38) last pick:  63.60 69.00
-\t (00:03:38) Connect Line "Unnamed_1_74Lvc07a_I178_Y_2, Etch/Bottom"
-\i (00:03:41) pick grid 66.26 67.46
-\t (00:03:41) last pick:  66.30 67.50
-\t (00:03:41) Connect Line "Unnamed_1_74Lvc07a_I178_Y_5, Etch/Bottom"
-\i (00:03:42) slide 
-\t (00:03:43) Pick element to slide.
-\i (00:03:44) pick grid 62.46 68.50
-\t (00:03:44) last pick:  62.50 68.50
-\t (00:03:44) last pick:  62.46 68.61
-\t (00:03:44) Waiting for the destination pick.
-\i (00:03:45) pick grid 62.29 68.75
-\t (00:03:45) last pick:  62.30 68.80
-\t (00:03:45) No DRC errors detected.
-\t (00:03:45) Pick another element to slide.
-\i (00:03:45) pick grid 64.13 68.58
-\t (00:03:45) last pick:  64.10 68.60
-\t (00:03:45) last pick:  64.13 68.60
-\t (00:03:45) Waiting for the destination pick.
-\i (00:03:46) pick grid 64.11 68.66
-\t (00:03:46) last pick:  64.10 68.70
-\t (00:03:46) No DRC errors detected.
-\t (00:03:46) Pick another element to slide.
-\i (00:03:46) pick grid 62.29 68.75
-\t (00:03:46) last pick:  62.30 68.80
-\t (00:03:46) last pick:  62.29 68.80
-\t (00:03:46) Waiting for the destination pick.
-\i (00:03:47) pick grid 62.27 68.75
-\t (00:03:47) last pick:  62.30 68.80
-\t (00:03:47) No DRC errors detected.
-\t (00:03:47) Pick another element to slide.
-\i (00:03:48) pick grid 63.08 67.67
-\t (00:03:48) last pick:  63.10 67.70
-\t (00:03:48) last pick:  63.08 67.50
-\t (00:03:48) Waiting for the destination pick.
-\i (00:03:49) pick grid 63.86 64.16
-\t (00:03:49) last pick:  63.90 64.20
-\t (00:03:49) No DRC errors detected.
-\t (00:03:49) Pick another element to slide.
-\i (00:03:50) pick grid 61.34 67.44
-\t (00:03:50) last pick:  61.30 67.40
-\t (00:03:50) last pick:  61.34 67.51
-\t (00:03:50) Waiting for the destination pick.
-\i (00:03:52) pick grid 62.33 64.35
-\t (00:03:52) last pick:  62.30 64.40
-\t (00:03:52) No DRC errors detected.
-\t (00:03:52) Pick another element to slide.
-\i (00:03:53) pick grid 48.47 64.28
-\t (00:03:53) last pick:  48.50 64.30
-\t (00:03:53) last pick:  48.56 64.19
-\t (00:03:53) Waiting for the destination pick.
-\i (00:03:54) pick grid 49.46 63.31
-\t (00:03:54) last pick:  49.50 63.30
-\t (00:03:54) No DRC errors detected.
-\t (00:03:54) Pick another element to slide.
-\i (00:03:57) pick grid 72.91 70.19
-\t (00:03:57) last pick:  72.90 70.20
-\t (00:03:57) Pick element to slide.
-\i (00:03:58) pick grid 72.10 70.52
-\t (00:03:58) last pick:  72.10 70.50
-\t (00:03:58) Pick element to slide.
-\i (00:04:00) add connect 
-\t (00:04:00) Pick first element.
-\i (00:04:01) pick grid 72.12 70.27
-\t (00:04:01) last pick:  72.10 70.30
-\t (00:04:01) last pick:  72.50 70.25
-\t (00:04:01) Target Symbol Pin is defined on TOP.
-\t (00:04:01) last pick:  72.50 70.25
-\i (00:04:02) pick grid 74.06 69.84
-\t (00:04:02) last pick:  74.10 69.80
-\t (00:04:02) No DRC errors detected.
-\i (00:04:03) pick grid 73.84 67.05
-\t (00:04:03) last pick:  73.80 67.10
-\t (00:04:03) No DRC errors detected.
-\i (00:04:05) pick grid 70.53 67.44
-\t (00:04:05) last pick:  70.50 67.40
-\t (00:04:05) No DRC errors detected.
-\i (00:04:06) mouse_pos 47.50 64.64
-\i (00:04:06) mouse_pos 47.19 64.61
-\i (00:04:06) mouse_pos 47.25 64.66
-\i (00:04:06) mouse_pos 47.62 64.78
-\i (00:04:07) pick grid 47.87 64.95
-\t (00:04:07) last pick:  47.90 65.00
-\t (00:04:07) No DRC errors detected.
-\i (00:04:07) roam start
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 48
-\i (00:04:07) roam y 16
-\i (00:04:07) roam x 16
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 32
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 16
-\i (00:04:07) roam y 32
-\i (00:04:07) roam end
-\i (00:04:09) pick grid 47.75 51.43
-\t (00:04:09) last pick:  47.80 51.40
-\t (00:04:09) No DRC errors detected.
-\i (00:04:09) mouse_pos 47.85 51.43
-\i (00:04:09) prepopup 47.85 51.47
-\i (00:04:10) next 
-\t (00:04:10) Pick first element.
-\i (00:04:12) roam start
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam x 16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -32
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:12) roam x 16
-\i (00:04:12) roam y -16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam y -16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam y -16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam y -16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam y -16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam y -16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam y 16
-\i (00:04:13) roam y 16
-\i (00:04:13) roam y 16
-\i (00:04:13) roam y 16
-\i (00:04:13) roam y 16
-\i (00:04:13) roam y 32
-\i (00:04:13) roam y 32
-\i (00:04:13) roam x -16
-\i (00:04:13) roam y 48
-\i (00:04:13) roam x -16
-\i (00:04:13) roam y 32
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -32
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 32
-\i (00:04:14) roam x -32
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -32
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam y 16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam x -16
-\i (00:04:14) roam end
-\i (00:04:15) roam start
-\i (00:04:15) roam y -16
-\i (00:04:15) roam x 16
-\i (00:04:15) roam y -16
-\i (00:04:15) roam x 16
-\i (00:04:15) roam y -16
-\i (00:04:15) roam x 16
-\i (00:04:15) roam y -16
-\i (00:04:15) roam y -16
-\i (00:04:15) roam x 32
-\i (00:04:15) roam y -32
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 32
-\i (00:04:16) roam y -48
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -32
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 32
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -32
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 32
-\i (00:04:16) roam y -32
-\i (00:04:16) roam x 16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -32
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam x 16
-\i (00:04:16) roam y -16
-\i (00:04:16) roam end
-\i (00:04:17) pick grid 72.75 65.69
-\t (00:04:17) last pick:  72.80 65.70
-\t (00:04:17) last pick:  72.50 65.75
-\t (00:04:17) Target Symbol Pin is defined on TOP.
-\t (00:04:17) last pick:  72.50 65.75
-\i (00:04:18) pick grid 74.40 65.00
-\t (00:04:18) last pick:  74.40 65.00
-\t (00:04:18) No DRC errors detected.
-\i (00:04:19) pick grid 74.03 62.61
-\t (00:04:19) last pick:  74.00 62.60
-\t (00:04:19) No DRC errors detected.
-\i (00:04:20) roam start
-\i (00:04:20) roam x -16
-\i (00:04:20) roam x -16
-\i (00:04:20) roam x -32
-\i (00:04:20) roam x -16
-\i (00:04:20) roam x -16
-\i (00:04:20) roam y 16
-\i (00:04:20) roam x -32
-\i (00:04:20) roam x -16
-\i (00:04:20) roam x -16
-\i (00:04:20) roam x -16
-\i (00:04:20) roam y 16
-\i (00:04:20) roam x -16
-\i (00:04:20) roam x -32
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam y 16
-\i (00:04:21) roam x -32
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam y 16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam y 16
-\i (00:04:21) roam x -16
-\i (00:04:21) roam end
-\i (00:04:23) pick grid 49.17 61.06
-\t (00:04:23) last pick:  49.20 61.10
-\t (00:04:23) No DRC errors detected.
-\i (00:04:25) pick grid 49.34 51.29
-\t (00:04:25) last pick:  49.30 51.30
-\t (00:04:25) No DRC errors detected.
-\i (00:04:25) prepopup 49.27 51.31
-\i (00:04:27) done 
-\i (00:04:27) zoom out 1 
-\i (00:04:27) setwindow pcb
-\i (00:04:27) zoom out 50.70 51.31
-\i (00:04:27) trapsize 19
-\i (00:04:28) zoom in 1 
-\i (00:04:28) setwindow pcb
-\i (00:04:28) zoom in 70.82 67.91
-\i (00:04:28) trapsize 10
-\i (00:04:28) zoom in 1 
-\i (00:04:28) setwindow pcb
-\i (00:04:28) zoom in 70.78 67.62
-\i (00:04:28) trapsize 5
-\i (00:04:28) zoom in 1 
-\i (00:04:28) setwindow pcb
-\i (00:04:28) zoom in 70.79 67.59
-\i (00:04:28) trapsize 2
-\i (00:04:30) show element 
-\i (00:04:31) pick grid 69.55 66.84
-\t (00:04:31) last pick:  69.60 66.80
-\i (00:04:32) setwindow form.find
-\i (00:04:32) FORM find vias YES 
-\i (00:04:32) setwindow pcb
-\i (00:04:32) pick grid 69.68 66.67
-\t (00:04:32) last pick:  69.70 66.70
-\i (00:04:35) roam start
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 32
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 32
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 48
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 48
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 32
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 48
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 48
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 32
-\i (00:04:35) roam x 16
-\i (00:04:35) roam x 32
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam x 16
-\i (00:04:35) roam y 16
-\i (00:04:35) roam x 32
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 32
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam y 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam x 16
-\i (00:04:36) roam end
-\i (00:04:38) pick grid 75.68 64.24
-\t (00:04:38) last pick:  75.70 64.20
-\i (00:04:39) pick grid 75.79 64.04
-\t (00:04:39) last pick:  75.80 64.00
-\i (00:04:40) prepopup 75.43 65.08
-\i (00:04:41) done 
-\i (00:04:41) zoom out 1 
-\i (00:04:41) setwindow pcb
-\i (00:04:41) zoom out 75.43 65.08
-\i (00:04:41) trapsize 5
-\i (00:04:42) zoom out 1 
-\i (00:04:42) setwindow pcb
-\i (00:04:42) zoom out 75.31 65.07
-\i (00:04:42) trapsize 10
-\i (00:04:43) roam start
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam y 16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -48
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -32
-\i (00:04:43) roam x -32
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -32
-\i (00:04:43) roam x -32
-\i (00:04:43) roam y -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam y -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam x -16
-\i (00:04:43) roam y -16
-\i (00:04:43) roam end
-\i (00:04:50) save 
-\i (00:04:51) fillin yes 
-\i (00:04:54) zoom out 1 
-\i (00:04:54) setwindow pcb
-\i (00:04:54) zoom out 62.17 64.61
-\i (00:04:54) trapsize 19
-\i (00:04:54) zoom out 1 
-\i (00:04:54) setwindow pcb
-\i (00:04:54) zoom out 62.16 64.61
-\t (00:04:54) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:04:54) trapsize 39
-\i (00:04:54) zoom out 1 
-\i (00:04:54) setwindow pcb
-\i (00:04:54) zoom out 62.17 64.61
-\t (00:04:54) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
-\i (00:04:54) trapsize 78
-\i (00:05:30) cns cmmodesv2 
-\t (00:05:30) [10:16:27.181712] Periodic Lic check successful
-[10:16:27.706000] Feature usage summary:
-[10:16:27.706000] Allegro_Venture_PCB_Designer2
-[10:16:27.706000] PCB_design_studio
-[10:16:27.706000] Allegro_Venture_PCB_Designer
-[10:16:27.706000] Venture_PCB_Schematic
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Mar 10 14:14:25 2025
+\t (00:00:02)         Host=ELWE4 User=hastingsp Pid=26868 CPUs=32
+\t (00:00:02) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\front_panel_jtag_serial.cpm -product Allegro_Venture_PCB_Designer -mpssession hastingsp_ProjectMgr19222 -mpshost ELWE4
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_fp_jtag_serial_27_PH"
+\d (00:00:05) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd
+\t (00:00:05) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
+\i (00:00:05) trapsize 57
+\i (00:00:05) trapsize 59
+\t (00:00:05) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
+\i (00:00:05) trapsize 57
+\i (00:00:05) trapsize 57
+\t (00:00:05) Loading NV GPU Plugin
+\t (00:00:05) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
+\i (00:00:05) trapsize 39
+\i (00:00:11) place manual 
+\i (00:00:11) setwindow form.plc_manual
+\i (00:00:11) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:12) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:00:12) Placing C6 / CAPCERSMDCL2_0603-1.0UF,6.3V / C0603 on Top.
+\i (00:00:13) setwindow pcb
+\i (00:00:13) pick grid 25.51 70.62
+\t (00:00:13) last pick:  25.54 70.67
+\t (00:00:13) Placing C8 / CAPCERSMDCL2_0603-10NF,50V / C0603 on Top.
+\i (00:00:13) pick grid 26.21 67.20
+\t (00:00:13) last pick:  26.24 67.17
+\t (00:00:13) Placing C9 / CAPCERSMDCL2_0603-1.0UF,6.3V / C0603 on Top.
+\i (00:00:14) pick grid 25.59 64.80
+\t (00:00:14) last pick:  25.64 64.77
+\e (00:00:14) Cannot load symbol 'SOT95P280X145-5N'
+\i (00:00:16) setwindow form.plc_manual
+\i (00:00:16) FORM plc_manual tree  RG1 'Components by refdes' 
+\i (00:00:24) FORM plc_manual done  
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 32.41 21.14
+\t (00:00:25) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
+\i (00:00:25) trapsize 78
+\i (00:00:26) roam start
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y 16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y 16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y 16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y 16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam x -32
+\i (00:00:26) roam y 16
+\i (00:00:26) roam x -16
+\i (00:00:26) roam y 16
+\i (00:00:26) roam end
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in -34.00 11.10
+\t (00:00:27) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
+\i (00:00:27) trapsize 39
+\i (00:00:28) save 
+\i (00:00:29) fillin yes 
+\i (00:00:30) open 
+\i (00:00:33) fillin "mib_fp_jtag_serial_23.brd"
+\t (00:00:33) Opening existing design...
+\t (00:00:33) Grids are drawn 204.8000, 204.8000 apart for enhanced viewing.
+\i (00:00:33) trapsize 6907
+\d (00:00:33) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_23.brd
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in 74.4078 17.3889
+\i (00:00:35) trapsize 3453
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 76.5489 17.4580
+\i (00:00:36) trapsize 1727
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 83.6284 17.4235
+\i (00:00:36) trapsize 863
+\i (00:00:37) show element 
+\i (00:00:38) pick grid 81.9707 20.7906
+\t (00:00:38) last pick:  82.0000 20.8000
+\i (00:00:39) prepopup 83.4385 21.4295
+\i (00:00:39) done 
+\i (00:00:43) dlib 
+\i (00:00:45) setwindow form.dlib
+\i (00:00:45) FORM dlib none  
+\i (00:00:46) FORM dlib package YES 
+\i (00:00:47) FORM dlib pad YES 
+\i (00:00:49) FORM dlib browse_export  
+\i (00:01:00) fillin "dumpedfootprints"
+\i (00:01:03) FORM dlib execute  
+\t (00:01:03) Starting Cadence export libraries...
+\w (00:02:43) User canceled the program; dump_libraries
+\i (00:02:46) FORM dlib pad NO 
+\i (00:02:47) FORM dlib compress_etch NO 
+\i (00:02:47) FORM dlib execute  
+\t (00:02:47) Starting Cadence export libraries...
+\w (00:11:09) User canceled the program; dump_libraries
+\i (00:11:09) FORM dlib cancel  
+\i (00:11:31) setwindow pcb
+\i (00:11:31) open 
+\t (00:11:31) [14:25:54.351000] Periodic Lic check successful
+[14:25:54.351000] Feature usage summary:
+[14:25:54.351000] Allegro_Venture_PCB_Designer2
+[14:25:54.351000] PCB_design_studio
+[14:25:54.351000] Allegro_Venture_PCB_Designer
+[14:25:54.352000] Venture_PCB_Schematic
 
-\i (00:05:32) QtSignal m_analysisFrame_2 m_analysisTreeView selectionChanged Design
-\i (00:05:32) QtSignal m_analysisFrame_2 m_analysisTreeView selectionChanged Design
-\i (00:05:32) QtSignal m_analysisFrame_2 m_analysisTreeView selectionChanged Design
-\i (00:05:32) QtSignal m_analysisFrame_2 m_analysisTreeView selectionChanged Design
-\i (00:05:37) cmgr_phys 
-\i (00:05:38) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
-\i (00:05:38) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
-\i (00:05:38) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
-\i (00:05:38) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
-\i (00:05:38) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
-\i (00:05:38) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
-\i (00:05:38) QtSignal "All Layers"
-\i (00:05:38) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 0 0 1
-\i (00:05:38) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 1 1 0
-\i (00:05:38) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 0 0 1
-\i (00:05:38) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 1 1 0
-\i (00:05:38) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 0 1 3
-\i (00:05:38) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 3 3 1
-\i (00:05:38) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 0 1 3
-\i (00:05:38) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:05:38) QtSignal 3 3 1
-\i (00:05:38) QtSignal CCMViewHost58 tableWidget currentChanged "mib_fp_jtag_serial_27_PH"
-\e (00:05:45) ERROR(SPMHDB-181): The current version of software is unable to open design 018rd.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\e (00:05:45) ERROR(SPMHDB-181): The current version of software is unable to open design 060sq040.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:05:45) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:05:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:46) QtSignal EditViaWidget m_AvailView dataChanged 9 "|" 150X150SMT
-\w (00:05:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:46) QtSignal EditViaWidget m_AvailView dataChanged 10 "|" 156X156SMT
-\w (00:05:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:46) QtSignal EditViaWidget m_AvailView dataChanged 8 "|" 12X18SMT
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:46) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:47) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:47) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:47) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 37 "|" "30VIA14_HV"
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 38 "|" 31X35SMT
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 36 "|" 30VIA14
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 395 "|" "NPH_67"
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1047 "|" S102
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1102 "|" "SCRCT5-70X3-70P-64"
-\e (00:05:48) ERROR(SPMHDB-181): The current version of software is unable to open design smd185x025.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1193 "|" SMD185X025
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1194 "|" "SMD18_10"
-\e (00:05:48) ERROR(SPMHDB-181): The current version of software is unable to open design smd181_sq.
-The design was last saved using version 16.5 and must be updated using DB Doctor. [help]
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1192 "|" "SMD181_SQ"
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1368 "|" SMD95X60
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1367 "|" SMD94REC65
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1366 "|" SMD92SQ
-\e (00:05:48) ERROR(SPMHDB-181): The current version of software is unable to open design smd90_16.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1365 "|" "SMD90_16"
-\e (00:05:48) ERROR(SPMHDB-181): The current version of software is unable to open design smd90_150.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1364 "|" "SMD90_150"
-\w (00:05:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:48) QtSignal EditViaWidget m_AvailView dataChanged 1363 "|" "SMD90_12"
-\e (00:05:49) ERROR(SPMHDB-181): The current version of software is unable to open design smd88_29.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1362 "|" "SMD88_29"
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1361 "|" "SMD85_60"
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1360 "|" SMD81CIR
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1359 "|" "SMD80_65"
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1377 "|" "SMDMM_2P6_2P6_THERM"
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1376 "|" "SMDMM_2P10_SQ"
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1405 "|" "SMD_SQUARE_2-15"
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1423 "|" SMM89X45
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1744 "|" "S_RCT_2-40_X_1-00"
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 1956 "|" "V24H12_THERMAL"
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\e (00:05:49) ERROR(SPMHDB-273): Unable to load shape symbol W1 (Check PSMPATH setting for this symbol).
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 2028 "|" W1
-\w (00:05:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:49) QtSignal EditViaWidget m_AvailView dataChanged 2024 "|" "VPT-BVIA-18R8-08"
-\w (00:05:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2026 "|" "VPT-V20H10"
-\w (00:05:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2025 "|" "VPT-V19H10"
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2024 "|" "VPT-BVIA-18R8-08"
-\w (00:05:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2023 "|" "VP12-SIG4"
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2022 "|" "VP12-BOTTOM_VIA26"
-\w (00:05:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2021 "|" "VP12-BOTTOM"
-\i (00:05:50) QtSignal EditViaWidget m_AvailView dataChanged 2020 "|" "VOIDED_BGA21SQ_10DRILL"
-\w (00:05:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:51) QtSignal EditViaWidget m_AvailView dataChanged 80 "|" "VM_LOW-VP12"
-\w (00:05:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 40 "|" VIAFANOUT
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 52 "|" "VIA_TOP_SIG4_60VIA20_NO_THERMAL"
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 51 "|" "VIA_SIG5_BOT_60VIA20_NO_THERMAL"
-\e (00:05:52) ERROR(SPMHDB-181): The current version of software is unable to open design via_masked.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 50 "|" "VIA_MASKED"
-\w (00:05:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 49 "|" "VIA_HEAT-PAD12"
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 48 "|" "VIA_DRILL_68H45_L1-10"
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 47 "|" "VIA_DRILL_68H45"
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 46 "|" "VIA_8"
-\w (00:05:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:52) QtSignal EditViaWidget m_AvailView dataChanged 45 "|" "VIA_5_TEMP"
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:53) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:54) QtSignal EditViaWidget m_AvailView dataChanged 44 "|" "VIA_14_30_NOTHERM"
-\w (00:05:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:54) QtSignal EditViaWidget m_AvailView dataChanged 43 "|" "VIA_10_TEMP"
-\w (00:05:54) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:54) QtSignal EditViaWidget m_AvailView dataChanged 42 "|" "VIA_10_26"
-\i (00:05:54) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:55) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 41 "|" "VIA_10"
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 40 "|" VIAFANOUT
-\w (00:05:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 39 "|" "VIA8_TOP-VMLOW"
-\i (00:05:55) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:05:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 38 "|" "VIA8_TOP-SIG4"
-\i (00:05:55) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 37 "|" "VIA8_SIG5-BOTTOM"
-\w (00:05:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 36 "|" "VIA80-40-110"
-\w (00:05:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 35 "|" "VIA60RD_35P"
-\w (00:05:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 34 "|" "VIA50-25-70"
-\w (00:05:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:55) QtSignal EditViaWidget m_AvailView dataChanged 33 "|" "VIA50-20-75"
-\i (00:05:56) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:05:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:56) QtSignal EditViaWidget m_AvailView dataChanged 32 "|" "VIA47-20-75"
-\i (00:05:56) QtSignal EditViaWidget m_AvailView dataChanged 31 "|" "VIA40RD0-5D"
-\w (00:05:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:56) QtSignal EditViaWidget m_AvailView dataChanged 30 "|" "VIA37_18"
-\i (00:05:56) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:05:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:56) QtSignal EditViaWidget m_AvailView dataChanged 29 "|" "VIA36RD0-4D"
-\w (00:05:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:56) QtSignal EditViaWidget m_AvailView dataChanged 27 "|" "VIA26C_12D"
-\w (00:05:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:56) QtSignal EditViaWidget m_AvailView dataChanged 27 "|" "VIA26C_12D"
-\i (00:05:57) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:57) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:57) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:05:57) QtSignal groupBox m_filterText editingFinished via
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged V19H10Z17 "|" "[1]" "|" "[2]"
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged V19H10Z17 "|" "[1]" "|" "[2]"
-\i (00:05:57) QtSignal EditViaWidget m_SelView selectionChanged V19H10Z17 "|" "[1]" "|" "[2]"
-\i (00:05:58) QtSignal EditViaWidget m_SelView selectionChanged V19H10Z17 "|" "[1]" "|" "[2]"
-\i (00:05:59) QtSignal EditViaWidget m_PurgeButton clicked
-\i (00:06:00) QtFillin Yes
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:02) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:02) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:02) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:02) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:02) QtSignal "[2]"
-\i (00:06:02) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:02) QtSignal "[2]"
-\i (00:06:03) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:03) QtSignal "[2]"
-\i (00:06:03) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:03) QtSignal "[2]"
-\i (00:06:03) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:03) QtSignal "[2]"
-\i (00:06:03) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:03) QtSignal "[2]"
-\i (00:06:03) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:03) QtSignal "[2]"
-\i (00:06:03) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:03) QtSignal "[2]"
-\i (00:06:04) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:04) QtSignal EditViaWidget m_AvailView dataChanged 9 "|" "VIA12_STD-TH"
-\i (00:06:04) QtSignal EditViaWidget m_AvailView dataChanged 8 "|" "VIA12_SIG5-BOTTOM"
-\i (00:06:04) QtSignal EditViaWidget m_AvailView dataChanged 7 "|" "VIA10_TOP-VM_LOW_DBFIX1"
-\i (00:06:04) QtSignal EditViaWidget m_AvailView dataChanged 6 "|" "VIA10_TOP-VM_LOW"
-\w (00:06:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:04) QtSignal EditViaWidget m_AvailView dataChanged 5 "|" "VIA10_TOP-SIG4"
-\i (00:06:04) QtSignal EditViaWidget m_AvailView dataChanged 4 "|" "VIA10_SIG5-BOTTOM"
-\e (00:06:05) ERROR(SPMHDB-181): The current version of software is unable to open design via-35-18-45.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:06:05) QtSignal EditViaWidget m_AvailView dataChanged 3 "|" "VIA-35-18-45"
-\i (00:06:05) QtSignal EditViaWidget m_AvailView dataChanged 2 "|" "VIA-24R12"
-\i (00:06:05) QtSignal EditViaWidget m_AvailView dataChanged 1 "|" "VIA-20R11"
-\w (00:06:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:05) QtSignal EditViaWidget m_AvailView dataChanged 0 "|" VIA
-\i (00:06:05) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:05) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:05) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:05) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:05) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:05) QtSignal "[2]"
-\i (00:06:06) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:06) QtSignal "[2]"
-\i (00:06:06) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:06) QtSignal "[2]"
-\i (00:06:06) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:06) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:06) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:06) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:07) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:07) QtSignal "[2]"
-\i (00:06:07) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:07) QtSignal "[2]"
-\i (00:06:07) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:07) QtSignal "[2]"
-\i (00:06:08) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:08) QtSignal "[2]"
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:08) QtSignal "[2]"
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:08) QtSignal "[2]"
-\i (00:06:08) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:08) QtSignal "[2]"
-\i (00:06:09) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:09) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:09) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:09) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:06:09) QtSignal BOTTOM "[2]"
-\i (00:06:09) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:06:09) QtSignal BOTTOM "[2]"
-\i (00:06:09) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:06:09) QtSignal BOTTOM "[2]"
-\i (00:06:09) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:10) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:06:10) QtSignal BOTTOM "[2]"
-\i (00:06:10) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:06:10) QtSignal BOTTOM "[2]"
-\i (00:06:10) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:06:11) QtSignal BOTTOM "[2]"
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:06:11) QtSignal BOTTOM "[2]"
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:06:11) QtSignal BOTTOM "[2]"
-\i (00:06:11) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:12) QtSignal EditViaWidget m_SelView selectionChanged "TP-30B-20R10" "|" TOP "[1]" "|" +
-\i (00:06:12) QtSignal BOTTOM "[2]"
-\i (00:06:12) QtSignal EditViaWidget m_SelView selectionChanged "TP-30B-20R10" "|" TOP "[1]" "|" +
-\i (00:06:12) QtSignal BOTTOM "[2]"
-\i (00:06:12) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:12) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:12) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:06:13) QtSignal EditViaWidget m_SelView selectionChanged "V19H10-UC" "|" TOP "[1]" "|" BOTTOM +
-\i (00:06:13) QtSignal "[2]"
-\i (00:06:13) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:14) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:15) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 12 "|" "VIA12_TOP-VM_LOW"
-\w (00:06:15) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 13 "|" VIA13
-\w (00:06:15) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 11 "|" "VIA12_TOP-SIG4"
-\i (00:06:15) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:06:15) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 15 "|" "VIA14_TOP-SIG4"
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 16 "|" "VIA14_TOP-VM_LOW"
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 14 "|" "VIA14_SIG5-BOTTOM"
-\i (00:06:15) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:15) QtSignal EditViaWidget m_AvailView dataChanged 10 "|" "VIA12_STD-TH-UCBF"
-\i (00:06:15) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:15) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:15) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 18 "|" VIA20C10D
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 20 "|" "VIA22C_10D"
-\i (00:06:16) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 17 "|" "VIA17_8"
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 26 "|" VIA26
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 25 "|" "VIA25_13"
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 24 "|" "VIA25_10"
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 23 "|" VIA24C8
-\i (00:06:16) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 21 "|" "VIA22C_10D_BKDRILL"
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 22 "|" VIA24C10
-\w (00:06:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:16) QtSignal EditViaWidget m_AvailView dataChanged 18 "|" VIA20C10D
-\i (00:06:16) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:17) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:17) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:17) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:17) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:17) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:18) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:19) QtSignal EditViaWidget m_AvailView dataChanged 44 "|" "VIA_14_30"
-\i (00:06:19) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:20) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:21) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:21) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:22) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:23) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:24) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:24) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:24) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:24) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:24) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:25) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:25) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:25) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:26) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:26) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:27) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:27) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:27) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:27) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:27) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:27) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:28) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:28) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:28) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:28) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:29) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:29) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:29) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:31) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:31) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:31) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:31) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:32) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:33) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:33) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:33) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:33) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:33) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:34) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:34) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:34) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:34) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AddButton clicked
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:36) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:37) QtSignal EditViaWidget m_AvailView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:06:37) QtSignal EditViaWidget m_AvailView doubleClicked VIA
-\i (00:06:37) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:37) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:37) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:37) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:06:40) QtSignal EditViaWidget m_OkButton clicked
-\i (00:07:43) cmgr_spac 
-\i (00:07:43) QtSignal m_domainSelector WS_Physical itemSelectionChanged
-\i (00:07:43) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
-\i (00:07:43) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
-\i (00:07:43) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
-\i (00:07:43) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
-\i (00:07:43) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
-\i (00:07:43) QtSignal "All Layers"
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 0 0 1
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 1 1 0
-\i (00:07:43) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 0 0 1
-\i (00:07:43) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 1 1 0
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 0 1 3
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 3 3 1
-\i (00:07:43) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 0 1 3
-\i (00:07:43) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
-\i (00:07:43) QtSignal 3 3 1
-\i (00:07:43) QtSignal CCMViewHost58 tableWidget currentChanged "mib_fp_jtag_serial_27_PH"
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 0 0 1
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 1 1 0
-\i (00:07:43) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 0 0 1
-\i (00:07:43) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 1 1 0
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 0 1 3
-\i (00:07:43) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 3 3 1
-\i (00:07:43) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 0 1 3
-\i (00:07:43) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
-\i (00:07:43) QtSignal 3 3 1
-\i (00:07:43) QtSignal CCMViewHost167 tableWidget currentChanged "mib_fp_jtag_serial_27_PH"
-\i (00:07:43) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
-\i (00:07:43) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
-\i (00:07:43) QtSignal "All Layers"
-\i (00:07:45) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
-\i (00:07:45) QtSignal m_domainSelector WS_Physical itemSelectionChanged
-\i (00:07:46) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
-\i (00:07:46) QtSignal "All Layers"
-\i (00:07:46) QtSignal m_domainSelector WS_Physical itemClicked "Physical Constraint Set" "All Layers"
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\e (00:07:48) ERROR(SPMHDB-181): The current version of software is unable to open design 018rd.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\e (00:07:48) ERROR(SPMHDB-181): The current version of software is unable to open design 060sq040.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:07:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:07:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:49) QtSignal EditViaWidget m_AvailView dataChanged 9 "|" 150X150SMT
-\w (00:07:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:49) QtSignal EditViaWidget m_AvailView dataChanged 10 "|" 156X156SMT
-\w (00:07:49) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:49) QtSignal EditViaWidget m_AvailView dataChanged 8 "|" 12X18SMT
-\i (00:07:49) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:07:49) QtSignal EditViaWidget m_SelView selectionChanged
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 27 "|" 256PAD156
-\e (00:07:51) ERROR(SPMHDB-181): The current version of software is unable to open design 256pad92.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 28 "|" 256PAD92
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 26 "|" 250VIA180
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 442 "|" P95
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 904 "|" REC074X093MM
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1199 "|" "SMD1P28_0P55"
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1457 "|" "SM_MM_1_45X0_30"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1632 "|" "S_R50T110M50_110P50_110"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1780 "|" "S_RCT_3-20_X_0-80"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1789 "|" "S_RCT_3-40_X_1-20"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1798 "|" "S_RCT_3-80_X_1-00"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1807 "|" "S_RCT_5-40_X_1-50"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1806 "|" "S_RCT_5-30_X_1-20"
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1817 "|" "S_SQUARE_0-80"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1818 "|" "S_SQUARE_1-25_P-64"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1816 "|" "S_SQR_2-70_P-64_M8"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1890 "|" "TRND0-89D0-50PNP"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1909 "|" "TRND3-10D1-90PNP"
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1937 "|" "T_Q102_137_M137"
-\e (00:07:51) ERROR(SPMHDB-181): The current version of software is unable to open design t_q178_267_m267.
-The design was last saved using version 16.5 and must be updated using DB Doctor. [help]
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1938 "|" "T_Q178_267_M267"
-\e (00:07:51) ERROR(SPMHDB-181): The current version of software is unable to open design t_n97_147_m147.
-The design was last saved using version 16.5 and must be updated using DB Doctor. [help]
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 1936 "|" "T_N97_147_M147"
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 2010 "|" "VIA_10"
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\e (00:07:51) ERROR(SPMHDB-273): Unable to load shape symbol W1 (Check PSMPATH setting for this symbol).
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 2037 "|" W1
-\w (00:07:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:51) QtSignal EditViaWidget m_AvailView dataChanged 2033 "|" "VPT-BVIA-18R8-08"
-\w (00:07:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2035 "|" "VPT-V20H10"
-\w (00:07:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2034 "|" "VPT-V19H10"
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2033 "|" "VPT-BVIA-18R8-08"
-\w (00:07:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2032 "|" "VP12-SIG4"
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2031 "|" "VP12-BOTTOM_VIA26"
-\w (00:07:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2030 "|" "VP12-BOTTOM"
-\i (00:07:52) QtSignal EditViaWidget m_AvailView dataChanged 2029 "|" "VOIDED_BGA21SQ_10DRILL"
-\w (00:08:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:00) QtSignal EditViaWidget m_AvailView dataChanged 0 "|" "VIA36RD0_4"
-\i (00:08:02) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:03) QtSignal groupBox m_filterText editingFinished "via36rd0_4"
-\i (00:08:03) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:03) QtSignal BOTTOM "[2]"
-\i (00:08:03) QtSignal EditViaWidget m_AvailView doubleClicked "VIA36RD0_4"
-\w (00:08:03) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:03) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:03) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:03) QtSignal EditViaWidget m_SelView selectionChanged VIA "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:08:03) QtSignal EditViaWidget m_SelView doubleClicked VIA
-\i (00:08:04) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:04) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:04) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:05) QtSignal EditViaWidget m_OkButton clicked
-\e (00:08:06) ERROR(SPMHDB-181): The current version of software is unable to open design 018rd.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\e (00:08:06) ERROR(SPMHDB-181): The current version of software is unable to open design 060sq040.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:06) QtSignal EditViaWidget m_AvailView dataChanged 9 "|" 150X150SMT
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:06) QtSignal EditViaWidget m_AvailView dataChanged 10 "|" 156X156SMT
-\w (00:08:06) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:06) QtSignal EditViaWidget m_AvailView dataChanged 8 "|" 12X18SMT
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:07) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:08) QtSignal EditViaWidget m_PurgeButton clicked
-\i (00:08:10) QtFillin Yes
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:10) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:11) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:08:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:12) QtSignal EditViaWidget m_AvailView dataChanged 0 "|" "VIA36RD0_4"
-\i (00:08:13) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:13) QtSignal groupBox m_filterText editingFinished "via36rd0_4"
-\i (00:08:13) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:13) QtSignal BOTTOM "[2]"
-\i (00:08:13) QtSignal EditViaWidget m_AvailView doubleClicked "VIA36RD0_4"
-\w (00:08:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:13) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:13) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:14) QtSignal "[2]"
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:14) QtSignal "[2]"
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:14) QtSignal "[2]"
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:14) QtSignal "[2]"
-\i (00:08:14) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:14) QtSignal "[2]"
-\i (00:08:16) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:16) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:16) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:16) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:16) QtSignal EditViaWidget m_SelView selectionChanged "VIA_8" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:16) QtSignal "[2]"
-\i (00:08:17) QtSignal EditViaWidget m_SelView selectionChanged "VIA_8" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:17) QtSignal "[2]"
-\i (00:08:17) QtSignal EditViaWidget m_SelView selectionChanged "VIA_8" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:17) QtSignal "[2]"
-\i (00:08:17) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:17) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:17) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:17) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:18) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:18) QtSignal "[2]"
-\i (00:08:19) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:19) QtSignal "[2]"
-\i (00:08:19) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:19) QtSignal "[2]"
-\i (00:08:19) QtSignal EditViaWidget m_SelView selectionChanged "VIA_10" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:19) QtSignal "[2]"
-\i (00:08:19) QtSignal EditViaWidget m_SelView selectionChanged "VIA_10" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:19) QtSignal "[2]"
-\i (00:08:20) QtSignal EditViaWidget m_SelView selectionChanged "VIA_10" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:20) QtSignal "[2]"
-\i (00:08:20) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:20) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:20) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:20) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:20) QtSignal BOTTOM "[2]"
-\i (00:08:20) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:20) QtSignal BOTTOM "[2]"
-\i (00:08:21) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:21) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:21) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:21) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:21) QtSignal "[2]"
-\i (00:08:21) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:21) QtSignal "[2]"
-\i (00:08:21) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:22) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:22) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:22) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:08:22) QtSignal BOTTOM "[2]"
-\i (00:08:22) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:08:22) QtSignal BOTTOM "[2]"
-\i (00:08:22) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:22) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:22) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:23) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:08:23) QtSignal BOTTOM "[2]"
-\i (00:08:23) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:08:23) QtSignal BOTTOM "[2]"
-\i (00:08:23) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:23) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:23) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:24) QtSignal EditViaWidget m_SelView selectionChanged VIAFANOUT "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:24) QtSignal "[2]"
-\i (00:08:24) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:25) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:25) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:27) QtSignal EditViaWidget m_OkButton clicked
-\e (00:08:28) ERROR(SPMHDB-181): The current version of software is unable to open design 018rd.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\e (00:08:28) ERROR(SPMHDB-181): The current version of software is unable to open design 060sq040.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\w (00:08:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:29) QtSignal EditViaWidget m_AvailView dataChanged 9 "|" 150X150SMT
-\w (00:08:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:29) QtSignal EditViaWidget m_AvailView dataChanged 10 "|" 156X156SMT
-\w (00:08:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:29) QtSignal EditViaWidget m_AvailView dataChanged 8 "|" 12X18SMT
-\i (00:08:29) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:29) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:29) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:29) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:29) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:29) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:30) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:08:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:32) QtSignal EditViaWidget m_AvailView dataChanged 0 "|" "VIA36RD0_4"
-\i (00:08:32) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:32) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:32) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:33) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:33) QtSignal groupBox m_filterText editingFinished "via36rd0_4"
-\i (00:08:33) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:33) QtSignal BOTTOM "[2]"
-\i (00:08:33) QtSignal EditViaWidget m_AvailView doubleClicked TOP "[1]"
-\w (00:08:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:33) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:34) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:34) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:34) QtSignal "[2]"
-\i (00:08:34) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:34) QtSignal "[2]"
-\i (00:08:34) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:34) QtSignal "[2]"
-\i (00:08:34) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:34) QtSignal "[2]"
-\i (00:08:36) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:36) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:37) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:37) QtSignal "[2]"
-\i (00:08:37) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:37) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:37) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:37) QtSignal "[2]"
-\i (00:08:38) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:38) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:38) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:38) QtSignal BOTTOM "[2]"
-\i (00:08:38) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:38) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:39) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:08:39) QtSignal BOTTOM "[2]"
-\i (00:08:39) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:39) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:39) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:39) QtSignal "[2]"
-\i (00:08:40) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:40) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:40) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:40) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:08:40) QtSignal BOTTOM "[2]"
-\i (00:08:40) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:08:40) QtSignal BOTTOM "[2]"
-\i (00:08:40) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged GSSG "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged GSSG "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:08:41) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:41) QtSignal EditViaWidget m_SelView selectionChanged "VIA12_STD-TH" "|" TOP "[1]" "|" +
-\i (00:08:41) QtSignal BOTTOM "[2]"
-\i (00:08:42) QtSignal EditViaWidget m_SelView selectionChanged "VIA12_STD-TH" "|" TOP "[1]" "|" +
-\i (00:08:42) QtSignal BOTTOM "[2]"
-\i (00:08:42) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:42) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:42) QtSignal EditViaWidget m_SelView selectionChanged "VIA-24R12" "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:42) QtSignal "[2]"
-\i (00:08:43) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:45) QtSignal EditViaWidget m_OkButton clicked
-\e (00:08:46) ERROR(SPMHDB-181): The current version of software is unable to open design 018rd.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\e (00:08:46) ERROR(SPMHDB-181): The current version of software is unable to open design 060sq040.
-The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
-\w (00:08:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:47) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:08:47) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:47) QtSignal EditViaWidget m_AvailView dataChanged 9 "|" 150X150SMT
-\w (00:08:47) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:47) QtSignal EditViaWidget m_AvailView dataChanged 10 "|" 156X156SMT
-\w (00:08:47) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:47) QtSignal EditViaWidget m_AvailView dataChanged 8 "|" 12X18SMT
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:47) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:48) QtSignal EditViaWidget m_AvailView selectionChanged
-\w (00:08:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:50) QtSignal EditViaWidget m_AvailView dataChanged 0 "|" "VIA36RD0_4"
-\i (00:08:50) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:50) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:50) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:50) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:50) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:51) QtSignal groupBox m_filterText editingFinished "via36rd0_4"
-\i (00:08:51) QtSignal EditViaWidget m_AvailView selectionChanged
-\i (00:08:51) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:51) QtSignal BOTTOM "[2]"
-\i (00:08:51) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:51) QtSignal BOTTOM "[2]"
-\i (00:08:51) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:51) QtSignal BOTTOM "[2]"
-\i (00:08:51) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:51) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:52) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:52) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:52) QtSignal BOTTOM "[2]"
-\i (00:08:52) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:52) QtSignal BOTTOM "[2]"
-\i (00:08:53) QtSignal EditViaWidget m_AvailView selectionChanged "VIA36RD0_4" "|" TOP "[1]" "|" +
-\i (00:08:53) QtSignal BOTTOM "[2]"
-\i (00:08:53) QtSignal EditViaWidget m_AvailView doubleClicked "VIA36RD0_4"
-\w (00:08:53) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:53) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:54) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:54) QtSignal "[2]"
-\i (00:08:54) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:54) QtSignal "[2]"
-\i (00:08:54) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:54) QtSignal "[2]"
-\i (00:08:54) QtSignal EditViaWidget m_SelView selectionChanged V20H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:54) QtSignal "[2]"
-\i (00:08:55) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:55) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:56) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-17R8-08" "|" TOP "[1]" "|" +
-\i (00:08:56) QtSignal BOTTOM "[2]"
-\i (00:08:56) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:56) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:56) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:57) QtSignal "[2]"
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:57) QtSignal "[2]"
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged V19H10 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:57) QtSignal "[2]"
-\i (00:08:57) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:57) QtSignal EditViaWidget m_SelView selectionChanged V24H12 "|" TOP "[1]" "|" BOTTOM +
-\i (00:08:57) QtSignal "[2]"
-\i (00:08:58) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:08:58) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:59) QtSignal BOTTOM "[2]"
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:59) QtSignal BOTTOM "[2]"
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:59) QtSignal BOTTOM "[2]"
-\i (00:08:59) QtSignal EditViaWidget m_SelView selectionChanged "BVIA-18R8-08" "|" TOP "[1]" "|" +
-\i (00:08:59) QtSignal BOTTOM "[2]"
-\i (00:08:59) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:09:00) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:00) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:00) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:09:00) QtSignal BOTTOM "[2]"
-\i (00:09:00) QtSignal EditViaWidget m_SelView selectionChanged "BGAVIA8_18_08" "|" TOP "[1]" "|" +
-\i (00:09:00) QtSignal BOTTOM "[2]"
-\i (00:09:00) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged "VIA-24R12" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:01) QtSignal "[2]"
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged "VIA-24R12" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:01) QtSignal "[2]"
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged "VIA-24R12" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:01) QtSignal "[2]"
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged "VIA-24R12" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:01) QtSignal "[2]"
-\i (00:09:01) QtSignal EditViaWidget m_SelView selectionChanged "VIA-24R12" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:01) QtSignal "[2]"
-\i (00:09:02) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:09:02) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:02) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:02) QtSignal EditViaWidget m_SelView selectionChanged GSSG "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:09:02) QtSignal EditViaWidget m_SelView selectionChanged GSSG "|" TOP "[1]" "|" BOTTOM "[2]"
-\i (00:09:03) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:09:03) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:03) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:03) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:04) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:04) QtSignal "[2]"
-\i (00:09:04) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:04) QtSignal "[2]"
-\i (00:09:04) QtSignal EditViaWidget m_SelView selectionChanged "VIA_14_30" "|" TOP "[1]" "|" BOTTOM +
-\i (00:09:04) QtSignal "[2]"
-\i (00:09:04) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:09:05) QtSignal EditViaWidget m_SelView selectionChanged
-\i (00:09:05) QtSignal EditViaWidget m_SelView selectionChanged "VIA12_STD-TH" "|" TOP "[1]" "|" +
-\i (00:09:05) QtSignal BOTTOM "[2]"
-\i (00:09:05) QtSignal EditViaWidget m_RemoveButton clicked
-\i (00:09:07) QtSignal EditViaWidget m_OkButton clicked
-\i (00:09:09) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
-\i (00:09:09) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
-\i (00:09:09) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
-\i (00:09:09) QtSignal "All Layers"
-\i (00:09:11) save 
-\i (00:09:12) fillin yes 
-\t (00:09:12) Loading consmgr.cxt 
-\t (00:09:12) Loading acns_formula.cxt 
-\i (00:09:19) padeditdb 
-\i (00:09:21) setwindow form.mini
-\i (00:09:21) FORM mini purge All 
-\i (00:09:21) setwindow text
-\i (00:09:21) stick
-\i (00:09:27) close
-\i (00:09:28) fillin yes 
-\i (00:09:32) setwindow pcb
-\i (00:09:32) zoom in 1 
-\i (00:09:32) setwindow pcb
-\i (00:09:32) zoom in 31.30 17.32
-\t (00:09:32) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:09:32) trapsize 39
-\i (00:09:32) zoom in 1 
-\i (00:09:32) setwindow pcb
-\i (00:09:32) zoom in 31.30 17.40
-\t (00:09:32) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:09:32) trapsize 19
-\i (00:09:32) zoom in 1 
-\i (00:09:32) setwindow pcb
-\i (00:09:32) zoom in 32.51 17.68
-\i (00:09:32) trapsize 10
-\i (00:09:33) prepopup 31.99 23.83
-\i (00:09:33) done 
-\i (00:09:33) zoom out 1 
-\i (00:09:33) setwindow pcb
-\i (00:09:33) zoom out 32.01 23.90
-\i (00:09:33) trapsize 19
-\i (00:09:33) zoom out 1 
-\i (00:09:33) setwindow pcb
-\i (00:09:33) zoom out 32.00 23.91
-\t (00:09:33) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:09:33) trapsize 39
-\i (00:09:35) add connect 
-\w (00:09:35) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:09:35) Pick first element.
-\i (00:09:35) zoom in 1 
-\i (00:09:35) setwindow pcb
-\i (00:09:35) zoom in 35.57 59.74
-\t (00:09:35) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:09:35) trapsize 19
-\i (00:09:35) zoom in 1 
-\i (00:09:35) setwindow pcb
-\i (00:09:35) zoom in 35.69 59.75
-\i (00:09:35) trapsize 10
-\i (00:09:36) pick grid 35.34 56.71
-\t (00:09:36) last pick:  35.30 56.70
-\t (00:09:36) last pick:  35.05 56.60
-\t (00:09:36) Target Symbol Pin is defined on TOP.
-\t (00:09:36) last pick:  35.05 56.60
-\i (00:09:36) mouse_pos 34.99 56.73
-\i (00:09:36) mouse_pos 34.51 56.77
-\i (00:09:37) pick grid 32.24 56.80
-\t (00:09:37) last pick:  32.20 56.80
-\t (00:09:37) No DRC errors detected.
-\i (00:09:37) pick grid dbl 32.24 56.80
-\t (00:09:37) last pick:  32.20 56.80
-\t (00:09:37) VIA36RD0_4 used for drill.
-\t (00:09:37) No DRC errors detected.
-\i (00:09:37) prepopup 33.21 54.83
-\i (00:09:38) done 
-\i (00:09:41) replace padstack 
-\i (00:09:42) pick grid 55.42 57.97
-\t (00:09:42) last pick:  55.40 58.00
-\i (00:09:47) pick grid 32.35 57.00
-\t (00:09:47) last pick:  32.40 57.00
-\i (00:09:49) setwindow form.mini
-\i (00:09:49) FORM mini replace  
-\t (00:09:49) Done, updated padstack.
-\t (00:09:49) 20 out of 20 old padstack VIA40RD0-5D were replaced with new padstack VIA36RD0_4.
-\i (00:09:50) setwindow pcb
-\i (00:09:50) zoom out 1 
-\i (00:09:50) setwindow pcb
-\i (00:09:50) zoom out 52.03 52.46
-\i (00:09:50) trapsize 19
-\i (00:09:50) zoom out 1 
-\i (00:09:50) setwindow pcb
-\i (00:09:50) zoom out 52.03 52.47
-\t (00:09:50) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:09:50) trapsize 39
-\i (00:09:51) roam start
-\i (00:09:51) roam x 16
-\i (00:09:51) roam x 32
-\i (00:09:51) roam y -16
-\i (00:09:51) roam x 16
-\i (00:09:51) roam x 16
-\i (00:09:51) roam x 32
-\i (00:09:51) roam y -16
-\i (00:09:51) roam x 16
-\i (00:09:51) roam end
-\i (00:09:51) zoom in 1 
-\i (00:09:51) setwindow pcb
-\i (00:09:51) zoom in 74.98 63.62
-\t (00:09:51) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:09:51) trapsize 19
-\i (00:09:51) zoom in 1 
-\i (00:09:51) setwindow pcb
-\i (00:09:51) zoom in 74.98 63.58
-\i (00:09:51) trapsize 10
-\i (00:09:52) pick grid 71.74 61.90
-\t (00:09:52) last pick:  71.70 61.90
-\i (00:09:53) pick grid 55.03 58.14
-\t (00:09:53) last pick:  55.00 58.10
-\w (00:09:53) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:09:55) setwindow form.mini
-\i (00:09:55) FORM mini replace  
-\t (00:09:55) Done, updated padstack.
-\t (00:09:55) 41 out of 41 old padstack VIA36RD0_4 were replaced with new padstack VIA36RD0_4.
-\i (00:09:56) setwindow pcb
-\i (00:09:56) roam start
-\i (00:09:56) roam x 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam y 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam y 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam y 16
-\i (00:09:56) roam x 32
-\i (00:09:56) roam y 16
-\i (00:09:56) roam x 32
-\i (00:09:56) roam y 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam y 16
-\i (00:09:56) roam x 32
-\i (00:09:56) roam y 32
-\i (00:09:56) roam x 32
-\i (00:09:56) roam y 32
-\i (00:09:56) roam x 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam y 32
-\i (00:09:56) roam x 16
-\i (00:09:56) roam x 16
-\i (00:09:56) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 32
-\i (00:09:57) roam y 32
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 32
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 32
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 32
-\i (00:09:57) roam y 48
-\i (00:09:57) roam y 16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y 32
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y 16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -48
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -48
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -48
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -32
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam y -16
-\i (00:09:57) roam x 16
-\i (00:09:57) roam y -16
-\i (00:09:58) roam end
-\i (00:09:59) pick grid 75.76 64.14
-\t (00:09:59) last pick:  75.80 64.10
-\i (00:10:00) pick grid 71.49 61.33
-\t (00:10:00) last pick:  71.50 61.30
-\i (00:10:02) setwindow form.mini
-\i (00:10:02) FORM mini replace  
-\t (00:10:02) Done, updated padstack.
-\t (00:10:02) 47 out of 47 old padstack V24H12 were replaced with new padstack VIA36RD0_4.
-\i (00:10:03) setwindow pcb
-\i (00:10:03) pick grid 72.63 67.63
-\t (00:10:03) last pick:  72.60 67.60
-\i (00:10:04) pick grid 75.78 68.49
-\t (00:10:04) last pick:  75.80 68.50
-\i (00:10:05) setwindow form.mini
-\i (00:10:05) FORM mini replace  
-\t (00:10:05) Done, updated padstack.
-\t (00:10:05) 53 out of 53 old padstack V20H10 were replaced with new padstack VIA36RD0_4.
-\i (00:10:06) setwindow pcb
-\i (00:10:06) zoom out 1 
-\i (00:10:06) setwindow pcb
-\i (00:10:06) zoom out 81.86 63.66
-\i (00:10:06) trapsize 19
-\i (00:10:06) roam start
-\i (00:10:06) roam y 16
-\i (00:10:06) roam y 48
-\i (00:10:06) roam y 16
-\i (00:10:06) roam y 48
-\i (00:10:06) roam y 16
-\i (00:10:06) roam y 48
-\i (00:10:06) roam y 16
-\i (00:10:06) roam y 32
-\i (00:10:07) roam y 16
-\i (00:10:07) roam y 48
-\i (00:10:07) roam y 32
-\i (00:10:07) roam y 32
-\i (00:10:07) roam y 16
-\i (00:10:07) roam y 32
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 32
-\i (00:10:07) roam y 16
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 32
-\i (00:10:07) roam y 32
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 16
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 32
-\i (00:10:07) roam y 16
-\i (00:10:07) roam x -32
-\i (00:10:07) roam y 32
-\i (00:10:07) roam y 16
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 32
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 32
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 16
-\i (00:10:07) roam y 16
-\i (00:10:07) roam x -16
-\i (00:10:07) roam y 16
-\i (00:10:07) roam x -16
-\i (00:10:07) roam end
-\i (00:10:07) zoom in 1 
-\i (00:10:07) setwindow pcb
-\i (00:10:07) zoom in 70.48 16.16
-\i (00:10:07) trapsize 10
-\i (00:10:08) zoom in 1 
-\i (00:10:08) setwindow pcb
-\i (00:10:08) zoom in 71.03 17.03
-\i (00:10:08) trapsize 5
-\i (00:10:09) pick grid 71.07 23.10
-\t (00:10:09) last pick:  71.10 23.10
-\i (00:10:10) pick grid 64.92 17.25
-\t (00:10:10) last pick:  64.90 17.30
-\w (00:10:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:10:11) zoom out 1 
-\i (00:10:11) setwindow pcb
-\i (00:10:11) zoom out 69.17 18.22
-\i (00:10:11) trapsize 10
-\i (00:10:11) zoom out 1 
-\i (00:10:11) setwindow pcb
-\i (00:10:11) zoom out 69.18 18.22
-\i (00:10:11) trapsize 19
-\i (00:10:11) roam start
-\i (00:10:11) roam y 16
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -16
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -16
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -16
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -16
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 32
-\i (00:10:11) roam x -16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam x -32
-\i (00:10:11) roam x -32
-\i (00:10:11) roam y 16
-\i (00:10:11) roam end
-\i (00:10:12) roam start
-\i (00:10:12) roam x -32
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam x -32
-\i (00:10:12) roam y -32
-\i (00:10:12) roam x -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam x -16
-\i (00:10:12) roam y -16
-\i (00:10:13) roam x -16
-\i (00:10:13) roam y -16
-\i (00:10:13) roam x -16
-\i (00:10:13) roam y -16
-\i (00:10:13) roam end
-\i (00:10:13) prepopup 35.20 29.12
-\i (00:10:14) done 
-\t (00:10:14) Performing DRC...
-\t (00:10:14) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
-\t (00:10:14) Multithreaded DRC update (16 threads).
-\t (00:10:15) DRC done; 14 errors detected.
-\i (00:10:15) roam start
-\i (00:10:15) roam x 752
-\i (00:10:15) roam y 400
-\i (00:10:15) roam end
-\i (00:10:15) roam start
-\i (00:10:15) roam x 256
-\i (00:10:15) roam y 64
-\i (00:10:16) roam end
-\i (00:10:16) zoom in 1 
-\i (00:10:16) setwindow pcb
-\i (00:10:16) zoom in 76.57 8.92
-\i (00:10:16) trapsize 10
-\i (00:10:16) zoom in 1 
-\i (00:10:16) setwindow pcb
-\i (00:10:16) zoom in 76.57 8.92
-\i (00:10:16) trapsize 5
-\i (00:10:19) slide 
-\t (00:10:19) Pick element to slide.
-\i (00:10:20) pick grid 69.47 11.73
-\t (00:10:20) last pick:  69.50 11.70
-\t (00:10:20) last pick:  69.50 11.80
-\t (00:10:20) Waiting for the destination pick.
-\i (00:10:21) pick grid 69.47 11.73
-\t (00:10:21) last pick:  69.50 11.70
-\t (00:10:21) No DRC errors detected.
-\t (00:10:21) Pick another element to slide.
-\i (00:10:22) pick grid 72.56 8.31
-\t (00:10:22) last pick:  72.60 8.30
-\t (00:10:22) last pick:  72.50 8.30
-\t (00:10:22) Waiting for the destination pick.
-\i (00:10:24) pick grid 72.54 8.24
-\t (00:10:24) last pick:  72.50 8.20
-\t (00:10:24) DRC errors detected.
-\t (00:10:24) Pick another element to slide.
-\i (00:10:24) pick grid 72.89 7.68
-\t (00:10:24) last pick:  72.90 7.70
-\t (00:10:24) last pick:  72.89 7.70
-\t (00:10:24) Waiting for the destination pick.
-\i (00:10:25) pick grid 72.90 7.44
-\t (00:10:25) last pick:  72.90 7.40
-\t (00:10:25) No DRC errors detected.
-\t (00:10:25) Pick another element to slide.
-\i (00:10:26) pick grid 72.44 8.23
-\t (00:10:26) last pick:  72.40 8.20
-\t (00:10:26) last pick:  72.50 8.20
-\t (00:10:26) Waiting for the destination pick.
-\i (00:10:27) pick grid 72.45 8.17
-\t (00:10:27) last pick:  72.50 8.20
-\t (00:10:27) No DRC errors detected.
-\t (00:10:27) Pick another element to slide.
-\i (00:10:28) pick grid 73.04 8.24
-\t (00:10:28) last pick:  73.00 8.20
-\t (00:10:28) last pick:  73.05 8.30
-\t (00:10:28) Waiting for the destination pick.
-\i (00:10:28) updateport CVPane
-\i (00:10:30) pick grid 73.05 8.10
-\t (00:10:30) last pick:  73.10 8.10
-\t (00:10:30) No DRC errors detected.
-\t (00:10:30) Pick another element to slide.
-\i (00:10:30) zoom out 1 
-\i (00:10:30) setwindow pcb
-\i (00:10:30) zoom out 73.34 8.26
-\t (00:10:30) [10:21:27.494000] Periodic Lic check successful
-[10:21:27.494000] Feature usage summary:
-[10:21:27.494000] Allegro_Venture_PCB_Designer2
-[10:21:27.494000] PCB_design_studio
-[10:21:27.494000] Allegro_Venture_PCB_Designer
-[10:21:27.494000] Venture_PCB_Schematic
-
-\i (00:10:30) trapsize 10
-\i (00:10:31) zoom in 1 
-\i (00:10:31) setwindow pcb
-\i (00:10:31) zoom in 67.39 10.94
-\i (00:10:31) trapsize 5
-\i (00:10:31) zoom in 1 
-\i (00:10:31) setwindow pcb
-\i (00:10:31) zoom in 67.55 10.84
-\i (00:10:31) trapsize 2
-\i (00:10:31) pick grid 66.54 10.68
-\t (00:10:31) last pick:  66.50 10.70
-\t (00:10:31) Waiting for the destination pick.
-\i (00:10:32) pick grid 66.44 10.69
-\t (00:10:32) last pick:  66.40 10.70
-\t (00:10:32) No DRC errors detected.
-\t (00:10:32) Pick another element to slide.
-\i (00:10:32) zoom out 1 
-\i (00:10:32) setwindow pcb
-\i (00:10:32) zoom out 67.78 10.65
-\i (00:10:32) trapsize 5
-\i (00:10:32) zoom out 1 
-\i (00:10:32) setwindow pcb
-\i (00:10:32) zoom out 68.14 10.56
-\i (00:10:32) trapsize 10
-\i (00:10:33) pick grid 75.81 9.13
-\t (00:10:33) last pick:  75.80 9.10
-\t (00:10:33) last pick:  75.60 9.20
-\t (00:10:33) Waiting for the destination pick.
-\i (00:10:35) pick grid 75.73 9.13
-\t (00:10:35) last pick:  75.70 9.10
-\t (00:10:35) No DRC errors detected.
-\t (00:10:35) Pick another element to slide.
-\i (00:10:36) roam start
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -32
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -32
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -32
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -32
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x 16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -32
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam y -16
-\i (00:10:36) roam x -16
-\i (00:10:36) roam end
-\i (00:10:37) roam start
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -16
-\i (00:10:37) roam x -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam x -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -16
-\i (00:10:37) roam x -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam x -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam x -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam y -16
-\i (00:10:37) roam y -32
-\i (00:10:37) roam x 16
-\i (00:10:37) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam x 16
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -48
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam x -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -48
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -64
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -32
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam x -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam x -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam y -16
-\i (00:10:38) roam end
-\i (00:10:40) drag_start grid 66.30 71.30
-\i (00:10:41) drag_stop 65.95 65.07
-\t (00:10:41) Waiting for origin pick.
-\i (00:10:41) pick grid 65.72 65.15
-\t (00:10:41) last pick:  65.70 65.20
-\t (00:10:41) Waiting for the destination pick.
-\i (00:10:43) pick grid 65.64 65.17
-\t (00:10:43) last pick:  65.60 65.20
-\t (00:10:43) No DRC errors detected.
-\t (00:10:43) Pick another element to slide.
-\i (00:10:45) pick grid 75.58 68.72
-\t (00:10:45) last pick:  75.60 68.70
-\t (00:10:45) last pick:  75.50 68.70
-\t (00:10:45) Waiting for the destination pick.
-\i (00:10:46) pick grid 75.43 68.74
-\t (00:10:46) last pick:  75.40 68.70
-\t (00:10:46) No DRC errors detected.
-\t (00:10:46) Pick another element to slide.
-\i (00:10:47) pick grid 75.45 64.05
-\t (00:10:47) last pick:  75.50 64.10
-\t (00:10:47) last pick:  75.60 64.20
-\t (00:10:47) Waiting for the destination pick.
-\i (00:10:48) pick grid 75.56 64.05
-\t (00:10:48) last pick:  75.60 64.10
-\t (00:10:48) No DRC errors detected.
-\t (00:10:48) Pick another element to slide.
-\i (00:10:49) pick grid 72.50 63.31
-\t (00:10:49) last pick:  72.50 63.30
-\t (00:10:49) Waiting for the destination pick.
-\i (00:10:51) pick grid 72.50 63.14
-\t (00:10:51) last pick:  72.50 63.10
-\t (00:10:51) DRC errors detected.
-\t (00:10:51) Pick another element to slide.
-\i (00:10:53) pick grid 71.32 61.45
-\t (00:10:53) last pick:  71.30 61.50
-\t (00:10:53) last pick:  71.50 61.60
-\t (00:10:53) Waiting for the destination pick.
-\i (00:10:53) pick grid 71.10 59.24
-\t (00:10:53) last pick:  71.10 59.20
-\t (00:10:53) No DRC errors detected.
-\t (00:10:53) Pick another element to slide.
-\i (00:10:54) pick grid 71.43 62.53
-\t (00:10:54) last pick:  71.40 62.50
-\t (00:10:54) last pick:  71.43 62.60
-\t (00:10:54) Waiting for the destination pick.
-\i (00:10:54) updateport CVPane
-\i (00:10:55) pick grid 71.43 61.84
-\t (00:10:55) last pick:  71.40 61.80
-\t (00:10:55) No DRC errors detected.
-\t (00:10:55) Pick another element to slide.
-\i (00:10:56) prepopup 71.05 62.65
-\i (00:10:56) oops 
-\t (00:10:56) last pick:  71.40 62.50
-\t (00:10:56) last pick:  71.43 62.60
-\t (00:10:56) last pick:  71.43 62.60
-\t (00:10:56) Waiting for the destination pick.
-\i (00:10:57) prepopup 69.59 62.55
-\i (00:10:57) oops 
-\t (00:10:57) last pick:  71.10 59.20
-\t (00:10:57) Pick element to slide.
-\i (00:10:58) pick grid 67.05 62.84
-\t (00:10:58) last pick:  67.10 62.80
-\t (00:10:58) last pick:  67.05 62.70
-\t (00:10:58) Waiting for the destination pick.
-\i (00:10:59) pick grid 67.07 61.74
-\t (00:10:59) last pick:  67.10 61.70
-\t (00:10:59) No DRC errors detected.
-\t (00:10:59) Pick another element to slide.
-\i (00:11:00) pick grid 67.58 62.55
-\t (00:11:00) last pick:  67.60 62.60
-\t (00:11:00) last pick:  67.58 62.60
-\t (00:11:00) Waiting for the destination pick.
-\i (00:11:00) updateport CVPane
-\i (00:11:01) pick grid 67.62 62.24
-\t (00:11:01) last pick:  67.60 62.20
-\t (00:11:01) No DRC errors detected.
-\t (00:11:01) Pick another element to slide.
-\i (00:11:03) pick grid 72.77 67.01
-\t (00:11:03) last pick:  72.80 67.00
-\t (00:11:03) last pick:  72.77 67.10
-\t (00:11:03) Waiting for the destination pick.
-\i (00:11:04) pick grid 72.77 66.84
-\t (00:11:04) last pick:  72.80 66.80
-\t (00:11:04) No DRC errors detected.
-\t (00:11:04) Pick another element to slide.
-\i (00:11:04) pick grid 72.56 67.71
-\t (00:11:04) last pick:  72.60 67.70
-\t (00:11:04) last pick:  72.50 67.80
-\t (00:11:04) Waiting for the destination pick.
-\i (00:11:05) pick grid 72.56 67.69
-\t (00:11:05) last pick:  72.60 67.70
-\t (00:11:05) No DRC errors detected.
-\t (00:11:05) Pick another element to slide.
-\i (00:11:07) pick grid 73.00 67.81
-\t (00:11:07) last pick:  73.00 67.80
-\t (00:11:07) last pick:  73.05 67.80
-\t (00:11:07) Waiting for the destination pick.
-\i (00:11:07) updateport CVPane
-\i (00:11:08) pick grid 73.10 67.48
-\t (00:11:08) last pick:  73.10 67.50
-\t (00:11:08) No DRC errors detected.
-\t (00:11:08) Pick another element to slide.
-\i (00:11:10) pick grid 69.50 71.18
-\t (00:11:10) last pick:  69.50 71.20
-\t (00:11:10) Waiting for the destination pick.
-\i (00:11:10) pick grid 69.50 71.26
-\t (00:11:10) last pick:  69.50 71.30
-\t (00:11:10) No DRC errors detected.
-\t (00:11:10) Pick another element to slide.
-\i (00:11:12) pick grid 69.61 67.36
-\t (00:11:12) last pick:  69.60 67.40
-\t (00:11:12) last pick:  69.61 67.40
-\t (00:11:12) Waiting for the destination pick.
-\i (00:11:12) updateport CVPane
-\i (00:11:13) pick grid 69.65 67.65
-\t (00:11:13) last pick:  69.70 67.70
-\t (00:11:13) No DRC errors detected.
-\t (00:11:13) Pick another element to slide.
-\i (00:11:13) pick grid 69.52 66.70
-\t (00:11:13) last pick:  69.50 66.70
-\t (00:11:13) Waiting for the destination pick.
-\i (00:11:14) pick grid 69.52 66.76
-\t (00:11:14) last pick:  69.50 66.80
-\t (00:11:15) No DRC errors detected.
-\t (00:11:15) Pick another element to slide.
-\i (00:11:15) pick grid 68.88 66.43
-\t (00:11:15) last pick:  68.90 66.40
-\t (00:11:15) last pick:  68.83 66.48
-\t (00:11:15) Waiting for the destination pick.
-\i (00:11:15) updateport CVPane
-\i (00:11:17) pick grid 68.64 66.59
-\t (00:11:17) last pick:  68.60 66.60
-\t (00:11:17) No DRC errors detected.
-\t (00:11:17) Pick another element to slide.
-\i (00:11:17) pick grid 68.90 66.66
-\t (00:11:17) last pick:  68.90 66.70
-\t (00:11:17) Waiting for the destination pick.
-\i (00:11:18) pick grid 68.90 66.86
-\t (00:11:18) last pick:  68.90 66.90
-\t (00:11:18) No DRC errors detected.
-\t (00:11:18) Pick another element to slide.
-\i (00:11:19) pick grid 68.90 70.81
-\t (00:11:19) last pick:  68.90 70.80
-\t (00:11:19) last pick:  68.78 70.93
-\t (00:11:19) Waiting for the destination pick.
-\i (00:11:20) pick grid 68.47 71.06
-\t (00:11:20) last pick:  68.50 71.10
-\t (00:11:20) No DRC errors detected.
-\t (00:11:20) Pick another element to slide.
-\i (00:11:21) pick grid 68.86 71.16
-\t (00:11:21) last pick:  68.90 71.20
-\t (00:11:21) last pick:  68.86 71.20
-\t (00:11:21) Waiting for the destination pick.
-\i (00:11:21) pick grid 68.90 71.35
-\t (00:11:21) last pick:  68.90 71.40
-\t (00:11:21) No DRC errors detected.
-\t (00:11:21) Pick another element to slide.
-\i (00:11:23) zoom out 1 
-\i (00:11:23) setwindow pcb
-\i (00:11:23) zoom out 74.83 67.01
-\i (00:11:23) trapsize 19
-\i (00:11:24) roam start
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam x 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 32
-\i (00:11:24) roam x 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 32
-\i (00:11:24) roam x 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam x 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam x -16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam x -16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 32
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:24) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam x 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam y 16
-\i (00:11:25) roam end
-\i (00:11:25) zoom out 1 
-\i (00:11:25) setwindow pcb
-\i (00:11:25) zoom out 81.77 23.11
-\t (00:11:25) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:11:25) trapsize 39
-\i (00:11:26) roam start
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -32
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -32
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -32
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -32
-\i (00:11:26) roam x -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam x -16
-\i (00:11:26) roam y -16
-\i (00:11:26) roam end
-\i (00:11:27) prepopup 46.44 70.30
-\i (00:11:28) done 
-\i (00:11:29) zoom in 1 
-\i (00:11:29) setwindow pcb
-\i (00:11:29) zoom in 79.63 61.38
-\t (00:11:29) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:11:29) trapsize 19
-\i (00:11:29) zoom in 1 
-\i (00:11:29) setwindow pcb
-\i (00:11:29) zoom in 79.64 61.38
-\i (00:11:29) trapsize 10
-\i (00:11:29) zoom in 1 
-\i (00:11:29) setwindow pcb
-\i (00:11:29) zoom in 77.97 60.98
-\i (00:11:29) trapsize 5
-\i (00:11:31) slide 
-\t (00:11:31) Pick element to slide.
-\i (00:11:32) pick grid 73.64 61.41
-\t (00:11:32) last pick:  73.60 61.40
-\t (00:11:32) last pick:  73.64 61.53
-\t (00:11:32) Waiting for the destination pick.
-\i (00:11:32) updateport CVPane
-\i (00:11:33) pick grid 74.22 59.15
-\t (00:11:33) last pick:  74.20 59.20
-\t (00:11:33) No DRC errors detected.
-\t (00:11:33) Pick another element to slide.
-\i (00:11:33) zoom out 1 
-\i (00:11:33) setwindow pcb
-\i (00:11:33) zoom out 74.23 59.14
-\i (00:11:33) trapsize 10
-\i (00:11:34) zoom out 1 
-\i (00:11:34) setwindow pcb
-\i (00:11:34) zoom out 74.22 59.14
-\i (00:11:34) trapsize 19
-\i (00:11:34) zoom out 1 
-\i (00:11:34) setwindow pcb
-\i (00:11:34) zoom out 73.99 58.80
-\t (00:11:34) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:11:34) trapsize 39
-\i (00:11:36) prepopup 48.25 80.43
-\i (00:11:36) done 
-\i (00:11:37) roam start
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam x 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 32
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 32
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 32
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam x -16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam y 16
-\i (00:11:37) roam end
-\i (00:11:38) zoom in 1 
-\i (00:11:38) setwindow pcb
-\i (00:11:38) zoom in 46.99 50.44
-\t (00:11:38) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:11:38) trapsize 19
-\i (00:11:38) zoom in 1 
-\i (00:11:38) setwindow pcb
-\i (00:11:38) zoom in 47.30 50.56
-\i (00:11:38) trapsize 10
-\i (00:11:40) zoom out 1 
-\i (00:11:40) setwindow pcb
-\i (00:11:40) zoom out 48.50 51.97
-\i (00:11:40) trapsize 19
-\i (00:11:40) zoom out 1 
-\i (00:11:40) setwindow pcb
-\i (00:11:40) zoom out 48.49 51.98
-\t (00:11:40) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:11:40) trapsize 39
-\i (00:11:41) roam start
-\i (00:11:41) roam x 16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam x 32
-\i (00:11:41) roam y -16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -32
-\i (00:11:41) roam x 16
-\i (00:11:41) roam x 16
-\i (00:11:41) roam y -16
-\i (00:11:41) roam end
+\i (00:11:41) fillin "menu_cancel"
+\i (00:11:41) zoom out 1 
+\i (00:11:41) setwindow pcb
+\i (00:11:41) zoom out 92.1929 19.7373
+\i (00:11:41) trapsize 1727
+\i (00:11:41) zoom out 1 
+\i (00:11:41) setwindow pcb
+\i (00:11:41) zoom out 92.1929 19.7374
+\i (00:11:41) trapsize 3453
+\i (00:11:41) zoom out 1 
+\i (00:11:41) setwindow pcb
+\i (00:11:41) zoom out 92.1929 19.7373
+\i (00:11:41) trapsize 6907
+\i (00:11:41) zoom out 1 
+\i (00:11:41) setwindow pcb
+\i (00:11:41) zoom out 92.1930 19.7373
+\i (00:11:41) trapsize 13814
+\i (00:11:42) zoom out 1 
+\i (00:11:42) setwindow pcb
+\i (00:11:42) zoom out 92.1930 19.7374
+\i (00:11:42) trapsize 27627
 \i (00:11:42) zoom in 1 
 \i (00:11:42) setwindow pcb
-\i (00:11:42) zoom in 73.82 66.18
-\t (00:11:42) Grids are drawn 0.20, 0.20 apart for enhanced viewing.
-\i (00:11:42) trapsize 19
+\i (00:11:42) zoom in 91.6404 20.2899
+\i (00:11:42) trapsize 13814
 \i (00:11:42) zoom in 1 
 \i (00:11:42) setwindow pcb
-\i (00:11:42) zoom in 74.25 66.11
-\i (00:11:42) trapsize 10
-\i (00:11:45) roam start
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -32
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -32
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -32
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -32
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -32
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam x -16
-\i (00:11:45) roam end
-\i (00:11:46) zoom out 1 
-\i (00:11:46) setwindow pcb
-\i (00:11:46) zoom out 69.91 64.83
-\i (00:11:46) trapsize 19
-\i (00:11:50) zoom out 1 
+\i (00:11:42) zoom in 114.2949 17.2509
+\i (00:11:42) trapsize 6907
+\i (00:11:44) delete 
+\i (00:11:45) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:11:48) setwindow form.find
+\i (00:11:48) FORM find all_off  
+\i (00:11:48) FORM find symbols YES 
 \i (00:11:50) setwindow pcb
-\i (00:11:50) zoom out 53.16 53.89
-\t (00:11:50) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:11:50) trapsize 39
-\i (00:11:50) zoom out 1 
-\i (00:11:50) setwindow pcb
-\i (00:11:50) zoom out 53.15 53.90
-\t (00:11:50) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
-\i (00:11:50) trapsize 78
-\i (00:11:53) save 
-\i (00:11:54) fillin yes 
-\i (00:11:57) add connect 
-\t (00:11:57) Pick first element.
-\i (00:11:58) prepopup 90.84 89.72
-\i (00:11:58) done 
-\i (00:11:59) roam start
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -32
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -32
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -32
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -32
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -32
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam y 16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam x -16
-\i (00:11:59) roam end
+\i (00:11:50) drag_start grid 98.4091 88.5298
+\i (00:11:51) roam x 16
+\i (00:11:51) drag_stop 206.6018 -35.2412
+\w (00:11:51) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:11:51) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:11:51) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:11:51) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:11:51) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\i (00:11:51) pick grid 187.2625 -29.8539
+\t (00:11:51) last pick:  187.3000 -29.9000
+\i (00:11:52) drag_start grid 157.8393 -37.1751
+\i (00:11:53) drag_stop 27.8521 11.8636
+\i (00:11:54) drag_start grid 18.1825 64.3558
+\i (00:11:55) drag_stop 70.1221 -8.3044
+\i (00:11:55) pick grid 70.1221 -8.1663
+\t (00:11:55) last pick:  70.1000 -8.2000
+\i (00:11:56) zoom in 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom in 87.3893 14.6264
+\i (00:11:56) trapsize 3453
+\i (00:11:56) zoom in 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom in 87.1130 14.2120
+\i (00:11:56) trapsize 1727
+\i (00:11:56) zoom in 1 
+\i (00:11:56) setwindow pcb
+\i (00:11:56) zoom in 87.0440 14.1430
+\i (00:11:56) trapsize 863
+\i (00:11:57) drag_start grid 79.2566 12.7271
+\i (00:11:57) drag_stop 74.8362 21.0672
+\i (00:11:57) pick grid 74.8362 21.0844
+\t (00:11:57) last pick:  74.8000 21.1000
+\i (00:11:58) prepopup 81.2077 17.4583
+\i (00:11:58) oops 
+\t (00:11:58) last pick:  70.1000 -8.2000
+\i (00:11:59) drag_start grid 76.2348 20.4801
+\i (00:11:59) drag_stop 73.3512 14.1085
+\t (00:11:59) Symbol "R7"
+\i (00:11:59) pick grid 73.3512 14.1430
+\t (00:11:59) last pick:  73.4000 14.1000
+\i (00:11:59) zoom out 1 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) zoom out 74.4908 13.7459
+\i (00:11:59) trapsize 1727
+\i (00:11:59) zoom out 1 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) zoom out 74.5599 13.7114
+\i (00:11:59) trapsize 3453
+\i (00:11:59) zoom out 1 
+\i (00:11:59) setwindow pcb
+\i (00:11:59) zoom out 75.5269 13.5732
+\i (00:11:59) trapsize 6907
+\i (00:12:00) zoom in 1 
+\i (00:12:00) setwindow pcb
+\i (00:12:00) zoom in 79.2565 15.6452
+\i (00:12:00) trapsize 3453
+\i (00:12:00) roam start
+\i (00:12:00) roam x -16
+\i (00:12:00) roam x -16
+\i (00:12:00) roam y 16
+\i (00:12:00) roam x -32
+\i (00:12:00) roam y 16
+\i (00:12:00) roam x -16
+\i (00:12:00) roam y 16
+\i (00:12:00) roam x -32
+\i (00:12:00) roam x -16
+\i (00:12:00) roam y 16
+\i (00:12:00) roam x -32
+\i (00:12:00) roam x -32
+\i (00:12:00) roam y 16
+\i (00:12:00) roam x -32
+\i (00:12:00) roam x -48
+\i (00:12:00) roam x -32
+\i (00:12:00) roam x -48
+\i (00:12:00) roam y 16
+\i (00:12:00) roam x -64
+\i (00:12:00) roam x -48
+\i (00:12:00) roam x -48
+\i (00:12:00) roam x -48
+\i (00:12:00) roam x -32
+\i (00:12:00) roam x -48
+\i (00:12:00) zoom in 1 
+\i (00:12:00) setwindow pcb
+\i (00:12:00) zoom in 79.3076 11.2073
+\i (00:12:00) trapsize 1727
+\i (00:12:01) roam x -64
+\i (00:12:01) roam y -16
+\i (00:12:01) roam end
+\i (00:12:01) zoom out 1 
+\i (00:12:01) setwindow pcb
+\i (00:12:01) zoom out 76.3376 12.3124
+\i (00:12:01) trapsize 3453
+\i (00:12:01) zoom out 1 
+\i (00:12:01) setwindow pcb
+\i (00:12:01) zoom out 76.3377 12.3123
+\i (00:12:01) trapsize 6907
 \i (00:12:01) zoom in 1 
 \i (00:12:01) setwindow pcb
-\i (00:12:01) zoom in -10.25 28.49
-\t (00:12:01) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
-\i (00:12:01) trapsize 39
-\i (00:12:02) roam start
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 32
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 32
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 32
-\i (00:12:02) roam y 16
-\i (00:12:02) roam x 32
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 16
-\i (00:12:02) roam x 32
-\i (00:12:02) roam end
-\i (00:12:05) padeditdb 
-\i (00:12:07) setwindow form.mini
-\i (00:12:07) FORM mini purge All 
-\i (00:12:08) FORM mini purge All 
-\i (00:12:11) setwindow pcb
-\i (00:12:11) prepopup 105.07 58.50
-\i (00:12:12) done 
-\i (00:12:14) save 
-\i (00:12:14) fillin yes 
-\i (00:12:17) drc update 
-\t (00:12:17) Performing DRC...
-\t (00:12:17) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
-\t (00:12:17) Multithreaded DRC update (16 threads).
-\t (00:12:17) No DRC errors detected.
-\i (00:12:20) save 
-\i (00:12:22) fillin yes 
-\i (00:13:12) exit 
-\t (00:13:15) Lic Summary:
-[10:24:12.318000] Cdslmd servers:
-[10:24:12.318000] Feature usage summary:
-[10:24:12.318000] Allegro_Venture_PCB_Designer2
-[10:24:12.318000] PCB_design_studio
-[10:24:12.318000] Allegro_Venture_PCB_Designer
-[10:24:12.318000] Venture_PCB_Schematic
+\i (00:12:01) zoom in 83.2446 14.2463
+\i (00:12:01) trapsize 3453
+\i (00:12:02) prepopup 16.3171 26.7477
+\i (00:12:02) done 
+\i (00:12:07) dlib 
+\i (00:12:08) setwindow form.dlib
+\i (00:12:08) FORM dlib browse_export  
+\i (00:12:11) fillin "dumpedfootprints"
+\i (00:12:12) FORM dlib none  
+\i (00:12:13) FORM dlib package YES 
+\i (00:12:14) FORM dlib pad YES 
+\i (00:12:14) FORM dlib execute  
+\t (00:12:14) Starting Cadence export libraries...
+\w (00:12:42) User canceled the program; dump_libraries
+\i (00:12:43) FORM dlib pad NO 
+\i (00:12:44) FORM dlib nodepend YES 
+\i (00:12:46) FORM dlib compress_etch NO 
+\i (00:12:47) FORM dlib execute  
+\t (00:12:47) Starting Cadence export libraries...
+\w (00:19:06) User canceled the program; dump_libraries
+\i (00:19:08) FORM dlib mechanical YES 
+\i (00:19:09) FORM dlib format YES 
+\i (00:19:11) FORM dlib shape YES 
+\i (00:19:13) FORM dlib viewlog  
+\i (00:19:15) fillin confirm
+\i (00:19:18) FORM dlib compress_etch YES 
+\i (00:19:19) FORM dlib execute  
+\t (00:19:19) Starting Cadence export libraries...
+\w (00:20:28) User canceled the program; dump_libraries
+\i (00:20:29) FORM dlib cancel  
+\i (00:20:32) setwindow pcb
+\i (00:20:32) drc update 
+\t (00:20:32) [14:34:55.380000] Periodic Lic check successful
+[14:34:55.380000] Feature usage summary:
+[14:34:55.380000] Allegro_Venture_PCB_Designer2
+[14:34:55.380000] PCB_design_studio
+[14:34:55.380000] Allegro_Venture_PCB_Designer
+[14:34:55.380000] Venture_PCB_Schematic
 
-\t (00:13:15)     Journal end - Mon Mar 10 10:24:12 2025
+\t (00:20:32) Performing DRC...
+\t (00:20:32) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
+\t (00:20:32) Multithreaded DRC update (16 threads).
+\t (00:20:32) DRC done; 2 errors detected.
+\i (00:20:43) save_as 
+\i (00:20:47) fillin "mib_fp_jtag_serial_23_.brd"
+\i (00:20:49) zoom in 1 
+\i (00:20:49) setwindow pcb
+\i (00:20:49) zoom in 86.0074 18.3904
+\i (00:20:49) trapsize 1727
+\i (00:20:49) zoom in 1 
+\i (00:20:49) setwindow pcb
+\i (00:20:49) zoom in 86.0074 18.3904
+\i (00:20:49) trapsize 863
+\i (00:20:49) zoom in 1 
+\i (00:20:49) setwindow pcb
+\i (00:20:49) zoom in 82.6058 19.3919
+\i (00:20:49) trapsize 432
+\i (00:20:51) zoom out 1 
+\i (00:20:51) setwindow pcb
+\i (00:20:51) zoom out 82.2173 19.7027
+\i (00:20:51) trapsize 863
+\i (00:20:51) zoom out 1 
+\i (00:20:51) setwindow pcb
+\i (00:20:51) zoom out 82.2173 19.7027
+\i (00:20:51) trapsize 1727
+\i (00:20:52) zoom out 1 
+\i (00:20:52) setwindow pcb
+\i (00:20:52) zoom out 82.6662 19.7373
+\i (00:20:52) trapsize 3453
+\i (00:20:52) zoom out 1 
+\i (00:20:52) setwindow pcb
+\i (00:20:52) zoom out 82.8043 19.7372
+\i (00:20:52) trapsize 6907
+\i (00:20:52) zoom out 1 
+\i (00:20:52) setwindow pcb
+\i (00:20:52) zoom out 82.9425 19.5991
+\i (00:20:52) trapsize 13814
+\i (00:20:52) zoom out 1 
+\i (00:20:52) setwindow pcb
+\i (00:20:52) zoom out 83.2187 19.3228
+\i (00:20:52) trapsize 27627
+\i (00:20:55) place manual 
+\i (00:20:55) setwindow form.plc_manual
+\i (00:20:55) FORM plc_manual tree  'Components by refdes' 
+\i (00:20:58) FORM plc_manual advanced_settings  
+\i (00:21:01) FORM plc_manual cancel  
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom in 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom in -32.8166 55.2385
+\i (00:21:03) trapsize 13814
+\i (00:21:03) zoom in 1 
+\i (00:21:03) setwindow pcb
+\i (00:21:03) zoom in -23.1470 49.1605
+\i (00:21:03) trapsize 6907
+\i (00:21:05) delete 
+\i (00:21:05) drag_start grid -31.4352 52.6140
+\i (00:21:05) drag_stop 47.3031 -41.7338
+\w (00:21:05) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\i (00:21:05) pick grid 41.2250 -34.5506
+\t (00:21:05) last pick:  41.2380 -34.5268
+\i (00:21:07) setwindow form.find
+\i (00:21:07) FORM find all_on  
+\i (00:21:07) setwindow pcb
+\i (00:21:07) drag_start grid -35.3030 60.6260
+\i (00:21:07) drag_stop 32.9368 -34.6888
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:07) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\i (00:21:08) pick grid 30.1741 -28.8870
+\t (00:21:08) last pick:  30.1380 -28.9268
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 30.0359 -23.4996
+\i (00:21:08) trapsize 13814
+\i (00:21:08) zoom out 1 
+\i (00:21:08) setwindow pcb
+\i (00:21:08) zoom out 30.0359 -23.4997
+\i (00:21:08) trapsize 27627
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 28.3783 -12.4487
+\i (00:21:09) trapsize 13814
+\i (00:21:09) zoom in 1 
+\i (00:21:09) setwindow pcb
+\i (00:21:09) zoom in 28.3783 -11.3436
+\i (00:21:09) trapsize 6907
+\i (00:21:10) drag_start grid 1.5797 24.4340
+\i (00:21:10) drag_stop -2.4263 44.1876
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:10) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\i (00:21:10) pick grid -2.4263 44.1876
+\t (00:21:10) last pick:  -2.4620 44.1732
+\i (00:21:10) roam start
+\i (00:21:10) roam x 16
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 32
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 16
+\i (00:21:10) roam x 16
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 32
+\i (00:21:10) roam x 32
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 32
+\i (00:21:10) roam x 32
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 16
+\i (00:21:10) roam x 32
+\i (00:21:10) roam x 32
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 16
+\i (00:21:10) roam x 32
+\i (00:21:10) roam x 16
+\i (00:21:10) roam x 48
+\i (00:21:10) roam x 32
+\i (00:21:10) roam y 16
+\i (00:21:10) roam x 16
+\i (00:21:10) roam x 16
+\i (00:21:10) roam x 32
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam end
+\i (00:21:11) zoom out 1 
+\i (00:21:11) setwindow pcb
+\i (00:21:11) zoom out 88.9088 19.0127
+\i (00:21:11) trapsize 13814
+\i (00:21:11) roam start
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 48
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 48
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:11) roam x 32
+\i (00:21:11) roam y -16
+\i (00:21:11) roam x 16
+\i (00:21:12) roam end
+\i (00:21:12) zoom out 1 
+\i (00:21:12) setwindow pcb
+\i (00:21:12) zoom out 268.6254 1.1930
+\i (00:21:12) trapsize 27627
+\i (00:21:12) drag_start grid 471.4110 -73.9536
+\i (00:21:13) drag_stop 142.6443 213.9245
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\w (00:21:13) WARNING(SPMHGE-623): Dimension objects have been removed from selection. To edit dimension objects, choose Manufacture - Dimension Environment and try again.
+\i (00:21:13) pick grid 142.6443 213.9245
+\t (00:21:13) last pick:  142.6380 213.9732
+\i (00:21:14) drag_start grid 206.7400 -49.6414
+\i (00:21:14) drag_stop 100.6506 112.8080
+\i (00:21:14) pick grid 100.6506 113.3606
+\t (00:21:14) last pick:  100.6380 113.3732
+\i (00:21:16) pick grid 158.1157 43.7394
+\t (00:21:16) last pick:  158.1380 43.7732
+\i (00:21:16) pick grid dbl 158.1157 43.7394
+\t (00:21:16) last pick:  158.1380 43.7732
+\i (00:21:16) pick grid 158.1157 43.7394
+\t (00:21:16) last pick:  158.1380 43.7732
+\i (00:21:16) pick grid 144.8545 21.6374
+\t (00:21:16) last pick:  144.8380 21.6732
+\i (00:21:17) pick grid 137.6713 7.8237
+\t (00:21:17) last pick:  137.6380 7.8732
+\i (00:21:17) drag_start grid 183.5329 -20.9089
+\i (00:21:17) drag_stop 115.0168 87.3908
+\i (00:21:17) pick grid 114.4643 87.9433
+\t (00:21:17) last pick:  114.4380 87.9732
+\i (00:21:18) drag_start grid 92.3623 92.3637
+\i (00:21:18) drag_stop 237.1302 -51.2991
+\i (00:21:18) pick grid 237.1302 -50.1940
+\t (00:21:18) last pick:  237.1380 -50.2268
+\i (00:21:19) drag_start grid 112.2541 108.3876
+\i (00:21:19) drag_stop -77.8228 339.9057
+\i (00:21:19) pick grid -77.8228 339.9057
+\t (00:21:19) last pick:  -77.8620 339.8732
+\i (00:21:20) zoom in 1 
+\i (00:21:20) setwindow pcb
+\i (00:21:20) zoom in 126.0678 -26.4344
+\i (00:21:20) trapsize 13814
+\i (00:21:20) zoom in 1 
+\i (00:21:20) setwindow pcb
+\i (00:21:20) zoom in 128.2780 -21.4614
+\i (00:21:20) trapsize 6907
+\i (00:21:21) prepopup 72.1943 11.8297
+\i (00:21:21) done 
+\i (00:21:22) save 
+\i (00:21:23) fillin yes 
+\i (00:21:29) dlib 
+\i (00:21:32) setwindow form.dlib
+\i (00:21:32) FORM dlib browse_export  
+\i (00:21:34) fillin "dumpedfootprints"
+\i (00:21:36) FORM dlib execute  
+\t (00:21:36) Starting Cadence export libraries...
+\w (00:24:08) User canceled the program; dump_libraries
+\i (00:24:09) FORM dlib cancel  
+\i (00:24:19) setwindow pcb
+\i (00:24:19) strip_design 
+\t (00:24:19) Please save the design to avoid losing unsaved data.
+\i (00:24:22) fillin confirm
+\i (00:24:29) setwindow form.stripDesign
+\i (00:24:29) FORM stripDesign optional_delete  
+\i (00:24:34) FORM stripDesign del_by_visibility YES 
+\i (00:24:37) FORM stripDesign general  
+\i (00:24:41) FORM stripDesign optional_delete  
+\i (00:24:44) FORM stripDesign done  
+\t (00:24:45) The file is saved as mib_fp_jtag_serial_23__stripped.brd. Please see the log file for result of IP stripping
+\i (00:24:54) setwindow pcb
+\i (00:24:54) place manual 
+\e (00:24:55) ERROR(SPMHDB-181): The current version of software is unable to open design c0805.
+The design was last saved using version 16.2 and must be updated using DB Doctor. [help]
+\e (00:24:55) ERROR(SPMHDB-181): The current version of software is unable to open design c0805.
+The design was last saved using version 16.2 and must be updated using DB Doctor. [help]
+\w (00:24:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:24:55) ERROR(SPMHSY-24): 'MOUNTHOLE_PAD200C_128D', not found in search path.
+\w (00:24:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:24:55) ERROR(SPMHSY-24): 'MOUNTHOLE_PAD200C_128D', not found in search path.
+\w (00:24:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:24:55) ERROR(SPMHSY-24): 'MOUNTHOLE_PAD200C_128D', not found in search path.
+\w (00:24:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:24:55) ERROR(SPMHSY-24): 'MOUNTHOLE_PAD200C_128D', not found in search path.
+\i (00:24:55) setwindow form.plc_manual
+\i (00:24:55) FORM plc_manual tree  'Components by refdes' 
+\i (00:24:56) FORM plc_manual tree  C5 'Components by refdes' 
+\i (00:24:57) FORM plc_manual tree 'MULTISEL YES' C5 'Components by refdes' 
+\e (00:24:57) Cannot load symbol 'C0603'
+\e (00:24:57)   because WARNING(SPMHUT-127): Could not find padstack MOUNTHOLE_PAD200C_128D.
+\i (00:24:57) FORM plc_manual tree 'MULTISEL NO' C5 'Components by refdes' 
+\i (00:24:58) FORM plc_manual tree 'MULTISEL YES' C5 'Components by refdes' 
+\e (00:24:58) Cannot load symbol 'C0603'
+\i (00:24:59) FORM plc_manual tree 'MULTISEL NO' C5 'Components by refdes' 
+\i (00:25:02) FORM plc_manual tree  R2 'Components by refdes' 
+\i (00:25:02) FORM plc_manual tree 'MULTISEL YES' R2 'Components by refdes' 
+\e (00:25:02) Cannot load symbol 'C0603'
+\i (00:25:04) FORM plc_manual cancel  
+\i (00:25:08) setwindow pcb
+\i (00:25:08) dlib 
+\i (00:25:10) setwindow form.dlib
+\i (00:25:10) FORM dlib browse_export  
+\i (00:25:14) fillin "dumpedfootprints"
+\i (00:25:15) FORM dlib execute  
+\t (00:25:15) Starting Cadence export libraries...
+\w (00:43:45) User canceled the program; dump_libraries
+\i (00:43:46) FORM dlib cancel  
+\i (00:43:47) setwindow pcb
+\i (00:43:47) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:43:48) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:43:48) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:44:44) prmed 
+\t (00:44:44) [14:59:07.298000] Periodic Lic check successful
+[14:59:07.298000] Feature usage summary:
+[14:59:07.298000] Allegro_Venture_PCB_Designer2
+[14:59:07.298000] PCB_design_studio
+[14:59:07.298000] Allegro_Venture_PCB_Designer
+[14:59:07.298000] Venture_PCB_Schematic
+
+\i (00:44:47) setwindow form.prmedit
+\i (00:44:47) FORM prmedit design  
+\i (00:44:50) FORM prmedit text  
+\i (00:44:53) FORM prmedit shapes  
+\i (00:44:54) FORM prmedit mfg_applications  
+\i (00:45:01) FORM prmedit display  
+\i (00:45:02) FORM prmedit design  
+\i (00:45:08) FORM prmedit shapes  
+\i (00:45:13) FORM prmedit flow_planning  
+\i (00:45:15) FORM prmedit route  
+\i (00:45:17) FORM prmedit mfg_applications  
+\i (00:45:22) FORM prmedit draft_button  
+\i (00:45:25) setwindow form.draft_parms
+\i (00:45:25) FORM draft_parms text  
+\i (00:45:33) FORM draft_parms lines  
+\i (00:45:34) FORM draft_parms balloons  
+\i (00:45:35) FORM draft_parms tolerancing  
+\i (00:45:37) FORM draft_parms cancel  
+\i (00:45:39) setwindow form.prmedit
+\i (00:45:39) FORM prmedit silkscreen_button  
+\i (00:45:43) setwindow form.autosilk
+\i (00:45:43) FORM autosilk param_done  
+\i (00:46:15) setwindow pcb
+\i (00:46:15) skill axlDBTextBlockCompact(t) 
+\t (00:46:15) 78
+\i (00:46:20) setwindow form.prmedit
+\i (00:46:20) FORM prmedit cancel  
+\i (00:46:24) setwindow pcb
+\i (00:46:24) dlib 
+\i (00:46:26) setwindow form.dlib
+\i (00:46:26) FORM dlib browse_export  
+\i (00:46:29) fillin "dumpedfootprints"
+\i (00:46:31) FORM dlib execute  
+\t (00:46:31) Starting Cadence export libraries...
+\t (00:47:46) SpawnProcessExit background process completed status = 2
+
+\e (00:47:46) ERROR(SPMHGE-268): dump_libraries had errors, use Viewlog to review the log file.
+\i (00:48:03) setwindow text
+\i (00:48:03) close
+\i (00:48:28) setwindow pcb
+\i (00:48:28) pick grid 42.9092 -53.0949
+\t (00:48:28) last pick:  42.9380 -53.1268
+\i (00:48:29) setwindow form.dlib
+\i (00:48:29) FORM dlib cancel  
+\i (00:48:30) setwindow pcb
+\i (00:48:30) show element 
+\i (00:48:31) pick grid 79.1012 18.0458
+\t (00:48:31) last pick:  79.1380 18.0732
+\i (00:49:04) pick grid 18.4589 -35.6896
+\t (00:49:04) last pick:  18.4380 -35.7268
+\i (00:49:05) open 
+\e (00:49:05) Do you want to save the changes you made to //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_23__stripped.brd?
+\i (00:49:06) fillin no 
+\i (00:49:11) fillin "sot95p280x145-5n.dra"
+\t (00:49:11) Opening existing design...
+\i (00:49:11) trapsize 182
+\i (00:49:11) trapsize 185
+\i (00:49:11) trapsize 182
+\i (00:49:11) trapsize 329
+\d (00:49:11) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/sot95p280x145-5n.dra
+\i (00:49:11) trapsize 319
+\i (00:49:12) zoom out 1 
+\i (00:49:12) setwindow pcb
+\i (00:49:12) zoom out 1.1026 -0.5609
+\i (00:49:12) trapsize 319
+\i (00:49:12) zoom out 1 
+\i (00:49:12) setwindow pcb
+\i (00:49:12) zoom out 1.0453 -0.5418
+\i (00:49:12) trapsize 319
+\i (00:49:12) zoom out 1 
+\i (00:49:12) setwindow pcb
+\i (00:49:12) zoom out -0.2804 -0.2932
+\i (00:49:12) trapsize 319
+\i (00:49:18) dlib 
+\i (00:49:21) setwindow form.dlib
+\i (00:49:21) FORM dlib execute  
+\t (00:49:21) Starting Cadence export libraries...
+\t (00:49:21) SpawnProcessExit background process completed status = 0
+
+\i (00:49:23) FORM dlib cancel  
+\i (00:49:24) setwindow pcb
+\i (00:49:24) open 
+\i (00:49:29) fillin "mib_fp_jtag_serial_27_PH.brd"
+\t (00:49:29) Opening existing design...
+\t (00:49:29) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
+\i (00:49:29) trapsize 39
+\i (00:49:29) trapsize 40
+\t (00:49:29) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
+\i (00:49:29) trapsize 40
+\d (00:49:29) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd
+\i (00:49:30) trapsize 39
+\i (00:49:30) zoom out 1 
+\i (00:49:30) setwindow pcb
+\i (00:49:30) zoom out 2.22 27.37
+\t (00:49:30) Grids are drawn 0.80, 0.80 apart for enhanced viewing.
+\i (00:49:30) trapsize 78
+\i (00:49:31) zoom in 1 
+\i (00:49:31) setwindow pcb
+\i (00:49:31) zoom in 57.89 51.30
+\t (00:49:31) Grids are drawn 0.40, 0.40 apart for enhanced viewing.
+\i (00:49:31) trapsize 39
+\i (00:49:33) place manual 
+\i (00:49:33) setwindow form.plc_manual
+\i (00:49:33) FORM plc_manual tree  'Components by refdes' 
+\i (00:49:34) FORM plc_manual tree  RG1 'Components by refdes' 
+\i (00:49:34) FORM plc_manual tree 'MULTISEL YES' RG1 'Components by refdes' 
+\w (00:49:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:49:34) Placing RG1 / LD3985M25R / SOT95P280X145-5N on Top.
+\i (00:49:35) setwindow pcb
+\i (00:49:35) pick grid 34.90 68.12
+\t (00:49:35) last pick:  34.94 68.17
+\i (00:49:35) prepopup 44.21 68.98
+\i (00:49:36) done 
+\i (00:49:37) save 
+\t (00:49:37) [15:04:00.017712] Periodic Lic check successful
+[15:04:00.542000] Feature usage summary:
+[15:04:00.542000] Allegro_Venture_PCB_Designer2
+[15:04:00.542000] PCB_design_studio
+[15:04:00.542000] Allegro_Venture_PCB_Designer
+[15:04:00.542000] Venture_PCB_Schematic
+
+\i (00:49:38) fillin yes 
+\i (00:49:45) drc update 
+\t (00:49:45) Performing DRC...
+\t (00:49:45) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
+\t (00:49:45) Multithreaded DRC update (16 threads).
+\t (00:49:45) No DRC errors detected.
+\i (00:49:46) status 
+\i (00:49:48) setwindow form.status
+\i (00:49:48) FORM status force_update  
+\t (00:49:48) Updating dynamic shape (1 of 2) Vcc3v3, Boundary/03_Vcc @ (60.16 2.44) ...
+\t (00:49:48) Updating dynamic shape (2 of 2) Gnd, Boundary/02_Gnd @ (60.31 2.28) ...
+\i (00:50:01) FORM status done  
+\i (00:50:02) setwindow pcb
+\i (00:50:02) save 
+\i (00:50:03) fillin yes 
+\i (00:50:05) exit 
+\t (00:50:08) Lic Summary:
+[15:04:31.250712] Cdslmd servers:
+[15:04:31.775000] Feature usage summary:
+[15:04:31.775000] Allegro_Venture_PCB_Designer2
+[15:04:31.775000] PCB_design_studio
+[15:04:31.775000] Allegro_Venture_PCB_Designer
+[15:04:31.775000] Venture_PCB_Schematic
+
+\t (00:50:08)     Journal end - Mon Mar 10 15:04:31 2025
