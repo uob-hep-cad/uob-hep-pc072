@@ -1,1 +1,1 @@
-mib_fp_jtag_serial_26_PH.brd
+mib_fp_jtag_serial_27_PH.brd

@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-03-10T07:49:47</modificationTime>
+    <modificationTime>2025-03-10T09:32:54</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -355,16 +355,6 @@
               <msb>13</msb>
               <lsb>0</lsb>
             </term>
-          </terms>
-        </cell>
-        <cell>
-          <id>S18</id>
-          <library>cnmech</library>
-          <name>pipelight_1led</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
           </terms>
         </cell>
         <cell>
@@ -1520,27 +1510,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I49</id>
-          <cellid>S18</cellid>
-          <name>page1_i171</name>
-          <pins>
-          </pins>
-        </instance>
-        <instance>
-          <id>I50</id>
-          <cellid>S18</cellid>
-          <name>page1_i172</name>
-          <pins>
-          </pins>
-        </instance>
-        <instance>
-          <id>I51</id>
-          <cellid>S18</cellid>
-          <name>page1_i173</name>
-          <pins>
-          </pins>
-        </instance>
-        <instance>
           <id>I52</id>
           <cellid>S19</cellid>
           <name>page1_i174</name>
@@ -2211,9 +2180,6 @@
               <instance ref="i168"></instance>
               <instance ref="i169"></instance>
               <instance ref="i170"></instance>
-              <instance ref="i171"></instance>
-              <instance ref="i172"></instance>
-              <instance ref="i173"></instance>
               <instance ref="i174"></instance>
               <instance ref="i178"></instance>
               <instance ref="i180"></instance>

@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 10-Mar-2025 AT 07:50:05 }
+{ Packager-XL run on 10-Mar-2025 AT 09:33:09 }
 primitive '410_357_B-DIGILENT,410-357-B';
   pin
     'GND_1':
@@ -799,29 +799,6 @@ primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='MT_HOLE';
       PARENT_PPT_PART='MT_HOLE-MT_HOLE,MT_HOLE';
-  end_body;
-end_primitive;
-primitive 'PIPELIGHT_1LED-7511A85';
-  pin
-  end_pin;
-  body
-      PART_NAME='PIPELIGHT_1LED';
-      BODY_NAME='PIPELIGHT_1LED';
-      PHYS_DES_PREFIX='PL';
-      CLASS='MECHANICAL';
-      STATUS='Preferred';
-      PART_NUMBER='7511A85';
-      MANUFACTURER='VCCLITE';
-      DESCRIPTION='Single-LED Bright*Pipes(TM) Optical Lightpipe';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/pipelight_vcc~
-lite_7511a85.pdf';
-      PINCOUNT='0';
-      SMD='MECH';
-      CASE='_';
-      JEDEC_TYPE='PIPELIGHT_VCCLITE_7511A85';
-      PARENT_PART_TYPE='PIPELIGHT_1LED';
-      PARENT_PPT='PIPELIGHT_1LED';
-      PARENT_PPT_PART='PIPELIGHT_1LED-7511A85';
   end_body;
 end_primitive;
 primitive 'R-ERA-2VEB2700X,R-ERA-2VEB2700X,R';
