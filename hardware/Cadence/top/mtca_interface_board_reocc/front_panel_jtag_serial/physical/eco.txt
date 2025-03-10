@@ -2,10 +2,288 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_24_PH.brd           |
-|                                                    Fri Mar  7 13:37:47 2025  |
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  LED_1B       pins ADDED TO this existing net (pins not previously on any net)
+                                 IC2.11            65.65   33.67
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_1R       pins ADDED TO this existing net (pins not previously on any net)
+                                 IC2.13            63.11   33.67
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_2B       pins ADDED TO this existing net (pins not previously on any net)
+                                 IC2.5             66.92   28.07
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_2R       pins ADDED TO this existing net (pins not previously on any net)
+                                 IC2.9             68.19   33.67
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_3R       pins ADDED TO this existing net (pins not previously on any net)
+                                 IC2.3             64.38   28.07
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins MOVED FROM this net (to net name listed on right)
+                                 C4.2              65.99   50.17
+                                                                         VCC3V3
+                                 IC2.14            61.84   33.67
+                                                                         VCC3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_74LVC07A_I178_Y pins ADDED TO this existing net (pins not previously on any net)
+                                 LD3.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_74LVC07A_I178_Y_1 pins ADDED TO this new net
+                                 IC2.12            64.38   33.67
+                                 LD1.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_74LVC07A_I178_Y_2 pins ADDED TO this new net
+                                 IC2.10            66.92   33.67
+                                 LD1.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_74LVC07A_I178_Y_3 pins ADDED TO this new net
+                                 IC2.8             69.46   33.67
+                                 LD2.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_74LVC07A_I178_Y_4 pins ADDED TO this new net
+                                 IC2.4             65.65   28.07
+                                 LD3.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_74LVC07A_I178_Y_5 pins ADDED TO this new net
+                                 IC2.6             68.19   28.07
+                                 LD2.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I176_A1 pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R7.1              75.99   18.17
+                                                                         VCC3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I190_A1 pins ADDED TO this new net
+                                 LD3.2                          
+                                 R11.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I190_A2 pins ADDED TO this new net
+                                 LD3.3                          
+                                 R12.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I191_A1 pins ADDED TO this new net
+                                 LD2.2                          
+                                 R9.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I191_A2 pins ADDED TO this new net
+                                 LD2.3                          
+                                 R10.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I192_A1 pins ADDED TO this new net
+                                 LD1.2                          
+                                 R7.2              76.89   18.17
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED1BICOLOR4P_I192_A2 pins ADDED TO this new net
+                                 LD1.3                          
+                                 R8.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC3V3       pins ADDED TO this existing net (pins not previously on any net)
+                                 R8.1                           
+                                 R9.1                           
+                                 R10.1                          
+                                 R11.1                          
+                                 R12.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 74LVC07A_SOIC-VCC=VCC3V3
+ 591-3001-0XXF
+ R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C6                  CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN   64.74   42.77
+ RG1                 LD3985M25R              81.24   19.67
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R8                  R-ERA-2VEB2700X,R-ERA-2VEB2700X,R 
+ R9                  R-ERA-2VEB2700X,R-ERA-2VEB2700X,R 
+ R10                 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R 
+ R11                 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R 
+ R12                 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC2                 74LVC07A_SOIC-VCC=VCC3V3   61.84   28.07 74LVC07A_SOIC-VCC=P2V5
+ LD1                 591-3001-0XXF           58.14   20.67 KPHBM-2012QBDSURKC
+ LD2                 591-3001-0XXF           57.84   17.37 KPHBM-2012QBDSURKC
+ LD3                 591-3001-0XXF           58.24   24.07 KPHBM-2012QBDSURKC
+ R7                  R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   76.44   18.17 RSMD0603_1/16W-XX,5%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC2.2            61.84   28.07 HAS_FIXED_SIZE 6
+ IC2.2            61.84   28.07 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
+ IC2.2            61.84   28.07 SIZE           6
+ IC2.2            61.84   28.07 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
+ IC2.2            61.84   28.07 XY             (4175,-3100)
+ IC2.4            61.84   28.07 HAS_FIXED_SIZE 6
+ IC2.4            61.84   28.07 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
+ IC2.4            61.84   28.07 SIZE           6
+ IC2.4            61.84   28.07 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
+ IC2.4            61.84   28.07 XY             (4175,-3100)
+ IC2.6            61.84   28.07 HAS_FIXED_SIZE 6
+ IC2.6            61.84   28.07 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
+ IC2.6            61.84   28.07 SIZE           6
+ IC2.6            61.84   28.07 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
+ IC2.6            61.84   28.07 XY             (4175,-3100)
+ IC2.8            61.84   28.07 HAS_FIXED_SIZE 6
+ IC2.8            61.84   28.07 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
+ IC2.8            61.84   28.07 SIZE           6
+ IC2.8            61.84   28.07 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
+ IC2.8            61.84   28.07 XY             (4175,-3100)
+ IC2.10           61.84   28.07 HAS_FIXED_SIZE 6
+ IC2.10           61.84   28.07 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
+ IC2.10           61.84   28.07 SIZE           6
+ IC2.10           61.84   28.07 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
+ IC2.10           61.84   28.07 XY             (4175,-3100)
+ IC2.12           61.84   28.07 HAS_FIXED_SIZE 6
+ IC2.12           61.84   28.07 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
+ IC2.12           61.84   28.07 SIZE           6
+ IC2.12           61.84   28.07 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
+ IC2.12           61.84   28.07 XY             (4175,-3100)
+ LD1.4                          PRIM_FILE      ./archive_libs/cndiscrete/led1_bicolor4p/chips/chips.prt
+ LD1.4                          XY             (5050,-2250)
+ LD2.4                          PRIM_FILE      ./archive_libs/cndiscrete/led1_bicolor4p/chips/chips.prt
+ LD2.4                          XY             (5550,-2250)
+ LD3.4                          PRIM_FILE      ./archive_libs/cndiscrete/led1_bicolor4p/chips/chips.prt
+ LD3.4                          XY             (6050,-2250)
+ PL1.             38.84   23.87 XY             (6225,-2875)
+ PL2.             38.04   18.27 XY             (6225,-3125)
+ PL3.             39.04   29.37 XY             (6225,-3375)
+ R7.2             76.44   18.17 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R7.2             76.44   18.17 XY             (5000,-1900)
+ R8.2                           PRIM_FILE      ./discrete/r/chips/chips.prt
+ R8.2                           XY             (5050,-1900)
+ R9.2                           PRIM_FILE      ./discrete/r/chips/chips.prt
+ R9.2                           XY             (5500,-1900)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R10.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R10.2                          XY             (5550,-1900)
+ R11.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R11.2                          XY             (6000,-1900)
+ R12.2                          PRIM_FILE      ./discrete/r/chips/chips.prt
+ R12.2                          XY             (6050,-1900)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ LD1.1                          CDS_PINID      C1
+ LD1.2                          CDS_PINID      A1
+ LD1.3                          CDS_PINID      A2
+ LD1.4                          CDS_PINID      C2
+ LD2.1                          CDS_PINID      C1
+ LD2.2                          CDS_PINID      A1
+ LD2.3                          CDS_PINID      A2
+ LD2.4                          CDS_PINID      C2
+ LD3.1                          CDS_PINID      C1
+ LD3.2                          CDS_PINID      A1
+ LD3.3                          CDS_PINID      A2
+ LD3.4                          CDS_PINID      C2
+ R7.1             75.99   18.17 CDS_PINID      \1\
+ R7.2             76.89   18.17 CDS_PINID      \2\
+ R8.1                           CDS_PINID      \1\
+ R8.2                           CDS_PINID      \2\
+ R9.1                           CDS_PINID      \1\
+ R9.2                           CDS_PINID      \2\
+ R10.1                          CDS_PINID      \1\
+ R10.2                          CDS_PINID      \2\
+ R11.1                          CDS_PINID      \1\
+ R11.2                          CDS_PINID      \2\
+ R12.1                          CDS_PINID      \1\
+ R12.2                          CDS_PINID      \2\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_25_PH.brd           |
+|                                                    Mon Mar 10 07:50:12 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      36                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :       5                                        |
+|       Components deleted    :       2                                        |
+|       Components changed    :       5                                        |
+|       Pin property added    :      24                                        |
+|       Slot property added   :      51                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:     126                                        |
 |------------------------------------------------------------------------------|
