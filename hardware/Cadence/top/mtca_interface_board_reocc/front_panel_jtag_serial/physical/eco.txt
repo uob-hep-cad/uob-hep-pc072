@@ -3,160 +3,108 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
-|                                                    Mon Mar 10 14:14:17 2025  |
+|                                                    Mon Mar 10 15:11:12 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  2V5          pins ADDED TO this new net
-                                 C9.2                           
-                                 RG1.5                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C6.1                           
-                                 C8.1                           
-                                 C9.1                           
-                                 RG1.2                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_1_CAPCERSMDCL2_I205_B pins ADDED TO this new net
-                                 C8.2                           
-                                 RG1.4                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VCC3V3       pins MOVED FROM this net (to net name listed on right)
-                                 C4.2             -31.01   50.17
+                                 C3.2             -30.95   54.10
                                                                             2V5
-                                 IC2.14            42.50   48.20
+                                 R7.1              75.15   68.70
                                                                             2V5
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 C6.2                           
-                                 RG1.1                          
-                                 RG1.3                          
+                                 R8.1              66.85   70.20
+                                                                            2V5
+                                 R9.1              75.15   64.20
+                                                                            2V5
+                                 R10.1             66.85   65.70
+                                                                            2V5
+                                 R11.1             75.15    9.20
+                                                                            2V5
+                                 R12.1             66.85   10.70
+                                                                            2V5
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
-|                                                    Mon Mar 10 14:14:17 2025  |
+|                                                    Mon Mar 10 15:11:12 2025  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- 74LVC07A_SOIC-VCC=2V5
- CAPCERSMDCL2_0603-1.0UF,6.3V
- CAPCERSMDCL2_0603-10NF,50V
- LD3985M25R
+ R-EMA-00007509V42,R-EMA-00007509V42,R
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
-|                                                    Mon Mar 10 14:14:17 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C6                  CAPCERSMDCL2_0603-1.0UF,6.3V 
- C8                  CAPCERSMDCL2_0603-10NF,50V 
- C9                  CAPCERSMDCL2_0603-1.0UF,6.3V 
- RG1                 LD3985M25R            
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
-|                                                    Mon Mar 10 14:14:17 2025  |
+|                                                    Mon Mar 10 15:11:12 2025  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC2                 74LVC07A_SOIC-VCC=2V5   42.50   42.60 74LVC07A_SOIC-VCC=VCC3V3
+ R7                  R-EMA-00007509V42,R-EMA-00007509V42,R   74.40   68.70 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
+ R8                  R-EMA-00007509V42,R-EMA-00007509V42,R   67.60   70.20 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
+ R9                  R-EMA-00007509V42,R-EMA-00007509V42,R   74.40   64.20 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
+ R10                 R-EMA-00007509V42,R-EMA-00007509V42,R   67.60   65.70 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
+ R11                 R-EMA-00007509V42,R-EMA-00007509V42,R   74.40    9.20 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
+ R12                 R-EMA-00007509V42,R-EMA-00007509V42,R   67.60   10.70 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
-|                                                    Mon Mar 10 14:14:17 2025  |
+|                                                    Mon Mar 10 15:11:12 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C4.2            -31.76   50.17 XY             (3250,-2875)
- C6.2                           PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C6.2                           SIZE           1
- C6.2                           XY             (1500,-3050)
- C8.2                           PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C8.2                           SIZE           1
- C8.2                           XY             (1825,-3250)
- C9.2                           PRIM_FILE      ./archive_libs/cnpassive/capcersmdcl2/chips/chips.prt
- C9.2                           SIZE           1
- C9.2                           XY             (2600,-3075)
- IC2.2            42.50   42.60 HAS_FIXED_SIZE 6
- IC2.2            42.50   42.60 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
- IC2.2            42.50   42.60 SIZE           6
- IC2.2            42.50   42.60 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
- IC2.2            42.50   42.60 XY             (4175,-3100)
- IC2.4            42.50   42.60 HAS_FIXED_SIZE 6
- IC2.4            42.50   42.60 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
- IC2.4            42.50   42.60 SIZE           6
- IC2.4            42.50   42.60 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
- IC2.4            42.50   42.60 XY             (4175,-3100)
- IC2.6            42.50   42.60 HAS_FIXED_SIZE 6
- IC2.6            42.50   42.60 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
- IC2.6            42.50   42.60 SIZE           6
- IC2.6            42.50   42.60 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
- IC2.6            42.50   42.60 XY             (4175,-3100)
- IC2.8            42.50   42.60 HAS_FIXED_SIZE 6
- IC2.8            42.50   42.60 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
- IC2.8            42.50   42.60 SIZE           6
- IC2.8            42.50   42.60 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
- IC2.8            42.50   42.60 XY             (4175,-3100)
- IC2.10           42.50   42.60 HAS_FIXED_SIZE 6
- IC2.10           42.50   42.60 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
- IC2.10           42.50   42.60 SIZE           6
- IC2.10           42.50   42.60 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
- IC2.10           42.50   42.60 XY             (4175,-3100)
- IC2.12           42.50   42.60 HAS_FIXED_SIZE 6
- IC2.12           42.50   42.60 PRIM_FILE      ./archive_libs/cninterface/74lvc07a/chips/chips.prt
- IC2.12           42.50   42.60 SIZE           6
- IC2.12           42.50   42.60 SWAP_GROUP     @MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I178@CNINTERFACE.74LVC07A(CHIPS)
- IC2.12           42.50   42.60 XY             (4175,-3100)
- RG1.5                          PRIM_FILE      ./archive_libs/cnlinear/ld3985/chips/chips.prt
- RG1.5                          XY             (2125,-3025)
+ R7.2             74.40   68.70 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R7.2             74.40   68.70 XY             (5000,-1900)
+ R8.2             67.60   70.20 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R8.2             67.60   70.20 XY             (5050,-1900)
+ R9.2             74.40   64.20 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R9.2             74.40   64.20 XY             (5500,-1900)
+ R10.2            67.60   65.70 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R10.2            67.60   65.70 XY             (5550,-1900)
+ R11.2            74.40    9.20 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R11.2            74.40    9.20 XY             (6000,-1900)
+ R12.2            67.60   10.70 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R12.2            67.60   10.70 XY             (6050,-1900)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
-|                                                    Mon Mar 10 14:14:17 2025  |
+|                                                    Mon Mar 10 15:11:12 2025  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C6.1                           CDS_PINID      A(0)
- C6.2                           CDS_PINID      B(0)
- C8.1                           CDS_PINID      A(0)
- C8.2                           CDS_PINID      B(0)
- C9.1                           CDS_PINID      A(0)
- C9.2                           CDS_PINID      B(0)
- RG1.1                          CDS_PINID      VI
- RG1.2                          CDS_PINID      GND
- RG1.3                          CDS_PINID      VINH
- RG1.4                          CDS_PINID      BYPASS
- RG1.5                          CDS_PINID      VO
+ R7.1             75.15   68.70 CDS_PINID      \1\
+ R7.2             73.65   68.70 CDS_PINID      \2\
+ R8.1             66.85   70.20 CDS_PINID      \1\
+ R8.2             68.35   70.20 CDS_PINID      \2\
+ R9.1             75.15   64.20 CDS_PINID      \1\
+ R9.2             73.65   64.20 CDS_PINID      \2\
+ R10.1            66.85   65.70 CDS_PINID      \1\
+ R10.2            68.35   65.70 CDS_PINID      \2\
+ R11.1            75.15    9.20 CDS_PINID      \1\
+ R11.2            73.65    9.20 CDS_PINID      \2\
+ R12.1            66.85   10.70 CDS_PINID      \1\
+ R12.2            68.35   10.70 CDS_PINID      \2\
 |------------------------------------------------------------------------------|
-|       Nets changed          :      13                                        |
-|       Comp definitions added:       4                                        |
-|       Components added      :       4                                        |
-|       Components changed    :       1                                        |
-|       Pin property added    :      11                                        |
-|       Slot property added   :      42                                        |
+|       Nets changed          :       7                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       6                                        |
+|       Pin property added    :      12                                        |
+|       Slot property added   :      12                                        |
 |                                                                              |
-|   Total ECO changes reported:      75                                        |
+|   Total ECO changes reported:      38                                        |
 |------------------------------------------------------------------------------|
