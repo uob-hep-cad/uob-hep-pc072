@@ -1,0 +1,62 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : mib_fp_jtag_serial_27_PH.brd                  )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon Mar 10 09:42:19 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  UNNAMED_1_RSMD0603_I170_A TOP                     0.14     *(132.05 62.80) to  (132.15 62.70)
+  UNNAMED_1_RSMD0603_I169_B TOP                     0.10     *(131.98 56.67) to  (132.05 56.60)
+  MMC_TMS              TOP                     0.14     *(154.60 55.40) to  (154.70 55.30)
+  MMC_TDO              TOP                     0.14     *(156.17 54.13) to  (156.20 54.00)
+  MMC_TDI              TOP                     0.06     *(152.06 57.94) to  (152.10 57.90)
+  MMC_TCK              TOP                    16.99     *(157.50 52.60) to  (173.44 50.07)
+  MMC_TRST*            TOP                    21.50     *(170.30 61.20) to  (174.71 46.26)
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  MP3V3                VIA40RD0-5D          (168.35 64.05)   TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  GND                  VIA40RD0-5D          (134.04 24.50)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (136.40 25.00)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (157.00 11.10)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (157.00 35.00)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (164.00 32.90)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (167.50 25.40)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (168.10 23.00)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (172.60 30.60)   TOP/BOTTOM 
+  GND                  VIA40RD0-5D          (174.80 16.30)   TOP/BOTTOM 
+  MP3V3                VIA40RD0-5D          (168.35 64.05)   TOP/BOTTOM 
+  VCC3V3               VIA40RD0-5D          (153.00 34.90)   TOP/BOTTOM 
+  VCC3V3               VIA40RD0-5D          (161.60 17.00)   TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       7
+  Total dangling vias:        1
+  Total antenna vias:        12
