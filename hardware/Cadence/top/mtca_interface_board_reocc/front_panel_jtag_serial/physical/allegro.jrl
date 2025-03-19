@@ -1,165 +1,25 @@
 \t (00:00:03) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Tue Mar 18 14:48:37 2025
-\t (00:00:03)         Host=ELWE4 User=hastingsp Pid=7916 CPUs=32
+\t (00:00:03)     Journal start - Wed Mar 19 07:48:43 2025
+\t (00:00:03)         Host=ELWE4 User=hastingsp Pid=10948 CPUs=32
 \t (00:00:03) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc072-new2\hardware\Cadence\top\front_panel_jtag_serial.cpm -product Allegro_Venture_PCB_Designer -mpssession hastingsp_ProjectMgr2415 -mpshost ELWE4
 \t (00:00:03) 
 \t (00:00:03) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_fp_jtag_serial_28_PH_manufact"
-\d (00:00:06) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_28_PH_manufact.brd
-\i (00:00:06) trapsize 78
-\i (00:00:06) trapsize 80
-\i (00:00:06) trapsize 78
-\i (00:00:06) trapsize 78
-\t (00:00:06) Loading NV GPU Plugin
-\i (00:00:06) trapsize 53
-\i (00:00:20) plctxt out 
-\i (00:00:23) setwindow form.plctxt
-\i (00:00:23) FORM plctxt execute  
-\t (00:00:23) Starting Place symbols by text file...
-\t (00:00:25) SpawnProcessExit background process completed status = 0
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mib_fp_jtag_serial_28_PH_manufact"
+\d (00:00:04) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc072-new2/hardware/Cadence/top/mtca_interface_board_reocc/front_panel_jtag_serial/physical/mib_fp_jtag_serial_28_PH_manufact.brd
+\i (00:00:04) trapsize 78
+\i (00:00:04) trapsize 80
+\i (00:00:04) trapsize 78
+\i (00:00:04) trapsize 78
+\t (00:00:04) Loading NV GPU Plugin
+\i (00:00:04) trapsize 53
+\i (00:00:43) exit 
+\t (00:00:45) Lic Summary:
+[07:49:24.314712] Cdslmd servers:
+[07:49:24.839000] Feature usage summary:
+[07:49:24.839000] Allegro_Venture_PCB_Designer2
+[07:49:24.839000] PCB_design_studio
+[07:49:24.839000] Allegro_Venture_PCB_Designer
+[07:49:24.839000] Venture_PCB_Schematic
 
-\i (00:00:27) FORM plctxt browse  
-\i (00:00:33) fillin "menu_cancel"
-\i (00:00:36) setwindow pcb
-\i (00:00:36) viewlog -last 
-\i (00:00:39) fillin confirm
-\i (00:00:41) setwindow form.plctxt
-\i (00:00:41) FORM plctxt browse  
-\i (00:00:51) fillin "place_txt.txt"
-\i (00:00:53) FORM plctxt execute  
-\t (00:00:53) Starting Place symbols by text file...
-\t (00:00:55) SpawnProcessExit background process completed status = 0
-
-\i (00:04:07) setwindow pcb
-\i (00:04:07) pick grid -30.36 -0.82
-\t (00:04:07) last pick:  -30.40 -0.80
-\i (00:04:08) zoom in 1 
-\i (00:04:08) setwindow pcb
-\i (00:04:08) zoom in 93.51 21.86
-\i (00:04:08) trapsize 26
-\i (00:04:10) show element 
-\i (00:04:11) pick grid 86.39 32.20
-\t (00:04:11) last pick:  86.40 32.20
-\i (00:04:11) pick grid dbl 86.39 32.20
-\t (00:04:11) last pick:  86.40 32.20
-\i (00:04:13) setwindow form.find
-\i (00:04:13) FORM find symbols YES 
-\i (00:04:14) setwindow pcb
-\i (00:04:14) pick grid 85.23 30.88
-\t (00:04:14) last pick:  85.20 30.90
-\i (00:04:24) setwindow text
-\i (00:04:24) close
-\i (00:08:29) setwindow pcb
-\i (00:08:29) zoom out 1 
-\t (00:08:29) [14:57:03.282000] Periodic Lic check successful
-[14:57:03.282000] Feature usage summary:
-[14:57:03.282000] Allegro_Venture_PCB_Designer2
-[14:57:03.282000] PCB_design_studio
-[14:57:03.282000] Allegro_Venture_PCB_Designer
-[14:57:03.282000] Venture_PCB_Schematic
-
-\i (00:08:29) setwindow pcb
-\i (00:08:29) zoom out 62.97 19.38
-\i (00:08:29) trapsize 53
-\i (00:08:29) roam start
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -32
-\i (00:08:29) roam y 16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam y 16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam y 16
-\i (00:08:29) roam x -32
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam y 16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -32
-\i (00:08:29) roam y 16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -16
-\i (00:08:29) roam x -32
-\i (00:08:29) roam x -16
-\i (00:08:29) roam end
-\i (00:08:31) zoom in 1 
-\i (00:08:31) setwindow pcb
-\i (00:08:31) zoom in 4.45 47.13
-\i (00:08:31) trapsize 26
-\i (00:08:31) zoom out 1 
-\i (00:08:31) setwindow pcb
-\i (00:08:31) zoom out 8.99 38.95
-\i (00:08:31) trapsize 53
-\i (00:08:34) zoom in 1 
-\i (00:08:34) setwindow pcb
-\i (00:08:34) zoom in 84.11 61.74
-\i (00:08:34) trapsize 26
-\i (00:08:34) roam start
-\i (00:08:34) roam y 16
-\i (00:08:34) roam x 16
-\i (00:08:34) roam y 32
-\i (00:08:34) roam y 32
-\i (00:08:34) roam y 32
-\i (00:08:34) roam x 16
-\i (00:08:34) roam y 32
-\i (00:08:34) roam y 16
-\i (00:08:34) roam y 16
-\i (00:08:34) roam y 16
-\i (00:08:34) roam y 16
-\i (00:08:34) roam y 16
-\i (00:08:34) roam x 16
-\i (00:08:34) roam y 32
-\i (00:08:34) roam y 32
-\i (00:08:34) roam y 16
-\i (00:08:34) roam y 32
-\i (00:08:35) roam end
-\i (00:08:36) zoom out 1 
-\i (00:08:36) setwindow pcb
-\i (00:08:36) zoom out 91.51 36.54
-\i (00:08:36) trapsize 53
-\i (00:08:37) roam start
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 32
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 32
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 32
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 16
-\i (00:08:37) roam y -16
-\i (00:08:37) roam x 32
-\i (00:08:37) roam y -16
-\i (00:08:37) roam end
-\i (00:11:21) zoom in 1 
-\i (00:11:21) setwindow pcb
-\i (00:11:21) zoom in 16.80 46.60
-\i (00:11:21) trapsize 26
-\i (00:11:22) zoom out 1 
-\i (00:11:22) setwindow pcb
-\i (00:11:22) zoom out 43.60 37.26
-\i (00:11:22) trapsize 53
-\i (00:12:02) exit 
-\t (00:12:04) Lic Summary:
-[15:00:38.300712] Cdslmd servers:
-[15:00:38.825000] Feature usage summary:
-[15:00:38.825000] Allegro_Venture_PCB_Designer2
-[15:00:38.825000] PCB_design_studio
-[15:00:38.825000] Allegro_Venture_PCB_Designer
-[15:00:38.825000] Venture_PCB_Schematic
-
-\t (00:12:04)     Journal end - Tue Mar 18 15:00:38 2025
+\t (00:00:45)     Journal end - Wed Mar 19 07:49:24 2025
