@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 13-Feb-2025 AT 12:55:23 }
+{ Packager-XL run on 11-Mar-2025 AT 07:28:56 }
 primitive '410_357_B-DIGILENT,410-357-B';
   pin
     'GND_1':
@@ -136,7 +136,58 @@ t3/reference-manual';
       PARENT_PPT_PART='410_357_B-DIGILENT,410-357-B';
   end_body;
 end_primitive;
-primitive '74LVC07A_SOIC-VCC=P2V5';
+primitive '591-3001-0XXF';
+  pin
+    'C1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A1':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'C2':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A2':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      CLASS='DISCRETE';
+      PART_NAME='LED1_BICOLOR4P';
+      BODY_NAME='LED1_BICOLOR4P';
+      PHYS_DES_PREFIX='LD';
+      STATUS='Preferred';
+      PART_NUMBER='591-3001-0xxF';
+      MANUFACTURER='DIALIGHT';
+      DESCRIPTION='3mm Prism Bi-Color Red/Green SMD LED';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/led_dialight_~
+591-3001.pdf';
+      PINCOUNT='4';
+      SMD='YES';
+      CASE='9x4.3mm';
+      JEDEC_TYPE='LED_DIALIGHT_591-3XX1';
+      PARENT_PART_TYPE='LED1_BICOLOR4P_1243';
+      PARENT_PPT='LED1_BICOLOR4P';
+      PARENT_PPT_PART='591-3001-0XXF';
+  end_body;
+end_primitive;
+primitive '74LVC07A_SOIC-VCC=2V5';
   pin
     'A'<0>:
       PIN_NUMBER='(13,11,9,5,3,1)';
@@ -156,9 +207,52 @@ primitive '74LVC07A_SOIC-VCC=P2V5';
       PART_NUMBER='SN74LVC07AD';
       MANUFACTURER='TI';
       DESCRIPTION='HEX BUFFERS / DRIVERS WITH OPEN-DRAIN OUTPUTS';
-      POWER_PINS='(P2V5:14;GND:7)';
+      POWER_PINS='(2V5:14;GND:7)';
       PARENT_PART_TYPE='74LVC07A_SOIC';
       SCH_MODIFIED_PART='TRUE';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0603-1.0UF,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_1UF_6V3_10%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='1.0uF';
+      VOLT='6.3V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-1.0UF,6.3V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0603-100NF,16V';
@@ -202,6 +296,49 @@ primitive 'CAPCERSMDCL2_0603-100NF,16V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0603';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0603-100NF,16V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0603-10NF,50V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_10NF_50V_10%_X7R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X7R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='10nF';
+      VOLT='50V';
+      TOL='10%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-10NF,50V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0805-10UF_Y5V,10V_GEN';
@@ -721,57 +858,6 @@ primitive 'CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P-CONN30P,FTSH-115-01-L-D-A';
       PARENT_PPT_PART='CONN30P-FTSH-115-01-L-D-RA-KV,CONN30P';
   end_body;
 end_primitive;
-primitive 'KPHBM-2012QBDSURKC';
-  pin
-    'C1':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'A1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'C2':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'A2':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='BOTH';
-      NO_IO_CHECK='BOTH';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      CLASS='DISCRETE';
-      PART_NAME='LED1_BICOLOR4P';
-      BODY_NAME='LED1_BICOLOR4P';
-      PHYS_DES_PREFIX='LD';
-      STATUS='Preferred';
-      PART_NUMBER='KPHBM-2012QBDSURKC';
-      MANUFACTURER='KINGBRIGHT';
-      DESCRIPTION='Bi-Color Blue/Hyper Red SMD LED - KPHBM-2012 Series';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/led_kingbrigh~
-t_kphbm-2012qbdsurkc.pdf';
-      PINCOUNT='4';
-      SMD='YES';
-      CASE='2.0x1.25mm';
-      JEDEC_TYPE='LED_KINGBRIGHT_KPHBM-2012_BR';
-      PARENT_PART_TYPE='LED1_BICOLOR4P_2134';
-      PARENT_PPT='LED1_BICOLOR4P';
-      PARENT_PPT_PART='KPHBM-2012QBDSURKC';
-  end_body;
-end_primitive;
 primitive 'LD3985M25R';
   pin
     'VI':
@@ -853,27 +939,40 @@ primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
       PARENT_PPT_PART='MT_HOLE-MT_HOLE,MT_HOLE';
   end_body;
 end_primitive;
-primitive 'PIPELIGHT_1LED-7511A85';
+primitive 'R-ERA-2VEB2700X,R-ERA-2VEB2700X,R';
   pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='PIPELIGHT_1LED';
-      BODY_NAME='PIPELIGHT_1LED';
-      PHYS_DES_PREFIX='PL';
-      CLASS='MECHANICAL';
-      STATUS='Preferred';
-      PART_NUMBER='7511A85';
-      MANUFACTURER='VCCLITE';
-      DESCRIPTION='Single-LED Bright*Pipes(TM) Optical Lightpipe';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/pipelight_vcc~
-lite_7511a85.pdf';
-      PINCOUNT='0';
-      SMD='MECH';
-      CASE='_';
-      JEDEC_TYPE='PIPELIGHT_VCCLITE_7511A85';
-      PARENT_PART_TYPE='PIPELIGHT_1LED';
-      PARENT_PPT='PIPELIGHT_1LED';
-      PARENT_PPT_PART='PIPELIGHT_1LED-7511A85';
+      PHYS_DES_PREFIX='R';
+      CLASS='DISCRETE';
+      PART_NAME='R';
+      BODY_NAME='R';
+      JEDEC_TYPE='RES0402';
+      VALUE='270';
+      DESCRIPTION='RES SMD 270 OHM 0.1% 62.5mW 0402';
+      MPN='ERA-2VEB2700X';
+      MANUFACTURER='PANASONIC';
+      PART_TYPE='THICK FILM';
+      PART_NUMBER='ERA-2VEB2700X';
+      SOURCE_PACKAGE='R';
+      PARENT_PART_TYPE='R';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-ERA-2VEB2700X,R';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-10K,1%';

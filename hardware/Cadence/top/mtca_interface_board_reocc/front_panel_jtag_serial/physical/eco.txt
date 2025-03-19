@@ -2,80 +2,109 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
-|                                                    Thu Feb 13 12:55:29 2025  |
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
+|                                                    Tue Mar 11 07:29:06 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  VCC3V3       pins ADDED TO this existing net (pins not previously on any net)
-                                 C3.2            66.8303 53.9303
+  2V5          pins MOVED FROM this net (to net name listed on right)
+                                 C3.2             -30.95   54.10
+                                                                         VCC3V3
+                                 R7.1              74.85   68.70
+                                                                         VCC3V3
+                                 R8.1              67.15   70.20
+                                                                         VCC3V3
+                                 R9.1              74.85   64.20
+                                                                         VCC3V3
+                                 R10.1             67.15   65.70
+                                                                         VCC3V3
+                                 R11.1             74.85    9.20
+                                                                         VCC3V3
+                                 R12.1             67.15   10.70
+                                                                         VCC3V3
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
-|                                                    Thu Feb 13 12:55:29 2025  |
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
+|                                                    Tue Mar 11 07:29:06 2025  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- SHF-105-01-X-D-SM-SHF-105-01-X-D-SM
+ R-ERA-2VEB2700X,R-ERA-2VEB2700X,R
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
-|                                                    Thu Feb 13 12:55:29 2025  |
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
+|                                                    Tue Mar 11 07:29:06 2025  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J5                  SHF-105-01-X-D-SM-SHF-105-01-X-D-SM 104.138 45.7732 SHF-105-01-L-D-RA-SHF-105-01-L-D-RA
+ R7                  R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   74.40   68.70 R-EMA-00007509V42,R-EMA-00007509V42,R
+ R8                  R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   67.60   70.20 R-EMA-00007509V42,R-EMA-00007509V42,R
+ R9                  R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   74.40   64.20 R-EMA-00007509V42,R-EMA-00007509V42,R
+ R10                 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   67.60   65.70 R-EMA-00007509V42,R-EMA-00007509V42,R
+ R11                 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   74.40    9.20 R-EMA-00007509V42,R-EMA-00007509V42,R
+ R12                 R-ERA-2VEB2700X,R-ERA-2VEB2700X,R   67.60   10.70 R-EMA-00007509V42,R-EMA-00007509V42,R
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
-|                                                    Thu Feb 13 12:55:29 2025  |
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
+|                                                    Tue Mar 11 07:29:06 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C3.2           66.3000 53.4000 XY             (4600,-1800)
- J5.10                          PRIM_FILE      ./archive_libs/cds_discrete/shf#2d105#2d01#2dx#2dd#2dsm/chips/chips.prt
- J5.10                          XY             (-225,-4600)
+ R7.2             74.40   68.70 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R7.2             74.40   68.70 XY             (5000,-1900)
+ R8.2             67.60   70.20 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R8.2             67.60   70.20 XY             (5050,-1900)
+ R9.2             74.40   64.20 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R9.2             74.40   64.20 XY             (5500,-1900)
+ R10.2            67.60   65.70 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R10.2            67.60   65.70 XY             (5550,-1900)
+ R11.2            74.40    9.20 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R11.2            74.40    9.20 XY             (6000,-1900)
+ R12.2            67.60   10.70 PRIM_FILE      ./discrete/r/chips/chips.prt
+ R12.2            67.60   10.70 XY             (6050,-1900)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_22.brd            |
-|                                                    Thu Feb 13 12:55:29 2025  |
+|  .../front_panel_jtag_serial/physical/mib_fp_jtag_serial_27_PH.brd           |
+|                                                    Tue Mar 11 07:29:06 2025  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J5.1                           CDS_PINID      A(0)
- J5.2                           CDS_PINID      A(1)
- J5.3                           CDS_PINID      A(2)
- J5.4                           CDS_PINID      A(3)
- J5.5                           CDS_PINID      A(4)
- J5.6                           CDS_PINID      A(5)
- J5.7                           CDS_PINID      A(6)
- J5.8                           CDS_PINID      A(7)
- J5.9                           CDS_PINID      A(8)
- J5.10                          CDS_PINID      A(9)
+ R7.1             74.85   68.70 CDS_PINID      \1\
+ R7.2             73.95   68.70 CDS_PINID      \2\
+ R8.1             67.15   70.20 CDS_PINID      \1\
+ R8.2             68.05   70.20 CDS_PINID      \2\
+ R9.1             74.85   64.20 CDS_PINID      \1\
+ R9.2             73.95   64.20 CDS_PINID      \2\
+ R10.1            67.15   65.70 CDS_PINID      \1\
+ R10.2            68.05   65.70 CDS_PINID      \2\
+ R11.1            74.85    9.20 CDS_PINID      \1\
+ R11.2            73.95    9.20 CDS_PINID      \2\
+ R12.1            67.15   10.70 CDS_PINID      \1\
+ R12.2            68.05   10.70 CDS_PINID      \2\
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
+|       Nets changed          :       7                                        |
 |       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Pin property added    :      10                                        |
-|       Slot property added   :       3                                        |
+|       Components changed    :       6                                        |
+|       Pin property added    :      12                                        |
+|       Slot property added   :      12                                        |
 |                                                                              |
-|   Total ECO changes reported:      16                                        |
+|   Total ECO changes reported:      38                                        |
 |------------------------------------------------------------------------------|
