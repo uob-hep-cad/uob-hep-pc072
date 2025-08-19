@@ -2,107 +2,10 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
+|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v227.brd     |
+|                                                    Tue Aug 19 17:11:24 2025  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 R6.1                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_4_PTH08T210W_I137_VADJ pins ADDED TO this existing net (pins not previously on any net)
-                                 R6.2                           
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RSMD0603_1/10W-5.6K,1%
- RSMD0603_1/10W-75K,1%
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R6                  RSMD0603_1/10W-75K,1% 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R60                 RSMD0603_1/10W-5.6K,1%   80.00   10.50 RSMD0603_1/10W-1.6K,1%
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R6                             ROOM           POWER
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R6.2                           PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R6.2                           ROOM           POWER
- R6.2                           SIZE           1
- R6.2                           XY             (3125,-2925)
- R60.2            80.00   10.50 PRIM_FILE      ./archive_libs/cnpassive/rsmd0603/chips/chips.prt
- R60.2            80.00   10.50 ROOM           POWER
- R60.2            80.00   10.50 SIZE           1
- R60.2            80.00   10.50 XY             (2950,-2925)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v225.brd     |
-|                                                    Mon Feb 24 15:16:45 2025  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R6.1                           CDS_PINID      A(0)
- R6.2                           CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
-|       Comp definitions added:       2                                        |
-|       Components added      :       1                                        |
-|       Components changed    :       1                                        |
-|       Comp property added   :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:      17                                        |
+|   Total ECO changes reported:       0                                        |
 |------------------------------------------------------------------------------|
