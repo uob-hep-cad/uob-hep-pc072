@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 11-Mar-2025 AT 07:28:56 }
+{ Packager-XL run on 10-Mar-2026 AT 17:07:19 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='FRONT_PANEL_JTAG_SERIAL';
- POST_TIME='11-Mar-2025 AT 07:28:56';
+ POST_TIME='10-Mar-2026 AT 17:07:19';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -641,37 +641,6 @@ cad_parts_lib.mt_hole(chips)',
  PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
 
 PART_NAME
- MH3 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
-
-SECTION_NUMBER 1
- '@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1_I111@OCAD_PARTS_LIB.MT_HOLE(CHIPS)':
- C_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i111@o~
-cad_parts_lib.mt_hole(chips)',
- P_PATH='@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1_i111@o~
-cad_parts_lib.mt_hole(chips)',
- PATH='I111',
- DRAWING='@MTCA_INTERFACE_BOARD_REOCC.FRONT_PANEL_JTAG_SERIAL(SCH_1):PAGE1',
- SOURCE_PACKAGE='Mt_Hole',
- REUSE_ANNOTATE='TRUE',
- PART_TYPE='Misc',
- MPN='Mt_Hole',
- MANUFACTURER='HEP',
- DISTRIBUTOR_PARTNUMBER='Mt_Hole',
- DISTRIBUTOR='HEP',
- DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
- PHYS_PAGE='1',
- XY='(-1175,-550)',
- ROT='1',
- VER='1',
- JEDEC_TYPE='MOUNTHOLE',
- SEC='1',
- CDS_LIB='ocad_parts_lib',
- CDS_PART_NAME='MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHOLE',
- PART_NUMBER='Mt_Hole',
- VALUE='Mt_Hole',
- PRIM_FILE='./ocad_parts_lib/mt_hole/chips/chips.prt';
-
-PART_NAME
  MH4 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA':;
 
 SECTION_NUMBER 1
@@ -691,7 +660,7 @@ cad_parts_lib.mt_hole(chips)',
  DISTRIBUTOR='HEP',
  DESCRIPTION='PCB MOUNT-HOLE PAD200C_128 DRILL',
  PHYS_PAGE='1',
- XY='(-825,-550)',
+ XY='(-675,-600)',
  ROT='1',
  VER='1',
  JEDEC_TYPE='MOUNTHOLE',
