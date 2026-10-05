@@ -1,0 +1,9 @@
+DEFINE default default
+
+INCLUDE $RAL_CDSLIB_PSD15/cds.lib
+INCLUDE $BRIS_CDSLIB/cds.lib
+#INCLUDE $CERN_CDSLIB/lib_psd16.x/cds.lib
+#INCLUDE $CERN_CDSLIB/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cds.lib
+INCLUDE $CERN_CDSLIB/lib_psd17.x/pe_cern_lib/cds.lib
+
+INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib
