@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2025-02-24T13:13:06</modificationTime>
+    <modificationTime>2026-10-05T16:37:09</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="01_ module management ctrl" view="sch_1">
       <lastids>
-        <instanceid>64</instanceid>
-        <netid>107</netid>
-        <insttermid>281</insttermid>
+        <instanceid>66</instanceid>
+        <netid>108</netid>
+        <insttermid>285</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -689,6 +689,26 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S21</id>
+          <library>bris_cds_discrete</library>
+          <name>kingbright_kpa</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T177</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T178</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -966,12 +986,12 @@
           <name>unnamed_1_rsmd0603_i242_a</name>
         </net>
         <net>
-          <id>N106</id>
-          <name>unnamed_1_rsmd0603_i249_b</name>
-        </net>
-        <net>
           <id>N107</id>
           <name>unnamed_1_rsmd0603_i250_b</name>
+        </net>
+        <net>
+          <id>N108</id>
+          <name>unnamed_1_kingbrightkpa_i253_2</name>
         </net>
         <net>
           <id>N30</id>
@@ -2493,7 +2513,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N106" />
+                <connection pinmsb="0" pinlsb="0" net="N108" />
               </connections>
             </pin>
           </pins>
@@ -2524,27 +2544,6 @@
           </pins>
         </instance>
         <instance>
-          <id>I63</id>
-          <cellid>S20</cellid>
-          <name>page1_i251</name>
-          <pins>
-            <pin>
-              <id>M278</id>
-              <termid>T169</termid>
-              <connections>
-                <connection net="N34" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M279</id>
-              <termid>T170</termid>
-              <connections>
-                <connection net="N106" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
           <id>I64</id>
           <cellid>S20</cellid>
           <name>page1_i252</name>
@@ -2561,6 +2560,27 @@
               <termid>T170</termid>
               <connections>
                 <connection net="N107" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I66</id>
+          <cellid>S21</cellid>
+          <name>page1_i253</name>
+          <pins>
+            <pin>
+              <id>M284</id>
+              <termid>T177</termid>
+              <connections>
+                <connection net="N34" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M285</id>
+              <termid>T178</termid>
+              <connections>
+                <connection net="N108" />
               </connections>
             </pin>
           </pins>
@@ -2668,8 +2688,8 @@
               <net ref="unnamed_1_atmga128_i235_pe2"></net>
               <net ref="unnamed_1_inv1chod_171p_a"></net>
               <net ref="unnamed_1_inv1chod_171p_y"></net>
+              <net ref="unnamed_1_kingbrightkpa_i253_2"></net>
               <net ref="unnamed_1_rsmd0603_i242_a"></net>
-              <net ref="unnamed_1_rsmd0603_i249_b"></net>
               <net ref="unnamed_1_rsmd0603_i250_b"></net>
               <net ref="vp12"></net>
             </nets>
@@ -2718,8 +2738,8 @@
               <instance ref="i242"></instance>
               <instance ref="i249"></instance>
               <instance ref="i250"></instance>
-              <instance ref="i251"></instance>
               <instance ref="i252"></instance>
+              <instance ref="i253"></instance>
             </instances>
           </page>
         </pages>

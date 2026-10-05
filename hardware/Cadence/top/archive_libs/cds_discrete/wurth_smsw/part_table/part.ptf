@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'WURTH_SMSW'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE | VALUE           | MANUF(OPT='CAT')     = CI      | PART_NUMBER     | PART_DESCRIPTION                                                      | JEDEC_TYPE   | DESCRIPTION ;
+{========================================================================================}
+ 'SMD'     | '155124BS73200' | ''(~155124BS73200)   = 'WURTH' | '155124BS73200' | 'Wurth, SMSW, LED, Side View, Round, Blue, SMD, 25 mA, 3.4 V, 470 nm' | 'WURTH_SMSW' | 'BLUE'     
+ 'SMD'     | '155060RS73200' | ''(~155060RS73200)   = 'WURTH' | '155060RS73200' | 'Wurth, SMSW, LED, Red, SMD, 0603 [1608 Metric], 20 mA, 2 V, 624 nm'  | 'WURTH_SMSW' | 'RED'      
+
+END_PART
+
+END.
+

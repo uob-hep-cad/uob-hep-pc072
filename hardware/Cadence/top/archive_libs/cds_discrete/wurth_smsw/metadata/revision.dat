@@ -1,0 +1,204 @@
+(Cell	wurth_smsw
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.8)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	02/24/25,10:25:37)
+
+			(User	phdgc)
+
+			(Path	bris_cds_discrete.wurth_smsw)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	02/24/25,10:52:58)
+
+			(User	phdgc)
+
+			(Path	bris_cds_discrete.wurth_smsw)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	02/24/25,10:25:37)
+
+					(User	phdgc)
+
+					(Path	bris_cds_discrete.wurth_smsw)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c71462b0)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	02/24/25,10:25:37)
+
+							(User	phdgc)
+
+							(Path	bris_cds_discrete.wurth_smsw)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bf5037a)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000007d97a76c)
+
+			(Primitives	1
+
+				(Primitive	WURTH_SMSW_SMD
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	)
+
+							(User	)
+
+							(Path	)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	WURTH_SMSW
+
+							(PackType	WURTH_SMSW_SMD)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	WURTH_SMSW)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d0d03eb)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	24.1 P001 (4234998))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cad03d4)
+
+)
+

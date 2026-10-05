@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KINGBRIGHT_KPA'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE | VALUE             | MANUF(OPT='CAT')     = CI           | PART_NUMBER       | PART_DESCRIPTION                                                      | JEDEC_TYPE   | DESCRIPTION ;
+{========================================================================================}
+ 'SMD'     | 'KPA-2107LVVBC-D' | ''(~KPA-2107LVVBC-D)   = 'Kingbright' | 'KPA-2107LVVBC-D' | 'Kingbright, edge launch LED, 2.1mm x 0.6mm, Blue, SMD, 2.1mm x 0.7mm, 2 mA, 2.65 V, 470 nm' | 'KPA2107LVVBCD' | 'BLUE'     
+
+END_PART
+
+END.
+
