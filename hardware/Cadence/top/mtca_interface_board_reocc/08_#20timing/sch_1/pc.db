@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 23.1 P001 (4147275) 9/30/2023 on Thu Jan 23 13:00:58 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024 on Tue Oct  6 09:57:04 2026
 #ISCELL
   mtca_interface_board gnd *
   page1_141p
@@ -237,15 +237,6 @@
   cninterface 74avc1t45 *
   page1_i803
 #CELL
-  discrete r *
-  page1_i804
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i806
-#CELL
-  cnpassive capcersmdcl2 *
-  page1_i807
-#CELL
   cnpassive capcersmdcl2 *
   page1_i808
 #CELL
@@ -299,6 +290,18 @@
 #ISCELL
   mtca_interface_board vcc_bar *
   page1_i834
+#CELL
+  discrete r *
+  page1_i835
+#CELL
+  discrete r *
+  page1_i836
+#CELL
+  cnpassive rsmd0603 *
+  page1_i837
+#ISCELL
+  mtca_interface_board gnd *
+  page1_i838
 #ISCELL
   bris_cds_standard a3-2000 *
   *
