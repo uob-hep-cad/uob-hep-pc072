@@ -1,4 +1,4 @@
-{ Packager-XL run on 10-Mar-2026 AT 17:07:19 }
+{ Packager-XL run on 06-Oct-2026 AT 14:46:58 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1";
 BODY = "USBLC6-2","I70": LOCATION = "D1" #&CDS_LOCATION = "D1" &SEC = "1" #&CDS_SEC = "1";
@@ -17,25 +17,6 @@ BODY = "MT_HOLE","I110": LOCATION = "MH4" #&CDS_LOCATION = "MH4" #SEC = "1" #&SE
 BODY = "CAPCERSMDCL2","I122": LOCATION = "C1" #&CDS_LOCATION = "C1" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "410_357_B","I128": LOCATION = "IC1" #&CDS_LOCATION = "IC1" &SEC = "1" #&CDS_SEC = "1";
-"CTS":   PN = "3"  !CDS_PN = "3";
-"GND_1":   PN = "1"  !CDS_PN = "1";
-"GND_2":   PN = "7"  !CDS_PN = "7";
-"GND_3":   PN = "14"  !CDS_PN = "14";
-"PS_SRST_B":   PN = "9"  !CDS_PN = "9";
-"RTS":   PN = "4"  !CDS_PN = "4";
-"RXD":   PN = "5"  !CDS_PN = "5";
-"TCK":   PN = "10"  !CDS_PN = "10";
-"TDI":   PN = "12"  !CDS_PN = "12";
-"TDO":   PN = "11"  !CDS_PN = "11";
-"TMS":   PN = "13"  !CDS_PN = "13";
-"TXD":   PN = "6"  !CDS_PN = "6";
-"USB_DM":   PN = "16"  !CDS_PN = "16";
-"USB_DP":   PN = "17"  !CDS_PN = "17";
-"VBUS_DETECT":   PN = "18"  !CDS_PN = "18";
-"VDD":   PN = "15"  !CDS_PN = "15";
-"VREF":   PN = "2"  !CDS_PN = "2";
-"VREF_JTAG":   PN = "8"  !CDS_PN = "8";
 BODY = "RSMD0603","I131": LOCATION = "R2" #&CDS_LOCATION = "R2" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
@@ -219,4 +200,33 @@ BODY = "CAPCERSMDCL2","I204": LOCATION = "C9" #&CDS_LOCATION = "C9" &SEC = "1" #
 BODY = "CAPCERSMDCL2","I205": LOCATION = "C8" #&CDS_LOCATION = "C8" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "PCOAX","I210": LOCATION = "J6" #&CDS_LOCATION = "J6" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I211": LOCATION = "J7" #&CDS_LOCATION = "J7" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I212": LOCATION = "J8" #&CDS_LOCATION = "J8" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I213": LOCATION = "J9" #&CDS_LOCATION = "J9" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "PCOAX","I214": LOCATION = "J10" #&CDS_LOCATION = "J10" &SEC = "1" #&CDS_SEC = "1";
+"A":   PN = "1"  !CDS_PN = "1";
+BODY = "410_357_B","I128": LOCATION = "IC1" #&CDS_LOCATION = "IC1" &SEC = "1" #&CDS_SEC = "1";
+"CTS":   PN = "3"  !CDS_PN = "3";
+"GND_1":   PN = "1"  !CDS_PN = "1";
+"GND_2":   PN = "7"  !CDS_PN = "7";
+"GND_3":   PN = "14"  !CDS_PN = "14";
+"PS_SRST_B":   PN = "9"  !CDS_PN = "9";
+"RTS":   PN = "4"  !CDS_PN = "4";
+"RXD":   PN = "5"  !CDS_PN = "5";
+"TCK":   PN = "10"  !CDS_PN = "10";
+"TDI":   PN = "12"  !CDS_PN = "12";
+"TDO":   PN = "11"  !CDS_PN = "11";
+"TMS":   PN = "13"  !CDS_PN = "13";
+"TXD":   PN = "6"  !CDS_PN = "6";
+"USB_DM":   PN = "16"  !CDS_PN = "16";
+"USB_DP":   PN = "17"  !CDS_PN = "17";
+"VBUS_DETECT":   PN = "18"  !CDS_PN = "18";
+"VDD":   PN = "15"  !CDS_PN = "15";
+"VREF":   PN = "2"  !CDS_PN = "2";
+"VREF_JTAG":   PN = "8"  !CDS_PN = "8";
 END.

@@ -2,29 +2,109 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_29.brd            |
-|                                                    Tue Mar 10 17:07:23 2026  |
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_30.brd            |
+|                                                    Tue Oct  6 14:47:07 2026  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MH3                 MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA   79.84    3.25
+  AUXIO_N2     pins ADDED TO this new net
+                                 J3.9               4.24   51.19
+                                 J8.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUXIO_N6     pins ADDED TO this new net
+                                 J3.25              4.24   41.03
+                                 J10.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUXIO_P1     pins ADDED TO this new net
+                                 J3.6               5.51   53.73
+                                 J6.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUXIO_P2     pins ADDED TO this new net
+                                 J3.10              5.51   51.19
+                                 J7.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AUXIO_P6     pins ADDED TO this new net
+                                 J3.26              5.51   41.03
+                                 J9.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_RX_TO_FPGA_3V3 net RENAMED (to net name listed on right)           UART_TX_FROM_FPGA_3V3 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_TX_FROM_FPGA_3V3 net RENAMED (to net name listed on right)           UART_RX_TO_FPGA_3V3 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_410357B_I128_VBUSDETE net RENAMED (to net name listed on right)           UNNAMED_1_RSMD0603_I131_B 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_29.brd            |
-|                                                    Tue Mar 10 17:07:23 2026  |
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_30.brd            |
+|                                                    Tue Oct  6 14:47:07 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ PCOAX-U.FL-R-SMT-1(10)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_30.brd            |
+|                                                    Tue Oct  6 14:47:07 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J6                  PCOAX-U.FL-R-SMT-1(10) 
+ J7                  PCOAX-U.FL-R-SMT-1(10) 
+ J8                  PCOAX-U.FL-R-SMT-1(10) 
+ J9                  PCOAX-U.FL-R-SMT-1(10) 
+ J10                 PCOAX-U.FL-R-SMT-1(10) 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_30.brd            |
+|                                                    Tue Oct  6 14:47:07 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MH4.1             7.55   31.72 XY             (-675,-600)
+ J6.1                           PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
+ J6.1                           XY             (3900,-150)
+ J7.1                           PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
+ J7.1                           XY             (3900,-300)
+ J8.1                           PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
+ J8.1                           XY             (3900,-450)
+ J9.1                           PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
+ J9.1                           XY             (3900,-600)
+ J10.1                          PRIM_FILE      ./archive_libs/cnconnector/pcoax/chips/chips.prt
+ J10.1                          XY             (3900,-775)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|       Components deleted    :       1                                        |
-|       Slot property added   :       1                                        |
+|  C:.../front_panel_jtag_serial/physical/mib_fp_jtag_serial_30.brd            |
+|                                                    Tue Oct  6 14:47:07 2026  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J6.1                           CDS_PINID      A
+ J7.1                           CDS_PINID      A
+ J8.1                           CDS_PINID      A
+ J9.1                           CDS_PINID      A
+ J10.1                          CDS_PINID      A
+|------------------------------------------------------------------------------|
+|       Nets changed          :      13                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :       5                                        |
+|       Pin property added    :       5                                        |
+|       Slot property added   :      10                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:      34                                        |
 |------------------------------------------------------------------------------|

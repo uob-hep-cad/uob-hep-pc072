@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 10-Mar-2026 AT 17:07:19 }
+{ Packager-XL run on 06-Oct-2026 AT 14:46:58 }
 primitive '410_357_B-DIGILENT,410-357-B';
   pin
     'GND_1':
@@ -937,6 +937,37 @@ primitive 'MT_HOLE-MT_HOLE,MT_HOLE-MOUNTHA';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='MT_HOLE';
       PARENT_PPT_PART='MT_HOLE-MT_HOLE,MT_HOLE';
+  end_body;
+end_primitive;
+primitive 'PCOAX-U.FL-R-SMT-1(10)';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='PCOAX';
+      BODY_NAME='PCOAX';
+      ALLOW_CONNECT='TRUE';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      CLASS='IO';
+      STATUS='Preferred';
+      PART_NUMBER='U.FL-R-SMT-1(10)';
+      MANUFACTURER='HIROSE';
+      DESCRIPTION='Ultra Small Surface Mount Coaxial Connector - U.FL Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/hirose_u-fl-r~
+-smt-1(10).pdf';
+      PINCOUNT='3';
+      SMD='YES';
+      CASE='_';
+      JEDEC_TYPE='HIROSE_U-FL-R-SMT-1_10';
+      PHYS_DES_PREFIX='J';
+      POWER_PINS='(GND:2,3)';
+      PARENT_PART_TYPE='PCOAX';
+      PARENT_PPT='PCOAX';
+      PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
   end_body;
 end_primitive;
 primitive 'R-ERA-2VEB2700X,R-ERA-2VEB2700X,R';
