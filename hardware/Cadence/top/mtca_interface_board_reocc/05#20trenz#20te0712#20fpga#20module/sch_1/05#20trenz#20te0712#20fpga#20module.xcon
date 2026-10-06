@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2026-10-06T11:02:53</modificationTime>
+    <modificationTime>2026-10-06T12:40:35</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>137</instanceid>
-        <netid>328</netid>
+        <netid>330</netid>
         <insttermid>896</insttermid>
       </lastids>
       <cells>
@@ -1907,10 +1907,6 @@
           <name>auxio_n4</name>
         </net>
         <net>
-          <id>N9</id>
-          <name>auxio_n5</name>
-        </net>
-        <net>
           <id>N10</id>
           <name>auxio_n6</name>
         </net>
@@ -1933,10 +1929,6 @@
         <net>
           <id>N16</id>
           <name>auxio_p4</name>
-        </net>
-        <net>
-          <id>N17</id>
-          <name>auxio_p5</name>
         </net>
         <net>
           <id>N18</id>
@@ -2485,6 +2477,14 @@
         <net>
           <id>N328</id>
           <name>unnamed_2_sf-0603fp015f-2_i429_1</name>
+        </net>
+        <net>
+          <id>N329</id>
+          <name>auxio_0b</name>
+        </net>
+        <net>
+          <id>N330</id>
+          <name>auxio_1b</name>
         </net>
         <net>
           <id>N103</id>
@@ -3124,14 +3124,14 @@
               <id>M285</id>
               <termid>T226</termid>
               <connections>
-                <connection net="N9" />
+                <connection net="N307" />
               </connections>
             </pin>
             <pin>
               <id>M286</id>
               <termid>T227</termid>
               <connections>
-                <connection net="N17" />
+                <connection net="N306" />
               </connections>
             </pin>
             <pin>
@@ -4288,14 +4288,14 @@
               <id>M623</id>
               <termid>T149</termid>
               <connections>
-                <connection net="N307" />
+                <connection net="N329" />
               </connections>
             </pin>
             <pin>
               <id>M624</id>
               <termid>T150</termid>
               <connections>
-                <connection net="N306" />
+                <connection net="N330" />
               </connections>
             </pin>
             <pin>
@@ -4728,14 +4728,14 @@
               <id>M762</id>
               <termid>T264</termid>
               <connections>
-                <connection net="N17" />
+                <connection net="N306" />
               </connections>
             </pin>
             <pin>
               <id>M763</id>
               <termid>T265</termid>
               <connections>
-                <connection net="N9" />
+                <connection net="N307" />
               </connections>
             </pin>
             <pin>
@@ -5586,8 +5586,8 @@
               <connections>
                 <connection pinmsb="0" pinlsb="0" net="N103" />
                 <connection pinmsb="2" pinlsb="2" net="N210" />
-                <connection pinmsb="1" pinlsb="1" net="N306" />
-                <connection pinmsb="3" pinlsb="3" net="N307" />
+                <connection pinmsb="3" pinlsb="3" net="N329" />
+                <connection pinmsb="1" pinlsb="1" net="N330" />
               </connections>
             </pin>
           </pins>
@@ -5862,14 +5862,12 @@
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
               <net ref="auxio_n4"></net>
-              <net ref="auxio_n5"></net>
               <net ref="auxio_n6"></net>
               <net ref="auxio_n7"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
               <net ref="auxio_p3"></net>
               <net ref="auxio_p4"></net>
-              <net ref="auxio_p5"></net>
               <net ref="auxio_p6"></net>
               <net ref="auxio_p7"></net>
               <net ref="bp">
@@ -5980,6 +5978,8 @@
               <net ref="tdi"></net>
               <net ref="tdo"></net>
               <net ref="tms"></net>
+              <net ref="uart_rx_to_fpga_3v3"></net>
+              <net ref="uart_tx_from_fpga_3v3"></net>
               <net ref="upstream_data_n">
                 <msb>2</msb>
                 <lsb>0</lsb>
@@ -6025,17 +6025,17 @@
               <net ref="aux_gbe_rx_p"></net>
               <net ref="aux_gbe_tx_n"></net>
               <net ref="aux_gbe_tx_p"></net>
+              <net ref="auxio_0b"></net>
+              <net ref="auxio_1b"></net>
               <net ref="auxio_n2"></net>
               <net ref="auxio_n3"></net>
               <net ref="auxio_n4"></net>
-              <net ref="auxio_n5"></net>
               <net ref="auxio_n6"></net>
               <net ref="auxio_n7"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
               <net ref="auxio_p3"></net>
               <net ref="auxio_p4"></net>
-              <net ref="auxio_p5"></net>
               <net ref="auxio_p6"></net>
               <net ref="auxio_p7"></net>
               <net ref="bp.data_in_n">

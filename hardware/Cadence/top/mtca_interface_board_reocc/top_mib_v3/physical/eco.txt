@@ -3,64 +3,21 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v230.brd     |
-|                                                    Tue Oct  6 11:03:55 2026  |
+|                                                    Tue Oct  6 12:40:53 2026  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  UNNAMED_2_SF-0603FP015F-2_I429_ pins ADDED TO this new net
-                                 F3.1                           
+  AUXIO_N5     net RENAMED (to net name listed on right)           UART_TX_FROM_FPGA_3V3 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VREF_JTAG    pins MOVED FROM this net (to net name listed on right)
-                                 J8.92             72.30   34.57
-                                                UNNAMED_2_SF-0603FP015F-2_I429_
-                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-               pins ADDED TO this existing net (pins not previously on any net)
-                                 F3.2                           
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  AUXIO_P5     net RENAMED (to net name listed on right)           UART_RX_TO_FPGA_3V3 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_RX_TO_FPGA_3V3 net RENAMED (to net name listed on right)           AUXIO_1B     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_TX_FROM_FPGA_3V3 net RENAMED (to net name listed on right)           AUXIO_0B     
 |------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v230.brd     |
-|                                                    Tue Oct  6 11:03:55 2026  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- F3                  SF-0603FP015F-2       
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v230.brd     |
-|                                                    Tue Oct  6 11:03:55 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- F3.2                           PRIM_FILE      ./archive_libs/oxflib/sf#2d0603fp015f#2d2/chips/chips.prt
- F3.2                           XY             (9100,-6350)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  C:.../mtca_interface_board_reocc/top_mib_v3/physical/mib_rev3b_v230.brd     |
-|                                                    Tue Oct  6 11:03:55 2026  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- F3.1                           CDS_PINID      \1\
- F3.2                           CDS_PINID      \2\
-|------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
-|       Components added      :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       2                                        |
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       8                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|
