@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2026-10-06T09:57:03</modificationTime>
+    <modificationTime>2026-10-06T10:39:31</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
@@ -825,14 +825,10 @@
         <net>
           <id>N19</id>
           <name>dff_ref_clk_n</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
         </net>
         <net>
           <id>N20</id>
           <name>dff_ref_clk_p</name>
-          <msb>2</msb>
-          <lsb>0</lsb>
         </net>
         <net>
           <id>N22</id>
@@ -1992,42 +1988,38 @@
               <id>M356</id>
               <termid>T110</termid>
               <connections>
-                <connection net="N20" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M357</id>
               <termid>T111</termid>
               <connections>
-                <connection net="N19" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M358</id>
               <termid>T112</termid>
               <connections>
-                <connection net="N20" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M359</id>
               <termid>T113</termid>
               <connections>
-                <connection net="N19" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M360</id>
               <termid>T114</termid>
               <connections>
-                <connection net="N20" netmsb="2" netlsb="2" />
+                <connection net="N20" />
               </connections>
             </pin>
             <pin>
               <id>M361</id>
               <termid>T115</termid>
               <connections>
-                <connection net="N19" netmsb="2" netlsb="2" />
+                <connection net="N19" />
               </connections>
             </pin>
             <pin>
@@ -4345,7 +4337,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N20" netmsb="2" netlsb="2" />
+                <connection pinmsb="0" pinlsb="0" net="N20" />
               </connections>
             </pin>
             <pin>
@@ -4370,7 +4362,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="N19" netmsb="2" netlsb="2" />
+                <connection pinmsb="0" pinlsb="0" net="N19" />
               </connections>
             </pin>
             <pin>
@@ -5042,12 +5034,12 @@
           </parameters>
           <powers>
             <power>
-              <name>vee</name>
-              <override>N21</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N383</override>
+            </power>
+            <power>
+              <name>vee</name>
+              <override>N21</override>
             </power>
           </powers>
           <pins>
@@ -6648,12 +6640,12 @@
           </parameters>
           <powers>
             <power>
-              <name>vee</name>
-              <override>N21</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N383</override>
+            </power>
+            <power>
+              <name>vee</name>
+              <override>N21</override>
             </power>
           </powers>
           <pins>
@@ -7486,14 +7478,8 @@
                 <msb>2</msb>
                 <lsb>2</lsb>
               </net>
-              <net ref="dff_ref_clk_n">
-                <msb>2</msb>
-                <lsb>2</lsb>
-              </net>
-              <net ref="dff_ref_clk_p">
-                <msb>2</msb>
-                <lsb>2</lsb>
-              </net>
+              <net ref="dff_ref_clk_n"></net>
+              <net ref="dff_ref_clk_p"></net>
               <net ref="diff_clk_select"></net>
               <net ref="direct_us_data_2_n"></net>
               <net ref="direct_us_data_2_p"></net>
@@ -7658,14 +7644,8 @@
               <net ref="clkin2_p"></net>
               <net ref="clkin3_n"></net>
               <net ref="clkin3_p"></net>
-              <net ref="dff_ref_clk_n">
-                <msb>2</msb>
-                <lsb>0</lsb>
-              </net>
-              <net ref="dff_ref_clk_p">
-                <msb>2</msb>
-                <lsb>0</lsb>
-              </net>
+              <net ref="dff_ref_clk_n"></net>
+              <net ref="dff_ref_clk_p"></net>
               <net ref="fbclk_n"></net>
               <net ref="fbclk_p"></net>
               <net ref="gnd"></net>
