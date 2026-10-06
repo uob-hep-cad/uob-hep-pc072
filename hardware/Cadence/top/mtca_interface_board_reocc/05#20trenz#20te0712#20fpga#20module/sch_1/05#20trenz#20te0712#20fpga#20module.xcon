@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2026-10-06T12:40:35</modificationTime>
+    <modificationTime>2026-10-06T13:08:32</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
         <instanceid>137</instanceid>
-        <netid>330</netid>
+        <netid>336</netid>
         <insttermid>896</insttermid>
       </lastids>
       <cells>
@@ -1899,20 +1899,8 @@
           <name>auxio_n2</name>
         </net>
         <net>
-          <id>N7</id>
-          <name>auxio_n3</name>
-        </net>
-        <net>
-          <id>N8</id>
-          <name>auxio_n4</name>
-        </net>
-        <net>
           <id>N10</id>
           <name>auxio_n6</name>
-        </net>
-        <net>
-          <id>N11</id>
-          <name>auxio_n7</name>
         </net>
         <net>
           <id>N13</id>
@@ -1923,20 +1911,8 @@
           <name>auxio_p2</name>
         </net>
         <net>
-          <id>N15</id>
-          <name>auxio_p3</name>
-        </net>
-        <net>
-          <id>N16</id>
-          <name>auxio_p4</name>
-        </net>
-        <net>
           <id>N18</id>
           <name>auxio_p6</name>
-        </net>
-        <net>
-          <id>N19</id>
-          <name>auxio_p7</name>
         </net>
         <net>
           <id>N20</id>
@@ -2485,6 +2461,30 @@
         <net>
           <id>N330</id>
           <name>auxio_1b</name>
+        </net>
+        <net>
+          <id>N331</id>
+          <name>led_1b</name>
+        </net>
+        <net>
+          <id>N332</id>
+          <name>led_1r</name>
+        </net>
+        <net>
+          <id>N333</id>
+          <name>led_2b</name>
+        </net>
+        <net>
+          <id>N334</id>
+          <name>led_2r</name>
+        </net>
+        <net>
+          <id>N335</id>
+          <name>led_3b</name>
+        </net>
+        <net>
+          <id>N336</id>
+          <name>led_3r</name>
         </net>
         <net>
           <id>N103</id>
@@ -3068,14 +3068,14 @@
               <id>M277</id>
               <termid>T218</termid>
               <connections>
-                <connection net="N7" />
+                <connection net="N332" />
               </connections>
             </pin>
             <pin>
               <id>M278</id>
               <termid>T219</termid>
               <connections>
-                <connection net="N15" />
+                <connection net="N331" />
               </connections>
             </pin>
             <pin>
@@ -3096,14 +3096,14 @@
               <id>M281</id>
               <termid>T222</termid>
               <connections>
-                <connection net="N8" />
+                <connection net="N334" />
               </connections>
             </pin>
             <pin>
               <id>M282</id>
               <termid>T223</termid>
               <connections>
-                <connection net="N16" />
+                <connection net="N333" />
               </connections>
             </pin>
             <pin>
@@ -3180,14 +3180,14 @@
               <id>M293</id>
               <termid>T234</termid>
               <connections>
-                <connection net="N11" />
+                <connection net="N336" />
               </connections>
             </pin>
             <pin>
               <id>M294</id>
               <termid>T235</termid>
               <connections>
-                <connection net="N19" />
+                <connection net="N335" />
               </connections>
             </pin>
           </pins>
@@ -3551,14 +3551,14 @@
               <id>M471</id>
               <termid>T42</termid>
               <connections>
-                <connection net="N7" />
+                <connection net="N332" />
               </connections>
             </pin>
             <pin>
               <id>M472</id>
               <termid>T43</termid>
               <connections>
-                <connection net="N15" />
+                <connection net="N331" />
               </connections>
             </pin>
             <pin>
@@ -4821,14 +4821,14 @@
               <id>M776</id>
               <termid>T278</termid>
               <connections>
-                <connection net="N19" />
+                <connection net="N335" />
               </connections>
             </pin>
             <pin>
               <id>M777</id>
               <termid>T279</termid>
               <connections>
-                <connection net="N11" />
+                <connection net="N336" />
               </connections>
             </pin>
             <pin>
@@ -4847,14 +4847,14 @@
               <id>M780</id>
               <termid>T282</termid>
               <connections>
-                <connection net="N16" />
+                <connection net="N333" />
               </connections>
             </pin>
             <pin>
               <id>M781</id>
               <termid>T283</termid>
               <connections>
-                <connection net="N8" />
+                <connection net="N334" />
               </connections>
             </pin>
             <pin>
@@ -5860,16 +5860,10 @@
               <net ref="a1"></net>
               <net ref="a2"></net>
               <net ref="auxio_n2"></net>
-              <net ref="auxio_n3"></net>
-              <net ref="auxio_n4"></net>
               <net ref="auxio_n6"></net>
-              <net ref="auxio_n7"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
-              <net ref="auxio_p3"></net>
-              <net ref="auxio_p4"></net>
               <net ref="auxio_p6"></net>
-              <net ref="auxio_p7"></net>
               <net ref="bp">
                 <msb>180</msb>
                 <lsb>0</lsb>
@@ -5918,6 +5912,12 @@
               <net ref="fpga_tdo"></net>
               <net ref="fpga_tms"></net>
               <net ref="gnd"></net>
+              <net ref="led_1b"></net>
+              <net ref="led_1r"></net>
+              <net ref="led_2b"></net>
+              <net ref="led_2r"></net>
+              <net ref="led_3b"></net>
+              <net ref="led_3r"></net>
               <net ref="sfp">
                 <msb>29</msb>
                 <lsb>0</lsb>
@@ -6028,16 +6028,10 @@
               <net ref="auxio_0b"></net>
               <net ref="auxio_1b"></net>
               <net ref="auxio_n2"></net>
-              <net ref="auxio_n3"></net>
-              <net ref="auxio_n4"></net>
               <net ref="auxio_n6"></net>
-              <net ref="auxio_n7"></net>
               <net ref="auxio_p1"></net>
               <net ref="auxio_p2"></net>
-              <net ref="auxio_p3"></net>
-              <net ref="auxio_p4"></net>
               <net ref="auxio_p6"></net>
-              <net ref="auxio_p7"></net>
               <net ref="bp.data_in_n">
                 <msb>11</msb>
                 <lsb>0</lsb>
@@ -6089,6 +6083,12 @@
               <net ref="fpga_tdo"></net>
               <net ref="fpga_tms"></net>
               <net ref="gnd"></net>
+              <net ref="led_1b"></net>
+              <net ref="led_1r"></net>
+              <net ref="led_2b"></net>
+              <net ref="led_2r"></net>
+              <net ref="led_3b"></net>
+              <net ref="led_3r"></net>
               <net ref="n00771"></net>
               <net ref="n00775"></net>
               <net ref="p1v5_out"></net>
