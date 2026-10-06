@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2024-09-02T08:02:33</modificationTime>
+    <modificationTime>2026-10-06T11:02:53</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
-        <instanceid>136</instanceid>
-        <netid>327</netid>
-        <insttermid>894</insttermid>
+        <instanceid>137</instanceid>
+        <netid>328</netid>
+        <insttermid>896</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1860,6 +1860,26 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S20</id>
+          <library>oxflib</library>
+          <name>sf-0603fp015f-2</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T418</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T419</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -2461,6 +2481,10 @@
           <name>data_select_p2v5</name>
           <scope>interface</scope>
           <direction>inout</direction>
+        </net>
+        <net>
+          <id>N328</id>
+          <name>unnamed_2_sf-0603fp015f-2_i429_1</name>
         </net>
         <net>
           <id>N103</id>
@@ -3980,7 +4004,7 @@
               <id>M538</id>
               <termid>T109</termid>
               <connections>
-                <connection net="N216" />
+                <connection net="N328" />
               </connections>
             </pin>
             <pin>
@@ -5699,6 +5723,27 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I137</id>
+          <cellid>S20</cellid>
+          <name>page2_i429</name>
+          <pins>
+            <pin>
+              <id>M895</id>
+              <termid>T418</termid>
+              <connections>
+                <connection net="N328" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M896</id>
+              <termid>T419</termid>
+              <connections>
+                <connection net="N216" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -6082,6 +6127,7 @@
               <net ref="uart_rx_to_fpga_3v3"></net>
               <net ref="uart_tx_from_fpga_3v3"></net>
               <net ref="unnamed_2_capcersmdcl2_i418_b"></net>
+              <net ref="unnamed_2_sf-0603fp015f-2_i429_1"></net>
               <net ref="upstream_data_n">
                 <msb>2</msb>
                 <lsb>0</lsb>
@@ -6125,6 +6171,7 @@
               <instance ref="i422"></instance>
               <instance ref="i423"></instance>
               <instance ref="i424"></instance>
+              <instance ref="i429"></instance>
             </instances>
           </page>
         </pages>
