@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 06-Oct-2026 AT 13:09:26 }
+{ Packager-XL run on 07-Oct-2026 AT 14:30:51 }
 primitive '155060RS73200';
   pin
     'WURTH SMSW':
@@ -6840,6 +6840,48 @@ primitive 'SS16FP';
       JEDEC_TYPE='SS16FP';
       PHYS_DES_PREFIX='D';
       CLASS='IC';
+  end_body;
+end_primitive;
+primitive 'SW4INT-1571983-4';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1,3,5,7)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2,4,6,8)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      FAMILY='DISCRETE';
+      ALLOW_CONNECT='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_IO_CHECK='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      BODY_NAME='SW4INT';
+      PART_NAME='SW4INT';
+      PHYS_DES_PREFIX='SW';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='1571983-4';
+      MANUFACTURER='TYCO ELECTRONICS';
+      DESCRIPTION='4x SMD Sliding Switches';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/sw_tyco_15719~
+83-4.pdf';
+      PINCOUNT='8';
+      SMD='YES';
+      CASE='_';
+      JEDEC_TYPE='SW_TYCO_1571983-4';
+      PARENT_PART_TYPE='SW4INT';
+      PARENT_PPT='SW4INT';
+      PARENT_PPT_PART='SW4INT-1571983-4';
   end_body;
 end_primitive;
 primitive 'SY58608UMG-VCC=P2V5';
