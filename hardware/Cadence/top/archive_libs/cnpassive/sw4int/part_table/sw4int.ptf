@@ -1,0 +1,18 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SW4INT'
+PHYS_DES_PREFIX=SW
+CLASS=DISCRETE
+
+{========================================================================================}
+:TYPE                = STATUS            | PART_NUMBER       | MANUFACTURER               | DESCRIPTION                         | DATASHEET_URL                                                                  | PINCOUNT | SMD   | CASE  | JEDEC_TYPE;
+{========================================================================================}
+ 'SDLS-4-024'(!)     = 'Not Preferred'   | 'SDLS-4-024'      |  'ERG'                    | '4x DIP SPST Sliding Switches'       | 'file://cern.ch/dfs/Services/cdslib/datasheets/sw_erg_sdls-4-024.pdf'          | '8'      | 'NO'  | '_'   | 'SW_ERG_SDLS-4-024'           :  SCEM = 'http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=06.92.26.104.6'
+ '416131160804'(!)   = 'Preferred'       | '416131160804'    | 'WUERTH'                  | '4x SMD Sliding Switches'            | 'file://cern.ch/dfs/Services/cdslib/datasheets/sw_wuerth_4161311608xx.pdf'     | '8'      | 'YES' | '_'   | 'WUERTH_416131160804'
+ 'MCDHN-04F-T-V'(!)  = 'Not Recommended' | 'MCDHN-04F-T-V'   | 'MULTICOMP'               | '4x SMD Sliding Switches'            | 'file://cern.ch/dfs/Services/cdslib/datasheets/sw_multicomp_MCDHN-series.pdf'  | '8'      | 'YES' | '_'   | 'SW_MULTICOMP_MCDHN-04F-T-V'
+ '1571983-4'(!)      = 'Preferred'       | '1571983-4'       | 'TYCO ELECTRONICS'        | '4x SMD Sliding Switches'            | 'file://cern.ch/dfs/Services/cdslib/datasheets/sw_tyco_1571983-4.pdf'          | '8'      | 'YES' | '_'   | 'SW_TYCO_1571983-4'
+
+END_PART
+
+END.
+

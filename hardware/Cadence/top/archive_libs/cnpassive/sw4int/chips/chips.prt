@@ -1,0 +1,28 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' Creation le 13-FEB-1990 15:47:55.63 ';
+PRIMITIVE 'SW4INT';
+  PIN
+    'A'<0>:
+      PIN_NUMBER='(1,3,5,7)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+    'B'<0>:
+      PIN_NUMBER='(2,4,6,8)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+  END_PIN;
+  BODY
+    FAMILY='DISCRETE';
+    ALLOW_CONNECT='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    NO_IO_CHECK='TRUE';
+    NO_LOAD_CHECK='TRUE';
+    BODY_NAME='SW4INT';
+    PART_NAME='SW4INT';
+  END_BODY;
+END_PRIMITIVE;
+END.

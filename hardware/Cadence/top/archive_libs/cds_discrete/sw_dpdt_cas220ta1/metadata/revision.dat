@@ -1,0 +1,196 @@
+(Cell	SW_DPDT_CAS220TA1
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/06/26,17:21:12)
+
+			(User	phdgc)
+
+			(Path	bris_cds_discrete.SW_DPDT_CAS220TA1)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	10/06/26,17:21:12)
+
+					(User	phdgc)
+
+					(Path	bris_cds_discrete.SW_DPDT_CAS220TA1)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006d29fbf9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/06/26,17:21:12)
+
+							(User	phdgc)
+
+							(Path	bris_cds_discrete.SW_DPDT_CAS220TA1)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d4803ed)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000390f65a3)
+
+			(Primitives	1
+
+				(Primitive	SW_DPDT_CAS220TA1
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/06/26,17:21:12)
+
+							(User	phdgc)
+
+							(Path	bris_cds_discrete.SW_DPDT_CAS220TA1)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SW_DPDT_CAS220TA1
+
+							(PackType	SW_DPDT_CAS220TA1)
+
+							(PackType	SW_DPDT_CAS220TA1_SMD)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	cas220ta1)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001a680330)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	24.1 P001 (4234998))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b4a0347)
+
+)
+

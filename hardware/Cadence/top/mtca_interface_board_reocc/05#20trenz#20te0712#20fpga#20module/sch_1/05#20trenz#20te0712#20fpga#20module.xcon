@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>nconcepthdl</creatorTool>
     <modifierTool>nconcepthdl</modifierTool>
-    <modificationTime>2026-10-06T13:08:32</modificationTime>
+    <modificationTime>2026-10-07T13:25:21</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="05 trenz te0712 fpga module" view="sch_1">
       <lastids>
-        <instanceid>137</instanceid>
-        <netid>336</netid>
-        <insttermid>896</insttermid>
+        <instanceid>138</instanceid>
+        <netid>344</netid>
+        <insttermid>898</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1880,6 +1880,34 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S21</id>
+          <library>cnpassive</library>
+          <name>sw4int</name>
+          <view>sym_2</view>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>1</value>
+            </parameter>
+          </parameters>
+          <terms>
+            <term>
+              <id>T432</id>
+              <name>a</name>
+              <direction>inout</direction>
+              <msb>3</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T433</id>
+              <name>b</name>
+              <direction>inout</direction>
+              <msb>3</msb>
+              <lsb>0</lsb>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -2487,6 +2515,38 @@
           <name>led_3r</name>
         </net>
         <net>
+          <id>N337</id>
+          <name>bp.tck</name>
+        </net>
+        <net>
+          <id>N338</id>
+          <name>page1_bp.tck</name>
+        </net>
+        <net>
+          <id>N339</id>
+          <name>bp.tdi</name>
+        </net>
+        <net>
+          <id>N340</id>
+          <name>page1_bp.tdi</name>
+        </net>
+        <net>
+          <id>N341</id>
+          <name>bp.tdo</name>
+        </net>
+        <net>
+          <id>N342</id>
+          <name>page1_bp.tdo</name>
+        </net>
+        <net>
+          <id>N343</id>
+          <name>bp.tms</name>
+        </net>
+        <net>
+          <id>N344</id>
+          <name>page1_bp.tms</name>
+        </net>
+        <net>
           <id>N103</id>
           <name>gnd</name>
           <scope>global</scope>
@@ -2581,6 +2641,14 @@
         <alias net1="N293" lsb1="-1" msb1="-1" net2="N210" lsb2="-1" msb2="-1" />
         <alias net1="N295" lsb1="-1" msb1="-1" net2="N216" lsb2="-1" msb2="-1" />
         <alias net1="N303" lsb1="-1" msb1="-1" net2="N302" lsb2="-1" msb2="-1" />
+        <alias net1="N338" lsb1="-1" msb1="-1" net2="N21" lsb2="86" msb2="86" />
+        <alias net1="N338" lsb1="-1" msb1="-1" net2="N337" lsb2="-1" msb2="-1" />
+        <alias net1="N340" lsb1="-1" msb1="-1" net2="N21" lsb2="83" msb2="83" />
+        <alias net1="N340" lsb1="-1" msb1="-1" net2="N339" lsb2="-1" msb2="-1" />
+        <alias net1="N342" lsb1="-1" msb1="-1" net2="N21" lsb2="84" msb2="84" />
+        <alias net1="N342" lsb1="-1" msb1="-1" net2="N341" lsb2="-1" msb2="-1" />
+        <alias net1="N344" lsb1="-1" msb1="-1" net2="N21" lsb2="85" msb2="85" />
+        <alias net1="N344" lsb1="-1" msb1="-1" net2="N343" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -5744,6 +5812,43 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I138</id>
+          <cellid>S21</cellid>
+          <name>page1_i398</name>
+          <parameters>
+            <parameter>
+              <name>size</name>
+              <value>4</value>
+            </parameter>
+          </parameters>
+          <pins>
+            <pin>
+              <id>M897</id>
+              <termid>T432</termid>
+              <msb>3</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="3" pinlsb="3" net="N337" />
+                <connection pinmsb="0" pinlsb="0" net="N339" />
+                <connection pinmsb="1" pinlsb="1" net="N341" />
+                <connection pinmsb="2" pinlsb="2" net="N343" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M898</id>
+              <termid>T433</termid>
+              <msb>3</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="3" pinlsb="3" net="N99" />
+                <connection pinmsb="0" pinlsb="0" net="N100" />
+                <connection pinmsb="1" pinlsb="1" net="N101" />
+                <connection pinmsb="2" pinlsb="2" net="N102" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -5888,6 +5993,10 @@
               <net ref="bp.fpga_gbe_rxp"></net>
               <net ref="bp.fpga_gbe_txn"></net>
               <net ref="bp.fpga_gbe_txp"></net>
+              <net ref="bp.tck"></net>
+              <net ref="bp.tdi"></net>
+              <net ref="bp.tdo"></net>
+              <net ref="bp.tms"></net>
               <net ref="clk_i2c_scl"></net>
               <net ref="clk_i2c_sda"></net>
               <net ref="clk_sel0"></net>
@@ -6015,6 +6124,7 @@
               <instance ref="347p"></instance>
               <instance ref="349p"></instance>
               <instance ref="352p"></instance>
+              <instance ref="i398"></instance>
             </instances>
           </page>
           <page number="2">
