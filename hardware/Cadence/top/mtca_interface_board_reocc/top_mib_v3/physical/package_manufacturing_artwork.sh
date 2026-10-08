@@ -37,7 +37,7 @@ cp *ipc2581*.xml $SUBDIR
 cp README $SUBDIR
 #
 # Copy the placement information
-cp *placement*.txt $SUBDIR
+cp placement*.txt $SUBDIR
 #
 # Copy the bill of materials
 #cp ../bom/*.xls $SUBDIR
