@@ -1,1 +1,1 @@
-mib_rev3b_v232_glossed.brd
+mib_rev3b_v232.brd

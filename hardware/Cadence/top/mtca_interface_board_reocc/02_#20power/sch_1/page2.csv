@@ -2,27 +2,27 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024}
 "PAGE_NUMBER" = 4;
 0"NC";
-1"GND\g";
-2"UN$4$PTH08T210W$I137$VADJ";
+1"VP12";
+2"GND\g";
 3"GND\g";
 4"GND\g";
-5"VO_2V5<1..0>";
-6"VP12";
-7"DC_DC_ENABLE";
-8"VIN<1..0>";
-9"VCC2V5_PRE_RSHUNT";
-10"GND\g";
-11"GND\g";
+5"GND\g";
+6"GND\g";
+7"GND\g";
+8"P2V5\g";
+9"P2V5\g";
+11"GND\G";
+10"GND\G";
 12"GND\g";
 13"GND\g";
-14"GND\g";
-15"P2V5\g";
-16"UN$4$PTH08T210W$I137$SENSP";
-17"P2V5_MON_HIGH";
-18"P2V5_MON_LOW";
-19"P2V5\g";
-21"GND\G";
-20"GND\G";
+14"VCC2V5_PRE_RSHUNT";
+15"P2V5_MON_HIGH";
+16"UN$4$PTH08T210W$I137$VADJ";
+17"VO_2V5<1..0>";
+18"DC_DC_ENABLE";
+19"VIN<1..0>";
+20"UN$4$PTH08T210W$I137$SENSP";
+21"P2V5_MON_LOW";
 22"UN$4$PTH08T210W$I137$TURBOTRANS";
 23"UN$4$ledgreen06030$I176$A";
 24"DCDC_2V5_PG";
@@ -54,12 +54,13 @@ LAST_EDIT_BY"SNF"
 CLASS"DISCRETE"
 SEC"1";
 "1"
-$PN"1"9;
+$PN"1"14;
 "2"
-$PN"2"4;
+$PN"2"2;
 %"testpoint"
 "1","(5250,-2750)","5","testpoint","130P";
 ;
+BOM_IGNORE"TRUE"
 CDS_LOCATION"TP5"
 $LOCATION"TP5"
 SEC"1"
@@ -75,19 +76,19 @@ SOURCE_PACKAGE"TESTPOINT"
 JEDEC_TYPE"TP_KEYSTONE_5000A"
 CDS_LIB"testpoint";
 "TP"
-$PN"1"9;
+$PN"1"14;
 %"vcc_bar"
 "1","(350,-2325)","0","mtca_interface_board","131P";
 ;
 HDL_POWER"VP12"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"6;
+"HOTSPOT_0"1;
 %"gnd"
 "1","(4250,-3050)","0","mtca_interface_board","5P";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"4;
+"HOTSPOT_0"2;
 %"PTH08T210W"
 "1","(2800,-2575)","0","cnlinear","I137";
 ;
@@ -95,27 +96,27 @@ $LOCATION"IC?"
 TYPE"PTH08T210WAD"
 PACK_TYPE"ECP"
 CDS_LIB"cnlinear";
-"VI<1..0>"8;
-"GND<3..0>"10;
-"VO<1..0>"5;
+"VI<1..0>"19;
+"GND<3..0>"3;
+"VO<1..0>"17;
 "TURBOTRANS"22;
-"SENSP"16;
-"SENSM"3;
-"UVLO"7;
-"TRACK"6;
-"VADJ"2;
+"SENSP"20;
+"SENSM"4;
+"UVLO"18;
+"TRACK"1;
+"VADJ"16;
 %"gnd"
 "1","(2600,-2950)","0","mtca_interface_board","I142";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"10;
+"HOTSPOT_0"3;
 %"gnd"
 "1","(3250,-3025)","0","mtca_interface_board","I143";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"3;
+"HOTSPOT_0"4;
 %"RSMD0603"
 "1","(3200,-2225)","0","cnpassive","I144";
 ;
@@ -135,16 +136,14 @@ NEGTOL"RTOL%"
 POSTOL"RTOL%"
 TOL_ON_OFF"ON"
 SIZE"1B";
-"B <SIZE-1..0>\NAC"16;
+"B <SIZE-1..0>\NAC"20;
 "A <SIZE-1..0>\NAC"22;
 %"RSMD0603"
 "1","(2950,-2925)","1","cnpassive","I145";
 ;
-TOL"1%"
-VALUE"5.6K"
-PACK_TYPE"1/10W"
-CDS_LIB"cnpassive"
 $LOCATION"R?"
+VALUE"5.6K"
+TOL"1%"
 TC2"RTMPQ"
 TC1"RTMPL"
 MAX_TEMP"RTMAX"
@@ -155,15 +154,17 @@ DIST"FLAT"
 NEGTOL"RTOL%"
 POSTOL"RTOL%"
 TOL_ON_OFF"ON"
-SIZE"1B";
-"B <SIZE-1..0>\NAC"2;
-"A <SIZE-1..0>\NAC"1;
+SIZE"1B"
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W";
+"B <SIZE-1..0>\NAC"16;
+"A <SIZE-1..0>\NAC"5;
 %"gnd"
 "1","(2900,-3075)","0","mtca_interface_board","I146";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"1;
+"HOTSPOT_0"5;
 %"RSMD0603"
 "1","(4050,-2225)","0","cnpassive","I148";
 ;
@@ -183,20 +184,20 @@ TOL_ON_OFF"ON"
 SIZE"1B"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/10W";
-"B <SIZE-1..0>\NAC"15;
-"A <SIZE-1..0>\NAC"16;
+"B <SIZE-1..0>\NAC"9;
+"A <SIZE-1..0>\NAC"20;
 %"gnd"
 "1","(850,-2975)","0","mtca_interface_board","I157";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"11;
+"HOTSPOT_0"6;
 %"gnd"
 "1","(1100,-2975)","0","mtca_interface_board","I158";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"12;
+"HOTSPOT_0"7;
 %"CTAP"
 "1","(2250,-2475)","2","standard","I160";
 ;
@@ -204,8 +205,8 @@ CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
 "S \NAC"
-BN"0"6;
-"B \NAC \NWC"8;
+BN"0"1;
+"B \NAC \NWC"19;
 %"CTAP"
 "1","(2250,-2400)","2","standard","I161";
 ;
@@ -213,8 +214,8 @@ CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
 "S \NAC"
-BN"1"6;
-"B \NAC \NWC"8;
+BN"1"1;
+"B \NAC \NWC"19;
 %"CTAP"
 "1","(3825,-2625)","0","standard","I163";
 ;
@@ -222,8 +223,8 @@ CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
 "S \NAC"
-BN"1"9;
-"B \NAC \NWC"5;
+BN"1"14;
+"B \NAC \NWC"17;
 %"CTAP"
 "1","(3825,-2725)","0","standard","I164";
 ;
@@ -231,8 +232,8 @@ CDS_LIB"standard"
 BODY_TYPE"PLUMBING"
 HDL_TAP"TRUE";
 "S \NAC"
-BN"0"9;
-"B \NAC \NWC"5;
+BN"0"14;
+"B \NAC \NWC"17;
 %"P2V5"
 "1","(1175,-4475)","0","cnpower","I165";
 ;
@@ -241,7 +242,7 @@ SIZE"1B"
 BODY_TYPE"PLUMBING"
 HDL_POWER"P2V5";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"19;
+VHDL_INIT"1"8;
 %"P2V5"
 "1","(5975,-2400)","0","cnpower","I166";
 ;
@@ -250,7 +251,7 @@ BODY_TYPE"PLUMBING"
 SIZE"1B"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"15;
+VHDL_INIT"1"9;
 %"cap_np"
 "1","(1150,-2725)","0","ocad_parts_lib","I167";
 ;
@@ -276,9 +277,9 @@ LAST_EDIT_BY"SNF"
 CLASS"DISCRETE"
 SEC"1";
 "1"
-$PN"1"6;
+$PN"1"1;
 "2"
-$PN"2"12;
+$PN"2"7;
 %"cap_np"
 "1","(4025,-2700)","0","ocad_parts_lib","I168";
 ;
@@ -304,9 +305,9 @@ AVAILABILITY"In Stock"
 SOURCE_PACKAGE"CAP_NP"
 JEDEC_TYPE"cap0805";
 "1"
-$PN"1"9;
+$PN"1"14;
 "2"
-$PN"2"4;
+$PN"2"2;
 %"cap_np"
 "1","(2450,-4925)","0","ocad_parts_lib","I170";
 ;
@@ -333,9 +334,9 @@ SOURCE_PACKAGE"CAP_NP"
 JEDEC_TYPE"cap0805"
 CDS_LIB"ocad_parts_lib";
 "1"
-$PN"1"19;
+$PN"1"8;
 "2"
-$PN"2"21,20;
+$PN"2"11,10;
 %"cap_np"
 "1","(1300,-4925)","0","ocad_parts_lib","I171";
 ;
@@ -363,9 +364,9 @@ LAST_EDIT_BY"SNF"
 CLASS"DISCRETE"
 SEC"1";
 "1"
-$PN"1"19;
+$PN"1"8;
 "2"
-$PN"2"21,20;
+$PN"2"11,10;
 %"cap_np"
 "1","(1600,-4925)","0","ocad_parts_lib","I172";
 ;
@@ -392,9 +393,9 @@ SOURCE_PACKAGE"CAP_NP"
 JEDEC_TYPE"cap0805"
 CDS_LIB"ocad_parts_lib";
 "1"
-$PN"1"19;
+$PN"1"8;
 "2"
-$PN"2"21,20;
+$PN"2"11,10;
 %"cap_np"
 "1","(1875,-4925)","0","ocad_parts_lib","I173";
 ;
@@ -421,15 +422,15 @@ SOURCE_PACKAGE"CAP_NP"
 JEDEC_TYPE"cap0805"
 CDS_LIB"ocad_parts_lib";
 "1"
-$PN"1"19;
+$PN"1"8;
 "2"
-$PN"2"21,20;
+$PN"2"11,10;
 %"gnd"
 "1","(2125,-5475)","0","mtca_interface_board","I174";
 ;
 CDS_LIB"mtca_interface_board"
 HDL_POWER"GND";
-"HOTSPOT_0"21,20;
+"HOTSPOT_0"11,10;
 %"cap_np"
 "1","(2175,-4925)","0","ocad_parts_lib","I175";
 ;
@@ -456,9 +457,9 @@ SOURCE_PACKAGE"CAP_NP"
 JEDEC_TYPE"cap0805"
 CDS_LIB"ocad_parts_lib";
 "1"
-$PN"1"19;
+$PN"1"8;
 "2"
-$PN"2"21,20;
+$PN"2"11,10;
 %"led green 0603_0"
 "1","(2800,-5100)","3","ocad_parts_lib","I176";
 ;
@@ -480,7 +481,7 @@ PART_NUMBER"LNJ326W83RA";
 "A"
 $PN"2"23;
 "K"
-$PN"1"21,20;
+$PN"1"11,10;
 %"r"
 "1","(2850,-4825)","6","discrete","I177";
 ;
@@ -496,7 +497,7 @@ PART_NUMBER"EMA-00003608";
 "1"
 $PN"1"23;
 "2"
-$PN"2"19;
+$PN"2"8;
 %"testpoint"
 "1","(3150,-5300)","5","testpoint","I178";
 ;
@@ -515,7 +516,7 @@ SOURCE_PACKAGE"TESTPOINT"
 JEDEC_TYPE"TP_KEYSTONE_5000A"
 CDS_LIB"testpoint";
 "TP"
-$PN"1"21,20;
+$PN"1"11,10;
 %"r"
 "1","(825,-5100)","0","discrete","I182";
 ;
@@ -541,7 +542,7 @@ SEC"1";
 "1"
 $PN"1"24;
 "2"
-$PN"2"21,20;
+$PN"2"11,10;
 %"RSMD0402"
 "1","(825,-4800)","1","cnpassive","I183";
 ;
@@ -561,7 +562,7 @@ SLOPE"RSMAX"
 MAX_TEMP"RTMAX"
 TC1"RTMPL"
 TC2"RTMPQ";
-"B <SIZE-1..0>\NAC"19;
+"B <SIZE-1..0>\NAC"8;
 "A <SIZE-1..0>\NAC"24;
 %"ELCAPTAN"
 "1","(900,-2775)","1","cnpassive","I184";
@@ -582,9 +583,9 @@ CDS_LIB"cnpassive"
 PACK_TYPE"SMD"
 VOLTAGE"25V";
 "A <SIZE-1..0>\NAC"
-$PN"#"6;
+$PN"#"1;
 "B <SIZE-1..0>\NAC"
-$PN"#"11;
+$PN"#"6;
 %"ELCAPTAN"
 "1","(600,-2775)","1","cnpassive","I185";
 ;
@@ -604,15 +605,15 @@ CDS_LIB"cnpassive"
 PACK_TYPE"SMD"
 VOLTAGE"25V";
 "A <SIZE-1..0>\NAC"
-$PN"#"6;
+$PN"#"1;
 "B <SIZE-1..0>\NAC"
-$PN"#"13;
+$PN"#"12;
 %"gnd"
 "1","(550,-2975)","0","mtca_interface_board","I186";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"13;
+"HOTSPOT_0"12;
 %"RES_SR"
 "1","(5725,-2525)","2","cnpassive","I188";
 ;
@@ -632,10 +633,10 @@ SIZE"1B"
 TOL_ON_OFF"ON"
 CDS_LIB"cnpassive"
 PACK_TYPE"LVK12";
-"C1 <SIZE-1..0>\NAC"15;
-"S1 <SIZE-1..0>\NAC"18;
-"S2 <SIZE-1..0>\NAC"17;
-"C2 <SIZE-1..0>\NAC"9;
+"C1 <SIZE-1..0>\NAC"9;
+"S1 <SIZE-1..0>\NAC"21;
+"S2 <SIZE-1..0>\NAC"15;
+"C2 <SIZE-1..0>\NAC"14;
 %"TANTPOLY"
 "1","(6250,-2725)","1","bris_cds_discrete","I189";
 ;
@@ -656,9 +657,9 @@ IC"UNDEF"
 DIST"FLAT"
 CDS_LMAN_SYM_OUTLINE"-25,25,25,-25";
 "A<SIZE-1..0>"
-$PN"#"15;
+$PN"#"9;
 "B<SIZE-1..0>"
-$PN"#"14;
+$PN"#"13;
 %"TANTPOLY"
 "1","(6025,-2725)","1","bris_cds_discrete","I190";
 ;
@@ -679,15 +680,15 @@ CDS_LIB"bris_cds_discrete"
 PACK_TYPE"SMD"
 VOLTAGE"6.3V";
 "A<SIZE-1..0>"
-$PN"#"15;
+$PN"#"9;
 "B<SIZE-1..0>"
-$PN"#"14;
+$PN"#"13;
 %"gnd"
 "1","(6100,-2950)","0","mtca_interface_board","I191";
 ;
 HDL_POWER"GND"
 CDS_LIB"mtca_interface_board";
-"HOTSPOT_0"14;
+"HOTSPOT_0"13;
 %"TANTPOLY"
 "1","(4875,-2725)","1","bris_cds_discrete","I192";
 ;
@@ -708,9 +709,9 @@ CDS_LIB"bris_cds_discrete"
 PACK_TYPE"SMD"
 VOLTAGE"6.3V";
 "A<SIZE-1..0>"
-$PN"#"9;
+$PN"#"14;
 "B<SIZE-1..0>"
-$PN"#"4;
+$PN"#"2;
 %"TANTPOLY"
 "1","(4650,-2725)","1","bris_cds_discrete","I193";
 ;
@@ -731,9 +732,9 @@ IC"UNDEF"
 DIST"FLAT"
 CDS_LMAN_SYM_OUTLINE"-25,25,25,-25";
 "A<SIZE-1..0>"
-$PN"#"9;
+$PN"#"14;
 "B<SIZE-1..0>"
-$PN"#"4;
+$PN"#"2;
 %"cap_np"
 "1","(3925,-2350)","0","ocad_parts_lib","I194";
 ;
@@ -757,16 +758,15 @@ LAST_EDIT_BY"SNF"
 CLASS"DISCRETE"
 CDS_LIB"ocad_parts_lib";
 "1"
-$PN"?"16;
+$PN"?"20;
 "2"
-$PN"?"9;
+$PN"?"14;
 %"RSMD0603"
 "1","(3125,-2925)","1","cnpassive","I195";
 ;
-TOL"1%"
+$LOCATION"R?"
 VALUE"75K"
-PACK_TYPE"1/10W"
-CDS_LIB"cnpassive"
+TOL"1%"
 SIZE"1B"
 TOL_ON_OFF"ON"
 POSTOL"RTOL%"
@@ -778,7 +778,8 @@ SLOPE"RSMAX"
 MAX_TEMP"RTMAX"
 TC1"RTMPL"
 TC2"RTMPQ"
-$LOCATION"R?";
-"B <SIZE-1..0>\NAC"2;
-"A <SIZE-1..0>\NAC"1;
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W";
+"B <SIZE-1..0>\NAC"16;
+"A <SIZE-1..0>\NAC"5;
 END.

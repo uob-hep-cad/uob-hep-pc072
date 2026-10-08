@@ -2,10 +2,10 @@
 
 pc072
 
-Version = A
-Subversion = 205
+Version = £b
+Subversion = 232
 
-This file describes PCB fabrication details for the MIB v2 
+This file describes PCB fabrication details for the MIB v3b 
 for the DUNE timing system
  
 contact:	David.Cussans@bristol.ac.uk
@@ -14,7 +14,7 @@ contact:	David.Cussans@bristol.ac.uk
 		fax: 0117 925 5624
 
 
-Files produced by Cadence Allegro PE17.4
+Files produced by Cadence Allegro PE24.1
 
 Artwork:
 --------
@@ -25,69 +25,83 @@ All layers viewed from top
 Build:
 ------
 
-"PCBTrain" 10-layer build from Newbury
-ENIG finish to outer layers
+10-layers
+ENIG finish to outer layers except for edge connector which should have a "hard gold" finish.
 
 Layers as follows:
 
-mib_rev2_v205_01_Top.art
-mib_rev2_v205_02_GND.art
-mib_rev2_v205_03_sig1.art
-mib_rev2_v205_04_GND.art
-mib_rev2_v205_05_PWR1.art
-mib_rev2_v205_06_GND.art
-mib_rev2_v205_07_SIG2.art
-mib_rev2_v205_08_GND.art
-mib_rev2_v205_09_SIG3.art
-mib_rev2_v205_10_Bottom.art
+mib_rev3b_v232_01_Top.art
+mib_rev3b_v232_02_GND.art
+mib_rev3b_v232_03_sig1.art
+mib_rev3b_v232_04_GND.art
+mib_rev3b_v232_05_PWR1.art
+mib_rev3b_v232_06_GND.art
+mib_rev3b_v232_07_SIG2.art
+mib_rev3b_v232_08_GND.art
+mib_rev3b_v232_09_SIG3.art
+mib_rev3b_v232_10_Bottom.art
+
+
+Areas with selective hard gold finish:
+--------------------------------------
+mib_rev3b_v232_16_hardgold_top.art
+mib_rev3b_v232_17_hardgold_bot.art
+
 
 
 Solder Masks
 ------------
 
-mib_rev2_v205_13_smask_top.art
-mib_rev2_v205_14_smask_bot.art
+mib_rev3b_v232_13_smask_top.art
+mib_rev3b_v232_14_smask_bot.art
 
 Colour - green. 
 
 Solderpaste mask
 -----------------
 
-mib_rev2_v205_27_pmask_top.art
-mib_rev2_v205_28_pmask_bot.art
+mib_rev3b_v232_27_pmask_top.art
+mib_rev3b_v232_28_pmask_bot.art
 
 Silk screen
 -----------
 
-mib_rev2_v205_11_silk_top.art
-mib_rev2_v205_12_silk_bot.art
+mib_rev3b_v232_11_silk_top.art
+mib_rev3b_v232_12_silk_bot.art
+
 
 Colour - white.
 
 Board outline: (Gerber RS-274X)
 -------------------------------
 
-mib_rev2_v205_18_DESIGN_OUTLINE.art
+mib_rev3b_v232_18_DESIGN_OUTLINE.art
+
 
 Board cutout: 
 -------------------------------
 
 The board has one cutout. outline of cutout in:
 
-mib_rev2_v199_19_CUTOUT.art  (Gerber RS-274X)
-mib_rev2_v205_1-10.rou       (Excellon)
+mib_rev3b_v232_19_CUTOUT.art (Gerber RS-274X)
+mib_rev3b_v232_1-10.rou      (Excellon)
 
 Fabrication drawing: ( Including illustration of hole sizes/position and board stack-up)
 -------------
 
-N.B. Ignore comments about hard-gold on connector "fingers"
+mib_rev3b_v232_15_fab_plot.art
 
-mib_rev2_v199_15_fab_plot.art
 
 Drill information ( Excellon format, described in nc_param.txt )
 ----------------------------------------------------------------
 
-mib_rev2_v205-1-10.drl
+mib_rev3b_v232_glossed-1-10.drl
+
+
+Assembly drawings:
+------------------
+mib_rev3b_v232_29_assy_top.art
+mib_rev3b_v232_30_assy_bot.art
 
 
 

@@ -1,4 +1,4 @@
-#!/bin/sh -v
+#!/bin/bash -v
 #
 # package up artwork for sending for manufacture
 #
@@ -6,9 +6,9 @@ echo Board name $1
 #
 DIRNAME=$1-manufacturing-artwork-`date --iso`
 #Use four sets of .. if have design_files directory, only three if not
-PREFIX=../../../../..
+PREFIX="../../../../.."
 #PREFIX=../../../.. 
-ARTWORKDIR=$PREFIX/Manufacturing/artwork
+ARTWORKDIR=${PREFIX}/Manufacturing/artwork
 SUBDIR=$ARTWORKDIR/$DIRNAME
 ZIPFILE=$DIRNAME.zip
 echo Making subdirectory $SUBDIR
@@ -29,7 +29,7 @@ cp ncroutebits_auto.txt $SUBDIR
 cp art_param.txt $SUBDIR
 #
 # copy any ODB++ file
-cp *.tgz $SUBDIR
+# cp *.tgz $SUBDIR
 #
 # copy any IPC2581 file
 cp *ipc2581*.xml $SUBDIR
@@ -41,7 +41,7 @@ cp *placement*.txt $SUBDIR
 #
 # Copy the bill of materials
 #cp ../bom/*.xls $SUBDIR
-#cp ../bom/*.xlsx $SUBDIR
+cp ../bom/*.xlsx $SUBDIR
 #
 echo Making zipfile $ZIPFILE
 #
