@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 07-Oct-2026 AT 14:30:51 }
+{ Packager-XL run on 28-Oct-2026 AT 14:19:41 }
 primitive '155060RS73200';
   pin
     'WURTH SMSW':
@@ -1769,7 +1769,7 @@ primitive 'CONN30P-FTSH-115-01-L-DV,CONN3B';
       PARENT_PPT_PART='CONN30P-FTSH-115-01-L-DV,CONN30P';
   end_body;
 end_primitive;
-primitive 'ELCAPTAN_SMD-220UF,25V';
+primitive 'ELCAPTAN_SMD-330UF,20V';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -1794,21 +1794,18 @@ primitive 'ELCAPTAN_SMD-220UF,25V';
       ALLOW_CONNECT='TRUE';
       PINCOUNT='2';
       PHYS_DES_PREFIX='C';
-      DESCRIPTION='Solid Tantalum Chip Capacitor TANTAMOUNT(R) Ultra-Low ESR';
-      VALUE='220uF';
-      JEDEC_TYPE='CTE_VISHAY_597D-M';
-      PART_NUMBER='597D227X0025M2T';
+      DESCRIPTION='Tantalum Electrolytic Capacitor';
+      VALUE='330uF';
+      JEDEC_TYPE='CAPCP66X66X52';
+      PART_NUMBER='T97H337K020HSA';
       MANUFACTURER='VISHAY';
-      CASE='M';
+      CASE='H';
       SMD='YES';
-      VOLT='25V';
-      TOL='20%';
-      STATUS='Not Preferred';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/cap_vishay_59~
-7D-series.pdf';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/vishay_t97.pd~
+f';
       PARENT_PART_TYPE='ELCAPTAN_SMD';
       PARENT_PPT='ELCAPTAN';
-      PARENT_PPT_PART='ELCAPTAN_SMD-220UF,25V';
+      PARENT_PPT_PART='ELCAPTAN_SMD-330UF,20V';
   end_body;
 end_primitive;
 primitive 'FERRITE_SMD-BLM21PG221SN1,MURAA';
