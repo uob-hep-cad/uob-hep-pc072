@@ -1,4 +1,4 @@
-{ Packager-XL run on 06-Oct-2026 AT 14:46:58 }
+{ Packager-XL run on 28-Oct-2026 AT 17:56:32 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@mtca_interface_board_reocc.front_panel_jtag_serial(sch_1):page1";
 BODY = "USBLC6-2","I70": LOCATION = "D1" #&CDS_LOCATION = "D1" &SEC = "1" #&CDS_SEC = "1";
@@ -229,4 +229,16 @@ BODY = "410_357_B","I128": LOCATION = "IC1" #&CDS_LOCATION = "IC1" &SEC = "1" #&
 "VDD":   PN = "15"  !CDS_PN = "15";
 "VREF":   PN = "2"  !CDS_PN = "2";
 "VREF_JTAG":   PN = "8"  !CDS_PN = "8";
+BODY = "TVS_2X","I215": LOCATION = "D11" #&CDS_LOCATION = "D11" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2";
+"K":   PN = "1"  !CDS_PN = "1";
+BODY = "TVS_2X","I216": LOCATION = "D10" #&CDS_LOCATION = "D10" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2";
+"K":   PN = "1"  !CDS_PN = "1";
+BODY = "TVS_2X","I217": LOCATION = "D9" #&CDS_LOCATION = "D9" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2";
+"K":   PN = "1"  !CDS_PN = "1";
+BODY = "TVS_2X","I218": LOCATION = "D8" #&CDS_LOCATION = "D8" #SEC = "1" #&SEC_TYPE = "" !CDS_SEC = "1";
+"A":   PN = "2"  !CDS_PN = "2";
+"K":   PN = "1"  !CDS_PN = "1";
 END.

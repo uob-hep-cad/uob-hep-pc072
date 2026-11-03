@@ -5,15 +5,16 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2026-10-06T14:44:42</modificationTime>
+    <modificationTime>2026-10-28T17:55:56</modificationTime>
     <savedLibrary>mtca_interface_board_reocc</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="front_panel_jtag_serial" view="sch_1">
       <lastids>
-        <instanceid>82</instanceid>
+        <instanceid>86</instanceid>
         <netid>80</netid>
-        <insttermid>281</insttermid>
+        <insttermid>289</insttermid>
+        <netgroupid>1</netgroupid>
       </lastids>
       <cells>
         <cell>
@@ -662,6 +663,26 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S28</id>
+          <library>ocad_parts_lib</library>
+          <name>tvs_2x</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T248</id>
+              <name>a</name>
+              <direction>unspec</direction>
+            </term>
+            <term>
+              <id>T249</id>
+              <name>k</name>
+              <direction>unspec</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -910,6 +931,10 @@
       <differentialbusnets>
       </differentialbusnets>
       <netgroups>
+        <netgroup>
+          <id>TEMP</id>
+          <name>TEMP</name>
+        </netgroup>
       </netgroups>
       <netinterfaces>
       </netinterfaces>
@@ -2330,6 +2355,90 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I83</id>
+          <cellid>S28</cellid>
+          <name>page1_i215</name>
+          <pins>
+            <pin>
+              <id>M282</id>
+              <termid>T248</termid>
+              <connections>
+                <connection net="N38" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M283</id>
+              <termid>T249</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I84</id>
+          <cellid>S28</cellid>
+          <name>page1_i216</name>
+          <pins>
+            <pin>
+              <id>M284</id>
+              <termid>T248</termid>
+              <connections>
+                <connection net="N40" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M285</id>
+              <termid>T249</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I85</id>
+          <cellid>S28</cellid>
+          <name>page1_i217</name>
+          <pins>
+            <pin>
+              <id>M286</id>
+              <termid>T248</termid>
+              <connections>
+                <connection net="N39" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M287</id>
+              <termid>T249</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I86</id>
+          <cellid>S28</cellid>
+          <name>page1_i218</name>
+          <pins>
+            <pin>
+              <id>M288</id>
+              <termid>T248</termid>
+              <connections>
+                <connection net="N37" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M289</id>
+              <termid>T249</termid>
+              <connections>
+                <connection net="N1" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2465,6 +2574,10 @@
               <instance ref="i212"></instance>
               <instance ref="i213"></instance>
               <instance ref="i214"></instance>
+              <instance ref="i215"></instance>
+              <instance ref="i216"></instance>
+              <instance ref="i217"></instance>
+              <instance ref="i218"></instance>
             </instances>
           </page>
         </pages>

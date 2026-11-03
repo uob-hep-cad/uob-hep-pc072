@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 06-Oct-2026 AT 14:46:58 }
+{ Packager-XL run on 28-Oct-2026 AT 17:56:32 }
 primitive '410_357_B-DIGILENT,410-357-B';
   pin
     'GND_1':
@@ -1244,6 +1244,42 @@ acts, surface mount, SHF';
       PARENT_PART_TYPE='SHF-105-01-X-D-SM';
       PARENT_PPT='SHF-105-01-X-D-SM';
       PARENT_PPT_PART='SHF-105-01-X-D-SM-SHF-105-01-X-D-SM';
+  end_body;
+end_primitive;
+primitive 'TVS_2X-PGB1010603NR,TVS_2X-D0603,PGB1010603NR,TVS_2X';
+  pin
+    'K':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PHYS_DES_PREFIX='D';
+      CLASS='DISCRETE';
+      PART_NAME='TVS_2X';
+      BODY_NAME='TVS_2X';
+      JEDEC_TYPE='D0603';
+      VALUE='PGB1010603NR';
+      DESCRIPTION='TVS DIODE 24V 150V 0603';
+      MPN='PGB1010603NR';
+      MANUFACTURER='LITTELFUSE INC.';
+      PART_TYPE='SCHOTTKY';
+      PART_NUMBER='PGB1010603NR';
+      SOURCE_PACKAGE='TVS_2x';
+      PARENT_PART_TYPE='TVS_2X';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='TVS_2X';
+      PARENT_PPT_PART='TVS_2X-PGB1010603NR,TVS_2X';
   end_body;
 end_primitive;
 primitive 'USBLC6-2SC6';
