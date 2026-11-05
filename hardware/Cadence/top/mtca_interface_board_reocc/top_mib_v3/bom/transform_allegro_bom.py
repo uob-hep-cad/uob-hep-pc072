@@ -338,7 +338,9 @@ def parse_bom(path: Path) -> tuple[list[str], list[dict]]:
     header_idx = None
     for i, line in enumerate(lines):
         stripped = line.strip()
-        if not stripped or _METADATA_RE.match(stripped):
+        # Treat truly blank lines AND comma-only padding lines as non-header
+        # (Allegro sometimes writes the separator row as ",,,,,..." rather than "")
+        if not stripped or not stripped.replace(",", "") or _METADATA_RE.match(stripped):
             continue
         header_idx = i
         break
