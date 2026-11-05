@@ -31,31 +31,30 @@ Immersion silver finish to outer layers
 
 Layers as follows:
 
-pc072_mib_jtag_serial_20_01_Top.art
-pc072_mib_jtag_serial_20_02_Gnd.art
-pc072_mib_jtag_serial_20_03_Vcc.art
-pc072_mib_jtag_serial_20_04_Bottom.art
-
+pc072_mib_jtag_32_TOP.art
+pc072_mib_jtag_32_02_GND.art
+pc072_mib_jtag_32_03_VCC.art
+pc072_mib_jtag_32_BOTTOM.art
 
 Solder Masks
 ------------
 
-pc072_mib_jtag_serial_20_13_smask_top.art
-pc072_mib_jtag_serial_20_14_smask_bot.art
+pc072_mib_jtag_32_SMBT.art
+pc072_mib_jtag_32_SMTP.art
 
 Colour - green. 
 
 Solderpaste mask (N.B. No SMD components on bottom face of board)
 -----------------
 
-pc072_mib_jtag_serial_20_27_pmask_top.art
-pc072_mib_jtag_serial_20_28_pmask_bot.art
+pc072_mib_jtag_32_SPBT.art
+pc072_mib_jtag_32_SPTP.art
 
 Silk screen
 -----------
 
-pc072_mib_jtag_serial_20_11_silk_top.art
-pc072_mib_jtag_serial_20_12_silk_bot.art
+pc072_mib_jtag_32_SSBT.art
+pc072_mib_jtag_32_SSTP.art
 
 Colour - white.
 
@@ -65,8 +64,11 @@ Board outline: (Gerber RS-274X)
 pc072_mib_jtag_serial_20_18_DESIGN_OUTLINE.art
 
 
-Fabrication drawing: ( Including illustration of hole sizes/position and board stack-up)
-----------------------------------------------------------------------------------------
+Assembly drawings:
+------------------
+
+pc072_mib_jtag_32_ASSYBT.art
+pc072_mib_jtag_32_ASSYTP.art
 
 pc072_mib_jtag_serial_20_fab_plot.art
 
@@ -74,19 +76,18 @@ pc072_mib_jtag_serial_20_fab_plot.art
 Drill information ( Excellon format, described in nc_param.txt. Drill size also in nc_tools_auto.txt )
 ----------------------------------------------------------------
 
-pc072_mib_jtag_serial_20-1-4.drl
-
+mib_fp_jtag_serial_32-1-4.drl
 
 Router information ( Excellon format, described in nc_param.txt. Router bit information also in ncroutebits_auto.txt )
 ----------------------------------------------------------------
 
-mib_fp_jtag_serial_20_1-4.rou 
+mib_fp_jtag_serial_32_1-4.rou
 
 
 Drill figure (Gerber format)
 ----------------------------
 
-pc072_mib_jtag_serial_20_10_drill_figure.art
+pc072_mib_jtag_32_NCLEGEND-1-4.art
 
 Bill of Materials for Assembly (Microsoft Excel XLSX format)
 ------------------------------------------------------------
@@ -94,9 +95,10 @@ Bill of Materials for Assembly (Microsoft Excel XLSX format)
 uob-hep-pc072-mib_fp_jtag_serial_10.xlsx
 
 
-Assembly Information (IPC2581 format)
+Assembly Information (IPC2581-C format)
 -------------------------------------
 
-mib_fp_jtag_serial_20_ipc2581.xml
+mib_fp_jtag_serial_32_ipc2581-c.xml
+
 
 

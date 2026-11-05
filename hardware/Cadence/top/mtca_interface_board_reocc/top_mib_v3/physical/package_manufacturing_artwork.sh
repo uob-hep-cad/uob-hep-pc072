@@ -2,6 +2,12 @@
 #
 # package up artwork for sending for manufacture
 #
+# This version tweaked for DUNE MIB v3b , v233
+#
+# N.B. On Windows works with Gitbash but not MobaXterm
+#
+# David Cussans, November 2026
+
 echo Board name $1
 #
 DIRNAME=$1-manufacturing-artwork-`date --iso`
@@ -9,6 +15,7 @@ DIRNAME=$1-manufacturing-artwork-`date --iso`
 PREFIX="../../../../.."
 #PREFIX=../../../.. 
 ARTWORKDIR=${PREFIX}/Manufacturing/artwork
+SCHEMATICSDIR=${PREFIX}/Schematics
 SUBDIR=$ARTWORKDIR/$DIRNAME
 ZIPFILE=$DIRNAME.zip
 echo Making subdirectory $SUBDIR
@@ -37,11 +44,15 @@ cp *ipc2581*.xml $SUBDIR
 cp README $SUBDIR
 #
 # Copy the placement information
-cp placement*.txt $SUBDIR
+cp placement_symbol_origin_233.txt $SUBDIR
+#
+# Copy the schematics
+cp ${SCHEMATICSDIR}/dune_mib_v3b_5nov26.pdf $SUBDIR
 #
 # Copy the bill of materials
 #cp ../bom/*.xls $SUBDIR
-cp ../bom/*.xlsx $SUBDIR
+#cp ../bom/*.xlsx $SUBDIR
+cp ../bom/mib_v3b_v233_cleaned.xlsx $SUBDIR
 #
 echo Making zipfile $ZIPFILE
 #

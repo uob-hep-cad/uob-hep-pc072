@@ -1,0 +1,121 @@
+
+
+pc072
+
+Version = 3b
+Subversion = 233
+
+This file describes PCB fabrication details for the MIB v3b 
+for the DUNE timing system
+ 
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+
+Files produced by Cadence Allegro PE24.1
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+10-layers
+ENIG finish to outer layers except for edge connector which should have a "hard gold" finish.
+
+Layers as follows:
+
+mib_rev3b_v233_01_Top.art
+mib_rev3b_v233_02_GND.art
+mib_rev3b_v233_03_sig1.art
+mib_rev3b_v233_04_GND.art
+mib_rev3b_v233_05_PWR1.art
+mib_rev3b_v233_06_GND.art
+mib_rev3b_v233_07_SIG2.art
+mib_rev3b_v233_08_GND.art
+mib_rev3b_v233_09_SIG3.art
+mib_rev3b_v233_10_Bottom.art
+
+
+Areas with selective hard gold finish:
+--------------------------------------
+mib_rev3b_v233_16_hardgold_top.art
+mib_rev3b_v233_17_hardgold_bot.art
+
+Tented/filled vias:
+------------
+
+There are a number of thermal pads with vias in the pad.
+To prevent solder paste wicking into the vias the vias should be either "tented" or filled. Whichever is most econonical.
+
+
+Solder Masks
+------------
+
+mib_rev3b_v233_13_smask_top.art
+mib_rev3b_v233_14_smask_bot.art
+
+Colour - green. 
+
+Solderpaste mask
+-----------------
+
+mib_rev3b_v233_27_pmask_top.art
+mib_rev3b_v233_28_pmask_bot.art
+
+Silk screen
+-----------
+
+mib_rev3b_v233_11_silk_top.art
+mib_rev3b_v233_12_silk_bot.art
+
+
+Colour - white.
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+mib_rev3b_v233_18_DESIGN_OUTLINE.art
+
+
+Board cutout: 
+-------------------------------
+
+The board has one cutout. outline of cutout in:
+
+mib_rev3b_v233_19_CUTOUT.art (Gerber RS-274X)
+mib_rev3b_v233_1-10.rou      (Excellon)
+
+Fabrication drawing: ( Including illustration of hole sizes/position and board stack-up)
+-------------
+
+mib_rev3b_v233_15_fab_plot.art
+
+
+Drill information ( Excellon format, described in nc_param.txt )
+----------------------------------------------------------------
+
+mib_rev3b_v233_glossed-1-10.drl
+
+
+Assembly drawings:
+------------------
+mib_rev3b_v233_29_assy_top.art
+mib_rev3b_v233_30_assy_bot.art
+
+Component Placement:
+--------------------
+
+mib_rev3b_v233_ipc2581.xml
+
+Bill of Materials:
+------------------
+
+mib_v3b_v233_cleaned.xlsx
+
+
