@@ -9,6 +9,7 @@ DIRNAME=$1-manufacturing-artwork-`date --iso`
 PREFIX=../../../../..
 #PREFIX=../../../.. 
 ARTWORKDIR=$PREFIX/Manufacturing/artwork
+SCHEMATICSDIR=${PREFIX}/Schematics
 SUBDIR=$ARTWORKDIR/$DIRNAME
 ZIPFILE=$DIRNAME.zip
 echo Making subdirectory $SUBDIR
@@ -39,9 +40,12 @@ cp README $SUBDIR
 # Copy the placement information
 cp *placement*.txt $SUBDIR
 #
+# Copy the schematics
+cp ${SCHEMATICSDIR}/dune_mib_v3b_fp_jtag_serial_29oct26.pdf $SUBDIR
+#
 # Copy the bill of materials
 #cp ../bom/*.xls $SUBDIR
-cp ../bom/*.xlsx $SUBDIR
+cp ../bom/uob-hep-pc072-mib_fp_jtag_serial_32_cleaned.xlsx $SUBDIR
 #
 echo Making zipfile $ZIPFILE
 #
