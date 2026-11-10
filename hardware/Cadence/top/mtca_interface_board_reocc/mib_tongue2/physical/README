@@ -1,0 +1,107 @@
+
+
+pc072_mib_tongue2
+
+Version = A
+Subversion = 21
+
+This file describes PCB fabrication details for the
+uTCA tongue-2 daughterboard for the MIB v3
+for the DUNE timing system
+ 
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+
+Files produced by Cadence Allegro PE24.1
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+6-layer build 
+
+Hard gold plating on edge connector fingers at left hand side of board 
+
+Any suitable finish ( e.g. ENIG ) to other pads
+
+Layers as follows:
+
+03_TOP.art
+04_GND.art
+05_SIG.art
+06_SIG.art
+07_GND.art
+08_BOTTOM.art
+
+
+Fabrication:
+------------
+11_FABRICATION.art
+
+Including details of bevelling board edge connector
+
+Hard Gold:
+----------
+
+Location indicated by
+
+12_HARDGOLD_TOP.art
+13_HARDGOLD_BOTT.art
+  
+  
+Solder Masks
+------------
+
+02_SOLDERMASKTOP.art
+09_SOLDERMASKBOTT.art
+
+Colour - green. 
+
+Solderpaste mask 
+-----------------
+
+Derive from pads / soldermask
+
+Silk screen
+-----------
+
+01_SILKTOP.art
+10_SILKBOTT.art
+
+
+Colour - white.
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+00_OUTLINE.art
+
+
+Drill information ( Excellon format, described in nc_param.txt. Drill size also in nc_tools_auto.txt )
+----------------------------------------------------------------
+
+mib_tongue2_m21_ph-1-6.drl
+
+
+Bill of Materials for Assembly (Microsoft Excel XLSX format)
+------------------------------------------------------------
+
+mib_tongue2_m21.xlsx
+
+
+Assembly Information (IPC2581-C format)
+-------------------------------------
+
+mib_tongue2_m21_ph.xml
+
+
+
+
